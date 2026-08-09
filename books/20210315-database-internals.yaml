@@ -1,0 +1,25 @@
+slug: 20210315-database-internals
+legacy_path: /books/20210315-database-internals.html
+title: Database Internals
+description: Book of the Week. Database Internals by Alex Petrov
+cover: images/books/20210315-database-internals/cover.jpg
+image: images/books/20210315-database-internals/preview.jpg
+start: 2021-03-15 00:00:00
+end: 2021-03-19 22:59:58
+authors:
+- alexpetrov
+links:
+- text: Book's page on O'Reilly
+  link: https://www.oreilly.com/library/view/database-internals/9781492040330/
+- text: Book's website
+  link: https://www.databass.dev/
+- text: Slack community to talk about databases and the book
+  link: http://bit.ly/joindatabass
+summary: "Have you ever wanted to learn more about Databases but did not know where to start?\nThis is\
+  \ a book just for you. \n\nWe can treat databases and other infrastructure components as black boxes,\
+  \ but it doesn’t\nhave to be that way. Sometimes we have to take a closer look at what’s going on because\
+  \ of\nperformance issues. Sometimes databases misbehave, and we need to find out what exactly is\ngoing\
+  \ on. Some of us want to work in infrastructure and develop databases. This book’s main\nintention is\
+  \ to introduce you to the cornerstone concepts and help you understand how\ndatabases work.\n\nThe book\
+  \ consists of two parts: Storage Engines and Distributed Systems since that’s where most\nof the differences\
+  \ between the vast majority of databases is coming from."

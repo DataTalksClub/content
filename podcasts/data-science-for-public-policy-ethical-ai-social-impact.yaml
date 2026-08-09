@@ -1,0 +1,155 @@
+slug: data-science-for-public-policy-ethical-ai-social-impact
+legacy_path: /podcast/data-science-for-public-policy-ethical-ai-social-impact.html
+title: Data Science for Public Policy — Ethical AI, Climate Justice & Impact Projects
+short: Data Science for Social Impact
+season: 10
+episode: 1
+guests:
+- christinecepelak
+image: images/podcast/data-science-for-public-policy-ethical-ai-social-impact.jpg
+ids:
+  anchor: Data-Science-for-Social-Impact---Christine-Cepelak-e1li47e
+  youtube: xWC1HAfekRk
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/Data-Science-for-Social-Impact---Christine-Cepelak-e1li47e
+  apple: https://podcasts.apple.com/us/podcast/data-science-for-social-impact-christine-cepelak/id1541710331?i=1000571591865
+  spotify: https://open.spotify.com/episode/7fzBhDrfVfylnBLCJGwUHC?si=3b03d59083804346
+  youtube: https://www.youtube.com/watch?v=xWC1HAfekRk
+description: 'Learn data science for public policy: ethical AI, climate justice & impact project strategies,
+  career tips and actionable project design for social good.'
+intro: How can data science meaningfully shape public policy without becoming a tech-first solution or
+  creating new ethical harms? In this episode, Christine Cepelak, a writer and researcher of tech and
+  social issues who’s studying Data Science for Public Policy and has years of experience managing social
+  programs, walks through the practical realities of data science for public policy. We cover career paths
+  and sector differences, a community organizing case study on electronics recycling, and real-world use
+  cases like drone computer vision for refugee aid and rooftop sustainability. Christine digs into ethical
+  AI concerns — including the EU AI Act and social scoring risks — plus project design for long-term impact,
+  stakeholder collaboration with NGOs, and building data pipelines amid limited IT infrastructure. Listeners
+  will also hear about public data gaps (recycling programs, corporate transparency), research applications
+  such as satellite imagery for poverty estimation, and future priorities like climate justice and gender
+  equality. Tune in to get concrete guidance on starting volunteer impact projects, where demand for impact
+  data scientists lies, and how to design responsible, policy-driven data work
+topics:
+- data science
+- public policy
+- ethical AI
+- social impact
+dateadded: 2022-07-30
+duration: PT00H58M44S
+quotableClips:
+- name: Episode Intro & Guest Christine Cepelak
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=0
+  endOffset: 93
+- name: 'Career Journey: Program Management to Data Science for Public Policy'
+  startOffset: 93
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=93
+  endOffset: 247
+- name: 'Private vs Public Sector: Differences for Data Work'
+  startOffset: 247
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=247
+  endOffset: 325
+- name: 'Public Policy Defined: Laws, Governance & Social Impact'
+  startOffset: 325
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=325
+  endOffset: 507
+- name: 'Community Organizing Case Study: Electronics Recycling Campaign'
+  startOffset: 507
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=507
+  endOffset: 614
+- name: 'Policy vs Political Science: Theory, Practice & Implementation'
+  startOffset: 614
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=614
+  endOffset: 730
+- name: 'Education Landscape: Data Science for Public Policy Programs & DSSG'
+  startOffset: 730
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=730
+  endOffset: 862
+- name: 'Domain Nuances: Data Science for Social Impact vs Typical Industry Work'
+  startOffset: 862
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=862
+  endOffset: 1032
+- name: 'Use Cases: Drone Computer Vision for Refugee Aid & Rooftop Sustainability'
+  startOffset: 1032
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=1032
+  endOffset: 1266
+- name: 'Ethics & Regulation: Ethical AI, EU AI Act and Social Scoring Risks'
+  startOffset: 1266
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=1266
+  endOffset: 1581
+- name: 'Project Design: Long-term Impact, Iteration & Avoiding Tech-First Solutions'
+  startOffset: 1581
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=1581
+  endOffset: 1686
+- name: 'Stakeholder Collaboration: NGOs, HR Use Cases & Mining Domain Knowledge'
+  startOffset: 1686
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=1686
+  endOffset: 1832
+- name: 'Data Challenges: Building Pipelines with Limited IT Infrastructure'
+  startOffset: 1832
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=1832
+  endOffset: 2209
+- name: 'Public Data Gaps: Recycling Programs, Corporate Transparency & Access Issues'
+  startOffset: 2209
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=2209
+  endOffset: 2367
+- name: 'Future Focus Areas: Climate Justice, Gender Equality & Responsible Tech'
+  startOffset: 2367
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=2367
+  endOffset: 2419
+- name: 'Gender Inequality Solutions: Salary Transparency & Inclusive Hiring Policies'
+  startOffset: 2419
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=2419
+  endOffset: 2618
+- name: 'Corporate Responsibility: CSR Data Needs & Demand for Impact Data Scientists'
+  startOffset: 2618
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=2618
+  endOffset: 2785
+- name: 'Public Sector Roles: Chief Data Scientist and Government Data Strategy'
+  startOffset: 2785
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=2785
+  endOffset: 2899
+- name: 'Getting Started: Volunteer Projects, SDGs & Finding a Cause'
+  startOffset: 2899
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=2899
+  endOffset: 3083
+- name: 'Project Marketplaces & Career Advice: DSSG Projects and 80,000 Hours'
+  startOffset: 3083
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=3083
+  endOffset: 3256
+- name: 'Research Applications: Satellite Imagery for Poverty Estimation & Census Gaps'
+  startOffset: 3256
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=3256
+  endOffset: 3382
+- name: 'Community Discussion: Ethics in AI Coffee Chats and Emerging Debates'
+  startOffset: 3382
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=3382
+  endOffset: 3486
+- name: 'Connect with Christine: Website, LinkedIn & Twitter'
+  startOffset: 3486
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=3486
+  endOffset: 3503
+- name: Episode Wrap-up & Resource Links
+  startOffset: 3503
+  url: https://www.youtube.com/watch?v=xWC1HAfekRk&t=3503
+  endOffset: 3524
+transcript: transcripts/data-science-for-public-policy-ethical-ai-social-impact.yaml
+resources:
+- title: Explore some Data Science for Social Good projects
+  url: http://www.dssgfellowship.org/projects/
+- title: Bi-weekly Ethics in AI Coffee Chat
+  url: https://www.meetup.com/coffee-ethics-ai/
+- title: Make a Social Impact with your Job
+  url: https://tinyurl.com/80khours
+- title: Course in Data Ethics
+  url: https://ethics.fast.ai/
+- title: Data Science for Social Good Berlin
+  url: https://dssg-berlin.org/
+- title: CorrelAid
+  url: https://correlaid.org/
+- title: DataKind
+  url: https://www.datakind.org/
+- title: Christine's LinkedIn
+  url: https://www.linkedin.com/in/christinecepelak/
+- title: Christine's Twitter
+  url: https://twitter.com/CLcep

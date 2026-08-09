@@ -1,0 +1,163 @@
+slug: lean-mlops-for-startups
+legacy_path: /podcast/lean-mlops-for-startups.html
+title: 'Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt'
+short: MLOps in Corporations and Startups
+season: 20
+episode: 4
+guests:
+- nemanjaradojkovic
+image: images/podcast/lean-mlops-for-startups.jpg
+ids:
+  anchor: datatalksclub/episodes/MLOps-in-Corporations-and-Startups---Nemanja-Radojkovic-e304g53
+  youtube: DX9c__a4jzg
+links:
+  anchor: https://creators.spotify.com/pod/show/datatalksclub/episodes/MLOps-in-Corporations-and-Startups---Nemanja-Radojkovic-e304g53
+  apple: https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-startups-nemanja-radojkovic/id1541710331?i=1000699195928
+  spotify: https://open.spotify.com/episode/6V8gkTSz7LuPjQYC4rO019
+  youtube: https://www.youtube.com/watch?v=DX9c__a4jzg
+description: 'Learn lean MLOps for startups: build a SaaS-first MVP stack, avoid vendor lock-in, and manage
+  tech debt to ship faster, cut costs, and scale safely.'
+topics:
+- MLOps
+- data engineering
+- tools
+- production
+- career transition
+- startups
+intro: How can a startup implement Lean MLOps that gets models into production quickly without incurring
+  vendor lock-in or crushing tech debt? In this episode Nemanja Radojkovic — an Electrical Engineer turned
+  Data Scientist and MLOps Engineer, former consultant at Big4 and boutique firms, DataCamp course author,
+  and teacher of Python and machine learning — walks through practical strategies for building a SaaS-first
+  MVP stack while preserving future flexibility. <br><br> We dig into the core trade-offs of a SaaS-first
+  approach for an MVP, patterns to avoid vendor lock-in, and pragmatic ways to manage accumulating tech
+  debt in machine learning systems. Nemanja draws on hands-on experience across data science, MLOps, and
+  product environments to explain how startups can choose tooling, limit integration risk, and plan safe
+  migration paths as needs change. <br><br> Listeners will come away with concrete considerations for
+  designing a lean MLOps stack, assessing SaaS versus self-hosted options, and thinking ahead about maintainability
+  and portability — essential guidance for founders, ML engineers, and product teams building production-ready
+  ML on a startup timeline.
+dateadded: 2025-03-15
+duration: PT01H01M06S
+quotableClips:
+- name: Episode Introduction & Topic Overview
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=0
+  endOffset: 135
+- name: 'Career Journey: Academia → Consulting → Finance Machine Learning Engineering'
+  startOffset: 135
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=135
+  endOffset: 363
+- name: 'Startup Pace: Agility, Speed, and Managerial Insights'
+  startOffset: 363
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=363
+  endOffset: 474
+- name: 'Lean MLOps: Shoestring Strategies for Early-Stage Companies'
+  startOffset: 474
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=474
+  endOffset: 714
+- name: 'SaaS-First Approach: Vendor Solutions for Small Teams'
+  startOffset: 714
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=714
+  endOffset: 774
+- name: 'Cloud Trade-offs: Startup Credits, Migration Friction, and Lock-in'
+  startOffset: 774
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=774
+  endOffset: 906
+- name: 'Cloud Complexity: Infrastructure as Code and Operational Overhead'
+  startOffset: 906
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=906
+  endOffset: 1058
+- name: 'MVP Stack: Prioritizing Tools for Rapid Prototyping and Launch'
+  startOffset: 1058
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1058
+  endOffset: 1159
+- name: 'Portability vs Managed Services: Avoiding Vendor Lock-In (Vertex AI, SageMaker)'
+  startOffset: 1159
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1159
+  endOffset: 1295
+- name: 'Low-Code Trade-offs: Speed vs Future Flexibility'
+  startOffset: 1295
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1295
+  endOffset: 1342
+- name: 'Career Decision Framework: Choosing Startups or Corporations'
+  startOffset: 1342
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1342
+  endOffset: 1650
+- name: 'End-to-End Ownership: Multidisciplinary Work in Startups'
+  startOffset: 1650
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1650
+  endOffset: 1777
+- name: 'Corporate Processes: "Agile" vs Bureaucratic Planning Cycles'
+  startOffset: 1777
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1777
+  endOffset: 1997
+- name: 'Platform & Frameworks: Automating Developer Workflows'
+  startOffset: 1997
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=1997
+  endOffset: 2072
+- name: 'Team Scale Advantages: Redundancy, Support, and Internal Mobility'
+  startOffset: 2072
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2072
+  endOffset: 2148
+- name: 'Startup Intensity: Learning Curve, Burnout Risk, and Rewards'
+  startOffset: 2148
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2148
+  endOffset: 2274
+- name: 'AI-Assisted Coding: Productivity Gains and Technical Debt Risks'
+  startOffset: 2274
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2274
+  endOffset: 2401
+- name: 'Technical Debt Management: Notes, Awareness, and Security Implications'
+  startOffset: 2401
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2401
+  endOffset: 2592
+- name: 'Early-Career Advice: Mentorship, Pairing, and Role Selection'
+  startOffset: 2592
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2592
+  endOffset: 2650
+- name: 'Minimal MLOps Stack: Python, CI/CD Orchestration, and Dagster'
+  startOffset: 2650
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2650
+  endOffset: 2755
+- name: 'Observability Choices: Logfire, Prometheus/Grafana, and Streamlit'
+  startOffset: 2755
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2755
+  endOffset: 2891
+- name: 'Product Modularity: Desire for Standalone Model Registries & Observability'
+  startOffset: 2891
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2891
+  endOffset: 2940
+- name: 'Skill Investment: Foundational Tools (Linux, Python, Bash) vs New Tech'
+  startOffset: 2940
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=2940
+  endOffset: 3087
+- name: 'Market Signals for Learning: Job Postings, Airflow, and Targeted Skills'
+  startOffset: 3087
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=3087
+  endOffset: 3343
+- name: 'Data Engineering Reliability: Quality, Lineage, and LLM Unpredictability'
+  startOffset: 3343
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=3343
+  endOffset: 3429
+- name: 'On-Premise vs Cloud: Privacy, Cost Efficiency, and Migration Strategy'
+  startOffset: 3429
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=3429
+  endOffset: 3609
+- name: 'Distributed Compute Alternatives: Dask, Spark, and Performance Trade-offs'
+  startOffset: 3609
+  url: https://www.youtube.com/watch?v=DX9c__a4jzg&t=3609
+  endOffset: 3701
+context: 'The episode’s single unifying idea is pragmatic trade-offs: how to move fast and deliver value
+  in ML-driven products and careers while deliberately managing the risks that speed introduces—technical
+  debt, vendor lock-in, operational overhead, and team burnout. Every segment circles back to the same
+  decision framework: choose lean, observable, portable primitives and SaaS or managed services pragmatically
+  to ship quickly; invest in minimal, automatable MLOps and instrumentation so you can iterate safely;
+  and prioritize foundational skills, mentorship, and ownership to sustain learning and long-term flexibility.
+  In short, be intentional about early architectural, tooling, and career choices—opt for simplicity and
+  visibility to accelerate outcomes today while preserving the ability to evolve, scale, and de-risk tomorrow.'
+transcript: transcripts/lean-mlops-for-startups.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/radojkovic/
+- title: Github
+  url: https://github.com/baskervilski

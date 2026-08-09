@@ -1,0 +1,179 @@
+slug: open-source-ml-tools-strategy-and-business-models
+legacy_path: /podcast/open-source-ml-tools-strategy-and-business-models.html
+title: 'Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models'
+short: Working in Open Source - Probabl.ai and sklearn
+season: 18
+episode: 4
+guests:
+- vincentwarmerdam
+image: images/podcast/open-source-ml-tools-strategy-and-business-models.jpg
+ids:
+  anchor: datatalksclub/episodes/Working-in-Open-Source---Probabl-ai-and-sklearn---Vincent-Warmerdam-e2j78fs
+  youtube: UPlIETGwTg8
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Working-in-Open-Source---Probabl-ai-and-sklearn---Vincent-Warmerdam-e2j78fs
+  apple: https://podcasts.apple.com/us/podcast/working-in-open-source-probabl-ai-and-sklearn-vincent/id1541710331?i=1000654481795
+  spotify: https://open.spotify.com/episode/0HT3IQOaTXTMH0OdEBnw9s?si=HrLtx7QKT_amZyUbZuqRzQ
+  youtube: https://www.youtube.com/watch?v=UPlIETGwTg8
+description: Discover Scikit-Learn open source business models—learn maintainer strategies, CI cost optimization
+  and training monetization to build sustainable projects.
+topics:
+- open-source
+- machine learning
+- data science
+- tools
+- developer relations
+intro: How can open source ML tools stay healthy, useful, and financially sustainable while serving both
+  researchers and industry? In this episode Vincent Warmerdam — Research Advocate at Rasa, author of the
+  Koaning blog, creator of the Algorithm Whiteboard playlist, and cofounder of Calm Code — walks through
+  the real-world tradeoffs of scikit-learn governance, sustainability, and business models for ML tooling.
+  <br><br> We dig into scikit-learn's history, NumFOCUS relationships, and the plugin-versus-core strategy;
+  practical maintainer issues like transitions, motivating volunteers, and using open source contributions
+  as hiring signals; and the intersection of developer relations and core engineering. Vincent also explores
+  Calm Code's low-pressure teaching philosophy, content and monetization choices, and platform decisions
+  (Django, contributor hiring). Technical operations topics include CI cost optimization with custom runners
+  and sustainable compute examples (Leaf.cloud), plus hands-on projects like Skrub's table vectorizer
+  and GAP encoder for pragmatic tabular defaults. <br><br> Listeners will gain actionable insights on
+  governance models, maintaining project health, and realistic business options — training, consulting,
+  and partnerships — for anyone building or stewarding open source ML tools.
+dateadded: 2024-05-06
+duration: PT01H15S
+quotableClips:
+- name: Episode Overview — Open Source Focus
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=0
+  endOffset: 100
+- name: Guest Reintroduction & Vincent’s Open Source Profile
+  startOffset: 100
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=100
+  endOffset: 240
+- name: Early Community Work & PyLadies Code Sprint
+  startOffset: 240
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=240
+  endOffset: 259
+- name: Scikit Lego Origin, Adoption, and Career Impact
+  startOffset: 259
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=259
+  endOffset: 363
+- name: 'Career Path: Econometrics → DevRel → Core Engineering'
+  startOffset: 363
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=363
+  endOffset: 513
+- name: 'Company Naming: Why :probabl. Is Separate from Scikit-Learn'
+  startOffset: 513
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=513
+  endOffset: 628
+- name: Scikit-Learn Governance, NumFOCUS, and Project History
+  startOffset: 628
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=628
+  endOffset: 841
+- name: 'Ecosystem Strategy: Plugins vs. Core Scikit-Learn Features'
+  startOffset: 841
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=841
+  endOffset: 1003
+- name: Scikit Lego in Corporate Training and Contributor Growth
+  startOffset: 1003
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1003
+  endOffset: 1091
+- name: 'Maintainer Transition: Finding Sustainable Project Stewards'
+  startOffset: 1091
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1091
+  endOffset: 1311
+- name: Motivating Volunteer Maintainers and Keeping Projects Fun
+  startOffset: 1311
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1311
+  endOffset: 1409
+- name: 'Demonstrating Quality: Open Source Work as a Hiring Signal'
+  startOffset: 1409
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1409
+  endOffset: 1546
+- name: 'Calm Code Philosophy: Practical, Low-Pressure Learning'
+  startOffset: 1546
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1546
+  endOffset: 1644
+- name: 'Content Production: Videos, Scale, and Communication Practice'
+  startOffset: 1644
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1644
+  endOffset: 1770
+- name: 'Calm Code Platform: Django, Monetization, and Hiring Contributors'
+  startOffset: 1770
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1770
+  endOffset: 1902
+- name: 'CI and Cost Optimization: Custom Runners and GitHub Actions'
+  startOffset: 1902
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1902
+  endOffset: 1946
+- name: 'Sustainable Compute Examples: Leaf.cloud and Environmental Impact'
+  startOffset: 1946
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=1946
+  endOffset: 2069
+- name: 'Teaching Fundamentals: Docker, pip, and Git Challenges for Beginners'
+  startOffset: 2069
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2069
+  endOffset: 2136
+- name: 'Conceptual Learning: Mindset Over Commands for Tooling'
+  startOffset: 2136
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2136
+  endOffset: 2302
+- name: Combining DevRel and Core Development Responsibilities
+  startOffset: 2302
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2302
+  endOffset: 2481
+- name: 'Role Definition: Developer Relations Engineer at :probabl.'
+  startOffset: 2481
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2481
+  endOffset: 2540
+- name: Enhancing Scikit-Learn with Interactive Content and Videos
+  startOffset: 2540
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2540
+  endOffset: 2670
+- name: 'Deep Dive Example: Why the Standard Scaler Is Complex'
+  startOffset: 2670
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2670
+  endOffset: 2911
+- name: 'Skrub Overview: Table Vectorizer and Pragmatic Tabular Defaults'
+  startOffset: 2911
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=2911
+  endOffset: 3027
+- name: 'Skrub GAP Encoder: Clustering Dirty Categories to Avoid One-Hot Explosion'
+  startOffset: 3027
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=3027
+  endOffset: 3227
+- name: 'Why Form a Company for Scikit-Learn: Funding and European Tech Goals'
+  startOffset: 3227
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=3227
+  endOffset: 3379
+- name: 'Potential Business Models: Training, Consulting, and Partnerships'
+  startOffset: 3379
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=3379
+  endOffset: 3454
+- name: 'Upcoming Work: Calm Code Book on Expectations vs. Reality in Data'
+  startOffset: 3454
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=3454
+  endOffset: 3497
+- name: 'Live Experiments: Converting Tree Models to SQL and Streaming Work'
+  startOffset: 3497
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=3497
+  endOffset: 3627
+- name: 'Live Stream Format: Preparation, Live Coding, and Demos'
+  startOffset: 3627
+  url: https://www.youtube.com/watch?v=UPlIETGwTg8&t=3627
+  endOffset: 3675
+context: 'Context: This episode surveys the Scikit-Learn ecosystem, related projects (Scikit Lego, Skrub),
+  and initiatives like Calm Code and :probabl., weaving together career stories, governance, tooling choices,
+  content production, maintainer handoffs, CI/cost concerns, and early business models.
+
+  Core unifying idea: Long-term health and impact of open-source machine-learning projects depends not
+  just on great code but on a deliberate integration of engineering excellence, community stewardship,
+  accessible education, and sustainable operational/business practices — i.e., building pragmatic tools
+  and clear learning paths while creating incentives (training, consulting, platform models, cost-efficient
+  infrastructure, and low-pressure contributor experiences) that enable maintainers and contributors to
+  keep projects useful, adoptable, and durable.'
+transcript: transcripts/open-source-ml-tools-strategy-and-business-models.yaml
+resources:
+- title: probabl. YouTube channel
+  url: https://www.youtube.com/@UCIat2Cdg661wF5DQDWTQAmg
+- title: Calmcode website
+  url: https://calmcode.io/
+- title: probabl. website
+  url: https://probabl.ai/

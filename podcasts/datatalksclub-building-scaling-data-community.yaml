@@ -1,0 +1,138 @@
+slug: datatalksclub-building-scaling-data-community
+legacy_path: /podcast/datatalksclub-building-scaling-data-community.html
+title: 'DataTalks.Club Behind the Scenes: Alexey Grigorev on Scaling and Growing the Community'
+short: DataTalks.Club Behind the Scenes
+season: 7
+episode: 1
+guests:
+- eugeneyan
+- alexeygrigorev
+image: images/podcast/datatalksclub-building-scaling-data-community.jpg
+ids:
+  youtube: IxTyq96juVE
+  anchor: DataTalks-Club-Behind-the-Scenes---Eugene-Yan--Alexey-Grigorev-e1d4567
+links:
+  youtube: https://www.youtube.com/watch?v=IxTyq96juVE
+  anchor: https://anchor.fm/datatalksclub/episodes/DataTalks-Club-Behind-the-Scenes---Eugene-Yan--Alexey-Grigorev-e1d4567
+  spotify: https://open.spotify.com/episode/3ltAxUsCE8EAf0pRb9zxDK
+  apple: https://podcasts.apple.com/us/podcast/datatalks-club-behind-the-scenes-eugene-yan-alexey/id1541710331?i=1000548608967
+description: Discover how to scale a 9k+ data science community, automate events, and advance your machine
+  learning career with deployment, mentorship and growth tactics.
+intro: 'How do you scale a grassroots machine learning community from a few forum posts to thousands of
+  active members? In this episode, Alexey Grigorev — founder of DataTalks.Club — sits down with Eugene
+  Yan to walk through the real-world steps behind scaling and growing a machine learning community. Alexey
+  shares his origins (forums, landing page, early events), the growth inflection that led to ~9k members,
+  and practical event formats that work: Open Source Spotlight, Minis, Book of the Week, live coding and
+  office hours. <br><br> We cover tactical topics listeners can apply: content production and automation
+  (planning, Zapier, Eventbrite), monetization and sponsorship models, and how project-based offerings
+  like ML Bookcamp and Machine Learning Zoomcamp emphasize end-to-end deployment (Flask, AWS Lambda, Kubernetes,
+  Kubeflow). Alexey also discusses community management lessons — mentoring, product mindset, avoiding
+  tool churn — plus career and productivity advice such as learning-by-projects, public deadlines, and
+  maintaining motivation. <br><br> If you’re building or scaling a machine learning community, this episode
+  offers concrete strategies for community growth, event design, content automation, and running project-focused
+  training.'
+topics:
+- community building
+- machine learning
+- data science
+- data engineering
+- MLOps
+dateadded: 2022-01-23
+duration: PT00H56M57S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=0
+  endOffset: 9
+- name: 'Career Transition: Java to Machine Learning (Coursera, Andrew Ng)'
+  startOffset: 9
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=9
+  endOffset: 86
+- name: Freelancing, Master's, and first data-science roles; building data pipelines
+  startOffset: 86
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=86
+  endOffset: 306
+- name: 'Career Lessons: step outside comfort zone; product mindset; prefer simple models'
+  startOffset: 306
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=306
+  endOffset: 387
+- name: 'Principal Data Scientist Role: internal consulting, architecture, mentoring'
+  startOffset: 387
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=387
+  endOffset: 576
+- name: 'Motivation to Start the Community: early interactions and LinkedIn outreach'
+  startOffset: 576
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=576
+  endOffset: 605
+- name: 'Community Origins: forums, landing page, first events and format inspiration'
+  startOffset: 605
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=605
+  endOffset: 1014
+- name: 'Community Growth & Events: conference boost and scaling to ~9k members'
+  startOffset: 1014
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=1014
+  endOffset: 1222
+- name: 'Content Production & Automation: planning, scheduling, Zapier, Eventbrite'
+  startOffset: 1222
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=1222
+  endOffset: 1478
+- name: 'Event Formats: Open Source Spotlight, Minis, Book of the Week'
+  startOffset: 1478
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=1478
+  endOffset: 1671
+- name: 'Notable Guests & Popular Episodes: Martin Kleppmann, Elena Samuylova, Santiago'
+  startOffset: 1671
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=1671
+  endOffset: 1897
+- name: 'Monetization & Sponsorship: costs, TopCoder, Toloka crowdsourcing workshop'
+  startOffset: 1897
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=1897
+  endOffset: 2302
+- name: 'ML Bookcamp & Machine Learning Zoomcamp: project-based, end-to-end learning'
+  startOffset: 2302
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=2302
+  endOffset: 2346
+- name: 'Deployment Focus in the Book/Course: Flask, AWS Lambda, Kubernetes, Kubeflow'
+  startOffset: 2346
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=2346
+  endOffset: 2569
+- name: 'Career Advice: join communities, answer questions, find mentors'
+  startOffset: 2569
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=2569
+  endOffset: 2635
+- name: 'Motivation & Persistence: handling frustration and sustaining interest'
+  startOffset: 2635
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=2635
+  endOffset: 2740
+- name: 'Tool Evaluation Strategy: avoid tool churn, follow lasting trends, Kedro curiosity'
+  startOffset: 2740
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=2740
+  endOffset: 2936
+- name: 'Productivity & Workflow: public deadlines, accountability, batching work'
+  startOffset: 2936
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=2936
+  endOffset: 3031
+- name: 'Learning by Projects & Notes: just-in-time learning, Notion, READMEs, GitHub docs'
+  startOffset: 3031
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=3031
+  endOffset: 3184
+- name: 'Community Inspiration & Format Ideas: borrowing from ML Ops and JavaRanch'
+  startOffset: 3184
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=3184
+  endOffset: 3307
+- name: 'Interactive Formats: live coding, office hours, ML Zoomcamp sessions'
+  startOffset: 3307
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=3307
+  endOffset: 3356
+- name: Community Thanks & Future Plans
+  startOffset: 3356
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=3356
+  endOffset: 3410
+- name: Podcast Closing
+  startOffset: 3410
+  url: https://www.youtube.com/watch?v=IxTyq96juVE&t=3410
+  endOffset: 3417
+transcript: transcripts/datatalksclub-building-scaling-data-community.yaml
+resources:
+- title: Eugene interviews Alexey
+  url: https://eugeneyan.com/writing/informal-mentors-alexey-grigorev/

@@ -1,0 +1,152 @@
+slug: how-to-grow-your-ml-engineering-career
+legacy_path: /podcast/how-to-grow-your-ml-engineering-career.html
+title: 'How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills'
+short: How to Grow Your ML Engineering Career
+season: 12
+episode: 7
+guests:
+- krzysztofszafanek
+image: images/podcast/how-to-grow-your-ml-engineering-career.jpg
+ids:
+  anchor: Navigating-Career-Changes-in-Machine-Learning---Chris-Szafranek-e1ucvn2
+  youtube: cUxZBXQgZaU
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/Navigating-Career-Changes-in-Machine-Learning---Chris-Szafranek-e1ucvn2
+  apple: https://podcasts.apple.com/us/podcast/navigating-career-changes-in-machine-learning-chris/id1541710331?i=1000597921745
+  spotify: https://open.spotify.com/episode/1mDlJi7vfLeJgIZStQ4G90?si=Spd04VwmSh2zZCgZzLIPbA
+  youtube: https://www.youtube.com/watch?v=cUxZBXQgZaU
+description: Discover career transitions into ML, prompt engineering and LLMs—practical debugging tips,
+  transferable skills, hiring insights, and real platform lessons
+intro: How do you move from web and game development into building machine learning platforms and working
+  with LLMs—and what practical skills carry over? In this episode Krzysztof Szafanek, a seasoned engineer
+  with 17 years across pharma, geo services, gaming and online retail, and currently an ML Platform engineer
+  and internal consultant at Zalando, answers that question through concrete examples and career lessons.
+  <br><br> We trace Krzysztof’s path from HTML5, Objective-C, Swift and Unity to Python, ML platform work
+  (the zflow library and pipeline architecture), and hands-on experiments with diffusion models, ChatGPT
+  and Modal Labs. Key topics include career transitions between stacks and roles, platform consulting—training,
+  onboarding and user support—prompt engineering tips, debugging strategies (rubber ducking, divide-and-conquer),
+  and a real Postgres optimization troubleshooting case. He also discusses transferable skills like SQL,
+  Git and shell, T-shaped expertise, hiring dynamics, and how to get unstuck with ChatGPT and problem
+  decomposition. <br><br> Listen to gain practical guidance on ML platforms, prompt engineering, debugging
+  techniques, and career strategy for transitioning into ML and LLM work—plus actionable resources and
+  prioritization tactics you can apply immediately
+topics:
+- machine learning
+- career transitions
+- LLMs
+- hiring
+- career strategy
+dateadded: 2023-02-04
+duration: PT00H59M42S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=0
+  endOffset: 132
+- name: 'Career Overview: Web, Game Development, and Python'
+  startOffset: 132
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=132
+  endOffset: 384
+- name: 'Mobile & Game Development: HTML5, Objective-C, Swift, and Unity'
+  startOffset: 384
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=384
+  endOffset: 425
+- name: 'Career Transitions: Adapting Between Stacks and Roles'
+  startOffset: 425
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=425
+  endOffset: 606
+- name: Tech Radar & Language Freedom at Zalando
+  startOffset: 606
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=606
+  endOffset: 805
+- name: 'Machine Learning Platform: zflow Library and Pipeline Architecture'
+  startOffset: 805
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=805
+  endOffset: 959
+- name: 'Platform Consulting: Training, Onboarding, and User Support'
+  startOffset: 959
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=959
+  endOffset: 1068
+- name: 'From Engineer to Consultant: Reduced Hands-on Coding'
+  startOffset: 1068
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=1068
+  endOffset: 1106
+- name: 'Sabbatical Focus: Learning, Break, and Exploration'
+  startOffset: 1106
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=1106
+  endOffset: 1112
+- name: 'Sabbatical Projects: Diffusion Models, ChatGPT Experiments, and Modal Labs'
+  startOffset: 1112
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=1112
+  endOffset: 1321
+- name: 'Large Language Models: Coding Assistance, Architecture Sparring, and Caveats'
+  startOffset: 1321
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=1321
+  endOffset: 1606
+- name: 'Prompt Engineering: Practical Tips and People to Follow'
+  startOffset: 1606
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=1606
+  endOffset: 1740
+- name: 'Transferable Skills: SQL, Git, Shell, and the Lindy Effect'
+  startOffset: 1740
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=1740
+  endOffset: 2014
+- name: 'Troubleshooting Example: Postgres Optimization and Performance Gains'
+  startOffset: 2014
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=2014
+  endOffset: 2123
+- name: 'T-Shaped Expertise: Depth, Breadth, and Career Strategy'
+  startOffset: 2123
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=2123
+  endOffset: 2257
+- name: 'Debugging as a Strength: Rubber Duck, Divide-and-Conquer, and Mentoring'
+  startOffset: 2257
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=2257
+  endOffset: 2692
+- name: 'Learning Motivation: Curiosity, Pomodoro, and Inspirational Content'
+  startOffset: 2692
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=2692
+  endOffset: 2917
+- name: 'Getting Unstuck: ChatGPT, Tutorials, and Problem Decomposition'
+  startOffset: 2917
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=2917
+  endOffset: 3022
+- name: 'Hiring Dynamics: Job Descriptions and Recruiting Generalists'
+  startOffset: 3022
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3022
+  endOffset: 3263
+- name: 'Job Market Trends: Specialists vs Generalists in Machine Learning'
+  startOffset: 3263
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3263
+  endOffset: 3382
+- name: 'Prioritization Techniques: To-Do Lists, Deadlines, and Focus'
+  startOffset: 3382
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3382
+  endOffset: 3491
+- name: 'Learning Resources: Books, Documentation, YouTube, and Practical Learning'
+  startOffset: 3491
+  url: https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3491
+  endOffset: 3632
+transcript: transcripts/how-to-grow-your-ml-engineering-career.yaml
+resources:
+- title: 'Lex Fridman: science, philosophy, media, AI (especially earlier episodes)'
+  url: https://www.youtube.com/lexfridman
+- title: Andrej Karpathy, former Senior Director of AI at Tesla, who's now focused on teaching and sharing
+    his knowledge
+  url: https://www.youtube.com/@AndrejKarpathy
+- title: Beautifully done videos on engineering of things in the real world
+  url: https://www.youtube.com/@RealEngineering
+- title: Chris' website
+  url: https://szafranek.net/
+- title: Zalando Tech Radar
+  url: https://opensource.zalando.com/tech-radar/
+- title: Modal Labs, new way of deploying code to the cloud, also useful for testing ML code on GPUs
+  url: https://modal.com
+- title: Excellent Twitter account to follow to learn more about prompt engineering for ChatGPT
+  url: https://twitter.com/goodside
+- title: Image prompts for Midjourney
+  url: https://twitter.com/GuyP
+- title: Machine Learning Workflows in Production - Krzysztof Szafanek
+  url: https://www.youtube.com/watch?v=CO4Gqd95j6k
+- title: From Data Science to DataOps
+  url: https://datatalks.club/podcast/s11e03-from-data-science-to-dataops.html

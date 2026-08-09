@@ -1,0 +1,156 @@
+slug: investing-in-open-source-developer-tools
+legacy_path: /podcast/investing-in-open-source-developer-tools.html
+title: 'Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization
+  Models'
+short: Investing in Open-Source Data Tools
+season: 15
+episode: 2
+guests:
+- belawiertz
+image: images/podcast/investing-in-open-source-developer-tools.jpg
+ids:
+  anchor: datatalksclub/episodes/Investing-in-Open-Source-Data-Tools---Bela-Wiertz-e274dr8
+  youtube: 7Bg1JQLnCao
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Investing-in-Open-Source-Data-Tools---Bela-Wiertz-e274dr8
+  apple: https://podcasts.apple.com/us/podcast/investing-in-open-source-data-tools-bela-wiertz/id1541710331?i=1000621912675
+  spotify: https://open.spotify.com/episode/6mHnZ3IswczK46UP3MBp4d?si=KkrbjXmJSaiWbq3d9BzTUQ
+  youtube: https://www.youtube.com/watch?v=7Bg1JQLnCao
+description: 'Discover early-stage investing in open-source developer tools: deal sourcing, due diligence,
+  and commercialization models for data, AI & developer tooling startups.'
+intro: 'How do early-stage investors evaluate open-source developer tools — and what signals actually
+  predict commercial success? In this episode, Bela Wiertz — who invests in early-stage open-source startups
+  at a German family office focused on Data, AI & Developer Tooling — breaks down the investor playbook
+  for sourcing, evaluating, and funding OSS companies. Drawing from hands-on deal flow and due diligence
+  experience, Bela reveals how investors screen GitHub repositories, conduct developer interviews, and
+  assess community engagement beyond vanity metrics like stars. <br><br> We explore the mechanics of open-source
+  commercialization: open-core versus hosted services, enterprise licensing models, support revenue limitations,
+  and why community-driven distribution creates unique investment opportunities. Bela explains practical
+  due diligence techniques (co-investor reference checks, user adoption analysis, founder-market fit),
+  funding stage dynamics from angel to seed rounds, and geographic investment patterns in European OSS
+  startups. Real-world case studies include Hugging Face''s AI ecosystem play, Supabase''s Firebase alternative,
+  Kong''s API gateway monetization, and Qdrant''s vector database positioning. <br><br> Listen to understand
+  how investors think about open-source deal sourcing, what community metrics matter for fundraising,
+  and which monetization models actually scale — essential insights for founders building OSS developer
+  tools and investors evaluating this unique category.'
+dateadded: 2023-07-23
+topics:
+- open source
+- tools
+- investing
+- fundraising
+- early-stage startups
+duration: PT01H01M26S
+quotableClips:
+- name: Episode Start & Welcome
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=0
+  endOffset: 75
+- name: 'Guest Overview: Bela’s Role at a Family Office'
+  startOffset: 75
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=75
+  endOffset: 160
+- name: 'Career Path: From Business Studies to Open Source Investing'
+  startOffset: 160
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=160
+  endOffset: 337
+- name: 'Commercializing Open Source Communities: Company Builder Insights'
+  startOffset: 337
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=337
+  endOffset: 584
+- name: Why Venture Funding Matters for Early-Stage Startups
+  startOffset: 584
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=584
+  endOffset: 822
+- name: 'Open Source as Go-to-Market: Community Trust and Distribution'
+  startOffset: 822
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=822
+  endOffset: 1000
+- name: 'Bottom-Up Distribution: Developer Adoption Feeding Enterprise Sales'
+  startOffset: 1000
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1000
+  endOffset: 1113
+- name: 'Investment Focus: Early-Stage B2B Developer, Data & AI Tooling'
+  startOffset: 1113
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1113
+  endOffset: 1187
+- name: 'Funding Stage Primer: Angels, Pre-Seed, and Seed Explained'
+  startOffset: 1187
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1187
+  endOffset: 1340
+- name: 'Fundraising Strategy: 12–18 Month Runway & Use of Proceeds'
+  startOffset: 1340
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1340
+  endOffset: 1422
+- name: 'Geographic & Sector Focus: Europe and Developer Stack Niches'
+  startOffset: 1422
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1422
+  endOffset: 1519
+- name: 'Investor Types Compared: Angels, VCs, and Family Offices'
+  startOffset: 1519
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1519
+  endOffset: 1828
+- name: 'Check Sizes & Stage Variability: No One-Size-Fits-All'
+  startOffset: 1828
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1828
+  endOffset: 1951
+- name: 'Investment Criteria: Team, Market Need, and Commercialization Plan'
+  startOffset: 1951
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1951
+  endOffset: 2187
+- name: 'Early-Stage Signals: Assessing Problem Validity over PMF'
+  startOffset: 2187
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2187
+  endOffset: 2239
+- name: 'Due Diligence: Founder Calls, User Interviews, and Co-Investor Checks'
+  startOffset: 2239
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2239
+  endOffset: 2341
+- name: 'Community Metrics: Interpreting GitHub Stars vs. Active Engagement'
+  startOffset: 2341
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2341
+  endOffset: 2538
+- name: 'Sourcing Deal Flow: GitHub Screening, Data Tools, and Networking'
+  startOffset: 2538
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2538
+  endOffset: 2649
+- name: 'Daily Sourcing Routine: Allocating Time for Outbound Discovery'
+  startOffset: 2649
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2649
+  endOffset: 2783
+- name: 'Inbound Outreach: How Founders Should Pitch Investors'
+  startOffset: 2783
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2783
+  endOffset: 2968
+- name: 'Open-Core & Licensing Strategies: Mixing Open and Proprietary Code'
+  startOffset: 2968
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=2968
+  endOffset: 3069
+- name: 'Monetization Models: Hosted Services, Enterprise Licenses, Support'
+  startOffset: 3069
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3069
+  endOffset: 3287
+- name: 'Scalability Considerations: Limits of Support-Based Revenue'
+  startOffset: 3287
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3287
+  endOffset: 3333
+- name: 'Open Source Outlook: Paths to Market Leadership and Challenges'
+  startOffset: 3333
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3333
+  endOffset: 3446
+- name: 'Recent Open Source Successes: Hugging Face, Supabase, Kong, Qdrant'
+  startOffset: 3446
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3446
+  endOffset: 3618
+- name: Recommended Reading & Resources on Investing and Community Building
+  startOffset: 3618
+  url: https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3618
+  endOffset: 3739
+transcript: transcripts/investing-in-open-source-developer-tools.yaml
+resources:
+- title: Understand who is engaging with your open source project article
+  url: https://www.crowd.dev/
+- title: Top 6 Books on Developer Community Building
+  url: https://www.crowd.dev/post/top-6-books-on-developer-community-building
+- title: Which open source software metrics matter
+  url: https://www.bvp.com/atlas/measuring-the-engagement-of-an-open-source-software-community#Which-open-source-software-metrics-matter

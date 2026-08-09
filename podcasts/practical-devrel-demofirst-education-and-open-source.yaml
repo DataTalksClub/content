@@ -1,0 +1,167 @@
+slug: practical-devrel-demofirst-education-and-open-source
+legacy_path: /podcast/practical-devrel-demofirst-education-and-open-source.html
+title: 'Developer Advocacy Through Community Impact: Technical Leadership, Open Source Mentorship & Demo-Driven
+  Communication'
+short: Developer Advocacy Through Community Impact
+season: 20
+episode: 8
+guests:
+- willrussell
+image: images/podcast/practical-devrel-demofirst-education-and-open-source.jpg
+ids:
+  anchor: datatalksclub/episodes/From-Hackathons-to-Developer-Advocacy---Will-Russel-e339a5f
+  youtube: vXbMUfHE1OE
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/From-Hackathons-to-Developer-Advocacy---Will-Russel-e339a5f
+  apple: https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-advocacy-will-russel/id1541710331?i=1000709634418
+  spotify: https://open.spotify.com/episode/4Lt785S38GuK0W2m7naRKt
+  youtube: https://www.youtube.com/watch?v=vXbMUfHE1OE
+description: Master developer advocacy, open source mentorship & demo-driven communication to elevate
+  technical leadership, amplify community impact & accelerate adoption.
+topics:
+- open-source
+- computer vision
+- tools
+- MLOps
+- software engineering
+intro: How do developer advocates create measurable community impact while balancing technical leadership,
+  mentorship, and clear communication? In this episode Will Russell, Developer Advocate at Kestra, explores
+  that question through the lens of workflow orchestration and developer education. Will is known for
+  his technical video content on workflow orchestration and for building open source education programs
+  that help new contributors make their first pull requests. <br><br> We cover core topics including technical
+  leadership in community settings, practical approaches to open source mentorship, and the power of demo-driven
+  communication and documentation to make complex tools approachable. Will discusses how creating targeted
+  videos and clear docs lowers barriers for developers and nurtures sustainable contributor pipelines.
+  <br><br> Listeners will come away with concrete ideas for designing open source education programs,
+  using demos to explain concepts, and applying developer advocacy techniques to grow healthier communities.
+  This episode is useful for developer advocates, engineering managers, open source maintainers, and anyone
+  interested in workflow orchestration, developer education, and community-driven technical leadership.
+dateadded: 2025-05-26
+duration: PT01H01M29S
+quotableClips:
+- name: Episode Opening & Guest Overview
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=0
+  endOffset: 201
+- name: 'Video Production Setup: Camera, Lens & Webcam Workflow'
+  startOffset: 201
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=201
+  endOffset: 343
+- name: 'Audio Setup: Microphone, Preamp & Pop Filtering'
+  startOffset: 343
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=343
+  endOffset: 415
+- name: 'Lighting Strategy: 45° Key Light & Background Separation'
+  startOffset: 415
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=415
+  endOffset: 641
+- name: Early Career & Hackathon Discovery
+  startOffset: 641
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=641
+  endOffset: 706
+- name: 'Hackathons as Learning: Git, Teamwork & Building Projects'
+  startOffset: 706
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=706
+  endOffset: 736
+- name: 'Open Source Education Programs: Path from Contract to Full-Time'
+  startOffset: 736
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=736
+  endOffset: 964
+- name: 'Organizing Hackathons: Leadership, Coordination & Soft Skills'
+  startOffset: 964
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=964
+  endOffset: 1207
+- name: 'Career Trade-offs: Maintaining Technical Depth vs. Community Work'
+  startOffset: 1207
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1207
+  endOffset: 1322
+- name: Role Variety at Small Companies vs. Specialized Teams
+  startOffset: 1322
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1322
+  endOffset: 1398
+- name: 'Running Hackathons: Format, Online Tools & Office Hours'
+  startOffset: 1398
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1398
+  endOffset: 1526
+- name: 'Judging Strategies: Scoring Matrices, Categories & Tie-Breakers'
+  startOffset: 1526
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1526
+  endOffset: 1574
+- name: Sponsor-Driven Challenges & Themed Categories
+  startOffset: 1574
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1574
+  endOffset: 1784
+- name: 'Case Study — Willmojis: Image Recognition, Font Generation & Demo'
+  startOffset: 1784
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1784
+  endOffset: 2019
+- name: 'Major League Hacking (MLH): Community Support & Rep Experience'
+  startOffset: 2019
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2019
+  endOffset: 2143
+- name: 'MLH Fellowship: Mentorship Model & Contributing to Large Repos'
+  startOffset: 2143
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2143
+  endOffset: 2342
+- name: 'Contribution Best Practices: PR Quality, Git Skills & Onboarding'
+  startOffset: 2342
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2342
+  endOffset: 2476
+- name: 'Onboarding Complex Projects: Environment Setup & Maintainer Collaboration'
+  startOffset: 2476
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2476
+  endOffset: 2620
+- name: Hardware Constraints & Cloud Workarounds (Colab, VMs)
+  startOffset: 2620
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2620
+  endOffset: 2762
+- name: 'Program Scalability: Repeatability, Budgets & AI Opportunities'
+  startOffset: 2762
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2762
+  endOffset: 2890
+- name: 'Fellowship Accessibility: Students, Career Changers & Motivation'
+  startOffset: 2890
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2890
+  endOffset: 2954
+- name: 'Developer Advocacy at Kestra: Documentation, Demos & Outreach'
+  startOffset: 2954
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2954
+  endOffset: 3109
+- name: 'Content Workflow: Bullet Points, Demos & Collaboration with Writers'
+  startOffset: 3109
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3109
+  endOffset: 3220
+- name: 'Video Strategy: Define Goal, Maintain Pace & Full Walkthroughs'
+  startOffset: 3220
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3220
+  endOffset: 3270
+- name: 'Feature Demo Example: "After Execution" Notifications in Workflows'
+  startOffset: 3270
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3270
+  endOffset: 3442
+- name: 'Learn with Kestra Series: Tool Tutorials (Docker, Postgres, Git)'
+  startOffset: 3442
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3442
+  endOffset: 3599
+- name: 'Leadership & Team Empowerment Recommendation: "Turn the Ship Around"'
+  startOffset: 3599
+  url: https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3599
+  endOffset: 3689
+context: 'Context: This episode weaves together practical production tips (video, audio, lighting), hands-on
+  developer programs (hackathons, MLH fellowship), contribution and onboarding best practices, content/demo
+  strategies, and leadership for scaling community initiatives.
+
+  Core narrative: Empowering developer growth by building repeatable, hands-on learning and contribution
+  pathways—well-run hackathons, mentorship-driven fellowships, clear onboarding and demo workflows, and
+  scalable program design—so more people can learn by doing, successfully contribute to real projects,
+  and transition into lasting technical roles.'
+transcript: transcripts/practical-devrel-demofirst-education-and-open-source.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/wrussell1999/
+- title: Twitter
+  url: https://x.com/wrussell1999
+- title: GitHub
+  url: https://github.com/wrussell1999
+- title: Website
+  url: https://wrussell.co.uk/

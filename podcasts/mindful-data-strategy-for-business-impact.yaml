@@ -1,0 +1,169 @@
+slug: mindful-data-strategy-for-business-impact
+legacy_path: /podcast/mindful-data-strategy-for-business-impact.html
+title: 'Mindful Data Strategy for Business Impact: Wabi-Sabi Approach, Data Trust & Maintenance-Innovation
+  Balance'
+short: 'Mindful Data Strategy: From Pipelines to Business Impact'
+season: 21
+episode: 2
+guests:
+- liorbarak
+image: images/podcast/mindful-data-strategy-for-business-impact.jpg
+ids:
+  anchor: datatalksclub/episodes/How-to-Rebuild-Data-Trust--Mindful-Data-Strategy-and-Maintenance-vs-Innovation---Lior-Barak-e36obcs
+  youtube: B76J4QkZPWs
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/How-to-Rebuild-Data-Trust--Mindful-Data-Strategy-and-Maintenance-vs-Innovation---Lior-Barak-e36obcs
+  apple: https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mindful-data-strategy-and/id1541710331?i=1000722107501
+  spotify: https://open.spotify.com/episode/54B0xvUI1eQjXW0s1eqgbI
+  youtube: https://www.youtube.com/watch?v=B76J4QkZPWs
+description: 'Discover a mindful data strategy to build data trust and balance maintenance-innovation
+  with a Wabi-Sabi approach: practical tactics to boost business impact.'
+topics:
+- data strategy
+- data governance
+- data engineering
+- product management
+- career transition
+intro: How do you build a data strategy that drives business impact without chasing perfection? In this
+  episode Lior Barak — author of Data Is Like a Plate of Hummus, co-host of the WHAT the Data?! podcast,
+  and founder of Tale About Data — explores a mindful data strategy that accepts imperfection, prioritizes
+  data trust, and balances maintenance with innovation. <br><br> Lior draws on 12+ years building data
+  teams and helping organizations use data for growth, with a particular focus on practical strategies
+  for non-business functions. Key topics include the Wabi-Sabi approach to data (valuing usable, imperfect
+  datasets), establishing data trust and governance, and how to allocate resources between ongoing data
+  maintenance and forward-looking innovation. The conversation also touches on setting realistic expectations,
+  reducing technical debt, and aligning data work to measurable business outcomes. <br><br> If you’re
+  responsible for data strategy, analytics, or data product decisions, this episode provides concrete
+  perspectives on building resilient, impact-driven data practices—helping you prioritize work that increases
+  trust, lowers risk, and creates sustained business value.
+dateadded: 2025-08-18
+duration: PT01H06M05S
+quotableClips:
+- name: Podcast Introduction and Episode Overview (mindful data strategy)
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=0
+  endOffset: 144
+- name: 'Lior Barak: Background and shift from engineering to product'
+  startOffset: 144
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=144
+  endOffset: 246
+- name: 'Startup and platform experience: automating data infrastructure'
+  startOffset: 246
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=246
+  endOffset: 385
+- name: Product management learning paths for engineers and data scientists
+  startOffset: 385
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=385
+  endOffset: 500
+- name: 'Wabi-sabi applied to data: accepting imperfection and communicating it'
+  startOffset: 500
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=500
+  endOffset: 588
+- name: 'Data trust crisis: industry stats and common trust failures'
+  startOffset: 588
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=588
+  endOffset: 707
+- name: 'Generative AI and hallucinations: managing expectations for models'
+  startOffset: 707
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=707
+  endOffset: 849
+- name: 'Data quality metaphor: Lego bricks and pragmatic trade-offs'
+  startOffset: 849
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=849
+  endOffset: 1052
+- name: 'Prioritization vs. tooling: translating data work into business impact'
+  startOffset: 1052
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1052
+  endOffset: 1250
+- name: 'Core KPI diagnosis: investigating dashboard inaccuracies'
+  startOffset: 1250
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1250
+  endOffset: 1322
+- name: 'Pipeline failure points: ingestion, SQL logic, and lineage checks'
+  startOffset: 1322
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1322
+  endOffset: 1406
+- name: 'Process failures over tool fixes: focusing on root causes'
+  startOffset: 1406
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1406
+  endOffset: 1692
+- name: 'Trust restoration framework: maintenance, rollouts, and innovation'
+  startOffset: 1692
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1692
+  endOffset: 1756
+- name: 'Incident analysis: using incidents to identify recurring problems'
+  startOffset: 1756
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1756
+  endOffset: 1847
+- name: Dashboard traffic-light system for data reliability (green/yellow/red)
+  startOffset: 1847
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1847
+  endOffset: 1998
+- name: 'Analyst feedback and automation: closing the communication loop'
+  startOffset: 1998
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=1998
+  endOffset: 2299
+- name: 'Work allocation: tracking maintenance, rollout, and innovation time'
+  startOffset: 2299
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=2299
+  endOffset: 2481
+- name: 'Team stress index and guideline: ~45% maintenance as healthy baseline'
+  startOffset: 2481
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=2481
+  endOffset: 2592
+- name: 'Data product lifecycle: development, rollout, maturity, and decline'
+  startOffset: 2592
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=2592
+  endOffset: 2747
+- name: 'Zen practices for data teams: mindfulness, acceptance, and planning'
+  startOffset: 2747
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=2747
+  endOffset: 3014
+- name: 'Generative AI demand: why data readiness matters now'
+  startOffset: 3014
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3014
+  endOffset: 3101
+- name: 'Measuring readiness by impact: ROI and product success signals'
+  startOffset: 3101
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3101
+  endOffset: 3379
+- name: 'Legacy systems strategy: minimal maintenance and planned replacement'
+  startOffset: 3379
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3379
+  endOffset: 3551
+- name: 'Replacing legacy: selling the change through user impact'
+  startOffset: 3551
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3551
+  endOffset: 3623
+- name: 'Executive ad-hoc requests: elicit intent and quantify expected impact'
+  startOffset: 3623
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3623
+  endOffset: 3753
+- name: 'Career guidance: choosing analytics, engineering, or product paths'
+  startOffset: 3753
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3753
+  endOffset: 3876
+- name: Closing reflections, resources, and suggested next steps
+  startOffset: 3876
+  url: https://www.youtube.com/watch?v=B76J4QkZPWs&t=3876
+  endOffset: 3965
+context: 'Context: The episode examines a practical approach to data work—moving from engineering to product
+  thinking, accepting imperfect data (wabi-sabi), diagnosing trust failures, prioritizing maintenance/rollout/innovation,
+  using simple reliability signals and feedback loops, and aligning team time and processes to measurable
+  business impact—especially as generative AI raises readiness demands and legacy systems require pragmatic
+  replacement.
+
+  Core: Adopt a mindful, impact-first data strategy that accepts and communicates inevitable imperfection,
+  prioritizes process and measurable business outcomes over perfect tooling, and restores trust through
+  clear signals, closed feedback loops, and disciplined allocation of maintenance, rollout, and innovation
+  effort so data products remain reliable, scalable, and ready to deliver real ROI.'
+transcript: transcripts/mindful-data-strategy-for-business-impact.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/liorbarak/
+- title: Website
+  url: https://cookingdata.substack.com/
+- title: Cooking Data newsletter
+  url: https://cookingdata.substack.com/
+- title: Product product lifecycle manager
+  url: https://app--data-product-lifecycle-manager-c81b10bb.base44.app/

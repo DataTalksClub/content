@@ -1,0 +1,159 @@
+slug: data-translator-role-and-data-strategy
+legacy_path: /podcast/data-translator-role-and-data-strategy.html
+title: 'Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven
+  Growth'
+short: 'Data Strategist Guide to Driving Growth: Prototypes, MVPs & Building Data Trust'
+season: 3
+episode: 4
+guests:
+- liorbarak
+image: images/podcast/data-translator-role-and-data-strategy.jpg
+ids:
+  youtube: gqroEsTyLD0
+  anchor: Effective-Communication-with-Business-for-Data-Professionals---Lior-Barak-e1002rm
+links:
+  youtube: https://www.youtube.com/watch?v=gqroEsTyLD0
+  anchor: https://anchor.fm/datatalksclub/episodes/Effective-Communication-with-Business-for-Data-Professionals---Lior-Barak-e1002rm
+  spotify: https://open.spotify.com/episode/4RF592cRWxHgcXbx6pV0Ja
+  apple: https://podcasts.apple.com/us/podcast/effective-communication-business-for-data-professionals/id1541710331?i=1000519463715
+description: Discover how a data translator bridges management and tech to drive data-driven growth—practical
+  data strategy, forecasts, prototypes, and team alignment
+intro: 'How do you bridge the gap between data teams and management so analytics actually drives growth?
+  In this episode, Lior Barak — author of Data is Like a Plate of Hummus, co-host of WHAT the Data?! and
+  founder of Tale About Data with 12+ years building data teams — lays out the role of a data translator:
+  a product-minded strategist who converts technical outputs into business-aligned action. <br><br> We
+  explore practical tactics for building data trust (proactive alerts, QA dashboards, and confidence intervals
+  for forecasts), embedding with business teams to learn workflows, and using data-led growth to improve
+  recruitment, marketing, and operations. Lior walks through ways to overcome resistance — hackathons
+  and side projects — and advocates lean delivery: MVPs, prototype-first development, clear handover strategies,
+  and scaling with OKRs. He also covers how to explain effort to non-technical stakeholders, break silos
+  through co-working, and use chat-driven remote collaboration effectively. <br><br> Listen to learn concrete
+  approaches for data strategy, data communication, and production-ready delivery that help your organization
+  move from data chaos to measurable, data-driven growth.'
+topics:
+- data strategy
+- communication
+- project management
+- leadership
+- data teams
+dateadded: 2021-05-01
+duration: PT00H57M23S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=0
+  endOffset: 91
+- name: 'Episode Theme: Bridging Data & Management'
+  startOffset: 91
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=91
+  endOffset: 150
+- name: 'Guest Background: Lior''s data and product journey'
+  startOffset: 150
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=150
+  endOffset: 248
+- name: 'Role Defined: Data strategist as translator between business and tech'
+  startOffset: 248
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=248
+  endOffset: 466
+- name: 'Communication Tactics: Proactive alerts to maintain data trust'
+  startOffset: 466
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=466
+  endOffset: 648
+- name: 'Forecast Transparency: Confidence intervals and QA dashboards'
+  startOffset: 648
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=648
+  endOffset: 795
+- name: 'Translator Profiles: Product-minded data advocates for alignment'
+  startOffset: 795
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=795
+  endOffset: 860
+- name: 'Embedment: Sitting with business to learn workflows and needs'
+  startOffset: 860
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=860
+  endOffset: 1053
+- name: 'Data-led Growth: Using data to improve recruitment, marketing, and ops'
+  startOffset: 1053
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=1053
+  endOffset: 1225
+- name: 'Overcoming Resistance: Hackathons and side projects to prove value'
+  startOffset: 1225
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=1225
+  endOffset: 1434
+- name: 'Lean Delivery: MVPs, iterative development, and scaling with OKRs'
+  startOffset: 1434
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=1434
+  endOffset: 1577
+- name: 'Prototype-first: Embrace imperfect code to validate solutions'
+  startOffset: 1577
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=1577
+  endOffset: 1759
+- name: 'Handover Strategy: Creating ownership for productionization'
+  startOffset: 1759
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=1759
+  endOffset: 1962
+- name: 'Value over Aesthetics: Message clarity beats polish in early stages'
+  startOffset: 1962
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=1962
+  endOffset: 2092
+- name: 'Hummus Metaphor: Quick prototype versus crafted product'
+  startOffset: 2092
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=2092
+  endOffset: 2193
+- name: 'Non-technical Stakeholders: Explain effort in plain language'
+  startOffset: 2193
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=2193
+  endOffset: 2384
+- name: 'Cross-team Empathy: Breaking silos through co-working and lunches'
+  startOffset: 2384
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=2384
+  endOffset: 2575
+- name: 'Remote Collaboration: Chat-driven triggers and selective meeting use'
+  startOffset: 2575
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=2575
+  endOffset: 2729
+- name: 'Product Perspectives: Consumers vs engineers — the hummus analogy'
+  startOffset: 2729
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=2729
+  endOffset: 3050
+- name: 'Local Anecdote: Recommended hummus spots in Berlin'
+  startOffset: 3050
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=3050
+  endOffset: 3096
+- name: 'Book Overview: Purpose of "Data is Like a Plate of Hummus"'
+  startOffset: 3096
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=3096
+  endOffset: 3200
+- name: 'Strategy Foundations: Build a stable data ground before models'
+  startOffset: 3200
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=3200
+  endOffset: 3349
+- name: 'Data Chaos: Clearing requests, educating users, and leading growth'
+  startOffset: 3349
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=3349
+  endOffset: 3460
+- name: 'Resources & Contact: Lior''s LinkedIn, Twitter, and podcast'
+  startOffset: 3460
+  url: https://www.youtube.com/watch?v=gqroEsTyLD0&t=3460
+  endOffset: 3481
+transcript: transcripts/data-translator-role-and-data-strategy.yaml
+notes: 'Links:
+
+
+  - Book: [https://www.amazon.com/-/en/Sarah-Mayor/dp/B086L277LZ](https://www.amazon.com/-/en/Sarah-Mayor/dp/B086L277LZ){:target="_blank"}
+
+  - Company: [https://www.taleaboutdata.com/](https://www.taleaboutdata.com/){:target="_blank"}
+
+  - Podcast: [https://podcast.whatthedatapodcast.com/](https://podcast.whatthedatapodcast.com/){:target="_blank"}
+
+  - Linkedin: [https://www.linkedin.com/in/liorbarak/](https://www.linkedin.com/in/liorbarak/){:target="_blank"}
+
+  - Twitter: [https://twitter.com/liorb](https://twitter.com/liorb){:target="_blank"}
+
+
+  Hummus places in Berlin:
+
+  - Azzam: [https://goo.gl/maps/uCkb3ATc5CVKapDa6](https://goo.gl/maps/uCkb3ATc5CVKapDa6){:target="_blank"}
+
+  - Akkawy: [https://g.page/akkawy](https://g.page/akkawy){:target="_blank"}
+
+  - The Eatery Berlin: [https://g.page/theeateryberlin](https://g.page/theeateryberlin){:target="_blank"}'

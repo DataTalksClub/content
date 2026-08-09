@@ -1,0 +1,129 @@
+slug: data-science-management-and-agile-machine-learning
+legacy_path: /podcast/data-science-management-and-agile-machine-learning.html
+title: 'Master Data Science Management: Agile ML, Debrief Culture, Metrics & Scale to Production'
+short: The Secret Sauce of Data Science Management
+season: 13
+episode: 6
+guests:
+- shirmeirlador
+image: images/podcast/data-science-management-and-agile-machine-learning.jpg
+ids:
+  anchor: ow/datatalksclub/episodes/The-Secret-Sauce-of-Data-Science-Management---Shir-Meir-Lador-e21cu92
+  youtube: gcxP0qRO-MY
+links:
+  anchor: https://podcasters.spotify.com/pod/pod/show/datatalksclub/episodes/The-Secret-Sauce-of-Data-Science-Management---Shir-Meir-Lador-e21cu92
+  apple: https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-science-management-shir-meir-lador/id1541710331?i=1000606790142
+  spotify: https://open.spotify.com/episode/4kzcUCVPVN1Opq7XI1Dibd?si=f7GlEOs-TFiC9dxTJlXVyw
+  youtube: https://www.youtube.com/watch?v=gcxP0qRO-MY
+description: 'Master data science management: learn Agile ML, debrief culture, metrics and POC-to-production
+  strategies to scale teams, boost impact and ship reliable models.'
+intro: How do you run data science teams so experiments become reliable, measurable products? In this
+  episode, Shir Meir Lador, a data science group manager at Intuit who builds machine and deep learning
+  models for document intelligence in TurboTax and QuickBooks, walks through practical approaches to data
+  science management and agile ML. <br><br> We explore the origins of debrief culture from military pilot
+  training and how pre/post debriefs drive continuous improvement; concrete practices for agile ML including
+  two-week sprints, exploration sprints, design stories and grooming; and how to scope work, handle AI
+  project uncertainty, and use rapid experimentation to mitigate data risks. Shir also digs into metrics
+  for production ML—business impact, A/B testing, customer-focused KPIs—and people metrics like pulse
+  surveys, manager score and skip-level feedback. You’ll hear about leadership pillars (vision, driving
+  results, culture), team development, goal alignment, cross-functional product partnerships, and tactics
+  for fostering innovation (hackathons, paper clubs). <br><br> Listen for actionable guidance on measuring
+  success, scaling ML to production, and building the managerial skills to lead high-performance data
+  science teams. This episode is for managers and technical leads focused on production ML, machine learning
+  operations, and team-driven impact
+topics:
+- management
+- machine learning
+dateadded: 2023-04-01
+duration: PT00H56M57S
+quotableClips:
+- name: 'Episode Introduction: The Secret Sauce of Data Science Management'
+  startOffset: 100
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=100
+  endOffset: 160
+- name: 'Career Background: Electrical Engineering to Document Intelligence at Intuit'
+  startOffset: 160
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=160
+  endOffset: 271
+- name: 'Military Leadership Lessons: Pilot Training & Debrief Culture Origins'
+  startOffset: 271
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=271
+  endOffset: 324
+- name: 'Debriefing Practice: Pre/post Focus Areas for Continuous Improvement'
+  startOffset: 324
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=324
+  endOffset: 558
+- name: 'Group Manager Role: Strategy, Mentoring, Standards and Roadmaps'
+  startOffset: 558
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=558
+  endOffset: 713
+- name: 'Measuring Success: Business Impact and Team Engagement Metrics'
+  startOffset: 713
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=713
+  endOffset: 776
+- name: 'People Metrics: Pulse Surveys, Manager Score and Skip-level Feedback'
+  startOffset: 776
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=776
+  endOffset: 979
+- name: 'Leadership Pillars: Vision, Driving Results, Building High-performance Culture'
+  startOffset: 979
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=979
+  endOffset: 1043
+- name: 'Managing Leadership Relationships: Communicating Vision and Securing Resources'
+  startOffset: 1043
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=1043
+  endOffset: 1464
+- name: 'Team Development: Goal-setting, One-on-ones, Feedback and Recognition'
+  startOffset: 1464
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=1464
+  endOffset: 1585
+- name: 'Goal Alignment: Cascading Roadmap Goals to Individual Development'
+  startOffset: 1585
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=1585
+  endOffset: 1920
+- name: 'Fostering Innovation: Hackathons, Paper Clubs and Learning Forums'
+  startOffset: 1920
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=1920
+  endOffset: 2071
+- name: 'Cross-Functional Integration: Product Partnerships and Expectation Management'
+  startOffset: 2071
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=2071
+  endOffset: 2466
+- name: 'AI Project Uncertainty: Data Risks, Unknowns and Rapid Experimentation'
+  startOffset: 2466
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=2466
+  endOffset: 2658
+- name: 'Agile for ML: Two-week Sprints, Exploration Tasks and Grooming Practices'
+  startOffset: 2658
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=2658
+  endOffset: 2736
+- name: 'Scoping ML Work: Exploration Sprints, Design Stories and Iterative Milestones'
+  startOffset: 2736
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=2736
+  endOffset: 2994
+- name: 'Core Manager Skills: Communication, Strategic Clarity and Growth Mindset'
+  startOffset: 2994
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=2994
+  endOffset: 3299
+- name: 'POC to Production: Customer-focused Metrics, A/B Testing and Incremental Rollout'
+  startOffset: 3299
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=3299
+  endOffset: 3498
+- name: 'Resources & Further Reading: Shir’s Talks and Blog Posts'
+  startOffset: 3498
+  url: https://www.youtube.com/watch?v=gcxP0qRO-MY&t=3498
+  endOffset: 3517
+transcript: transcripts/data-science-management-and-agile-machine-learning.yaml
+resources:
+- title: The secret sauce of data science management
+  url: https://www.youtube.com/watch?v=tbBfVHIh-38
+- title: Lessons learned leading AI teams
+  url: https://blogs.intuit.com/2020/06/23/lessons-learned-leading-ai-teams/
+- title: How to avoid conflicts and delays in the AI development process (Part I)
+  url: https://blogs.intuit.com/2020/12/08/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-i/
+- title: How to avoid conflicts and delays in the AI development process (Part II)
+  url: https://blogs.intuit.com/2021/01/06/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-ii/
+- title: Leading AI teams deck
+  url: https://drive.google.com/drive/folders/1_CnqjugtsEbkIyOUKFHe48BeRttX0uJG
+- title: Leading AI teams video
+  url: https://www.youtube.com/watch?app=desktop&v=tbBfVHIh-38

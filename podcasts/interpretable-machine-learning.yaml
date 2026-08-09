@@ -1,0 +1,165 @@
+slug: interpretable-machine-learning
+legacy_path: /podcast/interpretable-machine-learning.html
+title: 'Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust'
+season: 16
+episode: 7
+guests:
+- christophmolnar
+image: images/podcast/interpretable-machine-learning.jpg
+ids:
+  anchor: datatalksclub/episodes/Cracking-the-Code-Machine-Learning-Made-Understandable---Christoph-Molnar-e2c10n4
+  youtube: LBuGzyOkx7c
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Cracking-the-Code-Machine-Learning-Made-Understandable---Christoph-Molnar-e2c10n4
+  apple: https://podcasts.apple.com/us/podcast/cracking-the-code-machine-learning-made/id1541710331?i=1000636448000
+  spotify: https://open.spotify.com/episode/3SjDB0E2of9IS9TXn2Fof3?si=FwWH99FGTgmL1OGI3-sLAg
+  youtube: https://www.youtube.com/watch?v=LBuGzyOkx7c
+description: 'Discover interpretable machine learning: learn SHAP, Conformal Prediction,   calibrated
+  uncertainty and model trust to debug models and boost reliability.'
+topics:
+- machine learning
+- data science
+- practices
+- tools
+- career transition
+- interpretability
+intro: How can you reliably trust a machine learning model’s predictions in real-world settings? In this
+  episode Christoph Molnar — statistician, machine learner, and author of Interpretable Machine Learning
+  — walks through practical approaches for building model trust. Drawing on his experience from Kaggle
+  competitions to authoring a technical book, Christoph explains the trade-offs between interpretability
+  and accuracy and shows how interpretability techniques help debug models. <br><br> Key topics include
+  a SHAP deep dive with practical Python examples for attributing predictions, conformal prediction for
+  calibrated uncertainty and creating prediction sets, and the difference between explainable AI and interpretable
+  machine learning. He also discusses using interpretability to debug models, maintain hands-on skills
+  through competitions, and document experiments for reproducible insights. <br><br> If you want concrete
+  tools to evaluate model trust—how to quantify uncertainty, interpret feature effects with SHAP, and
+  produce reliable prediction sets with conformal methods—this episode offers clear, actionable guidance
+  and directions for further reading. Ideal for data scientists and ML practitioners focused on interpretable
+  machine learning, model debugging, and trustworthy AI.
+dateadded: 2023-11-27
+duration: PT00H56M20S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=0
+  endOffset: 42
+- name: 'Guest Intro: Christoph Molnar, Interpretable ML Author'
+  startOffset: 42
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=42
+  endOffset: 92
+- name: 'Career Journey: From Statistics to Tech Writing'
+  startOffset: 92
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=92
+  endOffset: 225
+- name: Becoming a Full-Time Technical Writer
+  startOffset: 225
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=225
+  endOffset: 397
+- name: 'Kaggle Beginnings: Linear Models to Practical ML'
+  startOffset: 397
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=397
+  endOffset: 470
+- name: 'Origin Story: Interest in Interpretable Machine Learning'
+  startOffset: 470
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=470
+  endOffset: 567
+- name: 'Interpretability vs Accuracy: Debugging Models with SHAP'
+  startOffset: 567
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=567
+  endOffset: 719
+- name: 'Active Competition: River Flow Forecasting Project'
+  startOffset: 719
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=719
+  endOffset: 837
+- name: 'Choosing Book Topics: Audience Data and Personal Curiosity'
+  startOffset: 837
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=837
+  endOffset: 955
+- name: 'Publishing in Public: Chapter-by-Chapter Workflow'
+  startOffset: 955
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=955
+  endOffset: 1027
+- name: 'Self-Publishing vs Publishers: Control, Editors, Royalties'
+  startOffset: 1027
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1027
+  endOffset: 1138
+- name: 'Book Overview: Interpretable ML; Modeling Mindsets; Conformal Prediction; SHAP'
+  startOffset: 1138
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1138
+  endOffset: 1227
+- name: 'Conformal Prediction: Calibrated Uncertainty and Prediction Sets'
+  startOffset: 1227
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1227
+  endOffset: 1424
+- name: 'SHAP Deep Dive: Practical Guide and Python Examples'
+  startOffset: 1424
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1424
+  endOffset: 1577
+- name: 'Terminology: Explainable AI vs Interpretable Machine Learning'
+  startOffset: 1577
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1577
+  endOffset: 1800
+- name: 'Work Style: Solo Writing, Collaboration, and Co-authoring'
+  startOffset: 1800
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1800
+  endOffset: 1987
+- name: 'Staying Hands-On: Competitions to Maintain Practical Skills'
+  startOffset: 1987
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=1987
+  endOffset: 2181
+- name: 'Logbook Practice: Obsidian Notes for Experiments and Reflection'
+  startOffset: 2181
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=2181
+  endOffset: 2541
+- name: 'Writing Expertise: Teaching to Learn vs Being a Beginner'
+  startOffset: 2541
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=2541
+  endOffset: 2691
+- name: 'Feedback Strategy: Open Drafts, Beta Readers, and Iteration'
+  startOffset: 2691
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=2691
+  endOffset: 2916
+- name: 'Advice for Aspiring Technical Writers: Start Small and Publish'
+  startOffset: 2916
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=2916
+  endOffset: 3000
+- name: 'Becoming a Full-Time Author: Timeframe, Income, and Workload'
+  startOffset: 3000
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=3000
+  endOffset: 3229
+- name: 'Publishing Logistics: Leanpub, Amazon KDP, and Print-on-Demand'
+  startOffset: 3229
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=3229
+  endOffset: 3376
+- name: 'Where to Find Christoph: Website, Newsletter, and Socials'
+  startOffset: 3376
+  url: https://www.youtube.com/watch?v=LBuGzyOkx7c&t=3376
+  endOffset: 3413
+context: 'Context: Christoph Molnar’s journey from statistician and Kaggle competitor to full-time technical
+  author frames a consistent practice: hands-on modeling, careful documentation, and public, iterative
+  teaching about interpretable machine learning techniques (SHAP, conformal prediction, etc.), plus the
+  practical mechanics of publishing and staying current.
+
+  Core narrative: At the episode’s center is the idea that trustworthy, useful machine learning emerges
+  not from opaque accuracy chasing but from a disciplined loop of hands-on experimentation, clear interpretation,
+  and open communication — using interpretable methods and calibrated uncertainty to debug and understand
+  models, keeping meticulous logs and competitions to stay sharp, and publishing incrementally (with feedback
+  and transparency) to teach others while refining your own understanding. This unified through-line ties
+  together the technical tools, the writing and publishing choices, and the everyday workflows that make
+  complex ML accessible, reproducible, and actionable.'
+transcript: transcripts/interpretable-machine-learning.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/christoph-molnar/
+- title: Website
+  url: https://christophmolnar.com/
+- title: Interpretable Machine Learning
+  url: https://christophmolnar.com/books/interpretable-machine-learning/
+- title: Modeling Mindsets
+  url: https://christophmolnar.com/books/modeling-mindsets/
+- title: Introduction to Conformal Prediction with Python
+  url: https://christophmolnar.com/books/conformal-prediction/
+- title: Interpreting Machine Learning Models with SHAP
+  url: https://christophmolnar.com/books/shap/
+- title: Mindful Modeler Newsletter
+  url: https://mindfulmodeler.substack.com/

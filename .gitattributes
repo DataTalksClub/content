@@ -1,0 +1,5 @@
+# Legacy article and media bytes are intentionally preserved exactly. Markdown
+# hard breaks use trailing spaces, and a few text media assets carry legacy
+# whitespace that is covered by the migration fidelity check.
+articles/** whitespace=-trailing-space,-blank-at-eof
+images/** whitespace=-trailing-space,-blank-at-eof

@@ -1,0 +1,140 @@
+slug: generative-ai-chatbots-in-production-security
+legacy_path: /podcast/generative-ai-chatbots-in-production-security.html
+title: 'Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations'
+short: 'AI in Industry: Trust, Return on Investment and Future'
+season: 19
+episode: 6
+guests:
+- mariasukhareva
+image: images/podcast/generative-ai-chatbots-in-production-security.jpg
+ids:
+  anchor: datatalksclub/episodes/AI-in-Industry-Trust--Return-on-Investment-and-Future---Maria-Sukhareva-e2rp9f8
+  youtube: bT7-HRNCltk
+links:
+  anchor: https://creators.spotify.com/pod/show/datatalksclub/episodes/AI-in-Industry-Trust--Return-on-Investment-and-Future---Maria-Sukhareva-e2rp9f8
+  apple: https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on-investment-and-future/id1541710331?i=1000679505962
+  spotify: https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=a99463e34ffb48f1
+  youtube: https://www.youtube.com/watch?v=bT7-HRNCltk
+description: Learn to harden generative AI chatbots against prompt injection and data exfiltration—defenses,
+  detection, and techniques to reduce hallucinations.
+topics:
+- AI
+- LLMs
+- NLP
+- MLOps
+- production
+- AI red teaming
+- security
+intro: How do you harden generative AI chatbots against prompt injection, data exfiltration, and dangerous
+  hallucinations? In this episode Maria Sukhareva — a principal key expert in AI at Siemens with 15+ years
+  working at the intersection of linguistics and computational AI — walks through real-world risks, attack
+  findings, and practical defenses for chatbot security. <br><br> We trace Maria’s path from linguist
+  to industry expert and her role advising on technology and risk, then dive into a large-scale chatbot
+  hacking exercise and the common failures that lead to legal exposure and financial incidents. Key topics
+  include prompt injection and knowledge-base exfiltration techniques, hallucination causes and their
+  impact on trust, and mitigations such as output validation, query analysis, layered defenses, and the
+  use of non-LLM classifiers. We also cover human-in-the-loop workflows, AI-as-assistant moderation tools,
+  and prompt customization for controlled machine translation. <br><br> If you’re building or deploying
+  generative AI systems, this episode offers practical, production-focused guidance on chatbot security,
+  AI safety, and improving accuracy and trust in deployed models.
+dateadded: 2024-12-17
+duration: PT00H59M53S
+quotableClips:
+- name: Episode Introduction & Guest Overview
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=0
+  endOffset: 133
+- name: 'Career Path: From Linguist to Computational Linguistics and Industry'
+  startOffset: 133
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=133
+  endOffset: 251
+- name: 'Role Definition: Principal Key Expert in AI — Advising on Technology and Risk'
+  startOffset: 251
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=251
+  endOffset: 342
+- name: 'Democratization of Generative AI: Rise of Prompting and New "AI Experts"'
+  startOffset: 342
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=342
+  endOffset: 568
+- name: 'Bot Safety Challenge: Large-Scale Chatbot Hacking Exercise and Findings'
+  startOffset: 568
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=568
+  endOffset: 698
+- name: 'Chatbot Failures: Hallucinations, Legal Exposure, and Financial Incidents'
+  startOffset: 698
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=698
+  endOffset: 800
+- name: 'Data Exfiltration Techniques: Overloading Prompts and Knowledge-Base Retrieval'
+  startOffset: 800
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=800
+  endOffset: 975
+- name: 'Mitigations: Output Validation, Query Analysis, and Layered Defenses'
+  startOffset: 975
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=975
+  endOffset: 1020
+- name: 'Non-LLM Classifiers: Robust Alternatives to Manipulable Generative Models'
+  startOffset: 1020
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1020
+  endOffset: 1081
+- name: 'Trust and Hallucinations: User Confidence, Safety, and Adoption Risks'
+  startOffset: 1081
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1081
+  endOffset: 1239
+- name: 'Chatbot Adoption Issues: Usability, Verbosity, and Return on Investment'
+  startOffset: 1239
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1239
+  endOffset: 1534
+- name: 'Human-in-the-Loop Solutions: Hybrid Review to Improve Accuracy'
+  startOffset: 1534
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1534
+  endOffset: 1633
+- name: 'AI as Assistant: Moderation Tools, Autopilot Analogy, and Workforce Impact'
+  startOffset: 1633
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1633
+  endOffset: 1793
+- name: 'Translation Workflows: AI-Augmented Translators and Quality Control'
+  startOffset: 1793
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1793
+  endOffset: 1948
+- name: 'Prompt Customization: Controlled Machine Translation with ChatGPT'
+  startOffset: 1948
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=1948
+  endOffset: 2144
+- name: 'Historical Linguistics: Middle & Old English Pronunciation Insights'
+  startOffset: 2144
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=2144
+  endOffset: 2708
+- name: 'Ancient Languages: Cuneiform, Sumerian Transcription, and MT Approaches'
+  startOffset: 2708
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=2708
+  endOffset: 2906
+- name: 'Script Complexity: Logograms vs. Phonetics in Ancient Texts'
+  startOffset: 2906
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=2906
+  endOffset: 3181
+- name: 'Multilingual Models: Progress and Challenges for Low-Resource Languages'
+  startOffset: 3181
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=3181
+  endOffset: 3412
+- name: 'Orthography & Data Quality: Inconsistent Spelling in Historical Corpora'
+  startOffset: 3412
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=3412
+  endOffset: 3448
+- name: 'Industry Trade-offs: Research Innovation vs. ROI and Operational Needs'
+  startOffset: 3448
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=3448
+  endOffset: 3554
+- name: 'Episode Wrap-Up: Key Takeaways on AI Trust, Safety, and Future Directions'
+  startOffset: 3554
+  url: https://www.youtube.com/watch?v=bT7-HRNCltk&t=3554
+  endOffset: 3593
+context: 'Context: Across a career-spanning conversation about linguistics, industry AI roles, chatbot
+  hacks, safety failures, mitigations, human-in-the-loop workflows, translation and ancient-language challenges,
+  and industry trade-offs, the episode maps how generative AI is rapidly democratized yet brittle, risky,
+  and dependent on data and linguistic nuance.
+
+  Core: The central imperative is that realizing the real-world promise of generative AI requires marrying
+  deep linguistic and domain expertise with layered technical defenses, human oversight, and pragmatic
+  product trade-offs—so systems can be safe, trustworthy, and useful despite hallucinations, manipulation,
+  data-quality limits, and operational constraints.'
+transcript: transcripts/generative-ai-chatbots-in-production-security.yaml

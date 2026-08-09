@@ -1,0 +1,161 @@
+slug: from-large-hadron-collider-to-data-science-research-software-engineering
+legacy_path: /podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html
+title: 'From Collider Physics to Data Science: Research Software Engineering, Interview Prep & Mentorship'
+short: Large Hadron Collider and Mentorship
+season: 19
+episode: 5
+guests:
+- anastasiakaravdina
+image: images/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.jpg
+ids:
+  anchor: datatalksclub/episodes/Large-Hadron-Collider-and-Mentorship--Anastasia-Karavdina-e2rc2bj/a-abl5fth
+  youtube: kV0ZDy2UtJA
+links:
+  anchor: https://creators.spotify.com/pod/show/datatalksclub/episodes/Large-Hadron-Collider-and-Mentorship--Anastasia-Karavdina-e2rc2bj/a-abl5fth
+  apple: https://podcasts.apple.com/us/podcast/large-hadron-collider-and-mentorship-anastasia-karavdina/id1541710331?i=1000677930293
+  spotify: https://open.spotify.com/episode/6AZ26Q8O4VBkC9YtUNzhab?si=75154323e14d4dca
+  youtube: https://www.youtube.com/watch?v=kV0ZDy2UtJA
+description: Discover how collider physics skills power data science careers and research software engineering;
+  gain interview prep tactics, mentorship tips, and career growth.
+topics:
+- machine learning
+- data science
+- MLOps
+- software engineering
+- career transition
+- academia
+intro: How do you move from collider physics to industry data science while keeping rigorous research
+  software engineering practices, succeeding in interviews, and giving or getting effective mentorship?
+  In this episode Anastasia Karavdina — a particle physicist turned data scientist who worked on Large
+  Hadron Collider experiments and later built AI solutions at Blue Yonder and Kaufland e-commerce — walks
+  through that journey. <br><br> We start with collider basics (particle acceleration, detector imaging,
+  event volumes, and roles in large collaborations) to show the data scale and statistical thinking that
+  map to industry. Anastasia explains dual hardware-and-analysis roles, how multivariate analysis translates
+  to machine learning, and concrete research software engineering practices like version control and CI/CD.
+  She also covers interview prep (technical fit, behavioral stories, cultural fit in Germany) and evolving
+  hiring expectations, plus supply chain AI use cases. Finally, she discusses mentoring — how she started,
+  structuring mentorship, paid vs. free options, and platforms like MentorCruise. <br><br> Listen to learn
+  practical steps for translating physics expertise into data science careers, applying RSE workflows,
+  preparing interview narratives, and finding mentorship to accelerate your next move.
+dateadded: 2024-12-17
+duration: PT01H01M22S
+quotableClips:
+- name: Episode Opening & Guest Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=0
+  endOffset: 106
+- name: Guest Background Snapshot
+  startOffset: 106
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=106
+  endOffset: 242
+- name: 'Origins: From Novokuznetsk, Siberia'
+  startOffset: 242
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=242
+  endOffset: 318
+- name: Relocation & Life in Hamburg
+  startOffset: 318
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=318
+  endOffset: 362
+- name: 'Collider Purpose: Exploring Fundamental Particles'
+  startOffset: 362
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=362
+  endOffset: 450
+- name: Particle Acceleration & Detector Imaging
+  startOffset: 450
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=450
+  endOffset: 575
+- name: Collider Magnets & Data Capture Scale
+  startOffset: 575
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=575
+  endOffset: 675
+- name: Event Volume & Statistical Analysis in Particle Physics
+  startOffset: 675
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=675
+  endOffset: 760
+- name: Roles & Specializations in Large Research Collaborations
+  startOffset: 760
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=760
+  endOffset: 993
+- name: 'Dual Roles: Hardware Development and Data Analysis'
+  startOffset: 993
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=993
+  endOffset: 1066
+- name: Scientific Goals & Safety Myths (Higgs, Dark Matter, Black Holes)
+  startOffset: 1066
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1066
+  endOffset: 1235
+- name: Translating Research Skills into Industry Data Science
+  startOffset: 1235
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1235
+  endOffset: 1420
+- name: 'Research Software Engineering: Version Control & CI/CD Practices'
+  startOffset: 1420
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1420
+  endOffset: 1471
+- name: 'Jargon Translation: Multivariate Analysis to Machine Learning'
+  startOffset: 1471
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1471
+  endOffset: 1590
+- name: 'Interview Challenges: Position Fit & Evolving Hiring Expectations'
+  startOffset: 1590
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1590
+  endOffset: 1680
+- name: 'Blue Yonder & Supply Chain AI: From Physics to Enterprise ML'
+  startOffset: 1680
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1680
+  endOffset: 1765
+- name: 'Career Shift: From Industry Roles to Mentoring Focus'
+  startOffset: 1765
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=1765
+  endOffset: 2043
+- name: Behavioral Interview Strategies & Cultural Fit in Germany
+  startOffset: 2043
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=2043
+  endOffset: 2273
+- name: Preparing Stories & Practicing Leadership Principles
+  startOffset: 2273
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=2273
+  endOffset: 2486
+- name: 'Becoming a Mentor: Motivation, Rewards & Burnout'
+  startOffset: 2486
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=2486
+  endOffset: 2650
+- name: 'Mentoring Origins: Accidental Start & Finding the Right Fit'
+  startOffset: 2650
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=2650
+  endOffset: 2711
+- name: 'Mentoring Defined: Process, Goals & Time Commitment'
+  startOffset: 2711
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=2711
+  endOffset: 2965
+- name: 'Approaching Mentors: Clear Goals & Manageable Requests'
+  startOffset: 2965
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=2965
+  endOffset: 3052
+- name: 'Paid Mentorship vs. Free Communities: Pros & Cons'
+  startOffset: 3052
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3052
+  endOffset: 3344
+- name: 'Mentorship as Career Leverage: Promotions & Leadership Experience'
+  startOffset: 3344
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3344
+  endOffset: 3582
+- name: Finding Mentoring Communities & Platforms (MentorCruise, others)
+  startOffset: 3582
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3582
+  endOffset: 3652
+- name: Episode Wrap-up & Key Takeaways
+  startOffset: 3652
+  url: https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3652
+  endOffset: 3682
+context: 'Context: A physicist’s journey from building and analyzing massive collider experiments to applying
+  those technical, collaborative, and software-engineering skills in industry—culminating in a deliberate
+  turn toward mentoring others through career transitions and leadership challenges.
+
+  Core theme: Experimental physics training—rooted in tackling large-scale data, complex systems, rigorous
+  software and teamwork practices—is a powerful, transferable foundation, and mentorship is the essential
+  bridge that translates that expertise into effective industry roles, career progression, and leadership.'
+transcript: transcripts/from-large-hadron-collider-to-data-science-research-software-engineering.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/dr-anastasia-karavdina/

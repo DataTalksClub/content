@@ -1,0 +1,122 @@
+slug: data-privacy-engineering-gdpr-machine-learning
+legacy_path: /podcast/data-privacy-engineering-gdpr-machine-learning.html
+title: 'Data Privacy Playbook: Differential Privacy, Federated Learning, PETs & Consent UX'
+short: Practical Data Privacy
+season: 14
+episode: 2
+guests:
+- katharinejarmul
+image: images/podcast/data-privacy-engineering-gdpr-machine-learning.jpg
+ids:
+  anchor: ow/datatalksclub/episodes/Practical-Data-Privacy---Katharine-Jarmul-e23u551
+  youtube: gbjoFfrm4iw
+links:
+  anchor: https://podcasters.spotify.com/pod/pod/show/datatalksclub/episodes/Practical-Data-Privacy---Katharine-Jarmul-e23u551
+  apple: https://podcasts.apple.com/us/podcast/practical-data-privacy-katharine-jarmul/id1541710331?i=1000613701646
+  spotify: https://open.spotify.com/episode/137H2M9qU5lFqb4hLyMBvg?si=b0KXeubVSpa3bfsuZaS6pQ
+  youtube: https://www.youtube.com/watch?v=gbjoFfrm4iw
+description: Discover differential privacy, federated learning and PETs - privacy engineering, consent
+  UX fixes and compliance to reduce re-identification risk
+intro: 'How can teams build useful machine learning while respecting user privacy, compliance, and re-identification
+  risk? In this episode, Katharine Jarmul — privacy activist and Principal Data Scientist at ThoughtWorks
+  Germany — walks through a practical Data Privacy Playbook focused on differential privacy, federated
+  learning, privacy-enhancing technologies (PETs) and consent UX. <br><br> Katharine draws on a career
+  from data journalism and NLP to startup work at KI Protect and enterprise ML, explaining GDPR/CCPA/CPRA
+  implications, cookie consent defaults, and strategies for pseudonymisation, encrypted ML and federated
+  architectures. We cover consent and opt-out UX, legal vs technical definitions of privacy, profiling
+  and fingerprinting risks, and privacy-friendly personalization like session-based intent and ephemeral
+  inference. <br><br> You’ll get concrete takeaways: why differential privacy matters (formal definition,
+  use cases, Tumult and other libraries), common anonymization pitfalls (hashing, k-anonymity, Netflix
+  lessons), how PETs fit into system design, and generative AI privacy considerations including retention
+  and localized model deployment. Listeners leave with actionable guidance on privacy engineering, data
+  minimization, consent design, and resources to continue learning.'
+topics:
+- data governance
+- data privacy
+- machine learning
+- federated learning
+dateadded: 2023-05-20
+duration: PT01H01M28S
+quotableClips:
+- name: Episode Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=0
+  endOffset: 100
+- name: 'Guest Introduction: Katharine Jarmul — privacy activist, ML engineer, ThoughtWorks, book'
+  startOffset: 100
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=100
+  endOffset: 152
+- name: 'Career Journey: data journalism, NLP, consulting, and machine learning'
+  startOffset: 152
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=152
+  endOffset: 548
+- name: 'Startup Focus: KI Protect, pseudonymisation, encrypted & federated ML'
+  startOffset: 548
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=548
+  endOffset: 693
+- name: 'Privacy Regulation Overview: GDPR, CCPA, CPRA and cookie consent defaults'
+  startOffset: 693
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=693
+  endOffset: 875
+- name: 'Cookie Consent & Opt-Out UX: one-click rejects and user behavior'
+  startOffset: 875
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=875
+  endOffset: 984
+- name: 'Defining Data Privacy: legal, social, and technical perspectives'
+  startOffset: 984
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=984
+  endOffset: 1295
+- name: 'Practical Data Privacy (book): availability, previews, and giveaways'
+  startOffset: 1295
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=1295
+  endOffset: 1358
+- name: 'Bridging Legal & Technical Views: privacy risk, translation, and collaboration'
+  startOffset: 1358
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=1358
+  endOffset: 1512
+- name: 'User Profiling & Fingerprinting: browser history, apps, and re-identification risks'
+  startOffset: 1512
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=1512
+  endOffset: 1815
+- name: 'Privacy-Friendly Personalization: session-based intent and ephemeral inference'
+  startOffset: 1815
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=1815
+  endOffset: 1988
+- name: 'Privacy Engineering & PETs: encrypted ML, federated learning, and architecture'
+  startOffset: 1988
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=1988
+  endOffset: 2109
+- name: 'Business Case for Privacy: risk management, regulation, and customer trust'
+  startOffset: 2109
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=2109
+  endOffset: 2450
+- name: 'Differential Privacy Explained: formal definition, use cases, and libraries (Tumult)'
+  startOffset: 2450
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=2450
+  endOffset: 2708
+- name: 'Anonymization Pitfalls: hashing, k-anonymity, Netflix de-anonymization lessons'
+  startOffset: 2708
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=2708
+  endOffset: 2820
+- name: 'Designing for Privacy: consent, data minimization, and workflow practices'
+  startOffset: 2820
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=2820
+  endOffset: 3155
+- name: 'Generative AI & Privacy: ChatGPT incidents, consent, retention, and enterprise options'
+  startOffset: 3155
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3155
+  endOffset: 3569
+- name: 'Deploying Localized Models: Azure localization, fine-tuning, and ownership'
+  startOffset: 3569
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3569
+  endOffset: 3675
+- name: 'Further Learning: Probably Private newsletter, notebooks, and differential privacy resources'
+  startOffset: 3675
+  url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3675
+  endOffset: 3764
+transcript: transcripts/data-privacy-engineering-gdpr-machine-learning.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/katharinejarmul/
+- title: Twitter
+  url: https://twitter.com/kjam

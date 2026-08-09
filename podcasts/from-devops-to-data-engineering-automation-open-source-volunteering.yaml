@@ -1,0 +1,173 @@
+slug: from-devops-to-data-engineering-automation-open-source-volunteering
+legacy_path: /podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html
+title: 'From DevOps to Data Engineering: Automation, Open Source & Volunteering for Career Transitions'
+short: Career choices, transitions and promotions in and out of tech
+season: 19
+episode: 8
+guests:
+- agitajaunzeme
+image: images/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.jpg
+ids:
+  anchor: datatalksclub/episodes/Career-choices--transitions-and-promotions-in-and-out-of-tech---Agita-Jaunzeme-e2t05nv
+  youtube: QKWu5-6_6TE
+links:
+  anchor: https://creators.spotify.com/pod/show/datatalksclub/episodes/Career-choices--transitions-and-promotions-in-and-out-of-tech---Agita-Jaunzeme-e2t05nv
+  apple: https://podcasts.apple.com/us/podcast/career-choices-transitions-and-promotions-in-and-out/id1541710331?i=1000683499310
+  spotify: https://open.spotify.com/episode/0UW7fLgm9fqMG64GQwvgIN?si=ZixbzDcZT2mNkVrJjZVbeA
+  youtube: https://www.youtube.com/watch?v=QKWu5-6_6TE
+description: 'Discover DevOps to Data Engineering strategies: open source contributions and volunteering
+  to build pipelines, projects and a hireable portfolio.'
+topics:
+- open-source
+- data engineering
+- software engineering
+- practices
+- career transition
+- DevOps
+intro: How do you pivot from DevOps to data engineering without starting over? In this episode Agita Jaunzeme
+  — a DevOps/DataOps engineer, manager, community builder and NGO founder — breaks down practical strategies
+  for career transitions that center on automation, open source participation, and volunteering. <br><br>
+  Agita draws on experience across corporate, startup, open source and non-governmental sectors and shares
+  how automation and DevOps practices translate to data engineering and DataOps. We discuss using open
+  source projects to build credibility, volunteering and community work to gain hands-on experience and
+  networks, and concrete approaches to getting promoted or making purposeful career pivots. Agita also
+  talks about designing work that aligns with passion and purpose, including founding an NGO to support
+  expats and locals in Porto. <br><br> Listeners will come away with actionable ideas for bridging skill
+  gaps, leveraging automation and open source contributions, and using volunteering as a pathway into
+  data engineering roles. This episode is for DevOps professionals, aspiring data engineers, and career
+  changers seeking pragmatic advice on transitions, promotions, and aligning work with meaningful impact.
+dateadded: 2025-01-12
+duration: PT01H01M46S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=0
+  endOffset: 156
+- name: Guest Welcome & Interview Agenda
+  startOffset: 156
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=156
+  endOffset: 182
+- name: 'Career Beginnings: Trade School, Web Design, First Programming'
+  startOffset: 182
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=182
+  endOffset: 255
+- name: 'Education & Bootcamp: Computer Science, Accenture, C++'
+  startOffset: 255
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=255
+  endOffset: 322
+- name: 'Transition to DevOps: Configuration Management & Early Automation'
+  startOffset: 322
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=322
+  endOffset: 377
+- name: 'Burnout and Self-Discovery: Travel and Volunteerism'
+  startOffset: 377
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=377
+  endOffset: 456
+- name: 'Erasmus+ Volunteering: Programs, Exchanges, and Training'
+  startOffset: 456
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=456
+  endOffset: 560
+- name: Community Management at VMware & Versatile Data Kit (Open Source)
+  startOffset: 560
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=560
+  endOffset: 717
+- name: 'Testing Passions: Flow, Energy, and Career Fit'
+  startOffset: 717
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=717
+  endOffset: 869
+- name: 'Automation Case Study: Scripting Repetitive Tasks and Rapid Promotion'
+  startOffset: 869
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=869
+  endOffset: 1156
+- name: 'Problem-Solving as a Core Skill: Transferable Technical Competencies'
+  startOffset: 1156
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=1156
+  endOffset: 1263
+- name: 'Applying Corporate Processes to NGOs: Documentation & Agile Practices'
+  startOffset: 1263
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=1263
+  endOffset: 1435
+- name: 'Volunteer Management vs. Employment: Motivation and Process Design'
+  startOffset: 1435
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=1435
+  endOffset: 1507
+- name: 'Spotting Opportunities: Transitioning into Volunteer Roles'
+  startOffset: 1507
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=1507
+  endOffset: 1610
+- name: Personality Types & Team Composition (MBTI relevance)
+  startOffset: 1610
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=1610
+  endOffset: 1793
+- name: 'Personality Traits for Data Engineering: Precision, Persistence, Detail'
+  startOffset: 1793
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=1793
+  endOffset: 2092
+- name: 'Data Scientist vs. Data Engineer: Interests and Role Differences'
+  startOffset: 2092
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2092
+  endOffset: 2185
+- name: 'Returning to Corporate via Open Source: Community + Technical Work'
+  startOffset: 2185
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2185
+  endOffset: 2285
+- name: 'Community Manager Role: Content, DevRel Overlap, and Events'
+  startOffset: 2285
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2285
+  endOffset: 2423
+- name: 'Product Focus: Simplifying Vision and Goal-Setting'
+  startOffset: 2423
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2423
+  endOffset: 2584
+- name: 'Career Coaching Course: "Align Your Career With Who You Are"'
+  startOffset: 2584
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2584
+  endOffset: 2704
+- name: 'Founding an NGO: Legal Setup, Governance, and Launch'
+  startOffset: 2704
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2704
+  endOffset: 2812
+- name: 'Inclusion in Porto: Connecting Expats and Locals'
+  startOffset: 2812
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2812
+  endOffset: 2952
+- name: 'Meetup Activities: MBTI, Improv, and Community Events'
+  startOffset: 2952
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=2952
+  endOffset: 3131
+- name: 'Off-Grid Living Experiment: Land, Dome, and Lifestyle Shift'
+  startOffset: 3131
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3131
+  endOffset: 3207
+- name: 'Off-Grid Utilities: Solar Power, Rainwater, and Well Plans'
+  startOffset: 3207
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3207
+  endOffset: 3352
+- name: 'Cost Comparison: Off-Grid Life vs. Porto Renting'
+  startOffset: 3352
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3352
+  endOffset: 3407
+- name: 'Unemployment Party: Mastermind Brainstorming Technique'
+  startOffset: 3407
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3407
+  endOffset: 3657
+- name: Episode Closing & Final Remarks
+  startOffset: 3657
+  url: https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3657
+  endOffset: 3706
+context: 'Context: The episode traces a journey from hands-on technical beginnings (trade school, web
+  design, C++, DevOps, automation) through burnout and volunteering, into community management, open source,
+  NGO founding, career coaching, and a lifestyle experiment (off-grid living), while exploring personality,
+  team fit, product focus, and practical processes applied across corporate and nonprofit settings.
+
+  Core: This episode centers on intentionally aligning technical skills, systems-thinking problem solving,
+  and personal values—leveraging automation, community, and experimentation—to design a sustainable, impact-driven
+  career and life that bridges corporate, volunteer, and personal worlds.
+
+  Key themes: transferable problem-solving and automation; values-driven career design; community & open
+  source as leverage; translating corporate processes to NGOs; personality and team-fit for role choice;
+  experimentation in lifestyle and governance.'
+transcript: transcripts/from-devops-to-data-engineering-automation-open-source-volunteering.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/agita/

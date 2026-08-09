@@ -1,0 +1,411 @@
+slug: 20210816-tuning-up
+legacy_path: /books/20210816-tuning-up.html
+title: Tuning Up
+description: Book of the Week. Tuning Up by David Sweet
+cover: images/books/20210816-tuning-up/cover.jpg
+image: images/books/20210816-tuning-up/preview.jpg
+start: 2021-08-16 00:00:00
+end: 2021-08-20 22:59:58
+authors:
+- davidsweet
+links:
+- text: Book's page
+  link: https://www.manning.com/books/tuning-up-from-a-b-testing-to-bayesian-optimization
+- text: Book's GitHub repository
+  link: https://github.com/tuningup/tuningup
+archive:
+- name: WingCode
+  text: 'Hi David Sweet, nice to meet you!
+
+    Should A/B test users selected randomly or should we select them based on specific attributes?'
+  replies:
+  - name: David Sweet
+    text: 'Short answer: randomly.
+
+      Long answer: Selecting based on specific attributes can improve the precision of a measurement.
+      This is a technique called *blocking*.
+
+      Let’s say you’re running an A/B test. You have two versions of an application, A and B, that you
+      want to compare. You’ll measure “time spent on the app” for each.
+
+      The attribute you know about your users is their age: They’re either “over 25" or “25 or younger”.  The
+      “over 25" crowd generally spends less time on the app.
+
+      If you assign users completely randomly to version A or B you might, by chance, have more “over
+      25” users seeing version A.  These extra “over 25" users would bias downward the measurement of
+      time spent — but you’d attribute that bias to version A. If you were to rerun the experiment you
+      might, this time, assign more “over 25” users to version B. In that case you’d attribute to the
+      bias to version B.
+
+      So sometimes the age attribute makes your measurement biased towards A and sometimes towards B.
+      On average, it’s unbiased, thanks to randomization.
+
+      Unfortunately, there’s variability from run to run. You can mitigate that by assigning the same
+      number of over-25 users to A as to B and
+
+      the same number of 25-or-younger users to A as to B. Then age-related variability will disappear.
+
+      That being said, when you select users from the over-25 group, you should select them randomly,
+      and the same goes for the under-25 group.  That way your experiment is still unbiased to all of
+      the other factors that might affect time spent.'
+  - name: WingCode
+    text: Thank you for the super detailed awesome answer David 🙂
+- name: Denis L.
+  text: 'Hi David Sweet! Thanks for doing this.
+
+    Bayesian techniques require specific likelihood function assumptions. From your experience, how often
+    do you think these assumptions are violated by end-users and how robust are Bayesian methods under
+    misspecification of likelihood (or prior)?
+
+    To give a concrete example - if we run Bayesian A/B test analysis on a metric following what we think
+    Poisson distribution, however upon closer inspection it violates some assumptions of the Poisson (but
+    we model it as Poisson regardless).'
+  replies:
+  - name: David Sweet
+    text: 'The Bayesian method I discuss in the book uses a non-parametric method call Gaussian process
+      regression (GPR) to model what’s called the *surrogate function*, the function that maps system
+      parameters to a business objective. For example, you might serve ads based on a prediction of click-through-rate
+      (CTR) with a rule that says, “If the predicted CTR &lt; _threshold_ don’t show the ad.”  The parameter
+      _threshold_ affected how much ad revenue (the business metric) you earn per day.
+
+      You could use GPR to model the function mapping _threshold_ to daily ad revenue making (essentially)
+      no assumptions about the shape of the function.
+
+      Once you have that surrogate model, you can ask it, “Which value of _threshold_ would give me the
+      largest daily ad revenue?”'
+  - name: Denis L.
+    text: Thanks for the answer!
+- name: Bayram Kapti
+  text: "Thank you David Sweet! \nIt’s easier to calculate the statistical significance of an uplift in\
+    \ the test group’s performance against the success metric(s) during an AB test when the success metric\
+    \ is a rate -&gt; such as CTR. \nHowever, I find it challenging to measure increased performance after\
+    \ a change in the product. Example Hypothesis: If I add this new feature to my app, It will increase\
+    \ the duration on the app."
+  replies: []
+- name: Bayram Kapti
+  text: A follow up question to above, what are the best practices to come up with “X % increase” in the
+    hypothesis statement. This varies for industry or the metric itself, but is there a methodology to
+    come up with The X percent in the hypothesis statements?
+  replies:
+  - name: WingCode
+    text: 'I would probably like to add onto the question 🙂
+
+      Is there some technique to predict the “X % increase” even before running the experiment?'
+  - name: David Sweet
+    text: 'Generally speaking, we’ll hypothesize “no change in the metric”. This is called the null hypothesis.
+      The A/B test will measure the change in the metric and, potentially, reject the null hypothesis.
+
+      The good news is that you don’t have to guess, beforehand, by how much the metric will change to
+      run an A/B test.
+
+      You do need to know the level of variability (the standard deviation) of the metric, however.  Usually
+      you can estimate that number from existing data. For example, if your metric were time spent by
+      a user during a session, you could look at existing logs of users sessions and compute the standard
+      deviation of the time spent.
+
+      That being said, it would be nice to have a prediction of the A/B test result beforehand. If the
+      prediction said, “This new feature probably won’t change time spent by enough for anyone to care”,
+      then you could avoid running the A/B test altogether.
+
+      One can sometimes  use a domain-specific simulation of the system to make such a prediction. In
+      quantitative trading, for example, it is common to run a trading simulation (aka, a backtest) to
+      estimate the profitability of a trading strategy before deploying it. Simulations are sometimes
+      used by ad-serving systems, recommender systems, and others, too.'
+  - name: Bayram Kapti
+    text: "Appreciate the answer David Sweet! \nWhen you have seasonality in your users behavior, I guess\
+      \ than you could intentionally only look at the variance for relavant season. \nImagine an e-commerce\
+      \ store having higher durations during Christmas &amp; Holidays season when compared to Summer.\
+      \ In this case, would it makes sense to include Summer data to calculate variance for an AB test\
+      \ during Christmas time?"
+  - name: David Sweet
+    text: 'Yes.
+
+      The goal is really to predict the variance that will be realized during the experiment. Using (in
+      your variance calculation) only data expected to be similar to the data you will collect during
+      the experiment would achieve that goal.'
+- name: Wendy Mak
+  text: hi David, would you use an 'off the shelf' system to run your A/B tests, and at what point would
+    you decide that it's better to build your own?
+  replies:
+  - name: David Sweet
+    text: 'Sure. I would look at it like any other build-vs-buy decision. Does the product do what you
+      need? Is the price right? (Does the do *more* than you need? If so maybe you’re paying for features
+      you won’t use.)
+
+      I think it would be useful to initially run A/B tests in the lowest-effort way possible — whether
+      that’s with a web-based tool or some simple manual calculations in Jupyter. You’ll learn about the
+      details that are specific to your system (ex., deploying “B” versions, logging measurements) and
+      get a sense for the value a piece of commercial software could provide.'
+- name: Wendy Mak
+  text: also, how do you decide whether something is worth running A/B tests on?
+  replies:
+  - name: David Sweet
+    text: One way to do this is to run a simulation before hand.
+- name: Alexey Grigorev
+  text: 'Hi David Sweet!
+
+    What are your favorite blog posts and videos from companies that talk about their experimentation
+    platforms and the way they run A/B tests?'
+  replies:
+  - name: David Sweet
+    text: 'This is a good one: [https://research.fb.com/videos/the-facebook-field-guide-to-machine-learning-episode-6-experimentation/](https://research.fb.com/videos/the-facebook-field-guide-to-machine-learning-episode-6-experimentation/)
+
+      I especially like the comments about how improvements in offline/modeling metrics (ex., MSE of a
+      regression, or cross-entropy of a classifier) don’t exactly translate to improvements in online/business
+      metrics (like revenue, clicks/day, etc.)'
+  - name: David Sweet
+    text: 'For a nice overview of Bayesian optimization in practice: [https://research.fb.com/blog/2018/09/efficient-tuning-of-online-systems-using-bayesian-optimization/](https://research.fb.com/blog/2018/09/efficient-tuning-of-online-systems-using-bayesian-optimization/)'
+  - name: David Sweet
+    text: 'Also, most large companies have internal, custom experimentation platforms:
+
+      Uber: [https://eng.uber.com/xp](https://eng.uber.com/xp)/
+
+      Netflix: Netflix [https://lnkd.in/dmKdFJ8](https://lnkd.in/dmKdFJ8)
+
+      Twitter: [https://lnkd.in/dFHZxSM](https://lnkd.in/dFHZxSM)
+
+      Facebook: [https://lnkd.in/dG7_8GV](https://lnkd.in/dG7_8GV)
+
+      LinkedIn: [https://lnkd.in/dCc8aQN](https://lnkd.in/dCc8aQN)
+
+      Spotify: [https://lnkd.in/dKcyyuM](https://lnkd.in/dKcyyuM)
+
+      Spotify: [https://lnkd.in/d9E-5BC](https://lnkd.in/d9E-5BC)'
+  - name: Alexey Grigorev
+    text: Oh thank you!
+- name: Oleg Polivin
+  text: "Hi David Sweet\nThanks a lot for the opportunity to ask you a question!\nShall a data scientist\
+    \ know A/B testing well? \nHere is my reflection/speculation:\nI'm working as a data scientist for\
+    \ some time now, and I didn't have to use A/B testing so far. I know some basics, but surely there\
+    \ is much more to applying A/B tests in production. It looks like it is a must for \"data analyst\"\
+    \ positions. And I feel uncomfortable about this because:\n- I would speculate that A/B testing itself\
+    \ brings more value to a company than a bunch of data scientists.\n- I do not have that knowledge\
+    \ =&gt; am I/will be still relevant to the industry?"
+  replies:
+  - name: Eimhear Rainey
+    text: Great question Oleg. I'm a data analyst venturing out into the word of unit testing and wondering
+      if A/B testing is something I should be learning.
+  - name: David Sweet
+    text: 'A/B testing — and related methods — help you translate your data science work into concrete,
+      business terms.
+
+      For example: You might design a new feature and find that it reduces a model’s RMSE by .1%.  Is
+      that good? How good? Would your boss care if s/he’s not a data scientist? Would a shareholder care?
+
+      The question you need to answer is: How much impact does your new feature have on the business?  How
+      much extra revenue can the business generate by using your new feature? How much more do users enjoy
+      the product with your new feature?
+
+      You answer questions like that by running an A/B test comparing the original model (without your
+      feature, version A) to the new model (with your feature, version B). You run that test on the production
+      system — the web site or mobile app or whatever — and measure the business impact directly.
+
+      You could think of it this way: When you write a self-assessment at the end of a quarter or year,
+      would you rather write, “I improved RMSE by .1%” or “I added $XX million/year to the bottom line”?'
+  - name: Oleg Polivin
+    text: David thank you for this detailed answer, it is great!
+- name: Oleg Polivin
+  text: 'And a somewhat related question.
+
+    Would it be correct to say that A/B testing is mostly used in e-commerce, advertising industries,
+    and, more generally, where some kind of recommendations are involved?
+
+    That would explain my lack of knowledge of A/B tests since I have not worked in those industries.'
+  replies:
+  - name: David Sweet
+    text: 'Yes, A/B testing and related experimental methods are used in advertising and on recommender
+      systems. They are used to improve web sites, web and mobile applications (think Google, Facebook,
+      Instagram, Twitter, Spotify, Amazon, Uber, Apple products, and so on) and on trading systems.
+
+      In medicine, A/B tests are called random controlled trials (RCT), and are used to test the efficacy
+      of new medications and other types of treatments. Anywhere you see “Six Sigma”, “process improvement”,
+      etc. you’ll find A/B tests and related experimental methods. And, of course, you’ll find experiments
+      in the sciences.
+
+      A/B tests may be applied anywhere you need to make a comparison in the face of complexity and uncertainty.'
+  - name: Oleg Polivin
+    text: 'I have some experience in running experiments in Economics, but we never had to use multi-armed
+      bandits and we didn’t call it A/B testing, rather RCTs as well.
+
+      It also seems to me that organizing A/B tests in industrial setting is more complicated.
+
+      Thanks a lot!'
+- name: Alexey Grigorev
+  text: 'How much statistics do you think data scientists and analysts need for running A/B tests?
+
+    It feels that data scientists are not always good with stats and focus more on ML.'
+  replies:
+  - name: Alexey Grigorev
+    text: And often experimentation platforms take care of things like calculating the sample size. But
+      do we need to understand how these things work to be able to use them properly?
+- name: Tim Becker
+  text: Hi David Sweet, really interesting book! When I went through the introduction, I was wondering
+    what the biggest pitfalls are when evaluating models? What kind of mistakes are frequently made when
+    doing the final test in production. Also, when evaluating financial models, e.g. for stock trading,
+    isn't there a lot of randomness involved? How can we be sure about selecting the better model for
+    the future? Extending the period over which we compare both models?
+  replies:
+  - name: David Sweet
+    text: 'A mistake that is common, has a big impact, and is easy to avoid is early stopping. If your
+      A/B test design says “run for 10 days”, and you stop before 10 days because the t statistic looks
+      good, you’ve made the mistake of early stopping.  The t statistic itself is noisy and takes time
+      to settle down, so you really need to wait it out.
+
+      When you design an A/B test you’ll, in part, try to limit your false positive* rate to 5%. Early
+      stopping can easily make that rate much higher (like 50% or 75% or more).
+
+      *A “false positive” is when you think B looks better than A, but, in fact, it’s not.
+
+      ---
+
+      There is, indeed, a lot of randomness involve in financial models. It’s common to run an experiment
+      on high-frequency strategies or execution strategies (which also run on high-frequency data) in
+      1 week - 1 month, depending on the specifics of the system.'
+  - name: Tim Becker
+    text: David Sweet thank you for answering my questions. It is a quite challenging and interesting
+      topic.
+- name: Mansi Parikh
+  text: 'Hi, David! It''s nice of you to do this - thank you!
+
+    When easy-to-get large sample sizes generally cause most tests to be significant when means or proportions
+    are actually only slightly different, what do you do? Do you have to look into other parts of the
+    output, such Cohen''s D, to put the test in perspective?'
+  replies:
+  - name: David Sweet
+    text: 'If you have very large sample sizes, then you are fortunate. You’ll have very small standard
+      errors of your measurements of your business metric and can, thus, precisely measure the difference
+      in business metric between versions A and B of your system.
+
+      The question that remains is: How big of a difference you care about?  The answer to this question
+      is specific to your system. For example, if “version B” of an ad serving system produced $1,000/day
+      more than version A, would you care? It depends. If your company is a small startup that just started
+      serving ads and has little revenue then, yes! You need that $1k/day.
+
+      But if you work at Google, where ads produce $150B/year (I think), maybe you’d have to consider
+      whether $1k/day extra is worth the effort it takes to modify the code and the risk (however small)
+      of making a change to the system.
+
+      I like to think of this as the question of “practical significance” to differentiate it from statistical
+      significance. Statistical significance tells you how much to believe the measurement. Practical
+      significance tells you how much to care (from a business perspective) about the the value you measured.'
+- name: Mansi Parikh
+  text: Also, whenever you are cautious about your new variant possibly performing poorly compared to
+    your control, wouldn't you always go with a split that allocates less traffic/money/etc towards the
+    variant being tested? [https://geoffruddock.com/run-ab-test-with-unequal-sample-size/](https://geoffruddock.com/run-ab-test-with-unequal-sample-size/)
+  replies:
+  - name: David Sweet
+    text: 'Yes.
+
+      Generally, it’s a good idea to start very small. With a small size running you can detect bugs in
+      the new code, bugs in the measurement tooling, and very large, adverse changes in your metrics.
+      Then you can scale up to the full testing size.  Even that doesn’t necessarily need to be very large.
+      Like you said, you might want to keep it small for safety’s sake.
+
+      The tradeoff to keep in mind might be that small sizes will take more hours (or days) to run to
+      completion.'
+- name: Mansi Parikh
+  text: In most cases, we are running experiments with multifactorial designs. Is it appropriate to still
+    compare all treatments to a common single control (T1 vs C, T2 vs C, T3 vs C...) or perhaps create
+    many different single treatment + control cuts (T1 vs not T1, T2 vs not T2, T3 vs not T3...) and use
+    basic statistical hypothesis testing or should we graduate to something more sophisticated like an
+    ANOVA (though to derive meaning out of those, we'll typically run Tukey paired tests anyway)?
+  replies:
+  - name: David Sweet
+    text: You can compare all of the treatments to a common control, but you’ll need to use a Bonferroni
+      correction (or some other family-wise approach, if I understand correctly, is what you’re accounting
+      for with the Tukey paired tests) to get the right p values.
+- name: Kyle Shannon
+  text: ❓ Hey David Sweet, how do you handle evaluating multiple tests at once that could have interference
+    with each other? Perfect world is to isolate, but that rarely happens. I was wondering if you have
+    learned any tips or used any frameworks you liked
+  replies:
+  - name: David Sweet
+    text: 'This is a tough one. My knee-jerk reaction is to suggest finding a way to decouple them. 🙂
+      For example, if you have a version A and version B of a web app, each day (or each hour, or whatever)
+      you could flip coin and say, “heads we run A, tails we run B”. It’ll be lower precision that running
+      simultaneously, but at least they won’t interfere.
+
+      But if interference is unavoidable, I don’t have a good answer. Perhaps you could find a way to
+      model the interference.  I’m picturing something akin to “y ~ chi_A + chi_B + chi_AB” where y is
+      your business metric and the chi’s are indicator variables. If you could fit a model of (roughly)
+      that sort to your measurements, then maybe you could separate the effects of A and B from the effect
+      of the interaction.'
+  - name: Kyle Shannon
+    text: Thank you for the response, haven't done much with modeling for interference that's interesting.
+      Gotta love the ol coin flip 🙂
+- name: Hironori Sakai
+  text: Hello David Sweet, I have a question about the early stopping. In an ordinary (frequentist) A/B
+    test, we compute the (minimal) number of observations of the groups for the experiment for the stopping
+    condition in advance. How can we determine such a number in a Bayesian A/B test?
+  replies:
+  - name: David Sweet
+    text: "In the Bayesian approach — aka., multi-armed bandits — you don’t.\nWhen you design an A/B test\
+      \ you place two constraints on your measurement: (i) the false positive rate is limited (usually\
+      \ to 5%), and (ii) the false negative rate is limited (usually to 20%). You calculate the minimum\
+      \ number of observations needed to satisfy those constraints, given that there is variation (error)\
+      \ in your measurement.\nBandit methods optimize for business-metric impact. Bandit methods will\
+      \ monitor the business metrics and their standard errors for A and B and allocate more observations\
+      \ to A or B as needed to capitalize on business metric and/or decrease the standard error. \nBandit\
+      \ methods will likely lead to higher false positive &amp; false negative rates — especially when\
+      \ the business metric performance of A &amp; B are similar.  But the more similar they are, the\
+      \ less you care about telling them apart (if business metric maximization is your goal)."
+- name: Kyle Shannon
+  text: ❓ Do you have any suggestions of frameworks, tools or resources for  working with stakeholders
+    to help them better plan out their A/B tests?
+  replies:
+  - name: David Sweet
+    text: Names that come to mind are Optimizely and VWO, but I have not used them personally. A/B testing
+      is a big space, so you’ll find many other commercial and open source tools.
+  - name: Kyle Shannon
+    text: Cheers, thanks!
+  - name: Kyle Shannon
+    text: We're using a homegrown and looking to get something more managed currently checking out optimizely
+      heard some good things
+  - name: Alexey Grigorev
+    text: 'I''ve just come across this:
+
+      [https://docs.google.com/document/d/1uyQwvvFAa6I5aexiEmKWdHLoBzNPPskDKwEbAaOKe6M/edit?usp=sharing](https://docs.google.com/document/d/1uyQwvvFAa6I5aexiEmKWdHLoBzNPPskDKwEbAaOKe6M/edit?usp=sharing)'
+- name: Eric Sims
+  text: Ahhh! I need this book in my life! 😅 My co-worker and I have been breaking our brains over A/B
+    testing this week.
+  replies:
+  - name: David Sweet
+    text: 'Re: peeking
+
+      It’s terrible! Resist it! It can send your false positive rate through the roof.
+
+      Now, simply *looking* at the t stats and measurements, of course, won’t cause any problems. In fact,
+      you should watch to make sure that something isn’t going very wrong. After all, you’re testing something
+      new. It could have an adverse effect on your metrics.
+
+      The problem is really if you say: “The t statistic is high, and the B version looks better, so I’ll
+      stop now and switch over to B.”  Had you waited, the t stat might have come back down, and you might
+      not have been so excited about the B version and just stuck with A.  That’s how you drive your false
+      positive rate up.  That’s why you need to wait.'
+  - name: Eric Sims
+    text: Thank you!
+- name: Eric Sims
+  text: What is your opinion on 'peeking'? Is it terrible? Or is it something that people are going to
+    do no matter what so you try not to lose sleep over it?
+  replies: []
+- name: Eric Sims
+  text: Do you have any good analogies/examples to help people understand why ending a test when they
+    see what they want is not a good idea?  ...asking for a friend 🙂
+  replies: []
+- name: Lavanya M K
+  text: David Sweet what does "tuning up" in the book title mean🙂? Is it tuning abtest system or optimising
+    the business metrics?
+  replies:
+  - name: David Sweet
+    text: I’m using “tuning” to refer to the optimizing the business metrics. (Like setting the tuning
+      knob on a radio.)
+summary: 'Tuning Up: From A/B testing to Bayesian optimization is a toolbox for optimizing machine learning
+  systems,
+
+  quantitative trading strategies, and more. You’ll start with a deep dive into tests like A/B testing,
+
+  and then graduate to advanced techniques used to measure performance in highly competitive industries
+
+  like finance and social media. The tests in this unique, practical guide will quickly reveal which
+
+  approaches and features deliver real results for your business.'

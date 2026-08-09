@@ -1,0 +1,154 @@
+slug: production-ml-search-vector-search-embeddings-hybrid-search
+legacy_path: /podcast/production-ml-search-vector-search-embeddings-hybrid-search.html
+title: 'Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing'
+short: Building Machine Learning Products
+season: 17
+episode: 8
+guests:
+- reemmahmoud
+image: images/podcast/production-ml-search-vector-search-embeddings-hybrid search.jpg
+ids:
+  anchor: datatalksclub/episodes/Building-Machine-Learning-Products---Reem-Mahmoud-e2gttcd
+  youtube: m45tNY-8gY8
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Building-Machine-Learning-Products---Reem-Mahmoud-e2gttcd
+  apple: https://podcasts.apple.com/us/podcast/building-machine-learning-products-reem-mahmoud/id1541710331?i=1000649393833
+  spotify: https://open.spotify.com/episode/4jNredXndQ2b2evgfSmD2G?si=gU2kT-zXSX27hDPgLtwMgQ
+  youtube: https://www.youtube.com/watch?v=m45tNY-8gY8
+description: 'Master vector search, embeddings and hybrid search: scalable indexing, multimodal retrieval
+  and ranking tactics to boost relevance and reduce latency.'
+topics:
+- LLMs
+- NLP
+- machine learning
+- MLOps
+- data engineering
+intro: How do you move from prototypes to production ML search that scales and stays relevant? In this
+  episode Reem Mahmoud, Director of Data Science at intervu.ai, breaks down practical approaches to building
+  production ML search systems—focusing on embeddings, hybrid architectures, and scalable indexing. <br><br>
+  We cover core concepts like inverted indexes and Lucene basics, candidate generation versus ML ranking,
+  and why you should avoid hand-rolling indexes. Dive into vector search fundamentals—embeddings as shared
+  representations, embedding pipelines, and the trade-offs between vector compute and storage. Learn how
+  multimodal embeddings (text, images, CLIP) and feature fusion enable richer relevance, and how hybrid
+  search combines vector similarity with filters, recency, and business constraints. The episode also
+  explores time encoding in embeddings, query-time weighting, LLMs versus specialized encoders, vector
+  DB selection, and operationalization—offline tests, A/B metrics, and enabling engineers for fast iteration.
+  <br><br> Listen for actionable guidance on scalable indexing strategies, choosing a vector DB, and measuring
+  search impact so you can design reliable production search that balances latency, relevance, and business
+  KPIs.
+dateadded: 2024-03-17
+duration: PT01H05M23S
+quotableClips:
+- name: 'Guest Introduction: Daniel, Superlinked, and VectorHub'
+  startOffset: 107
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=107
+  endOffset: 149
+- name: 'Career Journey: Competitive programming, startups, and YouTube Ads'
+  startOffset: 149
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=149
+  endOffset: 380
+- name: 'Competitive Programming to Infrastructure: relevance of algorithms'
+  startOffset: 380
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=380
+  endOffset: 480
+- name: 'Defining Search: Information retrieval as a decision problem'
+  startOffset: 480
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=480
+  endOffset: 550
+- name: 'Search vs Recommenders: Representation learning overview'
+  startOffset: 550
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=550
+  endOffset: 645
+- name: 'Search Constraints: Latency and user experience impact'
+  startOffset: 645
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=645
+  endOffset: 689
+- name: 'Text Search Fundamentals: Inverted index and Lucene basics'
+  startOffset: 689
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=689
+  endOffset: 765
+- name: 'Search Architecture: Candidate generation (retrieval) and ML ranking'
+  startOffset: 765
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=765
+  endOffset: 1060
+- name: 'Indexing Documents: Practical tools and why not to hand-roll indexes'
+  startOffset: 1060
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=1060
+  endOffset: 1202
+- name: 'Keyword Search Challenges: Brittleness, synonyms, and rule complexity'
+  startOffset: 1202
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=1202
+  endOffset: 1315
+- name: 'Vector Search Fundamentals: Embeddings as shared representations'
+  startOffset: 1315
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=1315
+  endOffset: 1740
+- name: 'Vector Compute vs Storage: Embedding generation and ingestion pipelines'
+  startOffset: 1740
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=1740
+  endOffset: 1993
+- name: 'Multimodal Embeddings: Images, text, CLIP, and modality fusion'
+  startOffset: 1993
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=1993
+  endOffset: 2040
+- name: 'Hybrid Search: Combining vector similarity with filters and recency'
+  startOffset: 2040
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2040
+  endOffset: 2330
+- name: 'Feature Fusion: Encoding metadata, behavior, and popularity into vectors'
+  startOffset: 2330
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2330
+  endOffset: 2393
+- name: 'Expressing Constraints: Translating filters and business rules to vectors'
+  startOffset: 2393
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2393
+  endOffset: 2516
+- name: 'Time Encoding in Embeddings: Timestamps, positional encodings, and decay'
+  startOffset: 2516
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2516
+  endOffset: 2711
+- name: 'Query-Time Weighting: Normalization, weights, and context-specific tuning'
+  startOffset: 2711
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2711
+  endOffset: 2857
+- name: 'LLMs vs Specialized Encoders: Prompting trade-offs and efficiency limits'
+  startOffset: 2857
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2857
+  endOffset: 2976
+- name: 'Learning Resources: VectorHub tutorials, graph and multimodal examples'
+  startOffset: 2976
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=2976
+  endOffset: 3155
+- name: 'Vector DB Selection: Vendor comparison and trade-offs'
+  startOffset: 3155
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=3155
+  endOffset: 3353
+- name: 'Monolithic vs Specialized Systems: Lucene/elasticsearch versus dedicated VDBs'
+  startOffset: 3353
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=3353
+  endOffset: 3497
+- name: 'E-commerce Personalization: Prototyping with embeddings and CLIP'
+  startOffset: 3497
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=3497
+  endOffset: 3685
+- name: 'Search Metrics: Business KPIs, A/B tests, and revenue attribution'
+  startOffset: 3685
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=3685
+  endOffset: 3830
+- name: 'Operationalization: Enabling engineers, offline tests, and fast iteration'
+  startOffset: 3830
+  url: https://www.youtube.com/watch?v=m45tNY-8gY8&t=3830
+  endOffset: 4008
+context: 'Modern search is best understood as a decision-making system: moving beyond brittle keyword
+  matching to learned, shared representations (embeddings) that, when combined with traditional IR constraints
+  (filters, recency, business rules), multimodal signals, and time-aware encodings, enable scalable, reliable
+  retrieval and ranking. The real unifying challenge is not just model choice (LLMs vs specialized encoders)
+  but engineering—indexing, compute/storage trade-offs, hybrid architectures, query-time weighting, operational
+  tooling, vendor selection, and metrics-driven iteration—so that representation learning translates into
+  measurable product and business outcomes.'
+transcript: transcripts/production-ml-search-vector-search-embeddings-hybrid-search.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/reemmahmoud/recent-activity/all/
+- title: Website
+  url: https://topmate.io/reem_mahmoud

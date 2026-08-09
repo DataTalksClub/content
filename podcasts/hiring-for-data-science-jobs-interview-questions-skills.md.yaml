@@ -1,0 +1,126 @@
+slug: hiring-for-data-science-jobs-interview-questions-skills.md
+legacy_path: /podcast/hiring-for-data-science-jobs-interview-questions-skills.md.html
+title: 'How to Hire Data Scientists: Interview Questions, MLOps, AutoML Limits & Inclusive Hiring'
+short: Hiring Data Science Talent
+season: 9
+episode: 9
+guests:
+- olgaivina
+image: images/podcast/hiring-for-data-science-jobs-interview-questions-skills.md.jpg
+ids:
+  anchor: Hiring-Data-Science-Talent---Olga-Ivina-e1l4aku
+  youtube: Af9t9r2b0z0
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/Hiring-Data-Science-Talent---Olga-Ivina-e1l4aku
+  apple: https://podcasts.apple.com/us/podcast/hiring-data-science-talent-olga-ivina/id1541710331?i=1000570846380
+  spotify: https://open.spotify.com/episode/7ddvA9zNTip5Bt6EYnMNty?si=4fee84a6ad43465d
+  youtube: https://www.youtube.com/watch?v=Af9t9r2b0z0
+description: 'Learn to hire data scientists: interview questions, MLOps insights and inclusive hiring
+  tactics to assess technical depth, AutoML limits and build better teams.'
+intro: 'How do you hire the right data scientists today—balancing algorithmic depth, MLOps skills, and
+  inclusive hiring practices? In this episode, Olga Ivina, Delivery Data Science Director at Microsoft
+  and former Deloitte consultant with a Ph.D. and 16+ years in AI, walks through practical strategies
+  for recruiting strong data science talent. <br><br> Olga draws on her journey from applied mathematics
+  and air pollution research to leading delivery teams to explain core hiring criteria: technical excellence,
+  growth mindset, communication, and humility. We cover concrete interview questions and diagnostic problems
+  that reveal algorithmic understanding and assumptions, how to structure coding and analytical tasks,
+  and ways to assess role fit between mathematical expertise and engineering skills. The conversation
+  also addresses the rise of MLOps, realistic limits of AutoML and the human-in-the-loop, career path
+  trade-offs, and interviewing candidates with employment gaps. <br><br> If you’re hiring data scientists
+  or building interview processes, this episode delivers actionable frameworks, sample diagnostic questions,
+  and inclusive hiring tips—language to avoid in job posts and strategies to attract diverse candidates—so
+  you can evaluate both technical depth and practical delivery capability.'
+topics:
+- data science
+- career growth
+- hiring
+- MLOps
+dateadded: 2022-07-22
+duration: PT00H58M12S
+quotableClips:
+- name: Episode Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=0
+  endOffset: 104
+- name: 'Career Beginnings: Applied mathematics, forecasting, and consulting'
+  startOffset: 104
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=104
+  endOffset: 385
+- name: 'PhD Research: Air pollution modeling and conformal prediction'
+  startOffset: 385
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=385
+  endOffset: 510
+- name: 'Current Role: Leading delivery data science teams and startup support'
+  startOffset: 510
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=510
+  endOffset: 638
+- name: 'Evolution of Data Science: Skill changes and rise of MLOps'
+  startOffset: 638
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=638
+  endOffset: 889
+- name: 'Core Hiring Criteria: Technical excellence and growth mindset'
+  startOffset: 889
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=889
+  endOffset: 945
+- name: 'Technical Depth: Demonstrating algorithmic understanding and assumptions'
+  startOffset: 945
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=945
+  endOffset: 1083
+- name: 'Attitude & Motivation: Assessing passion, humility, and communication'
+  startOffset: 1083
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1083
+  endOffset: 1216
+- name: 'Podcasting as Learning: Conversations that shape career perspectives'
+  startOffset: 1216
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1216
+  endOffset: 1381
+- name: 'Staying Current: Sources for data science and engineering updates'
+  startOffset: 1381
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1381
+  endOffset: 1521
+- name: 'Technical Interviews: Coding, analytical tasks, and objective criteria'
+  startOffset: 1521
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1521
+  endOffset: 1712
+- name: 'Diagnostic Questions: Sample problems that reveal depth of knowledge'
+  startOffset: 1712
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1712
+  endOffset: 1875
+- name: 'Foundational Skills: Descriptive statistics and recommended reading'
+  startOffset: 1875
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1875
+  endOffset: 1952
+- name: 'Role Fit: Hiring for mathematical expertise versus engineering skills'
+  startOffset: 1952
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=1952
+  endOffset: 2264
+- name: 'AutoML & Automation: Limits of AutoML and the human-in-the-loop'
+  startOffset: 2264
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=2264
+  endOffset: 2529
+- name: 'Career Paths: Individual contributor vs management trade-offs'
+  startOffset: 2529
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=2529
+  endOffset: 2737
+- name: 'Career Transition: From data analyst to data scientist'
+  startOffset: 2737
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=2737
+  endOffset: 2826
+- name: 'Diversity Hiring: Strategies to attract female data science talent'
+  startOffset: 2826
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=2826
+  endOffset: 3233
+- name: 'Inclusive Job Posts: Language, requirements, and avoiding discouraging wording'
+  startOffset: 3233
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=3233
+  endOffset: 3391
+- name: 'Employment Gaps: Evaluating candidates with long CV breaks'
+  startOffset: 3391
+  url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=3391
+  endOffset: 3553
+transcript: transcripts/hiring-for-data-science-jobs-interview-questions-skills.md.yaml
+resources:
+- title: Olga's LinkedIn
+  url: https://www.linkedin.com/in/olgaivina/
+- title: Olga's Twitter
+  url: https://twitter.com/olgaivina

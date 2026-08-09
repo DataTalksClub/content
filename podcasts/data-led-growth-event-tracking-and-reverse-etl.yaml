@@ -1,0 +1,139 @@
+slug: data-led-growth-event-tracking-and-reverse-etl
+legacy_path: /podcast/data-led-growth-event-tracking-and-reverse-etl.html
+title: 'How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL'
+short: Becoming a Data-led Professional
+season: 3
+episode: 8
+guests:
+- arpitchoudhury
+image: images/podcast/data-led-growth-event-tracking-and-reverse-etl.jpg
+ids:
+  youtube: 8v5KpHWgyYw
+  anchor: Becoming-a-Data-led-Professional---Arpit-Choudhury-e11mkgq
+links:
+  youtube: https://www.youtube.com/watch?v=8v5KpHWgyYw
+  anchor: https://anchor.fm/datatalksclub/episodes/Becoming-a-Data-led-Professional---Arpit-Choudhury-e11mkgq
+  spotify: https://open.spotify.com/episode/2hg3Gi3h5OfdedXENwZwnU
+  apple: https://podcasts.apple.com/us/podcast/becoming-a-data-led-professional-arpit-choudhury/id1541710331?i=1000523422699
+description: Build a data-led growth stack with event tracking, tracking plans & Reverse ETL to activate
+  product data for precise experimentation, personalization, and ops
+intro: 'How do you design a data-led growth stack that reliably powers personalization, activation, and
+  operational workflows? In this episode, Arpit Choudhury, founder of Data-led Academy, walks through
+  the practical steps of building a data-led growth stack focused on event tracking, documented tracking
+  plans, and reverse ETL. <br><br> Arpit — who runs Data-led Academy to teach data skills for non-technical
+  and technical teams alike — breaks down the full data flow: collection (client- vs server-side events),
+  storage (warehouses like Snowflake, BigQuery, Redshift), transformation (DBT), analysis (product analytics),
+  and activation (reverse ETL to support, sales, and engagement tools). He covers how to create tracking
+  plans and instrument events (signup, project created, invite, invoice), common tooling (Segment, RudderStack,
+  MetaRouter, Freshpaint, AVO, Iteratively, TrackPlan), and reverse ETL platforms (Census, Hightouch,
+  Grouparoo). You’ll also hear trade-offs around CDPs versus warehouse-centric approaches, buy vs build
+  decisions, and the team roles and documentation practices needed to democratize data. <br><br> Listen
+  to learn concrete patterns for event tracking, tracking-plan ownership, anomaly investigation, and activating
+  product data to drive growth without sacrificing data quality.'
+topics:
+- data engineering
+- tools
+dateadded: 2021-05-29
+duration: PT01H21S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=0
+  endOffset: 141
+- name: 'DataLed Academy: free learning, repository & podcast'
+  startOffset: 141
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=141
+  endOffset: 306
+- name: 'Career trajectory: integrations, Integromat & community growth'
+  startOffset: 306
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=306
+  endOffset: 441
+- name: 'Growth marketing: A/B testing, personalization & product data'
+  startOffset: 441
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=441
+  endOffset: 586
+- name: 'Marketer tooling: visual queries and self-serve data access'
+  startOffset: 586
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=586
+  endOffset: 645
+- name: 'Definition: data-led professional — source awareness & data skepticism'
+  startOffset: 645
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=645
+  endOffset: 693
+- name: 'Data-led vs. data-driven: balancing data, intuition & bias'
+  startOffset: 693
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=693
+  endOffset: 814
+- name: 'Tracking plan & instrumentation: documenting events, properties & ownership'
+  startOffset: 814
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=814
+  endOffset: 1107
+- name: 'Anomaly investigation: tracing event origins and fake signups'
+  startOffset: 1107
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1107
+  endOffset: 1247
+- name: 'Collaborative tracking tools: AVO, Iteratively, TrackPlan'
+  startOffset: 1247
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1247
+  endOffset: 1370
+- name: 'Data flow overview: collection, storage, analysis and activation'
+  startOffset: 1370
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1370
+  endOffset: 1483
+- name: 'Event examples for SaaS: signup, project created, invite, invoice'
+  startOffset: 1483
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1483
+  endOffset: 1620
+- name: 'Client-side vs. server-side events: timing, accuracy and use cases'
+  startOffset: 1620
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1620
+  endOffset: 1732
+- name: 'Data warehousing & transformation: warehouses, DBT and BI analysis'
+  startOffset: 1732
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1732
+  endOffset: 1803
+- name: 'Data activation: sending event data to support, sales and engagement tools'
+  startOffset: 1803
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1803
+  endOffset: 2021
+- name: 'Data collection platforms: Segment, RudderStack, MetaRouter, Freshpaint'
+  startOffset: 2021
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2021
+  endOffset: 2127
+- name: 'Warehouse-centric analytics: Snowflake, BigQuery, Redshift & warehouse-first tools'
+  startOffset: 2127
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2127
+  endOffset: 2245
+- name: 'Reverse ETL / operational analytics: Census, HighTouch, Grouparoo'
+  startOffset: 2245
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2245
+  endOffset: 2300
+- name: 'Customer Data Platforms (CDP): all-in-one trade-offs for marketers'
+  startOffset: 2300
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2300
+  endOffset: 2490
+- name: 'Modern data stack for growth: CDI, product analytics, warehouse & reverse ETL'
+  startOffset: 2490
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2490
+  endOffset: 2630
+- name: 'Buy vs. build: cost, maintenance and open-source alternatives'
+  startOffset: 2630
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2630
+  endOffset: 2773
+- name: 'Team composition: data engineer, analyst, analytics engineer & product ops'
+  startOffset: 2773
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=2773
+  endOffset: 3100
+- name: 'Data democratization: data literacy, documentation & self-serve analytics'
+  startOffset: 3100
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3100
+  endOffset: 3228
+- name: 'Motivating documentation: culture, early habits & catalog tools'
+  startOffset: 3228
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3228
+  endOffset: 3368
+- name: 'Product-led vs. data-led: activation events and personalized onboarding'
+  startOffset: 3368
+  url: https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3368
+  endOffset: 3629
+transcript: transcripts/data-led-growth-event-tracking-and-reverse-etl.yaml

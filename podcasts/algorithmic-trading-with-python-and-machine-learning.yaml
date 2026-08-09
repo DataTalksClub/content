@@ -1,0 +1,163 @@
+slug: algorithmic-trading-with-python-and-machine-learning
+legacy_path: /podcast/algorithmic-trading-with-python-and-machine-learning.html
+title: 'Algorithmic Trading with Python: Backtesting, Risk Management and Deployment'
+short: Stock Market Analysis with Python and Machine Learning
+season: 17
+episode: 3
+guests:
+- ivanbrigida
+image: images/podcast/algorithmic-trading-with-python-and-machine-learning.jpg
+ids:
+  anchor: datatalksclub/episodes/Stock-Market-Analysis-with-Python-and-Machine-Learning---Ivan-Brigida-e2e6ph2
+  youtube: NThHAEIazFk
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Stock-Market-Analysis-with-Python-and-Machine-Learning---Ivan-Brigida-e2e6ph2
+  apple: https://podcasts.apple.com/us/podcast/stock-market-analysis-with-python-and-machine/id1541710331?i=1000641465239
+  spotify: https://open.spotify.com/episode/1ZXAeGr4Kx7F6oLQUip8Cc?si=KJwpYL-3SvuX8nPdc2cyOg
+  youtube: https://www.youtube.com/watch?v=NThHAEIazFk
+description: 'Master algorithmic trading: backtesting and risk management—learn practical data sources,
+  features, models & execution to build robust strategies.'
+topics:
+- machine learning
+- data science
+- MLOps
+- algorithmic trading
+- tools
+intro: How do you turn a trading idea into a robust, risk-managed algorithm in Python? In this episode
+  Ivan Brigida — analytics lead behind PythonInvest with 10+ years in statistical modeling, forecasting,
+  econometrics and finance — walks through practical steps for algorithmic trading with Python, from data
+  sourcing to deployment (and a clear reminder this is educational, not investment advice). <br><br> We
+  cover where retail traders get market data (Yahoo, Quandl, Polygon), OHLCV and adjusted-close nuances,
+  and a concrete mean-reversion example. Ivan explains backtesting methodology, common pitfalls like time-series
+  data leakage, and walk-forward simulation for realistic validation. He breaks down risk management (stop-loss
+  thresholds, position sizing), execution and trading fees, plus evaluation metrics (ROI, precision) and
+  defining prediction targets (binary growth thresholds such as 5%). <br><br> On the modeling side you’ll
+  hear practical feature engineering (time-window stats, handcrafted indicators), model choices (logistic
+  regression, XGBoost, neural nets), explainability via feature importance, and deployment options (cron,
+  Airflow, APIs, partial automation). Listen to gain actionable guidance for building, validating, and
+  deploying algorithmic trading systems in Python.
+dateadded: 2024-01-24
+duration: PT01H40S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=0
+  endOffset: 95
+- name: 'Guest Introduction: Ivan Brigida — Analytics Lead & PythonInvest'
+  startOffset: 95
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=95
+  endOffset: 128
+- name: 'Disclaimer: Financial discussion, not investment advice'
+  startOffset: 128
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=128
+  endOffset: 233
+- name: Background & career trajectory from finance to analytics
+  startOffset: 233
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=233
+  endOffset: 402
+- name: Google experience and role transitions
+  startOffset: 402
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=402
+  endOffset: 449
+- name: Choosing individual contributor work over people management
+  startOffset: 449
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=449
+  endOffset: 565
+- name: 'Investing interest: economics education to practical trading'
+  startOffset: 565
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=565
+  endOffset: 707
+- name: Blogging & building a pet project to test strategies
+  startOffset: 707
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=707
+  endOffset: 795
+- name: Financial data sources and APIs for retail investors (Yahoo, Quandl, Polygon)
+  startOffset: 795
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=795
+  endOffset: 923
+- name: 'Market data format explained: OHLCV time series'
+  startOffset: 923
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=923
+  endOffset: 1119
+- name: Adjusted close and data quality considerations
+  startOffset: 1119
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=1119
+  endOffset: 1187
+- name: 'Mean reversion strategy: concept and application'
+  startOffset: 1187
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=1187
+  endOffset: 1334
+- name: Risk management fundamentals and stop-loss thresholds
+  startOffset: 1334
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=1334
+  endOffset: 1608
+- name: Backtesting methodology and avoiding time-series data leakage
+  startOffset: 1608
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=1608
+  endOffset: 1784
+- name: 'Walk-forward simulation: weekly predictions and selection rules'
+  startOffset: 1784
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=1784
+  endOffset: 2115
+- name: Trade execution and position sizing for algorithmic strategies
+  startOffset: 2115
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2115
+  endOffset: 2304
+- name: 'Discipline: sticking to strategy vs emotional trading'
+  startOffset: 2304
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2304
+  endOffset: 2451
+- name: 'Evaluation metrics: ROI, precision focus, and trading fees impact'
+  startOffset: 2451
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2451
+  endOffset: 2619
+- name: 'Prediction target definition: binary growth thresholds (e.g., 5%)'
+  startOffset: 2619
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2619
+  endOffset: 2755
+- name: 'Feature engineering: time-window stats and handcrafted indicators'
+  startOffset: 2755
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2755
+  endOffset: 2882
+- name: 'Model choices: logistic regression, XGBoost, NN for stock prediction'
+  startOffset: 2882
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2882
+  endOffset: 2998
+- name: 'Explainability: feature importance and model debugging'
+  startOffset: 2998
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=2998
+  endOffset: 3106
+- name: 'Deployment options: cron, Airflow, APIs and partial automation'
+  startOffset: 3106
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=3106
+  endOffset: 3305
+- name: 'Learning pathways: MLOps, ML Zoomcamp, and practical projects'
+  startOffset: 3305
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=3305
+  endOffset: 3449
+- name: 'PythonInvest content: API guides, models, portfolio allocation stories'
+  startOffset: 3449
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=3449
+  endOffset: 3666
+- name: Course plans, sign-up, and community building
+  startOffset: 3666
+  url: https://www.youtube.com/watch?v=NThHAEIazFk&t=3666
+  endOffset: 3696
+context: 'Context: This episode follows Ivan Brigida’s path from finance to analytics and walks listeners
+  step-by-step through the practical craft of retail algorithmic investing — covering data sources and
+  quality, time-series market formats, strategy ideas (like mean reversion), rigorous backtesting and
+  walk-forward validation, risk management and execution, feature engineering and model choice, explainability,
+  deployment, and learning resources.
+
+  Core: The unifying idea is that successful retail algorithmic trading is built like an engineering pipeline
+  — start with clean, well-understood data; define precise prediction targets; design simple, interpretable
+  models and handcrafted features; validate performance with rigorous, leakage-free backtests and walk-forward
+  simulations; embed strict risk controls and disciplined execution; and iterate toward partial automation
+  and reproducible deployment while treating the whole process as a continuous learning project rather
+  than a shortcut to quick profits.'
+transcript: transcripts/algorithmic-trading-with-python-and-machine-learning.yaml
+resources:
+- title: Exploring Finance APIs
+  url: https://pythoninvest.com/long-read/exploring-finance-apis
+- title: Python Invest Blog Articles
+  url: https://pythoninvest.com/blog

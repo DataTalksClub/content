@@ -1,0 +1,161 @@
+slug: practical-llm-engineering-and-rag
+legacy_path: /podcast/practical-llm-engineering-and-rag.html
+title: 'Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows'
+short: How to Build and Evaluate AI systems in the Age of LLMs
+season: 22
+episode: 4
+guests:
+- hugobowneanderson
+image: images/podcast/practical-llm-engineering-and-rag.jpg
+ids:
+  anchor: datatalksclub/episodes/How-to-Build-and-Evaluate-AI-systems-in-the-Age-of-LLMs---Hugo-Bowne-Anderson-e39vt24
+  youtube: eC3RNuI6ow0
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/How-to-Build-and-Evaluate-AI-systems-in-the-Age-of-LLMs---Hugo-Bowne-Anderson-e39vt24
+  apple: https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-systems-in-the-age-of/id1541710331?i=1000733350691
+  spotify: https://open.spotify.com/episode/2RD2qXaYa2ZjKjuIE7Aj6O
+  youtube: https://www.youtube.com/watch?v=eC3RNuI6ow0
+description: 'Discover LLM engineering and RAG best practices: practical prompting, evaluation methods
+  and deployment workflows to boost accuracy and retrieval.'
+topics:
+- LLMs
+- NLP
+- MLOps
+- tools
+intro: How do you move from experimentation to reliable, production-ready LLM engineering and retrieval-augmented
+  generation (RAG)? In this episode Hugo Bowne-Anderson — Head of Developer Relations at Outerbounds,
+  longtime data scientist, educator, and host of Vanishing Gradients — walks through practical patterns
+  for building, evaluating, and scaling real-world LLM workflows. <br><br> We cover everyday LLM use cases
+  (summaries, translation, CSV work), prompting best practices (role prompts, structured output, timestamps),
+  and transcript pipelines using Gemini, Descript, Loom and automation with GitHub Actions. Hugo explains
+  the generator–evaluator pattern for automated quality control, how to design evaluation sets and failure
+  analysis, and concrete chunking strategies (fixed length, sliding windows, context rotation) that unlock
+  RAG performance. He also discusses when to add tooling or agentic capabilities, a four-step framework
+  for agents, memory design tradeoffs, and a practical email assistant example using the Gmail API plus
+  RAG. <br><br> Listen to learn actionable guidance on prioritizing RAG for quick business wins, building
+  debuggable MVPs with logging and traces, and setting up evaluation and monitoring so your LLMs deliver
+  dependable results in production.
+dateadded: 2025-10-27
+date: 2025-11-07
+duration: PT01H01M30S
+quotableClips:
+- name: Podcast Kickoff & Hugo Bowne-Anderson Background
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=0
+  endOffset: 72
+- name: 'Vanishing Gradients vs High Signal: Podcast Formats & Audiences'
+  startOffset: 72
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=72
+  endOffset: 124
+- name: 'From Academia to Industry: Biology Research, Python, and PyData'
+  startOffset: 124
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=124
+  endOffset: 207
+- name: 'Early Industry Work: DataCamp Curriculum and Product Roles'
+  startOffset: 207
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=207
+  endOffset: 237
+- name: 'Transition to Freelance: Consulting, Teaching, and DevRel'
+  startOffset: 237
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=237
+  endOffset: 431
+- name: 'Consulting vs Advisory: Hands-On Coding and Organizational Advice'
+  startOffset: 431
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=431
+  endOffset: 504
+- name: 'Driving AI Adoption: Loss Aversion and Dedicated Experimentation Time'
+  startOffset: 504
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=504
+  endOffset: 568
+- name: 'Everyday LLM Use Cases: Summaries, Translation, and CSV Workflows'
+  startOffset: 568
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=568
+  endOffset: 671
+- name: 'Prompting Best Practices: Role Prompts, Structured Output, and Timestamps'
+  startOffset: 671
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=671
+  endOffset: 742
+- name: 'Transcript Workflows: Gemini, Descript, Loom and Automation Tools'
+  startOffset: 742
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=742
+  endOffset: 836
+- name: 'Generator–Evaluator Pattern: Automated Quality Control for Outputs'
+  startOffset: 836
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=836
+  endOffset: 1058
+- name: 'Scaling Transcript Pipelines: Automation with GitHub Actions'
+  startOffset: 1058
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1058
+  endOffset: 1380
+- name: 'Evaluation Sets for LLMs: Gold Tests, Size, Cost, and Representativeness'
+  startOffset: 1380
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1380
+  endOffset: 1603
+- name: 'Failure Analysis: Categorizing Errors and Prioritizing Retrieval Fixes'
+  startOffset: 1603
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1603
+  endOffset: 1658
+- name: 'Vibe Coding & Monitoring: Logging, Traces, and Debuggable MVPs'
+  startOffset: 1658
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1658
+  endOffset: 1916
+- name: 'Developer Tools & Assistants: GitHub Copilot, Cursor, and IDE Agents'
+  startOffset: 1916
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1916
+  endOffset: 1994
+- name: 'Embedded Agents in Workflows: Slack Integration and Proactive Assistants'
+  startOffset: 1994
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1994
+  endOffset: 2412
+- name: 'Agentic Value Beyond Chat: Actions, Documents, and Automation'
+  startOffset: 2412
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=2412
+  endOffset: 2666
+- name: 'Prioritizing RAG: Quick Business Wins with Chunking and Embeddings'
+  startOffset: 2666
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=2666
+  endOffset: 2900
+- name: 'Chunking Strategies: Fixed Length, Sliding Windows, and Context Rot'
+  startOffset: 2900
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=2900
+  endOffset: 3019
+- name: 'When to Add Tooling: Moving from RAG to Agents and Tool Calls'
+  startOffset: 3019
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3019
+  endOffset: 3214
+- name: 'Practical Build: Email Assistant Example using Gmail API + RAG'
+  startOffset: 3214
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3214
+  endOffset: 3381
+- name: 'Four-Step Framework for Agents: Problem, Start Small, Data, Evaluation'
+  startOffset: 3381
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3381
+  endOffset: 3461
+- name: 'Memory Design: Retrieval-Based Memory vs Multi-Turn Conversation Memory'
+  startOffset: 3461
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3461
+  endOffset: 3655
+- name: 'Episode Wrap-Up: Key Takeaways, Courses, and Next Steps'
+  startOffset: 3655
+  url: https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3655
+  endOffset: 3690
+context: 'Context: This episode surveys practical, hands-on patterns—RAG, chunking, prompting, generator–evaluator
+  workflows, transcript pipelines, evaluation sets, monitoring, agents, memory design, and developer tooling—drawn
+  from moving models from prototypes into real products across consulting, DevRel, and engineering roles.
+
+  Core: The unifying idea is pragmatic, iterative engineering of LLM-powered systems: prioritize retrieval-first
+  solutions that deliver immediate business value, instrument rigorous evaluation and monitoring (gold
+  tests, failure analysis, generator–evaluator), automate pipelines and reproducible workflows, and only
+  escalate to agentic tooling or persistent memory once data, metrics, and clear ROI justify the added
+  complexity—treating AI as an integrated augmentation that must be built, tested, and scaled with standard
+  software engineering practices.'
+transcript: transcripts/practical-llm-engineering-and-rag.yaml
+resources:
+- title: Twitter
+  url: https://x.com/hugobowne
+- title: Linkedin
+  url: https://www.linkedin.com/in/hugo-bowne-anderson-045939a5/
+- title: Github
+  url: https://github.com/hugobowne
+- title: Website
+  url: https://hugobowne.github.io/

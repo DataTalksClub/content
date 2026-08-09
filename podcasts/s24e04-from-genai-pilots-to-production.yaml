@@ -1,0 +1,25 @@
+slug: s24e04-from-genai-pilots-to-production
+legacy_path: /podcast/s24e04-from-genai-pilots-to-production.html
+episode: 4
+guests:
+- nikitakozodoi
+ids:
+  anchor: datatalksclub/episodes/From-GenAI-Pilots-to-Production---Nikita-Kozodoi-e3kc7uh
+  youtube: 1LhvqZvDT5w
+image: images/podcast/s24e04-from-genai-pilots-to-production.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/From-GenAI-Pilots-to-Production---Nikita-Kozodoi-e3kc7uh
+  apple: https://podcasts.apple.com/us/podcast/from-genai-pilots-to-production-nikita-kozodoi/id1541710331?i=1000771350776
+  spotify: https://open.spotify.com/episode/6PDxN20VMKvkwLyVyG5uvX?si=b75bd781f72c4098
+  youtube: https://www.youtube.com/watch?v=1LhvqZvDT5w
+season: 24
+short: From GenAI Pilots to Production
+title: From GenAI Pilots to Production
+transcript: transcripts/s24e04-from-genai-pilots-to-production.yaml
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/kozodoi/
+- title: Github
+  url: https://github.com/kozodoi
+- title: Website and blog
+  url: https://www.kozodoi.me/

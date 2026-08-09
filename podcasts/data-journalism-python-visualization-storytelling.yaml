@@ -1,0 +1,163 @@
+slug: data-journalism-python-visualization-storytelling
+legacy_path: /podcast/data-journalism-python-visualization-storytelling.html
+title: 'Practical Data Journalism: Sourcing, Storytelling, Visualization & Tools (Python, Tableau)'
+short: Technical Writing and Data Journalism
+season: 11
+episode: 8
+guests:
+- angelicaloduca
+image: images/podcast/data-journalism-python-visualization-storytelling.jpg
+ids:
+  anchor: Technical-Writing-and-Data-Journalism---Angelica-Lo-Duca-e1r7j8k
+  youtube: uO_lk12q02A
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/Technical-Writing-and-Data-Journalism---Angelica-Lo-Duca-e1r7j8k
+  apple: https://podcasts.apple.com/us/podcast/technical-writing-and-data-journalism-angelica-lo-duca/id1541710331?i=1000587507530
+  spotify: https://open.spotify.com/episode/38b2Y9KgxSFlIHPZ3jqheK?si=SPiURO1bTamVKrKV_laVDQ
+  youtube: https://www.youtube.com/watch?v=uO_lk12q02A
+description: 'Discover data journalism: sourcing, storytelling & visualization with Python and Tableau—learn
+  tools, workflows and publishing tips to craft compelling stories.'
+intro: 'How do you transform raw data into compelling, trustworthy journalism that readers can understand
+  and act upon? In this episode, Angelica Lo Duca—researcher at the Institute of Informatics and Telematics
+  (CNR) and Data Journalism professor at the University of Pisa—shares practical frameworks for data journalism
+  covering sourcing, storytelling, visualization, and essential tools like Python and Tableau. <br><br>
+  Drawing from her journey through cryptography, web development, and data science, Angelica tackles real-world
+  challenges: finding reliable small datasets on the web, working with query engines like Presto and Trino,
+  and learning from investigative work like Washington Post projects. She distinguishes data journalism
+  from data science, reveals teaching approaches for digital humanities students, and breaks down an effective
+  writer''s workflow: problem identification → solution development → clear results presentation, complete
+  with code repositories and step-by-step clarity. <br><br> You''ll gain concrete strategies for converting
+  dense reports and survey PDFs into engaging narratives, visualization best practices (one concept per
+  chart, choosing tables over confusing pie charts), tool selection guidance between Python scripting
+  and Tableau, plus curated learning resources. Whether you''re a journalist exploring data tools, a data
+  professional interested in storytelling, or an educator teaching interdisciplinary skills, this episode
+  delivers actionable methods for reliable sourcing, effective narrative construction, and clear data
+  visualization that makes complex information accessible and impactful.'
+topics:
+- data journalism
+- data science
+- data visualization
+- tools
+dateadded: 2022-11-26
+duration: PT01H01M37S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=0
+  endOffset: 113
+- name: 'Guest Introduction: Angelica Lo Duca, researcher & professor'
+  startOffset: 113
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=113
+  endOffset: 149
+- name: 'Career Journey: Cryptography to Web Applications and Data Science'
+  startOffset: 149
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=149
+  endOffset: 281
+- name: 'Data Engineering Research Interests: security and data integrity'
+  startOffset: 281
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=281
+  endOffset: 357
+- name: 'Writing Portfolio: novels, technical articles, and Comet for Data Science'
+  startOffset: 357
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=357
+  endOffset: 404
+- name: 'Query Engines: Presto, Trino, and real-world migrations'
+  startOffset: 404
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=404
+  endOffset: 463
+- name: 'Defining Data Journalism: data-driven news vs. storytelling'
+  startOffset: 463
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=463
+  endOffset: 481
+- name: 'Data Journalism vs Data Science: accuracy, methods, and scope'
+  startOffset: 481
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=481
+  endOffset: 671
+- name: 'Investigative Examples: Washington Post and international projects'
+  startOffset: 671
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=671
+  endOffset: 911
+- name: 'Data Sourcing Challenges: finding small, accurate datasets on the web'
+  startOffset: 911
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=911
+  endOffset: 973
+- name: 'Teaching Shift: how Angelica started teaching data journalism'
+  startOffset: 973
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=973
+  endOffset: 1129
+- name: 'Course Audience: digital humanities students and interdisciplinary skills'
+  startOffset: 1129
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=1129
+  endOffset: 1213
+- name: 'Tool Choices: Python scripting vs. Tableau for data journalism'
+  startOffset: 1213
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=1213
+  endOffset: 1283
+- name: 'Learning Resources: Coursera and recommended readings'
+  startOffset: 1283
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=1283
+  endOffset: 1475
+- name: 'Defining Technical Writing: how-to guides, clarity, and audience focus'
+  startOffset: 1475
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=1475
+  endOffset: 1759
+- name: 'From Reports to Stories: converting survey PDFs into narratives'
+  startOffset: 1759
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=1759
+  endOffset: 1945
+- name: 'Adding Context & Wisdom: framing data with meaning and calls to action'
+  startOffset: 1945
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=1945
+  endOffset: 2180
+- name: 'Visualization Guidelines: one concept per chart; tables when clearer'
+  startOffset: 2180
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=2180
+  endOffset: 2306
+- name: 'Visualization Pitfalls: why to avoid pie charts and confusing graphics'
+  startOffset: 2306
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=2306
+  endOffset: 2352
+- name: 'Article Length & Formats: short Medium posts and the Syntax Error publication'
+  startOffset: 2352
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=2352
+  endOffset: 2447
+- name: 'Article Workflow: problem → solution → result, with code repos'
+  startOffset: 2447
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=2447
+  endOffset: 2620
+- name: 'Topic Sourcing: personal problems, social media, and community signals'
+  startOffset: 2620
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=2620
+  endOffset: 2735
+- name: 'Path to a Book: publisher outreach and acquisition editor contact'
+  startOffset: 2735
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=2735
+  endOffset: 3019
+- name: 'Book Contract & Schedule: chapter timelines, pacing, and holidays'
+  startOffset: 3019
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=3019
+  endOffset: 3257
+- name: 'Market Research & Audience: proposal, state-of-the-art, and level targeting'
+  startOffset: 3257
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=3257
+  endOffset: 3609
+- name: 'Editing & Reviews: reviewer feedback, overlapping revisions, and organization'
+  startOffset: 3609
+  url: https://www.youtube.com/watch?v=uO_lk12q02A&t=3609
+  endOffset: 3743
+transcript: transcripts/data-journalism-python-visualization-storytelling.yaml
+resources:
+- title: Data Journalism examples (FENCED OUT)
+  url: https://www.washingtonpost.com/graphics/world/border-barriers/europe-refugee-crisis-border-control/??noredirect=on
+- title: Data Journalism examples (La tierra esclava)
+  url: https://latierraesclava.eldiario.es/
+- title: Small medium publication aiming at being Stack Overflow of Medium
+  url: https://medium.com/syntaxerrorpub
+- title: Example of a self-published book on Data Visualization
+  url: https://www.amazon.com/Introduction-Data-Visualization-Storytelling-Scientist-ebook/dp/B07VYCR3Z6/ref=sr_1_4?crid=4JRJ48O7K8TK&keywords=joses+berengueres&qid=1668270728&sprefix=joses+beremguere%2Caps%2C273&sr=8-4
+- title: My novels (in Italian) La bambina e il Clown
+  url: https://www.amazon.it/Bambina-Clown-Angelica-Lo-Duca/dp/1500984515/ref=sr_1_9?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2KGK9GMN0FAHI&keywords=la+bambina+e+il+clown&qid=1668270769&sprefix=la+bambina+e+il+clown%2Caps%2C88&sr=8-9
+- title: My novels (in Italian) Il Violinista
+  url: https://www.amazon.it/Violinista-1-Angelica-Lo-Duca/dp/1501009672/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=12KTF9EF5UKIG&keywords=il+violinista+lo+duca&qid=1668270791&sprefix=il+violinista+lo+duca%2Caps%2C81&sr=8-1
+- title: Course on Data Journalism
+  url: https://www.coursera.org/learn/visualization-for-data-journalism

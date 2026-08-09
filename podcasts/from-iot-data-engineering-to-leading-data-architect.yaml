@@ -1,0 +1,137 @@
+slug: from-iot-data-engineering-to-leading-data-architect
+legacy_path: /podcast/from-iot-data-engineering-to-leading-data-architect.html
+title: 'From Hands-On IoT Data Engineering to Leading Data Architecture: Pipelines, Cloud Adaptation &
+  Analytics Modeling'
+short: From Data Manager to Data Architect
+season: 15
+episode: 8
+guests:
+- loicmagnien
+image: images/podcast/from-iot-data-engineering-to-leading-data-architect.jpg
+ids:
+  anchor: datatalksclub/episodes/From-Data-Manager-to-Data-Architect---Loc-Magnien-e29rk73
+  youtube: qWG--iYO2uc
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/From-Data-Manager-to-Data-Architect---Loc-Magnien-e29rk73
+  apple: https://podcasts.apple.com/us/podcast/from-data-manager-to-data-architect-lo%C3%AFc-magnien/id1541710331?i=1000629678056
+  spotify: https://open.spotify.com/episode/7twXPni1q2RJQU2jjbCGty?si=KNCEy-0ZRrWDVchFsDCHjQ
+  youtube: https://www.youtube.com/watch?v=qWG--iYO2uc
+description: 'A real-world journey from hands-on IoT data engineering to leading data architecture: covering
+  pipelines, cloud adaptation, analytics modeling, lakehouse design, and the senior responsibilities of
+  a data lead.'
+intro: What does it take to evolve from hands-on IoT data engineering to leading data architecture — building
+  scalable pipelines, adapting to cloud platforms, and designing analytics models that serve entire organizations?
+  In this episode, Loïc Magnien, Lead Data at Mylight150 with a decade spanning database management, data
+  engineering, product ownership and architecture, shares his real-world journey from managing sensor
+  data to architecting enterprise-scale data systems. <br><br> We explore the progression from tactical
+  IoT work — sensor data aggregation, structural health monitoring, ETL automation for logger ingestion
+  — to strategic architecture responsibilities including cloud fundamentals (Python, Azure), lakehouse
+  design with bronze-silver-gold layering, and core data modeling that aligns cross-functional teams.
+  Loïc breaks down practical patterns for building reusable ingestion and transformation templates, designing
+  dimensions and facts that serve multiple consumers, maintaining data quality expectations across layers,
+  and balancing hands-on engineering with stakeholder engagement. The conversation covers hiring considerations
+  for data teams, scaling responsibilities from individual contributor to lead, leveraging tools like
+  DBT and LLMs for technology scouting, and making pragmatic tradeoffs between reusable components and
+  project-specific solutions. <br><br> Listen to discover actionable guidance on architecture outcomes,
+  agile delivery through proofs of concept, and building core models that drive business alignment — plus
+  insights on the senior leadership skills needed to succeed as a data architect in IoT and analytics
+  environments.
+topics:
+- data engineering
+- career transition
+- MLOps
+dateadded: 2023-10-01
+duration: PT01H27S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=0
+  endOffset: 105
+- name: 'Career overview: From data manager to data lead'
+  startOffset: 105
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=105
+  endOffset: 204
+- name: 'Early role: Sensor data aggregation & structural health monitoring'
+  startOffset: 204
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=204
+  endOffset: 344
+- name: 'Data management vs analyst: responsibilities and data discovery'
+  startOffset: 344
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=344
+  endOffset: 441
+- name: 'Automation to data engineering: ETL, scripting, and process automation'
+  startOffset: 441
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=441
+  endOffset: 561
+- name: 'End-to-end IoT pipelines: loggers, ingestion, and reporting'
+  startOffset: 561
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=561
+  endOffset: 687
+- name: 'Domain expertise: civil engineering aiding data diagnosis'
+  startOffset: 687
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=687
+  endOffset: 891
+- name: 'Adapting to cloud & IoT: learning Python, Azure, and cloud fundamentals'
+  startOffset: 891
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=891
+  endOffset: 1261
+- name: 'Hiring mindset: evaluating experience, scale, and cloud adaptability'
+  startOffset: 1261
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=1261
+  endOffset: 1367
+- name: 'Data architect role: seniority, end-to-end ownership, and modeling'
+  startOffset: 1367
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=1367
+  endOffset: 1640
+- name: 'Architecture outcome: team alignment and optimized data processes'
+  startOffset: 1640
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=1640
+  endOffset: 1796
+- name: 'Lakehouse layering: bronze, silver, gold and data quality expectations'
+  startOffset: 1796
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=1796
+  endOffset: 1978
+- name: 'Analytics modeling: dimensions, facts, metrics, and stakeholder discovery'
+  startOffset: 1978
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=1978
+  endOffset: 2160
+- name: 'Core model strategy: supporting multiple consumers and departments'
+  startOffset: 2160
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=2160
+  endOffset: 2230
+- name: 'Role balance: hands-on engineering vs stakeholder engagement over time'
+  startOffset: 2230
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=2230
+  endOffset: 2551
+- name: 'Empowerment & prioritization: scaling teams and aligning with business goals'
+  startOffset: 2551
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=2551
+  endOffset: 2653
+- name: 'Staying technical: one-on-ones, demos, and hands-on proofs of concept'
+  startOffset: 2653
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=2653
+  endOffset: 3045
+- name: 'Technology scouting: DBT, LLMs, newsletters and community curation'
+  startOffset: 3045
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=3045
+  endOffset: 3208
+- name: 'Agile delivery: draft specs, proof of concept pipelines, and iteration'
+  startOffset: 3208
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=3208
+  endOffset: 3432
+- name: 'Reusable templates: ingestion, transformation, and datamart patterns'
+  startOffset: 3432
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=3432
+  endOffset: 3574
+- name: 'Design tradeoffs: reusable components vs project-specific solutions'
+  startOffset: 3574
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=3574
+  endOffset: 3651
+- name: 'Follow-up: guest contact and LinkedIn connection'
+  startOffset: 3651
+  url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=3651
+  endOffset: 3691
+transcript: transcripts/from-iot-data-engineering-to-leading-data-architect.yaml
+resources:
+- title: Loiic LinkedIn
+  url: https://www.linkedin.com/in/loicmagnien/

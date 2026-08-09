@@ -1,0 +1,174 @@
+slug: building-mlops-startup
+legacy_path: /podcast/building-mlops-startup.html
+title: 'How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit'
+short: I Want to Build a Machine Learning Startup!
+season: 4
+episode: 4
+guests:
+- elenasamuylova
+image: images/podcast/building-mlops-startup.jpg
+ids:
+  youtube: DiDs5aMjEWg
+  anchor: I-Want-to-Build-a-Machine-Learning-Startup----Elena-Samuylova-e139ste
+links:
+  youtube: https://www.youtube.com/watch?v=DiDs5aMjEWg
+  anchor: https://anchor.fm/datatalksclub/episodes/I-Want-to-Build-a-Machine-Learning-Startup----Elena-Samuylova-e139ste
+  spotify: https://open.spotify.com/episode/7fwbqo5tDrtakuqWaIuEjc
+  apple: https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-learning-startup-elena-samuylova/id1541710331?i=1000529106923
+description: 'Discover practical MLOps, model monitoring and founder-fit tactics to build an ML startup:
+  hire, fund, productize, and reach product-market fit faster.'
+intro: 'What does it take to build a successful ML startup—especially around MLOps, model monitoring,
+  open source, and founder fit? Elena Samuylova, Co-founder & CEO of Evidently AI, joins to answer that
+  question drawing on her applied machine learning experience since 2014, including roles at Yandex Data
+  Factory and an industrial AI startup. <br><br> This episode walks through practical founder decisions:
+  sourcing problem-first ideas, finding compatible co-founders and establishing pre-launch alignment,
+  and choosing between vertical solutions and infrastructure/MLOps. Elena explains what “AI-first” positioning
+  really means, how developer tools and open source shape go-to-market strategies (open core, cloud, monetization
+  and cloning risks), and how Evidently validated model monitoring as a business. You’ll hear tactical
+  guidance on customer discovery, persuading engineers to adopt your tool, data safety and on-prem deployments,
+  hiring and scaling tradeoffs, funding paths, productizing services for non-technical founders, and normalizing
+  failure and work–life tradeoffs. <br><br> Listen to gain actionable frameworks for building an ML startup—covering
+  model monitoring, MLOps, open source strategy, founder-market fit, and the concrete signals that indicate
+  product–market fit.'
+topics:
+- startup
+- machine learning
+- MLOps
+- open-source
+- entrepreneurship
+- founder
+dateadded: 2021-07-16
+duration: PT00H58M30S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=0
+  endOffset: 121
+- name: 'Guest Background: Elena Samuylova’s ML & Startup Journey'
+  startOffset: 121
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=121
+  endOffset: 202
+- name: 'Career Highlights: Yandex, Data Factory, and Industrial AI'
+  startOffset: 202
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=202
+  endOffset: 318
+- name: 'Motivations: Startup vs. Employee Trade-offs'
+  startOffset: 318
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=318
+  endOffset: 443
+- name: 'Sourcing Ideas: Problem-First Approach for ML Startups'
+  startOffset: 443
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=443
+  endOffset: 704
+- name: 'Co-founder Search: Compatibility, Founder–Market Fit, and Finding Partners'
+  startOffset: 704
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=704
+  endOffset: 1015
+- name: 'Pre-Launch Alignment: Commitment, Company Type, and Fundraising Path'
+  startOffset: 1015
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1015
+  endOffset: 1294
+- name: 'Market Choice: Vertical Solutions vs. Infrastructure & MLOps'
+  startOffset: 1294
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1294
+  endOffset: 1390
+- name: 'AI-First Positioning: What It Really Means'
+  startOffset: 1390
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1390
+  endOffset: 1473
+- name: 'Developer Tools Market: Selling to Engineers and Open Source Dynamics'
+  startOffset: 1473
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1473
+  endOffset: 1581
+- name: 'Founder Skills: Self-Starter Mindset and Learning Agility'
+  startOffset: 1581
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1581
+  endOffset: 1697
+- name: 'Startup Risks: Financial, Cultural, and Career Considerations'
+  startOffset: 1697
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1697
+  endOffset: 1910
+- name: 'Failure Preparedness: Normalizing Risk and Learning from Failure'
+  startOffset: 1910
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1910
+  endOffset: 1967
+- name: 'Work–Life Tradeoffs: Time Commitment in Early Stages'
+  startOffset: 1967
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=1967
+  endOffset: 2046
+- name: 'Part-Time Startups: Weekend MVPs, Bootstrapping, and Grants'
+  startOffset: 2046
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2046
+  endOffset: 2147
+- name: 'Funding Models: Accelerators, Angels, and Equity Considerations'
+  startOffset: 2147
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2147
+  endOffset: 2288
+- name: 'Non-Technical Founders: No-Code MVPs and Productizing Services'
+  startOffset: 2288
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2288
+  endOffset: 2365
+- name: 'Productizing Services: From Manual Delivery to Scalable SaaS'
+  startOffset: 2365
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2365
+  endOffset: 2413
+- name: 'Hiring Expertise: When to Bring in Domain or Technical Help'
+  startOffset: 2413
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2413
+  endOffset: 2535
+- name: 'Customer Discovery: Interview Counts and Signals for Product–Market Fit'
+  startOffset: 2535
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2535
+  endOffset: 2639
+- name: 'Evidently Origin: Validating Model Monitoring as a Business'
+  startOffset: 2639
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2639
+  endOffset: 2792
+- name: 'Founder Role at Evidently: CEO Tasks, Content, and Community'
+  startOffset: 2792
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2792
+  endOffset: 2891
+- name: 'Open Source Strategy: Open Core, Cloud, and Monetization Paths'
+  startOffset: 2891
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2891
+  endOffset: 2969
+- name: 'Open Source Risks: Cloning, Cloud Providers, and Licensing'
+  startOffset: 2969
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=2969
+  endOffset: 3108
+- name: 'Bottom-Up Adoption: Engineers First, Enterprise Later'
+  startOffset: 3108
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3108
+  endOffset: 3189
+- name: 'Demonstrating Value: Persuading Clients to Share Data'
+  startOffset: 3189
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3189
+  endOffset: 3237
+- name: 'Geographic Differences: Market Dynamics and Data Attitudes'
+  startOffset: 3237
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3237
+  endOffset: 3377
+- name: 'Data Safety Options: On-Premise Deployments with Open Source'
+  startOffset: 3377
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3377
+  endOffset: 3426
+- name: 'Scaling Teams: When to Hire Engineers vs. Stay Small'
+  startOffset: 3426
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3426
+  endOffset: 3494
+- name: 'Market Intelligence: Following Startups, Investors, and Trends'
+  startOffset: 3494
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3494
+  endOffset: 3572
+- name: 'Final Advice: Build from Genuine Interest, Not Just Hype'
+  startOffset: 3572
+  url: https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3572
+  endOffset: 3611
+transcript: transcripts/building-mlops-startup.yaml
+resources:
+- title: EvidentlyAI
+  url: https://evidentlyai.com/
+- title: Elena's LinkedIn
+  url: https://www.linkedin.com/in/elenasamuylova/
+- title: Elena's Twitter
+  url: https://twitter.com/elenasamuylova/

@@ -1,0 +1,153 @@
+slug: finops-for-data-engineers
+legacy_path: /podcast/finops-for-data-engineers.html
+title: 'FinOps for Data Engineers: Optimize Cloud Costs, BigQuery & Modern Data Stack'
+short: From Supply Chain Management to Digital Warehousing and FinOps
+season: 20
+episode: 6
+guests:
+- eddyzulkifly
+image: images/podcast/finops-for-data-engineers.jpg
+ids:
+  anchor: datatalksclub/episodes/From-Supply-Chain-Management-to-Digital-Warehousing-and-FinOps---Eddy-Zulkifly-e313t7b
+  youtube: 7ePp6wuxM5s
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/From-Supply-Chain-Management-to-Digital-Warehousing-and-FinOps---Eddy-Zulkifly-e313t7b
+  apple: https://podcasts.apple.com/us/podcast/from-supply-chain-management-to-digital-warehousing/id1541710331?i=1000702233986
+  spotify: https://open.spotify.com/episode/33YZpX7zE6YcBGbQK9Iclp
+  youtube: https://www.youtube.com/watch?v=7ePp6wuxM5s
+description: 'Master FinOps for data engineers: optimize cloud costs with BigQuery best practices, query
+  tuning and governance to cut spend and boost performance.'
+topics:
+- data engineering
+- finops
+- modern data stack
+- tools
+- career growth
+intro: How can data engineers bring FinOps practices into their day-to-day work to control cloud spend
+  across BigQuery and the modern data stack? In this episode, Eddy Zulkifly — Staff Data Engineer at Kinaxis
+  with a decade of experience building data platforms on Google Cloud, Azure, and AWS — breaks down practical
+  ways to make cost optimization part of platform design and operations. <br><br> We explore core topics
+  including cloud cost optimization for data teams, BigQuery cost controls and query efficiency, cost-aware
+  architecture in the modern data stack, multi-cloud considerations, and monitoring and governance for
+  predictable spend. Eddy draws on experience from Home Depot e-commerce and supply chain analytics, mentoring
+  and teaching roles, and his work on open-source data projects to translate FinOps principles into engineering
+  choices. <br><br> If you’re a data engineer or platform owner responsible for budgets and performance,
+  you’ll get actionable guidance on reducing unnecessary cloud costs, improving visibility into usage,
+  and designing pipelines that balance performance with price. Listen to learn practical steps to align
+  data engineering practices with FinOps goals and make cloud spend more predictable.
+dateadded: 2025-04-30
+duration: PT00H59M54S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=0
+  endOffset: 95
+- name: 'Guest Introduction: Eddy Zulkifly, Staff Data Engineer at Kinaxis'
+  startOffset: 95
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=95
+  endOffset: 134
+- name: 'Career Origins: Industrial Engineering, Supply Chain & Excel Macros'
+  startOffset: 134
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=134
+  endOffset: 380
+- name: 'Career Pivot: From Business Analyst to Data Engineering'
+  startOffset: 380
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=380
+  endOffset: 468
+- name: Analyst Skills as a Foundation for Data Engineering
+  startOffset: 468
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=468
+  endOffset: 486
+- name: 'Docker & Terraform: Learning Curve for Data Practitioners'
+  startOffset: 486
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=486
+  endOffset: 498
+- name: 'Tools & Low-Code Beginnings: Excel, Alteryx, Tableau'
+  startOffset: 498
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=498
+  endOffset: 673
+- name: 'Retail & Warehousing Experience: Forecasting, Preload Optimization'
+  startOffset: 673
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=673
+  endOffset: 1317
+- name: 'Digital Data Warehousing: Data as Inventory and Pipelines'
+  startOffset: 1317
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=1317
+  endOffset: 1356
+- name: 'Modern Data Stack: ELT, dbt, BigQuery and Orchestration'
+  startOffset: 1356
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=1356
+  endOffset: 1474
+- name: 'Operational Differences: Change Velocity, Monitoring, and Tests'
+  startOffset: 1474
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=1474
+  endOffset: 1670
+- name: 'Metric Trees & Data Specs: Translating Business Requirements for FinOps'
+  startOffset: 1670
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=1670
+  endOffset: 1796
+- name: 'Building a Digital Warehouse: Stack Choices and Open-Source Tools'
+  startOffset: 1796
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=1796
+  endOffset: 1900
+- name: 'FinOps Overview: Cloud Cost Optimization for SaaS Platforms'
+  startOffset: 1900
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=1900
+  endOffset: 2055
+- name: Vendor Negotiations & Reservation Instances for Cost Savings
+  startOffset: 2055
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2055
+  endOffset: 2171
+- name: 'Cloud Cost Modeling: VM Sizing, Storage Tiers and Multi-Cloud Comparison'
+  startOffset: 2171
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2171
+  endOffset: 2343
+- name: 'Demand Forecasting Analogy: Inventory Planning Applied to Cloud Capacity'
+  startOffset: 2343
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2343
+  endOffset: 2418
+- name: FinOps Foundation, Cost Tagging & Accountability Best Practices
+  startOffset: 2418
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2418
+  endOffset: 2681
+- name: OUCS & Standardizing Cloud Cost Reporting Across AWS/GCP/Azure
+  startOffset: 2681
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2681
+  endOffset: 2777
+- name: 'FinOps Processes: Parallels with DevOps, DataOps and CI/CD'
+  startOffset: 2777
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2777
+  endOffset: 2881
+- name: 'Staff Data Engineer Responsibilities: Technical & Strategic FinOps Work'
+  startOffset: 2881
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2881
+  endOffset: 3025
+- name: 'Continuous Learning: Georgia Tech Master’s, dbt, Python and Applied Analytics'
+  startOffset: 3025
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3025
+  endOffset: 3365
+- name: 'Career Advice: Certifications, Mentorship, Community and Time Management'
+  startOffset: 3365
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3365
+  endOffset: 3572
+- name: Closing Remarks & Key Takeaways
+  startOffset: 3572
+  url: https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3572
+  endOffset: 3594
+context: 'Context: Eddy’s journey from industrial engineering and analyst tools to staff data engineer
+  frames conversations about modern data stacks, digital warehouses, and FinOps as practical responses
+  to real business problems. Core: The episode’s unifying idea is that building impactful data systems
+  requires translating domain and analyst expertise into operational, scalable, and cost-conscious engineering—combining
+  the right tools (ELT, dbt, cloud platforms), disciplined practices (testing, monitoring, CI/CD), and
+  FinOps accountability—to deliver trusted metrics, align technical work with business value, and enable
+  continuous learning and adaptation.'
+transcript: transcripts/finops-for-data-engineers.yaml
+resources:
+- title: Twitter
+  url: https://x.com/eddarief
+- title: Linkedin
+  url: https://www.linkedin.com/in/eddyzulkifly/
+- title: Github
+  url: https://github.com/eyzyly/eyzyly
+- title: ADPList
+  url: https://adplist.org/mentors/eddy-zulkifly

@@ -1,0 +1,118 @@
+slug: ml-system-design
+legacy_path: /podcast/ml-system-design.html
+title: 'ML System Design Playbook: Fail-Fast Design Docs, Modular Architecture & Data Drift Monitoring'
+short: Why Machine Learning Design is Broken
+season: 15
+episode: 1
+guests:
+- valeriybabushkin
+image: images/podcast/ml-system-design.jpg
+ids:
+  anchor: datatalksclub/episodes/Why-Machine-Learning-Design-is-Broken---Valerii-Babushkin-e26rv8o
+  youtube: 6YBMU6475KQ
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Why-Machine-Learning-Design-is-Broken---Valerii-Babushkin-e26rv8o
+  apple: https://podcasts.apple.com/us/podcast/why-machine-learning-design-is-broken-valerii-babushkin/id1541710331?i=1000621176183
+  spotify: https://open.spotify.com/episode/3KfKptkWIa1hW1hSOvBQaO
+  youtube: https://www.youtube.com/watch?v=6YBMU6475KQ
+description: 'Master ML system design: fail-fast design docs, modular architecture & data drift monitoring
+  to cut risk, assign ownership, speed experiments.'
+intro: How do you design ML systems that fail fast, scale with modular architecture, and survive data
+  drift in production? In this episode, Valerii Babushkin — Senior Director of Data, Analytics, and AI
+  at BP, Kaggle Competitions Grandmaster, and author of Machine Learning System Design — walks through
+  a practical playbook for ML system design. <br><br> We cover why fail-fast design docs act like blueprints
+  to prevent wasted work, how shared and chapter-based design docs enable alignment and versioning, and
+  the maintenance challenges of treating design docs as living artifacts. Valerii explains assigning ownership
+  and mapping the bus factor for risk assessment, incentivizing documentation, and using a 16-chapter
+  ML design template to standardize architecture. On the operational side we dig into monitoring strategies
+  for data drift, concept drift, and prediction drift, plus fallback strategies — redundancy, simple baselines,
+  and serving reliability — to keep models robust. He also points to tools and resources including Evidently
+  AI, templates, and the book. <br><br> Listen to gain concrete tactics for fail-fast design docs, modular
+  architecture, data drift monitoring, and baseline solutions you can apply to reduce risk and accelerate
+  ML delivery
+topics:
+- machine learning
+- system design
+dateadded: 2023-07-16
+duration: PT00H59M38S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=0
+  endOffset: 126
+- name: 'Guest Introduction: Valerii Babushkin background'
+  startOffset: 126
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=126
+  endOffset: 240
+- name: 'Book Announcement: Machine Learning System Design'
+  startOffset: 240
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=240
+  endOffset: 426
+- name: 'Design Document Purpose: Fail-Fast Principle'
+  startOffset: 426
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=426
+  endOffset: 519
+- name: 'Blueprint Analogy: Preventing Waste with Early Design'
+  startOffset: 519
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=519
+  endOffset: 669
+- name: Prevalence of Missing Documentation in ML Projects
+  startOffset: 669
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=669
+  endOffset: 876
+- name: 'Shared Design Docs: Alignment, Feedback, and Simplicity'
+  startOffset: 876
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=876
+  endOffset: 1141
+- name: 'Design Doc as a Living Artifact: Maintenance Challenges'
+  startOffset: 1141
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=1141
+  endOffset: 1477
+- name: 'Accountability & Ownership: Assigning Areas of Responsibility'
+  startOffset: 1477
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=1477
+  endOffset: 1919
+- name: 'Bus Factor & Risk Assessment: People Dependency Mapping'
+  startOffset: 1919
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=1919
+  endOffset: 2210
+- name: 'Modularity: Chapter-Based Design Docs and Versioning Signals'
+  startOffset: 2210
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=2210
+  endOffset: 2461
+- name: 'Incentivizing Documentation: Metrics and Performance Reviews'
+  startOffset: 2461
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=2461
+  endOffset: 2633
+- name: 'ML Design Template Overview: 16-Chapter Book Outline'
+  startOffset: 2633
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=2633
+  endOffset: 2866
+- name: 'Monitoring: Detecting Data Drift, Concept Drift, and Prediction Drift'
+  startOffset: 2866
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=2866
+  endOffset: 3119
+- name: 'Fallback Strategies: Redundancy, Simple Baselines, and Serving Reliability'
+  startOffset: 3119
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=3119
+  endOffset: 3313
+- name: 'Baseline Solutions: Start Simple to Validate Hypotheses Quickly'
+  startOffset: 3313
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=3313
+  endOffset: 3495
+- name: 'Resources & Tools: Book Discount, Evidently AI, and Templates'
+  startOffset: 3495
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=3495
+  endOffset: 3644
+- name: 'Contact: Connect with Valerii on LinkedIn'
+  startOffset: 3644
+  url: https://www.youtube.com/watch?v=6YBMU6475KQ&t=3644
+  endOffset: 3704
+transcript: transcripts/ml-system-design.yaml
+resources:
+- title: 'Book (discount code: poddatatalks21)'
+  url: https://www.manning.com/books/machine-learning-system-design?utm_source=AGMLBookcamp&utm_medium=affiliate&utm_campaign=book_babushkin_machine_4_25_23&utm_content=twitter
+- title: Evidently
+  url: https://www.evidentlyai.com/
+- title: Article
+  url: https://medium.com/people-ai-engineering/design-documents-for-ml-models-bbcd30402ff7

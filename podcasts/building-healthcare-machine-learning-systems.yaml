@@ -1,0 +1,165 @@
+slug: building-healthcare-machine-learning-systems
+legacy_path: /podcast/building-healthcare-machine-learning-systems.html
+title: 'Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment'
+short: Bridging Data Science and Healthcare
+season: 16
+episode: 2
+guests:
+- elenistamatelou
+image: images/podcast/building-healthcare-machine-learning-systems.jpg
+ids:
+  anchor: datatalksclub/episodes/Bridging-Data-Science-and-Healthcare---Eleni-Stamatelou-e2aegvc
+  youtube: pDOwlulDh0c
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Bridging-Data-Science-and-Healthcare---Eleni-Stamatelou-e2aegvc
+  apple: https://podcasts.apple.com/us/podcast/bridging-data-science-and-healthcare-eleni-stamatelou/id1541710331?i=1000632040444
+  spotify: https://open.spotify.com/episode/5W6lfZVhjIKEmVzBuexfzE?si=0nUHr66eQa6oPVJDb3d0rw
+  youtube: https://www.youtube.com/watch?v=pDOwlulDh0c
+description: Learn to build reliable healthcare ML systems for sepsis prediction and low-resource clinical
+  deployment—improve patient outcomes, scalability, and trust.
+topics:
+- machine learning
+- data science
+- MLOps
+- data engineering
+- data governance
+- healthcare
+intro: 'How do you build machine learning systems that can predict sepsis and actually work in low-resource
+  clinical settings? In this episode Eleni Stamatelou, a machine learning researcher and educator focused
+  on using data science to improve healthcare, walks through the technical and practical steps of turning
+  models into deployed clinical tools. With expertise in signal processing, deep learning, and data-driven
+  design, Eleni frames the core challenges of healthcare ML: data quality and preprocessing, model reliability
+  for sepsis prediction, and the constraints of low-resource deployment. <br><br> We cover key topics
+  including designing robust models for noisy clinical signals, evaluation and validation strategies suited
+  to patient safety, and pragmatic considerations for integrating ML into clinical workflows with limited
+  infrastructure. Listeners will gain actionable insights on bridging research and practice—how to prioritize
+  features, manage trade-offs between complexity and reliability, and make deployment decisions that respect
+  resource limitations. <br><br> If you work on machine learning in healthcare, clinical AI, or sepsis
+  prediction, this episode provides concrete perspectives on building systems that are both scientifically
+  sound and practically deployable in low-resource environments.'
+dateadded: 2023-10-23
+duration: PT00H59M01S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=0
+  endOffset: 44
+- name: 'Guest Overview: Elena Stamatelou — ML researcher focused on healthcare'
+  startOffset: 44
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=44
+  endOffset: 105
+- name: 'Education & Early Career: University of Patras, Erasmus, VUB/ULB'
+  startOffset: 105
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=105
+  endOffset: 165
+- name: 'Moving to the Netherlands: Philips Healthcare internship and doctorate in data science'
+  startOffset: 165
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=165
+  endOffset: 283
+- name: 'Philips Healthcare Projects: C-arm imaging and pregnancy monitoring'
+  startOffset: 283
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=283
+  endOffset: 408
+- name: 'Low-Resource Pediatric Monitoring: Vital-sign system design for Malawi'
+  startOffset: 408
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=408
+  endOffset: 454
+- name: 'Data Collection for Clinical Outcomes: linking sensors to lab results'
+  startOffset: 454
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=454
+  endOffset: 574
+- name: 'Motivation for Healthcare: choosing impact over other engineering paths'
+  startOffset: 574
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=574
+  endOffset: 663
+- name: 'Master’s Thesis: white blood cell image classification for a cell sorter (IMEC)'
+  startOffset: 663
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=663
+  endOffset: 793
+- name: '3D Reconstruction Work: multi-view geometry from C-arm images'
+  startOffset: 793
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=793
+  endOffset: 943
+- name: 'Home Monitoring for Pregnancy: smartwatches, weight tracking, and midwife dashboards'
+  startOffset: 943
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=943
+  endOffset: 1085
+- name: 'Research Orientation: novelty with clinical translation'
+  startOffset: 1085
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1085
+  endOffset: 1168
+- name: 'Ballistography Signal Research: denoising and U-Net for infant heart rate estimation'
+  startOffset: 1168
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1168
+  endOffset: 1309
+- name: 'Signal Processing vs Deep Learning: filters, Fourier methods, and when to use ML'
+  startOffset: 1309
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1309
+  endOffset: 1483
+- name: 'Patient Acuity Scoring: vitals-based scoring poster'
+  startOffset: 1483
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1483
+  endOffset: 1523
+- name: Regulatory & Explainable AI Challenges; annotation scarcity and data gaps
+  startOffset: 1523
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1523
+  endOffset: 1692
+- name: 'Clinical Use Case: sepsis prediction from vitals and clinical data'
+  startOffset: 1692
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1692
+  endOffset: 1870
+- name: 'Clinical Validation & Adoption: engaging clinicians and long approval timelines'
+  startOffset: 1870
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=1870
+  endOffset: 2034
+- name: 'Healthcare vs E-commerce Data: offline events, timestamps, and higher risk'
+  startOffset: 2034
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=2034
+  endOffset: 2145
+- name: 'Population Differences & Generalization: Europe vs Africa considerations'
+  startOffset: 2145
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=2145
+  endOffset: 2377
+- name: 'Automation Impact: job displacement concerns and augmentation potential'
+  startOffset: 2377
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=2377
+  endOffset: 2590
+- name: 'Data Infrastructure Variability: digitization, interoperability, and compact discs'
+  startOffset: 2590
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=2590
+  endOffset: 2792
+- name: 'Incremental Adoption Strategy: visualization, feedback loops, and trust building'
+  startOffset: 2792
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=2792
+  endOffset: 3050
+- name: 'ML Deployment Constraints: on-device vs cloud for low-resource settings'
+  startOffset: 3050
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=3050
+  endOffset: 3165
+- name: 'Sabbatical & Personal Projects: reflection and next steps'
+  startOffset: 3165
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=3165
+  endOffset: 3211
+- name: 'Transitioning into Healthcare Data Science: pathways and role types'
+  startOffset: 3211
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=3211
+  endOffset: 3346
+- name: 'Skills Transferability: technical skills are sufficient; learn clinical context on the job'
+  startOffset: 3346
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=3346
+  endOffset: 3410
+- name: 'Job Market & Funding: demand for healthcare data scientists and research funding'
+  startOffset: 3410
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=3410
+  endOffset: 3539
+- name: Closing Remarks and Resources (publications, GitHub, LinkedIn)
+  startOffset: 3539
+  url: https://www.youtube.com/watch?v=pDOwlulDh0c&t=3539
+  endOffset: 3541
+context: 'Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment'
+transcript: transcripts/building-healthcare-machine-learning-systems.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/elenistamatelou/
+- title: Github
+  url: https://github.com/stamatelou

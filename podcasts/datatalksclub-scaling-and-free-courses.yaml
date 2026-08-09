@@ -1,0 +1,172 @@
+slug: datatalksclub-scaling-and-free-courses
+legacy_path: /podcast/datatalksclub-scaling-and-free-courses.html
+title: 'Inside Scaling DataTalks.Club: How We Built Free Data Engineering, MLOps & LLM Courses'
+short: DataTalks.Club Anniversary Podcast
+season: 19
+episode: 3
+guests:
+- alexeygrigorev
+image: images/podcast/datatalksclub-scaling-and-free-courses.jpg
+ids:
+  anchor: datatalksclub/episodes/DataTalks-Club-4th-Anniversary-AMA-Podcast--Alexey-Grigorev-and-Johanna-Bayer-e2q3ch2
+  youtube: GHbeXIKnkLQ
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/DataTalks-Club-4th-Anniversary-AMA-Podcast--Alexey-Grigorev-and-Johanna-Bayer-e2q3ch2
+  apple: https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary-ama-podcast-alexey-grigorev/id1541710331?i=1000674473200
+  spotify: https://open.spotify.com/episode/50wIZxjq6goREu9pwXYITP?si=mPW0v5fBQxuBpg622CpCEA
+  youtube: https://www.youtube.com/watch?v=GHbeXIKnkLQ
+description: 'Discover how DataTalks.Club built free Data Engineering, MLOps & LLM courses: scaling open-source
+  curriculum, community growth, and career-ready projects.'
+topics:
+- MLOps
+- LLMs
+- data engineering
+- machine learning
+- career transition
+- community building
+- teaching
+dateadded: 2024-11-08
+duration: PT01H03M17S
+quotableClips:
+- name: Podcast Welcome & AMA Format (community links and live questions)
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=0
+  endOffset: 95
+- name: 'Host Intro: Johanna as special host'
+  startOffset: 95
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=95
+  endOffset: 149
+- name: 'Origin Story: Founding DataTalks.Club during COVID'
+  startOffset: 149
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=149
+  endOffset: 232
+- name: 'Career Shift: Transition to running DataTalks.Club full-time'
+  startOffset: 232
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=232
+  endOffset: 246
+- name: 'Financial Decision: Leaving corporate work and early sustainability'
+  startOffset: 246
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=246
+  endOffset: 307
+- name: 'Course Portfolio: Machine Learning, Data Engineering, MLOps, LLMs, Stock Analytics'
+  startOffset: 307
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=307
+  endOffset: 493
+- name: 'Organic Growth: Word-of-mouth success of Data Engineering Zoomcamp'
+  startOffset: 493
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=493
+  endOffset: 562
+- name: 'Community Safety: Upwork scam awareness and moderation tips'
+  startOffset: 562
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=562
+  endOffset: 724
+- name: 'Mission: Free-to-learn education inspired by Open Data Science'
+  startOffset: 724
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=724
+  endOffset: 987
+- name: 'Community Impact: Student success stories and donations'
+  startOffset: 987
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=987
+  endOffset: 1076
+- name: 'Sponsorship Dynamics: Revenue volatility and runway management'
+  startOffset: 1076
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=1076
+  endOffset: 1214
+- name: 'Taxes & Cashflow: Prepaid tax system in Germany'
+  startOffset: 1214
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=1214
+  endOffset: 1443
+- name: 'Staying Technical: Pet projects, LLM experiments, and automated storytelling pipeline'
+  startOffset: 1443
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=1443
+  endOffset: 1603
+- name: 'Product Work: Building the course platform in Django to scale courses'
+  startOffset: 1603
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=1603
+  endOffset: 1754
+- name: 'LLMs & RAG: From skepticism to launching an LLM course'
+  startOffset: 1754
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=1754
+  endOffset: 1910
+- name: 'Life Update: Reflections on full-time community work and no regrets'
+  startOffset: 1910
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=1910
+  endOffset: 2020
+- name: 'Early Validation: First event success and finding product-market fit'
+  startOffset: 2020
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2020
+  endOffset: 2197
+- name: 'Community Longevity: Active engagement, investment, and self-organization'
+  startOffset: 2197
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2197
+  endOffset: 2354
+- name: 'AI and Roles: Impact of AutoML/LLMs on data analysts and data scientists'
+  startOffset: 2354
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2354
+  endOffset: 2544
+- name: 'AI in Healthcare: Human touch versus automated assistance'
+  startOffset: 2544
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2544
+  endOffset: 2744
+- name: 'Scaling Challenges: Time investment, loneliness, and rejecting acquisition offers'
+  startOffset: 2744
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2744
+  endOffset: 2882
+- name: 'Networking Benefits: Masterminds, meetups, and personal connections'
+  startOffset: 2882
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2882
+  endOffset: 2989
+- name: 'Growth Objectives: More sponsors, new courses, and instructor autonomy'
+  startOffset: 2989
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=2989
+  endOffset: 3098
+- name: 'How to Help: Be a guest, mentor in Slack, and join Project of the Week'
+  startOffset: 3098
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3098
+  endOffset: 3226
+- name: 'Events Roadmap: Competitions, future hackathons, and ML course contests'
+  startOffset: 3226
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3226
+  endOffset: 3329
+- name: 'Course Schedule: Stock market analytics rerun and upcoming workshops'
+  startOffset: 3329
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3329
+  endOffset: 3401
+- name: 'Podcast Workflow: Guest research, question prep, and interview process'
+  startOffset: 3401
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3401
+  endOffset: 3527
+- name: 'Career Advice: Starting in data science now and junior hiring realities'
+  startOffset: 3527
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3527
+  endOffset: 3670
+- name: 'Personal Reads: Book recommendations and current reading'
+  startOffset: 3670
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3670
+  endOffset: 3761
+- name: Closing Remarks & Thank You
+  startOffset: 3761
+  url: https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3761
+  endOffset: 3797
+context: 'Context: Born during COVID as a volunteer meetup, DataTalks.Club scaled organically into a free-to-learn,
+  community-first education platform—driven by practical courses (data engineering, ML, MLOps, LLMs),
+  events, mentorship, and hands-on student success—while the founders stayed technically engaged and navigated
+  financial, operational, and growth trade-offs.
+
+  Core: The unifying idea is that sustainable, founder-led communities that combine technical experimentation
+  and product-building with human-centered connection (mentorship, events, accessible learning) create
+  lasting impact and resilience—allowing thoughtful stewardship to adapt to AI-driven change, achieve
+  product-market fit, and scale education without sacrificing community values.'
+intro: How do you scale a volunteer-run learning community into a sustainable platform offering free data
+  engineering, MLOps, and LLM courses? In this episode Alexey Grigorev, founder of DataTalks.Club, walks
+  through the origin story of the project, the leap to running it full-time, and the practical tradeoffs
+  of building free data engineering courses at scale. <br><br> Alexey’s background as the founder guides
+  discussions on course portfolio decisions (Machine Learning, Data Engineering, MLOps, LLMs, Stock Analytics),
+  organic growth strategies like Zoomcamp word-of-mouth, and technical choices—building the course platform
+  in Django. We cover community safety and moderation, revenue volatility from sponsorships, tax and cashflow
+  considerations in Germany, and how staying technical through pet projects and LLM experiments informed
+  their curriculum (including RAG and LLM course development). <br><br> Listeners will get concrete takeaways
+  on scaling online education, community-driven learning, course product work, and practical ways to help—mentoring,
+  guesting, or joining projects and events. Useful for educators, course builders, and data practitioners
+  wondering how to create and sustain free, high-quality data science and MLOps training.
+transcript: transcripts/datatalksclub-scaling-and-free-courses.yaml

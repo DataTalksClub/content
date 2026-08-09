@@ -1,0 +1,124 @@
+slug: get-data-analytics-and-data-engineering-job
+legacy_path: /podcast/get-data-analytics-and-data-engineering-job.html
+title: 'How I Landed a Data Engineering Job: Bootcamp, Docker, Airflow, AWS & Interview Tips'
+short: From Academia to Data Analytics and Engineering
+season: 8
+episode: 9
+guests:
+- gloriaquiceno
+image: images/podcast/get-data-analytics-and-data-engineering-job.jpg
+ids:
+  anchor: From-Academia-to-Data-Analytics-and-Engineering---Gloria-Quiceno-e1ikrd8
+  youtube: 0wANfIvum4U
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/From-Academia-to-Data-Analytics-and-Engineering---Gloria-Quiceno-e1ikrd8
+  apple: https://podcasts.apple.com/us/podcast/from-academia-to-data-analytics-and-engineering/id1541710331?i=1000562898040
+  spotify: https://open.spotify.com/episode/1kDpXugcmDdVJ6qUAiNnHQ?si=aa62cc4dce5f41b2
+  youtube: https://www.youtube.com/watch?v=0wANfIvum4U
+description: Learn data engineering with Docker and Airflow—bootcamp ROI, interview tips, portfolio tips
+  and salary tactics to land a data engineering role
+intro: How do you go from neuroscience research to a data engineering role — and what practical steps
+  and skills actually get you hired? In this episode, Gloria Quiceno, Senior Analytics Engineer at ICE,
+  walks through her transition from neuroscience labs to rebuilding enterprise data platforms (including
+  a BI rebuild that saved €250K), and the concrete tools and tactics that landed her a data engineering
+  job. We cover her early lab automation and scripting experience, learning MATLAB/R and Python, a first
+  industry role as a business data analyst, and a four-month job-search timeline from bootcamp graduation
+  to offer. Gloria explains building reproducible pipelines with Docker, orchestrating workflows with
+  Airflow and AWS (including Step Functions), designing ETL/ELT and Snowflake integrations, capstone projects
+  like a Twitter data pipeline, and volunteer ML practice with Omdena. She also shares application strategy
+  (tracking ~130 applications), handling live coding and take-home interviews, GDPR recruitment rights,
+  salary negotiation, and portfolio advice to stand out. Listen to get actionable interview tips, portfolio
+  project ideas, and hands-on guidance for landing a data engineering job using bootcamps, Docker, Airflow,
+  and AWS
+topics:
+- career switch
+- data engineering
+- career growth
+dateadded: 2022-05-21
+duration: PT00H57M59S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=0
+  endOffset: 118
+- name: 'Background: Transition from Neuroscience Research to Industry'
+  startOffset: 118
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=118
+  endOffset: 161
+- name: 'Lab Automation & Scripting: Igor, C-style Code and Data Collection'
+  startOffset: 161
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=161
+  endOffset: 393
+- name: 'Learning Curve: MATLAB, R and Falling in Love with Programming'
+  startOffset: 393
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=393
+  endOffset: 466
+- name: 'First Industry Role: Business Data Analyst Duties and SQL Reporting'
+  startOffset: 466
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=466
+  endOffset: 713
+- name: 'Company Overview: Music Metadata, Royalties and Data Workflows'
+  startOffset: 713
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=713
+  endOffset: 974
+- name: 'Job Search Timeline: Bootcamp Graduation to Offer in Four Months'
+  startOffset: 974
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=974
+  endOffset: 1101
+- name: 'Volunteer Experience: Omdena Project for Practical ML Practice'
+  startOffset: 1101
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1101
+  endOffset: 1192
+- name: 'Role Focus: Choosing Data Engineering Tasks and Automation Work'
+  startOffset: 1192
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1192
+  endOffset: 1285
+- name: 'Reproducibility: Docker for Collaborative Scripts and AWS Runs'
+  startOffset: 1285
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1285
+  endOffset: 1377
+- name: 'Application Strategy: Tracking ~130 Applications and Organization'
+  startOffset: 1377
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1377
+  endOffset: 1675
+- name: 'Interview Hurdles: Live Coding Pressure and Take-Home Challenges'
+  startOffset: 1675
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1675
+  endOffset: 1819
+- name: 'Applicant Rights: GDPR and Deleting Recruitment Records'
+  startOffset: 1819
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1819
+  endOffset: 1889
+- name: 'Salary Negotiation: Market Research, Confidence and Tactics'
+  startOffset: 1889
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=1889
+  endOffset: 2180
+- name: 'Bootcamp ROI: Learning Python, Docker, Airflow and Networking'
+  startOffset: 2180
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=2180
+  endOffset: 2245
+- name: 'Retrospective Tips: Earlier Career Coaching and More Networking'
+  startOffset: 2245
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=2245
+  endOffset: 2729
+- name: 'Cloud Platforms: AWS vs GCP Experience and Managing Credits'
+  startOffset: 2729
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=2729
+  endOffset: 3015
+- name: 'Capstone Project: Twitter Data Pipeline, Docker Containers and Slack Bot'
+  startOffset: 3015
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=3015
+  endOffset: 3102
+- name: 'Portfolio Strategy: Custom Projects to Stand Out to Employers'
+  startOffset: 3102
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=3102
+  endOffset: 3214
+- name: 'Data Quality: Detecting Bots, Cleaning Twitter Data and Sentiment Bias'
+  startOffset: 3214
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=3214
+  endOffset: 3408
+- name: 'Cohort Diversity: Varied Backgrounds and Cross-disciplinary Strengths'
+  startOffset: 3408
+  url: https://www.youtube.com/watch?v=0wANfIvum4U&t=3408
+  endOffset: 3517
+transcript: transcripts/get-data-analytics-and-data-engineering-job.yaml

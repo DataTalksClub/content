@@ -1,0 +1,156 @@
+slug: open-source-and-volunteering-in-ai-for-data-ml-career-growth
+legacy_path: /podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html
+title: 'Open Source and Volunteering: Building AI Projects and Career Momentum'
+short: Make an Impact Through Volunteering Open Source Work
+season: 17
+episode: 7
+guests:
+- saraelateif
+image: images/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.jpg
+ids:
+  anchor: datatalksclub/episodes/Make-an-Impact-Through-Volunteering-Open-Source-Work---Sara-EL-ATEIF-e2g4dan
+  youtube: aHdaIwOEI8Q
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/Make-an-Impact-Through-Volunteering-Open-Source-Work---Sara-EL-ATEIF-e2g4dan
+  apple: https://podcasts.apple.com/us/podcast/make-an-impact-through-volunteering-open-source-work/id1541710331?i=1000646627892
+  spotify: https://open.spotify.com/episode/7tZSSgv1yAlnoMyB4ggQmb?si=AqDaME2QS26usoZjOEWNtQ
+  youtube: https://www.youtube.com/watch?v=aHdaIwOEI8Q
+description: Learn open source volunteering tactics for AI projects - data sourcing, hackathon MVP strategy,
+  mentorship and portfolio-building to accelerate career momentum.
+topics:
+- computer vision
+- machine learning
+- data engineering
+- open-source
+- career development
+- mentorship
+- career growth
+intro: How can volunteering in open source AI projects accelerate your career while delivering tangible
+  community impact? In this episode Sara El-Ateif — Google Developer Expert in Machine Learning, Google
+  PhD Fellow, co-founder of AI Wonder Girls and Evercoach-certified business coach — walks through practical
+  ways to build skills and momentum through volunteering and open source work. <br><br> We cover Sara's
+  path from early AI interest to PhD research in multimodal learning and medical imaging, plus lessons
+  from winning a Google PhD Fellowship. Hear concrete volunteer project case studies — a PTSD chatbot,
+  trash detection, and cervical spine segmentation — and learn data sourcing tactics using Open Images
+  and creative collection. Sara explains how to find opportunities (LinkedIn, social media, mailing lists,
+  WIML), differences between collaboration platforms like Omdena and Fruit Punch AI, and how women-led
+  groups structure projects. <br><br> Listeners will get actionable advice on hackathon strategy, MVP
+  mindset under data/compute constraints, pitching for volunteer roles, building a research network, and
+  the data engineering tasks that matter (pipelines, dashboards, prep). Tune in to discover how open source
+  and volunteering translate into practical experience, referrals, and career traction in machine learning.
+dateadded: 2024-02-29
+duration: PT00H59M34S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=0
+  endOffset: 103
+- name: 'Episode Overview: Volunteering, Open Source & Community Impact'
+  startOffset: 103
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=103
+  endOffset: 157
+- name: 'Career Origins: Early AI Interest and Education Path'
+  startOffset: 157
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=157
+  endOffset: 266
+- name: 'Academic Focus: Big Data Specialization and Computer Vision'
+  startOffset: 266
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=266
+  endOffset: 346
+- name: 'PhD Research: Multimodal Learning for COVID-19 & Medical Imaging'
+  startOffset: 346
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=346
+  endOffset: 473
+- name: 'Google PhD Fellowship: Application Strategy and Benefits'
+  startOffset: 473
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=473
+  endOffset: 668
+- name: 'Volunteer Projects Overview: PTSD Chatbot and Trash Detection Cases'
+  startOffset: 668
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=668
+  endOffset: 849
+- name: 'Medical Imaging Project: Cervical Spine Segmentation Work'
+  startOffset: 849
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=849
+  endOffset: 965
+- name: 'Data Sourcing Techniques: Open Images and Creative Collection'
+  startOffset: 965
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=965
+  endOffset: 1068
+- name: 'Opportunity Hunting: LinkedIn, Social Media, and Mailing Lists'
+  startOffset: 1068
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=1068
+  endOffset: 1225
+- name: 'Productivity Tips: Curated Feeds and Managing Social Media Time'
+  startOffset: 1225
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=1225
+  endOffset: 1424
+- name: 'Platform Differences: Omdena vs. Fruit Punch AI Collaboration Models'
+  startOffset: 1424
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=1424
+  endOffset: 1585
+- name: 'Joining Challenges: Beginner Support, Roles, and Team Dynamics'
+  startOffset: 1585
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=1585
+  endOffset: 1622
+- name: 'Women-Led AI Groups: Community Formation and Project Workflow'
+  startOffset: 1622
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=1622
+  endOffset: 1871
+- name: 'Hackathon Case Study: Medical Imaging Solution, Mentors, and Deliverables'
+  startOffset: 1871
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=1871
+  endOffset: 2192
+- name: 'Hackathon Strategy: Understanding Judges, Criteria, and Positioning'
+  startOffset: 2192
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=2192
+  endOffset: 2387
+- name: 'MVP Mindset: Overcoming Data and Compute Constraints'
+  startOffset: 2387
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=2387
+  endOffset: 2527
+- name: 'Data Creativity: Generative AI, Research, and Team Composition'
+  startOffset: 2527
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=2527
+  endOffset: 2724
+- name: 'Building a Research Network: Finding and Following Researchers on Twitter'
+  startOffset: 2724
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=2724
+  endOffset: 2922
+- name: 'Applying to Volunteer Projects: Interview Pitching and Relevant Skills'
+  startOffset: 2922
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=2922
+  endOffset: 3081
+- name: 'Volunteer Outcomes: Practical Experience, Referrals, and Soft Skills'
+  startOffset: 3081
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3081
+  endOffset: 3365
+- name: 'Roles for Data Engineers: Data Preparation, Pipelines, and Dashboards'
+  startOffset: 3365
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3365
+  endOffset: 3497
+- name: 'Opportunity Sources: WIML, Conference Feeds, and Newsletters'
+  startOffset: 3497
+  url: https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3497
+  endOffset: 3624
+context: Volunteering and community-driven open-source collaboration are the pivot that turns academic
+  curiosity and nascent AI skills into real-world impact and career momentum — by embracing an MVP mindset,
+  creative data sourcing, strategic positioning (hackathons, platforms, and pitches), and intentional
+  networking you can build practical projects, gain mentors and referrals, and overcome resource constraints
+  to bridge research and production.
+transcript: transcripts/open-source-and-volunteering-in-ai-for-data-ml-career-growth.yaml
+resources:
+- title: Dev and AI hackathons
+  url: https://devpost.com/
+- title: Healthcare-focused challenges
+  url: https://grand-challenge.org/challenges/
+- title: Volunteering in projects (AI4Good)
+  url: https://www.fruitpunch.ai/
+- title: Volunteering in projects (AI4Good) 2
+  url: https://www.omdena.com/
+- title: Twitter
+  url: https://twitter.com/el_ateifSara
+- title: Instagram
+  url: https://www.instagram.com/saraelateif/
+- title: LinkedIn
+  url: https://www.linkedin.com/in/sara-el-ateif/

@@ -1,0 +1,151 @@
+slug: mlops-model-monitoring-data-observability
+legacy_path: /podcast/mlops-model-monitoring-data-observability.html
+title: 'MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling'
+short: MLOps Architect
+season: 10
+episode: 3
+guests:
+- dannyleybzon
+image: images/podcast/mlops-model-monitoring-data-observability.jpg
+ids:
+  anchor: MLOps-Architect---Danny-Leybzon-e1m81iu
+  youtube: p1gVaS4Zx5M
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/MLOps-Architect---Danny-Leybzon-e1m81iu
+  apple: https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/id1541710331?i=1000575901051
+  spotify: https://open.spotify.com/episode/5gz5lnS7onwRUtbcmpOSuU?si=8cbe799f284c4623
+  youtube: https://www.youtube.com/watch?v=p1gVaS4Zx5M
+description: Master MLOps, model monitoring & data observability with guidance on production observability,
+  ETL root causes, tooling trade-offs, ONNX, build vs buy
+intro: How do you keep machine learning models reliable in production — what should you monitor, where
+  do upstream failures originate, and which tooling decisions actually matter? In this episode, Danny
+  Leybzon, MLOps Architect at WhyLabs and computational statistics alum of UCLA, walks through the practical
+  challenges of production model monitoring, data observability, and tooling trade-offs. Drawing on his
+  path from analyst and product roles at Qubole to field engineering at Imply and now advising customers
+  on observability, Danny defines the MLOps Architect as a technical-business bridge and explains how
+  to prioritize production-first monitoring efforts. <br><br> Topics covered include scope of observability
+  across ETL and data pipelines, data profiling architecture (WhyLogs, profiles, Apache Druid), build
+  vs buy decisions, platform-agnostic integrations and ONNX interoperability, and trends around cloud-native
+  stacks and vendor lock-in. He also offers hiring and career perspectives for MLOps roles and research
+  priorities like fairness and segmentation. Listen to get concrete guidance on designing model monitoring,
+  choosing observability tooling, and identifying upstream root causes so you can reduce incidents and
+  improve model reliability in production
+topics:
+- MLOps
+- tools
+- data engineering
+dateadded: 2022-08-13
+duration: PT00H57M51S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=0
+  endOffset: 116
+- name: 'Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs'
+  startOffset: 116
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=116
+  endOffset: 192
+- name: 'Career Journey: From paralegal ambitions to statistics and machine learning'
+  startOffset: 192
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=192
+  endOffset: 446
+- name: 'Prior Role: Field Engineer / Solutions Engineer experience'
+  startOffset: 446
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=446
+  endOffset: 491
+- name: 'Role Definition: MLOps Architect as technical-business bridge'
+  startOffset: 491
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=491
+  endOffset: 632
+- name: 'Architecture Advising: Tooling trade-offs and landscape navigation'
+  startOffset: 632
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=632
+  endOffset: 770
+- name: 'Role Popularity: Uniqueness of the "MLOps Architect" title'
+  startOffset: 770
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=770
+  endOffset: 830
+- name: 'Startup Reality: Wearing many hats in early-stage companies'
+  startOffset: 830
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=830
+  endOffset: 935
+- name: 'Demonstrating Versatility: Convincing employers you can do it all'
+  startOffset: 935
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=935
+  endOffset: 1101
+- name: 'Hiring Story: Cross-functional interview process at WhyLabs'
+  startOffset: 1101
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1101
+  endOffset: 1324
+- name: 'Career Decision: Choosing startup risk for growth and learning'
+  startOffset: 1324
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1324
+  endOffset: 1504
+- name: 'Prioritization Strategy: Focusing on production and model monitoring'
+  startOffset: 1504
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1504
+  endOffset: 1655
+- name: 'Observability Scope: ETL, data pipelines, and upstream root causes'
+  startOffset: 1655
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1655
+  endOffset: 1739
+- name: 'Customer Profiles: Production-first vs pre-deployment teams'
+  startOffset: 1739
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1739
+  endOffset: 1839
+- name: 'Market Education: Shift from "why monitor" to "how to monitor"'
+  startOffset: 1839
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1839
+  endOffset: 1910
+- name: 'Data Profiling Architecture: WhyLogs, profiles, and Apache Druid backend'
+  startOffset: 1910
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=1910
+  endOffset: 2065
+- name: 'Build vs Buy: Guiding customers on tooling and procurement decisions'
+  startOffset: 2065
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2065
+  endOffset: 2207
+- name: 'Platform Agnostic Integrations: Serving and inference tooling realities'
+  startOffset: 2207
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2207
+  endOffset: 2281
+- name: 'ONNX Adoption: Interoperability use cases and industry uptake'
+  startOffset: 2281
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2281
+  endOffset: 2350
+- name: 'Tooling Trends: Cloud-native stacks, heterogeneity, and vendor lock-in'
+  startOffset: 2350
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2350
+  endOffset: 2460
+- name: 'Research Focus: Fairness, bias, segmentation over explainability'
+  startOffset: 2460
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2460
+  endOffset: 2587
+- name: 'Productivity Habits: Inbox zero, workspace windows, and task management'
+  startOffset: 2587
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2587
+  endOffset: 2749
+- name: 'Career Strategy: Exploration vs exploitation and Thompson sampling analogy'
+  startOffset: 2749
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2749
+  endOffset: 3023
+- name: 'Skillset Advice: Coding, communication, and being an effective Googler'
+  startOffset: 3023
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=3023
+  endOffset: 3350
+- name: 'WhyLogs vs WhyLabs: Open-source profiling vs SaaS observability'
+  startOffset: 3350
+  url: https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=3350
+  endOffset: 3487
+transcript: transcripts/mlops-model-monitoring-data-observability.yaml
+resources:
+- title: Matt Turck
+  url: https://mattturck.com/data2021/
+- title: AI Observability Platform
+  url: https://whylabs.ai/observability
+- title: Danny's LinkedIn
+  url: https://www.linkedin.com/in/dleybz/
+- title: Whylabs' website
+  url: https://whylabs.ai/
+- title: AI Infrastructure Alliance
+  url: https://ai-infrastructure.org/

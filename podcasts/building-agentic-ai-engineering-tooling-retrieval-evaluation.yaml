@@ -1,0 +1,184 @@
+slug: building-agentic-ai-engineering-tooling-retrieval-evaluation
+legacy_path: /podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html
+title: 'Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation'
+short: Building reliable AI products in the era of Gen AI and Agents
+season: 22
+episode: 1
+guests:
+- ranjithakulkarni
+image: images/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.jpg
+ids:
+  anchor: datatalksclub/episodes/Building-reliable-AI-products-in-the-era-of-Gen-AI-and-Agents---Ranjitha-Kulkarni-e396m2u
+  youtube: x2AAjqz2XmM
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Building-reliable-AI-products-in-the-era-of-Gen-AI-and-Agents---Ranjitha-Kulkarni-e396m2u
+  apple: https://podcasts.apple.com/us/podcast/building-reliable-ai-products-in-the-era-of-gen/id1541710331?i=1000731199709
+  spotify: https://open.spotify.com/episode/7c22vqYNuNLKKYEfYGOos8?si=NBFT2e80S6WErW_tDDrijA
+  youtube: https://www.youtube.com/watch?v=x2AAjqz2XmM
+description: 'Discover agentic AI tactics: practical agent engineering and retrieval strategies to build
+  robust autonomous systems, boost performance and ensure reliability.'
+topics:
+- LLMs
+- AI
+- agent engineering
+- retrieval-augmented generation
+- MLOps
+- tools
+intro: 'How do you build reliable, agentic AI systems that balance practical engineering, tooling, retrieval,
+  and robust evaluation? In this episode Ranjitha Kulkarni, Staff Machine Learning Engineer at NeuBird.ai
+  and former engineer on LLM- and agent-powered product features at Dropbox Dash and Microsoft, explores
+  pragmatic approaches to agent design. Drawing on her work in speech recognition, language modeling,
+  assistant evaluation, and publications on voice query reformulation and automatic online evaluation,
+  Ranjitha discusses key elements of agent engineering: selecting and integrating tools, designing effective
+  retrieval pipelines, and establishing meaningful evaluation metrics for intelligent assistants. <br><br>
+  Listeners will get a grounded look at the trade-offs of agentic AI in real products, how retrieval strategies
+  impact reasoning and performance, and practical evaluation frameworks to measure assistant behavior.
+  If you’re building LLM-powered agents, improving tool use, or defining evaluation for agentic systems,
+  this episode offers actionable perspectives rooted in production experience and research. Keywords:
+  agentic AI, agent engineering, agent tooling, retrieval, agent evaluation, LLM-powered products.'
+dateadded: 2025-10-21
+duration: PT00H59M23S
+quotableClips:
+- name: Event Introduction & Community Links
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=0
+  endOffset: 192
+- name: 'Early ML Projects: Image Search with OpenCV'
+  startOffset: 192
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=192
+  endOffset: 265
+- name: Speech Recognition & Language Modeling Experience
+  startOffset: 265
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=265
+  endOffset: 297
+- name: Transition to Recommendation Systems at Dropbox
+  startOffset: 297
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=297
+  endOffset: 352
+- name: Question Answering & Early Agent Experiments
+  startOffset: 352
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=352
+  endOffset: 464
+- name: 'Joining Noird.ai: Automating On-call with Agents'
+  startOffset: 464
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=464
+  endOffset: 660
+- name: 'Agent Definition: Autonomy, Objectives & LLMs'
+  startOffset: 660
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=660
+  endOffset: 751
+- name: 'Agent Orchestration: Tools, Memory & Knowledge Stores'
+  startOffset: 751
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=751
+  endOffset: 910
+- name: 'Planning Strategies: Single-step, Multi-pass & Self-reflection'
+  startOffset: 910
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=910
+  endOffset: 1103
+- name: 'Implementation Approaches: Prompts, SDKs & Tool Wrappers'
+  startOffset: 1103
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1103
+  endOffset: 1198
+- name: 'Code Agents vs Natural-Language Agents: Trade-offs'
+  startOffset: 1198
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1198
+  endOffset: 1281
+- name: 'Context Engineering: Designing Effective LLM Inputs'
+  startOffset: 1281
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1281
+  endOffset: 1370
+- name: 'SRE Workflows Modeled by Agents: Logs, Metrics & Remediation'
+  startOffset: 1370
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1370
+  endOffset: 1499
+- name: 'Integration Abstractions: Handling Diverse Tooling'
+  startOffset: 1499
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1499
+  endOffset: 1770
+- name: 'RAG Reality Check: Latency, Cost & Garbage-In/Garbage-Out'
+  startOffset: 1770
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1770
+  endOffset: 1898
+- name: 'Retrieval Limitations: Reworking Backends for LLM Context'
+  startOffset: 1898
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1898
+  endOffset: 1968
+- name: 'Context Engineering Techniques: Chunking, Metadata & Wrappers'
+  startOffset: 1968
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=1968
+  endOffset: 2171
+- name: 'Agentic RAG: Using Retrieval as a Tool Within Agents'
+  startOffset: 2171
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2171
+  endOffset: 2259
+- name: 'Use Cases: When RAG Is Enough vs When Agents Are Needed'
+  startOffset: 2259
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2259
+  endOffset: 2430
+- name: 'Dynamic Planning Example: Calendar & Meeting Assistant'
+  startOffset: 2430
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2430
+  endOffset: 2586
+- name: Dropbox Dash & AI Productivity Assistants for Enterprises
+  startOffset: 2586
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2586
+  endOffset: 2648
+- name: 'Framework Choices: Build from Scratch vs Use Libraries'
+  startOffset: 2648
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2648
+  endOffset: 2760
+- name: 'Framework Trade-offs: LangChain, OpenAI Agents SDK, Small Agents'
+  startOffset: 2760
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2760
+  endOffset: 2880
+- name: Agent Marketplaces & Tool Protocols (MCP)
+  startOffset: 2880
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=2880
+  endOffset: 3077
+- name: 'Evaluation Strategy: Custom Datasets & System Benchmarks'
+  startOffset: 3077
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3077
+  endOffset: 3200
+- name: 'Testing Agents: Mocking Tools, Integration & Regression Tests'
+  startOffset: 3200
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3200
+  endOffset: 3362
+- name: 'Goal-based Evaluation: Outcome Assertions Over Exact Paths'
+  startOffset: 3362
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3362
+  endOffset: 3491
+- name: 'Specialization Challenge: Why Generic Agent Solutions Lag'
+  startOffset: 3491
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3491
+  endOffset: 3546
+- name: Closing Thoughts & Future Outlook for Agent Engineering
+  startOffset: 3546
+  url: https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3546
+  endOffset: 3563
+context: 'Context: The episode traces a practitioner’s journey from early ML and language work into building
+  agentic systems for real-world SRE and productivity problems—covering definitions, architectures, planning,
+  retrieval, tooling, frameworks, testing, and evaluation.
+
+  Core (single unifying idea): Pragmatic agent engineering: turning LLMs into reliable, task-oriented
+  autonomous systems by engineering around their capabilities and limits—designing objectives, orchestration,
+  context/retrieval, tooling integrations, planning strategies, and rigorous evaluation so agents can
+  safely, efficiently, and predictably perform real operational and enterprise tasks.
+
+  Why this unifies the episode: - Defines what an “agent” means in practice (autonomy + objectives + LLMs)
+  and why design choices matter. - Shows orchestration needs (tools, memory, knowledge stores) to ground
+  LLM reasoning in real data and actions. - Contrasts planning styles (single-step, multi-pass, self-reflection)
+  and implementation tradeoffs (prompts vs SDKs, code vs natural-language agents) as engineering choices,
+  not academic ones. - Treats retrieval/RAG as an engineering component with latency/cost/GIGO constraints
+  and explores agentic RAG when RAG alone falls short. - Emphasizes integration abstractions and framework
+  tradeoffs for production deployment (from bespoke stacks to marketplaces and SDKs). - Centers testing
+  and evaluation—mocking tools, regression tests, goal-based benchmarks—to ensure outcomes over narrative
+  plausibility. - Highlights specialization and domain constraints: generic agents struggle; practical
+  value comes from adapting agents to workflows, data, and operational requirements.
+
+  Bottom line: The episode’s through-line is that successful agent projects are not just about large models:
+  they are systems engineering problems requiring explicit choices about autonomy, grounding, tooling,
+  planning, and measurement to deliver dependable, useful automation.'
+transcript: transcripts/building-agentic-ai-engineering-tooling-retrieval-evaluation.yaml
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/ranjitha-gurunath-kulkarni

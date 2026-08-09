@@ -1,0 +1,151 @@
+slug: machine-learning-for-asteroid-mining-and-water-detection
+legacy_path: /podcast/machine-learning-for-asteroid-mining-and-water-detection.html
+title: 'Asteroid Mining: Using ML & Hyperspectral Spectroscopy to Detect Water for ISRU'
+short: Using Data for Asteroid Mining
+season: 9
+episode: 2
+guests:
+- daynancrull
+image: images/podcast/machine-learning-for-asteroid-mining-and-water-detection.jpg
+ids:
+  anchor: Using-Data-for-Asteroid-Mining---Daynan-Crull-e1jbhr0
+  youtube: YxijEUoDCfw
+links:
+  anchor: https://anchor.fm/datatalksclub/episodes/Using-Data-for-Asteroid-Mining---Daynan-Crull-e1jbhr0
+  apple: https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-juan-orduz/id1541710331?i=1000564219176
+  spotify: https://open.spotify.com/episode/7wjKCbCsD4ytuNrE8JrH2B?si=1WPAtw6PSZGVib0qSsoLvA
+  youtube: https://www.youtube.com/watch?v=YxijEUoDCfw
+description: 'Discover asteroid mining: machine learning & hyperspectral spectroscopy to detect water
+  for ISRU—learn detection methods, datasets, mission design & tools.'
+intro: How can we reliably detect water on near-Earth asteroids using machine learning and hyperspectral
+  spectroscopy to enable in-situ resource utilization (ISRU)? In this episode Daynan Crull—co-founder
+  of Karman+ and lead of its science and technology effort—walks through the science and engineering needed
+  to find and characterize asteroid water for space missions. Drawing on his background in remote sensing
+  and ML, Daynan explains hyperspectral infrared signatures for water detection, spectral classification
+  approaches, and the limits of ground truth from returned samples and meteorites. Along the way we cover
+  relevant astronomical data types (images, hyperspectral bands, time series), asteroid features like
+  photometry and rotation, observability challenges, and ML tasks from signal processing to orbit linking
+  and synthetic tracking. Daynan also discusses mission architecture (CubeSats, COTS), sampling and extraction
+  concepts, economic use cases for water-as-fuel, and the cloud, datasets, and tools (MPC, JPL Horizons,
+  NEOWISE) that support scalable workflows. Listen to gain practical insight into asteroid mining, hyperspectral
+  spectroscopy, machine learning for water detection, and the datasets and infrastructure to get involved
+  in ISRU research and missions
+topics:
+- machine learning
+- astronomy
+dateadded: 2022-06-04
+duration: PT01H16S
+quotableClips:
+- name: Podcast Introduction
+  startOffset: 83
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=83
+  endOffset: 111
+- name: 'Career & Data Science Pivot: From Astronomy to Asteroid Mining'
+  startOffset: 111
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=111
+  endOffset: 292
+- name: 'Cosmology vs. Astronomy: Timescales, Theory & Observation'
+  startOffset: 292
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=292
+  endOffset: 363
+- name: 'Machine Learning in Astronomy: Tasks, Signal Processing & Scaling'
+  startOffset: 363
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=363
+  endOffset: 440
+- name: 'Gravitational Wave Detection: Signal, Noise & Instrument Glitches'
+  startOffset: 440
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=440
+  endOffset: 765
+- name: 'Astronomical Data Types: Images, Hyperspectral Bands & Time Series'
+  startOffset: 765
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=765
+  endOffset: 864
+- name: 'Hyperspectral Spectroscopy: Infrared Signatures & Water Detection'
+  startOffset: 864
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=864
+  endOffset: 1004
+- name: 'Asteroid Features: Photometry, Light Curves, Rotation & Polarimetry'
+  startOffset: 1004
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=1004
+  endOffset: 1175
+- name: Spectral Classification & ML Approaches for Water Identification
+  startOffset: 1175
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=1175
+  endOffset: 1320
+- name: 'Ground Truth Limitations: Returned Samples, Meteorites & Validation'
+  startOffset: 1320
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=1320
+  endOffset: 1542
+- name: 'ISRU & Water-as-Fuel: Economics and Use Cases for Space Resources'
+  startOffset: 1542
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=1542
+  endOffset: 1818
+- name: 'Other Resources on Asteroids: Metals, Organics & Scientific Value'
+  startOffset: 1818
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=1818
+  endOffset: 1932
+- name: 'Asteroid Origins: Main Belt, Resonances & Near-Earth Populations'
+  startOffset: 1932
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=1932
+  endOffset: 2148
+- name: 'Observability Challenges: Angles, Dawn/Dusk Windows & Detection Biases'
+  startOffset: 2148
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=2148
+  endOffset: 2293
+- name: 'Data Organization: Team Roles, Data Engineering & Bayesian Engines'
+  startOffset: 2293
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=2293
+  endOffset: 2543
+- name: 'Cloud & Infrastructure: Storage, COGs/STAC and Querying Large Imagery'
+  startOffset: 2543
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=2543
+  endOffset: 2726
+- name: 'Open Datasets & APIs: Minor Planet Center, JPL Horizons, NEOWISE'
+  startOffset: 2726
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=2726
+  endOffset: 2956
+- name: 'Orbit Linking & Synthetic Tracking: ML for Large-Scale Detection'
+  startOffset: 2956
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=2956
+  endOffset: 3054
+- name: 'Mission Architecture: CubeSats, COTS Components & Partnership Strategy'
+  startOffset: 3054
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=3054
+  endOffset: 3202
+- name: 'Sampling & Extraction Methods: Scooping, Surface Interaction & R&D'
+  startOffset: 3202
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=3202
+  endOffset: 3436
+- name: 'Mathematical Models: Bayesian Frameworks, Thermal Models & Yarkovsky'
+  startOffset: 3436
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=3436
+  endOffset: 3611
+- name: 'Tools & Workflows: Notebooks, Reproducibility & Research Practices'
+  startOffset: 3611
+  url: https://www.youtube.com/watch?v=YxijEUoDCfw&t=3611
+  endOffset: 3668
+transcript: transcripts/machine-learning-for-asteroid-mining-and-water-detection.yaml
+resources:
+- title: LinkedIn
+  url: https://www.linkedin.com/in/daynan/
+- title: We're looking for a Sr Data Engineer
+  url: https://boards.eu.greenhouse.io/karmanplus/jobs/4027128101?gh_jid=4027128101
+- title: Minor Planet Center
+  url: https://minorplanetcenter.net/-
+- title: JPL Horizons has a nice set of APIs for accessing data related to small bodies (including asteroids)
+  url: https://ssd.jpl.nasa.gov/api.html
+- title: ESA has NEODyS
+  url: https://newton.spacedys.com/neodys
+- title: IRSA catalog that contains image and catalog data related to the WISE/NEOWISE data (and other
+    infrared platforms)
+  url: https://irsa.ipac.caltech.edu/frontpage/
+- title: NASA also has an archive of data collected from their various missions, including a node related
+    to small bodies
+  url: https://pds-smallbodies.astro.umd.edu/
+- title: Sub-node directly related to asteroids
+  url: https://sbn.psi.edu/pds/
+- title: Size, Mass, and Density of Asteroids (SiMDA) is a nice catalog of observed asteroid attributes
+    (and an indication of how small our sample size is!)
+  url: https://astro.kretlow.de/?SiMDA
+- title: The source survey data, several are useful for asteroids
+  url: https://outerspace.stsci.edu/display/PANSTARRS

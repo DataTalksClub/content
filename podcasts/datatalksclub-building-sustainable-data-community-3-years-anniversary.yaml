@@ -1,0 +1,127 @@
+slug: datatalksclub-building-sustainable-data-community-3-years-anniversary
+legacy_path: /podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html
+title: 'Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution'
+short: DataTalks.Club Anniversary Interview
+season: 16
+episode: 1
+guests:
+- alexeygrigorev
+- johannabayer
+image: images/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.jpg
+ids:
+  anchor: datatalksclub/episodes/DataTalks-Club-Anniversary-Interview---Alexey-Grigorev--Johanna-Bayer-e2a5cqo
+  youtube: nCqwZT9zA0M
+links:
+  anchor: https://podcasters.spotify.com/pod/show/datatalksclub/episodes/DataTalks-Club-Anniversary-Interview---Alexey-Grigorev--Johanna-Bayer-e2a5cqo
+  apple: https://podcasts.apple.com/us/podcast/datatalks-club-anniversary-interview-alexey-grigorev/id1541710331?i=1000631114088
+  spotify: https://open.spotify.com/episode/0j1eKj9NbK3oAXHXHyaNae?si=M7rw9WixTvWw-BfKPXPwVg
+  youtube: https://www.youtube.com/watch?v=nCqwZT9zA0M
+intro: 'How do you build a sustainable data community that endures beyond meetup hype and founder energy?
+  In this episode Alexey Grigorev, founder of DataTalks.Club, and Johanna Bayer, a researcher about to
+  complete her PhD in machine learning for clinical neuroimaging at the University of Melbourne, discuss
+  three years of community growth and evolution. <br><br> Alexey brings the perspective of launching and
+  running a global data community, while Johanna contributes her background in psychology, computational
+  neuroscience, and research software engineering, plus advocacy for open source and open science. Together
+  they explore core topics around sustainable data community building: membership growth, volunteer and
+  contributor roles, the intersection of research software engineering with community practice, and how
+  open source and open science principles support longevity. <br><br> Listeners will come away with concrete
+  considerations for creating and maintaining a data-focused community—practical lessons on community
+  governance, contributor engagement, and aligning technical and social infrastructure—making this episode
+  valuable for anyone building a dataTalks-style group, open source project, or research software community.'
+topics:
+- community building
+- machine learning
+- data science
+- data engineering
+- MLOps
+dateadded: 2023-10-16
+duration: PT01H02M57S
+quotableClips:
+- name: Episode Opening & DataTalks.Club 3rd Anniversary
+  startOffset: 0
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=0
+  endOffset: 77
+- name: 'Career Shift: From Java Developer to Machine Learning & Python'
+  startOffset: 77
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=77
+  endOffset: 251
+- name: 'Transition: Full-time on DataTalks.Club; engineering-heavy roles'
+  startOffset: 251
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=251
+  endOffset: 355
+- name: 'Sustainability Strategy: Monetization and Sponsorship Focus'
+  startOffset: 355
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=355
+  endOffset: 363
+- name: 'Team & Operations: Roles of Francis (community) and Valeria (marketing)'
+  startOffset: 363
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=363
+  endOffset: 442
+- name: 'Course Planning: Considering LLM/AI Courses vs. Rapidly Changing Content'
+  startOffset: 442
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=442
+  endOffset: 670
+- name: 'GPT and LLMs: Impact on Data Workflows, Hiring, and Take-home Tests'
+  startOffset: 670
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=670
+  endOffset: 896
+- name: 'Community Participation: Slack Engagement, TAs, and Webinar Contributions'
+  startOffset: 896
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=896
+  endOffset: 1223
+- name: 'Community Programs: Project of the Week, Competitions, and Portfolios'
+  startOffset: 1223
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=1223
+  endOffset: 1398
+- name: 'Community Lessons: Finding a Niche and Moderation Challenges'
+  startOffset: 1398
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=1398
+  endOffset: 1895
+- name: 'Origin Story: Launching the Slack Community and Early Organic Growth'
+  startOffset: 1895
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=1895
+  endOffset: 2026
+- name: 'Course Model: Creating Zoomcamps Inspired by Community-Driven Courses'
+  startOffset: 2026
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2026
+  endOffset: 2131
+- name: 'Book & Course Synergy: Developing the Machine Learning Bookcamp'
+  startOffset: 2131
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2131
+  endOffset: 2224
+- name: 'COVID Effect: Timing, Online Momentum, and Community Persistence'
+  startOffset: 2224
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2224
+  endOffset: 2351
+- name: 'Typical Outcomes: Career Switches, Internships, and Student Successes'
+  startOffset: 2351
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2351
+  endOffset: 2572
+- name: 'Content Strategy: Choosing Guests and Avoiding Hype-Chasing'
+  startOffset: 2572
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2572
+  endOffset: 2748
+- name: 'Safety & Moderation: Handling Unsolicited Messages and Community Safety'
+  startOffset: 2748
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2748
+  endOffset: 2908
+- name: 'Publishing Journey: Writing, Reviewing, and Working with Publishers'
+  startOffset: 2908
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=2908
+  endOffset: 3328
+- name: 'Backburner Projects: Hackathons, Event Recommender Ideas, and Event Tools'
+  startOffset: 3328
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=3328
+  endOffset: 3559
+- name: 'Success Metrics: Newsletter Performance, Active Users, and Sponsors'
+  startOffset: 3559
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=3559
+  endOffset: 3726
+- name: 'Closing Remarks: Next Steps and Continuing Community Growth'
+  startOffset: 3726
+  url: https://www.youtube.com/watch?v=nCqwZT9zA0M&t=3726
+  endOffset: 3777
+context: 'Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution'
+description: Discover DataTalks.Club's 3-year playbook to build a sustainable data community—scaling,
+  engagement & retention tactics that grow your network.
+transcript: transcripts/datatalksclub-building-sustainable-data-community-3-years-anniversary.yaml
