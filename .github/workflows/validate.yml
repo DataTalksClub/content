@@ -17,6 +17,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out pinned legacy source
+        uses: actions/checkout@v4
+        with:
+          repository: DataTalksClub/datatalksclub.github.io
+          ref: ee43d3fa0929faf691178d79f19528e6f15a83e5
+          path: .tmp/legacy-source
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6
@@ -31,3 +40,20 @@ jobs:
 
       - name: Validate content and tooling
         run: make check
+
+      - name: Verify immutable migration and repair overlay
+        run: make verify-source SOURCE=.tmp/legacy-source
+
+      - name: Emit replacement attestation
+        run: >-
+          make attest
+          COMMIT="$GITHUB_SHA"
+          OUTPUT=.tmp/attestation/missing-media-repair.json
+
+      - name: Upload replacement attestation
+        uses: actions/upload-artifact@v4
+        with:
+          name: missing-media-repair-${{ github.sha }}
+          path: .tmp/attestation/missing-media-repair.json
+          if-no-files-found: error
+          retention-days: 30

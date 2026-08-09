@@ -1,0 +1,347 @@
+schema_version: 1
+issue: https://github.com/DataTalksClub/content/issues/2
+baseline:
+  repository: https://github.com/DataTalksClub/content
+  commit: 373bef2912342ece1d2a2d2a9395aa3417243283
+  migration_manifest_sha256: dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08bfda5995c5f86
+  legacy_repository: https://github.com/DataTalksClub/datatalksclub.github.io
+  legacy_commit: ee43d3fa0929faf691178d79f19528e6f15a83e5
+expected_delta:
+  articles: 0
+  podcasts: 0
+  podcast_transcripts: 0
+  books: 0
+  media: 8
+current_counts:
+  articles: 55
+  podcasts: 205
+  podcast_transcripts: 203
+  books: 98
+  media: 815
+invariants:
+- migration.yaml remains byte-identical to the baseline
+- only the two declared article image scalars change
+- all 807 baseline media files remain byte-identical
+- article bodies remain byte-identical
+- podcast metadata and transcripts remain unchanged
+- book metadata summaries and archives remain unchanged
+generation:
+  source_commit: ee43d3fa0929faf691178d79f19528e6f15a83e5
+  viewport:
+    width: 940
+    height: 550
+  jpeg_quality: 85
+  shared_inputs:
+    styles:
+      path: previews/styles.css
+      blob: c905a4d937006c10ac9ed3f4b876f54f69e18331
+      sha256: ae66207c2b57d5573a5ee089a8b94f8da38366aa109f2a67ebcd849624c32012
+    package:
+      path: previews/package.json
+      blob: be39e6c82e766a5b5ffdc2db179f799029c018de
+      sha256: 7c323fc7f4c2c30181c7c18f61a78d64f301793441145a3735914b371006f601
+    lock:
+      path: previews/package-lock.json
+      blob: 71b49151500b7d39951b0ed1ae4f5ec0b13378c5
+      sha256: a9f0f19c84eb569fe33ef80186eb8e1bc5c4fabe1d09dc6a49973901c34af7a2
+  renderers:
+    post:
+      wrapper_blob: 7f96d1e71391d0fc4bd8f13594e85f8f0b4d2067
+      wrapper_sha256: fe4d03a4a602b8e01592bf0b1c04e55111f39fdabd9d15d379a1dad63ba2dc6e
+      renderer_blob: 1ced448d5f490845c7dd38226ff614eda94f414a
+      renderer_sha256: 4a68d45074e8a1c0c1de2afe6ae1bb58fdb80b2738d48c8ba00388522efb3a7a
+      template_blob: 6976f745caae18579cf75e998c27163d94910b0f
+      template_sha256: b11e29f35186be5522d256898305675c19cb9ade45de82db6012c3401cfa9dba
+    book:
+      wrapper_blob: 0e7b0a9f636ebf40942161153d53ae5e6c7f449b
+      wrapper_sha256: 6a5c1323c7c7f59ae68b53ef635772809b5d04e4686e038dd0109dbd48670c9b
+      renderer_blob: eeb6270b086a171995c6c371faf05b4a92cac05f
+      renderer_sha256: 11e0278f94511ab739afbaa68dd9c9897526312dfbb03d4029e5723af8400c5b
+      template_blob: 1970ee8247ddf6359697feeccffd8981d2755264
+      template_sha256: 159af00c2064db3964ac343f3ce06c3aa11efcd980c6dd87b0605caf414a9437
+    podcast:
+      wrapper_blob: c7ca2a1b11d22b9f745f97f0aae194d561f3ec91
+      wrapper_sha256: 185cad6528fc6c87d5d1d2989c3dffa3920d443cc745f9a7177a049b1c1cade1
+      renderer_blob: 33e54b1e2e695e2bdea3b3dc77114c7aace16947
+      renderer_sha256: 110fa5b1fd2f703c72411d23cf1f40c1845c0551fe6f7c322380fdb094f877db
+      template_blob: 922bba19603b6217f23c7d603b79c4ba1b3b6a75
+      template_sha256: 52a64be776dfe1193a0f14a1ec0915201781a6fb0b660da84b57e94e5fd98ca5
+  toolchain:
+    node: v24.13.1
+    npm: 11.8.0
+    puppeteer: 3.3.0
+    front_matter: 4.0.2
+    chromium:
+      command: chromium-browser
+      version: 150.0.7871.128
+      executable_sha256: 01dd10838addb2744692c84907314560763aa61f819fa7c1b58f4d5317ac1ba7
+    os: Ubuntu 24.04.3 LTS x86_64
+  external_resources:
+    google_font_css: HTTP 200
+    google_font_file: HTTP 200
+    alegreya_sans: loaded
+    fontawesome: HTTP 403; unused by all preview bodies
+    remote_images: none requested
+repairs:
+- ordinal: 1
+  record: articles/2022-07-12-building-data-science-team.md
+  baseline_blob: 9bedeba44c6668650fce34288945bc7b147727a9
+  baseline_sha256: d0d2b6e7f83e9dc891a0640238532f4e95bf5352eccaf5f36e2154b8ffa35431
+  action: restore_identical
+  source_history:
+    rename_commit: 5d78e76c0bb58d2e9234359366ee87ca5d1702d3
+    source_path: images/posts/2022-07-12-building-data-science-team/how-to-build-data-science-team-cover.jpg
+    source_blob: 4970560f6c8f56d3aae74fb5623e36db32e05682
+  result:
+    path: images/posts/2022-07-12-building-data-science-team/cover.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 51842
+    sha256: 9961d52e08c39164dc4da47062597a87e15551bc45b43183017d8e4eccfc158f
+- ordinal: 2
+  record: articles/2025-05-16-datatalks-club-community-demographics.md
+  baseline_blob: da9606c8a58bff805f1ef44b5925b3e7756fb540
+  baseline_sha256: 8385d3a54ca45f8202cde062e2405924d794271c774e7884fa8a4599433c4d84
+  action: generate_standard_post_preview
+  generator_inputs:
+    profile_path: _people/valeriiakuka.md
+    profile_blob: a3739e0f685b174bf2958de19720f62522ab1354
+    profile_sha256: f425bb57d3a465cc29a21576a48986600f4dfb6a132a15809c91394ba97ca11b
+    portrait_path: images/authors/valeriiakuka.jpg
+    portrait_blob: 1b30811fdcb7516d692e5353e9ae3c57efa12d1e
+    portrait_sha256: 6f3cb3819b3d659f53cd1c19fcd6abfb995000f50a8e163f755d5ed31860f6ae
+  command: cd previews && node render.js ../_posts/2025-05-16-datatalks-club-community-demographics.md $CONTENT_ROOT/images/posts/2025-05-16-datatalks-club-community-demographics/cover.jpg
+  result:
+    path: images/posts/2025-05-16-datatalks-club-community-demographics/cover.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 43778
+    sha256: b9db7ac7f02e84cc30d14d60ec6ed922f296e6920bc1723bb7edba4ca5f90c82
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: b9db7ac7f02e84cc30d14d60ec6ed922f296e6920bc1723bb7edba4ca5f90c82
+- ordinal: 3
+  record: articles/2025-08-05-how-to-build-waste-classifier-case-study-from-ml-zoomcamp.md
+  baseline_blob: 9dccb2ff7f37a1cd0979a1a90c5b5fc6812f4975
+  baseline_sha256: 646047280080730363a581b94de77f596f671e1879b7e628278a57779b229f9b
+  action: generate_standard_post_preview
+  preview_title_override: Building a Waste Classifier
+  preview_input_sha256: d0b21755c634c3c1bfdab8c0995400351cf500140b30e4d0f79c3dff0352dd44
+  generator_inputs:
+    profile_path: _people/serenahaidar.md
+    profile_blob: bd0467d79cbd46aab682a475664131fcde58d04f
+    profile_sha256: b2bfc756f0a0f9dc11c5fb89fc7fc27f982cb5a3381d5b426b1e27d3511179c2
+    portrait_path: images/authors/serenahaidar.jpg
+    portrait_blob: fd91b913c6b2f47469e04edf391a6b887eea1070
+    portrait_sha256: cbe1760759d2edb37c07b165ff5952ae701b13129a2efd21906ea3c4b0c51f00
+  command: cd previews && node render.js $PREVIEW_INPUT/building-waste-classifier/input.md $CONTENT_ROOT/images/posts/2025-08-05-how-to-build-waste-classifier-case-study-from-ml-zoomcamp/cover.jpg
+  result:
+    path: images/posts/2025-08-05-how-to-build-waste-classifier-case-study-from-ml-zoomcamp/cover.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 61862
+    sha256: 072faeefaaf950e16337ef1fd9c7ab23370b8e61965d139aa3e8ae33eb2537af
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: 072faeefaaf950e16337ef1fd9c7ab23370b8e61965d139aa3e8ae33eb2537af
+- ordinal: 4
+  record: articles/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar.md
+  baseline_blob: 2792ccffe00ecd0264e838a046c2d9befa7d0c5f
+  baseline_sha256: b674d82eb57a1346d05356d0d35bb9c560cd112b30dc7938f5ac43d969b5b2eb
+  action: generate_standard_post_preview
+  generator_inputs:
+    profile_path: _people/serenahaidar.md
+    profile_blob: bd0467d79cbd46aab682a475664131fcde58d04f
+    profile_sha256: b2bfc756f0a0f9dc11c5fb89fc7fc27f982cb5a3381d5b426b1e27d3511179c2
+    portrait_path: images/authors/serenahaidar.jpg
+    portrait_blob: fd91b913c6b2f47469e04edf391a6b887eea1070
+    portrait_sha256: cbe1760759d2edb37c07b165ff5952ae701b13129a2efd21906ea3c4b0c51f00
+  command: cd previews && node render.js ../_posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar.md $CONTENT_ROOT/images/posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar/cover.jpg
+  result:
+    path: images/posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar/cover.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 68888
+    sha256: b31bacc143b60728f9becb8c5fa602bb6dfb58e3e42c88bb22edb619a986d7ff
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: b31bacc143b60728f9becb8c5fa602bb6dfb58e3e42c88bb22edb619a986d7ff
+- ordinal: 5
+  record: articles/2025-08-11-building-discipline-in-machine-learning-with-ml-zoomcamp.md
+  baseline_blob: cc2ef11edd08f8fcc9230288b338734bee5e43e7
+  baseline_sha256: 5f3080b0504ed2b8656021822558483ceb9eacf226310901b669855c79e85387
+  action: generate_standard_post_preview
+  generator_inputs:
+    profile_path: _people/alexanderdanielrios.md
+    profile_blob: 6c974510d205381a5e38189a7681612c73d8339c
+    profile_sha256: c1177c0b60bc7cdd7c2033066fd0d1c4ecebb978e3b148e3349e7b7d348e2765
+    portrait_path: images/authors/alexanderdanielrios.jpg
+    portrait_blob: 4e40a069236b47a7c6b5bd7a6398ef250f23667f
+    portrait_sha256: 6abbf6cafdac9a4fdf397a0fd75073be834fc116a938a161a12728ec2bba9d85
+  command: cd previews && node render.js ../_posts/2025-08-11-building-discipline-in-machine-learning-with-ml-zoomcamp.md $CONTENT_ROOT/images/posts/2025-08-11-tab-2-building-discipline-in-machine-learning-with-ml-zoomcamp/cover.jpg
+  result:
+    path: images/posts/2025-08-11-tab-2-building-discipline-in-machine-learning-with-ml-zoomcamp/cover.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 78586
+    sha256: 929bef77044dd413aa575a65266ea6d4676af172c920394ab2f9fb380ca5c988
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: 929bef77044dd413aa575a65266ea6d4676af172c920394ab2f9fb380ca5c988
+- ordinal: 6
+  record: articles/2025-08-11-how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.md
+  baseline_blob: c63682ad65661a2dec4f6cc422c9d2cb2113f46d
+  baseline_sha256: bf2903e0c96c932811cfa58031c5ae1ce1c3a8128216e1267723afa1d6078ad1
+  action: generate_standard_post_preview
+  preview_title_override: Building a Blood Cell Classifier
+  preview_input_sha256: 46063046153ae68dc82f09c26bd37e599a3724a76256aeeabb66dc9db64324d9
+  generator_inputs:
+    profile_path: _people/alexanderdanielrios.md
+    profile_blob: 6c974510d205381a5e38189a7681612c73d8339c
+    profile_sha256: c1177c0b60bc7cdd7c2033066fd0d1c4ecebb978e3b148e3349e7b7d348e2765
+    portrait_path: images/authors/alexanderdanielrios.jpg
+    portrait_blob: 4e40a069236b47a7c6b5bd7a6398ef250f23667f
+    portrait_sha256: 6abbf6cafdac9a4fdf397a0fd75073be834fc116a938a161a12728ec2bba9d85
+  command: cd previews && node render.js $PREVIEW_INPUT/building-blood-cell-classifier/input.md $CONTENT_ROOT/images/posts/2025-08-11-tab-1-how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp/cover.jpg
+  result:
+    path: images/posts/2025-08-11-tab-1-how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp/cover.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 59990
+    sha256: be2d6051433b159014b8bfddcf22d54888956af047505b786be2309c87c2d883
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: be2d6051433b159014b8bfddcf22d54888956af047505b786be2309c87c2d883
+- ordinal: 7
+  record: articles/2025-12-10-free-data-engineering-courses.md
+  baseline_blob: 81cf6a474b9bf7e661461eac42ac1402e1f24929
+  baseline_sha256: 57bebad5d92eea62cae05975eee79735ec1440e01db0209475b4cbb9fc3353a3
+  action: correct_image_path
+  field: image
+  old_value: images/posts/2023-11-18-data-engineering-zoomcamp/cover.png
+  new_value: images/posts/2025-12-10-free-data-engineering-courses/cover.png
+  evidence_commit: 84d68b1882e095182317f91bf1c71f9fe5828b11
+  result:
+    path: images/posts/2025-12-10-free-data-engineering-courses/cover.png
+    added: false
+    media_type: image/png
+    width: 1536
+    height: 1024
+    bytes: 2085484
+    blob: 5ad036b10ce51532d6898d79f33bb550d760c5b0
+    sha256: b2a9dc3fe73b9c3c7d23eb2893df6cfb6507629e7c5e8523a18dca194c676b9c
+- ordinal: 8
+  record: articles/2026-01-25-benefits-of-learning-in-public.md
+  baseline_blob: 7215821b5332ee61fee05395e84ef035f55100d4
+  baseline_sha256: 8034c60887e7d8241b8f788e5755f93579fe2c4bd44731b5398803c7333056f7
+  action: correct_image_path
+  field: image
+  old_value: images/posts/2026-01-25-benefits-of-learning-in-public-and-why-it-works/cover.jpg
+  new_value: images/posts/2026-03-05-benefits-of-learning-in-public-and-why-it-works/cover.jpg
+  evidence_commit: 62a070035d7a5df1a7b40befef4e703f93972185
+  result:
+    path: images/posts/2026-03-05-benefits-of-learning-in-public-and-why-it-works/cover.jpg
+    added: false
+    media_type: image/jpeg
+    width: 1920
+    height: 1080
+    bytes: 75963
+    blob: bf43ac2c240c30ee29148c9d83d545e3519edad5
+    sha256: 14eec4d894d5de59e0258dad2aeb52673bd8e76c3c1e6d0213cbeeb01522c17e
+- ordinal: 9
+  record: books/20241104-llm-engineer-s-handbook.yaml
+  baseline_blob: 1485e55a615dff7178ff0aff689e442c91949fc5
+  baseline_sha256: 50f0daba20e444dd4266f71ec512ba743d2a5edffe70c53d25d67e92f8007a96
+  action: generate_standard_book_preview
+  generator_inputs:
+    record_path: _books/20241104-llm-engineer-s-handbook.md
+    record_blob: 265fc88776fc4bcb203f2c5dc77f3c20a84c87ad
+    record_sha256: aa887affd29fb847c2a5adcf94ce370eda74f8d15f209ea258afe7a0bcbbfb58
+    cover_path: images/books/20241104-llm-engineer-s-handbook/cover.jpg
+    cover_blob: c442a815fc8407f0ab5f6327b71fa142ef9c46de
+    cover_sha256: a885bc62fb9747114b111812cea85e23bad4ab1a0e0da7eae7ca433bc5d824a0
+    profile_path: _people/pauliusztin.md
+    profile_blob: 27fc1c5258d20be725509afa2b622ffbbd52dda0
+    profile_sha256: 29b54a20659d470d62a22f8ada9dc66cde68d2e86e3a7662ed7bda78fd1e510d
+    portrait_path: images/authors/pauliusztin.jpg
+    portrait_blob: 82a177bd95bf659638cd6aee344edc030d2acdad
+    portrait_sha256: 372dd11f1127e100c2817d96b058532ddfba7bb2cfbd5dfbe2e74b9fcf884d12
+  command: cd previews && node render_book.js ../_books/20241104-llm-engineer-s-handbook.md $CONTENT_ROOT/images/books/20241104-llm-engineer-s-handbook/preview.jpg
+  result:
+    path: images/books/20241104-llm-engineer-s-handbook/preview.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 53287
+    sha256: e1d03041ec8b93b2399215b6ffb53c85f19054022b16ad10638cbe8b820b174b
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: e1d03041ec8b93b2399215b6ffb53c85f19054022b16ad10638cbe8b820b174b
+- ordinal: 10
+  record: podcasts/ai-for-ecology-biodiversity-and-conservation.yaml
+  baseline_blob: f7812500431622e3667bd85991e5bdbe55c5b583
+  baseline_sha256: f2fd6fba7ab88a9c87c0ed4e60e0b3f79ac2206050df4a9674d9dc0c31b38d74
+  action: generate_standard_podcast_preview
+  generator_inputs:
+    record_path: _podcast/ai-for-ecology-biodiversity-and-conservation.md
+    record_blob: 69afbff4b486765f0c0ad541ce9ae02c1aa55fdf
+    record_sha256: fcc3ef401c67f15e0ab8917fc95f1372f4c3a9cac179c838cb4b71ba75f948c1
+    profile_path: _people/tanyabergerwolf.md
+    profile_blob: b2036b0ae1da229d4cf9d06209a8a15dc6f1d888
+    profile_sha256: 712192662a5752bbb80eb8874cd6619a30d368770e4193db5a9101ce1779c66f
+    portrait_path: images/authors/tanyabergerwolf.jpg
+    portrait_blob: 7aeca45ff1928e68009b59821cc9f1bd4a8375ca
+    portrait_sha256: c04c0a761269affec220184a131f81ed70b33abf7ecffdce4904b2a669d22803
+  command: cd previews && node render_podcast.js ../_podcast/ai-for-ecology-biodiversity-and-conservation.md $CONTENT_ROOT/images/podcast/ai-for-ecology-biodiversity-and-conservation.jpg
+  result:
+    path: images/podcast/ai-for-ecology-biodiversity-and-conservation.jpg
+    added: true
+    media_type: image/jpeg
+    width: 940
+    height: 550
+    bytes: 39271
+    sha256: 83323cd39740fc051426b7a6f47c8235158161cbd9957546187e1b64333b2674
+  editor_approval:
+    status: FINAL
+    verdict: APPROVE
+    comment_url: https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231
+    approver: alexeygrigorev
+    approved_at: '2026-08-09T09:08:34Z'
+    output_sha256: 83323cd39740fc051426b7a6f47c8235158161cbd9957546187e1b64333b2674

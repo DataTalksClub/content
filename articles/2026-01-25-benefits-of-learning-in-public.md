@@ -4,7 +4,7 @@ subtitle: "How sharing your learning publicly leads to feedback, visibility, and
 authors:
 - alexeygrigorev
 description: "How sharing your learning publicly leads to feedback, visibility, and real opportunities"
-image: images/posts/2026-01-25-benefits-of-learning-in-public-and-why-it-works/cover.jpg
+image: images/posts/2026-03-05-benefits-of-learning-in-public-and-why-it-works/cover.jpg
 layout: post
 date: 2026-01-25
 tags:

@@ -4,7 +4,7 @@ subtitle: 'Find the best data engineering course for you: compare 15 free and 5 
 authors:
 - valeriiakuka
 description: "Learn data engineering with 15 free courses and 5 paid options. Compare platforms, certificates, and tech stacks. Start today."
-image: images/posts/2023-11-18-data-engineering-zoomcamp/cover.png
+image: images/posts/2025-12-10-free-data-engineering-courses/cover.png
 layout: post
 date: 2025-12-10
 tags:

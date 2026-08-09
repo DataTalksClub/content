@@ -65,6 +65,7 @@ Use [uv](https://docs.astral.sh/uv/) for all repository tooling:
 ```bash
 uv sync --frozen
 uv run python scripts/validate_content.py
+uv run python -m scripts.repair_manifest
 uv run pytest
 uv run ruff check .
 uv run ruff format --check .
@@ -72,7 +73,18 @@ uv run ruff format --check .
 
 The validator rejects embedded podcast transcript arrays, missing or orphaned
 transcript files, malformed front matter/YAML, duplicate slugs and legacy paths,
-and unsupported content file types.
+and unsupported content file types. It also resolves every article front-matter
+image, local Markdown/HTML body image, podcast image, and book cover/preview.
+
+Local media references may use `images/...` or `/images/...`. They must resolve
+to a regular, non-symlink file below the matching `images/posts`,
+`images/podcast`, or `images/books` root. Only lowercase GIF, JPEG, PNG, and safe
+SVG files are accepted. Validation fails on missing media, traversal or encoded
+traversal, filesystem paths, ambiguous query/fragment spellings, backslashes,
+wrong roots, unsupported/double extensions, mismatched signatures, unsafe SVG,
+non-regular files, and files over 10 MiB. HTTP(S) body images remain external;
+required metadata images must always be repository media. The validator never
+fetches remote images or substitutes a fallback.
 
 ## Migration provenance
 
@@ -82,9 +94,46 @@ conversion. It excludes legacy `_template.md` files, copies article Markdown
 and media bytes unchanged, and separates podcast transcript data without
 rewriting transcript segments.
 
+The immutable migration contains 55 articles, 205 podcasts, 203 transcripts, 98
+books, and 807 copied media files. The checked
+`repairs/2026-08-09-missing-media.yaml` composes a post-migration overlay: eight
+allowlisted media additions and two article `image` scalar corrections, for a
+current media count of 815. It binds the exact baseline, source/generator inputs,
+toolchain, output hashes, and the SHA-bound DTC editor approval. Changing any
+approved output invalidates that approval and requires a new issue comment and
+manifest update before commit.
+
+For generated previews, an identified DTC editor opens every candidate at its
+original resolution and records `APPROVE` or `REJECT` for each exact output path
+and SHA-256 in the issue. The editor checks the record identity and DTC design,
+the intended author/guest/cover, text fit, and resource/layout integrity. Only
+the per-path hashes explicitly approved in that issue comment may be recorded as
+final in the repair manifest.
+
 When the pinned legacy checkout is available locally, verify the migration
 against it byte-for-byte and field-for-field:
 
 ```bash
 uv run python -m scripts.verify_migration ../datatalksclub.github.io
+```
+
+The source checkout must be detached at the revision recorded in
+`migration.yaml`. Verification proves all 807 baseline media bytes, all
+unaffected content, the exact eight additions, and only the two declared scalar
+changes. Run all local checks with:
+
+```bash
+make check
+make verify-source SOURCE=../datatalksclub.github.io
+```
+
+CI repeats those checks against the pinned public legacy checkout and publishes
+a deterministic JSON replacement attestation. To reproduce it locally for an
+exact 40-character replacement commit, write it only below the ignored `.tmp/`
+directory:
+
+```bash
+make attest \
+  COMMIT=0123456789abcdef0123456789abcdef01234567 \
+  OUTPUT=.tmp/attestation/missing-media-repair.json
 ```
