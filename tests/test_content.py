@@ -18,6 +18,8 @@ def test_repository_content_is_valid() -> None:
         "podcasts": 205,
         "transcripts": 203,
         "books": 98,
+        "media": 815,
+        "referenced_media": 761,
     }
 
 

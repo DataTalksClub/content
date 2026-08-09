@@ -1,4 +1,4 @@
-.PHONY: sync validate verify-source test lint format-check check
+.PHONY: sync validate validate-repairs verify-source attest test lint format-check check
 
 sync:
 	uv sync --frozen
@@ -6,9 +6,19 @@ sync:
 validate:
 	uv run python scripts/validate_content.py
 
+validate-repairs:
+	uv run python -m scripts.repair_manifest
+
 verify-source:
 	@test -n "$(SOURCE)" || (echo "SOURCE is required" && exit 2)
 	uv run python -m scripts.verify_migration "$(SOURCE)"
+
+attest:
+	@test -n "$(COMMIT)" || (echo "COMMIT is required" && exit 2)
+	@test -n "$(OUTPUT)" || (echo "OUTPUT is required" && exit 2)
+	uv run python -m scripts.repair_manifest \
+		--attest-commit "$(COMMIT)" \
+		--attestation-output "$(OUTPUT)"
 
 test:
 	uv run pytest
@@ -19,4 +29,4 @@ lint:
 format-check:
 	uv run ruff format --check .
 
-check: validate test lint format-check
+check: validate validate-repairs test lint format-check
