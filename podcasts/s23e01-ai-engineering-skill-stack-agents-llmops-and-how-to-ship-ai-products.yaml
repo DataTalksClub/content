@@ -15,6 +15,9 @@ links:
 season: 23
 short: 'AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products'
 title: 'AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products'
+description: Paul Iusztin explains the full-stack AI engineer skill set, including RAG, knowledge management,
+  LLMOps, infrastructure, evaluation, and deployment, plus how project portfolios and a generalist mindset
+  help engineers ship production-grade AI products.
 transcript: transcripts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.yaml
 resources:
 - title: Linkedin

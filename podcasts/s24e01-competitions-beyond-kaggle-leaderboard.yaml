@@ -15,6 +15,9 @@ links:
 season: 24
 short: 'Competitions: Beyond the Kaggle Leaderboard'
 title: 'Competitions: Beyond the Kaggle Leaderboard'
+description: Kaggle Master Tatiana Gabruseva explains how competitions build technical depth, portfolios,
+  publications, and career opportunities beyond leaderboard scores, covering agentic AI benchmarks,
+  specialized platforms, research challenges, first submissions, and asynchronous teamwork.
 transcript: transcripts/s24e01-competitions-beyond-kaggle-leaderboard.yaml
 resources:
 - title: Linkedin

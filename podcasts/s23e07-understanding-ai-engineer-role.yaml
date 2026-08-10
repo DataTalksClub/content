@@ -15,6 +15,9 @@ links:
 season: 23
 short: Understanding the AI Engineer Role
 title: Understanding the AI Engineer Role
+description: Nasser Qadri explains the AI engineer role across startups and big tech, combining evaluation
+  rigor, human-centered product thinking, software engineering for agents, orchestration and AgentOps,
+  and decisions about frameworks, distillation, and fine-tuning.
 transcript: transcripts/s23e07-understanding-ai-engineer-role.yaml
 resources:
 - title: Linkedin

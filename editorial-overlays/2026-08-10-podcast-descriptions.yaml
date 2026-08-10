@@ -1,0 +1,90 @@
+schema_version: 1
+kind: podcast_description_editorial_overlay
+issue: https://github.com/DataTalksClub/content/issues/3
+created: '2026-08-10'
+baseline_content_commit: b9a40ba974fdef67ee3a2a70f114734f2581033c
+source:
+  repository: https://github.com/DataTalksClub/datatalksclub.github.io
+  commit: ee43d3fa0929faf691178d79f19528e6f15a83e5
+migration:
+  manifest: migration.yaml
+  sha256: dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08bfda5995c5f86
+field: description
+target_count: 19
+targets:
+- path: podcasts/_s12e08.yaml
+  key: description
+  description_sha256: 36b4f44538df92fcd1bd068a61808a74125015c0483155f7b200b869fd526c8e
+  target_sha256: 0e5633409e18bfce3a92267aa9d10ae55823170fff3cfe78722c8cb56e602de4
+- path: podcasts/data-team-roles.yaml
+  key: description
+  description_sha256: f30285e6439901040c8a60ff320c5c80ad03a91fcf60d288fcbb653188ac2210
+  target_sha256: f2743da3e17eabda4733d1573ef6f74c7836ad7bdc1c89a267814e49a5325741
+- path: podcasts/machine-learning-data-science-interview-prep.yaml
+  key: description
+  description_sha256: 5412e8634244bcfef69856ffb0262a05ce26ffa820238157cfe9043b3cf1eae6
+  target_sha256: 0e1fd90c460fbf4a068a63150ae854099d5568756bbe2e3ccc543971ce056a58
+- path: podcasts/s22e06-from-black-box-systems-to-augmented-decision-making.yaml
+  key: description
+  description_sha256: e7c8e559176490a84920a27b25dceac3c70d74a7c12d86b257d8d03eb917d366
+  target_sha256: be86177fe0ba31756cef6dcd29a892364742163558da1dc1a62f9cd14d6cd025
+- path: podcasts/s22e07-reinventing-career-in-tech.yaml
+  key: description
+  description_sha256: 7d953e451e8f498f3c8550237d8016ede773e3b9933d2e66f6029ef46d3ab294
+  target_sha256: 925c67ebb1cc6b140eaa6820ef6d282d4a420d0a75f17378b5e0fc74049b0e6c
+- path: podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.yaml
+  key: description
+  description_sha256: 9cb0cfd7c756fd8ec871cf49084f65321bbcc43138d0eeb95e6f8497bfc4c4f0
+  target_sha256: 55a94947c5fa011ca7cfe4f71e2913dfe36dfee6b4a0a24e7dfcbeca416e5eb0
+- path: podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.yaml
+  key: description
+  description_sha256: 411e9f195a54e7643b8849c9281f0b48155f7d6af4f0528bfa4f8231263ca68d
+  target_sha256: 31cf403c7650d1db315eeae9e4525e076cdcbb48f5b78909f2480b4ca7912dd8
+- path: podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.yaml
+  key: description
+  description_sha256: 3971802f1c7c9c485a9222f2f05edf81e73b24ef7719fe20919a1b93aaf62887
+  target_sha256: 0d88e18d6f6103adecbe70d2ec28b52e9fa584c4dd8e990b6930f3637d70f223
+- path: podcasts/s23e03-future-of-ai-agents.yaml
+  key: description
+  description_sha256: 19d5c5778ab64e69b18abdbd7f4f4128a9f9b9d17497c0cd54758f9fc446414f
+  target_sha256: 08b6694207ca5e15fc35c1a58a77bc29dc560e06e68483363a91f6e3386dde21
+- path: podcasts/s23e04-how-to-become-ai-engineer-after-career-break.yaml
+  key: description
+  description_sha256: 8e13e83c88bd7c011f92732289b77de10580ecd094adad9ecd9b96dcf0ee9079
+  target_sha256: cc439ce0ffe3837b97a9f9975540f268cc293c123fadc676fe750997657adb8a
+- path: podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.yaml
+  key: description
+  description_sha256: 311968f4ea70cb1482871fec646f0c63e2581f5f07302028057344ea8e34a82b
+  target_sha256: 806122aa69f2f1105b14b403436da510572b412a1c90e11712ab6e03faeea146
+- path: podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.yaml
+  key: description
+  description_sha256: 223c38e23a033a166201ac62e7b965fa320d03b7d94e419404e74700f4fc217a
+  target_sha256: d01c1378747fc020d7baa4dd9a65c20d1adb2abac8b75fa231f3f328b7d48d36
+- path: podcasts/s23e07-understanding-ai-engineer-role.yaml
+  key: description
+  description_sha256: 468fd0ba017eafeb5c3dc5376c3edfce9679ee43a3514ffe9c721be3f8b27548
+  target_sha256: 864edc4eef0298a62f79b8d59dd210a252686091f41ba9cc5d0d1a29ce3528bd
+- path: podcasts/s23e09-starting-data-conference-data-makers-fest-story.yaml
+  key: description
+  description_sha256: 34351ec1b333cdb0deeeee68b4c407bd350c6296ad34fc9a6a731c004d621edb
+  target_sha256: d9285660ab8f44648d574f6e178a1c38fa19aa882c2f6d4625df8a58ddc26192
+- path: podcasts/s24e01-competitions-beyond-kaggle-leaderboard.yaml
+  key: description
+  description_sha256: 72c66ea39f0252b94e5f67521612e17d527a712d090396b3825aa5accef7825e
+  target_sha256: c44e06e919fd2a5125ab965a79e63934a5b82c6a171be1c02b2ed9e996f7061d
+- path: podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.yaml
+  key: description
+  description_sha256: a0f38cb46101c4b43bc57146a37312ae0bf4a93d58ee8c8567fda44dd7c33446
+  target_sha256: e181993483eff94c1236183c875d3ee716293b8214d33ba35d2a0ea7db806784
+- path: podcasts/s24e04-from-genai-pilots-to-production.yaml
+  key: description
+  description_sha256: 407a9a5bd3c0a15cc10dc48a10df0fd7b0ca8a3e0e4b30add9f47731cb20fcaa
+  target_sha256: e02b6b0ea5584b2889cf1841ab75dbd66c6c8e6c64812b5e1e2f495d6b9494a9
+- path: podcasts/s24e05-ai-adoption-in-enterprise-beyond-writing-code.yaml
+  key: description
+  description_sha256: 6e44cc57eab8dcbc3f6731cc538a06caf5018569cde82fd401f448aa5c101b2b
+  target_sha256: f968ef115b11b368633bef5d835a37841ee6aad8acfa365531fa0eb02cdf6bcf
+- path: podcasts/s24e06-how-to-build-ai-that-actually-ships-in-production.yaml
+  key: description
+  description_sha256: 3240fea7a0126d1b6b546a4eab11118555e868de9a9aede8985ff464a837e658
+  target_sha256: 47c8d1fcb41f1dfe855cecb477fbada147420fea20fccac9c676cf854f915234

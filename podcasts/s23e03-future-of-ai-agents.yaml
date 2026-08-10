@@ -15,6 +15,9 @@ links:
 season: 23
 short: The Future of AI Agents
 title: The Future of AI Agents
+description: Aditya Gautam examines how enterprise AI agents become reliable and economical through specialized
+  models, governance, guardrails, lineage, user feedback, and human-aligned evaluations, then considers
+  infrastructure risks and the move toward multimodal agents.
 transcript: transcripts/s23e03-future-of-ai-agents.yaml
 resources:
 - title: Linkedin

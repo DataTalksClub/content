@@ -15,6 +15,9 @@ links:
 season: 22
 short: From Black-Box Systems to Augmented Decision-Making
 title: From Black-Box Systems to Augmented Decision-Making
+description: Anusha Akkina traces the finance data problems that led her to build an AI finance platform,
+  explaining why rigid ERPs and spreadsheet dependence persist and how compliance, explainability, and
+  audit trails support trusted decisions.
 transcript: transcripts/s22e06-from-black-box-systems-to-augmented-decision-making.yaml
 resources:
 - title: Linkedin

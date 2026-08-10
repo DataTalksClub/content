@@ -10,6 +10,7 @@ articles/                 Markdown articles with YAML front matter
 podcasts/                 One YAML metadata file per podcast episode
 podcasts/transcripts/     One separate YAML transcript per podcast episode
 books/                    One YAML file per book
+editorial-overlays/       Strict manifests for post-migration editorial fields
 images/posts/             Article images at their legacy paths
 images/podcast/           Podcast images at their legacy paths
 images/books/             Book images at their legacy paths
@@ -30,6 +31,7 @@ public URLs and search-engine indexing.
 slug: data-engineering-career
 legacy_path: /podcast/data-engineering-career.html
 title: Data Engineering Career
+description: A practical discussion of data engineering roles, skills, and career development.
 season: 1
 episode: 1
 guests:
@@ -66,15 +68,19 @@ Use [uv](https://docs.astral.sh/uv/) for all repository tooling:
 uv sync --frozen
 uv run python scripts/validate_content.py
 uv run python -m scripts.repair_manifest
+uv run python -m scripts.editorial_overlay
 uv run pytest
 uv run ruff check .
 uv run ruff format --check .
 ```
 
-The validator rejects embedded podcast transcript arrays, missing or orphaned
-transcript files, malformed front matter/YAML, duplicate slugs and legacy paths,
-and unsupported content file types. It also resolves every article front-matter
-image, local Markdown/HTML body image, podcast image, and book cover/preview.
+Every podcast must provide `description` as a non-empty string scalar. The
+validator rejects missing, blank, null, numeric, boolean, sequence, and mapping
+descriptions. It also rejects embedded podcast transcript arrays, missing or
+orphaned transcript files, malformed front matter/YAML, duplicate slugs and
+legacy paths, and unsupported content file types. It resolves every article
+front-matter image, local Markdown/HTML body image, podcast image, and book
+cover/preview.
 
 Local media references may use `images/...` or `/images/...`. They must resolve
 to a regular, non-symlink file below the matching `images/posts`,
@@ -102,6 +108,23 @@ current media count of 815. It binds the exact baseline, source/generator inputs
 toolchain, output hashes, and the SHA-bound DTC editor approval. Changing any
 approved output invalidates that approval and requires a new issue comment and
 manifest update before commit.
+
+`editorial-overlays/2026-08-10-podcast-descriptions.yaml` is a separate
+post-migration editorial overlay for
+[content issue 3](https://github.com/DataTalksClub/content/issues/3). It permits
+only the `description` key on its exact 19 podcast paths. The manifest pins the
+immutable legacy source revision, migration manifest, baseline content commit,
+target set, description digests, complete target-file digests, and its own
+contract digest in the validator. Missing or extra rows, duplicate or
+noncanonical paths, wrong keys or types, digest drift, target-file drift, and
+undeclared fields fail closed.
+
+Source verification composes the overlays without weakening the migration
+boundary. For a declared podcast, it validates the editorial manifest, removes
+only the exact declared `description` from the candidate mapping, and then
+compares every remaining field with the metadata deterministically reconstructed
+from the immutable legacy checkout. The SHA-bound missing-media repair remains
+unchanged and scoped to its own declared article and media outputs.
 
 For generated previews, an identified DTC editor opens every candidate at its
 original resolution and records `APPROVE` or `REJECT` for each exact output path

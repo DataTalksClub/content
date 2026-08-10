@@ -9,6 +9,7 @@ from typing import Any
 
 import yaml
 
+from scripts.editorial_overlay import validate_editorial_overlay
 from scripts.migrate_legacy_content import (
     read_legacy_document,
     resources_from_body,
@@ -37,6 +38,8 @@ def sha256(path: Path) -> bytes:
 
 def verify_migration(source: Path, target: Path) -> dict[str, int]:
     repair_summary = validate_repair_manifest(target)
+    editorial_summary = validate_editorial_overlay(target)
+    description_overlay = editorial_summary["descriptions"]
     repairs = load_repair_manifest(target / "repairs/2026-08-09-missing-media.yaml")
     provenance = load_yaml(target / "migration.yaml")
     source_revision = subprocess.run(
@@ -46,7 +49,11 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
         capture_output=True,
         text=True,
     ).stdout.strip()
-    if source_revision != LEGACY_COMMIT or provenance["source"]["revision"] != source_revision:
+    if (
+        source_revision != LEGACY_COMMIT
+        or provenance["source"]["revision"] != source_revision
+        or editorial_summary["source_commit"] != source_revision
+    ):
         raise ValueError("legacy checkout revision does not match migration.yaml")
 
     article_sources = sorted((source / "_posts").glob("*.md"))
@@ -90,8 +97,9 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
                 expected["notes"] = body
             else:
                 expected["resources"] = resources
-        if load_yaml(target / "podcasts" / f"{slug}.yaml") != expected:
-            raise ValueError(f"podcasts/{slug}.yaml: migrated podcast metadata differs")
+        relative = f"podcasts/{slug}.yaml"
+        actual = load_yaml(target / relative)
+        verify_podcast_metadata_overlay(expected, actual, relative, description_overlay)
 
     actual_transcript_names = {
         path.name for path in (target / "podcasts/transcripts").glob("*.yaml")
@@ -147,6 +155,25 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
     if counts["images"] != EXPECTED_COUNTS["media"]:
         raise ValueError("repaired media count differs from repair manifest")
     return counts
+
+
+def verify_podcast_metadata_overlay(
+    expected: dict[str, Any],
+    actual: Any,
+    relative: str,
+    description_overlay: dict[str, str],
+) -> None:
+    if not isinstance(actual, dict):
+        raise ValueError(f"{relative}: migrated podcast metadata differs")
+    candidate = dict(actual)
+    declared_description = description_overlay.get(relative)
+    if (
+        declared_description is not None
+        and candidate.pop("description", None) != declared_description
+    ):
+        raise ValueError(f"{relative}: declared podcast description differs")
+    if candidate != expected:
+        raise ValueError(f"{relative}: migrated podcast metadata differs")
 
 
 def verify_article_overlay(

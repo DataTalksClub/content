@@ -1,4 +1,4 @@
-.PHONY: sync validate validate-repairs verify-source attest test lint format-check check
+.PHONY: sync validate validate-repairs validate-editorial-overlay verify-source attest test lint format-check check
 
 sync:
 	uv sync --frozen
@@ -8,6 +8,9 @@ validate:
 
 validate-repairs:
 	uv run python -m scripts.repair_manifest
+
+validate-editorial-overlay:
+	uv run python -m scripts.editorial_overlay
 
 verify-source:
 	@test -n "$(SOURCE)" || (echo "SOURCE is required" && exit 2)
@@ -29,4 +32,4 @@ lint:
 format-check:
 	uv run ruff format --check .
 
-check: validate validate-repairs test lint format-check
+check: validate validate-repairs validate-editorial-overlay test lint format-check

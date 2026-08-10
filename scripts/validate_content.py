@@ -153,6 +153,9 @@ def validate_repository(root: Path) -> dict[str, int]:
         for key in ("title", "season", "episode", "guests"):
             if key not in metadata:
                 errors.append(f"{path}: {key} is required")
+        description = metadata.get("description")
+        if not isinstance(description, str) or not description.strip():
+            errors.append(f"{path}: description must be a non-empty string")
         _validate_required_media_reference(
             root,
             path,

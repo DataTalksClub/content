@@ -15,6 +15,9 @@ links:
 season: 24
 short: From GenAI Pilots to Production
 title: From GenAI Pilots to Production
+description: Nikita Kozodoi explains how teams move GenAI pilots into production using hybrid ML and
+  LLM pipelines, layered guardrails, red teaming, human-aligned evaluations, RAG and fine-tuning, observability,
+  and reusable enterprise architecture.
 transcript: transcripts/s24e04-from-genai-pilots-to-production.yaml
 resources:
 - title: Linkedin

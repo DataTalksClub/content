@@ -15,6 +15,9 @@ links:
 season: 24
 short: 'From Notebook to Production: Building End-to-End AI Systems'
 title: 'From Notebook to Production: Building End-to-End AI Systems'
+description: Mariano Semelman walks through end-to-end ownership of AI media features for e-commerce
+  sellers, from translating product needs and feedback into ML requirements through architecture, APIs,
+  evaluation, observability, and production systems beyond notebooks.
 transcript: transcripts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.yaml
 resources:
 - title: Linkedin

@@ -15,6 +15,9 @@ links:
 season: 24
 short: AI Adoption in Enterprise Beyond Writing Code
 title: AI Adoption in Enterprise Beyond Writing Code
+description: Ivan Bilan examines enterprise AI adoption beyond code generation, including build-versus-buy
+  decisions, ROI and DORA metrics, CI/CD reliability, team rollout practices, vendor lock-in, junior
+  onboarding, and specification-driven development.
 transcript: transcripts/s24e05-ai-adoption-in-enterprise-beyond-writing-code.yaml
 resources:
 - title: LinkedIn

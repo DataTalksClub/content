@@ -15,6 +15,9 @@ links:
   anchor: https://anchor.fm/datatalksclub/episodes/Roles-in-a-data-team---Alexey-Grigorev-emqcft
   spotify: TODO
   apple: TODO
+description: Alexey Grigorev uses an automatic listing-categorization project to explain how product
+  managers, analysts, data scientists, data engineers, ML engineers, and MLOps engineers divide responsibilities
+  and collaborate to ship useful ML products.
 topics:
 - team building
 - data teams

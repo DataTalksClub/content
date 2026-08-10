@@ -15,6 +15,9 @@ links:
 season: 22
 short: 'Building Pet Health Tech: ML, Sensors, and Dog Behavior Data'
 title: 'Building Pet Health Tech: ML, Sensors, and Dog Behavior Data'
+description: Sofya Yulpatova explains how Fit Tails uses wearable sensors and machine learning to establish
+  individual canine baselines and detect behavior or health anomalies, alongside lessons on prototyping,
+  bootstrapping, and finding startup collaborators.
 transcript: transcripts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.yaml
 resources:
 - title: Website

@@ -47,6 +47,7 @@ def _build_repository(tmp_path: Path, *, article_image: str | None = None) -> Pa
                 "season: 1",
                 "episode: 1",
                 "guests: []",
+                "description: Podcast description",
                 "image: images/podcast/podcast.png",
                 "",
             )

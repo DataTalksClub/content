@@ -15,6 +15,9 @@ links:
 season: 24
 short: How to Build AI That Actually Ships in Production
 title: How to Build AI That Actually Ships in Production
+description: Aleksandr Kim explains how AI features reach production at scale by aligning model metrics
+  with business outcomes, interviewing customers, enforcing structured outputs, routing across models
+  for cost, and fixing data-infrastructure bottlenecks.
 transcript: transcripts/s24e06-how-to-build-ai-that-actually-ships-in-production.yaml
 resources:
 - title: Website

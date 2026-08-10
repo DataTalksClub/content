@@ -15,6 +15,9 @@ links:
 season: 23
 short: 'Foundations of Analytics Engineer Role: Skills, Scope, and Modern Practices'
 title: 'Foundations of Analytics Engineer Role: Skills, Scope, and Modern Practices'
+description: Juan Manuel Perafan defines analytics engineering as the bridge between business analysis
+  and reliable data systems, covering modeling, dbt, testing, SQL and Python, team boundaries, lakehouses,
+  and practical ways to enter the field.
 transcript: transcripts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.yaml
 resources:
 - title: Linkedin
