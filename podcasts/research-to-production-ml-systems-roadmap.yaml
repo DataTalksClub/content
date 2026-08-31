@@ -154,3 +154,9 @@ notes: 'Links:
   - [Mihail''s Twitter](https://twitter.com/mihail_eric){:target="_blank"}
 
   - <http://confetti.ai/>{:target="_blank"}'
+
+resources:
+- title: 'Mihail''s Twitter'
+  url: 'https://twitter.com/mihail_eric'
+- title: 'http://confetti.ai/'
+  url: 'http://confetti.ai/'

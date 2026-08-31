@@ -158,3 +158,5 @@ quotableClips:
   url: https://www.youtube.com/watch?v=qOLR84-KHoY&t=3947
   endOffset: 3991
 transcript: transcripts/data-science-leadership-hiring-mlops.yaml
+
+resources: []

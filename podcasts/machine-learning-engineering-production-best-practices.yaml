@@ -138,3 +138,7 @@ notes: 'Links:
 
   - [Ben''s book](https://www.manning.com/books/machine-learning-engineering-in-action){:target="_blank"}
   (get 35% off with code "ctwsummer21")'
+
+resources:
+- title: 'Ben''s book'
+  url: 'https://www.manning.com/books/machine-learning-engineering-in-action'

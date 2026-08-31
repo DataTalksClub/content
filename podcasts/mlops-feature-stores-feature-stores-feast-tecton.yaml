@@ -296,3 +296,5 @@ notes: "In this episode, we dive deeper into feature stores with Willem, creator
   \ Classic data platforms/catalogs don’t focus on that online path or parity. A feature store bridges\
   \ data and ML platforms.\n\nThank you for joining us today, Willem. This conversation really clarified\
   \ where feature stores help and where they might not be the right solution."
+
+resources: []

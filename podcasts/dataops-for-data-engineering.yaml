@@ -134,3 +134,5 @@ context: 'DataOps is the episode’s unifying idea: treating data and ML work as
   through day-two reliability and day-three evolution) turns pockets of heroic, ad-hoc data work into
   consistent, reliable delivery that enables safe, scalable use of AI and analytics.'
 transcript: transcripts/dataops-for-data-engineering.yaml
+
+resources: []

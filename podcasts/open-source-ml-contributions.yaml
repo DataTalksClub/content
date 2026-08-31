@@ -415,3 +415,5 @@ notes: 'Today we''re talking open source with our guest, **Vincent Warmerdam**. 
   community feedback back to the team (especially for non-English use cases). Next, I want to build a
   personal Slack assistant with Rasa—automating my own workflows—then share the journey so developers
   can replicate it. It''s a two-way bridge: community ↔ research.'
+
+resources: []

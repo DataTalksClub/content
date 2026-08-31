@@ -138,3 +138,5 @@ context: 'Context: Across a career-spanning conversation about linguistics, indu
   product trade-offs—so systems can be safe, trustworthy, and useful despite hallucinations, manipulation,
   data-quality limits, and operational constraints.'
 transcript: transcripts/generative-ai-chatbots-in-production-security.yaml
+
+resources: []

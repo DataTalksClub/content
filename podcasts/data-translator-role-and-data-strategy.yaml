@@ -157,3 +157,21 @@ notes: 'Links:
   - Akkawy: [https://g.page/akkawy](https://g.page/akkawy){:target="_blank"}
 
   - The Eatery Berlin: [https://g.page/theeateryberlin](https://g.page/theeateryberlin){:target="_blank"}'
+
+resources:
+- title: 'Book'
+  url: 'https://www.amazon.com/-/en/Sarah-Mayor/dp/B086L277LZ'
+- title: 'Company'
+  url: 'https://www.taleaboutdata.com/'
+- title: 'Podcast'
+  url: 'https://podcast.whatthedatapodcast.com/'
+- title: 'LinkedIn'
+  url: 'https://www.linkedin.com/in/liorbarak/'
+- title: 'Twitter'
+  url: 'https://twitter.com/liorb'
+- title: 'Azzam'
+  url: 'https://goo.gl/maps/uCkb3ATc5CVKapDa6'
+- title: 'Akkawy'
+  url: 'https://g.page/akkawy'
+- title: 'The Eatery Berlin'
+  url: 'https://g.page/theeateryberlin'

@@ -159,3 +159,7 @@ notes: 'Links:
 
 
   - Tammy''s podcast: <https://dataforfuture.org/>{:target="_blank"}'
+
+resources:
+- title: 'Tammy''s podcast'
+  url: 'https://dataforfuture.org/'

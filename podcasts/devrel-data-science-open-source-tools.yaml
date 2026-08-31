@@ -143,3 +143,5 @@ quotableClips:
   url: https://www.youtube.com/watch?v=jv5W4jXk4P4&t=3399
   endOffset: 3492
 transcript: transcripts/devrel-data-science-open-source-tools.yaml
+
+resources: []

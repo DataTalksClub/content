@@ -160,3 +160,11 @@ notes: 'Links:
 
   - [Book of the week page](https://datatalks.club/books/20210510-the-coding-career-handbook.html){:target="_blank"}
   (with a discount for DTC members!)'
+
+resources:
+- title: 'Shawn''s personal page'
+  url: 'https://www.swyx.io/'
+- title: 'Twitter'
+  url: 'https://twitter.com/swyx'
+- title: 'Book of the week page'
+  url: 'https://datatalks.club/books/20210510-the-coding-career-handbook.html'

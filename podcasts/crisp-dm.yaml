@@ -180,3 +180,5 @@ notes: "The topic today is the processes in a data science project. We want to u
   \ makes these processes valuable.\n\n**Q: Do you typically conduct A/B tests as part of the CRISP-DM\
   \ process, and when are they most valuable?**\n\nYes, A/B tests are the best way to evaluate models\
   \ in production."
+
+resources: []

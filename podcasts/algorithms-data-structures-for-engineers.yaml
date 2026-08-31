@@ -154,3 +154,11 @@ notes: 'Links:
   - [MIT, Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/){:target="_blank"}
 
   - [Algorithms specialization by Tim Roughgarden](https://www.coursera.org/specializations/algorithms){:target="_blank"}'
+
+resources:
+- title: 'Advanced Algorithms and Data Structures'
+  url: 'http://mng.bz/eP79'
+- title: 'MIT, Introduction to Algorithms'
+  url: 'https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/'
+- title: 'Algorithms specialization by Tim Roughgarden'
+  url: 'https://www.coursera.org/specializations/algorithms'

@@ -163,3 +163,11 @@ notes: 'Links:
   - Santiago''s course: <https://gumroad.com/svpino#kBjbC>{:target="_blank"}
 
   - [Pinned tweet with a roadmap](https://twitter.com/svpino/status/1400798154732212230){:target="_blank"}'
+
+resources:
+- title: 'Santiago''s Twitter'
+  url: 'https://twitter.com/svpino'
+- title: 'Santiago''s course'
+  url: 'https://gumroad.com/svpino#kBjbC'
+- title: 'Pinned tweet with a roadmap'
+  url: 'https://twitter.com/svpino/status/1400798154732212230'

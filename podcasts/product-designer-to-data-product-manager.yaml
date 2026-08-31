@@ -138,3 +138,15 @@ notes: 'Links:
   2](https://steveblank.com/category/customer-development/){:target="_blank"}
 
   - [Data Engineering for Noobs](https://www.datacamp.com/){:target="_blank"}'
+
+resources:
+- title: 'course 1'
+  url: 'https://www.lennyrachitsky.com/course'
+- title: 'course 2'
+  url: 'https://www.reforge.com/mastering-product-management'
+- title: 'link 1'
+  url: 'https://svpg.com/inspired-how-to-create-products-customers-love/'
+- title: 'link 2'
+  url: 'https://steveblank.com/category/customer-development/'
+- title: 'Data Engineering for Noobs'
+  url: 'https://www.datacamp.com/'

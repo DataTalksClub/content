@@ -134,3 +134,5 @@ quotableClips:
   url: https://www.youtube.com/watch?v=FljnbUQ796w&t=3449
   endOffset: 3599
 transcript: transcripts/data-engineering-leadership-and-modern-data-platforms.yaml
+
+resources: []

@@ -149,3 +149,5 @@ context: 'Context: Raphaël Hoogvliets (Eneco) walks through his journey from ag
   together so organizations can balance speed versus robustness, build trust with quick wins and measured
   KPIs, and keep models reliably deployed and delivering business impact.'
 transcript: transcripts/mlops-at-scale-reproducibility-adoption.yaml
+
+resources: []

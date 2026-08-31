@@ -148,3 +148,5 @@ quotableClips:
   url: https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=3388
   endOffset: 3566
 transcript: transcripts/human-centered-mlops-and-model-monitoring.yaml
+
+resources: []

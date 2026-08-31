@@ -125,3 +125,5 @@ quotableClips:
   url: https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=3570
   endOffset: 3720
 transcript: transcripts/machine-learning-decision-optimization.yaml
+
+resources: []

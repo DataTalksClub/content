@@ -267,3 +267,5 @@ notes: "Today we're discussing technical writing, logging, documentation, and mo
   **Eugene:** Think of the hiring manager. Clear **quick start** instructions, **requirements**, and a\
   \ **repo tour**: where to find data prep, training, validation, and serving. Show you can document as\
   \ well as code. A concise decision log (assumptions, trade-offs) helps your credibility."
+
+resources: []

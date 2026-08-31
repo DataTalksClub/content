@@ -157,3 +157,9 @@ transcript: transcripts/freelancing-in-machine-learning.yaml
 notes: "Books: \n\n* Million Dollar Consulting  by Alan Weiss\n* Built to Sell by John Warrillow\n\nLinks:\n\
   \n* [Mikio's Twitter](https://twitter.com/mikiobraun/){:target=\"_blank\"}\n* [Mikio's LinkedIn](https://www.linkedin.com/in/mikiobraun/){:target=\"\
   _blank\"}"
+
+resources:
+- title: 'Mikio''s Twitter'
+  url: 'https://twitter.com/mikiobraun/'
+- title: 'Mikio''s LinkedIn'
+  url: 'https://www.linkedin.com/in/mikiobraun/'

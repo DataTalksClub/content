@@ -174,3 +174,9 @@ notes: 'We talked about:
   - [https://www.scling.com/reading-list](https://www.scling.com/reading-list){:target="_blank"}
 
   - [https://www.scling.com/presentations](https://www.scling.com/presentations){:target="_blank"}'
+
+resources:
+- title: 'https://www.scling.com/reading-list'
+  url: 'https://www.scling.com/reading-list'
+- title: 'https://www.scling.com/presentations'
+  url: 'https://www.scling.com/presentations'

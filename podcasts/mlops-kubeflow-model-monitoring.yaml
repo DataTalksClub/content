@@ -167,3 +167,5 @@ quotableClips:
   url: https://www.youtube.com/watch?v=-i0fVp0ntYA&t=3899
   endOffset: 3922
 transcript: transcripts/mlops-kubeflow-model-monitoring.yaml
+
+resources: []

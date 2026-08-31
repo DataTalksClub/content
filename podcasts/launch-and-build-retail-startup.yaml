@@ -169,3 +169,11 @@ notes: 'Books:
   * [Carmine''s LinkedIn](https://www.linkedin.com/in/carminepaolino){:target="_blank"}
 
   * [Carmine''s Twitter](https://twitter.com/paolino){:target="_blank"}'
+
+resources:
+- title: 'FreshFlow'
+  url: 'https://freshflow.ai/'
+- title: 'Carmine''s LinkedIn'
+  url: 'https://www.linkedin.com/in/carminepaolino'
+- title: 'Carmine''s Twitter'
+  url: 'https://twitter.com/paolino'

@@ -130,3 +130,9 @@ transcript: transcripts/analytics-engineer-skills-tools.yaml
 notes: "Links: \n\n* <https://www.notion.so/Analytics-Engineer-New-Role-in-a-Data-Team-9decbf33825c4580967cf3173eb77177>{:target=\"\
   _blank\"}\n* [Victoria's LinkedIn](https://www.linkedin.com/in/victoriaperezmola/){:target=\"_blank\"\
   }"
+
+resources:
+- title: 'https://www.notion.so/Analytics-Engineer-New-Role-in-a-Data-Team-9decbf33825c4580967cf3173eb77177'
+  url: 'https://www.notion.so/Analytics-Engineer-New-Role-in-a-Data-Team-9decbf33825c4580967cf3173eb77177'
+- title: 'Victoria''s LinkedIn'
+  url: 'https://www.linkedin.com/in/victoriaperezmola/'

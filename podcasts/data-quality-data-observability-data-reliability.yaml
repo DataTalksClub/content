@@ -141,3 +141,13 @@ notes: 'Links:
   - [Data Observability: The Next Frontier of Data Engineering](https://www.montecarlodata.com/data-observability-the-next-frontier-of-data-engineering/)
 
   - To get in touch with Barr, ping her in the DataTalks.Club group or use barr@montecarlodata.com'
+
+resources:
+- title: 'Monte Carlo'
+  url: 'https://www.montecarlodata.com'
+- title: 'The Data Engineer''s Guide to Root Cause Analysis'
+  url: 'https://www.montecarlodata.com/the-data-engineers-guide-to-root-cause-analysis/'
+- title: 'Why You Need to Set SLAs for Your Data Pipelines'
+  url: 'https://www.montecarlodata.com/how-to-make-your-data-pipelines-more-reliable-with-slas/'
+- title: 'Data Observability: The Next Frontier of Data Engineering'
+  url: 'https://www.montecarlodata.com/data-observability-the-next-frontier-of-data-engineering/'

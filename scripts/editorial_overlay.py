@@ -10,7 +10,7 @@ from typing import Any
 import yaml
 
 MANIFEST_RELATIVE_PATH = Path("editorial-overlays/2026-08-10-podcast-descriptions.yaml")
-EXPECTED_MANIFEST_SHA256 = "63969508134e8b2ef3c8471e9c8dbccc96842fcfc25225fe02e1ed5a4f5926f6"
+EXPECTED_MANIFEST_SHA256 = "c92cf089cae507e41f6c760c52881ba3ee8985d2e3178487749c1fd0b5580614"
 ISSUE_URL = "https://github.com/DataTalksClub/content/issues/3"
 CREATED = "2026-08-10"
 BASELINE_CONTENT_COMMIT = "b9a40ba974fdef67ee3a2a70f114734f2581033c"
