@@ -36,7 +36,9 @@ def _write_manifest(path: Path, manifest: dict[str, Any]) -> None:
 def _candidate_repository(tmp_path: Path) -> tuple[Path, dict[str, Any]]:
     candidate = tmp_path / "repository"
     candidate.mkdir()
-    shutil.copy2(ROOT / "migration.yaml", candidate / "migration.yaml")
+    migration = candidate / "migration/migration.yaml"
+    migration.parent.mkdir(parents=True)
+    shutil.copy2(ROOT / "migration/migration.yaml", migration)
     candidate_manifest = candidate / editorial_overlay.MANIFEST_RELATIVE_PATH
     candidate_manifest.parent.mkdir(parents=True)
     shutil.copy2(MANIFEST, candidate_manifest)
@@ -61,7 +63,7 @@ def _set_nested(value: Any, path: tuple[str | int, ...], replacement: Any) -> No
 def test_checked_editorial_overlay_is_valid_and_exact() -> None:
     summary = validate_editorial_overlay(ROOT)
 
-    assert summary["targets"] == 19
+    assert summary["targets"] == 18
     assert summary["field"] == "description"
     assert summary["source_commit"] == editorial_overlay.SOURCE_COMMIT
     assert summary["manifest_sha256"] == EXPECTED_MANIFEST_SHA256
@@ -160,13 +162,16 @@ def test_rejects_missing_extra_or_duplicate_entries(
 @pytest.mark.parametrize(
     "path",
     (
-        "../podcasts/_s12e08.yaml",
-        "podcasts/../_s12e08.yaml",
-        "podcasts//_s12e08.yaml",
-        "podcasts/./_s12e08.yaml",
-        "/podcasts/_s12e08.yaml",
-        r"podcasts\_s12e08.yaml",
-        "podcasts/_s12e08.yml",
+        "../podcasts/s12/e08.yaml",
+        "podcasts/../s12/e08.yaml",
+        "podcasts/s12/../e08.yaml",
+        "podcasts//s12/e08.yaml",
+        "podcasts/s12/./e08.yaml",
+        "/podcasts/s12/e08.yaml",
+        r"podcasts\s12\e08.yaml",
+        "podcasts/s12/e08.yml",
+        "podcasts/s12/e08-transcript.yaml",
+        "podcasts/s2/e08.yaml",
     ),
 )
 def test_rejects_traversal_and_noncanonical_paths(
@@ -189,7 +194,7 @@ def test_rejects_description_and_target_content_drift(tmp_path: Path) -> None:
     target = candidate / EXPECTED_TARGETS[0]
     current = target.read_text(encoding="utf-8")
     target.write_text(
-        current.replace("description: Jekaterina", "description: Changed", 1),
+        current.replace("description:", "description: Changed", 1),
         encoding="utf-8",
     )
 

@@ -21,9 +21,9 @@ PNG = (
 
 def _build_repository(tmp_path: Path, *, article_image: str | None = None) -> Path:
     for relative in (
-        "articles",
-        "podcasts/transcripts",
-        "books",
+        "articles/2024",
+        "podcasts/s01",
+        "books/2024",
         "images/posts/article",
         "images/podcast",
         "images/books/book",
@@ -34,11 +34,11 @@ def _build_repository(tmp_path: Path, *, article_image: str | None = None) -> Pa
     _write_png(tmp_path / "images/books/book/cover.png")
     _write_png(tmp_path / "images/books/book/preview.png")
     image = article_image or "images/posts/article/cover.png"
-    (tmp_path / "articles/article.md").write_text(
-        f"---\ntitle: Article\nimage: {image}\n---\n\nArticle body.\n",
+    (tmp_path / "articles/2024/24-01-02-article.md").write_text(
+        f"---\ntitle: Article\ndatepublished: '2024-01-02'\nimage: {image}\n---\n\nArticle body.\n",
         encoding="utf-8",
     )
-    (tmp_path / "podcasts/podcast.yaml").write_text(
+    (tmp_path / "podcasts/s01/e01.yaml").write_text(
         "\n".join(
             (
                 "slug: podcast",
@@ -54,11 +54,12 @@ def _build_repository(tmp_path: Path, *, article_image: str | None = None) -> Pa
         ),
         encoding="utf-8",
     )
-    (tmp_path / "books/book.yaml").write_text(
+    (tmp_path / "books/2024/24-01-02-book.yaml").write_text(
         "\n".join(
             (
                 "slug: book",
                 "legacy_path: /books/book.html",
+                "start: 2024-01-02",
                 "title: Book",
                 "summary: Summary",
                 "cover: images/books/book/cover.png",
@@ -77,8 +78,9 @@ def _write_png(path: Path) -> None:
 
 
 def _set_article_body(root: Path, body: str) -> None:
-    (root / "articles/article.md").write_text(
-        f"---\ntitle: Article\nimage: images/posts/article/cover.png\n---\n\n{body}\n",
+    (root / "articles/2024/24-01-02-article.md").write_text(
+        f"---\ntitle: Article\ndatepublished: '2024-01-02'\n"
+        f"image: images/posts/article/cover.png\n---\n\n{body}\n",
         encoding="utf-8",
     )
 

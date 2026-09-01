@@ -1,0 +1,24 @@
+slug: s23e07-understanding-ai-engineer-role
+legacy_path: /podcast/s23e07-understanding-ai-engineer-role.html
+episode: 7
+guests:
+- nasserqadri
+ids:
+  anchor: datatalksclub/episodes/Understanding-the-AI-Engineer-Role---Nasser-Qadri-e3hgnvb
+  youtube: 5Xfbk_en8e8
+image: images/podcast/s23e07-understanding-ai-engineer-role.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Understanding-the-AI-Engineer-Role---Nasser-Qadri-e3hgnvb
+  apple: https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-role-nasser-qadri/id1541710331?i=1000760703188
+  spotify: https://open.spotify.com/episode/1YIEpklIbwSQAS7EmmXsBr?si=4__wD7HjR8aq-KeWsuFkmg
+  youtube: https://www.youtube.com/watch?v=5Xfbk_en8e8
+season: 23
+short: Understanding the AI Engineer Role
+title: Understanding the AI Engineer Role
+description: Nasser Qadri explains the AI engineer role across startups and big tech, combining evaluation
+  rigor, human-centered product thinking, software engineering for agents, orchestration and AgentOps,
+  and decisions about frameworks, distillation, and fine-tuning.
+transcript: e07-transcript.yaml
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/nasserq/

@@ -10,6 +10,57 @@ from typing import Any
 
 import yaml
 
+try:
+    from scripts.content_layout import (
+        ARTICLE_DATE_FIELD,
+        BOOK_DATE_FIELD,
+        discover_article_paths,
+        discover_book_paths,
+        expected_dated_path,
+        metadata_date,
+    )
+    from scripts.podcast_layout import (
+        LEGACY_TRANSCRIPTS_DIRECTORY,
+        PodcastIdentity,
+        discover_episode_paths,
+        discover_transcript_paths,
+        parse_seasonal_episode_path,
+        seasonal_podcast_paths,
+    )
+    from scripts.podcast_platform import is_legacy_anchor_url
+    from scripts.removal_manifest import (
+        MANIFEST_RELATIVE_PATH as REMOVAL_MANIFEST_RELATIVE_PATH,
+    )
+    from scripts.removal_manifest import (
+        RemovalManifestError,
+        validate_removal_manifest,
+    )
+except ModuleNotFoundError:  # pragma: no cover - supports direct script execution
+    from content_layout import (
+        ARTICLE_DATE_FIELD,
+        BOOK_DATE_FIELD,
+        discover_article_paths,
+        discover_book_paths,
+        expected_dated_path,
+        metadata_date,
+    )
+    from podcast_layout import (
+        LEGACY_TRANSCRIPTS_DIRECTORY,
+        PodcastIdentity,
+        discover_episode_paths,
+        discover_transcript_paths,
+        parse_seasonal_episode_path,
+        seasonal_podcast_paths,
+    )
+    from podcast_platform import is_legacy_anchor_url
+    from removal_manifest import (
+        MANIFEST_RELATIVE_PATH as REMOVAL_MANIFEST_RELATIVE_PATH,
+    )
+    from removal_manifest import (
+        RemovalManifestError,
+        validate_removal_manifest,
+    )
+
 FRONT_MATTER_DELIMITER = re.compile(r"^---[ \t]*$", re.MULTILINE)
 HTML_IMAGE_TAG = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
 HTML_IMAGE_SOURCE = re.compile(
@@ -85,28 +136,48 @@ def yaml_files(directory: Path) -> list[Path]:
 def validate_repository(root: Path) -> dict[str, int]:
     root = root.resolve()
     errors: list[str] = []
+    removal_manifest = root / REMOVAL_MANIFEST_RELATIVE_PATH
+    if removal_manifest.is_file():
+        try:
+            validate_removal_manifest(root)
+        except (OSError, RemovalManifestError) as error:
+            errors.append(str(error))
     articles_dir = root / "articles"
     podcasts_dir = root / "podcasts"
-    transcripts_dir = podcasts_dir / "transcripts"
     books_dir = root / "books"
 
-    for directory in (articles_dir, podcasts_dir, transcripts_dir, books_dir):
+    for directory in (articles_dir, podcasts_dir, books_dir):
         if not directory.is_dir():
             errors.append(f"{directory}: required directory is missing")
 
-    article_paths = sorted(articles_dir.glob("*.md")) if articles_dir.is_dir() else []
-    podcast_paths = yaml_files(podcasts_dir) if podcasts_dir.is_dir() else []
-    transcript_paths = yaml_files(transcripts_dir) if transcripts_dir.is_dir() else []
-    book_paths = yaml_files(books_dir) if books_dir.is_dir() else []
+    article_paths = discover_article_paths(articles_dir)
+    podcast_paths = discover_episode_paths(podcasts_dir)
+    transcript_paths = discover_transcript_paths(podcasts_dir)
+    book_paths = discover_book_paths(books_dir)
     referenced_media: set[Path] = set()
 
     unsupported = []
     if articles_dir.is_dir():
-        unsupported.extend(articles_dir.glob("*.yaml"))
+        known_article_paths = set(article_paths)
+        unsupported.extend(
+            path
+            for path in articles_dir.rglob("*")
+            if path.is_file() and (path.suffix != ".md" or path not in known_article_paths)
+        )
     if podcasts_dir.is_dir():
-        unsupported.extend(podcasts_dir.glob("*.md"))
+        known_podcast_paths = set(podcast_paths) | set(transcript_paths)
+        for path in podcasts_dir.rglob("*"):
+            if not path.is_file():
+                continue
+            if path.suffix != ".yaml" or path not in known_podcast_paths:
+                unsupported.append(path)
     if books_dir.is_dir():
-        unsupported.extend(books_dir.glob("*.md"))
+        known_book_paths = set(book_paths)
+        unsupported.extend(
+            path
+            for path in books_dir.rglob("*")
+            if path.is_file() and (path.suffix != ".yaml" or path not in known_book_paths)
+        )
     errors.extend(f"{path}: unsupported content file type" for path in sorted(unsupported))
 
     for path in article_paths:
@@ -115,6 +186,14 @@ def validate_repository(root: Path) -> dict[str, int]:
         except ContentError as error:
             errors.append(str(error))
             continue
+        _validate_dated_content_path(
+            path,
+            articles_dir,
+            metadata,
+            ARTICLE_DATE_FIELD,
+            "article",
+            errors,
+        )
         if not isinstance(metadata.get("title"), str) or not metadata["title"].strip():
             errors.append(f"{path}: title is required")
         _validate_required_media_reference(
@@ -139,20 +218,40 @@ def validate_repository(root: Path) -> dict[str, int]:
                 referenced_media,
             )
 
-    slugs: dict[str, Path] = {}
-    legacy_paths: dict[str, Path] = {}
-    expected_transcripts: dict[Path, str] = {}
-
+    podcast_records: list[tuple[Path, dict[str, Any]]] = []
     for path in podcast_paths:
         try:
             metadata = load_yaml_mapping(path)
         except ContentError as error:
             errors.append(str(error))
             continue
+        podcast_records.append((path, metadata))
+
+    slugs: dict[str, Path] = {}
+    legacy_paths: dict[str, Path] = {}
+    expected_transcripts: dict[Path, str] = {}
+    seasonal_identities: list[PodcastIdentity] = []
+    for path, metadata in podcast_records:
         _validate_identity(path, metadata, slugs, legacy_paths, errors)
         for key in ("title", "season", "episode", "guests"):
             if key not in metadata:
                 errors.append(f"{path}: {key} is required")
+        season = metadata.get("season")
+        episode = metadata.get("episode")
+        if type(season) is not int or not 0 < season < 100:
+            errors.append(f"{path}: season must be an integer from 1 through 99")
+        if type(episode) is not int or not 0 < episode < 100:
+            errors.append(f"{path}: episode must be an integer from 1 through 99")
+        slug = metadata.get("slug")
+        if (
+            isinstance(slug, str)
+            and slug.strip()
+            and type(season) is int
+            and 0 < season < 100
+            and type(episode) is int
+            and 0 < episode < 100
+        ):
+            seasonal_identities.append(PodcastIdentity(slug, season, episode))
         description = metadata.get("description")
         if not isinstance(description, str) or not description.strip():
             errors.append(f"{path}: description must be a non-empty string")
@@ -165,6 +264,15 @@ def validate_repository(root: Path) -> dict[str, int]:
             errors,
             referenced_media,
         )
+        _validate_podcast_platform_links(path, metadata, errors)
+    try:
+        seasonal_paths = seasonal_podcast_paths(seasonal_identities)
+    except ValueError as error:
+        seasonal_paths = {}
+        errors.append(f"{podcasts_dir}: {error}")
+
+    for path, metadata in podcast_records:
+        _validate_seasonal_episode_path(path, podcasts_dir, metadata, seasonal_paths, errors)
         transcript = metadata.get("transcript")
         if isinstance(transcript, list):
             errors.append(f"{path}: transcript must be stored in a separate YAML file")
@@ -172,12 +280,8 @@ def validate_repository(root: Path) -> dict[str, int]:
             if not isinstance(transcript, str):
                 errors.append(f"{path}: transcript reference must be a string")
             else:
-                target = podcasts_dir / transcript
-                try:
-                    target.relative_to(transcripts_dir)
-                except ValueError:
-                    errors.append(f"{path}: transcript must be below podcasts/transcripts")
-                else:
+                target = _transcript_target(path, transcript, podcasts_dir, errors)
+                if target is not None:
                     expected_transcripts[target] = str(metadata.get("slug", ""))
                     if not target.is_file():
                         errors.append(f"{path}: referenced transcript does not exist")
@@ -207,6 +311,14 @@ def validate_repository(root: Path) -> dict[str, int]:
         except ContentError as error:
             errors.append(str(error))
             continue
+        _validate_dated_content_path(
+            path,
+            books_dir,
+            metadata,
+            BOOK_DATE_FIELD,
+            "book",
+            errors,
+        )
         _validate_identity(path, metadata, slugs, legacy_paths, errors)
         if not isinstance(metadata.get("title"), str) or not metadata["title"].strip():
             errors.append(f"{path}: title is required")
@@ -247,6 +359,88 @@ def validate_repository(root: Path) -> dict[str, int]:
         "media": media_count,
         "referenced_media": len(referenced_media),
     }
+
+
+def _validate_dated_content_path(
+    path: Path,
+    directory: Path,
+    metadata: dict[str, Any],
+    date_field: str,
+    kind: str,
+    errors: list[str],
+) -> None:
+    if metadata_date(metadata, date_field) is None:
+        errors.append(f"{path}: {date_field} is missing or not a usable YYYY-MM-DD date")
+        return
+    if expected_dated_path(path, directory, metadata, kind=kind) is None:
+        errors.append(f"{path}: path does not match the dated {kind} layout")
+
+
+def _validate_seasonal_episode_path(
+    path: Path,
+    podcasts_dir: Path,
+    metadata: dict[str, Any],
+    seasonal_paths: dict[str, Any],
+    errors: list[str],
+) -> None:
+    if parse_seasonal_episode_path(path, podcasts_dir) is None:
+        if path.parent != podcasts_dir:
+            errors.append(f"{path}: podcast path is not a seasonal episode path")
+        return
+
+    slug = metadata.get("slug")
+    expected = seasonal_paths.get(slug) if isinstance(slug, str) else None
+    if expected is None:
+        return
+    actual = path.relative_to(podcasts_dir)
+    if actual != expected.episode:
+        expected_path = (podcasts_dir / expected.episode).as_posix()
+        errors.append(f"{path}: seasonal path does not match metadata; expected {expected_path}")
+
+
+def _validate_podcast_platform_links(
+    path: Path,
+    metadata: dict[str, Any],
+    errors: list[str],
+) -> None:
+    links = metadata.get("links")
+    if not isinstance(links, dict):
+        return
+    if is_legacy_anchor_url(links.get("anchor")):
+        errors.append(f"{path}: links.anchor must use the canonical Spotify for Creators URL")
+
+
+def _transcript_target(
+    episode_path: Path,
+    reference: str,
+    podcasts_dir: Path,
+    errors: list[str],
+) -> Path | None:
+    if parse_seasonal_episode_path(episode_path, podcasts_dir) is not None:
+        reference_path = Path(reference)
+        expected_name = f"{episode_path.stem}-transcript.yaml"
+        if (
+            reference_path.is_absolute()
+            or len(reference_path.parts) != 1
+            or reference_path.name != reference
+            or reference != expected_name
+        ):
+            errors.append(f"{episode_path}: transcript must be the sibling {expected_name!r}")
+            return None
+        return episode_path.parent / reference_path
+
+    reference_path = Path(reference)
+    if (
+        len(reference_path.parts) != 2
+        or reference_path.parts[0] != LEGACY_TRANSCRIPTS_DIRECTORY
+        or reference_path.parts[1] in {"", ".", ".."}
+        or reference_path.name != reference_path.parts[1]
+    ):
+        errors.append(
+            f"{episode_path}: transcript must be below podcasts/{LEGACY_TRANSCRIPTS_DIRECTORY}"
+        )
+        return None
+    return podcasts_dir / reference_path
 
 
 def _article_body_media_references(

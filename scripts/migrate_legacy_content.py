@@ -9,6 +9,27 @@ from typing import Any
 
 import yaml
 
+try:
+    from scripts.content_layout import unique_target_paths
+    from scripts.podcast_layout import PodcastIdentity, seasonal_podcast_paths
+    from scripts.podcast_platform import canonicalize_podcast_platform_links
+    from scripts.removal_manifest import (
+        MANIFEST_RELATIVE_PATH as REMOVAL_MANIFEST_RELATIVE_PATH,
+    )
+    from scripts.removal_manifest import (
+        removal_source_paths,
+    )
+except ModuleNotFoundError:  # pragma: no cover - supports direct script execution
+    from content_layout import unique_target_paths
+    from podcast_layout import PodcastIdentity, seasonal_podcast_paths
+    from podcast_platform import canonicalize_podcast_platform_links
+    from removal_manifest import (
+        MANIFEST_RELATIVE_PATH as REMOVAL_MANIFEST_RELATIVE_PATH,
+    )
+    from removal_manifest import (
+        removal_source_paths,
+    )
+
 FRONT_MATTER_DELIMITER = re.compile(r"^---[ \t]*$", re.MULTILINE)
 MARKDOWN_LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 
@@ -29,6 +50,7 @@ def read_legacy_document(path: Path) -> tuple[dict[str, Any], str, str]:
 
 
 def write_yaml(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         yaml.safe_dump(
             value,
@@ -66,26 +88,59 @@ def ensure_empty_targets(target: Path) -> None:
             raise ValueError(f"{candidate}: target must be empty before migration")
 
 
-def migrate(source: Path, target: Path, migration_date: str) -> dict[str, Any]:
+def migrate(
+    source: Path,
+    target: Path,
+    migration_date: str,
+    removal_manifest: Path | None = None,
+) -> dict[str, Any]:
+    source = source.resolve()
+    target = target.resolve()
     ensure_empty_targets(target)
     articles_dir = target / "articles"
     podcasts_dir = target / "podcasts"
-    transcripts_dir = podcasts_dir / "transcripts"
     books_dir = target / "books"
-    for directory in (articles_dir, podcasts_dir, transcripts_dir, books_dir):
+    for directory in (articles_dir, podcasts_dir, books_dir):
         directory.mkdir(parents=True, exist_ok=True)
 
     article_sources = sorted((source / "_posts").glob("*.md"))
+    article_metadata = []
     for path in article_sources:
-        shutil.copy2(path, articles_dir / path.name)
+        metadata, _, _ = read_legacy_document(path)
+        article_metadata.append((path, metadata))
+    article_targets = unique_target_paths(article_metadata, kind="article")
+    for path in article_sources:
+        shutil.copy2(path, articles_dir / article_targets[path])
 
-    podcast_sources = sorted(
+    all_podcast_sources = sorted(
         path for path in (source / "_podcast").glob("*.md") if path.name != "_template.md"
     )
-    transcript_count = 0
+    manifest_path = removal_manifest or (
+        Path(__file__).resolve().parents[1] / REMOVAL_MANIFEST_RELATIVE_PATH
+    )
+    removed_sources = (
+        removal_source_paths(manifest_path) if manifest_path.is_file() else frozenset()
+    )
+    source_names = {path.relative_to(source).as_posix() for path in all_podcast_sources}
+    if not removed_sources <= source_names:
+        raise ValueError("podcast removal source file set differs")
+    podcast_sources = [
+        path
+        for path in all_podcast_sources
+        if path.relative_to(source).as_posix() not in removed_sources
+    ]
+    podcast_documents = []
+    identities = []
     for path in podcast_sources:
         metadata, body, legacy_prefix = read_legacy_document(path)
+        canonicalize_podcast_platform_links(metadata)
         slug = slug_for(path)
+        podcast_documents.append((path, metadata, body, legacy_prefix, slug))
+        identities.append(PodcastIdentity(slug, metadata["season"], metadata["episode"]))
+    podcast_paths = seasonal_podcast_paths(identities)
+
+    transcript_count = 0
+    for path, metadata, body, legacy_prefix, slug in podcast_documents:
         transcript = metadata.pop("transcript", None)
         converted: dict[str, Any] = {
             "slug": slug,
@@ -97,10 +152,10 @@ def migrate(source: Path, target: Path, migration_date: str) -> dict[str, Any]:
         if transcript is not None:
             if not isinstance(transcript, list):
                 raise ValueError(f"{path}: transcript must be a list")
-            transcript_name = f"{slug}.yaml"
-            converted["transcript"] = f"transcripts/{transcript_name}"
+            transcript_path = podcast_paths[slug].transcript
+            converted["transcript"] = transcript_path.name
             write_yaml(
-                transcripts_dir / transcript_name,
+                podcasts_dir / transcript_path,
                 {"podcast": slug, "segments": transcript},
             )
             transcript_count += 1
@@ -110,23 +165,30 @@ def migrate(source: Path, target: Path, migration_date: str) -> dict[str, Any]:
                 converted["resources"] = resources
             else:
                 converted["notes"] = body
-        write_yaml(podcasts_dir / f"{slug}.yaml", converted)
+        write_yaml(podcasts_dir / podcast_paths[slug].episode, converted)
 
     book_sources = sorted(
         path for path in (source / "_books").glob("*.md") if path.name != "_template.md"
     )
+    book_documents = []
     for path in book_sources:
         metadata, body, legacy_prefix = read_legacy_document(path)
         if legacy_prefix:
             raise ValueError(f"{path}: books may not have content before front matter")
         slug = slug_for(path)
+        book_documents.append((path, metadata, body, slug))
+    book_targets = unique_target_paths(
+        [(path, metadata) for path, metadata, _, _ in book_documents],
+        kind="book",
+    )
+    for path, metadata, body, slug in book_documents:
         converted = {
             "slug": slug,
             "legacy_path": f"/books/{slug}.html",
             **metadata,
             "summary": body,
         }
-        write_yaml(books_dir / f"{slug}.yaml", converted)
+        write_yaml(books_dir / book_targets[path], converted)
 
     for category in ("posts", "podcast", "books"):
         source_images = source / "images" / category
@@ -160,7 +222,9 @@ def migrate(source: Path, target: Path, migration_date: str) -> dict[str, Any]:
             "images": "copied byte-for-byte at legacy relative paths",
         },
     }
-    write_yaml(target / "migration.yaml", provenance)
+    if removed_sources:
+        provenance["rules"]["podcast_removals"] = "excluded by migration/podcast-removals.yaml"
+    write_yaml(target / "migration/migration.yaml", provenance)
     return provenance
 
 
@@ -173,8 +237,14 @@ def main() -> int:
         default=Path(__file__).resolve().parents[1],
     )
     parser.add_argument("--migration-date", required=True)
+    parser.add_argument("--removal-manifest", type=Path)
     args = parser.parse_args()
-    provenance = migrate(args.source.resolve(), args.target.resolve(), args.migration_date)
+    provenance = migrate(
+        args.source.resolve(),
+        args.target.resolve(),
+        args.migration_date,
+        args.removal_manifest.resolve() if args.removal_manifest else None,
+    )
     counts = provenance["counts"]
     rendered = ", ".join(f"{name}={count}" for name, count in counts.items())
     print(f"Migrated {rendered}")

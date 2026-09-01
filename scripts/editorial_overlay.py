@@ -9,8 +9,10 @@ from typing import Any
 
 import yaml
 
-MANIFEST_RELATIVE_PATH = Path("editorial-overlays/2026-08-10-podcast-descriptions.yaml")
-EXPECTED_MANIFEST_SHA256 = "c92cf089cae507e41f6c760c52881ba3ee8985d2e3178487749c1fd0b5580614"
+from scripts.podcast_layout import parse_seasonal_episode_path
+
+MANIFEST_RELATIVE_PATH = Path("migration/editorial-overlays/2026-08-10-podcast-descriptions.yaml")
+EXPECTED_MANIFEST_SHA256 = "b2e6f23da40b6afbc310340196101422ac5de466b89e409c0ce5f24f5bf20326"
 ISSUE_URL = "https://github.com/DataTalksClub/content/issues/3"
 CREATED = "2026-08-10"
 BASELINE_CONTENT_COMMIT = "b9a40ba974fdef67ee3a2a70f114734f2581033c"
@@ -20,28 +22,24 @@ MIGRATION_MANIFEST_SHA256 = "dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08
 HEX_64 = re.compile(r"^[0-9a-f]{64}$")
 
 EXPECTED_TARGETS = (
-    "podcasts/_s12e08.yaml",
-    "podcasts/data-team-roles.yaml",
-    "podcasts/machine-learning-data-science-interview-prep.yaml",
-    "podcasts/s22e06-from-black-box-systems-to-augmented-decision-making.yaml",
-    "podcasts/s22e07-reinventing-career-in-tech.yaml",
-    "podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.yaml",
-    "podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.yaml",
-    "podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.yaml",
-    "podcasts/s23e03-future-of-ai-agents.yaml",
-    "podcasts/s23e04-how-to-become-ai-engineer-after-career-break.yaml",
-    "podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.yaml",
-    (
-        "podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-"
-        "what-companies-look-for.yaml"
-    ),
-    "podcasts/s23e07-understanding-ai-engineer-role.yaml",
-    "podcasts/s23e09-starting-data-conference-data-makers-fest-story.yaml",
-    "podcasts/s24e01-competitions-beyond-kaggle-leaderboard.yaml",
-    "podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.yaml",
-    "podcasts/s24e04-from-genai-pilots-to-production.yaml",
-    "podcasts/s24e05-ai-adoption-in-enterprise-beyond-writing-code.yaml",
-    "podcasts/s24e06-how-to-build-ai-that-actually-ships-in-production.yaml",
+    "podcasts/s01/e01.yaml",
+    "podcasts/s12/e06.yaml",
+    "podcasts/s22/e06.yaml",
+    "podcasts/s22/e07.yaml",
+    "podcasts/s22/e08.yaml",
+    "podcasts/s23/e01.yaml",
+    "podcasts/s23/e02.yaml",
+    "podcasts/s23/e03.yaml",
+    "podcasts/s23/e04.yaml",
+    "podcasts/s23/e05.yaml",
+    ("podcasts/s23/e06.yaml"),
+    "podcasts/s23/e07.yaml",
+    "podcasts/s23/e09.yaml",
+    "podcasts/s24/e01.yaml",
+    "podcasts/s24/e03.yaml",
+    "podcasts/s24/e04.yaml",
+    "podcasts/s24/e05.yaml",
+    "podcasts/s24/e06.yaml",
 )
 
 TOP_LEVEL_KEYS = frozenset(
@@ -127,14 +125,17 @@ def validate_editorial_overlay(
 
     migration = _mapping(manifest, "migration")
     _expect_exact_keys(migration, MIGRATION_KEYS, "migration")
-    _expect(migration["manifest"] == "migration.yaml", "migration manifest path differs")
+    _expect(
+        migration["manifest"] == "migration/migration.yaml",
+        "migration manifest path differs",
+    )
     _expect(
         migration["sha256"] == MIGRATION_MANIFEST_SHA256,
         "migration manifest digest differs",
     )
     _expect(
-        sha256_file(root / "migration.yaml") == MIGRATION_MANIFEST_SHA256,
-        "migration.yaml is not byte-identical to the immutable migration",
+        sha256_file(root / "migration/migration.yaml") == MIGRATION_MANIFEST_SHA256,
+        "migration/migration.yaml is not byte-identical to the immutable migration",
     )
 
     _expect(manifest["field"] == "description", "overlay field differs")
@@ -199,11 +200,16 @@ def _canonical_target_path(value: Any, prefix: str) -> str:
     _expect("\\" not in value, f"{prefix}: target path is not canonical")
     raw_parts = value.split("/")
     _expect(
-        len(raw_parts) == 2
+        len(raw_parts) == 3
         and raw_parts[0] == "podcasts"
         and raw_parts[1] not in {"", ".", ".."}
+        and raw_parts[2] not in {"", ".", ".."}
         and value == PurePosixPath(value).as_posix()
         and PurePosixPath(value).suffix == ".yaml",
+        f"{prefix}: target path is not canonical",
+    )
+    _expect(
+        parse_seasonal_episode_path(Path(value), Path("podcasts")) is not None,
         f"{prefix}: target path is not canonical",
     )
     return value

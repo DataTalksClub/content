@@ -1,0 +1,30 @@
+schema_version: 1
+kind: podcast_guest_removal
+created: '2026-09-01'
+baseline:
+  migration_manifest: migration/migration.yaml
+  migration_manifest_sha256: dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08bfda5995c5f86
+  source_repository: https://github.com/DataTalksClub/datatalksclub.github.io
+  source_commit: ee43d3fa0929faf691178d79f19528e6f15a83e5
+  counts:
+    podcasts: 205
+    podcast_transcripts: 203
+current:
+  counts:
+    podcasts: 203
+    podcast_transcripts: 201
+removals:
+- source: _podcast/_s12e08.md
+  records:
+  - podcasts/_s12e08.yaml
+  - podcasts/s12/e08.yaml
+  transcripts:
+  - podcasts/transcripts/_s12e08.yaml
+  - podcasts/s12/e08-transcript.yaml
+- source: _podcast/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.md
+  records:
+  - podcasts/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.yaml
+  - podcasts/s21/e09.yaml
+  transcripts:
+  - podcasts/transcripts/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.yaml
+  - podcasts/s21/e09-transcript.yaml

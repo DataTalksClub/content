@@ -1,10 +1,13 @@
-.PHONY: sync validate validate-repairs validate-editorial-overlay verify-source attest test lint format-check check
+.PHONY: sync validate validate-removals validate-repairs validate-editorial-overlay verify-source attest test lint format-check check
 
 sync:
 	uv sync --frozen
 
 validate:
 	uv run python scripts/validate_content.py
+
+validate-removals:
+	uv run python -m scripts.removal_manifest
 
 validate-repairs:
 	uv run python -m scripts.repair_manifest
@@ -32,4 +35,4 @@ lint:
 format-check:
 	uv run ruff format --check .
 
-check: validate validate-repairs validate-editorial-overlay test lint format-check
+check: validate validate-removals validate-repairs validate-editorial-overlay test lint format-check

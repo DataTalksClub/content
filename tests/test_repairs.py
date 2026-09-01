@@ -24,7 +24,7 @@ from scripts.repair_manifest import (
 from scripts.verify_migration import verify_article_overlay, verify_media_overlay
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / "repairs/2026-08-09-missing-media.yaml"
+MANIFEST = ROOT / "migration/repairs/2026-08-09-missing-media.yaml"
 ADDED_REPAIR_PATHS = tuple(str(row["result"]) for row in EXPECTED_REPAIRS if row["added"])
 CORRECTED_RECORDS = tuple(row for row in EXPECTED_REPAIRS if row["action"] == "correct_image_path")
 
@@ -42,12 +42,18 @@ def _write_manifest(path: Path, manifest: dict[str, Any]) -> None:
 def _candidate_repository(tmp_path: Path) -> tuple[Path, dict[str, Any]]:
     candidate_root = tmp_path / "repository"
     candidate_root.mkdir()
-    shutil.copy2(ROOT / "migration.yaml", candidate_root / "migration.yaml")
+    migration = candidate_root / "migration/migration.yaml"
+    migration.parent.mkdir(parents=True)
+    shutil.copy2(ROOT / "migration/migration.yaml", migration)
+    shutil.copy2(
+        ROOT / "migration/podcast-removals.yaml",
+        candidate_root / "migration/podcast-removals.yaml",
+    )
     (candidate_root / repair_manifest.MANIFEST_RELATIVE_PATH).parent.mkdir(parents=True)
     shutil.copy2(MANIFEST, candidate_root / repair_manifest.MANIFEST_RELATIVE_PATH)
     manifest = _manifest()
-    for row in manifest["repairs"]:
-        for relative in (row["record"], row["result"]["path"]):
+    for row, expected in zip(manifest["repairs"], EXPECTED_REPAIRS, strict=True):
+        for relative in (expected["record"], row["result"]["path"]):
             destination = candidate_root / relative
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(ROOT / relative, destination)
@@ -70,7 +76,7 @@ def test_checked_repair_manifest_is_valid_and_exact() -> None:
         "media": 815,
         "manifest_sha256": EXPECTED_MANIFEST_SHA256,
     }
-    assert sha256_file(ROOT / "migration.yaml") == MIGRATION_MANIFEST_SHA256
+    assert sha256_file(ROOT / "migration/migration.yaml") == MIGRATION_MANIFEST_SHA256
 
 
 def test_attestation_is_deterministic_and_binds_replacement_commit() -> None:
@@ -229,14 +235,21 @@ def test_article_overlay_allows_only_the_two_exact_scalar_changes(tmp_path: Path
     for row in EXPECTED_REPAIRS:
         if row["action"] != "correct_image_path":
             continue
-        name = Path(str(row["record"])).name
-        legacy = source / name
+        target_relative = Path(str(row["record"]))
+        year = target_relative.parts[1]
+        short_date = target_relative.name[:8]
+        slug = target_relative.name[9:-3]
+        published = f"{year}-{short_date[3:]}"
+        legacy = source / f"{published}-{slug}.md"
         legacy.write_text(
-            f"---\ntitle: Exact\nimage: {row['old_value']}\n---\n\nUnchanged body.\n",
+            f"---\ntitle: Exact\ndatepublished: '{published}'\n"
+            f"image: {row['old_value']}\n---\n\nUnchanged body.\n",
             encoding="utf-8",
         )
-        (target / "articles" / name).write_text(
-            f"---\ntitle: Exact\nimage: {row['new_value']}\n---\n\nUnchanged body.\n",
+        (target / target_relative).parent.mkdir(parents=True, exist_ok=True)
+        (target / target_relative).write_text(
+            f"---\ntitle: Exact\ndatepublished: '{published}'\n"
+            f"image: {row['new_value']}\n---\n\nUnchanged body.\n",
             encoding="utf-8",
         )
         article_sources.append(legacy)

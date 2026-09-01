@@ -7,11 +7,14 @@ import re
 import stat
 import struct
 from datetime import datetime
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import Any
 
 import yaml
 
+from scripts.content_layout import discover_article_paths, discover_book_paths
+from scripts.podcast_layout import discover_episode_paths, discover_transcript_paths
+from scripts.removal_manifest import validate_removal_manifest
 from scripts.validate_content import (
     ALLOWED_MEDIA_EXTENSIONS,
     _media_signature_error,
@@ -19,11 +22,11 @@ from scripts.validate_content import (
     load_yaml_mapping,
 )
 
-MANIFEST_RELATIVE_PATH = Path("repairs/2026-08-09-missing-media.yaml")
+MANIFEST_RELATIVE_PATH = Path("migration/repairs/2026-08-09-missing-media.yaml")
 BASELINE_COMMIT = "373bef2912342ece1d2a2d2a9395aa3417243283"
 LEGACY_COMMIT = "ee43d3fa0929faf691178d79f19528e6f15a83e5"
 MIGRATION_MANIFEST_SHA256 = "dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08bfda5995c5f86"
-EXPECTED_MANIFEST_SHA256 = "80d3014c47bf57de792473fc1da8f7569daeb55107688c3485153f773948d3aa"
+EXPECTED_MANIFEST_SHA256 = "6016c3f25eff81dff9643ee127e72b0df7d827b8edd3f89b83ae5cb880810178"
 EXPECTED_GENERATION_DIGEST = "d03e51678147f064d628a443d558e69e9e586cad4ee90659fef6e3e495322013"
 EDITOR_COMMENT_URL = "https://github.com/DataTalksClub/content/issues/2#issuecomment-5230732231"
 EDITOR_APPROVER = "alexeygrigorev"
@@ -50,12 +53,15 @@ EXPECTED_INVARIANTS = [
     "only the two declared article image scalars change",
     "all 807 baseline media files remain byte-identical",
     "article bodies remain byte-identical",
-    "podcast metadata and transcripts remain unchanged",
+    (
+        "podcast fields, resources, links, and transcript segments remain unchanged; "
+        "local paths follow the seasonal layout"
+    ),
     "book metadata summaries and archives remain unchanged",
 ]
 EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
     {
-        "record": "articles/2022-07-12-building-data-science-team.md",
+        "record": "articles/2022/22-07-12-building-data-science-team.md",
         "baseline_blob": "9bedeba44c6668650fce34288945bc7b147727a9",
         "action": "restore_identical",
         "result": "images/posts/2022-07-12-building-data-science-team/cover.jpg",
@@ -64,7 +70,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
         "added": True,
     },
     {
-        "record": "articles/2025-05-16-datatalks-club-community-demographics.md",
+        "record": "articles/2025/25-05-16-datatalks-club-community-demographics.md",
         "baseline_blob": "da9606c8a58bff805f1ef44b5925b3e7756fb540",
         "action": "generate_standard_post_preview",
         "result": ("images/posts/2025-05-16-datatalks-club-community-demographics/cover.jpg"),
@@ -74,7 +80,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
     },
     {
         "record": (
-            "articles/2025-08-05-how-to-build-waste-classifier-case-study-from-ml-zoomcamp.md"
+            "articles/2025/25-08-05-how-to-build-waste-classifier-case-study-from-ml-zoomcamp.md"
         ),
         "baseline_blob": "9dccb2ff7f37a1cd0979a1a90c5b5fc6812f4975",
         "action": "generate_standard_post_preview",
@@ -88,7 +94,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
         "preview_title_override": "Building a Waste Classifier",
     },
     {
-        "record": "articles/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar.md",
+        "record": "articles/2025/25-08-05-key-lessons-from-ml-zoomcamp-serena-haidar.md",
         "baseline_blob": "2792ccffe00ecd0264e838a046c2d9befa7d0c5f",
         "action": "generate_standard_post_preview",
         "result": ("images/posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar/cover.jpg"),
@@ -98,7 +104,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
     },
     {
         "record": (
-            "articles/2025-08-11-building-discipline-in-machine-learning-with-ml-zoomcamp.md"
+            "articles/2025/25-08-11-building-discipline-in-machine-learning-with-ml-zoomcamp.md"
         ),
         "baseline_blob": "cc2ef11edd08f8fcc9230288b338734bee5e43e7",
         "action": "generate_standard_post_preview",
@@ -112,7 +118,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
     },
     {
         "record": (
-            "articles/2025-08-11-how-to-build-blood-cell-classifier-for-cancer-"
+            "articles/2025/25-08-11-how-to-build-blood-cell-classifier-for-cancer-"
             "prediction-case-study-from-ml-zoomcamp.md"
         ),
         "baseline_blob": "c63682ad65661a2dec4f6cc422c9d2cb2113f46d",
@@ -127,7 +133,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
         "preview_title_override": "Building a Blood Cell Classifier",
     },
     {
-        "record": "articles/2025-12-10-free-data-engineering-courses.md",
+        "record": "articles/2025/25-12-10-free-data-engineering-courses.md",
         "baseline_blob": "81cf6a474b9bf7e661461eac42ac1402e1f24929",
         "action": "correct_image_path",
         "result": "images/posts/2025-12-10-free-data-engineering-courses/cover.png",
@@ -138,7 +144,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
         "new_value": "images/posts/2025-12-10-free-data-engineering-courses/cover.png",
     },
     {
-        "record": "articles/2026-01-25-benefits-of-learning-in-public.md",
+        "record": "articles/2026/26-01-25-benefits-of-learning-in-public.md",
         "baseline_blob": "7215821b5332ee61fee05395e84ef035f55100d4",
         "action": "correct_image_path",
         "result": (
@@ -155,7 +161,7 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
         ),
     },
     {
-        "record": "books/20241104-llm-engineer-s-handbook.yaml",
+        "record": "books/2024/24-11-04-llm-engineer-s-handbook.yaml",
         "baseline_blob": "1485e55a615dff7178ff0aff689e442c91949fc5",
         "action": "generate_standard_book_preview",
         "result": "images/books/20241104-llm-engineer-s-handbook/preview.jpg",
@@ -164,12 +170,12 @@ EXPECTED_REPAIRS: tuple[dict[str, Any], ...] = (
         "added": True,
     },
     {
-        "record": "podcasts/ai-for-ecology-biodiversity-and-conservation.yaml",
+        "record": "podcasts/s18/e03.yaml",
         "baseline_blob": "f7812500431622e3667bd85991e5bdbe55c5b583",
         "action": "generate_standard_podcast_preview",
         "result": "images/podcast/ai-for-ecology-biodiversity-and-conservation.jpg",
         "result_sha256": "83323cd39740fc051426b7a6f47c8235158161cbd9957546187e1b64333b2674",
-        "row_digest": "f6d73049a4a0aef8bdebde7e3a4ec7a99a38caad5695f9e78741bc5f4ea8ac3d",
+        "row_digest": "0d8738bfdabe7ba536d7ff04cc5b71f8473014157b91130aed8b02a4e5f7414b",
         "added": True,
     },
 )
@@ -233,8 +239,8 @@ def validate_repair_manifest(
         "migration manifest digest differs",
     )
     _expect(
-        sha256_file(root / "migration.yaml") == MIGRATION_MANIFEST_SHA256,
-        "migration.yaml is not byte-identical to the baseline",
+        sha256_file(root / "migration/migration.yaml") == MIGRATION_MANIFEST_SHA256,
+        "migration/migration.yaml is not byte-identical to the baseline",
     )
     _expect(manifest.get("expected_delta") == EXPECTED_DELTA, "expected delta differs")
     _expect(manifest.get("current_counts") == EXPECTED_COUNTS, "current counts differ")
@@ -255,7 +261,11 @@ def validate_repair_manifest(
             f"{prefix}: provenance differs from the pinned repair plan",
         )
         _expect(row.get("ordinal") == ordinal, f"{prefix}: ordinal differs")
-        for key in ("record", "baseline_blob", "action"):
+        _expect(
+            _record_paths_compatible(str(row.get("record")), str(expected["record"])),
+            f"{prefix}: record differs",
+        )
+        for key in ("baseline_blob", "action"):
             _expect(row.get(key) == expected[key], f"{prefix}: {key} differs")
         _expect(HEX_40.fullmatch(str(row.get("baseline_blob"))), f"{prefix}: invalid blob")
         _expect(
@@ -263,6 +273,10 @@ def validate_repair_manifest(
             f"{prefix}: invalid baseline SHA-256",
         )
         record_path = root / str(row["record"])
+        if not record_path.is_file() and _record_paths_compatible(
+            str(row["record"]), str(expected["record"])
+        ):
+            record_path = root / str(expected["record"])
         _expect(record_path.is_file(), f"{prefix}: record does not exist")
 
         result = _mapping(row, "result", prefix)
@@ -476,10 +490,10 @@ def media_dimensions(extension: str, media: bytes) -> tuple[int, int]:
 
 def _validate_repository_counts(root: Path) -> None:
     actual = {
-        "articles": len(list((root / "articles").glob("*.md"))),
-        "podcasts": len(list((root / "podcasts").glob("*.yaml"))),
-        "podcast_transcripts": len(list((root / "podcasts/transcripts").glob("*.yaml"))),
-        "books": len(list((root / "books").glob("*.yaml"))),
+        "articles": len(discover_article_paths(root / "articles")),
+        "podcasts": len(discover_episode_paths(root / "podcasts")),
+        "podcast_transcripts": len(discover_transcript_paths(root / "podcasts")),
+        "books": len(discover_book_paths(root / "books")),
         "media": sum(
             1
             for category in ("posts", "podcast", "books")
@@ -487,7 +501,39 @@ def _validate_repository_counts(root: Path) -> None:
             if path.is_file() and not path.is_symlink()
         ),
     }
-    _expect(actual == EXPECTED_COUNTS, "repository counts differ from repair manifest")
+    removals = validate_removal_manifest(root, check_repository_counts=False)
+    expected = dict(EXPECTED_COUNTS)
+    expected.update(removals["current_counts"])
+    _expect(actual == expected, "repository counts differ from repair manifest")
+
+
+def _record_paths_compatible(actual: str, expected: str) -> bool:
+    if actual == expected:
+        return True
+    actual_path = PurePosixPath(actual)
+    expected_path = PurePosixPath(expected)
+    if len(actual_path.parts) != 2 or len(expected_path.parts) != 3:
+        return False
+    if actual_path.parts[0] == "articles" and expected_path.parts[0] == "articles":
+        match = re.fullmatch(
+            r"(?P<year>[0-9]{4})-(?P<month>[0-9]{2})-(?P<day>[0-9]{2})-(?P<slug>.+)\.md",
+            actual_path.name,
+        )
+        return bool(
+            match
+            and expected_path.parts[1] == match["year"]
+            and expected_path.name
+            == f"{match['year'][2:]}-{match['month']}-{match['day']}-{match['slug']}.md"
+        )
+    if actual_path.parts[0] == "books" and expected_path.parts[0] == "books":
+        match = re.fullmatch(r"(?P<date>[0-9]{8})-(?P<slug>.+)\.yaml", actual_path.name)
+        return bool(
+            match
+            and expected_path.parts[1] == match["date"][:4]
+            and expected_path.name
+            == f"{match['date'][2:4]}-{match['date'][4:6]}-{match['date'][6:]}-{match['slug']}.yaml"
+        )
+    return False
 
 
 def _mapping(value: dict[str, Any], key: str, prefix: str = "manifest") -> dict[str, Any]:

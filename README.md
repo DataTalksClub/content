@@ -6,11 +6,17 @@ episodes, podcast transcripts, and books.
 ## Layout
 
 ```text
-articles/                 Markdown articles with YAML front matter
-podcasts/                 One YAML metadata file per podcast episode
-podcasts/transcripts/     One separate YAML transcript per podcast episode
-books/                    One YAML file per book
-editorial-overlays/       Strict manifests for post-migration editorial fields
+articles/yyyy/            Dated Markdown articles with YAML front matter
+podcasts/sNN/eMM.yaml     One YAML metadata file per podcast episode
+podcasts/sNN/eMM-transcript.yaml
+                          Optional transcript sibling for that episode
+books/yyyy/               Dated YAML record per book
+migration/                Immutable migration and post-migration manifests
+migration/editorial-overlays/
+                          Strict manifests for post-migration editorial fields
+migration/repairs/        Strict manifests for post-migration repairs
+migration/podcast-removals.yaml
+                          Explicit podcast removal manifest
 images/posts/             Article images at their legacy paths
 images/podcast/           Podcast images at their legacy paths
 images/books/             Book images at their legacy paths
@@ -21,9 +27,31 @@ Podcast and book records are YAML because their content is structured. Podcast
 transcripts are deliberately not embedded in episode metadata: the episode file
 contains a relative `transcript` reference to a separate YAML document.
 
-Filenames and `legacy_path` values are compatibility identifiers. Do not rename
-them as part of an editorial change; the website uses them to preserve existing
-public URLs and search-engine indexing.
+The `slug` and `legacy_path` values are compatibility identifiers. The website
+uses them to preserve existing public URLs and search-engine indexing, so they
+remain unchanged when an episode moves within this source tree. The seasonal
+filename is an organization-level identifier and is derived from the episode's
+numeric `season` and `episode` fields.
+
+Articles use `articles/yyyy/yy-mm-dd-slug.md`, with the date taken from the
+`datepublished` front-matter field. Books use the analogous
+`books/yyyy/yy-mm-dd-slug.yaml` layout, with the date taken from `start`.
+Missing or unusable dates are validation errors; dates are never guessed from
+the current date. These physical paths organize source records only: canonical
+slugs, `legacy_path` routes, links, image references, and source provenance
+remain unchanged.
+
+Podcast platform links
+----------------------
+
+`links.anchor` remains the importer-compatible source key, but current DTC
+episode URLs use `https://creators.spotify.com/pod/profile/datatalksclub/episodes/`.
+The episode path and ID after `/episodes/` are preserved exactly. `ids.anchor`
+remains the stable opaque provider episode identifier and is not renamed or
+rewritten. Legacy `anchor.fm` episode URLs are canonicalized when the importer
+reconstructs expected podcast metadata, while validation rejects them in current
+podcast front matter. Anchor references in non-podcast authored content are
+outside this migration and remain unchanged.
 
 ## Podcast example
 
@@ -32,14 +60,15 @@ slug: data-engineering-career
 legacy_path: /podcast/data-engineering-career.html
 title: Data Engineering Career
 description: A practical discussion of data engineering roles, skills, and career development.
-season: 1
-episode: 1
+season: 2
+episode: 10
 guests:
   - person-short-id
-transcript: transcripts/data-engineering-career.yaml
+transcript: e10-transcript.yaml
 ```
 
-The matching transcript uses this shape:
+The example episode lives at `podcasts/s02/e10.yaml`; its matching sibling
+transcript lives at `podcasts/s02/e10-transcript.yaml` and uses this shape:
 
 ```yaml
 podcast: data-engineering-career
@@ -57,6 +86,8 @@ Book files are YAML mappings. Existing discussion archives remain structured
 lists in the book record, while the former prose body is stored as `summary`.
 
 Article files keep their original Markdown body and YAML front matter verbatim.
+The dated directory and filename are an organization-level index; they do not
+rewrite article front matter or canonical route/source references.
 This avoids a lossy conversion of authored prose and preserves the legacy
 filename used to derive the public article URL.
 
@@ -67,6 +98,7 @@ Use [uv](https://docs.astral.sh/uv/) for all repository tooling:
 ```bash
 uv sync --frozen
 uv run python scripts/validate_content.py
+uv run python -m scripts.removal_manifest
 uv run python -m scripts.repair_manifest
 uv run python -m scripts.editorial_overlay
 uv run pytest
@@ -92,39 +124,60 @@ non-regular files, and files over 10 MiB. HTTP(S) body images remain external;
 required metadata images must always be repository media. The validator never
 fetches remote images or substitutes a fallback.
 
+Podcast loaders accept the former flat `podcasts/*.yaml` plus
+`podcasts/transcripts/*.yaml` layout for older source checkouts. New records must
+use the seasonal layout and keep the transcript reference as the exact sibling
+filename `<episode-stem>-transcript.yaml`. No duplicate or symlink aliases are
+kept in the current tree. Two existing records share `(season: 3, episode: 4)`;
+the slug-sorted first record uses `s03/e04.yaml`, and the other uses the stable
+slug-qualified `s03/e04-data-translator-role-and-data-strategy.yaml` form.
+
 ## Migration provenance
 
-`migration.yaml` records the exact source repository revision and migrated item
+`migration/migration.yaml` records the exact source repository revision and migrated item
 counts. `scripts/migrate_legacy_content.py` documents the deterministic legacy
 conversion. It excludes legacy `_template.md` files, copies article Markdown
 and media bytes unchanged, and separates podcast transcript data without
-rewriting transcript segments.
+rewriting transcript segments. Its podcast output uses the seasonal layout;
+episode metadata is preserved apart from canonicalizing legacy DTC Anchor episode
+URLs and the local sibling transcript reference.
 
 The immutable migration contains 55 articles, 205 podcasts, 203 transcripts, 98
 books, and 807 copied media files. The checked
-`repairs/2026-08-09-missing-media.yaml` composes a post-migration overlay: eight
+`migration/repairs/2026-08-09-missing-media.yaml` composes a post-migration overlay: eight
 allowlisted media additions and two article `image` scalar corrections, for a
 current media count of 815. It binds the exact baseline, source/generator inputs,
 toolchain, output hashes, and the SHA-bound DTC editor approval. Changing any
 approved output invalidates that approval and requires a new issue comment and
 manifest update before commit.
 
-`editorial-overlays/2026-08-10-podcast-descriptions.yaml` is a separate
+`migration/editorial-overlays/2026-08-10-podcast-descriptions.yaml` is a separate
 post-migration editorial overlay for
 [content issue 3](https://github.com/DataTalksClub/content/issues/3). It permits
-only the `description` key on its exact 19 podcast paths. The manifest pins the
+only the `description` key on its exact 18 podcast paths. The manifest pins the
 immutable legacy source revision, migration manifest, baseline content commit,
 target set, description digests, complete target-file digests, and its own
 contract digest in the validator. Missing or extra rows, duplicate or
 noncanonical paths, wrong keys or types, digest drift, target-file drift, and
 undeclared fields fail closed.
 
+`migration/podcast-removals.yaml` records the two explicitly removed legacy
+`_podcast` source files and every legacy/current record and transcript alias.
+The importer excludes those source files, and validation rejects their return;
+the current tree therefore contains 203 podcasts and 201 transcripts while the
+immutable migration counts remain 205 and 203.
+
 Source verification composes the overlays without weakening the migration
 boundary. For a declared podcast, it validates the editorial manifest, removes
 only the exact declared `description` from the candidate mapping, and then
 compares every remaining field with the metadata deterministically reconstructed
-from the immutable legacy checkout. The SHA-bound missing-media repair remains
+from the immutable legacy checkout, including the seasonal sibling transcript
+reference. The SHA-bound missing-media repair remains
 unchanged and scoped to its own declared article and media outputs.
+
+The accepted editorial and repair manifests use the seasonal episode paths.
+Their target-file and provenance digests are recomputed from the moved files;
+the public `legacy_path` values and canonical slugs are not changed.
 
 For generated previews, an identified DTC editor opens every candidate at its
 original resolution and records `APPROVE` or `REJECT` for each exact output path
@@ -141,7 +194,7 @@ uv run python -m scripts.verify_migration ../datatalksclub.github.io
 ```
 
 The source checkout must be detached at the revision recorded in
-`migration.yaml`. Verification proves all 807 baseline media bytes, all
+`migration/migration.yaml`. Verification proves all 807 baseline media bytes, all
 unaffected content, the exact eight additions, and only the two declared scalar
 changes. Run all local checks with:
 

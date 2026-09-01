@@ -9,12 +9,26 @@ from typing import Any
 
 import yaml
 
+from scripts.content_layout import (
+    article_target_path,
+    book_target_path,
+    discover_article_paths,
+    discover_book_paths,
+)
 from scripts.editorial_overlay import validate_editorial_overlay
 from scripts.migrate_legacy_content import (
     read_legacy_document,
     resources_from_body,
     slug_for,
 )
+from scripts.podcast_layout import (
+    PodcastIdentity,
+    discover_episode_paths,
+    discover_transcript_paths,
+    seasonal_podcast_paths,
+)
+from scripts.podcast_platform import canonicalize_podcast_platform_links
+from scripts.removal_manifest import validate_removal_manifest
 from scripts.repair_manifest import (
     EXPECTED_COUNTS,
     EXPECTED_REPAIRS,
@@ -39,9 +53,10 @@ def sha256(path: Path) -> bytes:
 def verify_migration(source: Path, target: Path) -> dict[str, int]:
     repair_summary = validate_repair_manifest(target)
     editorial_summary = validate_editorial_overlay(target)
+    removal_summary = validate_removal_manifest(target)
     description_overlay = editorial_summary["descriptions"]
-    repairs = load_repair_manifest(target / "repairs/2026-08-09-missing-media.yaml")
-    provenance = load_yaml(target / "migration.yaml")
+    repairs = load_repair_manifest(target / "migration/repairs/2026-08-09-missing-media.yaml")
+    provenance = load_yaml(target / "migration/migration.yaml")
     source_revision = subprocess.run(
         ["git", "rev-parse", "HEAD"],
         cwd=source,
@@ -53,6 +68,7 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
         source_revision != LEGACY_COMMIT
         or provenance["source"]["revision"] != source_revision
         or editorial_summary["source_commit"] != source_revision
+        or removal_summary["source_commit"] != source_revision
     ):
         raise ValueError("legacy checkout revision does not match migration.yaml")
 
@@ -64,19 +80,44 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
     }
     verify_article_overlay(article_sources, target, correction_rows)
 
-    podcast_sources = sorted(
+    all_podcast_sources = sorted(
         path for path in (source / "_podcast").glob("*.md") if path.name != "_template.md"
     )
-    expected_podcast_names = {f"{slug_for(path)}.yaml" for path in podcast_sources}
-    actual_podcast_names = {path.name for path in (target / "podcasts").glob("*.yaml")}
-    if actual_podcast_names != expected_podcast_names:
-        raise ValueError("podcasts: migrated file set differs")
-    transcript_count = 0
-    expected_transcript_names: set[str] = set()
+    source_names = {path.relative_to(source).as_posix() for path in all_podcast_sources}
+    removed_sources = set(removal_summary["sources"])
+    if not removed_sources <= source_names:
+        raise ValueError("podcast removal source file set differs")
+    podcast_sources = [
+        path
+        for path in all_podcast_sources
+        if path.relative_to(source).as_posix() not in removed_sources
+    ]
+    podcast_documents = []
+    identities = []
     for legacy in podcast_sources:
         metadata, body, prefix = read_legacy_document(legacy)
-        transcript = metadata.pop("transcript", None)
+        canonicalize_podcast_platform_links(metadata)
         slug = slug_for(legacy)
+        podcast_documents.append((legacy, metadata, body, prefix, slug))
+        identities.append(PodcastIdentity(slug, metadata["season"], metadata["episode"]))
+    podcast_paths = seasonal_podcast_paths(identities)
+
+    podcasts_dir = target / "podcasts"
+    expected_podcast_paths = {podcast_paths[slug].episode for slug in podcast_paths}
+    actual_podcast_paths = {
+        path.relative_to(podcasts_dir) for path in discover_episode_paths(podcasts_dir)
+    }
+    if actual_podcast_paths != expected_podcast_paths:
+        raise ValueError("podcasts: migrated file set differs")
+    transcript_count = 0
+    baseline_transcript_count = 0
+    for legacy in all_podcast_sources:
+        metadata, _, _ = read_legacy_document(legacy)
+        if metadata.get("transcript") is not None:
+            baseline_transcript_count += 1
+    expected_transcript_paths: set[Path] = set()
+    for legacy, metadata, body, prefix, slug in podcast_documents:
+        transcript = metadata.pop("transcript", None)
         expected: dict[str, Any] = {
             "slug": slug,
             "legacy_path": f"/podcast/{slug}.html",
@@ -85,9 +126,10 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
         if prefix:
             expected["legacy_prefix"] = prefix
         if transcript is not None:
-            expected["transcript"] = f"transcripts/{slug}.yaml"
-            expected_transcript_names.add(f"{slug}.yaml")
-            actual_transcript = load_yaml(target / "podcasts" / "transcripts" / f"{slug}.yaml")
+            paths = podcast_paths[slug]
+            expected["transcript"] = paths.transcript.name
+            expected_transcript_paths.add(paths.transcript)
+            actual_transcript = load_yaml(podcasts_dir / paths.transcript)
             if actual_transcript != {"podcast": slug, "segments": transcript}:
                 raise ValueError(f"{legacy}: migrated transcript differs")
             transcript_count += 1
@@ -97,22 +139,26 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
                 expected["notes"] = body
             else:
                 expected["resources"] = resources
-        relative = f"podcasts/{slug}.yaml"
-        actual = load_yaml(target / relative)
+        relative_path = podcast_paths[slug].episode
+        relative = f"podcasts/{relative_path.as_posix()}"
+        actual = load_yaml(podcasts_dir / relative_path)
         verify_podcast_metadata_overlay(expected, actual, relative, description_overlay)
 
-    actual_transcript_names = {
-        path.name for path in (target / "podcasts/transcripts").glob("*.yaml")
+    actual_transcript_paths = {
+        path.relative_to(podcasts_dir) for path in discover_transcript_paths(podcasts_dir)
     }
-    if actual_transcript_names != expected_transcript_names:
-        raise ValueError("podcasts/transcripts: migrated file set differs")
+    if actual_transcript_paths != expected_transcript_paths:
+        raise ValueError("podcast transcript file set differs")
 
     book_sources = sorted(
         path for path in (source / "_books").glob("*.md") if path.name != "_template.md"
     )
-    expected_book_names = {f"{slug_for(path)}.yaml" for path in book_sources}
-    actual_book_names = {path.name for path in (target / "books").glob("*.yaml")}
-    if actual_book_names != expected_book_names:
+    expected_book_paths = {
+        Path("books") / book_target_path(path, read_legacy_document(path)[0], slug=slug_for(path))
+        for path in book_sources
+    }
+    actual_book_paths = {path.relative_to(target) for path in discover_book_paths(target / "books")}
+    if actual_book_paths != expected_book_paths:
         raise ValueError("books: migrated file set differs")
     for legacy in book_sources:
         metadata, body, prefix = read_legacy_document(legacy)
@@ -125,8 +171,9 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
             **metadata,
             "summary": body,
         }
-        if load_yaml(target / "books" / f"{slug}.yaml") != expected:
-            raise ValueError(f"books/{slug}.yaml: migrated book metadata differs")
+        relative_path = Path("books") / book_target_path(legacy, metadata, slug=slug)
+        if load_yaml(target / relative_path) != expected:
+            raise ValueError(f"{relative_path.as_posix()}: migrated book metadata differs")
 
     added_media = {
         str(row["result"]["path"]) for row in repairs["repairs"] if row["result"]["added"]
@@ -144,10 +191,14 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
     expected_counts = provenance["counts"]
     if counts["articles"] != expected_counts["articles"]:
         raise ValueError("article count differs from migration.yaml")
-    if counts["podcasts"] != expected_counts["podcasts"]:
+    if len(all_podcast_sources) != expected_counts["podcasts"]:
         raise ValueError("podcast count differs from migration.yaml")
-    if counts["transcripts"] != expected_counts["podcast_transcripts"]:
+    if baseline_transcript_count != expected_counts["podcast_transcripts"]:
         raise ValueError("transcript count differs from migration.yaml")
+    if counts["podcasts"] != removal_summary["current_counts"]["podcasts"]:
+        raise ValueError("current podcast count differs from removal manifest")
+    if counts["transcripts"] != removal_summary["current_counts"]["podcast_transcripts"]:
+        raise ValueError("current transcript count differs from removal manifest")
     if counts["books"] != expected_counts["books"]:
         raise ValueError("book count differs from migration.yaml")
     if counts["baseline_images"] != EXPECTED_COUNTS["media"] - repair_summary["added_media"]:
@@ -181,9 +232,13 @@ def verify_article_overlay(
     target: Path,
     correction_rows: dict[str, dict[str, Any]],
 ) -> None:
-    expected_names = {path.name for path in article_sources}
-    actual_names = {path.name for path in (target / "articles").glob("*.md")}
-    if actual_names != expected_names:
+    articles_dir = target / "articles"
+    expected_paths = {
+        Path("articles") / article_target_path(path, read_legacy_document(path)[0])
+        for path in article_sources
+    }
+    actual_paths = {path.relative_to(target) for path in discover_article_paths(articles_dir)}
+    if actual_paths != expected_paths:
         raise ValueError("articles: migrated file set differs")
     expected_corrections = {
         str(row["record"]) for row in EXPECTED_REPAIRS if row["action"] == "correct_image_path"
@@ -192,7 +247,11 @@ def verify_article_overlay(
         raise ValueError("articles: correction row set differs")
 
     for legacy in article_sources:
-        relative = f"articles/{legacy.name}"
+        relative_path = Path("articles") / article_target_path(
+            legacy,
+            read_legacy_document(legacy)[0],
+        )
+        relative = relative_path.as_posix()
         source_bytes = legacy.read_bytes()
         expected_bytes = source_bytes
         row = correction_rows.get(relative)
@@ -202,7 +261,7 @@ def verify_article_overlay(
             if source_bytes.count(old_line) != 1:
                 raise ValueError(f"{relative}: baseline image scalar differs")
             expected_bytes = source_bytes.replace(old_line, new_line, 1)
-        if expected_bytes != (target / relative).read_bytes():
+        if expected_bytes != (target / relative_path).read_bytes():
             raise ValueError(f"{relative}: migrated article bytes differ")
 
 

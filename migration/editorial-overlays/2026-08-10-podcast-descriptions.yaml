@@ -1,0 +1,86 @@
+schema_version: 1
+kind: podcast_description_editorial_overlay
+issue: https://github.com/DataTalksClub/content/issues/3
+created: '2026-08-10'
+baseline_content_commit: b9a40ba974fdef67ee3a2a70f114734f2581033c
+source:
+  repository: https://github.com/DataTalksClub/datatalksclub.github.io
+  commit: ee43d3fa0929faf691178d79f19528e6f15a83e5
+migration:
+  manifest: migration/migration.yaml
+  sha256: dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08bfda5995c5f86
+field: description
+target_count: 18
+targets:
+- path: podcasts/s01/e01.yaml
+  key: description
+  description_sha256: f30285e6439901040c8a60ff320c5c80ad03a91fcf60d288fcbb653188ac2210
+  target_sha256: 05df1b322274b1883f0fac7f0a8cb557796e414857af7f1a28e00a03cdcb116a
+- path: podcasts/s12/e06.yaml
+  key: description
+  description_sha256: 5412e8634244bcfef69856ffb0262a05ce26ffa820238157cfe9043b3cf1eae6
+  target_sha256: 33538ddb6e514038dbaaba0c0439a42b0e727b50823ec843f888fdb068e988db
+- path: podcasts/s22/e06.yaml
+  key: description
+  description_sha256: e7c8e559176490a84920a27b25dceac3c70d74a7c12d86b257d8d03eb917d366
+  target_sha256: 8b6b6fd315a5d277f0442034df9d386fc14b2d41bc7a3c36dc71a35d6455f2f0
+- path: podcasts/s22/e07.yaml
+  key: description
+  description_sha256: 7d953e451e8f498f3c8550237d8016ede773e3b9933d2e66f6029ef46d3ab294
+  target_sha256: e190c7dd8b76d90eb30f2dc76ab9095fd0066a59764407aea83657b9f56675c4
+- path: podcasts/s22/e08.yaml
+  key: description
+  description_sha256: 9cb0cfd7c756fd8ec871cf49084f65321bbcc43138d0eeb95e6f8497bfc4c4f0
+  target_sha256: ff08d931063f29c33ee0e68c44b8fd7f49b317d9b6caa3e7ff8cccd1f5c3d896
+- path: podcasts/s23/e01.yaml
+  key: description
+  description_sha256: 411e9f195a54e7643b8849c9281f0b48155f7d6af4f0528bfa4f8231263ca68d
+  target_sha256: 63b028b4d1b68efa8de240a81a058cfca5ea13a2cd11a178c5a1ad78268f627f
+- path: podcasts/s23/e02.yaml
+  key: description
+  description_sha256: 3971802f1c7c9c485a9222f2f05edf81e73b24ef7719fe20919a1b93aaf62887
+  target_sha256: 8ce669ef36c686c14745af3e343602cad5692e155d348df06d053b748c58df2d
+- path: podcasts/s23/e03.yaml
+  key: description
+  description_sha256: 19d5c5778ab64e69b18abdbd7f4f4128a9f9b9d17497c0cd54758f9fc446414f
+  target_sha256: 330378d82568368abd84d3cba3d452c1034b2fb2306b3cb2451f2d71e3df8047
+- path: podcasts/s23/e04.yaml
+  key: description
+  description_sha256: 8e13e83c88bd7c011f92732289b77de10580ecd094adad9ecd9b96dcf0ee9079
+  target_sha256: 8a3d75a5a0a51b5cf90a8d7accd5fd16158cc9f8839551b197d05484954dd8ca
+- path: podcasts/s23/e05.yaml
+  key: description
+  description_sha256: 311968f4ea70cb1482871fec646f0c63e2581f5f07302028057344ea8e34a82b
+  target_sha256: a2b0ccf0f3b4632fb93075d9867cc55a5791ab232be01b366364ea7c05d3b613
+- path: podcasts/s23/e06.yaml
+  key: description
+  description_sha256: 223c38e23a033a166201ac62e7b965fa320d03b7d94e419404e74700f4fc217a
+  target_sha256: 5c147968304ab242a5241c307c43b972f4ea0c220ed56a50bfade64893251a2e
+- path: podcasts/s23/e07.yaml
+  key: description
+  description_sha256: 468fd0ba017eafeb5c3dc5376c3edfce9679ee43a3514ffe9c721be3f8b27548
+  target_sha256: ae3b27ddacc4c20a40284e6d4c29002c81a17f6048225ba7fa53b4bd0983ee2c
+- path: podcasts/s23/e09.yaml
+  key: description
+  description_sha256: 34351ec1b333cdb0deeeee68b4c407bd350c6296ad34fc9a6a731c004d621edb
+  target_sha256: 4c61fb3c9a8265112925ff02b041c3242a090e7a3ba3fc8bbf81e6da9fa509f3
+- path: podcasts/s24/e01.yaml
+  key: description
+  description_sha256: 72c66ea39f0252b94e5f67521612e17d527a712d090396b3825aa5accef7825e
+  target_sha256: 9111fdee52cdc8302cf003c71d9526563a0ef04eba96955e15cf0c5ac78139a3
+- path: podcasts/s24/e03.yaml
+  key: description
+  description_sha256: a0f38cb46101c4b43bc57146a37312ae0bf4a93d58ee8c8567fda44dd7c33446
+  target_sha256: 26f72b962fbcfdd3f06776c3d0473431c974baa1814c61550a143e349bb48489
+- path: podcasts/s24/e04.yaml
+  key: description
+  description_sha256: 407a9a5bd3c0a15cc10dc48a10df0fd7b0ca8a3e0e4b30add9f47731cb20fcaa
+  target_sha256: 776faed5425872bd5288e568aacd5074653eebb393bb20c748a9931d22b26fed
+- path: podcasts/s24/e05.yaml
+  key: description
+  description_sha256: 6e44cc57eab8dcbc3f6731cc538a06caf5018569cde82fd401f448aa5c101b2b
+  target_sha256: f0d92a703282957650be623be1592fac96d65fc0a4c2f7c2d5d057f8fd1e5cf1
+- path: podcasts/s24/e06.yaml
+  key: description
+  description_sha256: 3240fea7a0126d1b6b546a4eab11118555e868de9a9aede8985ff464a837e658
+  target_sha256: 43e28f62f0c1f19f47c5c8b1412d26cccf9e67e3663c1d7e31171940df727086
