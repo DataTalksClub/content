@@ -346,7 +346,10 @@ def emit_source_correction_attestation(root: Path, commit_sha: str) -> dict[str,
     summary = validate_source_correction(root)
     head = _git_revision(root, "HEAD")
     _expect(head == commit_sha, "attestation commit does not match checkout HEAD")
-    _expect(not _git_checkout_is_dirty(root), "attestation checkout is dirty")
+    if _git_checkout_is_dirty(root):
+        dirty_paths = _git_checkout_dirty_paths(root)
+        detail = ", ".join(dirty_paths) if dirty_paths else "unable to list paths"
+        raise SourceCorrectionError(f"attestation checkout is dirty: {detail}")
     changed_paths = _git_changed_paths(root)
     _expect(
         changed_paths == summary["changed_paths"],
@@ -665,6 +668,10 @@ def _git_changed_paths(root: Path) -> tuple[tuple[str, ...], ...]:
 
 
 def _git_checkout_is_dirty(root: Path) -> bool:
+    return bool(_git_checkout_dirty_paths(root))
+
+
+def _git_checkout_dirty_paths(root: Path) -> tuple[str, ...]:
     try:
         tracked = subprocess.run(
             [
@@ -701,7 +708,12 @@ def _git_checkout_is_dirty(root: Path) -> bool:
     # The workflow checks out the pinned legacy source and writes attestations
     # below this repository's ignored scratch boundary.  Every tracked path and
     # every non-ignored path outside that boundary remains part of the guard.
-    return bool(tracked.stdout or untracked.stdout)
+    return tuple(
+        path
+        for output in (tracked.stdout, untracked.stdout)
+        for path in output.splitlines()
+        if path
+    )
 
 
 def main() -> int:
