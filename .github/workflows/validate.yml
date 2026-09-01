@@ -50,10 +50,24 @@ jobs:
           COMMIT="$GITHUB_SHA"
           OUTPUT=.tmp/attestation/missing-media-repair.json
 
+      - name: Emit immutable source correction attestation
+        run: >-
+          make attest-source-correction
+          COMMIT="$GITHUB_SHA"
+          OUTPUT=.tmp/attestation/source-correction.json
+
       - name: Upload replacement attestation
         uses: actions/upload-artifact@v4
         with:
           name: missing-media-repair-${{ github.sha }}
           path: .tmp/attestation/missing-media-repair.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload source correction attestation
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-correction-${{ github.sha }}
+          path: .tmp/attestation/source-correction.json
           if-no-files-found: error
           retention-days: 30

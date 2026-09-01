@@ -126,6 +126,33 @@ compares every remaining field with the metadata deterministically reconstructed
 from the immutable legacy checkout. The SHA-bound missing-media repair remains
 unchanged and scoped to its own declared article and media outputs.
 
+`editorial-overlays/2026-09-01-source-corrections.yaml` is the immutable
+source-owned correction overlay for the five AI Shipping Blog link destinations
+and the S24E06 artwork correction. It is pinned byte-for-byte by
+`scripts/source_correction.py`. The article rows distinguish complete Markdown
+destinations from complete HTML `href` values, including their exact line
+contexts; a URL prefix, prose occurrence, or unbounded replacement is never
+accepted. The podcast row allows only its `image` scalar, and the media row
+requires a lossless rename of the exact 38,743-byte image. Every target path,
+blob, and SHA-256 is pinned, and missing, extra, symlinked, or changed files
+fail closed.
+The manifest also pins the complete expected `git diff --name-status
+--find-renames=100%` census for the source-side commit; the CI attestation
+compares that census, the final commit, and its tree before publishing.
+
+Run the source correction contract independently with:
+
+```bash
+make validate-source-correction
+make attest-source-correction \
+  COMMIT="$(git rev-parse HEAD)" \
+  OUTPUT=.tmp/attestation/source-correction.json
+```
+
+The latter command is intended for a clean committed checkout; the emitted
+attestation binds the exact replacement commit and Git tree to the pinned
+correction manifest and target hashes.
+
 For generated previews, an identified DTC editor opens every candidate at its
 original resolution and records `APPROVE` or `REJECT` for each exact output path
 and SHA-256 in the issue. The editor checks the record identity and DTC design,

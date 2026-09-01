@@ -1,0 +1,83 @@
+schema_version: 1
+kind: immutable_source_correction_overlay
+issue: "https://github.com/DataTalksClub/website/issues/253"
+created: "2026-09-01"
+baseline:
+  content_commit: b02354255d2aedb686e3176074890868a39d928e
+  content_tree: 9f393ba6b97f23963c065b9c8e34f6238c920186
+  migration_manifest: migration.yaml
+  migration_manifest_sha256: dd78a343a5f387a74afa914fc6c7e19790e202aa5d6fa9aba08bfda5995c5f86
+source:
+  repository: "https://github.com/DataTalksClub/datatalksclub.github.io"
+  commit: ee43d3fa0929faf691178d79f19528e6f15a83e5
+replacement_count: 5
+changed_paths:
+  - status: M
+    path: .github/workflows/validate.yml
+  - status: M
+    path: Makefile
+  - status: M
+    path: README.md
+  - status: M
+    path: editorial-overlays/2026-08-10-podcast-descriptions.yaml
+  - status: A
+    path: editorial-overlays/2026-09-01-source-corrections.yaml
+  - status: R100
+    old_path: images/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.jpg
+    new_path: images/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.jpg
+  - status: M
+    path: podcasts/s24e06-how-to-build-ai-that-actually-ships-in-production.yaml
+  - status: M
+    path: scripts/editorial_overlay.py
+  - status: A
+    path: scripts/source_correction.py
+  - status: M
+    path: scripts/verify_migration.py
+  - status: A
+    path: tests/test_source_correction.py
+articles:
+  - path: articles/2025-09-23-ai-dev-tools-zoomcamp.md
+    legacy_path: _posts/2025-09-23-ai-dev-tools-zoomcamp.md
+    legacy_blob: 605cea29368c8647d6471f5599e57d5460dae0fa
+    legacy_sha256: afbb979e31ede1922f093a6d14472dd08cf0fe83f48132adb778dbaf21e31e7a
+    target_blob: cfbb898b0d40b1d1d1b74761f8cdfa783659f53f
+    target_sha256: 0515ed5b52ae8e1f21b9caaf2b0a716f0df58072568558e86700547b40dbbaf4
+    replacement_count: 5
+    replacements:
+      - match: markdown_destination
+        old: "https://alexeyondata.substack.com/p/ai-native-development-specifications"
+        new: "https://aishippingblog.com/p/ai-native-development-specifications"
+        occurrences: 2
+        line_numbers: [137, 194]
+      - match: html_href
+        old: "https://alexeyondata.substack.com/p/ai-native-development-specifications"
+        new: "https://aishippingblog.com/p/ai-native-development-specifications"
+        occurrences: 1
+        line_numbers: [225]
+      - match: markdown_destination
+        old: "https://alexeyondata.substack.com/"
+        new: "https://aishippingblog.com/"
+        occurrences: 1
+        line_numbers: [192]
+      - match: html_href
+        old: "https://alexeyondata.substack.com/"
+        new: "https://aishippingblog.com/"
+        occurrences: 1
+        line_numbers: [200]
+podcasts:
+  - path: podcasts/s24e06-how-to-build-ai-that-actually-ships-in-production.yaml
+    legacy_path: _podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.md
+    baseline_blob: 63445f9de4506f76f8d9bf537bd734ce9566f98a
+    baseline_sha256: 47c8d1fcb41f1dfe855cecb477fbada147420fea20fccac9c676cf854f915234
+    target_blob: 3dee1e63aa3be528dfd3b0792acdb96eefecb496
+    target_sha256: 62554e94b5d8ab04ab7f7b060ffec0fa6ff7c61e53a2b929f7f6db1b3df25c90
+    field: image
+    old: images/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.jpg
+    new: images/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.jpg
+    occurrences: 1
+media_renames:
+  - old_path: images/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.jpg
+    new_path: images/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.jpg
+    blob: ed5345e6c4b6f84a1ebf46e6aeb61cef532fa467
+    sha256: f930cd185a60a6478695db674b38e90689aae68628df2aad554d8a5c2386c374
+    bytes: 38743

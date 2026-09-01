@@ -87,4 +87,4 @@ targets:
 - path: podcasts/s24e06-how-to-build-ai-that-actually-ships-in-production.yaml
   key: description
   description_sha256: 3240fea7a0126d1b6b546a4eab11118555e868de9a9aede8985ff464a837e658
-  target_sha256: 47c8d1fcb41f1dfe855cecb477fbada147420fea20fccac9c676cf854f915234
+  target_sha256: 62554e94b5d8ab04ab7f7b060ffec0fa6ff7c61e53a2b929f7f6db1b3df25c90
