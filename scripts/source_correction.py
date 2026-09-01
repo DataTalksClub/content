@@ -666,8 +666,31 @@ def _git_changed_paths(root: Path) -> tuple[tuple[str, ...], ...]:
 
 def _git_checkout_is_dirty(root: Path) -> bool:
     try:
-        result = subprocess.run(
-            ["git", "status", "--porcelain", "--untracked-files=all"],
+        tracked = subprocess.run(
+            [
+                "git",
+                "diff",
+                "HEAD",
+                "--name-only",
+                "--",
+                ".",
+                ":(exclude).tmp/**",
+            ],
+            cwd=root,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        untracked = subprocess.run(
+            [
+                "git",
+                "ls-files",
+                "--others",
+                "--exclude-standard",
+                "--",
+                ".",
+                ":(exclude).tmp/**",
+            ],
             cwd=root,
             check=True,
             capture_output=True,
@@ -675,7 +698,10 @@ def _git_checkout_is_dirty(root: Path) -> bool:
         )
     except (OSError, subprocess.CalledProcessError) as error:
         raise SourceCorrectionError("unable to inspect attestation checkout status") from error
-    return bool(result.stdout)
+    # The workflow checks out the pinned legacy source and writes attestations
+    # below this repository's ignored scratch boundary.  Every tracked path and
+    # every non-ignored path outside that boundary remains part of the guard.
+    return bool(tracked.stdout or untracked.stdout)
 
 
 def main() -> int:

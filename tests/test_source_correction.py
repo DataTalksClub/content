@@ -213,6 +213,41 @@ def test_source_attestation_requires_clean_matching_checkout(
         source_correction.emit_source_correction_attestation(ROOT, head)
 
 
+def test_checkout_status_excludes_only_the_ignored_scratch_boundary(
+    tmp_path: Path,
+) -> None:
+    repository = tmp_path / "repository"
+    repository.mkdir()
+
+    def run(*args: str) -> None:
+        source_correction.subprocess.run(
+            args,
+            cwd=repository,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+
+    run("git", "init", "--quiet")
+    run("git", "config", "user.email", "test@example.test")
+    run("git", "config", "user.name", "Test")
+    (repository / ".gitignore").write_text(".tmp/\n", encoding="utf-8")
+    tracked = repository / "tracked.txt"
+    tracked.write_text("original\n", encoding="utf-8")
+    run("git", "add", ".")
+    run("git", "commit", "--quiet", "-m", "baseline")
+
+    (repository / ".tmp/attestation").mkdir(parents=True)
+    (repository / ".tmp/attestation/result.json").write_text("{}\n", encoding="utf-8")
+    assert not source_correction._git_checkout_is_dirty(repository)
+
+    (repository / "untracked.txt").write_text("unexpected\n", encoding="utf-8")
+    assert source_correction._git_checkout_is_dirty(repository)
+    (repository / "untracked.txt").unlink()
+    tracked.write_text("changed\n", encoding="utf-8")
+    assert source_correction._git_checkout_is_dirty(repository)
+
+
 def test_source_attestation_binds_tree_diff_and_complete_corrections(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
