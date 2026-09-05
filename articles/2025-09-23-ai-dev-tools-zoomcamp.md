@@ -17,6 +17,62 @@ related_posts:
 - llm-zoomcamp.html
 - machine-learning-zoomcamp.html
 datepublished: '2025-09-23'
+faq:
+- question: What is the AI Dev Tools Zoomcamp?
+  answer: 'The AI Dev Tools Zoomcamp is a free, community-driven program by [DataTalks.Club](/) that teaches AI-native software engineering: how to build, test, deploy, extend, and audit software with AI developer tools without losing engineering discipline.
+
+
+    This 4-module course covers a hands-on [curriculum](#course-curriculum) with all materials open and available anytime on [GitHub](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp). You''ll work with coding agents and agentic IDEs such as Claude Code, Codex, Cursor, and GitHub Copilot, the Model Context Protocol (MCP), and open-source AI tools for security, audit, and DevOps, and earn a [certificate](#certificate).'
+- question: What does zoomcamp mean?
+  answer: '"Zoomcamp" is a term that originated from [Alexey Grigorev](/people/alexeygrigorev.html), the founder of DataTalks.Club. It started with his book "ML Bookcamp." When Alexey decided to create a video course based on the book, he called it "[Machine Learning Zoomcamp](/blog/machine-learning-zoomcamp.html)" - a free, cohort-based course in video format. The name "zoomcamp" is a play on "bookcamp," referring to the video format of the course. The Zoomcamp series has since expanded to include other free courses like the [Data Engineering Zoomcamp](/blog/data-engineering-zoomcamp.html), [MLOps Zoomcamp](/blog/mlops-zoomcamp.html), [LLM Zoomcamp](/blog/llm-zoomcamp.html), and [AI Dev Tools Zoomcamp](/blog/ai-dev-tools-zoomcamp.html), all following the same community-driven, open-source philosophy.'
+- question: Is AI Dev Tools Zoomcamp free?
+  answer: Yes! The AI Dev Tools Zoomcamp is completely free. There are no hidden costs, no tuition fees, and no paid tiers. All course materials, videos, homework assignments, and access to the [Slack community](/slack.html) are provided at no cost. Unlike traditional bootcamps that charge $10,000-$20,000+, this course is entirely community-driven and open source.
+- question: What programming experience do I need for AI Dev Tools Zoomcamp?
+  answer: Basic programming ability in Python, JavaScript, TypeScript, or a similar language is enough. You should also be comfortable with the command line and know Git and GitHub basics. No prior experience with AI coding tools is required. You do need to be willing to read, review, debug, and maintain AI-generated code - that's a large part of what the course teaches.
+- question: Do I need to be a software engineer to take this course?
+  answer: No. The course is also relevant for data scientists, ML engineers, MLOps engineers, AI engineers, data engineers, analysts who write code, and technical students. You do need basic programming ability.
+- question: How long does AI Dev Tools Zoomcamp take to complete?
+  answer: Each module includes hands-on work, so the time commitment depends on your background and how much time you can dedicate. Expect roughly 5-15 hours per week across the four modules, including watching videos, completing homework, and working on [the final project](#final-project). More time may be needed during the final project weeks.
+- question: Do I need to install specific AI tools for this course?
+  answer: You'll pick a coding tool in Module 1 and use it throughout the course. The materials work with modern agentic coding tools such as Claude Code, Codex, Cursor, GitHub Copilot, and similar products. Later modules use MCP servers and open-source tools such as PR-Agent, Semgrep MCP, Snyk Agent Scan, K8sGPT, LiteLLM, and Ollama. Some commercial tools require a subscription, but we focus on free or low-cost options where possible.
+- question: Do I need a powerful computer or GPU?
+  answer: No. The course is about using AI developer tools, not training models, so a powerful machine or GPU is not required.
+- question: Are there live classes?
+  answer: Lectures are pre-recorded, so you can watch them whenever it suits you. The live cohort adds shared deadlines, scored homework, a leaderboard, peer review, community support, and certificate eligibility. We also run live events before the cohort starts and Q&A sessions during it.
+- question: Is this course about RAG, LLM applications, or model training?
+  answer: 'No. The course focuses on AI-assisted software development workflows: coding assistants, coding agents, MCP, testing, CI/CD, deployment, documentation, review, security, audit, and DevOps. If you want to build LLM applications with RAG and agents, look at the [LLM Zoomcamp](/blog/llm-zoomcamp.html) instead.'
+- question: How do I get the AI Dev Tools Zoomcamp certificate?
+  answer: To earn a certificate, you need to pass the final project and complete the required peer reviews. The project is an end-to-end application of your own, built and documented with the workflow taught in the course. Homework helps you stay on track, but the certificate is based on the final project and peer review. [Learn more about the final project](#final-project) and [certificate requirements](#certificate).
+- question: Can I get help if I'm stuck during the course?
+  answer: 'Absolutely! The course is supported by the [DataTalks.Club community on Slack](/slack.html), where thousands of learners exchange ideas, ask questions, and provide feedback. Course-specific questions go to the #course-ai-dev-tools-zoomcamp channel. We also have an [FAQ repository](https://github.com/DataTalksClub/faq) with answers to common questions and a @ZoomcampQABot in Slack for quick help.'
+- question: What makes AI Dev Tools Zoomcamp different from other AI courses?
+  answer: 'Most AI courses teach you how to prompt a tool. This one teaches a repeatable engineering workflow around the tools: give them the right context, use them for the right job, review what they produce, test the result, and ship with guardrails. You write specifications, groom a backlog, build and deploy a real full-stack application, extend your agent with MCP and reusable capabilities, and audit the result with open-source security and DevOps tooling. By the end you have a deployed project, not just a set of prompts.'
+- question: When does the next cohort of the AI Dev Tools Zoomcamp start?
+  answer: 'The next cohort of the AI Dev Tools Zoomcamp starts on August 31, 2026. Register here: [https://courses.datatalks.club/register/ai-dev-tools/](https://courses.datatalks.club/register/ai-dev-tools/) before the course starts.'
+- question: Who runs the AI Dev Tools Zoomcamp?
+  answer: 'The AI Dev Tools Zoomcamp is run by [DataTalks.Club](/), a global online community of data professionals and learners. The instructors are [Alexey Grigorev](/people/alexeygrigorev.html), Bhavani Ravi, and Moein Foroughi, and members of the DataTalks.Club community contribute as maintainers.
+
+
+    DataTalks.Club is often referred to as "the DataTalks Club", "data talks club", or "datatalks club".'
+- question: Can I take the course in self-paced mode?
+  answer: Yes! All course materials, videos, and recordings remain available after the cohort ends, and you can learn at your own pace. You'll have access to the [Slack community](/slack.html) for support. However, self-paced learning does not include scored homework, project evaluations, or the ability to earn a [certificate](#certificate). To receive a certificate, you need to join an active cohort.
+- question: Can I get a certificate in self-paced mode?
+  answer: No, certificates are only available when completing the course with a live cohort. This is because the certification process requires peer review, and peer reviews only happen during the active course period. Additionally, the submission form closes after the peer-review list is compiled. Self-paced learners can access all course materials and the Slack community, but must join a live cohort to earn a certificate.
+- question: Where is the GitHub repository?
+  answer: The GitHub repository is [https://github.com/DataTalksClub/ai-dev-tools-zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp).
+- question: Where can I read the course articles?
+  answer: 'In 2026 each module also comes out as a standalone article on [Alexey Grigorev''s Substack](https://aishippingblog.com/). The first one, [AI-Native Development: Specifications, Loop Engineering, and Graph Engineering](https://aishippingblog.com/p/ai-native-development-specifications), covers the Module 1 workflow. Subscribe there to get the rest as they''re published, and star the [GitHub repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) for the full materials and homework.'
+- question: Where can I find the course videos?
+  answer: Course videos are available on the [DataTalks.Club playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43). For easier navigation, refer to the [GitHub repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) for course materials and links to video content. We also maintain [year-specific playlists](https://www.youtube.com/@DataTalksClub/playlists) for updates.
+- question: What tools and technologies will I learn?
+  answer: 'You''ll work with coding agents and agentic IDEs (Claude Code, Codex, Cursor, GitHub Copilot), project bootstrappers such as Lovable, durable agent context with `AGENTS.md`, full-stack tooling (React/TypeScript, FastAPI or Django, OpenAPI, Docker, GitHub Actions), the Model Context Protocol along with skills, hooks, subagents, and plugins, and open-source AI tools for security, audit, and DevOps: PR-Agent, Semgrep MCP, Snyk Agent Scan, K8sGPT, LiteLLM, and Ollama.'
+- question: What is the DataTalks.Club AI Dev Tools community?
+  answer: The DataTalks.Club AI Dev Tools community is a supportive network of 80,000+ data professionals and learners. As part of the AI Dev Tools Zoomcamp, you'll have access to a dedicated course channel in [Slack](/slack.html) where you can ask questions, get help from instructors and peers, share your progress, and connect with like-minded individuals. Course announcements are also posted in the [Telegram channel](https://t.me/aidevtoolszoomcamp). The community provides technical support, peer learning opportunities, and networking that can lead to collaborations and career opportunities.
+- question: Is this a free AI Dev Tools course with certificate?
+  answer: Yes! This is a completely free AI Dev Tools course, with a certificate available when you complete the course with a live cohort. There are no hidden costs or tuition fees. To earn your certificate, you need to build a final project that demonstrates practical AI-assisted development and complete the required peer reviews. This free course provides the same quality training as paid bootcamps but at no cost. Certificates, scored homework, and project evaluations are only available when participating in a live cohort, not in self-paced mode.
+- question: Can I get a certificate?
+  answer: Yes, certificates are available when completing the course with a live cohort. Requirements include building one final project that demonstrates practical AI-assisted software development and reviewing other students' projects during the peer review period. Certificates, scored homework, and project evaluations are not available in self-paced mode.
+
 ---
 
 AI development tools have moved into everyday engineering work. We write code now with chat assistants, coding agents like Claude Code and Codex, agentic IDEs like Cursor and GitHub Copilot, and project bootstrappers like Lovable. The hard part is no longer generating code. It's staying in control of what the tools produce, so you still give them the right context, review the result, test it, and ship it with guardrails.

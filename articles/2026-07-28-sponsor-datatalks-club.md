@@ -20,6 +20,26 @@ related_posts:
 - llm-zoomcamp.html
 - machine-learning-zoomcamp.html
 datepublished: '2026-07-28'
+faq:
+- question: Who should sponsor DataTalks.Club?
+  answer: Companies that develop products to help data engineers, ML engineers, AI engineers, data scientists, and analytics teams. That includes developer tool vendors, cloud and data infrastructure providers, ML and LLM platforms, observability and orchestration tools, open-source projects looking for adoption, conferences and events looking for attendees, and recruiters hiring data talent. If the people who adopt your product are practitioners rather than a procurement department, our audience is a good fit.
+- question: What can we sponsor?
+  answer: Our weekly newsletter (three placement types, including a dedicated stand-alone send), free Zoomcamp courses (a brand mention, a hands-on workshop inside a module, or an entire course module built around your tool), stand-alone live workshops streamed on YouTube, podcast episodes, guest posts on the DataTalks.Club blog, in-person Berlin meetups and workshops, and personal recommendations from Alexey Grigorev on LinkedIn and X. You can combine formats into a single campaign.
+- question: How much does sponsorship cost?
+  answer: Pricing depends on the format and on how many placements you book. Newsletter placements are the most accessible entry point, while full course modules are the deepest and most expensive integration. Email alexey@datatalks.club and we'll send you our media kit, which lists the current rates for every format along with the numbers behind them, plus a recommendation for what fits your goals and budget.
+- question: Do you share our leads or your subscriber emails?
+  answer: We never share subscriber email addresses or personal information with sponsors. For workshops and events, attendees can opt in to share their contact details with you, and only those opt-in contacts are passed on. This is a hard rule and it is the reason our audience trusts what we send them.
+- question: Can we write the copy ourselves?
+  answer: You can send us a draft, and we'll adapt it. Every placement goes through a content template that we refine together before it runs. Copy that reads like a vendor ad underperforms with this audience, so we push toward the technical, specific version of your message. You approve the final version before it goes out.
+- question: What kind of reporting do we get?
+  answer: After a newsletter placement runs, you get a report with opens, clicks, and click-through rate. For workshops and courses, you get view counts, live attendance, and homework submission numbers where applicable. For podcasts and articles, you get listen and traffic numbers. We share the actual data, including when a campaign underperforms.
+- question: How far in advance do we need to book?
+  answer: Newsletter slots are best booked one to two months in advance, and popular weeks go earlier. Course sponsorships need the most lead time, since the content has to be built into the curriculum before a cohort starts. Our courses launch in January (Data Engineering), May (MLOps), June (LLM), September (Machine Learning), and November (AI Dev Tools), so plan several months ahead for those.
+- question: Do you work with early-stage startups?
+  answer: Yes. Many of our sponsors were Series A or earlier when they first worked with us, and several ran their first developer marketing campaign with us. Newsletter placements and podcast episodes are the usual starting point for smaller budgets. Full course modules are open-source only, which also makes them a fit for young projects building adoption.
+- question: Can we do something that isn't on this list?
+  answer: Yes, and some of our best collaborations started that way. We've done swag giveaways, hackathons and competitions, course design help, roundtable discussions, and sponsored community lunches. If you have an idea for reaching data and AI practitioners, email us and we'll tell you honestly whether we think it will work.
+
 ---
 
 DataTalks.Club is the largest online community for data and AI practitioners, with almost 100,000 Slack members and more than 130,000 newsletter subscribers. Since September 2020 we've produced free courses, a weekly newsletter, a podcast, workshops, and in-person meetups. Everything is free for the community, and it stays that way because companies sponsor it.
