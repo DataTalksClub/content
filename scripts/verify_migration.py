@@ -36,6 +36,10 @@ from scripts.repair_manifest import (
     load_repair_manifest,
     validate_repair_manifest,
 )
+from scripts.source_correction import (
+    apply_article_url_corrections,
+    validate_source_correction,
+)
 
 
 def load_yaml(path: Path) -> Any:
@@ -54,6 +58,7 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
     repair_summary = validate_repair_manifest(target)
     editorial_summary = validate_editorial_overlay(target)
     removal_summary = validate_removal_manifest(target)
+    source_correction_summary = validate_source_correction(target)
     description_overlay = editorial_summary["descriptions"]
     repairs = load_repair_manifest(target / "migration/repairs/2026-08-09-missing-media.yaml")
     provenance = load_yaml(target / "migration/migration.yaml")
@@ -78,7 +83,12 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
         for row in repairs["repairs"]
         if row["action"] == "correct_image_path"
     }
-    verify_article_overlay(article_sources, target, correction_rows)
+    verify_article_overlay(
+        article_sources,
+        target,
+        correction_rows,
+        source_correction_summary["article_corrections"],
+    )
 
     all_podcast_sources = sorted(
         path for path in (source / "_podcast").glob("*.md") if path.name != "_template.md"
@@ -142,7 +152,13 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
         relative_path = podcast_paths[slug].episode
         relative = f"podcasts/{relative_path.as_posix()}"
         actual = load_yaml(podcasts_dir / relative_path)
-        verify_podcast_metadata_overlay(expected, actual, relative, description_overlay)
+        verify_podcast_metadata_overlay(
+            expected,
+            actual,
+            relative,
+            description_overlay,
+            source_correction_summary["podcast_corrections"],
+        )
 
     actual_transcript_paths = {
         path.relative_to(podcasts_dir) for path in discover_transcript_paths(podcasts_dir)
@@ -178,7 +194,12 @@ def verify_migration(source: Path, target: Path) -> dict[str, int]:
     added_media = {
         str(row["result"]["path"]) for row in repairs["repairs"] if row["result"]["added"]
     }
-    baseline_image_count, image_count = verify_media_overlay(source, target, added_media)
+    baseline_image_count, image_count = verify_media_overlay(
+        source,
+        target,
+        added_media,
+        source_correction_summary["media_renames"],
+    )
 
     counts = {
         "articles": len(article_sources),
@@ -213,6 +234,7 @@ def verify_podcast_metadata_overlay(
     actual: Any,
     relative: str,
     description_overlay: dict[str, str],
+    source_corrections: dict[str, dict[str, Any]] | None = None,
 ) -> None:
     if not isinstance(actual, dict):
         raise ValueError(f"{relative}: migrated podcast metadata differs")
@@ -223,6 +245,17 @@ def verify_podcast_metadata_overlay(
         and candidate.pop("description", None) != declared_description
     ):
         raise ValueError(f"{relative}: declared podcast description differs")
+    source_correction = (source_corrections or {}).get(relative)
+    if source_correction is not None:
+        field = str(source_correction["field"])
+        old_value = source_correction["old"]
+        new_value = source_correction["new"]
+        if expected.get(field) != old_value:
+            raise ValueError(f"{relative}: source correction baseline differs")
+        if candidate.get(field) != new_value:
+            raise ValueError(f"{relative}: source correction value differs")
+        expected = dict(expected)
+        expected[field] = new_value
     if candidate != expected:
         raise ValueError(f"{relative}: migrated podcast metadata differs")
 
@@ -231,6 +264,7 @@ def verify_article_overlay(
     article_sources: list[Path],
     target: Path,
     correction_rows: dict[str, dict[str, Any]],
+    source_correction_rows: dict[str, dict[str, Any]] | None = None,
 ) -> None:
     articles_dir = target / "articles"
     expected_paths = {
@@ -254,6 +288,12 @@ def verify_article_overlay(
         relative = relative_path.as_posix()
         source_bytes = legacy.read_bytes()
         expected_bytes = source_bytes
+        source_correction = (source_correction_rows or {}).get(relative)
+        if source_correction is not None:
+            try:
+                expected_bytes = apply_article_url_corrections(expected_bytes, source_correction)
+            except ValueError as error:
+                raise ValueError(f"{relative}: source correction differs: {error}") from error
         row = correction_rows.get(relative)
         if row is not None:
             old_line = f"image: {row['old_value']}\n".encode()
@@ -269,6 +309,7 @@ def verify_media_overlay(
     source: Path,
     target: Path,
     added_media: set[str],
+    media_renames: dict[str, dict[str, Any]] | None = None,
 ) -> tuple[int, int]:
     expected_additions = {str(row["result"]) for row in EXPECTED_REPAIRS if row["added"]}
     if added_media != expected_additions:
@@ -276,10 +317,15 @@ def verify_media_overlay(
 
     source_files = _regular_media_files(source)
     target_files = _regular_media_files(target)
-    if target_files != source_files | added_media:
+    renames = media_renames or {}
+    renamed_sources = set(renames)
+    renamed_targets = {str(row["new_path"]) for row in renames.values()}
+    expected_target_files = (source_files - renamed_sources) | added_media | renamed_targets
+    if target_files != expected_target_files:
         raise ValueError("images: migrated-plus-repair file set differs")
     for relative in sorted(source_files):
-        if sha256(source / relative) != sha256(target / relative):
+        target_relative = str(renames[relative]["new_path"]) if relative in renames else relative
+        if sha256(source / relative) != sha256(target / target_relative):
             raise ValueError(f"{relative}: migrated bytes differ")
     return len(source_files), len(target_files)
 
