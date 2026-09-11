@@ -1,4 +1,4 @@
-.PHONY: sync validate validate-removals validate-repairs validate-editorial-overlay validate-source-correction verify-source attest attest-source-correction test lint format-check check
+.PHONY: sync validate validate-removals validate-repairs validate-editorial-overlay validate-source-correction verify-source attest attest-source-correction article-faq-report article-faq-apply test lint format-check check
 
 sync:
 	uv sync --frozen
@@ -35,6 +35,14 @@ attest-source-correction:
 	uv run python -m scripts.source_correction \
 		--attest-commit "$(COMMIT)" \
 		--attestation-output "$(OUTPUT)"
+
+article-faq-report:
+	@test -n "$(LEGACY_ROOT)" || (echo "LEGACY_ROOT is required" && exit 2)
+	uv run python -m scripts.article_faq_migration --legacy-root "$(LEGACY_ROOT)"
+
+article-faq-apply:
+	@test -n "$(LEGACY_ROOT)" || (echo "LEGACY_ROOT is required" && exit 2)
+	uv run python -m scripts.article_faq_migration --legacy-root "$(LEGACY_ROOT)" --apply
 
 test:
 	uv run pytest
