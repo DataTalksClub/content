@@ -1,0 +1,15 @@
+# The /slack page: the community's front door and a primary navigation entry.
+title: Join our Slack
+lead: >-
+  Join our community of data science professionals, machine learning engineers,
+  and AI practitioners on Slack.
+channels:
+  - "#book-of-the-week"
+  - "#career-questions"
+  - "#datascience"
+  - "#engineering"
+  - "#events"
+  - "#jobs"
+  - "#memes"
+  - "#random"
+troubleshooting_url: https://airtable.com/shrhUBN51Jy10fjJq
