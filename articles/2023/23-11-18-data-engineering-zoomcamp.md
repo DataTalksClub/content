@@ -28,9 +28,9 @@ faq:
 - question: How does the Data Engineering Zoomcamp certificate work?
   answer: To earn a [certificate](#how-to-get-a-certificate), you need to complete one [capstone project](#capstone-project) by building an end-to-end data pipeline. After submitting your project, you must also review at least 3 other students' projects by the deadline and provide constructive feedback.
 - question: When does the next cohort of the DE Zoomcamp start?
-  answer: 'The next cohort of the DE Zoomcamp starts around January each year. Register here: [https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD) before the course starts.'
+  answer: 'The next cohort of the DE Zoomcamp starts around January each year. Register here: [https://courses.datatalks.club/register/de-zoomcamp/](https://courses.datatalks.club/register/de-zoomcamp/) before the course starts.'
 - question: Can I join the Data Engineering Zoomcamp 2025 cohort?
-  answer: No, the 2025 cohort is closed. You can join the 2026 cohort when it starts in January 2026. [Register here](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD) before the course starts.
+  answer: No, the 2025 cohort is closed. You can join the 2026 cohort when it starts in January 2026. [Register here](https://courses.datatalks.club/register/de-zoomcamp/) before the course starts.
 - question: Who runs the Data Engineering Zoomcamp?
   answer: 'DE Zoomcamp is run by [DataTalks.Club](/), a global online community of data professionals and learners. While the initial idea and most of the content were created by [Alexey Grigorev](/people/alexeygrigorev.html), members of the DataTalks.Club community contribute as instructors and maintainers.
 

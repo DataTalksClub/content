@@ -42,7 +42,7 @@ faq:
 - question: How does the MLOps Zoomcamp certificate work?
   answer: To earn a [certificate](#can-i-get-a-certificate), you need to complete one [end-to-end MLOps project](#project-phase) that demonstrates your mastery of all course concepts. After submitting your project, you must also review at least 3 other students' projects by the deadline and provide constructive feedback.
 - question: When does the next cohort of the MLOps Zoomcamp start?
-  answer: 'The next cohort of the MLOps Zoomcamp typically starts in the spring each year. Register here: [https://airtable.com/appYdhA23GVZd1iN2/shrCb8y6eTbPKwSTL](https://airtable.com/appYdhA23GVZd1iN2/shrCb8y6eTbPKwSTL) before the course starts.'
+  answer: 'The course is currently self-paced with no live cohort scheduled. Register here: [https://courses.datatalks.club/register/mlops-zoomcamp/](https://courses.datatalks.club/register/mlops-zoomcamp/) to be notified when the next live cohort is announced.'
 - question: Who runs the MLOps Zoomcamp?
   answer: 'The MLOps Zoomcamp is run by [DataTalks.Club](/), a global online community of data professionals and learners. While the initial idea and most of the content were created by [Alexey Grigorev](/people/alexeygrigorev.html), members of the DataTalks.Club community contribute as instructors and maintainers. Expert instructors include Cristian Martinez, Emeli Dral, and others.
 
