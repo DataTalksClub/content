@@ -29,7 +29,7 @@ def test_checked_records_use_metadata_derived_paths() -> None:
     book_paths = discover_book_paths(ROOT / "books")
 
     assert len(article_paths) == 55
-    assert len(book_paths) == 98
+    assert len(book_paths) == 100
     assert all(len(path.relative_to(ROOT / "articles").parts) == 2 for path in article_paths)
     assert all(len(path.relative_to(ROOT / "books").parts) == 2 for path in book_paths)
 

@@ -55,9 +55,9 @@ def test_repository_content_is_valid() -> None:
         "articles": 55,
         "podcasts": 212,
         "transcripts": 210,
-        "books": 98,
-        "media": 824,
-        "referenced_media": 768,
+        "books": 100,
+        "media": 828,
+        "referenced_media": 772,
     }
 
 
