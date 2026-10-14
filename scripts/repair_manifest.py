@@ -213,6 +213,8 @@ def load_repair_manifest(path: Path) -> dict[str, Any]:
 def validate_repair_manifest(
     root: Path,
     manifest_path: Path | None = None,
+    *,
+    check_repository_counts: bool = False,
 ) -> dict[str, Any]:
     root = root.resolve()
     path = manifest_path or root / MANIFEST_RELATIVE_PATH
@@ -334,7 +336,10 @@ def validate_repair_manifest(
             )
 
     _expect(len(added_paths) == 8, "added repair asset count differs")
-    _validate_repository_counts(root)
+    # The repository totals are the migration-time snapshot the repair was made
+    # against; content published after the migration adds to them.
+    if check_repository_counts:
+        _validate_repository_counts(root)
     return {
         "repairs": len(repairs),
         "added_media": len(added_paths),

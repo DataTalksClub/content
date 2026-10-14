@@ -98,7 +98,7 @@ def validate_removal_manifest(
     root: Path,
     manifest_path: Path | None = None,
     *,
-    check_repository_counts: bool = True,
+    check_repository_counts: bool = False,
 ) -> dict[str, Any]:
     root = root.resolve()
     path = manifest_path or root / MANIFEST_RELATIVE_PATH
@@ -167,10 +167,13 @@ def validate_removal_manifest(
             _canonical_target_path(transcript, transcript_prefix, "transcript")
             _expect_absent(root / transcript, f"{transcript_prefix} is present")
 
+    # The removed episodes must stay removed for good; the episode totals are a
+    # migration-time snapshot, and episodes published after the migration add to
+    # them, so only a migration attestation asks for the exact counts.
+    _expect_no_removed_records(root / "podcasts", removed_slugs)
     if check_repository_counts:
         actual_counts = _repository_counts(root)
         _expect(actual_counts == CURRENT_COUNTS, "repository counts differ from removal manifest")
-        _expect_no_removed_records(root / "podcasts", removed_slugs)
 
     return {
         "removals": len(removals),

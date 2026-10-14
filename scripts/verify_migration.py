@@ -55,9 +55,9 @@ def sha256(path: Path) -> bytes:
 
 
 def verify_migration(source: Path, target: Path) -> dict[str, int]:
-    repair_summary = validate_repair_manifest(target)
+    repair_summary = validate_repair_manifest(target, check_repository_counts=True)
     editorial_summary = validate_editorial_overlay(target)
-    removal_summary = validate_removal_manifest(target)
+    removal_summary = validate_removal_manifest(target, check_repository_counts=True)
     source_correction_summary = validate_source_correction(target)
     description_overlay = editorial_summary["descriptions"]
     repairs = load_repair_manifest(target / "migration/repairs/2026-08-09-missing-media.yaml")
