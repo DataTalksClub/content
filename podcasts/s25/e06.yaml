@@ -1,0 +1,34 @@
+slug: s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals
+legacy_path: /podcast/s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals.html
+episode: 6
+guests:
+- suhassuresha
+ids:
+  anchor: datatalksclub/episodes/Building-an-AI-Platform-SDK-Design--Model-Routing--Vector-Search--Evals---Suhas-Suresha-e3q03oe
+  youtube: aSI_dxt8KhY
+image: images/podcast/s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Building-an-AI-Platform-SDK-Design--Model-Routing--Vector-Search--Evals---Suhas-Suresha-e3q03oe
+  apple: https://podcasts.apple.com/us/podcast/building-an-ai-platform-sdk-design-model-routing/id1541710331?i=1000794297354
+  spotify: https://open.spotify.com/episode/1TUi9vfXP0lhsKlH73TSjS?si=f6e2a8668afc466c
+  youtube: https://www.youtube.com/watch?v=aSI_dxt8KhY
+season: 25
+short: 'Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals'
+title: 'Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals'
+description: Suhas Suresha explains how a centralized AI platform moves prototypes into production, covering
+  AI sprawl, build versus buy, SDK design, model routing, observability, evaluations and cost tracking,
+  session memory, tool registries, agent orchestration, and durable execution.
+transcript: e06-transcript.yaml
+resources:
+- title: Book
+  url: https://www.manning.com/books/designing-ai-systems
+- title: Code
+  url: https://github.com/designing-ai-systems/designing_ai_systems_repo
+- title: LinkedIn
+  url: https://www.linkedin.com/in/suhas-suresha/
+- title: Twitter
+  url: https://x.com/inceptor92
+- title: Github
+  url: https://github.com/suhas1992
+- title: Website
+  url: https://suhassuresha.com/

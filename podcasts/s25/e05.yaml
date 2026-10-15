@@ -1,0 +1,28 @@
+slug: s25e05-decoding-open-lakehouse
+legacy_path: /podcast/s25e05-decoding-open-lakehouse.html
+episode: 5
+guests:
+- sahilwalia
+ids:
+  anchor: datatalksclub/episodes/Decoding-the-Open-Lakehouse---Sahil-Walia-e3ou705
+  youtube: k4A1TvfSdKw
+image: images/podcast/s25e05-decoding-open-lakehouse.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Decoding-the-Open-Lakehouse---Sahil-Walia-e3ou705
+  apple: https://podcasts.apple.com/us/podcast/decoding-the-open-lakehouse-sahil-walia/id1541710331?i=1000790552313
+  spotify: https://open.spotify.com/episode/7e99CVsd78K5zJWFPWMzLM?si=544eca21284b4b2f
+  youtube: https://www.youtube.com/watch?v=k4A1TvfSdKw
+season: 25
+short: Decoding the Open Lakehouse
+title: Decoding the Open Lakehouse
+description: Sahil Walia decodes the open lakehouse, comparing Hive Metastore, Apache Iceberg and Delta
+  Lake, handling GDPR deletions and schema changes, asking whether small data needs a lakehouse, and covering
+  Open Semantic Interchange and open-source contribution.
+transcript: e05-transcript.yaml
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/sahilwaliasyracuse
+- title: Github
+  url: https://github.com/sahil-walia
+- title: Website
+  url: https://medium.com/@sahil-walia
