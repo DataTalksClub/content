@@ -1,0 +1,30 @@
+slug: s25e03-running-company-on-multi-agent-dispatch-system
+legacy_path: /podcast/s25e03-running-company-on-multi-agent-dispatch-system.html
+episode: 3
+guests:
+- pauldomanski
+ids:
+  anchor: datatalksclub/episodes/Running-a-Company-on-a-Multi-Agent-Dispatch-System---Paul-Domanski-e3obkm7
+  youtube: fxVSQteBnmg
+image: images/podcast/s25e03-running-company-on-multi-agent-dispatch-system.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Running-a-Company-on-a-Multi-Agent-Dispatch-System---Paul-Domanski-e3obkm7
+  apple: https://podcasts.apple.com/us/podcast/running-a-company-on-a-multi-agent-dispatch/id1541710331?i=1000787893474
+  spotify: https://open.spotify.com/episode/74xz7IFAivCupH34CzYI7V?si=SvgzV0lFS4KFJW5d4tjNSw
+  youtube: https://www.youtube.com/watch?v=fxVSQteBnmg
+season: 25
+short: Running a Company on a Multi Agent Dispatch System
+title: Running a Company on a Multi Agent Dispatch System
+description: Paul Domanski shows how he runs a company on a multi-agent dispatch system, covering his
+  path from film and digital marketing, sales pipelines and client onboarding, token efficiency and open-source
+  models, red teaming, code audits, and AI evals.
+transcript: e03-transcript.yaml
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/paul-domanski-ai/
+- title: Twitter
+  url: https://x.com/domanski_ai
+- title: Github
+  url: https://github.com/domanski-ai
+- title: Website
+  url: https://domanski.ai/

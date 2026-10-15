@@ -1,0 +1,24 @@
+slug: s24e07-building-career-in-ai-from-real-estate-to-ai-engineering
+legacy_path: /podcast/s24e07-building-career-in-ai-from-real-estate-to-ai-engineering.html
+episode: 7
+guests:
+- gustafgyllensporre
+ids:
+  anchor: datatalksclub/episodes/Building-a-Career-in-AI-From-Real-Estate-to-AI-Engineering---Gustaf-Gyllensporre-e3lt4h2
+  youtube: 3IFENyERGgQ
+image: images/podcast/s24e07-building-career-in-ai-from-real-estate-to-ai-engineering.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Building-a-Career-in-AI-From-Real-Estate-to-AI-Engineering---Gustaf-Gyllensporre-e3lt4h2
+  apple: https://podcasts.apple.com/us/podcast/building-a-career-in-ai-from-real-estate-to-ai/id1541710331?i=1000776287724
+  spotify: https://open.spotify.com/episode/3wKdUWNItEs3dAoto2mqae?si=a03hLMhFQLuXeOP62WDL7Q
+  youtube: https://www.youtube.com/watch?v=3IFENyERGgQ
+season: 24
+short: 'Building a Career in AI: From Real Estate to AI Engineering'
+title: 'Building a Career in AI: From Real Estate to AI Engineering'
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/gustaf-g/
+description: Gustaf Gyllensporre shares how he moved from real estate into AI engineering as a self-taught
+  developer, covering CPython contributions, resume and portfolio projects, deep research agents, startup
+  versus big-tech interviews, networking, and soft skills.
+transcript: e07-transcript.yaml

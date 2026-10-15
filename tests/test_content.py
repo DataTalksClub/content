@@ -53,11 +53,11 @@ def test_repository_content_is_valid() -> None:
 
     assert counts == {
         "articles": 55,
-        "podcasts": 203,
-        "transcripts": 201,
+        "podcasts": 210,
+        "transcripts": 208,
         "books": 98,
-        "media": 815,
-        "referenced_media": 759,
+        "media": 822,
+        "referenced_media": 766,
     }
 
 

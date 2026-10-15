@@ -1,0 +1,26 @@
+slug: s24e09-engineering-your-own-ai-assistant
+legacy_path: /podcast/s24e09-engineering-your-own-ai-assistant.html
+episode: 9
+guests:
+- pauliusztin
+ids:
+  anchor: datatalksclub/episodes/Engineering-Your-Own-AI-Assistant---Paul-Iusztin-e3mggid
+  youtube: TDP3tIKxqlc
+image: images/podcast/s24e09-engineering-your-own-ai-assistant.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Engineering-Your-Own-AI-Assistant---Paul-Iusztin-e3mggid
+  apple: https://podcasts.apple.com/us/podcast/engineering-your-own-ai-assistant-paul-iusztin/id1541710331?i=1000778227326
+  spotify: https://open.spotify.com/episode/5a1A6HmDWMWB0DTcfWiS1t?si=E9EQldIdQvuxoAeWjN-cyA
+  youtube: https://www.youtube.com/watch?v=TDP3tIKxqlc
+season: 24
+short: Engineering Your Own AI Assistant
+title: Engineering Your Own AI Assistant
+resources:
+- title: Linkedin
+  url: https://www.linkedin.com/in/pauliusztin/
+- title: Website
+  url: https://www.pauliusztin.ai/
+description: Paul Iusztin walks through engineering a personal AI assistant on top of a second brain,
+  from PARA organization and Obsidian and Readwise capture to deep-research retrieval, reranking, context
+  management, multi-agent workflows, and personal wikis.
+transcript: e09-transcript.yaml

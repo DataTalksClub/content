@@ -1,0 +1,31 @@
+slug: s25e01-engineering-ai-powered-data-products
+legacy_path: /podcast/s25e01-engineering-ai-powered-data-products.html
+episode: 1
+guests:
+- radovanbacovic
+ids:
+  anchor: datatalksclub/episodes/Engineering-AI-Powered-Data-Products---Radovan-Bacovic-e3nmaei
+  youtube: A2UuBzL8z2w
+image: images/podcast/s25e01-engineering-ai-powered-data-products.jpg
+links:
+  anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Engineering-AI-Powered-Data-Products---Radovan-Bacovic-e3nmaei
+  apple: https://podcasts.apple.com/us/podcast/engineering-ai-powered-data-products-radovan-bacovic/id1541710331?i=1000784723482
+  spotify: https://open.spotify.com/episode/3M4f4lZPuWNEXZDOcJKttx?si=NoTtEbW_T4-cDKMd0uMUAw
+  youtube: https://www.youtube.com/watch?v=A2UuBzL8z2w
+season: 25
+short: Engineering AI-Powered Data Products
+title: Engineering AI-Powered Data Products
+description: Radovan Bacovic explains how a full-stack data engineer builds scalable, business-aligned
+  data platforms and AI-powered data products, covering DuckDB, dbt data modeling, orchestration, LLM
+  pipeline automation, governance, pipeline security, and DataOps.
+transcript: e01-transcript.yaml
+notes: 'Links:
+
+
+  * [Twitter](https://x.com/SvenMurtinson){:target="_blank"}
+
+  * [Linkedin](https://www.linkedin.com/in/radovanbacovic/){:target="_blank"}
+
+  * [Github](https://gitlab.com/radovan.bacovic/){:target="_blank"}
+
+  * [Website](www.bacovic.com){:target="_blank"}'
