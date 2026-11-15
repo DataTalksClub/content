@@ -1,0 +1,39 @@
+slug: s25e09-building-ai-evaluations-you-can-actually-trust
+legacy_path: /podcast/s25e09-building-ai-evaluations-you-can-actually-trust.html
+episode: 9
+season: 25
+guests:
+- tejaskumar
+ids:
+  youtube: oWVmQDqZ7tw
+links:
+  spotify: https://open.spotify.com/episode/7kBm1cbAlWxKeclurWgz7b
+  youtube: https://www.youtube.com/watch?v=oWVmQDqZ7tw
+short: Building AI Evaluations You Can Actually Trust
+title: Building AI Evaluations You Can Actually Trust
+description: 'Tejas Kumar discusses building AI evaluations: sourcing eval cases, calibrating LLM judges,
+  refreshing datasets, and judging agent trajectories.'
+transcript: e09-transcript.yaml
+notes: 'Tejas Kumar, an AI engineer at IBM and author of Fluent React, joins Alexey Grigorev to talk about
+  building AI evaluations you can trust. They cover why evals go beyond a manual check, how to source
+  evaluation cases and calibrate an LLM judge, how to refresh datasets, and how to judge final answers
+  versus an agent''s trajectory.
+
+
+  Links:
+
+
+  * [AI Evals: How to Build an LLM Judge That Agrees With You](https://tej.as/blog/ai-evals-llm-judge){:target="_blank"}
+
+  * [Evals code, demos and slides](https://github.com/TejasQ/basically-agent-evals){:target="_blank"}
+
+  * [Fluent React](https://www.oreilly.com/library/view/fluent-react/9781098138707/){:target="_blank"}
+
+  * [Tejas on LinkedIn](https://www.linkedin.com/in/tejasq/){:target="_blank"}
+
+  * [Tejas on GitHub](https://github.com/TejasQ){:target="_blank"}
+
+  * [Tejas''s website](https://tej.as/){:target="_blank"}
+
+  * [Tejas on X](https://x.com/TejasKumar_){:target="_blank"}'
+image: images/podcast/s25e09-building-ai-evaluations-you-can-actually-trust.jpg

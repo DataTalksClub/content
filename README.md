@@ -128,9 +128,9 @@ Podcast loaders accept the former flat `podcasts/*.yaml` plus
 `podcasts/transcripts/*.yaml` layout for older source checkouts. New records must
 use the seasonal layout and keep the transcript reference as the exact sibling
 filename `<episode-stem>-transcript.yaml`. No duplicate or symlink aliases are
-kept in the current tree. Two existing records share `(season: 3, episode: 4)`;
-the slug-sorted first record uses `s03/e04.yaml`, and the other uses the stable
-slug-qualified `s03/e04-data-translator-role-and-data-strategy.yaml` form.
+kept in the current tree. Season 3 episode identities follow the publisher RSS: Lior Barak is S03E04
+and Oleg Novikov is S03E05. See `migration/podcast-identity-resolution.md`
+for the evidence and reversible correction.
 
 ## Migration provenance
 
