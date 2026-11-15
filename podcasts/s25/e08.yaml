@@ -1,0 +1,32 @@
+slug: s25e08-navigating-the-maze-of-production-machine-learning
+legacy_path: /podcast/s25e08-navigating-the-maze-of-production-machine-learning.html
+episode: 8
+season: 25
+guests:
+- migueloteropedrido
+ids:
+  youtube: xC5lqvfSfLU
+links:
+  spotify: https://open.spotify.com/episode/5J8royMpnXL43xtJ9y87qA
+  youtube: https://www.youtube.com/watch?v=xC5lqvfSfLU
+short: Navigating the Maze of Production Machine Learning
+title: Navigating the Maze of Production Machine Learning
+description: Miguel Otero Pedrido discusses why traditional ML still matters, building recommender systems,
+  LLMs in recommenders, AI gateways and evaluating agent traces.
+transcript: e08-transcript.yaml
+notes: 'Miguel Otero Pedrido, an ML and AI engineer and author of The Neural Maze, joins Alexey Grigorev
+  to talk about production machine learning. They cover his path from theoretical physics to ML engineering,
+  why traditional machine learning still matters, how to start a recommender system without data, contextual
+  bandits, where LLMs help recommender systems, the changing ML and AI engineering roles, trace redaction
+  with an AI gateway, error analysis of agent traces, and semantic routing.
+
+
+  Links:
+
+
+  * [The Neural Maze](https://theneuralmaze.substack.com/){:target="_blank"}
+
+  * [Miguel on LinkedIn](https://www.linkedin.com/in/migueloteropedrido/){:target="_blank"}
+
+  * [Miguel on GitHub](https://github.com/MichaelisTrofficus){:target="_blank"}'
+image: images/podcast/s25e08-navigating-the-maze-of-production-machine-learning.jpg

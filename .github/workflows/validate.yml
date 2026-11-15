@@ -43,33 +43,29 @@ jobs:
       - name: Validate content and tooling
         run: make check
 
+      # Migration counts and changed-path attestations describe a frozen release,
+      # not the growing editorial catalogue. Current HEAD is validated above.
+      - name: Check out immutable migration release
+        uses: actions/checkout@v4
+        with:
+          ref: 9ad8f5001426734a4e3854c1e1936009fa774868
+          fetch-depth: 0
+          path: .tmp/migration-baseline
+
       - name: Verify immutable migration and repair overlay
-        run: make verify-source SOURCE=.tmp/legacy-source
+        working-directory: .tmp/migration-baseline
+        run: make verify-source SOURCE=../legacy-source
 
-      - name: Emit replacement attestation
-        run: >-
-          make attest
-          COMMIT="$GITHUB_SHA"
-          OUTPUT=.tmp/attestation/missing-media-repair.json
+      - name: Emit immutable release attestations
+        working-directory: .tmp/migration-baseline
+        run: |
+          make attest COMMIT="$(git rev-parse HEAD)" OUTPUT=.tmp/attestation/missing-media-repair.json
+          make attest-source-correction COMMIT="$(git rev-parse HEAD)" OUTPUT=.tmp/attestation/source-correction.json
 
-      - name: Emit immutable source correction attestation
-        run: >-
-          make attest-source-correction
-          COMMIT="$GITHUB_SHA"
-          OUTPUT=.tmp/attestation/source-correction.json
-
-      - name: Upload replacement attestation
+      - name: Upload immutable release attestations
         uses: actions/upload-artifact@v4
         with:
-          name: missing-media-repair-${{ github.sha }}
-          path: .tmp/attestation/missing-media-repair.json
-          if-no-files-found: error
-          retention-days: 30
-
-      - name: Upload source correction attestation
-        uses: actions/upload-artifact@v4
-        with:
-          name: source-correction-${{ github.sha }}
-          path: .tmp/attestation/source-correction.json
+          name: immutable-migration-release-${{ github.sha }}
+          path: .tmp/migration-baseline/.tmp/attestation/*.json
           if-no-files-found: error
           retention-days: 30
