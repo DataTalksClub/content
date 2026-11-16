@@ -859,7 +859,7 @@ segments:
 - line: So in this case, let's say we have a PySpark script (PySpark job) and we want to execute this
     job on a specific piece of data. Typically, the way it works is, that you need to have a Spark cluster
     where you can execute this job. Then you need to provision all these machines, you need to configure
-    it, and Dataproc makes it easier. I didn't work a lot with ПCP – I worked with AWS. In AWS, there
+    it, and Dataproc makes it easier. I didn't work a lot with GCP – I worked with AWS. In AWS, there
     is a thing called ElasticMapReduce (EMR). Basically, by clicking a few buttons, you can get the Spark
     cluster and then you can execute.
   sec: 3124

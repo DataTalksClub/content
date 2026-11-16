@@ -162,7 +162,7 @@ segments:
     still so much friction. So, DataOps is a way to remove that friction and get people aligned towards
     the same goal. I think that's the important part. It's the people part.
   who: Lars
-- line: So, the first one is enablement. Нow enable others to do self-service and build data pipelines.
+- line: So, the first one is enablement. How enable others to do self-service and build data pipelines.
     Then the actual data pipelines, so you have this workflow component, you can design and build the
     workflow, when one thing depends on the other, you can help that. Then the final one — the most important
     one — is the people component where everyone works together on the same goal. It's not a waterfall,

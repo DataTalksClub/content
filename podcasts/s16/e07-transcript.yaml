@@ -142,7 +142,7 @@ segments:
   time: '7:50'
   who: Alexey
 - line: For me, it was quite natural, I think. Because as a statistician, you always think about the data
-    generating process. And when you build modelы, they're usually interpretable. Еhis is the mindset
+    generating process. And when you build models, they're usually interpretable. This is the mindset
     I came from, “Okay, let's understand the data. Let's build an understandable model.” And when I transitioned
     more into machine learning, this was kind of lost – not fully, because there were things like random
     forests, which would have this built-in feature importance and stuff like this. But it felt like,

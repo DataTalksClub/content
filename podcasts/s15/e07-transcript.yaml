@@ -392,7 +392,7 @@ segments:
   time: '22:36'
   who: Maria
 - header: 'Startup priorities: reproducibility, versioning, traceability as first steps'
-- line: Well, I Imagine that if you work at a startup and let's say you already рave your first model
+- line: Well, I Imagine that if you work at a startup and let's say you already have your first model
     or maybe their first multiple models – at least in my experience,  you often deploy them in “you only
     live once” mode, like “Okay, let's just deploy. Throw them out there and keep our fingers crossed
     that nothing will break.” But then at some point, the startup (this organization) becomes more mature
