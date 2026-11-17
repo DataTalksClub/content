@@ -1,0 +1,168 @@
+brand: DataTalks.Club Academy
+contact_email: alexey@datatalks.club
+seat_caption: 15 seats, 1 instructor
+waitlist_button: Join the Waitlist
+facts:
+  label: Key facts
+  items:
+  - label: START
+    value: 'Start: April 2027'
+  - label: FORMAT
+    value: Full-time, live, 3 months (13 weeks)
+  - label: WHERE
+    value: Berlin or live online
+  - label: LANGUAGE
+    value: English
+  - label: SEATS
+    value: '15'
+  - label: FUNDING
+    value: Designed for Bildungsgutschein funding (AZAV), coming soon.
+hero:
+  instructor_line: I'm Alexey Grigorev. I have taught more than 100,000 students in DataTalks.Club courses.
+  honesty: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
+instructor:
+  heading: I Teach Every Session and Review Every Project
+  paragraphs:
+  - I'm Alexey Grigorev. I have taught more than 100,000 students in DataTalks.Club courses. I founded DataTalks.Club and created its free Zoomcamps on data engineering, machine learning, MLOps, LLMs and AI dev tools. I also wrote Machine Learning Bookcamp.
+  - This cohort has 15 seats. I teach every day myself and look at every participant's project every week. There are no teaching assistants and no pre-recorded lectures.
+  photo: images/academy/alexey.jpg
+  photo_alt: Alexey Grigorev
+  proof:
+  - label: DATATALKS.CLUB ON GITHUB
+    href: https://github.com/DataTalksClub
+  - label: MACHINE LEARNING BOOKCAMP
+    href: https://www.manning.com/books/machine-learning-bookcamp
+project_heading: The Final Project
+fit:
+  for_title: This Is for You If
+  not_title: This Is Not for You If
+  for_shared:
+  - You can study full-time, Monday to Friday, for the whole program.
+  - You can follow technical teaching and work with others in English.
+  - You want your next job to be in software or AI engineering, including if you are between jobs right now.
+  not:
+  - You have never programmed. Start with the [free Zoomcamps](https://datatalks.club/courses.html) and come back.
+  - You need an evenings-only course.
+  - You want a certificate without building anything.
+syllabus:
+  heading: Sixteen Modules, One Project That Grows Every Week
+  intro: This is the draft syllabus. I use the waitlist's survey answers to shape the final version.
+  produce_label: 'You produce:'
+funding:
+  heading: How Funding and the Bildungsgutschein Work
+  paragraphs:
+  - Designed for Bildungsgutschein funding (AZAV), coming soon.
+  - The voucher and the seat are separate decisions. The Agentur decides whether it pays, and I decide who is in the cohort.
+  link:
+    label: How the Bildungsgutschein works (arbeitsagentur.de)
+    href: https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein
+admission:
+  heading: Why 15 Seats
+  body: I teach this cohort myself and review every project. I can do that properly for about 15 people, not for more. If more people qualify than there are seats, there is a waitlist and a later cohort. I won't add seats.
+  steps_heading: How You Get In
+  steps:
+  - title: Join the waitlist.
+    text: Leave your name and email on this page. There is no commitment.
+  - title: Apply first.
+    text: When applications open, the waitlist gets them before anyone else.
+  - title: Short task and a conversation.
+    text: A small practical exercise and a 20-minute call, so we both know the level fits.
+  - title: Seats are offered in rounds.
+    text: Everyone who applies gets an answer.
+faq:
+  heading: Questions
+  items:
+  - question: When does the next cohort start?
+    answer: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
+  - question: What do I get for joining the waitlist?
+    answer: You get the application before it opens publicly, and updates on dates, format and funding. Nothing else, and no obligation.
+  - question: What do I need to know before I start?
+  - question: Will the Agentur für Arbeit pay for it?
+    answer: Designed for Bildungsgutschein funding (AZAV), coming soon. Talk to your adviser early.
+  - question: Is it online or in Berlin?
+    answer: Berlin or live online. Online, you join live from Germany. The survey after you join asks which one you could attend.
+  - question: What is the schedule?
+    answer: 'Full-time: Monday to Friday, 09:00 to 16:30 Berlin time, live, for 3 months (13 weeks).'
+  - question: Do I have to live in Germany?
+    answer: The program is built for people in Germany, and a Bildungsgutschein is only available there.
+  - question: How do you choose who gets a seat?
+    answer: 'By the same published criteria for everyone: programming experience that fits the track, availability for the full schedule, English, a concrete goal, and the practical task. Your employment or benefit status is not a criterion.'
+  - question: What happens to my email?
+    answer: I use it only to write to you about this program and its application. You can ask me to delete it at any time. Details are in the [privacy notice](/academy/privacy/).
+join:
+  heading: Join the Waitlist
+  text: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
+footer:
+  links:
+  - label: FAQ
+    href: /academy/faq/
+  - label: Bildungsgutschein
+    href: /academy/bildungsgutschein/
+  - label: Impressum
+    href: /academy/impressum/
+  - label: Privacy
+    href: /academy/privacy/
+  - label: DataTalks.Club
+    href: https://datatalks.club
+  copyright: © 2026 DataTalks.Club
+  other_track: Looking at the other track?
+signup:
+  program_label: Program
+  name_label: Name
+  name_placeholder: Your name
+  payment_label: How do you plan to pay?
+  payment_placeholder: Select an option
+  payment_options:
+  - Bildungsgutschein
+  - Self-funded
+  - Employer
+  - Not sure yet
+  payment_error: Please choose how you plan to pay.
+  email_label: Email address
+  email_placeholder: you@example.com
+  button: Join the Waitlist
+  busy: Joining…
+  email_error: Please enter a valid email address.
+  failed: That didn't go through. Please try again, or email [alexey@datatalks.club](mailto:alexey@datatalks.club) and I'll add you.
+  noscript: Signing up needs JavaScript. Or email [alexey@datatalks.club](mailto:alexey@datatalks.club) and I'll add you.
+  micro: Waitlist members hear first when the next cohort opens. I'll email you only about this program. Unsubscribe any time.
+  privacy_label: Privacy
+  success:
+    eyebrow: Check your inbox
+    title: Confirm your email
+    text: I sent a confirmation link to your email. Click it to confirm your spot on the waitlist.
+    questions_label: Quick questions (optional)
+    questions:
+    - key: location
+      question: Where are you based?
+      options:
+      - value: berlin
+        label: Berlin
+      - value: germany
+        label: Elsewhere in Germany
+      - value: outside-germany
+        label: Outside Germany
+    - key: german_level
+      question: German level
+      options:
+      - value: a2-or-below
+        label: A2 or below
+      - value: b1
+        label: B1
+      - value: b2
+        label: B2
+      - value: c1-plus
+        label: C1+
+      - value: native
+        label: Native
+    - key: full_day_availability
+      question: Can you study full days, Monday to Friday, 09:00 to 16:30, for 3 months?
+      options:
+      - value: 'yes'
+        label: 'Yes'
+      - value: 'no'
+        label: 'No'
+    answers_error: That answer didn't save. Please tap it again.
+    survey_text: I use the survey answers to shape the syllabus.
+    survey_button: Take the survey
+    survey_url: https://docs.google.com/forms/d/e/1FAIpQLSdl4f48ZsEV_9VBjUD8dHTHm9qMddnW75_2P7Uj5B6hC1IInQ/viewform?usp=pp_url
