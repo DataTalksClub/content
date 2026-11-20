@@ -2,7 +2,7 @@
 layout: sessions
 path: /academy/sessions/
 title: 'Hireable With AI: Free Sessions for Experienced Developers | DataTalks.Club'
-description: 3 free online sessions for developers with 2+ years of experience who were laid off, are in their notice period or are looking for a job. Mondays 23 Nov, 30 Nov and 7 Dec at 17:00 Berlin time, on Zoom.
+description: 3 free online sessions for developers with 2+ years of experience who were laid off, are in their notice period or are looking for a job. Mondays 23 Nov and 30 Nov at 17:00, Tuesday 15 Dec at 16:30 Berlin time, on Zoom.
 og_image: images/academy/og/sessions.png
 sitemap: 4
 series:
@@ -12,7 +12,7 @@ series:
 hero:
   eyebrow: Free online sessions for developers in Berlin and beyond
   headline: Hireable With AI
-  lead: Hireable With AI is a series of three free online sessions for developers with 2+ years of experience who were laid off, are in their notice period or are looking for a job. They run on Mondays 23 Nov, 30 Nov and 7 Dec 2026 at 17:00 Berlin time, on Zoom, in English. Each one is a 15 to 20 minute talk by Alexey Grigorev, then Q&A.
+  lead: Hireable With AI is a series of three free online sessions for developers with 2+ years of experience who were laid off, are in their notice period or are looking for a job. They run on Mondays 23 Nov and 30 Nov at 17:00 and Tuesday 15 Dec 2026 at 16:30 Berlin time, on Zoom, in English. Each one is a 15 to 20 minute talk by Alexey Grigorev, then Q&A.
   button: Choose my sessions
   under_button: Your email gets you the recordings and materials. Meetup gives you the Zoom link and reminders, so RSVP there for each session you choose.
   speaker_line: I'm Alexey Grigorev, founder of DataTalks.Club. 15 years in software engineering and ML, teaching online since 2020.
@@ -75,13 +75,14 @@ sessions:
   meetup_url: https://www.meetup.com/berlin-datatalks-club/events/317427748/
 - id: session-3
   number: 3
-  date_label: Mon 7 Dec
-  weekday_date: Monday 7 December
-  starts: '2026-12-07T16:00:00Z'
-  ends: '2026-12-07T17:00:00Z'
+  date_label: Tue 15 Dec
+  weekday_date: Tuesday 15 December
+  hero_time: 16:30 Berlin
+  starts: '2026-12-15T15:30:00Z'
+  ends: '2026-12-15T16:30:00Z'
   title: 'AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs'
   hero_topic: 'AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs'
-  short_label: 'Mon 7 Dec: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs'
+  short_label: 'Tue 15 Dec: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs'
   description: 'AI engineering is building products that use LLMs, like chatbots, search over your company''s documents or agents that do tasks for users.
 
 
@@ -107,10 +108,10 @@ audience:
   items:
   - You're job hunting, laid off or in a notice period.
   - You have a job and want to learn Cursor, Claude Code or LLM APIs.
-  outro: Any programming language works for the first two sessions, and Python helps for 7 December. Anyone can join from anywhere, though the job market and Agentur für Arbeit parts focus on Berlin.
+  outro: Any programming language works for the first two sessions, and Python helps for 15 December. Anyone can join from anywhere, though the job market and Agentur für Arbeit parts focus on Berlin.
   note: If you've never written code, these sessions will move too fast. My free [Zoomcamps](https://datatalks.club/courses.html) are a better place to start.
 schedule:
-  heading: Three Mondays, 17:00 to 18:00 Berlin time
+  heading: Two Mondays 17:00, final Tuesday 16:30 Berlin time
   after: After the talk and Q&A I spend about ten minutes on the full-time program starting April 2027 and on how the Bildungsgutschein works. If you're not interested, you can leave before that part.
 host:
   heading: Who runs the sessions
@@ -134,12 +135,12 @@ faq:
   - question: I've already done an AI bootcamp or a prompting course. Will this be the same?
     answer: No. These sessions assume you write software, so there's no ChatGPT intro.
   - question: Do I need to know Python?
-    answer: It helps for 7 December. Any language is fine for the first two.
+    answer: It helps for 15 December. Any language is fine for the first two.
   - question: What happens to my email?
     answer: I send you the session links, reminders and recordings. If you tick the box in the form, I'll also write about the April 2027 program. You can unsubscribe any time. Details are in the [privacy notice](/academy/privacy/).
 final:
   heading: Choose your sessions
-  text: Free and online, Mondays 23 November, 30 November and 7 December at 17:00 Berlin time. Recordings go to everyone who registers.
+  text: Free and online, Mondays 23 November and 30 November at 17:00, Tuesday 15 December at 16:30 Berlin time. Recordings go to everyone who registers.
 form:
   email_label: Email
   email_placeholder: you@example.com
