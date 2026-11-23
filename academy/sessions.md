@@ -207,13 +207,6 @@ calendar:
   zoom_label: 'Zoom link:'
   note: Free online session with Alexey Grigorev. Everyone who registers gets the recording.
   alarm_prefix: 'Starting in 15 minutes:'
-footer_links:
-- label: Impressum
-  href: /academy/impressum/
-- label: Privacy
-  href: /academy/privacy/
-- label: alexey@datatalks.club
-  href: mailto:alexey@datatalks.club
 schema:
   location_name: Zoom
   organizer: DataTalks.Club

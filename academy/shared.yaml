@@ -2,6 +2,26 @@ brand: DataTalks.Club Academy
 contact_email: alexey@datatalks.club
 seat_caption: 15 seats, 1 instructor
 waitlist_button: Join the Waitlist
+header:
+  wordmark: Academy
+  tagline: Live courses for experienced developers
+  label: DataTalks.Club Academy
+  links:
+  - label: Agentic Engineering
+    href: /academy/agentic-engineering/
+  - label: AI Engineering
+    href: /academy/ai-engineering/
+  - label: Free sessions
+    href: /academy/sessions/
+  - label: FAQ
+    href: /academy/faq/
+  - label: Bildungsgutschein (Deutsch)
+    href: /academy/bildungsgutschein/
+sticky:
+  caption: 15 seats, live
+contact: Questions? Email [alexey@datatalks.club](mailto:alexey@datatalks.club).
+other_track: Looking at the other track?
+confirm_notice: 'Important: check your inbox and confirm your email. Without confirmation you won''t get the session link or any emails from us.'
 facts:
   label: Key facts
   items:
@@ -47,7 +67,6 @@ fit:
 syllabus:
   heading: Sixteen Modules, One Project That Grows Every Week
   intro: This is the draft syllabus. I use the waitlist's survey answers to shape the final version.
-  produce_label: 'You produce:'
 funding:
   heading: How Funding and the Bildungsgutschein Work
   paragraphs:
@@ -56,6 +75,9 @@ funding:
   link:
     label: How the Bildungsgutschein works (arbeitsagentur.de)
     href: https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein
+  guide_link:
+    label: Bildungsgutschein guide (Deutsch)
+    href: /academy/bildungsgutschein/
 admission:
   heading: Why 15 Seats
   body: I teach this cohort myself and review every project. I can do that properly for about 15 people, not for more. If more people qualify than there are seats, there is a waitlist and a later cohort. I won't add seats.
@@ -92,20 +114,6 @@ faq:
 join:
   heading: Join the Waitlist
   text: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
-footer:
-  links:
-  - label: FAQ
-    href: /academy/faq/
-  - label: Bildungsgutschein
-    href: /academy/bildungsgutschein/
-  - label: Impressum
-    href: /academy/impressum/
-  - label: Privacy
-    href: /academy/privacy/
-  - label: DataTalks.Club
-    href: https://datatalks.club
-  copyright: © 2026 DataTalks.Club
-  other_track: Looking at the other track?
 signup:
   program_label: Program
   name_label: Name

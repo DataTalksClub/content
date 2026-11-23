@@ -11,6 +11,11 @@ hero:
   headline: Bildungsgutschein für KI-Weiterbildung auf Englisch
   lead: 'DataTalks.Club Academy bietet zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland: Agentic Engineering und AI Engineering. Beide dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr, in Berlin oder live online, und sind für die Förderung per Bildungsgutschein nach AZAV konzipiert. Start: April 2027.'
   funding_line: Förderung per Bildungsgutschein (AZAV) in Kürze.
+english:
+  text: 'For English, check this page:'
+  link:
+    label: DataTalks.Club Academy programs and funding
+    href: /academy/#funding
 facts:
   label: Fakten im Überblick
   items:
