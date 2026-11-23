@@ -466,6 +466,8 @@ All materials are freely available in the [AI Dev Tools Zoomcamp GitHub reposito
 
 > Even if you join after the official start date, you can still follow along. Note that some homework forms may already be closed. All active deadlines are listed on the [course platform](https://courses.datatalks.club/ai-dev-tools-2026/).
 
+This Zoomcamp is the free community course. The full-time live program based on it is [Agentic Engineering at DataTalks.Club Academy](https://datatalks.club/academy/agentic-engineering/).
+
 ## Frequently Asked Questions
 
 For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"} and the [AI Dev Tools Zoomcamp docs](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/){:target="_blank"}.
