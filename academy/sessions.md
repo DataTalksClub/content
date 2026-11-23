@@ -45,6 +45,9 @@ sessions:
 
     Then I''ll answer your questions.'
   zoom_url: https://us06web.zoom.us/j/84099607571?pwd=afNorKbnnXre2oWcsOpmrPWWKZEiHj.1
+  recap:
+    label: Read the recap and answers
+    href: /academy/sessions/ai-engineering-vs-agentic-engineering/
   meetup_url: https://www.meetup.com/berlin-datatalks-club/events/317427871/
 - id: session-2
   number: 2
