@@ -12,7 +12,7 @@ hero:
 intro:
   heading: Welche KI-Weiterbildung für erfahrene Entwickler gibt es in Berlin?
   paragraphs:
-  - 'Die DataTalks.Club Academy bietet ab April 2027 zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland an: Agentic Engineering und AI Engineering. Beide Programme dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr in Berlin oder live online. Sie sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze.'
+  - 'Die DataTalks.Club Academy bietet ab April 2027 zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland an: Agentic Engineering und AI Engineering. Beide Programme dauern 3 Monate und finden montags bis freitags von 09:00 bis 16:30 Uhr in Berlin oder live online statt. Sie sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze.'
   - Alexey Grigorev leitet den Unterricht selbst und hat in den Kursen von DataTalks.Club bereits mehr als 100.000 Teilnehmende begleitet. Die Teilnehmerzahl ist auf 15 begrenzt.
 facts:
   label: Fakten im Überblick
