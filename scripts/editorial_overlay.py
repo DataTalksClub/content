@@ -12,7 +12,7 @@ import yaml
 from scripts.podcast_layout import parse_seasonal_episode_path
 
 MANIFEST_RELATIVE_PATH = Path("migration/editorial-overlays/2026-08-10-podcast-descriptions.yaml")
-EXPECTED_MANIFEST_SHA256 = "259d03a072e324a9a5b97ab45d065569ed5382976dd7e2dffc3f9e6753912593"
+EXPECTED_MANIFEST_SHA256 = "7d0a27625d42c1500fc57683a4c0dfd3f030fcb451c4ac8745ca3f561ba2567f"
 ISSUE_URL = "https://github.com/DataTalksClub/content/issues/3"
 CREATED = "2026-08-10"
 BASELINE_CONTENT_COMMIT = "b9a40ba974fdef67ee3a2a70f114734f2581033c"

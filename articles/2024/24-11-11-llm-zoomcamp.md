@@ -341,6 +341,8 @@ When you join a live cohort, you get:
 >
 > — [Vasiliy Chernykh](https://www.linkedin.com/in/v4siliy), LLM Zoomcamp course graduate ([Source](https://www.linkedin.com/posts/v4siliy_llm-machinelearning-ai-activity-7394774137300402177-dFY9))
 
+This Zoomcamp is the free community course. The full-time live program based on it is [AI Engineering at DataTalks.Club Academy](https://datatalks.club/academy/ai-engineering/).
+
 ## Frequently Asked Questions
 
 For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [LLM Zoomcamp documentation](https://datatalks.club/docs/courses/llm-zoomcamp/){:target="_blank"}.

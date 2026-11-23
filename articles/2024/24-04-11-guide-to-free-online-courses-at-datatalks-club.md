@@ -689,6 +689,8 @@ DataTalks.Club Zoomcamps offer a different model compared to traditional tech bo
 > 
 > — [Wady Osama](https://www.linkedin.com/in/wadyosama/), Data Engineering Zoomcamp course graduate ([Source](https://www.linkedin.com/posts/wadyosama_dataengineering-zoomcamp-dezoomcamp-activity-7292126824711520258-puJm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJu9vMBW6iyIYswCQnN6t8UJLkXH2tQPi4))
 
+The Zoomcamps are free community courses. [DataTalks.Club Academy](https://datatalks.club/academy/) is a separate full-time live program for experienced developers in Germany. Start: April 2027.
+
 ## Frequently Asked Questions
 
 {% include faq-accordion.html faqs=site.data.faqs.free-datatalksclub-courses-zoomcamps %}
