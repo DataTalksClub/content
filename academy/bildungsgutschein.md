@@ -4,68 +4,68 @@ path: /academy/bildungsgutschein/
 lang: de
 hreflang: true
 title: Bildungsgutschein für KI-Weiterbildung auf Englisch | DataTalks.Club Academy
-description: 'KI-Weiterbildung auf Englisch für erfahrene Softwareentwickler in Deutschland, für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze. Start: April 2027.'
+description: 'KI-Weiterbildung auf Englisch ab April 2027 für erfahrene Softwareentwickler in Deutschland, für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze.'
 sitemap: 5
 hero:
   eyebrow: DataTalks.Club Academy
   headline: Bildungsgutschein für KI-Weiterbildung auf Englisch
 intro:
-  heading: Welche Weiterbildung für erfahrene Entwickler in KI gibt es in Berlin?
+  heading: Welche KI-Weiterbildung für erfahrene Entwickler gibt es in Berlin?
   paragraphs:
-  - 'DataTalks.Club Academy bietet zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland: Agentic Engineering und AI Engineering. Beide dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr, in Berlin oder live online, und sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze. Start: April 2027.'
-  - Alexey Grigorev unterrichtet selbst. Er hat in den Kursen von DataTalks.Club mehr als 100.000 Teilnehmende unterrichtet. Es gibt 15 Plätze.
+  - 'Die DataTalks.Club Academy bietet ab April 2027 zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland an: Agentic Engineering und AI Engineering. Beide Programme dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr in Berlin oder live online. Sie sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze.'
+  - Alexey Grigorev leitet den Unterricht selbst und hat in den Kursen von DataTalks.Club bereits mehr als 100.000 Teilnehmende begleitet. Die Teilnehmerzahl ist auf 15 begrenzt.
 facts:
   label: Fakten im Überblick
   items:
-  - label: START
+  - label: Start
     value: April 2027
-  - label: FORMAT
-    value: Vollzeit, live, 3 Monate (13 Wochen), montags bis freitags von 09:00 bis 16:30 Uhr Berliner Zeit
-  - label: ORT
+  - label: Format
+    value: Vollzeit, live, 3 Monate (13 Wochen), montags bis freitags von 09:00 bis 16:30 Uhr
+  - label: Ort
     value: Berlin oder live online
-  - label: SPRACHE
+  - label: Sprache
     value: Englisch (Unterricht und Materialien)
-  - label: PLÄTZE
-    value: 15 Plätze
-  - label: FÖRDERUNG
-    value: Für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze.
+  - label: Plätze
+    value: '15'
+  - label: Förderung
+    value: für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze
 programs:
   items:
   - slug: agentic-engineering
-    heading: Was ist Agentic Engineering?
-    summary: Bei Agentic Engineering nutzen Sie Werkzeuge wie Claude Code oder Cursor, damit der größte Teil des Codes geschrieben wird, während Sie entscheiden, was gebaut wird, und das Ergebnis prüfen.
-    basis: Dieses Programm basiert auf dem AI Dev Tools Zoomcamp und auf der Erfahrung, Coding Agents seit einem Jahr rund um die Uhr einzusetzen.
-    button: Agentic Engineering
+    heading: Worum geht es bei Agentic Engineering?
+    summary: Im Programm Agentic Engineering setzen Sie Tools wie Claude Code oder Cursor so ein, dass sie den Großteil des Codes schreiben. Sie selbst entscheiden, was entsteht, und prüfen das Ergebnis.
+    basis: Der Lehrplan baut auf dem AI Dev Tools Zoomcamp und auf Alexeys Erfahrung mit Coding Agents im Arbeitsalltag auf.
+    button: Details zu Agentic Engineering (Englisch)
   - slug: ai-engineering
-    heading: Was ist AI Engineering?
-    summary: Bei AI Engineering bauen Sie Produkte, die LLMs nutzen, zum Beispiel Chatbots, Suche über Dokumente oder Agenten, die Aufgaben für Nutzer erledigen.
-    basis: Dieses Programm basiert auf dem LLM Zoomcamp, dem AI Engineering Buildcamp und auf der Erfahrung, KI-Produkte zu bauen und in Produktion zu bringen.
-    button: AI Engineering
+    heading: Was lernen Sie in AI Engineering?
+    summary: Hier entwickeln Sie Anwendungen auf Basis von LLMs, zum Beispiel Chatbots, eine Dokumentensuche oder Agenten, die Aufgaben für Nutzer erledigen.
+    basis: Das Programm stützt sich auf das LLM Zoomcamp und das AI Engineering Buildcamp, ergänzt durch Erfahrung aus dem Betrieb von KI-Produkten.
+    button: Details zu AI Engineering (Englisch)
 fit:
-  heading: Für wen ist das Programm gedacht?
+  heading: Für wen sind die Weiterbildungen gedacht?
   paragraphs:
-  - Das Programm passt, wenn Sie mindestens zwei Jahre Berufserfahrung in der Softwareentwicklung haben, in Deutschland leben, Vollzeit lernen können und auf Englisch lernen möchten. Es richtet sich an Leute, die Agentic Engineering oder AI Engineering lernen wollen.
-  - Wenn Sie den Unterricht auf Deutsch haben möchten, ist eine andere Schule besser geeignet. Das Programm ist nicht für den Einstieg ohne Berufserfahrung gedacht.
+  - Sie erfüllen die Voraussetzungen für beide Programme, wenn Sie mindestens zwei Jahre Berufserfahrung in der Softwareentwicklung mitbringen, in Deutschland leben, in Vollzeit teilnehmen können und auf Englisch arbeiten möchten.
+  - Wenn Sie Unterricht auf Deutsch suchen, ist ein anderer Bildungsanbieter besser geeignet. Für den Quereinstieg ohne Berufserfahrung sind die Programme nicht ausgelegt.
 funding:
   heading: Wie ist die Förderung per Bildungsgutschein geregelt?
   paragraphs:
-  - Ein Bildungsgutschein ist eine Förderung der Agentur für Arbeit. Damit kann eine berufliche Weiterbildung übernommen werden, wenn sie in Ihrem Fall nötig ist. Die Entscheidung trifft Ihre Beraterin oder Ihr Berater im persönlichen Gespräch.
-  - Die Programme der DataTalks.Club Academy sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze. Offizielle Informationen stehen auf der [Seite der Arbeitsagentur zum Bildungsgutschein](https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein).
-  - Sprechen Sie früh mit Ihrer Agentur für Arbeit, damit der Beratungstermin rechtzeitig stattfindet.
+  - Mit einem Bildungsgutschein kann die Agentur für Arbeit die Kosten einer beruflichen Weiterbildung übernehmen, wenn diese in Ihrem Fall notwendig ist. Darüber entscheidet Ihre Beraterin oder Ihr Berater im persönlichen Gespräch.
+  - Die Programme der DataTalks.Club Academy sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze. Die offiziellen Voraussetzungen finden Sie auf der [Seite der Arbeitsagentur zum Bildungsgutschein](https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein).
+  - Melden Sie sich frühzeitig bei Ihrer Agentur für Arbeit, damit der Beratungstermin rechtzeitig stattfindet.
 faq:
   heading: Häufige Fragen
   items:
   - question: Wird der Unterricht auf Deutsch gehalten?
-    answer: Nein. Unterricht und Materialien sind auf Englisch. Wenn Sie eine Weiterbildung auf Deutsch suchen, ist eine andere Schule die bessere Wahl.
-  - question: Wann beginnt das Programm und wie lange dauert es?
-    answer: 'Start: April 2027. Beide Programme dauern 3 Monate (13 Wochen), montags bis freitags von 09:00 bis 16:30 Uhr Berliner Zeit, in Berlin oder live online.'
-  - question: Wie steht es um die Förderung per Bildungsgutschein?
-    answer: Die Programme sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze.
+    answer: Nein, Unterricht und Materialien sind komplett auf Englisch. Wenn Sie eine Weiterbildung auf Deutsch suchen, ist ein anderer Bildungsanbieter die bessere Wahl.
+  - question: Wann beginnen die Programme und wie lange dauern sie?
+    answer: Beide Programme starten im April 2027 und dauern 3 Monate (13 Wochen). Der Unterricht findet montags bis freitags von 09:00 bis 16:30 Uhr statt, vor Ort in Berlin oder live online.
+  - question: Kann ich die Weiterbildung über einen Bildungsgutschein finanzieren?
+    answer: Beide Programme sind für die Förderung per Bildungsgutschein nach AZAV konzipiert, in Kürze. Ob ein Bildungsgutschein in Ihrem Fall bewilligt wird, klären Sie im Beratungsgespräch mit der Agentur für Arbeit.
   - question: Wie komme ich auf die Warteliste?
-    answer: Tragen Sie sich auf der englischen Programmseite in die Warteliste ein. Sie hören zuerst, wenn die Bewerbung öffnet.
+    answer: Sie können sich auf der englischen Übersichtsseite der DataTalks.Club Academy eintragen. Sobald die Bewerbungsphase beginnt, erhalten Sie eine Nachricht per E-Mail.
 join:
-  heading: Auf die Warteliste
-  text: 'Start: April 2027. Tragen Sie sich auf der englischen Programmseite in die Warteliste ein. Sie hören zuerst, wenn die Bewerbung öffnet.'
+  heading: Warteliste für April 2027
+  text: Die Warteliste befindet sich auf der englischen Übersichtsseite der DataTalks.Club Academy. Dort hinterlegen Sie Ihre Kontaktdaten, um zum Start der Bewerbungsphase informiert zu werden.
   action:
     label: Auf die Warteliste
     href: /academy/?utm_source=datatalks_club&utm_medium=article&utm_campaign=voucher_guide&utm_content=cta#signup-hero
