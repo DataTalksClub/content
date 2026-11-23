@@ -11,20 +11,31 @@ lead: Direct answers about the two full-time programs, Agentic Engineering and A
 button: Join the Waitlist
 list_label: Questions and answers
 items:
-- question: Who is DataTalks.Club Academy for?
+- question: Who Is DataTalks.Club Academy For?
   answer: It is for experienced developers in Germany with 2+ years of programming experience. Whether you are laid off, in your notice period, job hunting, or employed and upskilling, you can apply. Both programs require comfortable programming skills and are not for beginners.
-- question: When does the next cohort start?
+- question: When Does the Next Cohort Start?
   answer: 'Start: April 2027. Join the waitlist and you hear first when applications open. There are two programs, Agentic Engineering and AI Engineering, each lasting 3 months (13 weeks).'
-- question: What are the daily hours and schedule?
+- question: What Are the Daily Hours and Schedule?
   answer: Classes run full-time, Monday to Friday, 09:00 to 16:30 Berlin time, for 3 months (13 weeks). All sessions are taught live by Alexey Grigorev, with no pre-recorded lectures. You need to be available for the full schedule.
-- question: What language is the program taught in?
+- question: What Language Is the Program Taught In?
   answer: Both programs are taught in English. You need to be able to follow technical teaching and work with other developers in English. The German page at /academy/bildungsgutschein/ explains the Bildungsgutschein context in German.
-- question: Where do the classes take place?
-  answer: Classes take place in Berlin or live online. Online participants join live from Germany on the same Monday to Friday schedule. After joining the waitlist, you can indicate whether you prefer Berlin or live online.
-- question: How many seats are there?
+- question: Where Do the Classes Take Place?
+  answer: Classes take place in Berlin or live online. Online participants join live on the same Monday to Friday schedule. After joining the waitlist, you can indicate whether you prefer Berlin or live online.
+- question: How Many Seats Are There?
   answer: Each cohort has 15 seats. Alexey Grigorev teaches every session himself and reviews every participant project every week. If more people qualify than there are seats, later cohorts will follow.
-- question: How does Bildungsgutschein funding work?
+- question: How Does Bildungsgutschein Funding Work?
   answer: Designed for Bildungsgutschein funding (AZAV), coming soon. Talk to your Agentur für Arbeit or Jobcenter adviser early so they know your plan. The voucher and the admission seat are separate decisions.
-- question: How does the waitlist work?
+- question: How Does the Waitlist Work?
   answer: Waitlist members hear first when applications open and receive updates on dates, format, and funding. Joining the waitlist has no commitment and no cost. After joining, you can share your location, German level, and full-time availability.
+- question: Is This a Beginner Course?
+  answer: No, both programs are for developers with 2+ years of programming experience. They don't start with basics like installing Git or Docker. Most AI content today is for people who are getting started. These programs assume you already write code.
+- question: Do I Need a Powerful Computer or a GPU?
+  answer: No, a laptop with internet access is enough for both programs. Coding agents and the applications you build send API requests to model providers. For the week on local models in AI Engineering, we rent GPUs in the cloud.
+- question: Do You Cover Job Search, Networking and Portfolio?
+  answer: Yes, both programs spend 2 to 3 weeks on networking, finding projects to solve and building your portfolio. Both also include mock interviews. I describe the approach in [How to Get Hired as an Experienced Developer in an AI Job Market](/academy/guides/getting-hired-with-ai/).
+- question: Can I Join From Outside Germany?
+  answer: 'The programs are built for people who live and work in Germany. You can join live online from elsewhere if you can follow the full schedule, Monday to Friday, 09:00 to 16:30 Berlin time. Funding is different: the Bildungsgutschein is only for people in Germany, and the programs are designed for Bildungsgutschein funding (AZAV), coming soon. I don''t know a simple way to get funding from another country. Usually an employer covers the cost.'
+join:
+  heading: Join the Waitlist
+  text: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
 ---
