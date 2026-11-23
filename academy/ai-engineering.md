@@ -14,7 +14,7 @@ hero:
   eyebrow: Berlin or live online
   headline: Build and Evaluate LLM Applications
   lead: 'AI Engineering is a 3-month full-time live program in English for developers with 2+ years of experience in Germany. You learn to build and evaluate products that use LLMs, like chatbots, search over company documents and agents. Start: April 2027, 15 seats, designed for Bildungsgutschein funding (AZAV), coming soon.'
-  basis: This program is based on LLM Zoomcamp, AI Engineering Buildcamp, and my experience building AI products and putting them in production.
+  basis: This program turns AI Engineering Buildcamp, the course I have taught for a year and a half, into a full-time bootcamp. It also builds on LLM Zoomcamp and my experience building AI products and putting them in production.
 outcomes:
   heading: By the end you can build an AI application, and show where it works and where it fails.
   items:
@@ -25,9 +25,12 @@ outcomes:
   - Build evaluation datasets from realistic tasks, evaluate answers and tool use, compare prompts and models, and catch regressions.
   - Deploy the application to the cloud and trace its model and tool calls.
   - Track quality, latency and cost, and handle failures safely with guardrails.
+  - Use agentic engineering in your own AI engineering work.
+  - Run local models on GPUs rented in the cloud. The program spends at least one week on local models.
+  - Network, find projects to solve and build portfolio projects, with mock interviews. The program spends 2 to 3 weeks on this.
 project: You build and deploy an AI assistant for a concrete company use case, for example one that answers questions from messy internal documents that keep changing, with sources and carries out actions after human approval. You show where it works, where it fails, and how you measured that.
 fit_first: You program today, ideally in Python, and can use APIs and work in a repository.
-prerequisites: You are comfortable programming, preferably in Python, and you can use the command line, Git and basic Docker. You don't need a machine-learning background, advanced mathematics or a GPU.
+prerequisites: You are comfortable programming, preferably in Python, and you can use the command line, Git and basic Docker. You don't need a machine-learning background, advanced mathematics or a GPU. A laptop with internet access is enough.
 syllabus:
 - weeks: Weeks 1 to 4
   title: Retrieval

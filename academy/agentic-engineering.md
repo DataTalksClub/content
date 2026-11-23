@@ -14,7 +14,7 @@ hero:
   eyebrow: Berlin or live online
   headline: Ship Software with Coding Agents
   lead: 'Agentic Engineering is a 3-month full-time live program in English for developers with 2+ years of experience in Germany. You learn to use coding agents like Claude Code or Cursor to write most of the code, while you decide what to build and check the result. Start: April 2027, 15 seats, designed for Bildungsgutschein funding (AZAV), coming soon.'
-  basis: This program is based on AI Dev Tools Zoomcamp and my experience running coding agents 24/7 for the last year. I write a lot about that on my Substack.
+  basis: This program builds on AI Dev Tools Zoomcamp, my free course on the basics of agentic engineering. It also builds on my experience running coding agents 24/7 for the last year. I write a lot about that on my Substack.
 outcomes:
   heading: By the end you can run a software project with agents, and answer for the result.
   items:
@@ -25,9 +25,14 @@ outcomes:
   - Deploy your application and use logs and metrics to investigate failures.
   - Connect agents to tools through MCP and build reusable workflows for implementation and code review.
   - Run multiple coding agents in parallel on a backlog with automated checks.
+  - Work with spec-driven development, loop engineering and graph engineering.
+  - 'Take an idea to production: specs, a local version, deployment, CI/CD, production readiness and monitoring.'
+  - Set up an agent that fixes things live when they break.
+  - Define agent roles like product manager, software engineer and QA engineer, and the process between them.
+  - Network, find projects to solve and build your portfolio, with mock interviews. The program spends 2 to 3 weeks on this.
 project: You ship a working web application for a real user task. People try it, you improve it from their feedback, and you show how you tested and released each change.
 fit_first: You write code today (Python, JavaScript, TypeScript or similar) and want to build and ship software with coding agents.
-prerequisites: You can write basic code in Python, JavaScript, TypeScript or a similar language, use the command line and Git, read and explain a short function, and run a simple test. You don't need any experience with coding agents.
+prerequisites: You can write basic code in Python, JavaScript, TypeScript or a similar language, use the command line and Git, read and explain a short function, and run a simple test. You don't need any experience with coding agents. A laptop with internet access is enough.
 syllabus:
 - weeks: Weeks 1 to 4
   title: Foundations
