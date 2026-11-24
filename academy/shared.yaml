@@ -67,17 +67,6 @@ fit:
 syllabus:
   heading: Sixteen Modules, One Project That Grows Every Week
   intro: This is the draft syllabus. I use the waitlist's survey answers to shape the final version.
-funding:
-  heading: How Funding and the Bildungsgutschein Work
-  paragraphs:
-  - Designed for Bildungsgutschein funding (AZAV), coming soon.
-  - The voucher and the seat are separate decisions. The Agentur decides whether it pays, and I decide who is in the cohort.
-  link:
-    label: How the Bildungsgutschein works (arbeitsagentur.de)
-    href: https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein
-  guide_link:
-    label: Bildungsgutschein guide (Deutsch)
-    href: /academy/bildungsgutschein/
 admission:
   heading: Why 15 Seats
   body: I teach this cohort myself and review every project. I can do that properly for about 15 people, not for more. If more people qualify than there are seats, there is a waitlist and a later cohort. I won't add seats.
