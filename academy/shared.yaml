@@ -26,16 +26,16 @@ facts:
   items:
   - label: Start
     value: April 2027
-  - label: Full-time and live
-    value: 13 weeks
+  - label: Format
+    value: Full-time, live, 13 weeks
   - label: Where
     value: Berlin or live online
   - label: Language
     value: English
   - label: Seats
     value: '15'
-  - label: Bildungsgutschein (AZAV)
-    value: Coming soon
+  - label: Funding
+    value: Bildungsgutschein (coming soon)
 hero:
   instructor_line: I'm Alexey Grigorev. I have taught more than 100,000 students in DataTalks.Club courses.
 instructor:
