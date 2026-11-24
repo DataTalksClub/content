@@ -112,7 +112,7 @@ audience:
   - You're job hunting, laid off or in a notice period.
   - You have a job and want to learn Cursor, Claude Code or LLM APIs.
   outro: Any programming language works for the first two sessions, and Python helps for 15 December. Anyone can join from anywhere, though the job market and Agentur für Arbeit parts focus on Berlin.
-  note: If you've never written code, these sessions will move too fast. My free [Zoomcamps](https://datatalks.club/courses.html) are a better place to start.
+  note: If you've never written code, these sessions will move too fast. My free [Zoomcamps](/courses/) are a better place to start.
 schedule:
   heading: Two Mondays 17:00, final Tuesday 16:30 Berlin time
   after: After the talk and Q&A I spend about ten minutes on the full-time program starting April 2027 and on how the Bildungsgutschein works. If you're not interested, you can leave before that part.
