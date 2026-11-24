@@ -24,18 +24,18 @@ confirm_notice: 'Important: check your inbox and confirm your email. Without con
 facts:
   label: Key Facts
   items:
-  - label: START
+  - label: Start
     value: April 2027
-  - label: FORMAT
-    value: Full-time, live, 3 months (13 weeks)
-  - label: WHERE
+  - label: Full-time and live
+    value: 13 weeks
+  - label: Where
     value: Berlin or live online
-  - label: LANGUAGE
+  - label: Language
     value: English
-  - label: SEATS
+  - label: Seats
     value: '15'
-  - label: FUNDING
-    value: Bildungsgutschein (coming soon)
+  - label: Bildungsgutschein (AZAV)
+    value: Coming soon
 hero:
   instructor_line: I'm Alexey Grigorev. I have taught more than 100,000 students in DataTalks.Club courses.
 instructor:
