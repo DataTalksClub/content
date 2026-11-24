@@ -83,7 +83,7 @@ syllabus:
     title: Trace, monitor and control cost and latency.
     produce: Traces, dashboards that include data freshness, and a cost and latency report with a measured improvement.
   - week: 9
-    title: Add guardrails, injection defences and compliance.
+    title: Add guardrails, injection defenses and compliance.
     produce: Tested guardrails and a short compliance checklist.
 capstone:
   heading: The Final Project
@@ -93,13 +93,13 @@ capstone:
     produce: The 60-hour core of your final project, tested on real questions.
   - week: 11
     title: Deploy and defend it.
-    produce: The deployed assistant with evaluation evidence, and its defence.
+    produce: The deployed assistant with evaluation evidence, and its defense.
 related:
   heading: Read Next
   links:
-  - label: 'AI Engineering vs Agentic Engineering: Which Program Is for You?'
+  - label: 'AI Engineering vs Agentic Engineering: Which One Should an Experienced Developer Learn'
     href: /academy/guides/ai-engineering-vs-agentic-engineering/
-  - label: 'Bildungsgutschein in English: How the Education Voucher Works for Developers'
+  - label: 'Bildungsgutschein in English: How the Education Voucher Works for Developers in Germany'
     href: /academy/guides/bildungsgutschein-in-english/
   - label: How to Get Hired as an Experienced Developer in an AI Job Market
     href: /academy/guides/getting-hired-with-ai/

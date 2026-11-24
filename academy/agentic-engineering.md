@@ -95,13 +95,13 @@ capstone:
     produce: The 60-hour core of your final project, tested with real users.
   - week: 11
     title: Release and defend it.
-    produce: The launched product with user-tested improvements, and its defence.
+    produce: The launched product with user-tested improvements, and its defense.
 related:
   heading: Read Next
   links:
-  - label: 'AI Engineering vs Agentic Engineering: Which Program Is for You?'
+  - label: 'AI Engineering vs Agentic Engineering: Which One Should an Experienced Developer Learn'
     href: /academy/guides/ai-engineering-vs-agentic-engineering/
-  - label: 'Bildungsgutschein in English: How the Education Voucher Works for Developers'
+  - label: 'Bildungsgutschein in English: How the Education Voucher Works for Developers in Germany'
     href: /academy/guides/bildungsgutschein-in-english/
   - label: How to Get Hired as an Experienced Developer in an AI Job Market
     href: /academy/guides/getting-hired-with-ai/

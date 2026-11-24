@@ -11,7 +11,7 @@ hero:
   lead: 'DataTalks.Club Academy runs two full-time live programs in English for experienced developers in Germany: Agentic Engineering and AI Engineering. Each takes 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, and you ship a project every week.'
 tracks:
   label: Choose a Program
-  button_prefix: Read about
+  button_prefix: Explore
   compare:
     label: AI Engineering vs Agentic Engineering
     href: /academy/guides/ai-engineering-vs-agentic-engineering/
@@ -22,7 +22,7 @@ tracks:
 funding:
   heading: Funding
   paragraphs:
-  - The programs are designed for Bildungsgutschein funding (AZAV), coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognised training when your adviser agrees you need it.
+  - The programs are designed for Bildungsgutschein funding (AZAV), coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognized training when your adviser agrees you need it.
   - Talk to your adviser early, so your appointment happens before applications open.
   links:
   - label: Bildungsgutschein guide (English)
