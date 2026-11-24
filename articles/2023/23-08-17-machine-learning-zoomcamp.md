@@ -489,14 +489,7 @@ Even if you join after the official start date, you can still follow along—tho
 
 The entire journey takes 4 months from start to certificate, and you'll be part of a global cohort tackling the same challenges at the same time.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/ml-zoomcamp/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Register for ML Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Register for ML Zoomcamp](https://courses.datatalks.club/register/ml-zoomcamp/){.button-primary}
 
 ## Testimonials
 
@@ -530,14 +523,7 @@ For more details about how our courses work, check the [Zoomcamp logistics guide
 
 {% include faq-accordion.html faqs=site.data.faqs.machine-learning-zoomcamp %}
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/ml-zoomcamp/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Register for ML Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Register for ML Zoomcamp](https://courses.datatalks.club/register/ml-zoomcamp/){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 

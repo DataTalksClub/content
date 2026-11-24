@@ -88,14 +88,7 @@ One workflow runs through the whole course. Give AI tools the right context, use
 
 By the end, you'll have a deployed application, an agent extension pack around it, a security and DevOps package, and a certificate that shows how you work with modern AI dev tools.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/ai-dev-tools/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join the next cohort (starts August 31, 2026)</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join the next cohort (starts August 31, 2026)](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
 
 ## Table of Contents
 
@@ -251,14 +244,7 @@ The first one is already out: [AI-Native Development: Specifications, Loop Engin
 
 Subscribe to get the rest of the articles as they're published, one per module:
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #FF6719; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://aishippingblog.com/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Subscribe to the Substack</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Subscribe to the Substack](https://aishippingblog.com/){.button}
 
 ## Pre-Course Live Events
 
@@ -321,14 +307,7 @@ All lessons, homework, and cohort updates live in the [AI Dev Tools Zoomcamp Git
 
 Star the repository to keep it handy and watch it to get notified when we publish new module materials and cohort updates:
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #24292f; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://github.com/DataTalksClub/ai-dev-tools-zoomcamp" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Star the course repository on GitHub</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Star the course repository on GitHub](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp){.button}
 
 <figure>
 <img src="/images/posts/2025-09-23-ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation/image7.png" alt="AI Dev Tools Zoomcamp GitHub repository - free course materials, code examples, and project guidelines" title="AI Dev Tools Zoomcamp GitHub Repository" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
@@ -472,14 +451,7 @@ For more details about how our courses work, check the [Zoomcamp logistics guide
 
 {% include faq-accordion.html faqs=site.data.faqs.ai-dev-tools-zoomcamp %}
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/ai-dev-tools/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join AI Dev Tools Zoomcamp 2026 (starts August 31, 2026)</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join AI Dev Tools Zoomcamp 2026 (starts August 31, 2026)](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 

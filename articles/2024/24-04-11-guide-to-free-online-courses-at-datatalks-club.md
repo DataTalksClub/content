@@ -205,14 +205,7 @@ The learning materials are identical across formats, but the experience differs:
 
 You'll work with industry-standard tools including Scikit-Learn, TensorFlow, and PyTorch, and complete two portfolio-ready projects that demonstrate your ability to build, deploy, and operate production ML systems.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/ml-zoomcamp/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join Machine Learning Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join Machine Learning Zoomcamp](https://courses.datatalks.club/register/ml-zoomcamp/){.button-primary}
 
 {% include course-structured-data/machine-learning-zoomcamp-structured-data.html %}
 
@@ -279,14 +272,7 @@ You'll work with industry-standard tools including Scikit-Learn, TensorFlow, and
 
 Throughout the 9-week program, you'll master essential tools like Docker for containerization, PostgreSQL and BigQuery for data warehousing, dbt for analytics engineering, Apache Spark for batch processing, and Apache Kafka for stream processing. The course culminates in a capstone project where you build an end-to-end data pipeline that demonstrates your ability to design, implement, and operate scalable data systems used in production environments.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/de-zoomcamp/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join Data Engineering Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join Data Engineering Zoomcamp](https://courses.datatalks.club/register/de-zoomcamp/){.button-primary}
 
 {% include course-structured-data/data-engineering-zoomcamp-structured-data.html %}
 
@@ -353,14 +339,7 @@ Throughout the 9-week program, you'll master essential tools like Docker for con
 
 You'll learn to use MLflow for experiment tracking, build automated training pipelines, deploy models using Flask and AWS services, and set up comprehensive monitoring with Evidently AI. The course emphasizes best practices for testing, CI/CD integration, and maintaining ML systems in production, preparing you to build and manage reliable ML infrastructure.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/mlops-zoomcamp/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join MLOps Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join MLOps Zoomcamp](https://courses.datatalks.club/register/mlops-zoomcamp/){.button-primary}
 
 {% include course-structured-data/mlops-zoomcamp-structured-data.html %}
 
@@ -427,14 +406,7 @@ You'll learn to use MLflow for experiment tracking, build automated training pip
 
 The course covers managed LLM APIs (OpenAI), teaches you both text and vector search, and shows you how to build production-ready RAG applications. You'll also learn modern agent patterns, evaluation techniques, monitoring with Grafana, and how to integrate LLMs with external tools and APIs for real-world applications.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/llm-zoomcamp/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join LLM Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join LLM Zoomcamp](https://courses.datatalks.club/register/llm-zoomcamp/){.button-primary}
 
 {% include course-structured-data/llm-zoomcamp-structured-data.html %}
 
@@ -500,14 +472,7 @@ The course covers managed LLM APIs (OpenAI), teaches you both text and vector se
 
 The course teaches spec-driven development and context engineering with coding agents and agentic IDEs, walks through an end-to-end build with React/TypeScript, an OpenAPI contract, a FastAPI or Django backend, tests, Docker, and CI/CD, covers the Model Context Protocol along with skills, hooks, subagents, and plugins, and finishes with open-source AI tools for security, audit, and DevOps such as PR-Agent, Semgrep MCP, Snyk Agent Scan, and K8sGPT.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://courses.datatalks.club/register/ai-dev-tools/" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join AI Dev Tools Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join AI Dev Tools Zoomcamp](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
 
 {% include course-structured-data/ai-dev-tools-zoomcamp-structured-data.html %}
 
@@ -573,14 +538,7 @@ The course teaches spec-driven development and context engineering with coding a
 
 You'll learn to work with financial APIs, analyze market data using Pandas and NumPy, develop and backtest trading strategies, and build predictive models for stock market movements. You'll also build a semi-automatic trading system that systematically generates predictions and executes trades, giving you hands-on experience with financial data analysis, risk management, and algorithmic trading concepts.
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://pythoninvest.com/course" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join Analytics in Stock Markets Zoomcamp</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join Analytics in Stock Markets Zoomcamp](https://pythoninvest.com/course){.button-primary}
 
 [↑ Back to the courses table](#datatalksclub-free-online-courses)
 

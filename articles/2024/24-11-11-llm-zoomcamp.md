@@ -116,14 +116,7 @@ LLM Zoomcamp is designed to close this gap. This free course covers the fundamen
 - [Testimonials](#testimonials)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join the 2026 cohort</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join the 2026 cohort](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q){.button-primary}
 
 ## Why Learning to Build LLM Applications Is Important
 
@@ -321,14 +314,7 @@ When you join a live cohort, you get:
 
 > Even if you join after the official start date, you can still follow along. Note that some homework forms may already be closed. All active deadlines are listed on the [course platform](https://courses.datatalks.club).
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join the 2026 cohort</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join the 2026 cohort](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q){.button-primary}
 
 ## Testimonials
 > This course gave me hands-on experience in building LLM-powered applications, including prompt engineering, retrieval-augmented generation (RAG), pipeline orchestration, and vector search optimization.
@@ -346,14 +332,7 @@ When you join a live cohort, you get:
 For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [LLM Zoomcamp documentation](/docs/courses/llm-zoomcamp/){:target="_blank"}.
 {% include faq-accordion.html faqs=site.data.faqs.llm-zoomcamp %}
 
-<div style="text-align: center; margin: 2em 0;">
-    <div style="display: inline-block; background: #28a745; padding: 0.5em 2em; border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); transition: all 0.15s ease;">
-        <a href="https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q" target="_blank" style="text-decoration: none; color: white; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 0.5em;">
-            <span>Join the 2026 cohort</span>
-            <span style="margin-left: 0.25em;">→</span>
-        </a>
-    </div>
-</div>
+[Join the 2026 cohort](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 

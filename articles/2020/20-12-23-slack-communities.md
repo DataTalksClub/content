@@ -141,7 +141,7 @@ Since it's 2025, we decided to collect an updated list of active communities. Ev
 
 One of the largest Slack communities dedicated to all things data, from analytics and visualization to machine learning and data engineering. Among its 80,000+ members, you'll find data scientists, ML engineers, and enthusiasts who use the space to share knowledge, ask career questions, and join in discussions. You'll find channels ranging from `#career` and `#datascience` to `#book-of-the-week`.
 
-[Join here](/slack)
+[Join here](/slack){.button}
 
 ### Open Data Science Community
 
@@ -151,7 +151,7 @@ One of the largest Slack communities dedicated to all things data, from analytic
 
 A global community connecting data scientists, engineers, and researchers around open collaboration. You can share articles, tutorials, code, and advice, as well as create projects, events, and courses. Their Slack emphasizes peer learning and advancing open data science practices.
 
-[Join here](https://docs.google.com/forms/d/e/1FAIpQLSdjQB90EdZGV7Eelwo20WFC1ziP884FR_mtrsrdXPhEKIB3Ow/viewform)
+[Join here](https://docs.google.com/forms/d/e/1FAIpQLSdjQB90EdZGV7Eelwo20WFC1ziP884FR_mtrsrdXPhEKIB3Ow/viewform){.button}
 
 ### Data Science Salon
 
@@ -161,7 +161,7 @@ A global community connecting data scientists, engineers, and researchers around
 
 The official Slack space for the Data Science Salon and DSSelevate community. It's a platform where you can connect with data science managers and practitioners through hosted chats, networking, industry news, and updates on upcoming events. The group grew out of the Data Science Salon conference and includes data scientists, ML engineers, and tech leads.
 
-[Join here](https://info.datascience.salon/apply-to-dss-slack-workspace)
+[Join here](https://info.datascience.salon/apply-to-dss-slack-workspace){.button}
 
 ### Data Science Learning Community
 
@@ -171,7 +171,7 @@ The official Slack space for the Data Science Salon and DSSelevate community. It
 
 An open community focused on accessible learning in data science. It provides tools, resources, and peer support for you at all stages, whether you're looking for your first data job or you're an experienced professional continuing your learning. Their Slack is designed as a collaborative space to help you stay motivated without the high costs of traditional courses.
 
-[Join here](https://dslc.io/)
+[Join here](https://dslc.io/){.button}
 
 ## 2. Machine Learning and AI Communities
 
@@ -183,7 +183,7 @@ An open community focused on accessible learning in data science. It provides to
 
 One of the largest global groups, with over 27,900 members, for practitioners working on machine learning in production. MLOps Community's Slack hosts discussions on MLOps best practices, jobs, industry news, and events. You'll find members ranging from engineers to researchers, sharing real-world challenges and solutions for operating ML systems at scale.
 
-[Join here](https://gatewaze.mlops.community/?mode=slack)
+[Join here](https://gatewaze.mlops.community/?mode=slack){.button}
 
 ### TWIML Community
 
@@ -193,7 +193,7 @@ One of the largest global groups, with over 27,900 members, for practitioners wo
 
 A global Slack group for machine learning, deep learning, and AI practitioners. The community runs study groups for courses such as *fast.ai Deep Learning*, *Stanford CS224N*, and *Deeplearning.ai*, and also organizes special interest groups on topics like Swift for TensorFlow and Kaggle competitions. You can use the Slack channels to share tips, resources, and get support while working through these programs.
 
-[Join here](https://twimlai.com/community/)
+[Join here](https://twimlai.com/community/){.button}
 
 ### AI Accelerator Institute Slack
 
@@ -203,7 +203,7 @@ A global Slack group for machine learning, deep learning, and AI practitioners. 
 
 A community of over 9,300 members run by the AI Accelerator Institute. It's a place where you can connect with peers, exchange ideas, and get feedback from others working in AI. You'll find members ranging from practitioners to enthusiasts, and the channels cover networking, discussions, and support if you're exploring applied AI.
 
-[Join here](https://www.aiacceleratorinstitute.com/join-the-aiai-slack-community/)
+[Join here](https://www.aiacceleratorinstitute.com/join-the-aiai-slack-community/){.button}
 
 ### Convergence by Comet ML
 
@@ -213,7 +213,7 @@ A community of over 9,300 members run by the AI Accelerator Institute. It's a pl
 
 This Slack group is linked to Comet ML's Convergence conference. The community focuses on topics around large language models, including evaluation methods, agentic AI, and responsible use of generative AI. It's a space for you if you're interested in the technical and practical aspects of building and deploying LLM-based applications.
 
-[Join here](https://join.slack.com/t/convergenceml/shared_invite/zt-11q0wlne8-oMgAiaOsHo8~2VdNqoO7fQ?utm_source=chatgpt.com)
+[Join here](https://join.slack.com/t/convergenceml/shared_invite/zt-11q0wlne8-oMgAiaOsHo8~2VdNqoO7fQ?utm_source=chatgpt.com){.button}
 
 ## 3. Specialized Tools and Practices
 
@@ -225,7 +225,7 @@ This Slack group is linked to Comet ML's Convergence conference. The community f
 
 A Slack group for data professionals who use or are interested in dbt. You can connect to share knowledge, improve your skills, and discuss data transformation practices. The community includes both newcomers and experienced users, with channels covering technical help, events, and best practices.
 
-[Join here](https://www.getdbt.com/community/join-the-community)
+[Join here](https://www.getdbt.com/community/join-the-community){.button}
 
 ### Data Visualization Society
 
@@ -235,7 +235,7 @@ A Slack group for data professionals who use or are interested in dbt. You can c
 
 A global community with over 14,000 members for those working with or interested in data visualization. Their Slack community has channels for introductions, specific visualization topics, and professional development. You'll find members ranging from beginners to experienced practitioners, sharing resources, projects, and advice.
 
-[Join here](https://www.datavisualizationsociety.org/slack-community)
+[Join here](https://www.datavisualizationsociety.org/slack-community){.button}
 
 ### Spark NLP
 
@@ -245,7 +245,7 @@ A global community with over 14,000 members for those working with or interested
 
 A Slack community focused on natural language processing with Spark NLP, an open-source library built on Apache Spark. You can discuss NLP techniques, share resources, and get help with model integration from frameworks such as TensorFlow, ONNX, OpenVINO, and Llama.cpp. It's a mix of developers, researchers, and practitioners working with NLP at scale.
 
-[Join here](https://spark-nlp.slack.com/join/shared_invite/zt-1zotzpe9e-dcIAs9I6jcsW92k5Y0rvVA#/shared-invite/email)
+[Join here](https://spark-nlp.slack.com/join/shared_invite/zt-1zotzpe9e-dcIAs9I6jcsW92k5Y0rvVA#/shared-invite/email){.button}
 
 ### Locally Optimistic
 
@@ -255,7 +255,7 @@ A Slack community focused on natural language processing with Spark NLP, an open
 
 A Slack group for current and aspiring data analytics leaders. Started in New York in 2018, it has grown into an active community where you can exchange experiences, advice, and lessons learned with other analytics professionals. The group also supports local meetups alongside the online discussions.
 
-[Join here](https://locallyoptimistic.com/community/)
+[Join here](https://locallyoptimistic.com/community/){.button}
 
 ### Data Reliability Engineering Community
 
@@ -265,7 +265,7 @@ A Slack group for current and aspiring data analytics leaders. Started in New Yo
 
 A Slack community focused on data reliability challenges. It brings together data engineers and scientists where you can share experiences, discuss common issues, and exchange best practices for building more reliable data systems.
 
-[Join here](https://join.slack.com/t/datareliabili-h4y1326/shared_invite/zt-16md9v2dw-DjHdb_zSg7UD6i5iayYqyg?utm_campaign=Dre-Con+2022&utm_source=chatgpt.com&utm_medium=email&_hsenc=p2ANqtz--nK749i8gE0-bASdaC7I9SmNAYxJGFIMfIR0yrJ0EkJ9OoxH0KEjjCwbYRoN63kEIGl5nT)
+[Join here](https://join.slack.com/t/datareliabili-h4y1326/shared_invite/zt-16md9v2dw-DjHdb_zSg7UD6i5iayYqyg?utm_campaign=Dre-Con+2022&utm_source=chatgpt.com&utm_medium=email&_hsenc=p2ANqtz--nK749i8gE0-bASdaC7I9SmNAYxJGFIMfIR0yrJ0EkJ9OoxH0KEjjCwbYRoN63kEIGl5nT){.button}
 
 ## 4. Programming Language Communities
 
@@ -277,7 +277,7 @@ A Slack community focused on data reliability challenges. It brings together dat
 
 An inclusive Slack community with over 38,600 members for Python enthusiasts, ranging from beginners to professionals who have built their careers around the language. The group provides resources, support, and community projects, creating a space where you can learn, share knowledge, and collaborate.
 
-[Join here](https://pyslackers.com/web/slack)
+[Join here](https://pyslackers.com/web/slack){.button}
 
 ### PyLadies
 
@@ -287,7 +287,7 @@ An inclusive Slack community with over 38,600 members for Python enthusiasts, ra
 
 An international mentorship group for women who use and love Python. 13,700+ members include full-time developers, hobbyists, and contributors to open-source projects. This Slack community provides a space where you can learn, network, and get support to become an active participant and leader in the Python community.
 
-[Join here](https://slackin.pyladies.com/)
+[Join here](https://slackin.pyladies.com/){.button}
 
 ### R-Team for Data Analysis
 
@@ -297,7 +297,7 @@ An international mentorship group for women who use and love Python. 13,700+ mem
 
 A global Slack group for those learning and working with R. The community encompasses a wide range of topics, from beginner questions to advanced subjects like time series analysis. You'll find popular channels like `#r-help` for coding questions, `#resources` for learning materials, `#jobs` for opportunities, and `#mooc_courses` for course discussions.
 
-[Join here](https://slofile.com/slack/r-data-team?utm_source=chatgpt.com)
+[Join here](https://slofile.com/slack/r-data-team?utm_source=chatgpt.com){.button}
 
 ### R-Ladies
 
@@ -307,7 +307,7 @@ A global Slack group for those learning and working with R. The community encomp
 
 A global Slack community supporting gender diversity in the R programming ecosystem. You can use the space to share news, discuss packages, and exchange ideas in a safe and welcoming environment. This Slack community connects R-Ladies chapters worldwide and serves as a hub for networking, learning, and collaboration.
 
-[Join here](https://guide.rladies.org/comm/slack/)
+[Join here](https://guide.rladies.org/comm/slack/){.button}
 
 ## 5. Diversity and Inclusion Communities
 
@@ -319,7 +319,7 @@ A global Slack community supporting gender diversity in the R programming ecosys
 
 An international mentorship group for women who use and love Python. 13,700+ members include full-time developers, hobbyists, and contributors to open-source projects. The Slack provides a space where you can learn, network, and get support to become an active participant and leader in the Python community.
 
-[Join here](https://slackin.pyladies.com/)
+[Join here](https://slackin.pyladies.com/){.button}
 
 ### R-Ladies
 
@@ -329,7 +329,7 @@ An international mentorship group for women who use and love Python. 13,700+ mem
 
 A global Slack community supporting gender diversity in the R programming ecosystem. You can use the space to share news, discuss packages, and exchange ideas in a safe and welcoming environment. This Slack community connects R-Ladies chapters worldwide and serves as a hub for networking, learning, and collaboration.
 
-[Join here](https://guide.rladies.org/comm/slack/)
+[Join here](https://guide.rladies.org/comm/slack/){.button}
 
 ### Data Angels
 
@@ -339,7 +339,7 @@ A global Slack community supporting gender diversity in the R programming ecosys
 
 A community founded in 2020 to support women across all areas of data. The Slack with more than 2,600 members hosts discussions, mentorship programs, and panels, as well as local meetups. It's a space where you can collaborate, grow your career, and network within the wider data ecosystem.
 
-[Join here](https://www.dataangels.org/home) 
+[Join here](https://www.dataangels.org/home){.button}
 
 ## 6. Invite-Only Communities
 
@@ -349,43 +349,43 @@ Some communities have Slack groups but don't provide a public link to join. To a
 
 A Slack group for researchers and hobbyists interested in artificial intelligence. The community is open to all levels, from early learners to advanced researchers, and provides a space where you can exchange theories, concepts, and perspectives on AI.
 
-[Sign up here](https://ai-researchers.slack.com/)
+[Sign up here](https://ai-researchers.slack.com/){.button}
 
 ### DSNet – Data Science Network
 
 A growing Slack community supported by Jovian.ml, with open channels, events, and shared resources for those in data science. It serves as a space where you can learn from others, exchange insights, and stay connected with developments across the field.
 
-[Sign up here](https://dsnetorg.slack.com/)
+[Sign up here](https://dsnetorg.slack.com/){.button}
 
 ### Great Expectations (GX Core)
 
 The Slack community around Great Expectations, an open-source tool for data quality. Thousands of members contribute by sharing deployment experiences, discussing best practices, and helping teams improve reliability in their data workflows. You can join to share your own experiences and learn from others.
 
-[Sign up here](https://greatexpectationstalk.slack.com/)
+[Sign up here](https://greatexpectationstalk.slack.com/){.button}
 
 ### Academic Data Science Alliance (ADSA)
 
 A Slack group connected to ADSA, a professional association focused on advancing responsible and inclusive use of data science and AI in academic research, education, and training. You'll find academics, educators, and practitioners collaborating on the future of data science in higher education.
 
-[Sign up here](https://academicdatascience.slack.com/)
+[Sign up here](https://academicdatascience.slack.com/){.button}
 
 ### datascientists
 
 A Slack group focused on data science and related fields such as data warehouses, business intelligence, and analytics. You can discuss technical challenges, share tools and resources, and exchange advice from your own professional experiences. The community is aimed at both newcomers and experienced practitioners who want to learn from each other and expand their professional network.
 
-[Sign up here](https://datascientists.slack.com/)
+[Sign up here](https://datascientists.slack.com/){.button}
 
 ### AI-ML-Data Science Lovers
 
 A laid-back community for those interested in AI, machine learning, and data science. Unlike some of the more specialized or technical groups, this Slack is more conversational and opinion-driven. You can share thoughts on industry developments, discuss general concepts, and exchange knowledge in a relaxed environment. It's a good place to keep in touch with a broad range of perspectives across the field.
 
-[Sign up here](https://datasciencelovers.slack.com/)
+[Sign up here](https://datasciencelovers.slack.com/){.button}
 
 ### KaggleNoobs
 
 A beginner-friendly Slack community centered on Kaggle competitions and projects. The group provides guidance if you're new to data science and want to improve your coding and modeling skills through practice. You can ask and answer questions, share tutorials, and discuss strategies for specific challenges. It's particularly useful if you're just getting started with Kaggle as a way to learn data science through real-world problems.
 
-[Sign up here](https://kagglenoobs.slack.com/)
+[Sign up here](https://kagglenoobs.slack.com/){.button}
 
 ## Conclusion
 
