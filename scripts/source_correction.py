@@ -492,19 +492,31 @@ def _validate_article_row(root: Path, row: Any) -> dict[str, Any]:
     # live file here. The live article is free to gain later, independently
     # declared edits (for example added front matter), so this only fails
     # closed on the one thing this contract owns: the legacy destinations
-    # must be gone and the corrected destinations must remain present.
+    # must be gone and the corrected destinations must remain present. A
+    # destination may move between link syntaxes in a later edit (a hand-styled
+    # HTML button rewritten as a Markdown `{.button}` line), so presence is
+    # counted across both syntaxes, and a legacy destination is refused in either.
     target = _regular_file(root, ARTICLE_PATH, prefix)
     try:
         target_text = target.read_text(encoding="utf-8")
     except UnicodeDecodeError as error:
         raise SourceCorrectionError(f"{prefix}: target is not valid UTF-8") from error
+    link_kinds = ("markdown_destination", "html_href")
     for replacement in normalized:
-        old_matches = _link_matches(target_text, replacement["match"], replacement["old"])
+        old_matches = [
+            found
+            for kind in link_kinds
+            for found in _link_matches(target_text, kind, replacement["old"])
+        ]
         _expect(
             not old_matches,
             f"{prefix}: legacy destination still present in live target",
         )
-        new_matches = _link_matches(target_text, replacement["match"], replacement["new"])
+        new_matches = [
+            found
+            for kind in link_kinds
+            for found in _link_matches(target_text, kind, replacement["new"])
+        ]
         _expect(
             len(new_matches) >= replacement["occurrences"],
             f"{prefix}: corrected destination missing from live target",
