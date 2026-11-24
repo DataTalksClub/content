@@ -1,4 +1,4 @@
-.PHONY: sync validate validate-removals validate-repairs validate-editorial-overlay validate-source-correction verify-source attest attest-source-correction article-faq-report article-faq-apply test lint format-check check
+.PHONY: sync validate validate-removals validate-repairs validate-editorial-overlay validate-source-correction verify-source attest attest-source-correction article-faq-report article-faq-apply podcast-summaries test lint format-check check
 
 sync:
 	uv sync --frozen
@@ -43,6 +43,12 @@ article-faq-report:
 article-faq-apply:
 	@test -n "$(LEGACY_ROOT)" || (echo "LEGACY_ROOT is required" && exit 2)
 	uv run python -m scripts.article_faq_migration --legacy-root "$(LEGACY_ROOT)" --apply
+
+# Draft episode summaries from transcripts with Claude, e.g.
+#   make podcast-summaries ARGS="--latest 5"
+podcast-summaries:
+	@test -n "$(ARGS)" || (echo 'ARGS is required, e.g. ARGS="--latest 5"' && exit 2)
+	uv run --with anthropic python -m scripts.podcast_summaries $(ARGS)
 
 test:
 	uv run pytest
