@@ -48,10 +48,10 @@ instructor:
   photo: images/academy/alexey.jpg
   photo_alt: Alexey Grigorev
   proof:
-  - label: DATATALKS.CLUB ON GITHUB
-    href: https://github.com/DataTalksClub
-  - label: MACHINE LEARNING BOOKCAMP
-    href: https://www.manning.com/books/machine-learning-bookcamp
+  - label: DataTalks.Club
+    href: /
+  - label: My courses on Maven
+    href: https://maven.com/alexey-grigorev
 project_heading: The Final Project
 fit:
   for_title: This Is for You If
@@ -68,8 +68,8 @@ syllabus:
   heading: Sixteen Modules, One Project That Grows Every Week
   intro: This is the draft syllabus. I use the waitlist's survey answers to shape the final version.
 admission:
-  heading: Why 15 Seats
-  body: I teach this cohort myself and review every project. I can do that properly for about 15 people, not for more. If more people qualify than there are seats, there is a waitlist and a later cohort. I won't add seats.
+  heading: Limited Seats
+  body: I teach every session and review every project myself, so a cohort has 15 seats. If more people qualify, the next cohort follows.
   steps_heading: How You Get In
   steps:
   - title: Join the waitlist.
@@ -83,22 +83,23 @@ admission:
 faq:
   heading: Questions
   items:
-  - question: When does the next cohort start?
+  - question: Who Is This For, and Who Is It Not For?
+    answer: For developers with 2+ years of programming experience who live and work in Germany, whether you are laid off, in your notice period, job hunting or employed and upskilling. It is not for beginners and does not start with basics like Git or Docker, and it does not fit if you can only study in the evenings.
+  - question: When Does the Next Cohort Start?
     answer: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
-  - question: What do I get for joining the waitlist?
-    answer: You get the application before it opens publicly, and updates on dates, format and funding. Nothing else, and no obligation.
-  - question: What do I need to know before I start?
-  - question: Will the Agentur für Arbeit pay for it?
-    answer: Designed for Bildungsgutschein funding (AZAV), coming soon. Talk to your adviser early.
-  - question: Is it online or in Berlin?
-    answer: Berlin or live online. Online, you join live on the same schedule. The survey after you join asks which one you could attend.
-  - question: What is the schedule?
-    answer: 'Full-time: Monday to Friday, 09:00 to 16:30 Berlin time, live, for 3 months (13 weeks).'
-  - question: Do I have to live in Germany?
-    answer: The program is built for people in Germany, and a Bildungsgutschein is only available there.
-  - question: How do you choose who gets a seat?
-    answer: 'By the same published criteria for everyone: programming experience that fits the track, availability for the full schedule, English, a concrete goal, and the practical task. Your employment or benefit status is not a criterion.'
-  - question: What happens to my email?
+  - question: How Much Time Does It Take?
+    answer: 'It is full-time: Monday to Friday, 09:00 to 16:30 Berlin time, live, for 3 months (13 weeks). You need to be available for the full schedule.'
+  - question: Is It Online or in Berlin?
+    answer: Berlin or live online. Online participants join live on the same Monday to Friday schedule. After you join the waitlist you can say which one you prefer.
+  - question: Can the Agentur für Arbeit or the Jobcenter Pay for It?
+    answer: 'The Bildungsgutschein is a training voucher from the Agentur für Arbeit or the Jobcenter that can pay the course fees for further training. Both programs are designed for Bildungsgutschein funding (AZAV), coming soon. Your adviser decides whether you get a voucher, and that decision is separate from getting a seat, so tell your adviser about your plan early. The guide walks through the steps, [in English](/academy/guides/bildungsgutschein-in-english/) and [in German](/academy/bildungsgutschein/).'
+  - question: Do I Need a Powerful Computer or a GPU?
+    answer: No, a laptop with internet access is enough. Coding agents and the applications you build send API requests to model providers.
+  - question: Do You Cover Job Search and Portfolio?
+    answer: Yes, the program spends 2 to 3 weeks on networking, finding projects to solve and building your portfolio, and includes mock interviews.
+  - question: How Do You Choose Who Gets a Seat?
+    answer: 'By the same published criteria for everyone: programming experience that fits the program, availability for the full schedule, English, a concrete goal, and a short practical task. Your employment or benefit status is not a criterion.'
+  - question: What Happens to My Email?
     answer: I use it only to write to you about this program and its application. You can ask me to delete it at any time. Details are in the [privacy notice](/academy/privacy/).
 join:
   heading: Join the Waitlist
