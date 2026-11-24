@@ -19,7 +19,7 @@ date: '2022-09-17'
 <figcaption><p>Forget about the “Low Memory” issues when running Airflow (logos are taken from <a href="https://airflow.apache.org/"><u>Apache Airflow</u></a> and <a href="https://www.docker.com/"><u>Docker</u></a>)</p></figcaption>
 </figure>
 
-This article was created under the scope of the first edition of the [Data Engineer Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp){:target="_blank"} by [DataTalksClub](https://datatalks.club/){:target="_blank"}. I will present a technical variation I made to the initially proposed development to run **Apache Airflow** locally (see [*What means “to run one software locally”*](https://medium.com/@lgsoliveira/what-means-to-run-one-software-locally-a8b556d6f34c){:target="_blank"}) with **Docker** and **Docker Compose**. This adaptation was later incorporated into the DE Zoomcamp as seen in this [video](https://www.youtube.com/watch?v=A1p5LQ0zzaQ&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=23){:target="_blank"}.
+This article was created under the scope of the first edition of the [Data Engineer Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp){:target="_blank"} by [DataTalksClub](/){:target="_blank"}. I will present a technical variation I made to the initially proposed development to run **Apache Airflow** locally (see [*What means “to run one software locally”*](https://medium.com/@lgsoliveira/what-means-to-run-one-software-locally-a8b556d6f34c){:target="_blank"}) with **Docker** and **Docker Compose**. This adaptation was later incorporated into the DE Zoomcamp as seen in this [video](https://www.youtube.com/watch?v=A1p5LQ0zzaQ&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=23){:target="_blank"}.
 
 What we’ll cover in this article:
 

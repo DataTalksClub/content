@@ -149,4 +149,4 @@ resources:
 - title: Machine Learning Workflows in Production - Krzysztof Szafanek
   url: https://www.youtube.com/watch?v=CO4Gqd95j6k
 - title: From Data Science to DataOps
-  url: https://datatalks.club/podcast/s11e03-from-data-science-to-dataops.html
+  url: /podcast/s11e03/dataops-and-gitops-best-practices-for-data-teams

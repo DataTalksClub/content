@@ -324,13 +324,13 @@ We describe each scenario in the table below:
 5. **Duration:** ~4 months (live cohort starting September 2025) or self-paced
 6. **Certificate:** Available for free upon completion for the live cohort; not issued for the self-paced track
 
-[Machine Learning Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html){:target="_blank"} is a practical, end-to-end ML engineering course that takes learners from core foundations to production deployment. You'll cover regression and classification, evaluation and cross-validation, trees and gradient boosting, and deep learning (CNNs, transfer learning). A deployment track focuses on packaging and serving models (FastAPI APIs, Docker, cloud, serverless, ONNX Runtime, Kubernetes, optional KServe) plus monitoring and CI/CD. The program centers on building: a midterm end-to-end project and a capstone production system, emphasizing reproducible code, system design, and documentation, supported by a structured homework cadence and an active community.
+[Machine Learning Zoomcamp](/blog/machine-learning-zoomcamp.html){:target="_blank"} is a practical, end-to-end ML engineering course that takes learners from core foundations to production deployment. You'll cover regression and classification, evaluation and cross-validation, trees and gradient boosting, and deep learning (CNNs, transfer learning). A deployment track focuses on packaging and serving models (FastAPI APIs, Docker, cloud, serverless, ONNX Runtime, Kubernetes, optional KServe) plus monitoring and CI/CD. The program centers on building: a midterm end-to-end project and a capstone production system, emphasizing reproducible code, system design, and documentation, supported by a structured homework cadence and an active community.
 
 Examples of the final projects:
 
-- [Blood Cell Classifier for Cancer Prediction](https://datatalks.club/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html){:target="_blank"} (Computer Vision)
+- [Blood Cell Classifier for Cancer Prediction](/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html){:target="_blank"} (Computer Vision)
 
-- [Waste Classifier](https://datatalks.club/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html){:target="_blank"} (Computer Vision)
+- [Waste Classifier](/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html){:target="_blank"} (Computer Vision)
 
 <h2 id="google-ml-crash-course">2. Google Machine Learning Crash Course (MLCC)</h2>
 

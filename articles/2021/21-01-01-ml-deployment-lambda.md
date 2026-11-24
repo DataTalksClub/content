@@ -22,7 +22,7 @@ date: '2021-01-01'
 This post will demonstrate how you can deploy a Machine Learning model on a Serverless API (AWS Lambda),
 using ECR with Docker as runtime.
 
-This is a companion article to the online workshop I conducted for **[DataTalks.Club](https://datatalks.club/).**
+This is a companion article to the online workshop I conducted for **[DataTalks.Club](/).**
 
 {% include youtube.html video_id="79B8AOKkpho" %}
 

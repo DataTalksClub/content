@@ -41,9 +41,9 @@ faq:
 - question: How much time does it take?
   answer: Expect to spend 5-15 hours per week, depending on your background. This includes watching videos, completing homework, and working on [the capstone project](#capstone-project). More time may be needed during the final project weeks.
 - question: Can I learn at my own pace?
-  answer: Yes! All course materials, videos, and recordings remain available after the cohort ends, and you can learn at your own pace. You'll have access to the [Slack community](https://datatalks.club/slack.html) for support. However, self-paced learning does not include homework submissions, project evaluations, or the ability to earn a [certificate](#how-to-get-a-certificate). To receive a certificate, you need to join an active cohort.
+  answer: Yes! All course materials, videos, and recordings remain available after the cohort ends, and you can learn at your own pace. You'll have access to the [Slack community](/slack) for support. However, self-paced learning does not include homework submissions, project evaluations, or the ability to earn a [certificate](#how-to-get-a-certificate). To receive a certificate, you need to join an active cohort.
 - question: What if I get stuck?
-  answer: You have multiple support channels available. Join the [Slack community](https://datatalks.club/slack.html) where you can ask questions and get help from instructors and fellow students. We also have an [FAQ repository](https://github.com/DataTalksClub/faq) with answers to common questions and a @ZoomcampQABot in Slack for quick help.
+  answer: You have multiple support channels available. Join the [Slack community](/slack) where you can ask questions and get help from instructors and fellow students. We also have an [FAQ repository](https://github.com/DataTalksClub/faq) with answers to common questions and a @ZoomcampQABot in Slack for quick help.
 - question: Where is the GitHub repository for the Data Engineering Zoomcamp?
   answer: The GitHub repository is [https://github.com/DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp).
 - question: Where can I find the Data Engineering Zoomcamp syllabus?
@@ -297,7 +297,7 @@ You can earn bonus points by learning in public — sharing your work on blogs, 
 
 ### Learning in Public: Build Your Online Presence
 
-A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](https://datatalks.club/podcast/s03e07-market-yourself.html)'s [article](https://www.swyx.io/learn-in-public). We believe that everyone has something valuable to contribute, regardless of their expertise level.
+A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](/podcast/s03e07/developer-personal-brand-learn-in-public)'s [article](https://www.swyx.io/learn-in-public). We believe that everyone has something valuable to contribute, regardless of their expertise level.
 
 <figure>
 <img src="/images/posts/2023-11-18-data-engineering-zoomcamp/learning-in-public-swyx.png" alt="Learning in public concept by Shawn Wang - building online portfolio and sharing data engineering projects publicly for career growth" title="Learn in Public - Shawn Wang Article" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
@@ -335,7 +335,7 @@ To earn your certificate, you must complete the course with a live cohort and fu
 <figcaption><p>Active discussions and peer support in our dedicated Slack community channel</p></figcaption>
 </figure>
 
-[DataTalks.Club](https://datatalks.club/) is a global community of 80,000+ data professionals who connect on [Slack](https://datatalks.club/slack.html) to share knowledge, ask career questions, and discuss everything from analytics and visualization to machine learning and data engineering. As one of the largest digital groups dedicated to data, it's where you'll find data scientists, ML engineers, data analysts, and enthusiasts at all career stages.
+[DataTalks.Club](/) is a global community of 80,000+ data professionals who connect on [Slack](/slack) to share knowledge, ask career questions, and discuss everything from analytics and visualization to machine learning and data engineering. As one of the largest digital groups dedicated to data, it's where you'll find data scientists, ML engineers, data analysts, and enthusiasts at all career stages.
 
 When you join a cohort, the dedicated course channel becomes your home base. Here, you'll troubleshoot problems with peers working through the same challenges and share your progress and insights.
 
@@ -344,7 +344,7 @@ When you join a cohort, the dedicated course channel becomes your home base. Her
 <figcaption><p>DataTalks.Club FAQ repository showing common questions and technical issues</p></figcaption>
 </figure>
 
-Beyond peer support, there are two ways to get help: our [FAQ repository](https://datatalks.club/faq/data-engineering-zoomcamp.html) covers common questions and technical issues, and the @ZoomcampQABot in Slack provides quick answers when you need them.
+Beyond peer support, there are two ways to get help: our [FAQ repository](/faq/data-engineering-zoomcamp.html) covers common questions and technical issues, and the @ZoomcampQABot in Slack provides quick answers when you need them.
 
 <figure>
 <img src="/images/posts/2023-11-18-data-engineering-zoomcamp/zoomcamp-qabot.png" alt="Data Engineering Zoomcamp QA Bot on Slack - automated assistant answering course questions about data pipelines, homework, and technical issues" title="Zoomcamp QA Bot - Instant Course Support" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
@@ -436,7 +436,7 @@ The self-paced mode lets you start immediately and progress on your own schedule
 
 All you need is to go to the [Data Engineering Zoomcamp GitHub repository](https://github.com/DataTalksClub/data-engineering-zoomcamp) and start learning. It serves as a central hub for the course for easier navigation through the course materials. All the lectures are pre-recorded and available on YouTube in our official [Data Engineering Zoomcamp YouTube Playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb), so you can watch whenever it suits you.
 
-You can also join the [DataTalks.Club Slack community](https://datatalks.club/slack.html) to get help and support from the community in the `#course-data-engineering` channel. Homework and solutions are available on the [course platform](https://courses.datatalks.club), and you can build a project for your portfolio.
+You can also join the [DataTalks.Club Slack community](/slack) to get help and support from the community in the `#course-data-engineering` channel. Homework and solutions are available on the [course platform](https://courses.datatalks.club), and you can build a project for your portfolio.
 
 > Remember, self-paced learning does not include homework submissions, project evaluations, or the ability to earn a certificate. To receive certification, you need to join an active cohort.
 
@@ -457,7 +457,7 @@ Even if you join after the official start date, you can still follow along — b
 **Ready to join DE Zoomcamp?** Here's how it works:
 
 1. [Register for the course](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD), you'll be automatically accepted into the next cohort
-2. Join the [DataTalks.Club Slack community](https://datatalks.club/slack.html) and the `#course-data-engineering` channel for updates, questions, and peer support
+2. Join the [DataTalks.Club Slack community](/slack) and the `#course-data-engineering` channel for updates, questions, and peer support
 3. (Optional) Get a head start by exploring the [GitHub repository](https://github.com/DataTalksClub/data-engineering-zoomcamp) and watching lectures before the cohort officially begins
 4. When the cohort starts, you'll receive an email with the full schedule and submission deadlines
 5. Follow the weekly rhythm: watch lectures, complete exercises, submit homework
@@ -515,7 +515,7 @@ We've collected some testimonials from our students who have completed the Data 
 
 ## Frequently Asked Questions
 
-For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [Data Engineering Zoomcamp documentation](https://datatalks.club/docs/courses/data-engineering-zoomcamp/){:target="_blank"}.
+For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [Data Engineering Zoomcamp documentation](/docs/courses/data-engineering-zoomcamp/){:target="_blank"}.
 
 {% include faq-accordion.html faqs=site.data.faqs.data-engineering-zoomcamp %}
 

@@ -115,6 +115,6 @@ context: 'Context: Through Dimitri’s journey and practical segments on job dat
 transcript: e09-transcript.yaml
 resources:
 - title: Previous podcast episode
-  url: https://datatalks.club/podcast/s16e09-become-data-freelancer.html
+  url: /podcast/s16e09/becoming-data-freelancer
 - title: Linkedin
   url: https://www.linkedin.com/in/visnadi/

@@ -349,7 +349,7 @@ Throughout the 9-week program, you'll master essential tools like Docker for con
 </tbody>
 </table>
 
-[MLOps Zoomcamp](https://datatalks.club/blog/mlops-zoomcamp.html) is a free MLOps course that covers the entire MLOps lifecycle: from experiment tracking and model management to deployment and monitoring. Designed for data scientists and ML engineers, the course teaches you how to operationalize machine learning models at scale.
+[MLOps Zoomcamp](/blog/mlops-zoomcamp.html) is a free MLOps course that covers the entire MLOps lifecycle: from experiment tracking and model management to deployment and monitoring. Designed for data scientists and ML engineers, the course teaches you how to operationalize machine learning models at scale.
 
 You'll learn to use MLflow for experiment tracking, build automated training pipelines, deploy models using Flask and AWS services, and set up comprehensive monitoring with Evidently AI. The course emphasizes best practices for testing, CI/CD integration, and maintaining ML systems in production, preparing you to build and manage reliable ML infrastructure.
 
@@ -423,7 +423,7 @@ You'll learn to use MLflow for experiment tracking, build automated training pip
 </tbody>
 </table>
 
-[LLM Zoomcamp](https://datatalks.club/blog/llm-zoomcamp.html) is a free course on building AI systems with large language models (LLMs). Over 10 weeks, you learn how to create an AI application that answers questions from your own knowledge base, from foundational concepts and retrieval-augmented generation (RAG) to evaluation, optimization, and production deployment.
+[LLM Zoomcamp](/blog/llm-zoomcamp.html) is a free course on building AI systems with large language models (LLMs). Over 10 weeks, you learn how to create an AI application that answers questions from your own knowledge base, from foundational concepts and retrieval-augmented generation (RAG) to evaluation, optimization, and production deployment.
 
 The course covers managed LLM APIs (OpenAI), teaches you both text and vector search, and shows you how to build production-ready RAG applications. You'll also learn modern agent patterns, evaluation techniques, monitoring with Grafana, and how to integrate LLMs with external tools and APIs for real-world applications.
 
@@ -496,7 +496,7 @@ The course covers managed LLM APIs (OpenAI), teaches you both text and vector se
 </tbody>
 </table>
 
-[AI Dev Tools Zoomcamp](https://datatalks.club/blog/ai-dev-tools-zoomcamp.html) is a free course on AI-native software engineering. Across four modules, you go from a vague product idea to a specification and a groomed backlog, then to a deployed application you built with AI assistance and can defend in review.
+[AI Dev Tools Zoomcamp](/blog/ai-dev-tools-zoomcamp.html) is a free course on AI-native software engineering. Across four modules, you go from a vague product idea to a specification and a groomed backlog, then to a deployed application you built with AI assistance and can defend in review.
 
 The course teaches spec-driven development and context engineering with coding agents and agentic IDEs, walks through an end-to-end build with React/TypeScript, an OpenAPI contract, a FastAPI or Django backend, tests, Docker, and CI/CD, covers the Model Context Protocol along with skills, hooks, subagents, and plugins, and finishes with open-source AI tools for security, audit, and DevOps such as PR-Agent, Semgrep MCP, Snyk Agent Scan, and K8sGPT.
 

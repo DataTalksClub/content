@@ -156,6 +156,6 @@ resources:
 - title: Onfido is hiring
   url: https://onfido.com/engineering-technology/
 - title: Interview with Alicja about recruiting data scientists
-  url: https://datatalks.club/podcast/s07e02-recruiting-data-professionals.html
+  url: /podcast/s07e02/hiring-data-scientists-and-analysts
 - title: Webinar "Getting a Data Engineering Job" with Jeff Katz
   url: https://eventbrite.com/e/310270877547

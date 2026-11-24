@@ -16,9 +16,9 @@ datepublished: '2025-08-11'
 date: '2025-08-11'
 ---
 
-In our previous article, we wrote about an [end-to-end blood cell classifier for cancer prediction](https://datatalks.club/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html), a final project for [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) created by graduate Alexander Daniel Rios. In this follow-up, Alexander reflects on how the course shifted his approach from ad-hoc experimentation to a structured, professional workflow. He walks through the skills he developed, the two final projects he completed, and why working in public and with a community made a difference for his professional growth.
+In our previous article, we wrote about an [end-to-end blood cell classifier for cancer prediction](/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html), a final project for [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) created by graduate Alexander Daniel Rios. In this follow-up, Alexander reflects on how the course shifted his approach from ad-hoc experimentation to a structured, professional workflow. He walks through the skills he developed, the two final projects he completed, and why working in public and with a community made a difference for his professional growth.
 
-> [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) is a free, four-month online course on machine learning fundamentals and deploying models to production.
+> [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) is a free, four-month online course on machine learning fundamentals and deploying models to production.
 
 ## What were your projects like before ML Zoomcamp?
 
@@ -43,11 +43,11 @@ I also gained confidence with neural networks, transfer learning, and making inf
 
 ## What projects did you work on?
 
-Alexander: We were encouraged to do two final projects and participate in a Kaggle competition. My first project was about [creating a classifier to predict cancer in blood cells](https://datatalks.club/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html){:target="_blank"}. I talked about it in the recent article on the DataTalksClub blog.
+Alexander: We were encouraged to do two final projects and participate in a Kaggle competition. My first project was about [creating a classifier to predict cancer in blood cells](/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html){:target="_blank"}. I talked about it in the recent article on the DataTalksClub blog.
 
 <figure>
 <img src="/images/posts/2025-08-11-tab-2-building-discipline-in-machine-learning-with-ml-zoomcamp/image3.png"  />
-<figcaption>A screenshot from Alexander’s article on the DataTalksClub blog on his final project about <a href="https://datatalks.club/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html">creating a classifier to predict cancer in blood cells</a></figcaption>
+<figcaption>A screenshot from Alexander’s article on the DataTalksClub blog on his final project about <a href="/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html">creating a classifier to predict cancer in blood cells</a></figcaption>
 </figure>
 
 My second project focuses on classifying disaster-related tweets. I also [wrote an article](https://www.notion.so/Natural-Language-Processing-using-spaCy-TensorFlow-and-BERT-model-architecture-1895067176b380d09484d4b0338b0c5e?pvs=21){:target="_blank"} about this project, in which I explore how I utilized spaCy, TensorFlow, and BERT-based architectures for NLP.
@@ -67,7 +67,7 @@ The final model achieved 4th place globally, among dozens of participants. This 
 
 ## How did the course contribute to your capstone work?
 
-Alexander: The [ML Zoomcamp course](https://datatalks.club/blog/machine-learning-zoomcamp.html){:target="_blank"} provided the theoretical and practical foundations I needed. It offered a structured path from ML fundamentals to pipeline design and deployment. I gained hands-on experience preparing and validating datasets, selecting models, and evaluating them properly. I also worked with production tools such as Docker, Flask, and TensorFlow Serving, which were key to transforming the project into a functional product.
+Alexander: The [ML Zoomcamp course](/blog/machine-learning-zoomcamp.html){:target="_blank"} provided the theoretical and practical foundations I needed. It offered a structured path from ML fundamentals to pipeline design and deployment. I gained hands-on experience preparing and validating datasets, selecting models, and evaluating them properly. I also worked with production tools such as Docker, Flask, and TensorFlow Serving, which were key to transforming the project into a functional product.
 
 <figure>
 <img src="/images/posts/2025-08-11-tab-2-building-discipline-in-machine-learning-with-ml-zoomcamp/image2.png"  />

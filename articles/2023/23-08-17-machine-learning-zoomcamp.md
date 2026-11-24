@@ -26,9 +26,9 @@ faq:
 - question: How up to date is the ML Zoomcamp course content?
   answer: 'The course is kept current with the tools used in industry today: 1) the deployment module uses FastAPI (replacing Flask) with modern deployment tools, 2) neural networks are taught with PyTorch (theory videos in Keras are retained, with additional PyTorch implementation videos), and 3) deep learning deployment uses ONNX Runtime on AWS Lambda (replacing TensorFlow Lite).'
 - question: How do I get started with ML Zoomcamp?
-  answer: 'You can choose between two learning paths: self-paced learning, where you can start immediately with pre-recorded materials freely available on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp) and learn at your own pace with [Slack community](https://datatalks.club/slack.html) support, or [joining our live cohort](https://courses.datatalks.club/register/ml-zoomcamp/) starting on September 14, 2026, to learn alongside peers with structured deadlines, submit homework for automatic scoring, complete 2 peer-reviewed projects (either midterm + capstone OR two capstones), and earn a certificate. Certificates are only available for cohort participants. [Learn more about getting started](#how-to-get-started-with-the-machine-learning-zoomcamp).'
+  answer: 'You can choose between two learning paths: self-paced learning, where you can start immediately with pre-recorded materials freely available on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp) and learn at your own pace with [Slack community](/slack) support, or [joining our live cohort](https://courses.datatalks.club/register/ml-zoomcamp/) starting on September 14, 2026, to learn alongside peers with structured deadlines, submit homework for automatic scoring, complete 2 peer-reviewed projects (either midterm + capstone OR two capstones), and earn a certificate. Certificates are only available for cohort participants. [Learn more about getting started](#how-to-get-started-with-the-machine-learning-zoomcamp).'
 - question: What's included in the live cohort?
-  answer: The live cohort includes a structured learning path with deadlines, automatically scored homework assignments, peer interaction and community support through [Slack](https://datatalks.club/slack.html), the opportunity to earn a certificate through submitting 2 projects (either midterm + capstone OR two capstones) and peer review, and access to all pre-recorded course materials on [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR). [See how it works](#how-the-machine-learning-zoomcamp-works).
+  answer: The live cohort includes a structured learning path with deadlines, automatically scored homework assignments, peer interaction and community support through [Slack](/slack), the opportunity to earn a certificate through submitting 2 projects (either midterm + capstone OR two capstones) and peer review, and access to all pre-recorded course materials on [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR). [See how it works](#how-the-machine-learning-zoomcamp-works).
 - question: How do I get certified?
   answer: 'To earn a certificate, you''ll need to complete and submit 2 projects: either a [midterm project](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#midterm-project) and a [capstone project](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-1), OR two [capstone projects](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-1). You''ll also need to review 3 peers'' projects by the deadline. Projects must be completed individually, and you must be part of a cohort to be eligible.'
 - question: How is homework scored?
@@ -40,15 +40,15 @@ faq:
 - question: What Python skills do I need?
   answer: You should be familiar with basic Python concepts like variables, libraries, and Jupyter notebooks. If you need to brush up, we recommend taking our Introduction to Python course first.
 - question: How do I join the Slack community?
-  answer: 'Join our active [Slack community](https://datatalks.club/slack.html) of 80,000+ data professionals on the #course-ml-zoomcamp channel. You can troubleshoot problems with peers, share your progress, ask questions, and get help from the @ZoomcampQABot. The course also has a comprehensive [FAQ repository](https://datatalks.club/faq/machine-learning-zoomcamp.html) covering common questions and technical issues. Sharing your journey on social media with #mlzoomcamp earns you bonus points and helps build your online portfolio. [Learn more about the community](#what-is-datatalksclub-community-a-place-to-connect-and-learn-with-other-machine-learning-professionals).'
+  answer: 'Join our active [Slack community](/slack) of 80,000+ data professionals on the #course-ml-zoomcamp channel. You can troubleshoot problems with peers, share your progress, ask questions, and get help from the @ZoomcampQABot. The course also has a comprehensive [FAQ repository](/faq/machine-learning-zoomcamp.html) covering common questions and technical issues. Sharing your journey on social media with #mlzoomcamp earns you bonus points and helps build your online portfolio. [Learn more about the community](#what-is-datatalksclub-community-a-place-to-connect-and-learn-with-other-machine-learning-professionals).'
 - question: Is ML Zoomcamp suitable for beginners?
   answer: The course is suitable for anyone with programming experience (1+ year) and command line familiarity. You don't need a PhD in mathematics or prior ML experience—the course starts from first principles with a gentle math refresher. However, machine learning is technical and requires dedication. You'll work with concepts from linear algebra, calculus, and statistics. The learning curve can be steep, and you'll need patience to debug models, handle messy data, and troubleshoot deployment issues. The course is ideal for software developers, data analysts, CS students, and career changers with technical backgrounds. [Learn more about prerequisites](#course-prerequisites) and [who can learn machine learning](#who-can-learn-machine-learning).
 - question: What do I need to get started?
   answer: You'll need a laptop with an internet connection and basic tools installed (Python, Git, Docker). The course uses Jupyter Notebooks for development, and you'll work with Python libraries including NumPy, Pandas, scikit-learn, TensorFlow, PyTorch, and XGBoost. For deployment, you'll use Docker, FastAPI, and optionally cloud platforms like AWS Lambda and Kubernetes. For deep learning sections, cloud resources may be recommended for intensive computations.
 - question: What's the difference between self-paced and cohort learning?
-  answer: 'While all course materials are freely available for self-paced learning on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp), joining a cohort offers additional benefits: a structured timeline with regular deadlines, the ability to submit homework for automatic scoring and appear on the leaderboard, submit 2 projects (either midterm + capstone OR two capstones) for peer evaluation, active peer learning and discussion in [Slack](https://datatalks.club/slack.html), the opportunity to earn a certificate, and a shared learning experience with others facing similar challenges. Self-paced learners can access all materials and the Slack community but cannot submit homework, participate in project evaluations, or earn certificates. Many students find the cohort structure helps them stay motivated and complete the course successfully. [See the comparison](#how-to-get-started-with-the-machine-learning-zoomcamp).'
+  answer: 'While all course materials are freely available for self-paced learning on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp), joining a cohort offers additional benefits: a structured timeline with regular deadlines, the ability to submit homework for automatic scoring and appear on the leaderboard, submit 2 projects (either midterm + capstone OR two capstones) for peer evaluation, active peer learning and discussion in [Slack](/slack), the opportunity to earn a certificate, and a shared learning experience with others facing similar challenges. Self-paced learners can access all materials and the Slack community but cannot submit homework, participate in project evaluations, or earn certificates. Many students find the cohort structure helps them stay motivated and complete the course successfully. [See the comparison](#how-to-get-started-with-the-machine-learning-zoomcamp).'
 - question: What support is available for self-paced learners?
-  answer: All course materials on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp), videos on [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR), and recordings remain available after the cohort ends, and you can learn at your own pace. You'll have access to the [Slack community](https://datatalks.club/slack.html) for support. However, self-paced learning does not include homework submissions, project evaluations, or the ability to earn a certificate. To receive a certificate, you need to [join an active cohort](https://courses.datatalks.club/register/ml-zoomcamp/).
+  answer: All course materials on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp), videos on [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR), and recordings remain available after the cohort ends, and you can learn at your own pace. You'll have access to the [Slack community](/slack) for support. However, self-paced learning does not include homework submissions, project evaluations, or the ability to earn a certificate. To receive a certificate, you need to [join an active cohort](https://courses.datatalks.club/register/ml-zoomcamp/).
 - question: Are there office hours or live sessions?
   answer: 'There are no office hours—all lectures are pre-recorded and available in the [YouTube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR), so you can watch them whenever it suits you.
 
@@ -60,14 +60,14 @@ faq:
 - question: How can ML Zoomcamp help my career?
   answer: 'To maximize the course''s career impact, we recommend starting your project planning early and building portfolio-worthy projects that solve real problems. Stay engaged with the Slack community and share your learning journey on social media using #mlzoomcamp. Take time to review and learn from other students'' projects. When job hunting, use your projects to demonstrate practical skills in applications and interviews—many of our alumni have successfully leveraged their course projects to showcase their machine learning capabilities during the hiring process.'
 - question: What is ML Zoomcamp?
-  answer: 'The Machine Learning Zoomcamp is a free machine learning engineering course by [DataTalks.Club](https://datatalks.club/) that teaches you to build and deploy ML models in production environments—bridging the gap between training models in notebooks and running them in real-world applications.
+  answer: 'The Machine Learning Zoomcamp is a free machine learning engineering course by [DataTalks.Club](/) that teaches you to build and deploy ML models in production environments—bridging the gap between training models in notebooks and running them in real-world applications.
 
 
     This 4-month course covers the complete ML workflow: from fundamental algorithms (linear regression, logistic regression, decision trees, neural networks) to production deployment (Docker, FastAPI, Kubernetes, AWS Lambda). You''ll learn model persistence, containerization, API development, and deployment strategies while building two portfolio-ready projects. All materials are open and available on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp). [Learn more](#what-is-machine-learning-zoomcamp).'
 - question: What makes ML Zoomcamp different from other ML courses?
   answer: 'Unlike most ML courses that stop at model training in Jupyter notebooks, ML Zoomcamp teaches the complete production workflow. You''ll learn practical deployment skills that most courses skip: model persistence and containerization with Docker, API development with FastAPI for turning models into web services, and deployment strategies including both server-based deployments (Kubernetes) and serverless architectures (AWS Lambda). You''ll understand trade-offs, cost implications, and when to choose each approach. The course emphasizes hands-on learning with real projects that demonstrate you can build, deploy, and maintain production ML systems—not just train models.'
 - question: Is ML Zoomcamp really free?
-  answer: Yes, ML Zoomcamp is completely free. There are no hidden costs, no tuition fees, and no paid tiers. All course materials, videos, homework assignments, and access to the [Slack community](https://datatalks.club/slack.html) are provided at no cost. Unlike traditional bootcamps that charge $10,000-$20,000+, this course is entirely community-driven and open source.
+  answer: Yes, ML Zoomcamp is completely free. There are no hidden costs, no tuition fees, and no paid tiers. All course materials, videos, homework assignments, and access to the [Slack community](/slack) are provided at no cost. Unlike traditional bootcamps that charge $10,000-$20,000+, this course is entirely community-driven and open source.
 - question: How does ML Zoomcamp compare to bootcamps?
   answer: 'ML Zoomcamp differs from traditional machine learning bootcamps in several key ways:
 
@@ -76,7 +76,7 @@ faq:
 
     2. **Format**: 4-month cohort with fixed schedule vs. typically 12-24 weeks for bootcamps
 
-    3. **Community**: [80,000+ member community](https://datatalks.club/slack.html) vs. smaller closed cohorts
+    3. **Community**: [80,000+ member community](/slack) vs. smaller closed cohorts
 
     4. **Projects**: 2 peer-reviewed projects (midterm + capstone OR two capstones) vs. instructor-reviewed projects
 
@@ -270,7 +270,7 @@ These projects allow you to apply everything you've learned and make a great add
 <figcaption>A local deployment architecture using Kubernetes with Kind from one of the students' projects</figcaption>
 </figure>
 
-Students from previous cohorts built a wide range of projects. For example, one graduate created a [blood cell classifier for cancer prediction](https://datatalks.club/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html) and another built a [waste classifier](https://datatalks.club/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html) with over 15,000 images, achieving 93% accuracy.
+Students from previous cohorts built a wide range of projects. For example, one graduate created a [blood cell classifier for cancer prediction](/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html) and another built a [waste classifier](/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html) with over 15,000 images, achieving 93% accuracy.
 
 <figure>
 <img src="/images/posts/2025-08-05-how-to-build-waste-classifier-case-study-from-ml-zoomcamp/image7.png"  />
@@ -326,7 +326,7 @@ You can earn additional points through learning in public, the process of docume
 
 ### Learning in Public
 
-A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](https://datatalks.club/podcast/s03e07-market-yourself.html)'s [article](https://www.swyx.io/learn-in-public){:target="_blank"}. We believe that everyone has something valuable to contribute, regardless of their expertise level.
+A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](/podcast/s03e07/developer-personal-brand-learn-in-public)'s [article](https://www.swyx.io/learn-in-public){:target="_blank"}. We believe that everyone has something valuable to contribute, regardless of their expertise level.
 
 <figure>
 <img src="/images/posts/2023-08-17-machine-learning-zoomcamp/ml-zoomcamp-learning-in-public-concept.png" alt="Learning in public concept from Shawn Wang's article" title="Learning in public concept by Shawn Wang" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" width="auto" height="auto" />
@@ -361,7 +361,7 @@ To receive a certificate, you'll need to complete and submit 2 projects:
 
 ## What is DataTalks.Club Community? A Place to Connect and Learn with Other Machine Learning Professionals
 
-[DataTalks.Club](https://datatalks.club/) is a global community of 80,000+ data professionals who connect on [Slack](https://datatalks.club/slack.html) to share knowledge, ask career questions, and discuss everything from analytics and visualization to machine learning and data engineering. As one of the largest digital groups dedicated to data, it's where you'll find data scientists, ML engineers, data analysts, and enthusiasts at all career stages.
+[DataTalks.Club](/) is a global community of 80,000+ data professionals who connect on [Slack](/slack) to share knowledge, ask career questions, and discuss everything from analytics and visualization to machine learning and data engineering. As one of the largest digital groups dedicated to data, it's where you'll find data scientists, ML engineers, data analysts, and enthusiasts at all career stages.
 
 When you join a cohort, the dedicated course channel becomes your home base. Here, you'll troubleshoot problems with peers working through the same challenges and share your progress and insights.
 <figure>
@@ -369,7 +369,7 @@ When you join a cohort, the dedicated course channel becomes your home base. Her
 <figcaption>Active discussions and support in the ML Zoomcamp Slack community channel</figcaption>
 </figure>
 
-Beyond peer support, there are two ways to get help: our [FAQ repository](https://datatalks.club/faq/machine-learning-zoomcamp.html) covers common questions and technical issues, and the @ZoomcampQABot in Slack provides quick answers when you need them.
+Beyond peer support, there are two ways to get help: our [FAQ repository](/faq/machine-learning-zoomcamp.html) covers common questions and technical issues, and the @ZoomcampQABot in Slack provides quick answers when you need them.
 
 <figure>
 <img src="/images/posts/2023-11-18-data-engineering-zoomcamp/zoomcamp-qabot.png" alt="Machine Learning Zoomcamp QA Bot on Slack - automated assistant answering course questions about data pipelines, homework, and technical issues" title="Zoomcamp QA Bot - Instant Course Support" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
@@ -459,7 +459,7 @@ All course materials are freely available in the [Machine Learning Zoomcamp GitH
 
 ### Learn at Your Own Pace
 
-The self-paced mode lets you start anytime and learn at your own pace. You'll get full access to all course materials and can join the [DataTalks.Club Slack community](https://datatalks.club/slack.html) for support on the `#course-ml-zoomcamp` channel. Homework assignments and solutions are available on the [course platform](https://courses.datatalks.club), and you can build projects for your portfolio.
+The self-paced mode lets you start anytime and learn at your own pace. You'll get full access to all course materials and can join the [DataTalks.Club Slack community](/slack) for support on the `#course-ml-zoomcamp` channel. Homework assignments and solutions are available on the [course platform](https://courses.datatalks.club), and you can build projects for your portfolio.
 
 > Remember, self-paced learning does not include homework submissions, project evaluations, or the ability to earn a certificate. To receive certification, you need to join an active cohort.
 
@@ -480,7 +480,7 @@ Even if you join after the official start date, you can still follow along—tho
 **Ready to join ML Zoomcamp?** Here's how it works:
 
 1. [Register for the course](https://courses.datatalks.club/register/ml-zoomcamp/){:target="_blank"}, you'll be automatically accepted into the next cohort
-2. Join the [DataTalks.Club Slack community](https://datatalks.club/slack.html) and the `#course-ml-zoomcamp` channel for updates, questions, and peer support
+2. Join the [DataTalks.Club Slack community](/slack) and the `#course-ml-zoomcamp` channel for updates, questions, and peer support
 3. (Optional) Get a head start by exploring the [GitHub repository](https://github.com/DataTalksClub/machine-learning-zoomcamp){:target="_blank"} and watching lectures before the cohort officially begins
 4. When the cohort starts, you'll receive an email with the full schedule and submission deadlines
 5. Follow the weekly rhythm: watch lectures, complete exercises, submit homework
@@ -526,7 +526,7 @@ The entire journey takes 4 months from start to certificate, and you'll be part 
 
 ## Frequently Asked Questions
 
-For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [ML Zoomcamp documentation](https://datatalks.club/docs/courses/ml-zoomcamp/){:target="_blank"}.
+For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [ML Zoomcamp documentation](/docs/courses/ml-zoomcamp/){:target="_blank"}.
 
 {% include faq-accordion.html faqs=site.data.faqs.machine-learning-zoomcamp %}
 

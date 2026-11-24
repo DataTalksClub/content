@@ -141,7 +141,7 @@ Since it's 2025, we decided to collect an updated list of active communities. Ev
 
 One of the largest Slack communities dedicated to all things data, from analytics and visualization to machine learning and data engineering. Among its 80,000+ members, you'll find data scientists, ML engineers, and enthusiasts who use the space to share knowledge, ask career questions, and join in discussions. You'll find channels ranging from `#career` and `#datascience` to `#book-of-the-week`.
 
-[Join here](https://datatalks.club/slack.html)
+[Join here](/slack)
 
 ### Open Data Science Community
 
@@ -391,7 +391,7 @@ A beginner-friendly Slack community centered on Kaggle competitions and projects
 
 Joining a Slack community can be one of the easiest ways for you to stay connected in the fast-moving worlds of data science, machine learning, and AI. These groups give you access to peers who are facing similar challenges, channels full of resources and tutorials, and opportunities to network or even find your next project or job.
 
-Did we miss a community you find valuable? Let us know in [our Slack](https://datatalks.club/slack.html) so we can keep this list up to date.
+Did we miss a community you find valuable? Let us know in [our Slack](/slack) so we can keep this list up to date.
 
 ## Frequently Searched Questions
 {% include faq-accordion.html faqs=site.data.faqs.data-science-slack-communities %}

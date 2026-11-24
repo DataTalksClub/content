@@ -24,7 +24,7 @@ As you saw in one of the previous articles I set [PostgreSQL to run in a Docker 
 
 What if I set a database management tool running in a Docker container too? Then we don’t need to install anything less but Docker 😁
 
-This article is made under the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp){:target="_blank"} by [Data Talks Club](https://datatalks.club/){:target="_blank"} and will show up some code related to these videos:
+This article is made under the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp){:target="_blank"} by [Data Talks Club](/){:target="_blank"} and will show up some code related to these videos:
 
 -   [Connecting Postgres and pgAdmin](https://www.youtube.com/watch?v=hCAIVe9N0ow&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb){:target="_blank"};
 -   [Running Postgres and pgAdmin with Docker-Compose.](https://www.youtube.com/watch?v=hKI6PkPhpa0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb){:target="_blank"}

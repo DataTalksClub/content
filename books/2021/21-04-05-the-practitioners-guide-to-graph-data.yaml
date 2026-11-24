@@ -17,7 +17,7 @@ archive:
 - name: Alexey Grigorev
   text: 'Hello, everyone!
 
-    The book of this week is [The Practitioner''s Guide to Graph Data](https://datatalks.club/books/20210405-the-practitioners-guide-to-graph-data.html)
+    The book of this week is [The Practitioner''s Guide to Graph Data](/books/20210405-the-practitioners-guide-to-graph-data.html)
     by Denise Gosnell
 
     &gt; Graph data closes the gap between the way humans and computers view the world. While computers

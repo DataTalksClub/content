@@ -360,13 +360,13 @@ Explaining what you've learned helps you understand it better, builds confidence
 <figcaption>Course leaderboard highlighting bonus points earned through public learning activities</figcaption>
 </figure>
 
-This practice has led to real opportunities for learners. For example, [**Pastor Soto**](https://datatalks.club/podcast/s21e03-from-medicine-to-machine-learning-how-public-learning-turned-into-career.html){:target="_blank"}, who joined ML Zoomcamp without a LinkedIn account, began posting his projects publicly. These posts not only accelerated his learning but also attracted attention from recruiters at Meta and DeepLearning.AI. Similarly, [**Daniel Egbo**](https://youtu.be/b92gwrsVQtg?si=ziRFIcrYN3GQiVhV){:target="_blank"} shared his progress on LinkedIn, which opened the door to collaborations on projects such as deploying models with Intel's OpenVINO toolkit.
+This practice has led to real opportunities for learners. For example, [**Pastor Soto**](/podcast/s21e03/nonlinear-path-to-machine-learning-freelancing-and-public-learning){:target="_blank"}, who joined ML Zoomcamp without a LinkedIn account, began posting his projects publicly. These posts not only accelerated his learning but also attracted attention from recruiters at Meta and DeepLearning.AI. Similarly, [**Daniel Egbo**](https://youtu.be/b92gwrsVQtg?si=ziRFIcrYN3GQiVhV){:target="_blank"} shared his progress on LinkedIn, which opened the door to collaborations on projects such as deploying models with Intel's OpenVINO toolkit.
 
 ### Certificate
 
 <figure>
 <img src="/images/posts/2025-09-23-ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation/image4.png" alt="DataTalks.Club Zoomcamp certificate example - free certificate upon course completion" title="DataTalks.Club Course Certificate Example" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
-<figcaption>An example of the certificate for the <a href="https://datatalks.club/blog/data-engineering-zoomcamp.html">Data Engineering Zoomcamp</a>, another free course at DataTalks.Club</figcaption>
+<figcaption>An example of the certificate for the <a href="/blog/data-engineering-zoomcamp.html">Data Engineering Zoomcamp</a>, another free course at DataTalks.Club</figcaption>
 </figure>
 
 To earn your free certificate, you need to pass the final project and review other students' projects. Homework helps you stay on track, but the certificate is based on the final project and the peer review requirements.
@@ -397,7 +397,7 @@ To earn your free certificate, you need to pass the final project and review oth
 
 <figure>
 <img src="/images/posts/2025-09-23-ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation/ai-dev-tools-zoomcamp-slack.png" alt="DataTalks.Club Slack community - active discussions and peer support for AI Dev Tools Zoomcamp students" title="DataTalks.Club Slack Community Support" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
-<figcaption>Active discussions and support in the <a href="https://datatalks.club/slack.html">DataTalks.Club Slack community</a></figcaption>
+<figcaption>Active discussions and support in the <a href="/slack">DataTalks.Club Slack community</a></figcaption>
 </figure>
 
 DataTalks.Club has a supportive community of like-minded individuals in [our Slack](/slack.html){:target="_blank"}. Course questions and troubleshooting happen in the [#course-ai-dev-tools-zoomcamp](https://app.slack.com/client/T01ATQK62F8/C09HWT76L95){:target="_blank"} channel, where you're supported by thousands of learners who exchange ideas, ask questions, and provide feedback. Many learners have turned these connections into collaborations and long-term professional relationships.
@@ -468,7 +468,7 @@ All materials are freely available in the [AI Dev Tools Zoomcamp GitHub reposito
 
 ## Frequently Asked Questions
 
-For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"} and the [AI Dev Tools Zoomcamp docs](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/){:target="_blank"}.
+For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"} and the [AI Dev Tools Zoomcamp docs](/docs/courses/ai-dev-tools-zoomcamp/){:target="_blank"}.
 
 {% include faq-accordion.html faqs=site.data.faqs.ai-dev-tools-zoomcamp %}
 

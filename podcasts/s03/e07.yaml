@@ -158,7 +158,7 @@ notes: 'Links:
 
   - Twitter: <https://twitter.com/swyx>{:target="_blank"}
 
-  - [Book of the week page](https://datatalks.club/books/20210510-the-coding-career-handbook.html){:target="_blank"}
+  - [Book of the week page](/books/20210510-the-coding-career-handbook.html){:target="_blank"}
   (with a discount for DTC members!)'
 
 resources:
@@ -167,4 +167,4 @@ resources:
 - title: 'Twitter'
   url: 'https://twitter.com/swyx'
 - title: 'Book of the week page'
-  url: 'https://datatalks.club/books/20210510-the-coding-career-handbook.html'
+  url: '/books/20210510-the-coding-career-handbook.html'

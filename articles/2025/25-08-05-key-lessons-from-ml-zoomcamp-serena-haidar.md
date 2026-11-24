@@ -16,9 +16,9 @@ datepublished: '2025-08-05'
 date: '2025-08-05'
 ---
 
-In our previous article, we profiled [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) graduate Serena Haidar’s [end-to-end waste-classifier capstone](https://datatalks.club/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html). In this follow-up, Serena shares the lessons that mattered most—study cadence, how to get unstuck, and how the program shaped her approach to ML engineering.
+In our previous article, we profiled [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) graduate Serena Haidar’s [end-to-end waste-classifier capstone](/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html). In this follow-up, Serena shares the lessons that mattered most—study cadence, how to get unstuck, and how the program shaped her approach to ML engineering.
 
-> DataTalks.Club’s [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) is a free, four-month online course on machine-learning fundamentals and deploying models to production. To earn a certificate, students must deliver an end-to-end final project and participate in peer review.
+> DataTalks.Club’s [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) is a free, four-month online course on machine-learning fundamentals and deploying models to production. To earn a certificate, students must deliver an end-to-end final project and participate in peer review.
 
 ## Key Lessons Learned
 
@@ -71,7 +71,7 @@ From the very first module, the course laid out the machine‑learning lifecycle
 
 ### What aspects of the Zoomcamp’s design stood out to you?
 
-**Serena:** This zoomcamp is very well designed. It motivated me to join the [LLM Zoomcamp](https://datatalks.club/blog/llm-zoomcamp.html){:target="_blank"} in its next cohort. One of the best aspects is that the material is free and publicly accessible; you receive high-quality education in a structured format, with detailed short videos, and access to notebooks and code files. Additionally, you can easily [ask questions on Slack](https://datatalks.club/slack.html){:target="_blank"}, add your notes to the public repository, and benefit from others' notes, which makes the courses much more interactive.
+**Serena:** This zoomcamp is very well designed. It motivated me to join the [LLM Zoomcamp](/blog/llm-zoomcamp.html){:target="_blank"} in its next cohort. One of the best aspects is that the material is free and publicly accessible; you receive high-quality education in a structured format, with detailed short videos, and access to notebooks and code files. Additionally, you can easily [ask questions on Slack](/slack){:target="_blank"}, add your notes to the public repository, and benefit from others' notes, which makes the courses much more interactive.
 
 <figure>
 <img src="/images/posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar/image1.png"  />

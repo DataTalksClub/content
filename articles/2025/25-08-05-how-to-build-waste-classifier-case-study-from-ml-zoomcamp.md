@@ -24,11 +24,11 @@ date: '2025-08-05'
 <figcaption>GitHub of Serena’s final project from ML Zoomcamp</figcaption>
 </figure>
 
-How does [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) turn course content into practical ML engineering? In this case study, **Serena Haidar** walks through her final project from ML Zoomcamp: training an Xception-based image classifier on ~15,000 waste images, reaching **93.3%** test accuracy, and serving predictions via a Flask API packaged in Docker.
+How does [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) turn course content into practical ML engineering? In this case study, **Serena Haidar** walks through her final project from ML Zoomcamp: training an Xception-based image classifier on ~15,000 waste images, reaching **93.3%** test accuracy, and serving predictions via a Flask API packaged in Docker.
 
 If you’re evaluating this free course, this article shows how a graduate moves from a notebook to a small production app—what gets built, why each step matters, and how to approach the work methodically.
 
-> At DataTalks.Club, [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) is a free, four-month online course on core machine learning and taking models to production. To complete the course and earn a certificate, students deliver an end-to-end final project that turns course concepts into a working system.
+> At DataTalks.Club, [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) is a free, four-month online course on core machine learning and taking models to production. To complete the course and earn a certificate, students deliver an end-to-end final project that turns course concepts into a working system.
 
 ## Interview with Serena about Her Project Idea
 

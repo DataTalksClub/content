@@ -360,7 +360,7 @@ archive:
     text: I don’t know for sure, but hopefully someone who knows the Slack best will comment.
   - name: Alexey Grigorev
     text: "We have invited authors of books on these topics in the past, you can check them in the archives\
-      \ \n[https://datatalks.club/books.html](https://datatalks.club/books.html)\nAnd for most of the\
+      \ \n[https://datatalks.club/books.html](/books)\nAnd for most of the\
       \ books we also have the answers from the authors there"
 - name: LOIC EMO SIANI
   text: Hello. Is there any prerequisites we must have to read the book if we already have mlops background

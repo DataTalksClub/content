@@ -90,7 +90,7 @@ You can combine several formats in one campaign.
 
 ## Audience demographics
 
-The numbers come from our community survey. We publish the [full survey results](https://datatalks.club/blog/datatalks-club-community-demographics.html), so you can check them yourself.
+The numbers come from our community survey. We publish the [full survey results](/blog/datatalks-club-community-demographics.html), so you can check them yourself.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
 
@@ -158,10 +158,10 @@ Most members want to learn about machine learning, AI, and MLOps. Data engineeri
 
 We also survey the community about the tools they use and publish the results:
 
-- [How Do Data Professionals Use MLOps Tools and Frameworks?](https://datatalks.club/blog/how-do-data-professionals-use-ml-and-mlops-tools-and-practices.html)
-- [How Do Professionals Use Data Engineering Tools and Practices?](https://datatalks.club/blog/how-do-data-professionals-use-data-engineering-tools-and-practices.html)
-- [How Do Professionals Use LLM Tools and Frameworks?](https://datatalks.club/blog/how-do-professionals-use-llm-tools-and-frameworks.html)
-- [How Do Professionals Use AI Tools for Personal Productivity?](https://datatalks.club/blog/ai-tools-for-personal-productivity.html)
+- [How Do Data Professionals Use MLOps Tools and Frameworks?](/blog/how-do-data-professionals-use-ml-and-mlops-tools-and-practices.html)
+- [How Do Professionals Use Data Engineering Tools and Practices?](/blog/how-do-data-professionals-use-data-engineering-tools-and-practices.html)
+- [How Do Professionals Use LLM Tools and Frameworks?](/blog/how-do-professionals-use-llm-tools-and-frameworks.html)
+- [How Do Professionals Use AI Tools for Personal Productivity?](/blog/ai-tools-for-personal-productivity.html)
 
 Many people haven't chosen a tool yet. 58.9% of respondents don't use a vector database, 54.3% have no LLM-based system in production, and 74.1% don't self-host open-source models. When people haven't picked a tool, a course module or workshop can decide which one they try first.
 
@@ -190,11 +190,11 @@ We run five free courses a year. Each one is a cohort with live sessions, homewo
 
 | Course | Starts | Registered learners per cohort |
 |---|---|---|
-| [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html) | January | 20,000+ |
-| [MLOps Zoomcamp](https://datatalks.club/blog/mlops-zoomcamp.html) | May | 10,000+ |
-| [LLM Zoomcamp](https://datatalks.club/blog/llm-zoomcamp.html) | June | 10,000+ |
-| [Machine Learning Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) | September | 10,000+ |
-| [AI Dev Tools Zoomcamp](https://datatalks.club/blog/ai-dev-tools-zoomcamp.html) | November | 10,000+ |
+| [Data Engineering Zoomcamp](/blog/data-engineering-zoomcamp.html) | January | 20,000+ |
+| [MLOps Zoomcamp](/blog/mlops-zoomcamp.html) | May | 10,000+ |
+| [LLM Zoomcamp](/blog/llm-zoomcamp.html) | June | 10,000+ |
+| [Machine Learning Zoomcamp](/blog/machine-learning-zoomcamp.html) | September | 10,000+ |
+| [AI Dev Tools Zoomcamp](/blog/ai-dev-tools-zoomcamp.html) | November | 10,000+ |
 
 <figure>
 <img src="/images/posts/2026-07-28-sponsor-datatalks-club/course-module.jpg" alt="Example of a sponsored module inside a free DataTalks.Club Zoomcamp course" title="Zoomcamp course module sponsorship" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />

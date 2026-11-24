@@ -429,9 +429,9 @@ archive:
     are saved in a separate document for future reference?
   replies:
   - name: Alexey Grigorev
-    text: "They are! \nThis is how it looks for previous books - [https://datatalks.club/books/20210517-grokking-deep-reinforcement-learning.html](https://datatalks.club/books/20210517-grokking-deep-reinforcement-learning.html)"
+    text: "They are! \nThis is how it looks for previous books - [https://datatalks.club/books/20210517-grokking-deep-reinforcement-learning.html](/books/20210517-grokking-deep-reinforcement-learning.html)"
   - name: Doink
-    text: '[https://datatalks.club/books/20211011-mastering-transformers.html](https://datatalks.club/books/20211011-mastering-transformers.html)
+    text: '[https://datatalks.club/books/20211011-mastering-transformers.html](/books/20211011-mastering-transformers.html)
       here I didn''t see anything hence asked.'
   - name: Alexey Grigorev
     text: I'll publish the answers eventually. It takes some time, that's why I batch-process it =)

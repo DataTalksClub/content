@@ -33,7 +33,7 @@ DataTalks.Club is a vibrant community of data enthusiasts. We host regular onlin
 
 Subscribing to DataTalks.Club newsletter ensures that you'll get weekly updates filled with the latest community developments: access to free courses, announcements of live online events, collaborative learning projects, and plenty of other engaging community activities.
 
-Link: [https://datatalks.club/](https://datatalks.club/){:target="_blank"}
+Link: [https://datatalks.club/](/){:target="_blank"}
 
 ## 2. Ahead of AI by Sebastian Raschka
 

@@ -167,4 +167,4 @@ By following these tips, you can build a data science team that is poised for su
 
 Happy Data Science!
 
-The content of this article has been inspired by the podcast episode [Building a Data Science Team](https://datatalks.club/podcast/s01e03-building-ds-team.html){:target="_blank"} with Dat Tran at DataTalks.Club.
+The content of this article has been inspired by the podcast episode [Building a Data Science Team](/podcast/s01e03/building-data-team){:target="_blank"} with Dat Tran at DataTalks.Club.

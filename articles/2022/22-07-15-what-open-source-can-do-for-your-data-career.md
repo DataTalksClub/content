@@ -18,7 +18,7 @@ date: '2022-07-15'
 <figcaption>Image by Kushagra Kevat on <a href="https://unsplash.com/photos/KZs5Bt5VDng" target="_blank">Unsplash</a></figcaption>
 </figure>
 
-In today’s data world, we use many open source tools. From data engineering to data science and deep learning. This is a unique opportunity to grow your career in multiple ways. Merve Noyan, Developer Advocate Engineer, shared her journey up to Hugging Face, leader in making Machine Learning more accessible. She also advised on how to get started and where NLP is heading. Here are my takeaways from the excellent podcast at [DataTalks.Club](https://datatalks.club/){:target="_blank"}.
+In today’s data world, we use many open source tools. From data engineering to data science and deep learning. This is a unique opportunity to grow your career in multiple ways. Merve Noyan, Developer Advocate Engineer, shared her journey up to Hugging Face, leader in making Machine Learning more accessible. She also advised on how to get started and where NLP is heading. Here are my takeaways from the excellent podcast at [DataTalks.Club](/){:target="_blank"}.
 
 The article is organized as follows:
 

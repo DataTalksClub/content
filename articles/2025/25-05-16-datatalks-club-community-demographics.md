@@ -21,10 +21,10 @@ date: '2025-05-16'
 
 Previously, we published 4 articles on the results of a big survey about the usage of AI tools, data engineering tools, MLOps tools and LLMs-related tools by our community members:
 
-- [How Do Data Professionals Use MLOps Tools and Frameworks?](https://datatalks.club/blog/how-do-data-professionals-use-ml-and-mlops-tools-and-practices.html){:target="_blank"}
-- [How Do Professionals Use Data Engineering Tools and Practices?](https://datatalks.club/blog/how-do-data-professionals-use-data-engineering-tools-and-practices.html){:target="_blank"}
-- [How Do Professionals Use LLM Tools and Frameworks?](https://datatalks.club/blog/how-do-professionals-use-llm-tools-and-frameworks.html){:target="_blank"}
-- [How Do Professionals Use AI Tools for Personal Productivity?](https://datatalks.club/blog/ai-tools-for-personal-productivity.html){:target="_blank"}
+- [How Do Data Professionals Use MLOps Tools and Frameworks?](/blog/how-do-data-professionals-use-ml-and-mlops-tools-and-practices.html){:target="_blank"}
+- [How Do Professionals Use Data Engineering Tools and Practices?](/blog/how-do-data-professionals-use-data-engineering-tools-and-practices.html){:target="_blank"}
+- [How Do Professionals Use LLM Tools and Frameworks?](/blog/how-do-professionals-use-llm-tools-and-frameworks.html){:target="_blank"}
+- [How Do Professionals Use AI Tools for Personal Productivity?](/blog/ai-tools-for-personal-productivity.html){:target="_blank"}
 
 Check them out if you still haven't!
 

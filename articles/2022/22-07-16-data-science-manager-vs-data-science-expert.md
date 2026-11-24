@@ -147,4 +147,4 @@ Ultimately, it's up to you to decide which role best suits your needs! The decis
 
 ---
 
-*This article is based on the podcast episode [Data Science Manager vs Data Science Expert](https://datatalks.club/podcast/s06e03-manager-vs-expert.html#data-science-managers-in-startups){:target="_blank"} with Barbara Sobkowiak at DataTalks.Club.*
+*This article is based on the podcast episode [Data Science Manager vs Data Science Expert](/podcast/s06e03/data-science-manager-vs-expert-hiring-guide#data-science-managers-in-startups){:target="_blank"} with Barbara Sobkowiak at DataTalks.Club.*

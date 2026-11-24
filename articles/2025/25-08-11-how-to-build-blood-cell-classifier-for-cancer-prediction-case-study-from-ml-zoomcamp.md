@@ -17,11 +17,11 @@ datepublished: '2025-08-11'
 date: '2025-08-11'
 ---
 
-In one of our previous articles, we covered the [waste classifier](https://datatalks.club/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html) built by [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) graduate Serena Haidar. This time, another graduate, Alexander Daniel Rios, walks through his final project: an end-to-end tool that segments and classifies blood cells from microscope images to assist in detecting signs of acute lymphoblastic leukemia (ALL).
+In one of our previous articles, we covered the [waste classifier](/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html) built by [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) graduate Serena Haidar. This time, another graduate, Alexander Daniel Rios, walks through his final project: an end-to-end tool that segments and classifies blood cells from microscope images to assist in detecting signs of acute lymphoblastic leukemia (ALL).
 
 Below, Alexander explains his approach, from problem framing and data preparation to modeling choices, evaluation, and deployment, and what it takes to make the system usable outside a notebook.
 
-> [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html) is a free, four-month online course on core machine learning and taking models to production. A key requirement is an end-to-end capstone/final project that turns course concepts into a working system.
+> [ML Zoomcamp](/blog/machine-learning-zoomcamp.html) is a free, four-month online course on core machine learning and taking models to production. A key requirement is an end-to-end capstone/final project that turns course concepts into a working system.
 
 ## ML Zoomcamp Contribution
 
@@ -240,6 +240,6 @@ Lastly, an [interactive web interface](https://bloodcellcancerprediction.streaml
 
 ## Conclusion
 
-This project was made possible by the solid theoretical and practical grounding I gained in [ML Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html){:target="_blank"}, led by Alexey Grigorev and the DataTalksClub community. The course provided a clear, structured path, from core machine-learning fundamentals to pipeline design and model deployment.
+This project was made possible by the solid theoretical and practical grounding I gained in [ML Zoomcamp](/blog/machine-learning-zoomcamp.html){:target="_blank"}, led by Alexey Grigorev and the DataTalksClub community. The course provided a clear, structured path, from core machine-learning fundamentals to pipeline design and model deployment.
 
 Crucially, it provided me with hands-on experience in preparing and validating datasets, selecting suitable models, and rigorously evaluating their performance. Those skills directly enabled the end-to-end system presented here.

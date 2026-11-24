@@ -291,7 +291,7 @@ DataTalks.Club has a supportive community of like-minded individuals in [our Sla
 
 <figure>
 <img src="/images/posts/2024-11-11-llm-zoomcamp/llm-zoomcamp-slack-community-channel.png" alt="DataTalks.Club Slack community - LLM Zoomcamp course channel with active discussions and peer support for RAG and LLM engineering" title="DataTalks.Club Slack Community - LLM Zoomcamp Channel" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
-<figcaption><p>Active discussions and support in the LLM Zoomcamp <a href="https://datatalks.club/slack.html">Slack community</a> channel</p></figcaption>
+<figcaption><p>Active discussions and support in the LLM Zoomcamp <a href="/slack">Slack community</a> channel</p></figcaption>
 </figure>
 
 
@@ -343,7 +343,7 @@ When you join a live cohort, you get:
 
 ## Frequently Asked Questions
 
-For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [LLM Zoomcamp documentation](https://datatalks.club/docs/courses/llm-zoomcamp/){:target="_blank"}.
+For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [LLM Zoomcamp documentation](/docs/courses/llm-zoomcamp/){:target="_blank"}.
 {% include faq-accordion.html faqs=site.data.faqs.llm-zoomcamp %}
 
 <div style="text-align: center; margin: 2em 0;">

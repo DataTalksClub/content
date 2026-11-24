@@ -185,7 +185,7 @@ archive:
   - name: Taher Hassonjee
     text: Not yet but on the roadmap
 - name: insop
-  text: "Hi Tomaz Bratanic\nThank you for introducing [Graph Algorithms for Data Science](https://datatalks.club/books/20220926-graph-algorithms-for-data-science.html)\
+  text: "Hi Tomaz Bratanic\nThank you for introducing [Graph Algorithms for Data Science](/books/20220926-graph-algorithms-for-data-science.html)\
     \ , I would be very interested in reading recommendation and fraud detection chapters from your book.\n\
     - one general question, what would be the difference that you are covering in your book and GNN (graph\
     \ neural network) and graph CNN? \n- and what are the applications for each of those can be applied?\n\

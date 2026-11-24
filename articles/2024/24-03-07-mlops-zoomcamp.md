@@ -284,10 +284,10 @@ To receive a certificate, you'll need to complete the [final project](#what-youl
 
 <figure>
 <img src="/images/posts/2024-03-07-mlops-zoomcamp/mlops-zoomcamp-slack-community-channel.png" alt="DataTalks.Club Slack community - MLOps Zoomcamp course channel with active discussions and peer support for machine learning operations" title="DataTalks.Club Slack Community - MLOps Zoomcamp Channel" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
-<figcaption><p>Active discussions and support in the MLOps Zoomcamp <a href="https://datatalks.club/slack.html">Slack community</a> channel</p></figcaption>
+<figcaption><p>Active discussions and support in the MLOps Zoomcamp <a href="/slack">Slack community</a> channel</p></figcaption>
 </figure>
 
-[DataTalks.Club](https://datatalks.club/) is a global community of 80,000+ data professionals who connect on [Slack](https://datatalks.club/slack.html){:target="_blank"} to share knowledge, ask career questions, and collaborate across analytics, ML, and data engineering. When you join MLOps Zoomcamp, the dedicated Slack channel becomes your daily workspace for troubleshooting, accountability, and celebrating wins with peers following the same modules.
+[DataTalks.Club](/) is a global community of 80,000+ data professionals who connect on [Slack](/slack){:target="_blank"} to share knowledge, ask career questions, and collaborate across analytics, ML, and data engineering. When you join MLOps Zoomcamp, the dedicated Slack channel becomes your daily workspace for troubleshooting, accountability, and celebrating wins with peers following the same modules.
 
 ## How to Join MLOps Zoomcamp
 
@@ -328,7 +328,7 @@ Even if you join after the official start date, you can still follow along — b
 
 ## Frequently Asked Questions
 
-For more details about how our courses work, check the [Zoomcamp logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/){:target="_blank"}.
+For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"}.
 
 {% include faq-accordion.html faqs=site.data.faqs.mlops-zoomcamp %}
 

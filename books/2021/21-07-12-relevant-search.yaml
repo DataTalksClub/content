@@ -270,7 +270,7 @@ archive:
   - name: Kim Falk
     text: Good answer 🙂
   - name: Alexey Grigorev
-    text: Doug Turnbull maybe Kim Falk knows? I've heard he's answering questions in August [here](https://datatalks.club/books/20210802-practical-recommender-systems.html).
+    text: Doug Turnbull maybe Kim Falk knows? I've heard he's answering questions in August [here](/books/20210802-practical-recommender-systems.html).
 - name: Alexey Grigorev
   text: Do you know how it works? The query is "movie where a man wakes up on the same day" and it correctly
     identifies it as "Groundhog Day"
