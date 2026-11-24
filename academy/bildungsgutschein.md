@@ -23,16 +23,16 @@ facts:
   items:
   - label: Start
     value: April 2027
-  - label: Vollzeit und live
-    value: 13 Wochen
+  - label: Format
+    value: Vollzeit, live, 13 Wochen
   - label: Ort
     value: Berlin oder live online
   - label: Sprache
     value: Englisch
   - label: Plätze
     value: '15'
-  - label: Bildungsgutschein (AZAV)
-    value: In Kürze
+  - label: Förderung
+    value: Bildungsgutschein (in Kürze)
 fit:
   heading: Für wen das gedacht ist
   for_title: Passend für Sie, wenn
