@@ -15,7 +15,7 @@ english:
   text: 'For English, check this page:'
   link:
     label: DataTalks.Club Academy programs and funding
-    href: /academy/#funding
+    href: /academy/#facts
 facts:
   label: Fakten im Überblick
   items:

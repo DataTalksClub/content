@@ -21,13 +21,6 @@ tracks:
   - 1
   - 3
   - 5
-funding:
-  heading: How Funding and the Bildungsgutschein Work
-  paragraphs:
-  - Designed for Bildungsgutschein funding (AZAV), coming soon.
-  link:
-    label: Bildungsgutschein guide (Deutsch)
-    href: /academy/bildungsgutschein/
 schema:
   organization:
     name: DataTalks.Club
