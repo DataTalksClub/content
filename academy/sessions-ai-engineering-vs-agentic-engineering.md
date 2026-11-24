@@ -28,6 +28,10 @@ related:
 join:
   heading: Join the Waitlist
   text: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
+# The session recording: paste its public YouTube URL here (youtube.com/watch?v=... or youtu.be/...).
+# Empty shows "Recording coming soon" in the same frame.
+recording: https://youtu.be/roiT85s5vxA
+slides: images/academy/slides/session-1.pdf
 ---
 
 ## The Audience for This Session

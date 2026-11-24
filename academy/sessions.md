@@ -81,6 +81,7 @@ sessions:
   date_label: Tue 15 Dec
   weekday_date: Tuesday 15 December
   hero_time: 16:30 Berlin
+  sequence: 1
   starts: '2026-12-15T15:30:00Z'
   ends: '2026-12-15T16:30:00Z'
   title: 'AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs'
