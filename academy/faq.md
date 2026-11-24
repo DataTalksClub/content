@@ -8,7 +8,6 @@ sitemap: 6
 eyebrow: DataTalks.Club Academy
 heading: Frequently Asked Questions
 lead: Direct answers about the two full-time programs, Agentic Engineering and AI Engineering, starting April 2027.
-button: Join the Waitlist
 list_label: Questions and answers
 items:
 - question: Who Is DataTalks.Club Academy For?

@@ -15,7 +15,6 @@ hero:
   lead: Hireable With AI is a series of three free online sessions for developers with 2+ years of experience who were laid off, are in their notice period or are looking for a job. They run on Mondays 23 Nov and 30 Nov at 17:00 and Tuesday 15 Dec 2026 at 16:30 Berlin time, on Zoom, in English. Each one is a 15 to 20 minute talk by Alexey Grigorev, then Q&A.
   button: Choose my sessions
   under_button: Your email gets you the recordings and materials. Meetup gives you the Zoom link and reminders, so RSVP there for each session you choose.
-  speaker_line: I'm Alexey Grigorev, founder of DataTalks.Club. 15 years in software engineering and ML, teaching online since 2020.
   speaker_photo: images/academy/alexey.jpg
   speaker_alt: Alexey Grigorev
 sessions:
@@ -107,7 +106,7 @@ sessions:
   meetup_url: https://www.meetup.com/berlin-datatalks-club/events/317427758/
 rsvp_published: false
 audience:
-  heading: Who these sessions are for
+  heading: Who These Sessions Are For
   intro: 'I made these sessions for developers in Berlin who already write code:'
   items:
   - You're job hunting, laid off or in a notice period.
@@ -115,35 +114,35 @@ audience:
   outro: Any programming language works for the first two sessions, and Python helps for 15 December. Anyone can join from anywhere, though the job market and Agentur für Arbeit parts focus on Berlin.
   note: If you've never written code, these sessions will move too fast. My free [Zoomcamps](/courses/) are a better place to start.
 schedule:
-  heading: Two Mondays 17:00, final Tuesday 16:30 Berlin time
+  heading: Two Mondays at 17:00, a Final Tuesday at 16:30 Berlin Time
   after: After the talk and Q&A I spend about ten minutes on the full-time program starting April 2027 and on how the Bildungsgutschein works. If you're not interested, you can leave before that part.
 host:
-  heading: Who runs the sessions
+  heading: Who Runs the Sessions
   text: I'm Alexey Grigorev. I've worked in software engineering and machine learning for 15 years and have been teaching online since 2020, when I founded DataTalks.Club. I have taught more than 100,000 students in DataTalks.Club courses. I also wrote Machine Learning Bookcamp.
 numbers:
-  heading: Numbers behind session 1
+  heading: Numbers Behind Session 1
   items:
   - '10.1% of 4,820 engineering job postings at 179 tech companies list AI coding tools such as Cursor or Claude Code as a requirement. Source: [match.dev, September 2026](https://www.match.dev/post/ai-coding-tools-in-job-postings/data/).'
   - 'In September 2026 Berlin had 3,280 unemployed software developers and 100 open vacancies registered with the Bundesagentur für Arbeit. Source: [Stellenradar, based on BA data, September 2026](https://stellenradar.org/presse/2026-09-berlin-werbung-gastronomie-software).'
 faq:
   heading: Questions
   items:
-  - question: Is it really free?
+  - question: Is It Really Free?
     answer: Yes. No payment and no card. I only use your email for session links and recordings.
-  - question: I can't make it at 17:00. Should I still register?
+  - question: I Can't Make It at 17:00. Should I Still Register?
     answer: Yes. Everyone who registers gets the recording and materials by email after each session.
-  - question: I don't live in Berlin. Can I join?
+  - question: I Don't Live in Berlin. Can I Join?
     answer: Yes. The job market and Agentur für Arbeit examples are for Germany, while the rest applies anywhere.
-  - question: Is this a sales pitch for a course?
+  - question: Is This a Sales Pitch for a Course?
     answer: Each session starts with a 15 to 20 minute talk and Q&A. At the end I spend about 10 minutes on the full-time program for 15 people starting April 2027. Designed for Bildungsgutschein funding (AZAV), coming soon.
-  - question: I've already done an AI bootcamp or a prompting course. Will this be the same?
+  - question: I've Already Done an AI Bootcamp or a Prompting Course. Will This Be the Same?
     answer: No. These sessions assume you write software, so there's no ChatGPT intro.
-  - question: Do I need to know Python?
+  - question: Do I Need to Know Python?
     answer: It helps for 15 December. Any language is fine for the first two.
-  - question: What happens to my email?
+  - question: What Happens to My Email?
     answer: I send you the session links, reminders and recordings. If you tick the box in the form, I'll also write about the April 2027 program. You can unsubscribe any time. Details are in the [privacy notice](/academy/privacy/).
 final:
-  heading: Choose your sessions
+  heading: Choose Your Sessions
   text: Free and online, Mondays 23 November and 30 November at 17:00, Tuesday 15 December at 16:30 Berlin time. Recordings go to everyone who registers.
 form:
   email_label: Email

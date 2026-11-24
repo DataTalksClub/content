@@ -8,23 +8,42 @@ sitemap: 1
 hero:
   eyebrow: DataTalks.Club Academy
   headline: Live Full-Time Courses in Berlin or Online
-  lead: 'DataTalks.Club Academy is a full-time live program in English for experienced developers in Germany, taught by Alexey Grigorev, who has taught more than 100,000 students in DataTalks.Club courses. There are two programs, Agentic Engineering and AI Engineering, each 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, with 15 seats. Start: April 2027, and the programs are designed for Bildungsgutschein funding (AZAV), coming soon.'
-  links:
-  - label: 'Free sessions: Hireable With AI'
-    href: /academy/sessions/
-  - label: AI Engineering vs Agentic Engineering
-    href: /academy/guides/ai-engineering-vs-agentic-engineering/
-  - label: Bildungsgutschein (English)
-    href: /academy/guides/bildungsgutschein-in-english/
-  - label: Bildungsgutschein (Deutsch)
-    href: /academy/bildungsgutschein/
+  lead: 'DataTalks.Club Academy runs two full-time live programs in English for experienced developers in Germany: Agentic Engineering and AI Engineering. Each takes 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, and you ship a project every week.'
 tracks:
-  label: Choose a track
+  label: Choose a Program
   button_prefix: Read about
+  compare:
+    label: AI Engineering vs Agentic Engineering
+    href: /academy/guides/ai-engineering-vs-agentic-engineering/
   outcomes:
   - 1
   - 3
   - 5
+funding:
+  heading: Funding
+  paragraphs:
+  - The programs are designed for Bildungsgutschein funding (AZAV), coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognised training when your adviser agrees you need it.
+  - Talk to your adviser early, so your appointment happens before applications open.
+  links:
+  - label: Bildungsgutschein guide (English)
+    href: /academy/guides/bildungsgutschein-in-english/
+  - label: Bildungsgutschein guide (Deutsch)
+    href: /academy/bildungsgutschein/
+sessions:
+  heading: 'Free Sessions: Hireable With AI'
+  text: Three free online talks for experienced developers looking for their next job, each followed by Q&A.
+  link_label: See the sessions
+articles:
+  heading: Articles
+  link_label: All articles
+faq:
+  heading: Questions
+  picks:
+  - 1
+  - 3
+  - 8
+  - 9
+  link_label: All questions
 schema:
   organization:
     name: DataTalks.Club

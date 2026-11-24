@@ -3,14 +3,16 @@ layout: guide
 path: /academy/bildungsgutschein/
 lang: de
 hreflang: true
+alternates:
+- lang: en
+  path: /academy/guides/bildungsgutschein-in-english/
 title: Bildungsgutschein für KI-Weiterbildung auf Englisch | DataTalks.Club Academy
 description: 'KI-Weiterbildung auf Englisch für erfahrene Softwareentwickler in Deutschland. Förderung per Bildungsgutschein (AZAV) in Kürze. Start: April 2027.'
 sitemap: 5
 hero:
   eyebrow: DataTalks.Club Academy
-  headline: Bildungsgutschein für KI-Weiterbildung auf Englisch
+  headline: Bildungsgutschein für KI‑Weiterbildung auf Englisch
   lead: 'DataTalks.Club Academy bietet zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland: Agentic Engineering und AI Engineering. Beide dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr, in Berlin oder live online, und sind für die Förderung per Bildungsgutschein nach AZAV konzipiert. Start: April 2027.'
-  funding_line: Förderung per Bildungsgutschein (AZAV) in Kürze.
 english:
   text: 'For English, check this page:'
   link:
@@ -22,15 +24,15 @@ facts:
   - label: START
     value: April 2027
   - label: FORMAT
-    value: Vollzeit, live, 3 Monate (13 Wochen), Mo–Fr 09:00–16:30 Uhr Berliner Zeit
+    value: Vollzeit, live, 3 Monate (13 Wochen)
   - label: ORT
     value: Berlin oder live online
   - label: SPRACHE
-    value: Englisch (Unterricht und Materialien)
+    value: Englisch
   - label: PLÄTZE
-    value: 15 Plätze, direkt mit Alexey Grigorev
+    value: '15'
   - label: FÖRDERUNG
-    value: Förderung per Bildungsgutschein (AZAV) in Kürze.
+    value: Bildungsgutschein (in Kürze)
 fit:
   heading: Für wen das gedacht ist
   for_title: Passend für Sie, wenn
@@ -51,12 +53,12 @@ programs:
     name: Agentic Engineering
     summary: Bei Agentic Engineering nutzen Sie Werkzeuge wie Claude Code oder Cursor, damit der größte Teil des Codes geschrieben wird, während Sie entscheiden, was gebaut wird, und das Ergebnis prüfen.
     basis: Dieses Programm basiert auf dem AI Dev Tools Zoomcamp und auf der Erfahrung, Coding Agents seit einem Jahr rund um die Uhr einzusetzen.
-    button: 'Auf die Warteliste: Agentic Engineering'
+    button: Mehr zu Agentic Engineering
   - slug: ai-engineering
     name: AI Engineering
     summary: Bei AI Engineering bauen Sie Produkte, die LLMs nutzen, zum Beispiel Chatbots, Suche über Dokumente oder Agenten, die Aufgaben für Nutzer erledigen.
     basis: Dieses Programm basiert auf dem LLM Zoomcamp, dem AI Engineering Buildcamp und auf der Erfahrung, KI-Produkte zu bauen und in Produktion zu bringen.
-    button: 'Auf die Warteliste: AI Engineering'
+    button: Mehr zu AI Engineering
 guide:
   heading: Was ein Bildungsgutschein ist und wie Sie sich vorbereiten
   paragraphs:
@@ -79,9 +81,9 @@ join:
   heading: Auf die Warteliste
   text: 'Start: April 2027. Tragen Sie sich auf der englischen Programmseite in die Warteliste ein. Sie hören zuerst, wenn die Bewerbung öffnet.'
   actions:
-  - label: Auf die Warteliste (Agentic Engineering)
+  - label: Agentic Engineering
     href: /academy/agentic-engineering/#signup-hero
-  - label: Auf die Warteliste (AI Engineering)
+  - label: AI Engineering
     href: /academy/ai-engineering/#signup-hero
   sessions_label: Kostenlose Info-Sessions (Hireable With AI)
 ---

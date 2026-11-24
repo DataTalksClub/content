@@ -12,7 +12,7 @@ heading: Privacy
 
 DataTalks.Club, Schönensche Str. 13, 10439 Berlin, Germany, represented by Alexey Grigorev. Contact: [alexey@datatalks.club](mailto:alexey@datatalks.club).
 
-## 2. What this site stores when you join a shortlist
+## 2. What this site stores when you join a waitlist
 
 Your email address; the track you chose; the date and time; the page you signed up on; the campaign parameters in the link you followed (`utm_*`) and the referring page; your browser language; and, if you answer them, the two optional questions (where you are based, how you would pay). Not stored: your IP address, your browser details, cookies.
 
@@ -26,7 +26,7 @@ Page views are measured only through the DataTalks.Club website's consent-based 
 
 ## 5. Who processes the data
 
-Amazon Web Services EMEA SARL stores the shortlist in the EU (Ireland, region eu-west-1) and runs the service that receives the form. This site is hosted on the DataTalks.Club platform, which processes your IP address and browser details in its server logs to deliver the pages and to keep the service secure. Amazon Web Services does the same for the service that receives the form. These logs are not linked to your shortlist entry. Emails are sent through Amazon SES.
+Amazon Web Services EMEA SARL stores the waitlist in the EU (Ireland, region eu-west-1) and runs the service that receives the form. This site is hosted on the DataTalks.Club platform, which processes your IP address and browser details in its server logs to deliver the pages and to keep the service secure. Amazon Web Services does the same for the service that receives the form. These logs are not linked to your waitlist entry. Emails are sent through Amazon SES.
 
 Amazon is a US company or belongs to one. Where data reaches the USA, the transfer is covered by the EU-US Data Privacy Framework or by the EU standard contractual clauses.
 
