@@ -33,3 +33,51 @@ notes: 'Dewang Sultania joins Alexey Grigorev for the second conversation with t
   * [Dewang on GitHub](https://github.com/iron-stark){:target="_blank"}
 
   * [Part 1 with Suhas Suresha](s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals.html)'
+summary: |-
+  Dewang Sultania is an ML engineer at Netflix who works on multimodal AI and on deploying machine
+  learning models to production. Before that he spent five years at Adobe, starting on the inference
+  platform team and later working on search. He co-wrote a book on AI platform engineering because,
+  since 2023, he saw that building an LLM prototype was getting easier while turning it into a
+  reliable production service was getting harder. This follow-up conversation with Alexey revisits
+  the platform components from their earlier session and works through audience questions on evals,
+  tools and agents.
+
+  Dewang says a team starting from zero should build the model service first, since every other
+  component depends on LLM inputs and outputs. He argues that the orchestrator belongs in the
+  platform as the user-facing layer that connects the other components through decorators or an SDK,
+  often built around Pydantic AI or LangGraph. Both agree that every AI engineer should implement
+  the tool-calling loop by hand at least once to understand it and to judge vendors. For people who
+  want to become AI platform engineers, Dewang suggests studying what Bedrock provides and building
+  several applications to find the shared components (sessions, data, tools, guardrails,
+  observability). He separates session management, which means storing many users' chats at scale,
+  from memory, which is what the model remembers about a person across sessions.
+
+  Most of the audience questions were about evaluation. Dewang describes evals as CI/CD for the
+  model, where every production failure becomes a unit test. Alexey adds that when nobody wants to
+  contribute, you can start the practice yourself. To build datasets, Dewang recommends synthetic
+  data for the cold start, sampling ten or twenty percent of production traffic once you have users,
+  and using product requirement documents and stakeholders to define expected inputs and outputs.
+  Benchmarks help you choose a starting model, while evals cover your own case, such as tool calling
+  on internal APIs, and bad tool calls can be fixed with few-shot examples of past mistakes or extra
+  fine-tuning data.
+
+  On tools, Dewang stresses good descriptions and keeping only relevant tools in context, since five
+  hundred tools in a prompt make responses slower and less accurate. He says MCP spread because
+  experts describe their own tools, as with GitHub MCP, and he expects it to coexist with CLIs: many
+  internal systems only expose APIs, and MCP is easier to distribute. Multi-agent systems fit
+  products with many separate tasks, like personal assistants, OpenClaw or Acrobat AI Assistant, but
+  a single task like ordering pizza needs only one agent. Alexey points out that each subagent needs
+  its own eval set.
+
+  For LLM judges, Dewang recommends using a different model family from the generator to avoid bias,
+  and says that humans, through user feedback or stakeholder review, are the ones who evaluate the
+  judge. When adding failures to the eval set lowers the metric, versioning helps: V1 results stay
+  comparable, V2 covers the new cohort, and V1 is rechecked for regressions. For the
+  lost-in-the-middle problem, he suggests logging the complete prompt for a few examples, including
+  tool descriptions and skills, and removing what the query does not need.
+
+  The practical lessons are to start an AI platform with the model service, to build real
+  applications before generalizing them, and to treat evals as the answer to almost every design
+  question. Version your eval sets, feed production failures back as tests, align judges with human
+  feedback and read the full prompt your model receives. Use multi-agent designs and large tool sets
+  only when the problem requires them.

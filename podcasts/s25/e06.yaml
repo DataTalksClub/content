@@ -32,3 +32,49 @@ resources:
   url: https://github.com/suhas1992
 - title: Website
   url: https://suhassuresha.com/
+summary: |-
+  Suhas Suresha is a senior machine learning engineer at Adobe, where he builds large scale
+  generative AI platforms. He co-wrote Designing AI Systems, a Manning book now in early access with
+  all ten chapters available. He and Alexey talk about taking an AI prototype into production and
+  why companies running many AI projects need a centralized platform.
+
+  Suhas says that when he and his coauthor shipped their own proofs of concept, only two to five
+  percent of the effort went into the generative AI itself. The rest was engineering: state across
+  conversations, grounding, safe tool use, guardrails, scaling and cost visibility. Once a company
+  has five to ten AI projects, each team rebuilds session storage, vector search and observability,
+  which the book calls AI sprawl. He defines a platform as something that takes care of production
+  concerns so developers only write business logic, and he agrees with Alexey that Vercel is a good
+  example. He would not tell a solo founder to build one, but knowing how it works helps when
+  choosing vendors. He recommends a plug and play design where Postgres can be swapped for
+  Elasticsearch, or one LLM provider for another.
+
+  For backend engineers moving into AI platform engineering, he suggests starting with the request
+  lifecycle of an agent and the agentic loop, then working backwards to the services that are
+  needed. The model service has to handle failovers and rate limits, not only routing. In the data
+  service, most of the time goes into detecting document formats, parsing PDFs with complex layouts,
+  and offering chunking strategies that teams can register on top of stores like Pinecone,
+  Elasticsearch or Postgres. Observability records the time spent in each component. That shows
+  where to work when you need to cut average latency from two seconds to under one, or when a tool
+  that takes a minute gets called twenty times in one query.
+
+  Evaluation matters because a chatbot can return only successful status codes and still help
+  nobody. Suhas suggests sampling production requests, scoring them with automated or human scorers,
+  and feeding the failures into experimentation. Rather than comparing models alone, he versions the
+  whole artifact: model, system prompt, tool definitions and harness. Cost tracking covers model
+  calls, embeddings, guardrails and paid MCP servers. He describes three kinds of memory: turns
+  within a session, retrieval across past sessions, and model managed memory that the model saves
+  through a tool.
+
+  The platform also needs a tool service with a registry, discovery, safe execution and MCP support,
+  plus custom guardrail policies. The orchestrator should support both fixed DAG pipelines and
+  agentic loops, and the book builds such a loop in about fifty lines of Python. Agents need
+  synchronous, streaming and asynchronous (polling) invocation modes, with batch mode for
+  evaluations and ingestion. Durability belongs in every service, not in one layer. Suhas says these
+  nine components cover ninety nine percent of applications.
+
+  For practitioners, the lessons are to plan for the production work that follows a prototype and to
+  centralize shared services once several teams build AI applications. Platform work starts with
+  understanding how an agent handles a request. Build components as replaceable interfaces, version
+  prompts, tools and harnesses together, and evaluate sampled production traffic instead of trusting
+  error rates. Alexey points out that memory depends on the use case, but serving many users
+  requires a persistent store such as Postgres or MongoDB behind a standard session abstraction.

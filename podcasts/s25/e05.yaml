@@ -26,3 +26,50 @@ resources:
   url: https://github.com/sahil-walia
 - title: Website
   url: https://medium.com/@sahil-walia
+summary: |-
+  Sahil Walia is a senior technical architect at Snowflake. Since 2024 he has worked with enterprise
+  customers who run Apache Iceberg lakehouses. He has spent more than a decade in data engineering.
+  He started in SQL-heavy reporting roles, then automated reporting at Ernst Young and architected
+  modern data lakes at Slalom. He maintains Schema Change, an open-source database migration project
+  with nearly 500,000 downloads per month, and contributes to Open Semantic Interchange (OSI).
+  Alexey says his own knowledge of lakehouses dates from the Glue and Hive era, so he asks Sahil
+  what an open lakehouse actually is.
+
+  Sahil describes how data platforms moved from schema-on-write warehouses, to raw files dumped into
+  S3, to interoperable open lakehouses where storage is decoupled from compute and built on open
+  formats. Parquet files alone are not a lakehouse. Engines also need metadata about the files and a
+  catalog that points to the latest state of each table, supports time travel and manages
+  permissions. Hive Metastore had to list every file under a path, which became a problem for
+  Netflix at petabyte scale. Iceberg instead keeps a metadata JSON file with snapshots, manifest
+  lists in Avro files and min and max statistics, so engines read only the files they need. Sahil
+  stresses that Iceberg is a table format, and that the Iceberg REST catalog is the closer analogue
+  to Hive Metastore.
+
+  For GDPR deletions, Iceberg writes small delete files rather than rewriting data files. Alexey
+  connects this to tombstones and periodic compaction. Sahil recommends managed offerings that
+  automate compaction and orphan file cleanup, and compares this to paying someone to mow your lawn.
+  He considers Iceberg more open than Delta Lake because no single vendor drives it, and it has
+  committers from Snowflake, Apple, Netflix and LinkedIn. He warns that two engines can both claim
+  Iceberg write support while meaning different things, so teams should build a matrix of the
+  operations they need.
+
+  When Alexey asks whether DataTalks.Club needs a lakehouse, Sahil says that with fewer than ten
+  million records you should not even think about Iceberg, and Alexey concludes that Postgres is
+  enough for now. Some companies still adopt Iceberg early because they expect to grow, and in
+  Snowflake a create table statement with the catalog set to Snowflake handles everything. Sahil
+  notes that Iceberg queries were 10 to 20 percent slower in some benchmarks. He also notes that
+  frequent streaming commits pile up metadata, so batching through a Kafka queue works better.
+
+  OSI works at the logical layer. A semantic view defines metrics, dimensions, trusted queries and
+  synonyms, so that LLM answers to questions like "revenue for the last ten days" stay as
+  deterministic as possible. OSI transpiles that definition so it can be reused in dbt or Databricks
+  without rewriting it. Schema Change brings versioned, Git-tracked migrations to Snowflake, similar
+  to Flyway, Liquibase or Django migrations. Sahil used it for a year and a half on a client project
+  before he started contributing.
+
+  The practical advice is to stay with a simple database until data volume justifies Iceberg's
+  overhead. Teams that do adopt it should check which operations each engine really supports,
+  consider managed maintenance and batch streaming commits. To get into open source, Sahil suggests
+  starting with good first issues, joining the developer mailing list and building trust through
+  proposals and pull requests. AI-assisted contributions are welcome only when you understand and
+  own the code, and you should never hand context management entirely to AI.

@@ -31,3 +31,52 @@ notes: 'Miguel Otero Pedrido, an ML and AI engineer and author of The Neural Maz
 
   * [Miguel on GitHub](https://github.com/MichaelisTrofficus){:target="_blank"}'
 image: images/podcast/s25e08-navigating-the-maze-of-production-machine-learning.jpg
+summary: |-
+  Miguel Otero Pedrido is an ML/AI engineer who studied physics, researching gravitation, spacetime
+  curvature and quantum field theory, before moving into machine learning. He works on Zapier's AI
+  platform team. He also runs The Neural Maze, an educational brand on YouTube, LinkedIn and a
+  Substack newsletter, where he teaches the parts of production AI that tutorials often skip,
+  drawing on ten years of deploying systems. He and Alexey talk about why traditional machine
+  learning still matters, how to build recommender systems, how the ML and AI engineering roles are
+  changing, and how Zapier handles traces, routing and evaluation.
+
+  Miguel says people tend to overestimate new tools. In recommender systems, which he has worked on
+  for five or six years, matrix factorization or learning-to-rank with gradient-boosted trees can
+  beat LLMs in benchmarks, and they are deterministic. He notes that a lot of the excitement around
+  Jev as a router could apply just as well to a random forest. His default is to start with the
+  simplest solution, even a heuristic, and to keep a classic algorithm as a benchmark. He thinks
+  Netflix's foundation-model recommender fits its huge data volumes, but warns that results in a
+  notebook may not justify the cost of running an LLM in production.
+
+  Alexey asks how Miguel would build a recommender for a brand-new online shoe store. Miguel would
+  start with a content-based approach that matches user attributes to item attributes. Once there
+  are enough interactions, he would move to collaborative filtering with matrix factorization on
+  implicit feedback. After that come contextual bandits with Thompson sampling, which add randomness
+  so the system avoids an echo chamber and balances exploration against exploitation. He then
+  describes the four-stage production design: cheap candidate generation, filtering, a slower and
+  more accurate ranking step, and a business layer that can promote items.
+
+  Miguel sees two main uses for LLMs in recommenders: generating synthetic data and explaining
+  recommendations in natural language. An LLM can't guarantee its output is in the catalog, even
+  with RAG or fine-tuning. He thinks Claude could produce a sensible plan for a recommender, but
+  system design still belongs to engineers, and taking model output without questioning it builds
+  "comprehension debt." Alexey gives an example: agents picked a large Postgres instance when
+  serverless DynamoDB would have done, and his AWS bill doubled. On job titles, Miguel calls AI
+  engineering without fine-tuning "software engineering with new tools." Alexey shares his own
+  scraped job data: the share of AI engineer postings asking for PyTorch fell from forty percent or
+  more to below thirty percent.
+
+  At Zapier, Miguel built a pipeline that redacts customer PII from about twenty million trace spans
+  per day landing in Databricks, using a model that isn't an LLM. He also works on an AI gateway
+  with fallbacks across cloud providers and semantic routing, where a light model such as BERT sends
+  each request to the most suitable LLM. For evaluation, he follows Hamel Husain's error analysis:
+  annotate a sample of traces, cluster them with k-means on numeric metrics such as hallucination
+  scores or failed tool calls, and choose which error groups to fix.
+
+  For practitioners, the main lessons are to start with heuristics or classic models as a baseline
+  and add complexity only when the metrics justify it. Contextual bandits help keep recommendations
+  from collapsing into an echo chamber, and LLMs work best in a recommender as an explanation layer
+  rather than the core model. Engineers should keep enough foundational knowledge to question what
+  agents produce. Evaluation is where most of the effort belongs. Miguel and Alexey also agree on a
+  practical pattern: launch with a foundation model, collect its predictions, then distill them into
+  a cheaper custom model such as a BERT classifier served with Candle.

@@ -38,3 +38,46 @@ notes: 'Tejas Kumar, an AI engineer at IBM and author of Fluent React, joins Ale
 
   * [Tejas on X](https://x.com/TejasKumar_){:target="_blank"}'
 image: images/podcast/s25e09-building-ai-evaluations-you-can-actually-trust.jpg
+summary: |-
+  Tejas Kumar is an AI engineer at IBM in Berlin, the author of Fluent React and host of the
+  ConTejas Code podcast. He and Alexey discuss how to build AI evaluations: where eval cases come
+  from, how to make an LLM judge trustworthy, how to keep datasets fresh, and whether evals should
+  cover an agent's trajectory. Tejas went from frontend work in Qatar and German startups to
+  backend, Spotify, Vercel and DataStax, which IBM acquired. He became an AI engineer after
+  experimenting with Stable Diffusion and DreamBooth. Today he works on IBM's coding agent Bob,
+  token efficiency and safety.
+
+  Tejas follows swyx's article "The Rise of the AI Engineer" and defines AI engineering as working
+  behind the API: calling a model for inference to solve problems, with no model training or math
+  required. To explain why evals matter, he describes an Instagram support chatbot with too much
+  access. Attackers used it to add recovery emails to other people's accounts, and more than 20,000
+  accounts were affected. He calls AI evals fuzzy unit tests for nondeterministic output, and says a
+  good suite should also catch cases nobody thought of.
+
+  He gives an e-commerce example: a customer wants a refund on headphones a month after purchase,
+  but the store only allows returns within fourteen days. Keyword matching can't reliably check the
+  agent's reply, so teams use an LLM as a judge. Cases come from sampling real conversations.
+  Startups can use synthetic data, where an LLM tries to break the agent. A trusted human labels 30
+  to 100 samples to build a golden dataset, and the judge is tested against those labels without
+  seeing them. Tejas aims for about 85% agreement, which he says matches how often human support
+  teams agree with each other. If agreement is too low, the judge is missing context or policy. If
+  it's too high, the judge has probably overfit. His team fails the build when agreement is below
+  85% or above 95%. He adds that all of this can be built with Jest or Vitest instead of a platform
+  like Arize.
+
+  Every production failure goes into the suite right away. The golden dataset is refreshed on a
+  rolling window, every fourteen to twenty-eight days depending on the stakes. High-severity cases
+  are pinned, not weighted: these "closed-hand" evals must pass every time, while "open-hand" cases
+  from recent traffic can tolerate some disagreement. Alexey challenges Tejas on treating judge
+  agreement as the main metric. For Alexey, agreement only checks the judge, and the agent's quality
+  is the judge's aggregated score, which he uses to compare prompts and models. Tejas agrees the
+  primary metric belongs to the agent, but says a trustworthy judge is the eval suite's job. They
+  also disagree about trajectories. Tejas keeps the agent's steps and latency in a separate harness
+  test suite, while Alexey wants to evaluate the whole agent.
+
+  For practitioners, the advice from the episode is to: build a small golden dataset from real or
+  synthetic conversations labeled by humans, calibrate the judge against it with about 85% agreement
+  as the target, and pin high-severity cases that must always pass. Add every production failure to
+  the suite immediately, refresh the data on a schedule that matches the risk, and block releases
+  when the eval results fall outside the agreed range. Teams should also decide explicitly whether
+  the agent's trajectory is part of their evals or belongs in a separate suite.
