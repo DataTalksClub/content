@@ -12,6 +12,9 @@ tags:
 title: Building an AI Agent that Thrives in the Real World
 datepublished: '2025-02-26'
 date: '2025-02-26'
+sponsor:
+  name: Arize
+  url: https://arize.com/
 ---
 
 <figure>
@@ -111,5 +114,3 @@ Once we’ve run our tests and are satisfied with the results, we commit the cod
 Development isn’t a linear process. We use these workflows as essential parts of both development and production, constantly looking for ways to improve the user experience. By sharing these workflows, we hope to inspire you to take a similar approach in your own development processes.
 
 Want hands-on experience rigorously evaluating AI agents? Take the **Evaluating AI Agents** short course from DeepLearning.AI and Arize [here](https://www.deeplearning.ai/short-courses/evaluating-ai-agents/?utm_campaign=arize-launch&utm_medium=partner&utm_source=arize){:target="_blank"} and level up your skills today!
-
-*This post is sponsored by [Arize](https://arize.com/){:target="_blank"}. We thank the [Arize](https://arize.com/){:target="_blank"} team for their ongoing support of the community.*

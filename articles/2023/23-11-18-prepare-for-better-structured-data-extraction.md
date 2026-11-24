@@ -12,6 +12,9 @@ tags:
 title: Prepare for (Better) Structured Data Extraction
 datepublished: '2023-11-18'
 date: '2023-11-18'
+sponsor:
+  name: Arize
+  url: https://arize.com/
 ---
 
 <figure>
@@ -160,6 +163,3 @@ Remember that verifying correctness of extraction at scale or in a batch pipelin
 Evaluating data extraction tasks performed by LLMs is challenging with these models being non-determinism and often not having “ground truths” for their language tasks; However, with careful monitoring and LLM observability using LLMs for structured data extraction can scale faster and perform better than any previously used methods.
 
 Ready to dive deeper? Get certified in key areas like [Traces and Spans](https://courses.arize.com/p/llm-observability-traces-spans?dl_cd=eyJrdiI6IktWX2VjOGE0OTI2YTE5MGVhNzBiZTMyMWUzMWFlZDM2YWEwIiwiaXNQcmV2aWV3IjpmYWxzZX0%3D){:target="_blank"} or [Agents, Tools, and Chains](https://courses.arize.com/p/agents-tools-and-chains?dl_cd=eyJrdiI6IktWX2VjOGE0OTI2YTE5MGVhNzBiZTMyMWUzMWFlZDM2YWEwIiwiaXNQcmV2aWV3IjpmYWxzZX0%3D){:target="_blank"} or ask questions on the [Arize community](https://arize.com/community/){:target="_blank"}.
-
-<em>This post is sponsored by [Arize](https://arize.com/){:target="_blank"}.
-We thank the [Arize](https://arize.com/) team for their ongoing support of the community.</em>

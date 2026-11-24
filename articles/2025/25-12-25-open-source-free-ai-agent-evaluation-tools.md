@@ -28,6 +28,9 @@ faq:
 - question: What's the difference between observability and evaluation in AI agent tools?
   answer: Observability captures what the agent is doing in real time through tracing, logging, and dashboards. Evaluation measures quality against criteria or ground truth. Tools like Arize and Opik combine both by logging traces and attaching evaluators.
 
+sponsor:
+  name: Arize
+  url: https://arize.com/
 ---
 
 Evaluating LLM-based agents is essential for building reliable AI applications. Many assume model quality drives agent quality. In reality, it’s the guidance and evaluation behind it. 
@@ -371,6 +374,3 @@ A range of open-source tools helps cover this space.
 ## FAQs
 
 {% include faq-accordion.html faqs=site.data.faqs.open-source-free-ai-agent-evaluation-tools %}
-
-<em>This post is sponsored by [Arize](https://arize.com/){:target="_blank"}.
-We thank the [Arize](https://arize.com/) team for their ongoing support of the community.</em>
