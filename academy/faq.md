@@ -24,7 +24,7 @@ items:
 - question: How Many Seats Are There?
   answer: Each cohort has 15 seats. Alexey Grigorev teaches every session himself and reviews every participant project every week. If more people qualify than there are seats, later cohorts will follow.
 - question: How Does Bildungsgutschein Funding Work?
-  answer: Designed for Bildungsgutschein funding (AZAV), coming soon. Talk to your Agentur für Arbeit or Jobcenter adviser early so they know your plan. The voucher and the admission seat are separate decisions.
+  answer: Designed for Bildungsgutschein funding (AZAV), coming soon. Talk to your Agentur für Arbeit or Jobcenter adviser early so they know your plan. The voucher and the admission seat are separate decisions. The Bildungsgutschein guide explains how the voucher works, [in English](/academy/guides/bildungsgutschein-in-english/) and [in German](/academy/bildungsgutschein/).
 - question: How Does the Waitlist Work?
   answer: Waitlist members hear first when applications open and receive updates on dates, format, and funding. Joining the waitlist has no commitment and no cost. After joining, you can share your location, German level, and full-time availability.
 - question: Is This a Beginner Course?

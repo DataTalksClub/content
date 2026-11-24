@@ -15,6 +15,8 @@ related:
   links:
   - label: 'Session 1 recap: AI Engineering vs Agentic Engineering'
     href: /academy/sessions/ai-engineering-vs-agentic-engineering/
+  - label: 'Guide: AI Engineering vs Agentic Engineering, Which One to Learn'
+    href: /academy/guides/ai-engineering-vs-agentic-engineering/
   - label: The Agentic Engineering program
     href: /academy/agentic-engineering/
   - label: The AI Engineering program

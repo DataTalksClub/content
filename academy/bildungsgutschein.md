@@ -14,8 +14,8 @@ hero:
 english:
   text: 'For English, check this page:'
   link:
-    label: DataTalks.Club Academy programs and funding
-    href: /academy/#facts
+    label: Bildungsgutschein guide in English
+    href: /academy/guides/bildungsgutschein-in-english/
 facts:
   label: Fakten im Überblick
   items:

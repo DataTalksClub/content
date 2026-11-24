@@ -12,6 +12,10 @@ hero:
   links:
   - label: 'Free sessions: Hireable With AI'
     href: /academy/sessions/
+  - label: AI Engineering vs Agentic Engineering
+    href: /academy/guides/ai-engineering-vs-agentic-engineering/
+  - label: Bildungsgutschein (English)
+    href: /academy/guides/bildungsgutschein-in-english/
   - label: Bildungsgutschein (Deutsch)
     href: /academy/bildungsgutschein/
 tracks:

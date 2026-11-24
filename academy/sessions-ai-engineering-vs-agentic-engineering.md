@@ -13,6 +13,8 @@ published: '2026-11-23'
 related:
   heading: Read Next
   links:
+  - label: 'Guide: AI Engineering vs Agentic Engineering, Which One to Learn'
+    href: /academy/guides/ai-engineering-vs-agentic-engineering/
   - label: 'Guide: How to Get Hired as an Experienced Developer in an AI Job Market'
     href: /academy/guides/getting-hired-with-ai/
   - label: The Agentic Engineering program
@@ -36,7 +38,7 @@ Many courses funded through the Bildungsgutschein teach the basics, like install
 
 ## Two Directions: AI Engineering and Agentic Engineering
 
-People often confuse these two. They overlap, but they're two different ways you as a developer can use AI at work.
+People often confuse these two. They overlap, but they're two different ways you as a developer can use AI at work. If you're choosing between the two programs, the [comparison guide](/academy/guides/ai-engineering-vs-agentic-engineering/) puts them side by side.
 
 AI engineering means you integrate AI into the product. Think of the shopping assistant in an online store or the assistant in your banking app. Another example is a marketplace where you upload a photo of something you want to sell and the system recognizes what it is. AI engineers make calls to OpenAI, Anthropic or other providers and build things around those calls. For this path you need an engineering background.
 
@@ -70,7 +72,7 @@ In Germany, the Agentur für Arbeit or the Jobcenter can fund training through t
 
 You find a program, go to your adviser and explain why it's useful for your career. The adviser decides, and sometimes the answer is no.
 
-Some advisers tell people to learn German first. German is a good investment of your time. But if the jobs you apply for are in English, you can explain why this program is more useful for you right now. Show the adviser which skills you're missing and how this course teaches them. I explain the details in the [Bildungsgutschein guide (Deutsch)](/academy/bildungsgutschein/).
+Some advisers tell people to learn German first. German is a good investment of your time. But if the jobs you apply for are in English, you can explain why this program is more useful for you right now. Show the adviser which skills you're missing and how this course teaches them. I explain the details in the Bildungsgutschein guide, [in German](/academy/bildungsgutschein/) and [in English](/academy/guides/bildungsgutschein-in-english/).
 
 ## You Don't Need a Powerful Computer
 
