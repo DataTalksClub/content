@@ -128,7 +128,6 @@ The numbers come from our community survey. We publish the [full survey results]
             data-height="320px"
             data-width="100%">
     </canvas>
-    <figcaption>Members come from more than 65 countries.</figcaption>
   </figure>
 
   <figure style="margin: 0;">
@@ -142,6 +141,8 @@ The numbers come from our community survey. We publish the [full survey results]
             data-width="100%">
     </canvas>
   </figure>
+
+  <figcaption>DataTalks.Club community survey, 2025: roles, seniority, location and industry of members. Members come from more than 65 countries.</figcaption>
 
 </div>
 
