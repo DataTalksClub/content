@@ -148,4 +148,4 @@ No. For further training of people who already have a profession it is a discret
 
 ### Can I Pay for DataTalks.Club Academy with a Bildungsgutschein?
 
-Bildungsgutschein funding: coming soon. The Agentur für Arbeit decides on each voucher in a counselling appointment before the course starts.
+Bildungsgutschein funding is coming soon. The Agentur für Arbeit decides on each voucher in a counselling appointment before the course starts.

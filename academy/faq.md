@@ -23,7 +23,7 @@ items:
 - question: How Many Seats Are There?
   answer: Each cohort has 15 seats. Alexey Grigorev teaches every session himself and reviews every participant project every week. If more people qualify than there are seats, later cohorts will follow.
 - question: How Does Bildungsgutschein Funding Work?
-  answer: The Bildungsgutschein is a training voucher from the Agentur für Arbeit or the Jobcenter that can pay the course fees for further training. Bildungsgutschein funding for both programs: coming soon. Your adviser decides whether you get a voucher, and that decision is separate from getting a seat, so tell your adviser about your plan early. The Bildungsgutschein guide explains how the voucher works, [in English](/academy/guides/bildungsgutschein-in-english/) and [in German](/academy/bildungsgutschein/).
+  answer: The Bildungsgutschein is a training voucher from the Agentur für Arbeit or the Jobcenter that can pay the course fees for further training. Bildungsgutschein funding for both programs is coming soon. Your adviser decides whether you get a voucher, and that decision is separate from getting a seat, so tell your adviser about your plan early. The Bildungsgutschein guide explains how the voucher works, [in English](/academy/guides/bildungsgutschein-in-english/) and [in German](/academy/bildungsgutschein/).
 - question: How Does the Waitlist Work?
   answer: Waitlist members hear first when applications open and receive updates on dates, format, and funding. Joining the waitlist has no commitment and no cost. After joining, you can share your location, German level, and full-time availability.
 - question: Is This a Beginner Course?

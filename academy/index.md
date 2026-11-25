@@ -22,7 +22,7 @@ tracks:
 funding:
   heading: Funding
   paragraphs:
-  - Bildungsgutschein funding: coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognized training when your adviser agrees you need it.
+  - Bildungsgutschein funding is coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognized training when your adviser agrees you need it.
   - Talk to your adviser early, so your appointment happens before applications open.
   links:
   - label: Bildungsgutschein guide (English)

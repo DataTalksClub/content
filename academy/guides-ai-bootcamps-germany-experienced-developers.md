@@ -7,7 +7,7 @@ og_image: images/academy/og/home.png
 sitemap: 6
 eyebrow: Guide
 heading: 'AI Bootcamps in Germany in 2027: Which Ones Are Built for Experienced Developers'
-lead: 'Most AI bootcamps in Germany take people who have never worked as developers. Ironhack''s AI Engineering bootcamp (9 weeks full-time) and Le Wagon''s AI Software bootcamp (2 months full-time) need no prior programming, and WBS Coding School says most of its courses are for beginners and career changers. Spiced Academy runs a 32-week AI Engineering program that asks for programming and maths, and Turing College asks for at least a year of coding. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027. Bildungsgutschein funding: coming soon.'
+lead: 'Most AI bootcamps in Germany take people who have never worked as developers. Ironhack''s AI Engineering bootcamp (9 weeks full-time) and Le Wagon''s AI Software bootcamp (2 months full-time) need no prior programming, and WBS Coding School says most of its courses are for beginners and career changers. Spiced Academy runs a 32-week AI Engineering program that asks for programming and maths, and Turing College asks for at least a year of coding. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027. Bildungsgutschein funding is coming soon.'
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:

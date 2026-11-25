@@ -7,7 +7,7 @@ og_image: images/academy/og/home.png
 sitemap: 6
 eyebrow: Guide
 heading: 'Le Wagon, Ironhack, Spiced Academy or WBS Coding School: Which Bootcamp Fits an Experienced Developer in Germany'
-lead: 'Le Wagon, Ironhack, Spiced Academy and WBS Coding School mainly teach people who are new to the field. Le Wagon (2 months full-time) and Ironhack (9 to 11 weeks full-time) say their main bootcamps need no prior programming, WBS Coding School (mostly 12 to 17 weeks full-time) says most of its courses are designed for beginners and career changers, and Spiced Academy runs programs from 16 weeks for beginners to 32 weeks for AI Engineering. Turing College and Digitale Leute School ask for some coding experience. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027. Bildungsgutschein funding: coming soon.'
+lead: 'Le Wagon, Ironhack, Spiced Academy and WBS Coding School mainly teach people who are new to the field. Le Wagon (2 months full-time) and Ironhack (9 to 11 weeks full-time) say their main bootcamps need no prior programming, WBS Coding School (mostly 12 to 17 weeks full-time) says most of its courses are designed for beginners and career changers, and Spiced Academy runs programs from 16 weeks for beginners to 32 weeks for AI Engineering. Turing College and Digitale Leute School ask for some coding experience. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027. Bildungsgutschein funding is coming soon.'
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
