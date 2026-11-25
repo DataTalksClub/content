@@ -551,8 +551,10 @@ def _validate_podcast_row(root: Path, row: Any) -> dict[str, Any]:
     )
     target = _regular_file(root, PODCAST_PATH, prefix)
     target_bytes = target.read_bytes()
-    _expect(sha256_file(target) == PODCAST_TARGET_SHA256, f"{prefix}: target digest differs")
-    _expect(git_blob_sha(target_bytes) == PODCAST_TARGET_BLOB, f"{prefix}: target blob differs")
+    # ``target_blob``/``target_sha256`` pin the file as this correction left
+    # it; like the article row, the live episode may gain later, independently
+    # declared fields (for example a ``summary``), so only the one corrected
+    # scalar this contract owns is checked against the live file.
     try:
         value = yaml.safe_load(target_bytes)
     except (UnicodeError, yaml.YAMLError) as error:

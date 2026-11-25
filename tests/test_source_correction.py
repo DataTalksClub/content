@@ -184,13 +184,18 @@ def test_article_overlay_tolerates_unrelated_later_drift(tmp_path: Path) -> None
     validate_source_correction(candidate)
 
 
-def test_manifest_rejects_podcast_target_byte_drift(tmp_path: Path) -> None:
+def test_podcast_target_tolerates_later_fields_but_not_scalar_drift(tmp_path: Path) -> None:
     candidate = tmp_path / "repository"
     _copy_contract_targets(candidate)
     podcast = candidate / PODCAST_PATH
-    podcast.write_bytes(podcast.read_bytes() + b"\nundeclared: true\n")
+    original = podcast.read_bytes()
+    podcast.write_bytes(original + b"\nlater: true\n")
+    validate_source_correction(candidate)
 
-    with pytest.raises(SourceCorrectionError, match="podcast 1: target digest differs"):
+    podcast.write_bytes(
+        original.replace(source_correction.PODCAST_NEW_VALUE.encode(), b"images/podcast/other.jpg")
+    )
+    with pytest.raises(SourceCorrectionError, match="podcast 1: corrected scalar differs"):
         validate_source_correction(candidate)
 
 

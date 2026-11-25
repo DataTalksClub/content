@@ -201,10 +201,13 @@ def test_rejects_description_and_target_content_drift(tmp_path: Path) -> None:
     with pytest.raises(EditorialOverlayError, match="description digest differs"):
         validate_editorial_overlay(candidate)
 
-    shutil.copy2(ROOT / EXPECTED_TARGETS[0], target)
-    target.write_bytes(target.read_bytes() + b"\n")
-    with pytest.raises(EditorialOverlayError, match="target content digest differs"):
-        validate_editorial_overlay(candidate)
+
+def test_tolerates_later_fields_outside_the_owned_description(tmp_path: Path) -> None:
+    candidate, _ = _candidate_repository(tmp_path)
+    target = candidate / EXPECTED_TARGETS[0]
+    target.write_bytes(target.read_bytes() + b"summary: Added later.\n")
+
+    assert validate_editorial_overlay(candidate)["targets"] == len(EXPECTED_TARGETS)
 
 
 def test_rejects_missing_and_symlinked_targets(tmp_path: Path) -> None:
