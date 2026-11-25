@@ -22,7 +22,7 @@ datepublished: '2025-12-10'
 ---
 
 <figure>
-<img src="/images/posts/2025-12-10-free-data-engineering-courses/cover.png" alt="15 Free Data Engineering Courses + 5 Paid Courses: Complete Guide" title="15 Free Data Engineering Courses + 5 Paid Courses: Complete Guide" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
+<img src="/images/posts/2025-12-10-free-data-engineering-courses/cover-v2.png" alt="15 Free Data Engineering Courses + 5 Paid Courses: Complete Guide" title="15 Free Data Engineering Courses + 5 Paid Courses: Complete Guide" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
 </figure>
 
 Finding the right data engineering course can be overwhelming with hundreds of options across different platforms, price points, and skill levels.

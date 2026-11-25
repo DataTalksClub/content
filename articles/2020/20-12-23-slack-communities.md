@@ -6,7 +6,7 @@ subtitle: A guide to the most active Slack groups for data, AI, and machine lear
   professionals.
 description: Explore top data science Slack communities for 2025. Join groups on AI,
   ML, MLOps, Python, R, visualization, and diversity in tech.
-image: images/posts/2020-12-23-slack-communities/cover.png
+image: images/posts/2020-12-23-slack-communities/cover-v2.png
 preview: images/posts/2020-12-23-slack-communities/preview.png
 authors:
 - alexeygrigorev
@@ -53,7 +53,7 @@ faq:
 Finding the right [data science Slack community](/slack.html) can make a big difference in how you learn, work, and grow in the field. Slack groups bring together data scientists, machine learning engineers, and AI enthusiasts from around the world. They're places where you can ask technical questions, share projects, discover learning resources, and connect with peers working on similar challenges.
 
 <figure>
-<img src="/images/posts/2020-12-23-slack-communities/cover.png" alt="A character sitting before a laptop with a text on the screen: Data Science Slack Communities" title="20+ Best Data Science Slack Communities to Join in 2025" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
+<img src="/images/posts/2020-12-23-slack-communities/cover-v2.png" alt="Four people, two at laptops, connected through speech bubbles with a channel sign, a question, an idea, a chart and a heart to one shared chat window" title="20+ Best Data Science Slack Communities to Join in 2025" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
 </figure>
 
 In this guide, we've collected some of the most active and useful data science Slack communities to join in 2025.
