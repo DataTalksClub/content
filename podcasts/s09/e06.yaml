@@ -150,3 +150,35 @@ resources:
   url: https://huggingface.co/bigscience/T0pp
 - title: Pathways Language Model (PaLM) blog
   url: https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
+summary: |-
+  Merve Noyan is a developer advocacy engineer at Hugging Face. This is her second appearance on the
+  show, after a talk on building a chatbot. She studied industrial engineering, took a data science
+  class, and moved into NLP through chatbot and question-answering work at startups. She was already
+  contributing to Hugging Face when the company approached her. Alexey invited her to explain how
+  beginners can contribute to open source and build an NLP portfolio.
+
+  Merve's first contributions were scripts for canonical datasets in the datasets library, written
+  during a contribution sprint, where she learned formatting from the team and had not used CI
+  before. She says sprints help because a newcomer who is onboarded finds later contributions
+  easier. Good first issues are a good start, and non-code work such as documentation, forum
+  answers, blog posts and bug reports also counts. When hiring, she checks GitHub profiles first for
+  existing open source work. Alexey describes a rejected XGBoost pull request, and Merve advises
+  discussing an idea in the repository before writing code, then backing the change with unit tests.
+
+  At Hugging Face, Merve works on the Hub, which she compares to GitHub for models and datasets. One
+  of her projects is a Keras integration that generates a model card with architecture and
+  hyperparameters. She also works on Spaces, where demos are built with Streamlit, Gradio or static
+  pages, and on Keras Sprints that turn examples into demos. She estimates her time as 60 to 70
+  percent coding and 30 to 40 percent presenting and community support.
+
+  For NLP, Merve says most tasks come down to representing text by tokenizing it and mapping tokens
+  to numbers, then fine-tuning pretrained models through transfer learning. She recommends starting
+  with sentiment analysis, because it uses sentences with labels, while named entity recognition
+  needs span labels and summarization is harder. She points to the Hugging Face course, Keras
+  examples and her GitHub tutorials. On trends, she mentions multitask and generative models that
+  answer new tasks without further fine-tuning.
+
+  For portfolios, Merve argues that a hosted demo is more useful than a repository. She hosted her
+  master's project on Hugging Face Spaces. Alexey agrees that a hiring manager is unlikely to set up
+  a repository and environment to run someone's code. Her advice is that any project works if it is
+  finished and runnable, and that Kaggle is another visible place to show work.

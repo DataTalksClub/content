@@ -133,3 +133,36 @@ quotableClips:
 transcript: e02-transcript.yaml
 
 resources: []
+summary: |-
+  Marijn Markus is a managing data scientist at Capgemini. He studied sociology, criminology and
+  statistics, and his studies covered election prediction and social media analysis. Alexey invites
+  him to talk about hacking a data career, the theme of a LinkedIn post whose advice was
+  "Do the opposite of what people tell you."
+
+  Marijn argues that a career advantage comes from what you know that others do not. Competing with
+  peers on the same deep learning algorithms is hard. His social science training helped on a gender
+  bias test and on the interviews for a burnout study at Capgemini. He describes data science as
+  statistics, programming and a field of application, and says almost nobody is strong in all three.
+  That makes a perfect curriculum unrealistic, so he advises people to double down on the parts they
+  already know. He also criticises hiring from job boards by keyword, which he says produces teams
+  that all know the same things.
+
+  On the job, Marijn volunteers first for tasks, because that lets him choose the work and makes
+  colleagues think of him next time. He calls the habit "bite off more than you can chew, then chew"
+  and says stretch assignments show your limits. In the burnout study, a few managers were the
+  biggest predictors. He presented that finding because explainable results build trust. Middle
+  management disliked it, while upper management acted on it. In a pay gap analysis he reported
+  results by anonymised identifiers. A reply-all email that corrected a CTO led to coffee and
+  friendships with several CTOs.
+
+  His own projects show the same idea. He runs Home Assistant on a Raspberry Pi and built plant
+  sensors that send readings over Bluetooth and alert when watering is needed. A smart plug on his
+  coffee machine produced two months of data for a time series model. He argues that building your
+  own competition is easier than climbing a Kaggle leaderboard. His work with NGOs in India and
+  Kenya forecasts yields for smallholder farmers from weather and satellite data. The team includes
+  domain experts, such as a former farmer, who point to the problem behind the stated problem.
+
+  Marijn recommends posting information with humour instead of bragging, because it reaches people
+  outside one's own organisation. On LinkedIn he says comments count for more than likes, and early
+  weekday posts get the most circulation. His closing advice is to stand out authentically and to
+  say uncomfortable findings carefully.

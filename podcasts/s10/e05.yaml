@@ -141,3 +141,37 @@ resources:
   url: https://medium.com/@mehdio
 - title: Mehdi's data creators club
   url: https://datacreators.club/
+summary: |-
+  Mehdi Ouazza is a data engineer with about eight years of experience, now a staff data engineer
+  at a scale-up. He started with BI on Microsoft tools, moved to big data on an on-premise
+  cluster, and later worked at companies including Klarna. Alexey invites him to discuss how
+  to grow a data engineering team during hypergrowth without losing quality.
+
+  Mehdi defines a scale-up as a company in hypergrowth that has first revenue and a new funding
+  round, and that hires quickly to keep up with users. He mentions a company growing from
+  about 80 people to 400 in a year or two. Teams must trade speed against quality, or they
+  accumulate technical debt. Expansion into the US is a typical challenge. The data platform
+  should be self-service, so analysts and data scientists can build pipelines without asking
+  the platform team for help. The platform team works like a startup inside the scale-up,
+  where shortcuts break much sooner.
+
+  Mehdi describes the platform as more than Airflow. Airflow is the car, and the "driving
+  license" is the set of conventions and playbooks that keep pipelines manageable, such as generic
+  pipelines defined in YAML. He recommends hiring senior engineers first to set those practices,
+  and experts for specialized technologies such as Kafka. Alexey asks how a team knows it needs
+  Kafka, and Mehdi says senior people should drive architecture decisions. For event streaming,
+  he advises data contracts with typed Avro schemas in a schema registry and a clear process
+  for schema changes. Without them, a few topics can grow into hundreds, and downstream teams
+  struggle with changing JSON.
+
+  On pace, Mehdi says data engineers in scale-ups get demoralized fighting the same fires without a
+  plan. He suggests talking with future teammates about the team's culture, since a company's
+  culture and a team's culture can differ. Senior engineers can speak up when processes no
+  longer fit, such as a release cadence that worked when the company was smaller. For juniors,
+  he says some scale-ups have around two promotions a year, where people can grow quickly. He
+  calls a scale-up a middle ground between a startup and a large tech company.
+
+  For recruiting, Mehdi suggests building an engineering culture through open source, blogs
+  and conference talks, and looking for curious people. He also recommends writing as a way to
+  learn, and company blogs to attract outside feedback. Work is usually split about 50/50 between
+  platform building and use case pipelines, he says, though the balance depends on company size.

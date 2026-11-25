@@ -150,3 +150,34 @@ resources:
   url: https://algorithmic-marketing.online
 - title: Preventing churn like a bandit
   url: https://www.youtube.com/watch?v=n1uqeBNUlRM
+summary: |-
+  Juan Orduz is a mathematician and data scientist in Berlin. After a master's and PhD in geometric
+  analysis at Humboldt University, he worked at the marketing consultancy TD Reply, then HelloFresh,
+  and for about eight or nine months Wolt, where he leads marketing data science. Alexey invited him
+  after his PyData Berlin talk on uplift modeling, which Alexey missed because the room was full.
+  The conversation covers how machine learning is used in marketing.
+
+  Juan names user acquisition and retention as the two main areas. For acquisition, attribution is
+  hard because a TV ad may prompt a later search that tracking credits to Google. Media mix modeling
+  fits a regression on channel spend with saturation and ad-stock carryover effects, learned from
+  the data. Since iOS 14.5, Apple reports only aggregate numbers, so models built on aggregate data
+  are back in use. TV is measured with daily or weekly aggregates from the agency that buys it.
+
+  For retention, the approach depends on the business. A contract-based business has a clear churn
+  definition and can use a classifier with a threshold. Wolt has no such definition, since users can
+  pause for a month, so Juan uses probabilistic models of non-contractual behavior. Uplift modeling
+  then picks the users worth targeting, and it needs an A/B test with control and treatment groups.
+  Juan stresses that training vouchers must match those used in production, and that the goal is
+  long-term engagement rather than an effect driven by incentives.
+
+  Juan says the baseline matters more than the choice between statistics and machine learning, so he
+  starts with a simple rule, such as whether a user was active last week. He prefers Bayesian
+  regression for media mix models, because priors let business knowledge shrink coefficients when
+  data is small. Retraining monthly or every two months is enough, since daily retraining brings no
+  value. He recommends Statistical Rethinking for learning Bayesian analysis through simulation.
+
+  For a startup starting a marketing function, Juan advises defining the business problem and the
+  KPI first. Then the team needs reliable data: API integrations with Facebook and Google, a
+  warehouse data model and acceptable quality. An analyst with domain knowledge can often handle the
+  fundamentals before an outside data scientist is needed. Marketing managers are key
+  stakeholders, and a project built without them will fail.

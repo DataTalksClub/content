@@ -129,3 +129,39 @@ resources:
   url: https://twitter.com/swartchris8/
 - title: Workshop on Weak Supervision on Oct. 5 in Budapest
   url: https://crunchconf.com/workshops/conference
+summary: |-
+  Christiaan Swart is an NLP practitioner and co-founder of Comtura, a company that captures
+  information from sales calls and pushes it into Salesforce. He studied AI at the University
+  of Edinburgh and then worked at an email provider, at Resolver on complaint classification,
+  and at Healx on bio-NLP for rare disease drug development. Alexey invites him because dataset
+  creation gets much less attention than models, even though it often decides a project's outcome.
+
+  Christiaan divides dataset creation into automated, manual and hybrid approaches, with hybrid
+  becoming the norm. He says the hidden art is stakeholder management. Before annotating at
+  scale, he shows executives a small labeled sample, for example with displaCy, to check whether
+  the concepts are valuable. He builds a mind map from expert interviews and turns it into an
+  annotation booklet, a living document with task definitions and ambiguous cases. At Resolver,
+  complaints were labeled with 21 categories, which caused fatigue. Experiments showed that
+  four to seven labels worked better.
+
+  Christiaan prefers in-house annotators to crowdsourcing, because strong annotators build
+  institutional knowledge, and because GDPR compliance is harder with crowdsourcing. Before
+  bringing in others, he labels 500 to 1,000 samples himself to set a human baseline. For
+  quality, he tracks inter-annotator agreement, annotator throughput, and fatigue over long
+  shifts. He says interface work, such as Prodigy hotkeys, potentially raised throughput by 5
+  to 10 percent. At Resolver, annotator feedback and a weekly review of about 100 annotations
+  revealed that more than 10 percent of complaints came from vulnerable consumers, a blind spot
+  the team had not expected.
+
+  Christiaan describes active learning as useful but modest, saving about 20 percent of
+  labeling when it worked. He calls distance supervision a force multiplier. At Resolver, a
+  semi-supervised topic model was used to sample vulnerable complaints, which needed about ten
+  times less data. Snorkel lets teams write labeling functions, such as a drug and a disease
+  linked by a verb like "treat," and then combine their noisy labels. Christiaan recommends
+  Prodigy for a first proof of concept, with Doccano, Label Studio and Snorkel as open source
+  options. Alexey suggests IPython widgets for quick binary classification.
+
+  For job seekers, Christiaan says a dataset project would put a candidate in a more mature
+  category than an entry-level one. His advice is to start a simple project in a domain you
+  know, pick one stack, such as spaCy with Snorkel, and stick with it. He adds that modeling
+  is becoming a commodity, so data creation skills are increasingly valuable.

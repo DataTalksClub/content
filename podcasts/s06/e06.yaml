@@ -166,3 +166,37 @@ resources:
   url: 'https://www.linkedin.com/jobs/view/2805710562/?refId=s0%2B1cPS1YR3X957qK7Ha5w%3D%3D&trackingId=gcvkgfWd3Y%2B5XGClan6u1g%3D%3D&trk=d_flagship3_company'
 - title: 'two'
   url: 'https://www.linkedin.com/jobs/view/2805710559/?refId=s0%2B1cPS1YR3X957qK7Ha5w%3D%3D&trackingId=bv9f9o1RhJe5wvALsrDExQ%3D%3D&trk=d_flagship3_company'
+summary: |-
+  CJ Jenkins trained as an evolutionary biologist, with a master's, PhD and postdoc in that field.
+  She left academia after about a year and a half of a three-year postdoc at Martin Luther
+  University in Halle. She has worked as a data scientist since 2018, first at the fintech N26 and
+  then at Klarna, and now leads data science, analytics and data engineering teams. Alexey invites
+  her to explain how a researcher moves into industry without knowing Python or deployment yet.
+
+  CJ says her statistics background and experience with large genomic datasets gave her a head
+  start, since linear and logistic regression were familiar. What she lacked was Python, APIs,
+  Docker and deployment, which she learned on the job. She came in early to study, paired with
+  colleagues, and was open about what she did not know in her interview. When she hires junior
+  people, she looks for three things: quick learning, ambition, and the ability to take feedback.
+  She asks candidates to describe a time they were wrong. She sees pet projects with clean, easy
+  datasets as less useful than messy academic data.
+
+  CJ rewrote her six-page CV about 14 times with help from friends and recruiters. She removed the
+  talks and publications list, reframed her research as skills, moved education to the bottom, and
+  saved the file as a machine-readable PDF. She used a LinkedIn Premium subscription to see which
+  skills other people listed. To prepare, she completed the Johns Hopkins data science
+  specialization on Coursera in about two months, one course a week, and recommends Andrew Ng's
+  machine learning course. She was selective about which companies to approach, choosing products
+  she already used.
+
+  CJ describes the differences she met in industry. Colleagues expect people to collaborate, to
+  admit what they do not know and to ask questions. She found Slack, open offices and the lack of a
+  shared academic experience hard at first. She took a weekly pair programming session with a
+  stronger Python colleague for about a year, and she suggests that postdocs find a more
+  experienced coder, pair with them and offer something in return. She also says that publications
+  matter little to most industry hiring teams.
+
+  For practitioners, CJ's advice is to show learning ability and openness, to build skills through
+  regular pair programming, and to start with the local data science community. She suggests
+  attending meetups and talking to people about their work. Her advice on networking is simply to
+  talk to people.

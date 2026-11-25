@@ -129,3 +129,36 @@ quotableClips:
 transcript: e02-transcript.yaml
 
 resources: []
+summary: |-
+  Nick Singh is a career coach who helps people prepare for data science, machine learning and data
+  analyst interviews. He started as an engineer on Facebook's growth team after interning at
+  Google, then worked at the location analytics startup SafeGraph. He wrote a book on acing data
+  science interviews. Alexey invites him to cover the non-technical parts of the process, mainly
+  behavioral interviews, which have less preparation material than technical ones.
+
+  Nick describes a typical process at large companies: a recruiter screen, an online assessment
+  with a coding or SQL question, then four or five interviews, including a behavioral round.
+  Smaller companies run shorter processes. Behavioral questions cover strengths, leadership, delays
+  and failures, and Nick recommends preparing answers in the STAR format. Alexey describes using
+  Amazon's leadership principles as a grid, with two or three projects mapped to each principle.
+  Nick adds that companies which publish their values usually ask about them.
+
+  Project walkthroughs are another common format. The candidate picks a project and the interviewer
+  checks the details. Nick advises preparing two projects and keeping each answer to about two
+  minutes. Alexey points out that candidates often start with model accuracy and skip the business
+  context. Nick suggests leading with the business result, such as money saved, and using the
+  pyramid principle from McKinsey as a structure. For "favorite model" questions, he advises naming
+  a model used in a real project, since linear regression works if it is explained well. Portfolio
+  work can still be quantified, for example by users of a web app or a 5 percent latency reduction.
+
+  Product sense and case interviews are more common at product-driven companies such as Facebook,
+  Uber and Airbnb. Nick says the first step is to clarify the question and learn the company's
+  products. Company tech blogs are a good source of metrics and use cases. Alexey tells of a
+  candidate who copied SoundCloud's own blog post in a system design round. Nick says the candidate
+  still showed he cared enough to read the blog.
+
+  Nick also covers cold emails in his book, sent to strangers by email or LinkedIn. He says a short
+  email with a link to a project can work better than a formal cover letter. The practical advice
+  from the episode is to prepare a grid of projects against likely questions, practice the STAR
+  format without sounding rehearsed, read the tech blog before an interview, and keep answers short
+  and focused on results.

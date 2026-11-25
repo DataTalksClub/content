@@ -160,3 +160,36 @@ transcript: e09-transcript.yaml
 resources:
 - title: BROKE teacher to FAANG engineer Twitter thread
   url: https://twitter.com/thatjuanpablo/status/1475806246317875203
+summary: |-
+  Juan Pablo Murillo works as a business intelligence engineer on Amazon's advertising team. He
+  began as a math graduate student, then taught math until he decided he could not keep teaching
+  the same theorem. He took statistics courses, joined a bootcamp and spent about nine months
+  looking for a first data job. He also mentors students at the University of Washington. Alexey
+  invites him to explain how to break into data analytics.
+
+  Juan Pablo calls the bootcamp cheap and light on networking, but it gave him a roadmap covering
+  SQL and dashboards. While he searched, he worked at a restaurant and drove for Uber to pay his
+  bills. His first job came from meetups in Seattle. He attended 10 to 15 events and targeted
+  people in their 40s, who were more likely to be managers, and asked them who was hiring. One
+  hiring manager ignored his first resume, then hired him after receiving it a second time through
+  someone else. He says that clicking Submit works less well than personal contact.
+
+  He also sent more than 200 messages to recruiters and hiring managers and got about five
+  replies, one of which led to an offer. His portfolio was an rpubs page with R Markdown projects
+  on data wrangling, exploratory analysis and maps, and he says three projects are enough for
+  entry-level roles. Contract roles, which pay less but build experience, can be found on Dice. He
+  also created an internship by offering a small marketing agency three months of work at a lower
+  hourly rate, which produced a temporary offer. Nonprofit projects through Catchafire are another
+  way to gain experience.
+
+  Alexey notes that hiring managers rarely check code, so each project needs a clear description.
+  Juan Pablo recommends the STAR format for presenting projects, with the situation, task, action
+  and result, and a repository that a team can maintain after people leave. For cost, he pays for
+  a no-code site builder, though free options include WordPress, GitHub and Hashnode. For
+  LinkedIn, he advises regular posts and thoughtful comments rather than likes.
+
+  For a teacher or other career changer, he recommends learning SQL first, then one visualization
+  tool and Python rather than R. He also suggests studying common data analyst interview formats.
+  Alexey adds that after online conferences, staying for random pairing sessions led him to
+  contacts who later joined the podcast. Juan Pablo's main advice is consistency: keep showing up,
+  online and in person, because his own search took nine months.

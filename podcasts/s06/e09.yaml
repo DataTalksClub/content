@@ -160,3 +160,34 @@ quotableClips:
 transcript: e09-transcript.yaml
 
 resources: []
+summary: |-
+  Mariano Semelman is head of data science at OLX group, where he has worked for almost five years,
+  first as a senior data scientist, then as a manager. He has 13 years of experience, about 10 of
+  them in data science, mostly in e-commerce on personalization, recommenders and segmentation.
+  Alexey, his colleague, invites him to talk about the move from individual contributor to manager,
+  which Mariano made with a team of five people and little prior management experience.
+
+  Mariano describes his days as meetings, reviews, planning, reports and proposals, with mentoring
+  and people development as the part he enjoys most. His team now has eight or nine data scientists
+  and machine learning engineers at mixed levels. When he took on five people, he had only mentored
+  two people informally. He used a 30-60-90 day plan: meeting each person and reading about
+  management in the first month, onboarding to the projects in the second, and giving feedback in
+  the third. He says he is often wrong, and he treats the team's corrections as part of learning.
+  His first team sold ad space on OLX, a domain he did not know.
+
+  Mariano argues that the basic structure of a machine learning project stays the same across
+  domains: defining the problem, choosing regression or classification, evaluation, monitoring and
+  a clear hypothesis backlog. His role is to help people ask the right questions, such as whether a
+  weak model is overfitting or lacks data. He says he is "obsessed with product applications" and
+  that data science must reach the user. He recommends starting with a simple model and a poor but
+  runnable pipeline, citing Google's "Rules of Machine Learning". He notes that modeling is only 5
+  to 10 percent of the work, so prioritization matters most. Alexey recommends CRISP-DM as a
+  process.
+
+  On feedback, Mariano asks first whether someone wants it, frames it as advice, and has
+  one-on-ones at least weekly. He says a manager should not be on the critical path of any project,
+  though he reads code daily and makes suggestions without blocking work. Asked about bad hires, he
+  recommends strong interviews, a development plan, and an evaluation about three months into a
+  probation period. He says losing a valued team member is the hardest part of the job. He follows
+  how other companies run their data science teams and says the field's practices lag by about five
+  years.

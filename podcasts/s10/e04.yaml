@@ -133,3 +133,38 @@ resources:
   url: https://www.meetup.com/pydata-frankfurt/
 - title: PyConDE & PyData Berlin
   url: https://pycon.de
+summary: |-
+  Alexander Hendorf is a partner at Königsweg, a consultancy where he is responsible for data and
+  artificial intelligence. He is also chair of the PyData conference in Berlin. His path started
+  with a music business in the 1990s, where he taught himself programming with two books after
+  the company needed software. He then moved into machine learning and AI. Alexey invites him
+  to discuss how enterprises can do machine learning well, including how to explain AI to managers.
+
+  Alexander says explaining AI starts with simplification. He learned to speak plainly after
+  his early talks were too detailed for audiences. He argues that data and AI cannot simply
+  be bought as software, because company data is usually messy and distributed and has to be
+  organized first. He prefers open source tools, since decision makers should not depend on
+  vendors that may disappear. He also asks whether an initiative is in the company strategy. He
+  describes a client project in which a knowledge graph over thirty years of research documents
+  did not work. The team switched to keyword extraction, entity search, summaries and clustering
+  in a user interface, which gave the research department a new view of its archive. He says
+  clients should hear about failures openly, and that an AI article claiming a finished Beethoven
+  symphony was not realistic.
+
+  On process, Alexander applies the same caution to patience and optimization. He describes
+  retrospectives where teams always find problems when asked, and argues that managers should
+  step back and let problems surface. Alexey summarizes that people chase improvements that are
+  not needed yet. Alexander quotes the German saying that perfectionism is the enemy of the good,
+  and agrees that optimizing before a bottleneck wastes effort.
+
+  For a data-first approach, Alexander recommends a reference architecture with a governed data
+  lake. He estimates that once the data is in order, about 70 percent of the use would be business
+  intelligence, about 20 percent machine learning and about 10 percent deep learning. Standardizing
+  CI/CD helps teams avoid many competing setups among twenty data scientists. He sees much MLOps
+  talk from large consultancies with little understanding behind it, and says companies should
+  adopt MLOps only with an experienced in-house team.
+
+  The main lessons are to check whether a project is in the strategy, to get the data right
+  before choosing models, and to standardize processes before buying platforms. Alexander also
+  advises choosing tools that will still be supported for years, and building skills in house
+  before adopting MLOps.

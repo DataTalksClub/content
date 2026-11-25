@@ -159,3 +159,38 @@ resources:
   url: /podcast/s07e02/hiring-data-scientists-and-analysts
 - title: Webinar "Getting a Data Engineering Job" with Jeff Katz
   url: https://eventbrite.com/e/310270877547
+summary: |-
+  Nicolas Rassam is a technical recruiter who studied international business and then took a
+  master's in HR. He started as a sourcer at Criteo, the digital advertising company, and joined
+  Onfido last year, where he hires across several European countries, including the UK, France,
+  Portugal, the Netherlands and Germany. Alexey invites him because listeners of an earlier episode
+  with Alicia asked for more on data engineers. Their main question is how hiring data engineers
+  differs from hiring data scientists.
+
+  Nicolas says data science attracts many applications because of its hype, while data engineering
+  is only starting to get attention. Companies that once hired mainly data scientists now see the
+  value of engineers who manage pipelines. The main challenges are the lack of formal diplomas, high
+  demand, and senior candidates who have not worked on classic data engineering problems. Many
+  software engineers already build Spark or Hadoop pipelines without the title, so Nicolas looks at
+  the work more than the job title.
+
+  He describes juniors as task-oriented, intermediate engineers as able to make design decisions and
+  handle ambiguity, and seniors as having expert skills and influence over others. The process
+  usually starts with a recruiter call, then a conversation with the data engineering team about
+  current projects, data-oriented coding tests and a practical analytical exercise. Senior
+  candidates should explain trade-offs in time, money and performance. For career switchers, he
+  suggests internships, online training and a short list of tools that they have really used. SQL
+  and Python are the bare minimum. Cloud knowledge matters more as concepts than as one provider,
+  and candidates should not claim expertise they lack. Whether DevOps skills matter depends on the
+  organisation, because smaller companies give data engineers a broader scope.
+
+  Preparation matters as much. Nicolas says he has met candidates with no idea what the company
+  does, and understanding the business helps a candidate stand out. Nicolas also suggests networking
+  and targeting companies by domain, data volume or privacy focus. He says a degree matters less
+  than skills and projects, and that a fixed five-year requirement is unhelpful. Strong resume items
+  include being one of the first engineers at a startup, building pipelines for a business need or
+  remodelling systems for GDPR. He looks at GitHub only when candidates share it, and they must
+  explain projects in detail because interviewers ask for specifics.
+
+  Nicolas's advice is to focus on SQL, Python and data engineering basics, to understand the
+  business, and to keep learning new tools.

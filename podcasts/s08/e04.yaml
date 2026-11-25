@@ -122,3 +122,38 @@ resources:
   url: https://www.linkedin.com/in/stefanfreyrgudmundsson/
 - title: Job listings
   url: https://sidekickhealth.bamboohr.com/jobs/
+summary: |-
+  Stefan is an Icelandic data leader who was director of data science and AI at Sidekick Health, a
+  digital therapeutics company. Earlier he built AI teams at King, the makers of Candy Crush, and at
+  H&M. Alexey invites him to talk about machine learning in healthcare and personalisation. Alexey
+  assumes medical images dominate, and Stefan names diagnosis, drug discovery and AlphaFold as other
+  uses.
+
+  Sidekick Health builds gamified digital therapeutics with medical doctors, behavioural
+  psychologists and people from the gaming industry. Stefan describes the aim as improving quality
+  of life for people with chronic diseases, who need habits more than treatment alone. Patients get
+  a PIN code for their programme and plain explanations of their condition, because doctors have
+  little time and use technical language. Completed tasks earn water drops that can be donated to
+  charity. The app is designed for short sessions because most of the activity happens outside it.
+  Daily returns at a consistent time serve as a proxy for following the programme, since habits take
+  weeks or months to form.
+
+  Stefan says the foundation came first. When he started a little over a year earlier, the company
+  had two data scientists and little infrastructure, so the team built data pipelines, dashboards
+  and A/B testing. He argues that machine learning without analytics and good data is bound to fail.
+  Personalisation is still simple, and the app relies on regular mood questionnaires rather than a
+  model that detects mood. Stefan describes a recommender with an agenda, like a Spotify listener
+  nudged gradually from rock to country. He recommends starting with A/B tests, then segments, then
+  collaborative filtering.
+
+  Stefan says healthcare data needs stricter handling. Personal data is locked away, and analysts
+  work with de-identified data. He stresses that ethics requires independent thinking beyond GDPR
+  and HIPAA. Any test that touches health must be reviewed by medical doctors, since advice to drink
+  more water could be unsafe for someone with heart failure. Where the risk is low, he wants fast
+  tests and quick data, even from imperfect pipelines, because perfect pipelines can leave the
+  business waiting for months. The data science and AI team has about ten people, and he expects it
+  to double by year end.
+
+  Stefan's advice for data scientists is that the approach often matters more than medical
+  knowledge, although some parts of the work need domain experts. Take baby steps that create value
+  along the way, rather than building a model for months and learning that users do not like it.

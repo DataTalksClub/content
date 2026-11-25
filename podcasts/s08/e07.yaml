@@ -159,3 +159,36 @@ resources:
   url: https://pycon.it/en
 - title: Pycon 2022
   url: https://2022.pycon.de/
+summary: |-
+  Jessica Greene describes her career as her third. She studied and worked in film, then moved to
+  Germany and worked in coffee roasting. She became a backend developer at Ecosia, a search engine
+  that puts its profits into tree planting. Alexey knows her from the Machine Learning Zoomcamp and
+  invites her to talk about switching careers.
+
+  Jessica began with Codecademy, which runs in the browser, and then tried the Andrew Ng machine
+  learning course on Coursera, which uses MATLAB. She found the options overwhelming and says
+  roadmaps help. Germany's Bildungsgutschein, a voucher for further education, paid for a school
+  where she had a computer, Wi-Fi and time. She planned her study hours in a calendar. Alexey notes
+  that the long checklists online can leave beginners unsure where to start.
+
+  Jessica joined Rails Girls Summer of Code, which funded three months of open source work in pairs
+  and ran for the last time in 2018. She found a partner, Arti, through a Slack post. Their
+  experience helped her apply to Ecosia for a mid-level backend job she was not qualified for, and
+  the company created an internship for her instead. The interview included networking questions she
+  could not answer. She says she showed curiosity, reflected questions back and was willing to
+  learn. Meetups also led her to Ecosia, because developers there talked with her at one.
+
+  Community carried her through the hard periods. PyLadies invited her to help organise events, and
+  she says organising builds skills that software engineers call soft skills, and it opens doors to
+  companies. She describes imposter syndrome at a meetup where she could not get Jupyter Notebooks
+  running on Windows, so she dual-booted Linux, and a broken install taught her the terminal. Before
+  switching careers she gave a lightning talk on coffee at a Ruby conference. Her first talk
+  afterwards, on Git commands, was at the Nextcloud conference. For speaking, she suggests starting
+  with 10-minute talks, finding a personal angle, doing dry runs, and saying "I don't know" while
+  offering to follow up.
+
+  At Ecosia she works on Go microservices and recently moved to a team that adds green information
+  to search results. She says applying her machine learning skills at work has been harder than she
+  hoped. Asked about discrimination, she says gender imbalance is real, that other marginalised
+  groups face more barriers, and that being a native English speaker gave her an advantage in
+  Berlin's English-speaking tech scene.

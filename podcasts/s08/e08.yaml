@@ -161,3 +161,36 @@ resources:
   url: https://www.youtube.com/watch?v=OfWwfTXGjBM
 - title: Getting a Data Engineering Job Webinar with Jeff Katz
   url: https://www.eventbrite.de/e/getting-a-data-engineering-job-tickets-310270877547
+summary: |-
+  Jeff Katz started as a lawyer and began coding while working at a tech startup, where he needed
+  SQL to answer business questions. He then did a three-month General Assembly course and worked as
+  a developer. After reading a book on teaching, he became a lead instructor at Flatiron School,
+  where he built the data science course, and later founded his own bootcamp, JigsawLabs. The
+  episode covers teaching data engineers, from curriculum design to hiring and interviews.
+
+  Jeff says the main lesson from teaching is to collect feedback constantly, because a good lecture
+  does not mean students learned it. He favours active learning and teaching concepts before
+  application, so a regression student first understands the intercept and slope. He started with
+  weekly workshops to lower the barrier to entry. He also made the school part-time, because leaving
+  a job for a full-time bootcamp is risky. When he taught data science, job postings drew over 500
+  applications, and employers still wanted more. Data engineering had less competition and a more
+  defined skill set of Python, SQL, cloud and orchestration.
+
+  The curriculum is about 85% Python and SQL. Jeff dropped Spark, Kafka and Kubernetes for juniors,
+  because employers list them mostly for senior roles, and Kubernetes took two and a half weeks
+  without much coding. The course has three parts: analytics engineering with Fivetran, dbt,
+  Snowflake and Mode; backend engineering with Flask, ETL and testing on larger codebases; and cloud
+  work with Airflow, Docker and AWS. The school admits only people it expects to hire, screens them
+  with a free introductory course and a technical interview, and places students in six-hour-a-week
+  internships on non-critical employer projects. Jeff reviews each student's resume and interview
+  practice.
+
+  For interviews, Jeff advises applying early and learning from rejection. He describes a screening
+  interview first, then a round of SQL questions. Medium-level SQL problems and window functions are
+  a good target, plus data modelling practice that contrasts OLTP and OLAP, using sample databases.
+  Analysts who want to move into data engineering should focus on backend engineering, cloud and
+  Python. Fivetran takes a day and dbt a week or two. For people who want to teach, Jeff suggests
+  choosing a beginner topic, explaining it to one person, then giving a workshop and revising it.
+
+  Jeff says everyone in the last cohort found a new job. He recommends staying on a learning path
+  built around real projects rather than chasing each topic that comes up in an interview.

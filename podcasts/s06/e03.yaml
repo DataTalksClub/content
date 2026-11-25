@@ -150,3 +150,36 @@ transcript: e03-transcript.yaml
 resources:
 - title: Barbara's LinkedIn
   url: https://www.linkedin.com/in/barbara-sobkowiak-1a4a9568
+summary: |-
+  Barbara Sobkowiak is a data science manager. She graduated in GIS from the University of Poznan,
+  worked as a Java specialist and an SQL developer, and now leads data science work for a company
+  that builds solutions for other businesses. She also helps with Women in Machine Learning and
+  Data Science in Poland. Alexey invites her to discuss the difference between the data science
+  manager and expert roles, a topic she wrote about after seeing many manager job listings that
+  were mostly technical.
+
+  Barbara says such listings are often written by IT or HR staff who do not know the role. She
+  describes a manager as someone who builds the team, understands each person's strengths, sets
+  strategy, and manages stakeholders. A manager needs wide but shallow knowledge of machine
+  learning, enough to understand tools like Docker without using them daily. An expert needs deep
+  knowledge, often of one industry such as logistics or sales forecasting. Some managers have no
+  time to code, while others spend up to 50 to 60 percent of their time on models.
+
+  Alexey asks about hands-on work. Barbara meets her small team every week, pairs junior and senior
+  people, and reviews progress with each of them. She looks at code now and then but does not
+  double-check it. For each project she assigns one responsible person and helps project managers
+  estimate time. Monitoring is part of every project, both of the model and of the business
+  process. She gives the example of December sales rising for reasons unrelated to the model, which
+  makes results hard to read.
+
+  Barbara describes the expert role as a step after senior, sometimes filled by a freelancer who
+  advises a team. In a big organization she sees a manager and an expert as the right pair.
+  Startups usually look for one senior person with strong communication skills and enough technical
+  depth to deliver the first models. Alexey and Barbara agree that hiring only an expert can fail,
+  because experts often find team building and cross-department work hard.
+
+  When clients come with a problem, Barbara asks what business issue they have, whether they
+  already have a baseline, which KPIs they track, and how clean their data is. On women in data
+  science, she says many women hesitate before interviews, and she advises applying when they meet
+  about 70 to 80 percent of the requirements. She ends by suggesting that listeners find a mentor
+  and ask what gives them the most satisfaction.

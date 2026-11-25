@@ -148,3 +148,37 @@ resources:
   url: https://www.linkedin.com/company/databuzz-club/
 - title: Medium Blog Page
   url: https://medium.com/@supreetkaur_66831
+summary: |-
+  Supreet Kaur is an assistant vice president in data strategy at Morgan Stanley, whose team
+  owns AI-driven products. She came to the United States in 2017 for a combined MBA and MS in
+  data science, then worked as a data science consultant. She founded DataBuzz, a community
+  that mentors people who move into data from non-engineering backgrounds. Alexey invites her
+  to discuss responsible AI and explainable AI.
+
+  Supreet describes responsible AI as tools that let people explain how they arrived at
+  an outcome. She uses a reported case in which a wife received a lower credit limit than
+  her husband, who was equally eligible, which led to a lawsuit. She argues that data must be
+  checked for bias before training. She describes explainable AI as a post-mortem tool that
+  explains an incident after it happens, while responsible AI is a mindset applied from the start.
+
+  On data checks, Supreet lists skewness, missing data and population coverage. She advises talking
+  to business stakeholders when a population is missing. Age and gender are sensitive attributes,
+  so teams should ask whether they are needed, and mask them when they are not. Product managers,
+  subject matter experts and compliance decide which features are used, and data quality tools
+  can raise alerts. For models, she mentions Google's What-If Tool, Skater and
+  IBM's AIX360, and describes LIME as a simple model that approximates a complex one locally.
+
+  Alexey and Supreet discuss trade-offs. A feature that improves profit may need to be removed for
+  fairness, and the decision should involve several people. Interpretable
+  models may be less accurate, and the right choice depends on the use case. Supreet describes
+  monitoring for drift as including bias, so teams should track demographic groups and use
+  statistical tests, not only accuracy. Alexey suggests that a model judged only on accuracy
+  can overfit a feedback loop, and Supreet calls that an alarm. She says a human must still
+  review the results, and that even with AutoML a team can explore its input data first.
+
+  For people entering the field, Supreet lists roles such as research scientist, MLOps engineer,
+  AI consultant, business analyst and data strategist. She suggests starting with your own skills,
+  then talking to many people in different roles, since job descriptions rarely explain what
+  someone does. She says responsibility grows with seniority, and that everyone working with data
+  should understand what they are doing. Alexey adds that his company requires training before
+  data access, and Supreet agrees that ethics belongs in the training of every data practitioner.

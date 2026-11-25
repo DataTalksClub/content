@@ -149,3 +149,37 @@ resources:
   url: https://www.linkedin.com/in/liesbeth-dingemans/
 - title: Medium posts on design, innovation, art and AI
   url: https://medium.com/@liesbethmd
+summary: |-
+  Liesbeth Dingemans has worked on strategy, product and AI, first at McKinsey and then at Prosus.
+  She holds a master's in applied physics and a bachelor's in art history. Alexey, who worked with
+  her at OLX, says she led an innovation division there and is now starting a company in climate
+  resilient agriculture. Alexey invites her to talk about innovation and design for machine
+  learning. She sees design as a set of processes that start from the problem and keep the user in
+  view.
+
+  Liesbeth starts with "algorithm-friendly design", an idea from Eugene Wei that treats the
+  algorithm as a stakeholder that needs clear signals. TikTok, where one video at a time gives sharp
+  signals, learns faster than Instagram's feed, where it is unclear whether someone liked a post.
+  Liesbeth then explains the Double Diamond: diverge into research, converge on one sub-problem,
+  diverge into solutions, test several in parallel and converge. For fraud, she says many teams jump
+  to a model before asking whether machine learning is the right tool. Ideally this takes two days,
+  though the time depends on customers, research and scope.
+
+  A design sprint is a week of analysing interviews, ideation and prioritisation, although a broad
+  problem such as fraud may be too large for one. Liesbeth wants data scientists in customer
+  interviews so they own the problem. When a manager proposes a solution, she suggests asking "why"
+  and treating that person as a customer. A short scoping document, even an email, can confirm the
+  real problem. She also argues that product managers, who see customer problems, should lead the
+  search for AI opportunities.
+
+  Innovation, she says, needs time beyond quarterly OKRs, because data scientists often work on
+  three-month, incremental gains. Her example is used cars, where buyers fear hidden accidents. A
+  radical answer could be a vehicle scanner rather than a seller-rating model. Alexey raises task
+  forces, and Liesbeth describes the Jet Ski model at iFood, where a small team moves faster than an
+  oil tanker. For a manager with many fires, she suggests evidence from quick experiments, such as a
+  survey or an A/B test of a button, although that needs mature experimentation capability.
+
+  Liesbeth says these skills are learnable and that the playbook for design in data science is still
+  being written. Her starting points are Google's PAIR and the articles she mentioned. Alexey's
+  summary is that teams should document the problem, build a business case with evidence and accept
+  when an idea does not work.

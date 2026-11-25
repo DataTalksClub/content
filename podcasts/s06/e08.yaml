@@ -147,3 +147,37 @@ resources:
   url: https://github.com/ivan-bilan/The-Microservices-Pandect
 - title: Ivan's presentation about NLP
   url: https://www.youtube.com/watch?v=VRur3xey31s
+summary: |-
+  Ivan is an engineering manager at Personio, an HR platform, where his team builds login and
+  access-rights tooling for other internal teams. He moved from Ukraine to Munich about ten years
+  ago to study computational linguistics. He has worked on web scraping, Spark and Hadoop
+  pipelines, and NLP at a company called Trust, which supported 23 languages. He has also led data
+  engineering and NLP teams. Alexey invites him to talk about how NLP teams are built and led, and
+  what an NLP engineer does.
+
+  Ivan says NLP teams have only recently become a separate designation. He prefers
+  cross-disciplinary teams with data scientists, NLP engineers, a data engineer and ideally an
+  infrastructure engineer. He describes an NLP team as one that works with text and delivers a
+  system that produces insights, such as classification or a chatbot. He says the NLP engineer role
+  is not yet established, and that linguistic knowledge helps with hard tasks such as dependency
+  parsing and tokenizing languages without spaces. He separates ML engineers, who act as DevOps for
+  AI and handle deployment, from NLP engineers, who focus on training and inference. Conversational
+  designers, who shape how a chatbot talks, are a related role that often comes from linguistics.
+
+  Ivan says whether linguists are needed depends on the task. Sentiment analysis or summarization
+  can often be done without linguistics, while relation extraction and low-resource languages
+  benefit from it. He defines an NLP pipeline as the full path from data annotation and quality
+  checks through task engineering, testing, productionizing and observability. Pre-processing such
+  as tokenizing has mostly become automatic in tools like spaCy and Hugging Face.
+
+  Ivan describes GPT-3 as a model that can handle tasks from a prompt. Alexey mentions a pilot at
+  OLX where GPT-3 labels trained a simple classifier. Ivan sees GPT-3 as useful for quick
+  prototypes, but says its cost per request and lack of control make it hard to use in production.
+  He expects NLP pipelines to remain necessary, since new papers keep arriving. On translation, he
+  says systems are strong for a handful of language pairs but weak for low-resource languages,
+  because there is not enough text data.
+
+  For listeners, the practical advice is to build a team that combines data, NLP and engineering
+  skills, and to use prompt-based models for prototypes before building a pipeline the team
+  controls. Ivan also describes his GitHub collections, NLP Pandect, Microservices Pandect and
+  Engineering Manager Pandect, which gather tutorials, books and tools by topic.

@@ -152,3 +152,35 @@ resources:
   url: https://github.com/Bears-R-Us/arkouda
 - title: NJIT Data Science YouTube Channel
   url: https://www.youtube.com/c/NJITInstituteforDataScience
+summary: |-
+  David Bader is a Distinguished Professor at the New Jersey Institute of Technology, where
+  he launched the Institute for Data Science in 2019 and later founded its Department of Data
+  Science. Before that he spent about 14 years at Georgia Tech, where he launched the School
+  of Computational Science and Engineering. He has held faculty positions at the University of
+  New Mexico and has co-authored over 300 papers. Alexey, who works in industry, invites him
+  to talk about leading data research and being a professor.
+
+  David describes a typical day as meetings with students, from high school to PhD, and work
+  on proposals and running projects. He currently has three NSF projects, including Arkouda, an
+  open source framework for massive scale analytics, and industry work with Accenture Labs and
+  NVIDIA. He explains the academic ranks: assistant professors seek tenure, associate professors
+  are tenured, and full professors are recognized internationally. NJIT adds a distinguished
+  rank with a higher bar. Alexey and David also compare academic CVs, which can run to 100
+  pages because everything must be listed, with one-page industry resumes.
+
+  Launching a school or department starts with identifying a regional need and the people to
+  meet it. David says NJIT launched one of the earliest bachelor's programs in data science,
+  has offered a master's since 2017, and is preparing a PhD. Many of its students are the
+  first in their families to attend college, so the programs aim at local employers as well as
+  international careers.
+
+  David explains Arkouda and the ARACHNE graph tools. Analysts can write Python with a
+  NumPy-like interface, while the computation runs on a supercomputer in the back end, using
+  the Chapel compiler. He describes his research group as a startup that must raise funds,
+  but releases code as open source and produces graduates as its main deliverable. Finding
+  industrial datasets is hard, so his group often uses synthetic data or SNAP graph datasets,
+  then works with companies on their own data. He says about a quarter of his time goes to
+  teaching, and that he is editor in chief of ACM Transactions on Parallel Computing and runs
+  a weekly seminar on YouTube. The project he calls most rewarding is a linear-time algorithm
+  for a pancake-flipping variant. He says his advice to students is to find a professor whose
+  research interests them, to seek research experience early, and to prefer funded PhD positions.

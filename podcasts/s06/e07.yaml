@@ -167,3 +167,35 @@ resources:
   url: https://gibsonbiddle.medium.com/
 - title: Glovo is hiring
   url: https://jobs.glovoapp.com/en/?d=4040726002
+summary: |-
+  Geo is a technical product manager at Glovo, where he leads the team that builds the machine
+  learning platform used by more than 50 data scientists. He studied in the same information
+  technologies for business intelligence program as Alexey, then worked as a data scientist and
+  product manager at Revolut for two years. Alexey invites him to explain what an ML product
+  manager does and how a data scientist can move into that role.
+
+  Geo describes the platform as an internal product whose customers are more than 100 people who
+  build and deploy models. The team is moving training orchestration from Jenkins to Argo and
+  Airflow, and it integrates third-party tools when building in-house is not practical. His job is
+  to gather feedback from data science leads, compare the platform with the market and write the
+  roadmap. He prioritizes in a weekly backlog session with engineering managers. He argues that a
+  product manager defines the problem and the outcome, while engineers propose the solution. To
+  avoid jumping to solutions, he breaks problems into smaller pieces and runs workshops and
+  interviews. He estimates that a data scientist stuck on the platform for two weeks costs about
+  2,000 euros, so 50 users could cost about 100,000 euros.
+
+  Geo explains that leads and staff data scientists own the architecture and the code, while the
+  product manager owns rollout, adoption, stakeholder approval and, in regulated fintech,
+  governance. The platform team has backend engineers and two embedded data scientists, who act
+  like developer advocates for new users. Delivery started with a to-do list, moved to Kanban as
+  the team grew and later adopted Scrum for releases. Alexey notes that data science work is hard
+  to estimate, and Geo says retrospectives matter more than any one method. For user research, he
+  runs monthly sessions and a survey every two months, which feed a happiness report. Documentation
+  is the main complaint.
+
+  On the transition, Geo says he translated his blogging, backend work and a chatbot project into
+  product outcomes and updated his CV. He read "How to Crack the PM Interview" and "The Lean
+  Startup", and he learned from product leaders. He says engineers and Scrum masters can move into
+  the role, since about 80 percent of the work matches general product management, but ML knowledge
+  is still needed. He also warns that the job is demanding, and that communication and
+  prioritization are its core skills.

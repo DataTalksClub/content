@@ -150,3 +150,33 @@ resources:
   url: 'https://steveblank.com/category/customer-development/'
 - title: 'Data Engineering for Noobs'
   url: 'https://www.datacamp.com/'
+summary: |-
+  Sara is a product manager at Meroxa, a company that builds data platforms for software teams.
+  Before that she worked as a product designer at Zendesk, Change.org, Checkr and Sora. Her career
+  started in technical support at a shared hosting company in Utah, and she moved to San Francisco
+  and then into product support at Zendesk. Alexey invites her to explain how a product designer
+  moves into a data product manager role, and what the job involves day to day.
+
+  Sara describes the work of a data product manager as close to a regular product manager's work,
+  with the focus on talking to data professionals. Her customer development calls cover
+  responsibilities, problems and tooling, and she often finds that data teams spend much of their
+  time educating business teams on how to use data. Alexey summarizes the process she describes:
+  product discovery, planning, prototyping, success metrics, engineering work that takes a few
+  weeks to a month, then launch and release. Sara says her designer background was mostly in
+  discovery and execution. While she was pushing her team to run experiments, a VP of Product
+  suggested she would make a good PM, and she made the move later.
+
+  Sara learned SQL and took data engineering courses after she made the transition, not before. She
+  has not learned Python yet. She says a data PM must be able to check query results and read
+  tooling documentation, which she finds the hardest part of the job. She also names the Reforge
+  Product Management Fundamentals course as a useful source for product skills. Her day includes a
+  daily stand-up, quick data analysis for the marketing team, design reviews and product analytics
+  instrumentation. Ideas usually come from engineering leadership, and Sara validates them with
+  customers before the team commits to building them.
+
+  For someone making the same move, Sara recommends case studies that describe a problem, the
+  research, the solution and the outcome, which can be published on a personal site, Medium or as a
+  PDF. She suggests using public datasets when no work project can be shown. She also stresses
+  networking and finding a mentor, since data product managers are relatively rare. She expects a
+  data PM to understand data science as well as analytics, although she says she has not yet worked
+  on that side herself.

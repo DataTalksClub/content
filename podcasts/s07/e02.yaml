@@ -146,3 +146,34 @@ quotableClips:
 transcript: e02-transcript.yaml
 
 resources: []
+summary: |-
+  Alicja Notowska spent almost six years at Zalando recruiting data scientists, and she now works
+  as a client lead at WeAreKeen, an embedded talent agency. Alexey, whom she once tried to recruit
+  at Zalando, invites her to explain how data professionals are hired. They cover the hiring
+  funnel, sourcing, CV screening and salary talks.
+
+  A hiring process starts when a manager asks for a role, and Alicja's first task is to test
+  whether the requirements match the market. She uses LinkedIn market data, where available, to
+  show how each extra must-have narrows the pool. She prefers that managers draft job descriptions
+  and describe the problems the hire will solve rather than perks. Alexey mentions an AI tool that
+  flags wording that appeals more to men, and Alicja agrees such tools can help. She warns
+  managers that a first data science hire may take six to nine months.
+
+  Sourcing runs alongside posting, because few qualified applicants arrive unprompted. Alicja
+  searches LinkedIn by experience, degree and Boolean keyword strings taken from the must-haves,
+  and she also looks at alumni and conference papers. She calls profiles that list only a company
+  and a title skeleton profiles. For CVs she advises clear personal responsibilities with month
+  and year dates, no photo, no date of birth and no Europass format. Buzzword-heavy CVs, she says,
+  often fail the first interview.
+
+  The recruiter screen avoids technical questions, since almost everyone passed the basic ones her
+  team tried. Alicja asks about past work, behavioral examples, notice period and salary. She
+  advises candidates not to reveal their current salary and to ask about the band first, because
+  many larger companies use levels with fixed ranges. A range is usually enough, and expectations
+  can change if the candidate says so early. A very large gap, however, can end the process.
+
+  On audience questions, Alicja says career changers need experience, even unpaid internships, and
+  should network and connect with recruiters. Cover letters matter mostly for entry-level roles,
+  and Alexey says he rarely reads them. A Coursera certificate on a CV is a nice extra, not a
+  requirement. Her advice to candidates is to prepare specific examples, ask about the company,
+  say when other offers arrive and honor accepted offers.

@@ -124,3 +124,36 @@ resources:
   url: https://www.linkedin.com/in/olgaivina/
 - title: Olga's Twitter
   url: https://twitter.com/olgaivina
+summary: |-
+  Olga Ivina is a delivery data science director at Microsoft and has worked in AI for more than 16
+  years. She studied applied mathematics, then wrote a PhD on applying machine learning to air
+  pollution in the Barcelona metropolitan area, using conformal prediction to produce intervals. Her
+  career includes a boutique consultancy, a telecom churn project, startups, freelancing and
+  consulting for airlines. Alexey invited her because she has been hiring data scientists for about
+  seven years. She stresses that she speaks for herself, not for her employer.
+
+  Olga names two criteria: technical excellence and attitude. Excellence means understanding an
+  algorithm well enough to write its formula and explain its assumptions. Her favorite question
+  asks what data means, and the answers show how candidates think. For attitude, she looks for
+  constant learning, humility and an honest sense of direction, and she checks motivation by asking
+  why someone does data science. Alexey notes that the field now puts more weight on engineering,
+  and Olga agrees that deploying models was hard only a few years ago.
+
+  In interviews, Olga uses coding or analytical exercises, and she warns that people, interviewers
+  included, are not always objective. She asks whether some distributions lack a mean, and one
+  candidate's answer covering sample, population and a practical example impressed her. She also
+  uses an analogy about judging average prices after moving to a new country. She stresses
+  that descriptive statistics should not be underestimated, and she reads The Elements of
+  Statistical Learning for refreshers.
+
+  On role fit, Olga says companies should avoid the jack of all trades and be specific about whether
+  they need deep algorithmic work, productionization or analytics. Alexey and Olga agree that AutoML
+  simplifies the work but does not replace data scientists, because stakeholder communication still
+  matters. She says leading does not require managing people, and a manager's request should start
+  with a conversation about motivation. On diversity, she argues for active sourcing through
+  referrals and weak ties, and cites research suggesting women apply only when they meet every
+  listed requirement. Career gaps, she says, usually reflect life events rather than ability.
+
+  Olga's practical advice is to define the job precisely, keep postings to what the person must do,
+  and rely on referrals. She also says anyone can learn with enough practice, so candidates should
+  keep applying.

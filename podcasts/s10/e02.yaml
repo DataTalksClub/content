@@ -166,3 +166,37 @@ resources:
   url: https://www.youtube.com/watch?v=pCtQ0szJiLA
 - title: Slides
   url: https://www.slideshare.net/terezaif/lessons-learned-from-hiring-and-retaining-data-practitioners
+summary: |-
+  Tereza Iofciu is a data practitioner with a PhD in information retrieval and recommender
+  systems. She studied computer science in Hannover, joined XING in 2011 to work on recommenders,
+  and then moved to mytaxi, now FREE NOW, as a data engineer. She has also worked as a data
+  scientist, product manager and team lead, and now coaches bootcamp students at neuefische. Alexey
+  asks how to read a data science job description and why companies and candidates so often
+  expect different things.
+
+  Tereza says many companies copy job descriptions from others and do not yet know what they
+  need. Interviews then become a test of how smart a candidate is, often through a take-home
+  challenge advertised as four hours that can take a month. Alexey recalls a take-home
+  sent automatically for a position that had already been filled. Tereza's own mytaxi role was
+  advertised as BI developer, but the work was ETL and data platform building on Airflow and
+  Hadoop, so she later changed the title on her CV. Candidates should first define their goals,
+  since a junior hire in a one-person data team often gets unrelated tasks.
+
+  For a job description, Tereza's checklist starts with whether the team is named and where it
+  works. It also asks whether the description lists objectives instead of only a long list of
+  technologies, and whether the company already has data infrastructure and analytics. She
+  describes three stages of data maturity: before data, during data and after data. In a
+  before-data company, a data scientist spends most of the time talking to the business, not
+  modeling. She suggests asking who in the company wants the company to be data-driven. Warning
+  signs include long tech lists, words such as "rockstar" or "ninja," and interviews built on
+  syntax questions. Alexey mentions a gender decoder tool that flags wording of this kind.
+
+  Tereza notes that many postings omit salary, and says that discussing pay is legal in Germany,
+  so companies should publish ranges rather than lose staff. On LinkedIn, candidates can see
+  how many juniors a company has and how many people move up internally. Team pages, conference
+  talks and past employees offer more signals. For remote work, Tereza advises asking what
+  processes support it, because remote work needs deliberate support.
+
+  Tereza's advice is to decide which factors matter most, such as team, mission, culture or
+  retention, and to research the company before applying. She also encourages candidates to
+  stop applying to poorly written descriptions and to ask companies to improve them.

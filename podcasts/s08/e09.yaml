@@ -124,3 +124,35 @@ quotableClips:
 transcript: e09-transcript.yaml
 
 resources: []
+summary: |-
+  Gloria Quiceno is a business data analyst at ICE, a company that processes music metadata and
+  streaming reports to calculate royalties. She studied biology and psychology, then a master's in
+  neuroscience. After three years in a German lab studying dopamine and memory, she wanted more
+  technical work and enrolled in a three-month data science bootcamp at Spiced Academy in Berlin.
+  The conversation covers moving into data engineering, her job search and her first role.
+
+  At ICE, Gloria began by handling SQL report requests from colleagues and internal customers, and
+  she had to make sure one customer's data never reached another. Her team now automates reports
+  with R or Python scripts, Docker and scheduled runs on AWS. Docker came after a colleague's R
+  scripts failed on different library versions. Her work also involves tracing data through the
+  pipeline when royalty figures look wrong, and building dashboards for customers.
+
+  Gloria finished the bootcamp in August 2020 and received an offer in December, after about four
+  months of searching. She tracked about 130 applications by saving each job description and
+  application as PDFs, and she had 10 to 13 first interviews. She kept a document of hard interview
+  questions and wrote ideal answers afterwards. Live coding was hard, because the interview had not
+  warned her about it, and she wrote the solution ten minutes after the session ended. The company
+  rejected her and asked to keep her data, and she used her GDPR rights to have it deleted. She
+  calls salary negotiation the most difficult part, and career coaching from the bootcamp helped.
+
+  Her portfolio included a Twitter pipeline built from Docker containers. One container collected
+  tweets, another cleaned them and a third posted results to a Slack bot. Her final individual
+  project tracked sustainability hashtags, and an employer noticed it because of their own mission.
+  Alexey points out that personal interests can decide which applications get a call. Gloria also
+  found that bots skewed her sentiment analysis, which taught her to clean data before reporting.
+  She says employers valued her attention to data quality more than the specific tools she knew.
+
+  Gloria points to Python, SQL and Docker as useful skills, and to AWS as the cloud most employers
+  request. She advises getting career coaching and building networks earlier. She would repeat the
+  bootcamp because it covered several areas and let her choose projects. Alexey notes that career
+  switches are harder now than when he moved into tech.

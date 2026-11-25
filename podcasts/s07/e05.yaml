@@ -145,3 +145,37 @@ transcript: e05-transcript.yaml
 resources:
 - title: Valerii's telegram channel (in Russian)
   url: https://t.me/cryptovalerii
+summary: |-
+  Valerii Babushkin is head of data science at Blockchain.com, a cryptocurrency company. His
+  earlier roles include user data privacy work at WhatsApp, VP of machine learning at Alibaba
+  Russia and senior director of data science at X5 Retail Group. He is also a Kaggle Competitions
+  Grandmaster. Alexey invites him to explain what machine learning system design interviews test,
+  and how they differ from software system design.
+
+  Valerii separates the two. Software system design covers databases, throughput, caching and
+  sharding. The machine learning version asks how to build a model for a case, such as fraud
+  detection. He walks through that case. A fraud score should be a calibrated probability, so a
+  proper scoring loss such as log loss fits, and a linear model can be retrained online as fraud
+  patterns change. Class imbalance makes precision a poor metric, so he keeps recall and
+  specificity and uses an A/B test for online performance. He advises candidates to state
+  assumptions aloud and ask the interviewer to confirm them.
+
+  Alexey describes his own tech lead interview, where he spent most of his time on metrics and
+  heuristics and too little on machine learning. He failed that round and wonders how long to
+  spend on heuristics. Valerii says interviewers are subjective and that candidates should sketch
+  a baseline, check which part to focus on and iterate. In applied work, he says, depth matters
+  less than being able to justify the model, the loss and the metrics. He prepared little himself,
+  and cites a checklist used at Facebook and the book Machine Learning Design Patterns.
+
+  Valerii stresses that a goal must come first, and that clicks or time on platform are proxies
+  that can mislead. An ads system trained on clicks invites clickbait, and a metric that becomes
+  the goal soon stops being a good metric, so retention and churn need watching too. Real systems
+  also need monitoring for feature distribution shift, label imbalance and fallback plans. He
+  estimates that algorithms make up one to five percent of a machine learning system, and that
+  features and labels matter most.
+
+  For a new graduate, Valerii expects no system design round, but coding and behavioral rounds. He
+  says LeetCode practice can train pattern matching without building real coding skill. Alexey
+  asks how to validate models in production, and Valerii answers that A/B tests are best, with
+  human labels only when the output needs them. He says a candidate who covers these steps will be
+  ahead of most others.

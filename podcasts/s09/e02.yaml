@@ -149,3 +149,38 @@ resources:
   url: https://astro.kretlow.de/?SiMDA
 - title: The source survey data, several are useful for asteroids
   url: https://outerspace.stsci.edu/display/PANSTARRS
+summary: |-
+  Daynan Crull is a co-founder of Karman+, an asteroid mining company, and a former data scientist
+  in remote sensing. After studying astronomy and cosmology as an undergraduate, he returned to
+  school at NYU for informatics and then worked for GeoPhy, The World Bank and FEMA. He left his job
+  full time a few months ago to build Karman+'s science and engineering team. Alexey invited him to
+  discuss data science in astronomy and asteroid mining.
+
+  Daynan names signal processing, time series, source labeling in images and dimension reduction as
+  common tasks. Astronomical data is often hyperspectral. One camera he used in graduate school
+  recorded 172 channels from mostly visible wavelengths into the near infrared. Water has an
+  absorption feature near three microns, but the atmosphere blocks that range from the ground, so
+  the team looks at features near 700 nanometers that correlate with water-bearing objects. In LIGO
+  data, the pipeline missed a neutron star collision signal until a postdoc masked a glitch in one
+  detector.
+
+  Ground truth is scarce. Japan's Hayabusa missions returned samples from the asteroid Ryugu, and a
+  NASA sample is expected later this year, but that is a small set. Daynan warns that a consistent
+  classifier is not necessarily right, because reducing variance helps only if bias is understood.
+  The company focuses on water, since delivering it to orbit costs thousands of dollars per liter.
+  Precious metals are a longer term idea with uncertain economics. The team plans to use commercial
+  off the shelf parts and CubeSats, partnering with vendors instead of building hardware. Asteroids
+  are treated as rubble piles, so material would be scooped rather than drilled.
+
+  Most near-Earth asteroids are thought to come from the main belt, pushed by gravitational
+  resonances with Jupiter. NASA's JPL has cataloged about 29,000 near-Earth asteroids, against an
+  estimated 300 to 400 million, so statistical models guide where spacecraft go, but a real object
+  must still be observed. For data, Daynan points to the Minor Planet Center, the JPL Horizons API
+  and NEOWISE through IRSA. He also describes Cloud-Optimized Geo formats and STAC as ways to query
+  imagery without downloading whole files.
+
+  For newcomers, Daynan suggests starting with Minor Planet Center data and Python packages, then
+  replicating published methods found through Google Scholar. He describes the team's approach as a
+  Bayesian engine that updates its understanding of each asteroid as new data arrives. He uses
+  notebooks to tell the story of data but does not develop in them, because they can teach bad
+  habits.

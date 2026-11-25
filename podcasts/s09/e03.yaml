@@ -153,3 +153,37 @@ resources:
   url: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 - title: Mode SQL Tutorial
   url: https://mode.com/sql-tutorial/
+summary: |-
+  This episode is a follow-up to a webinar on getting a data engineering job. Alexey had twelve
+  questions left over from the webinar, and he invited Jeff Katz, who teaches students moving into
+  data engineering and wrote an intro to Python on jigsawlabs.io, to answer them in an audio-only
+  recording. Jeff's core point is that employers want data engineers, but candidates have to show
+  they can start contributing.
+
+  Jeff says a portfolio needs real Python and SQL, with a few hundred lines of each rather than a
+  checklist of tools. He asks for small functions, classes under about 100 lines, descriptive names
+  and tests. Open source projects enforce that quality, and he points to Code for America chapters
+  as a place to contribute. For learning, he recommends Think Python and Automate the Boring Stuff,
+  the Flask Mega-Tutorial for back-end work, and Khan Academy for SQL. Someone in BI can move toward
+  data engineering by taking on more technical work, and analytics engineering roles usually need
+  less Python.
+
+  For the interview funnel, Jeff recommends a LinkedIn profile with a photo, and a resume rewritten
+  for the role. Behavioral interviews reward a positive attitude about past jobs, clear answers that
+  give the answer first, and a stated reason for wanting this role. Technical rounds usually mean
+  medium to hard SQL problems, easy Python problems and sometimes a take-home project with a CSV
+  file. Interviews run five to eight questions, and some last four hours. Both say candidates should
+  apply without meeting every listed requirement.
+
+  On credentials, Jeff says skills matter more than certificates, and cites a rough calculation: a
+  60% graduation rate and 60% job placement give about 36% of enrolled students getting hired.
+  Alexey agrees that a master's suits research work more than applied data engineering, though his
+  own program gave him foundations for Apache Flink. Jeff says candidates applying to US or EU only
+  remote roles from abroad face a higher bar. For candidates without commercial experience, he
+  suggests nonprofit contributions, internships and contract work. Jeff says being over 40 is
+  generally not a barrier, and sales experience can lead to solutions engineering roles.
+
+  The practical advice is to build Python and SQL depth first, make the portfolio real through open
+  source or nonprofit work, and rehearse behavioral answers with a trusted peer. Jeff suggests
+  finding the stage of the funnel where candidates get stuck, since getting interviews means the
+  resume is working. Apply anyway, and let employers decide on fit.

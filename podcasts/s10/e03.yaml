@@ -149,3 +149,38 @@ resources:
   url: https://whylabs.ai/
 - title: AI Infrastructure Alliance
   url: https://ai-infrastructure.org/
+summary: |-
+  Danny Leybzon is an MLOps architect at WhyLabs, a company that monitors machine learning models
+  in production. He dropped a paralegal track for a statistics major at UCLA, then worked as
+  an analyst and product manager at Qubole and as a field engineer at Imply. At WhyLabs he was
+  the first hire who did not found the company or build the product. Alexey says he still does
+  not know what Danny does, and invites him to explain the role.
+
+  Danny describes the job as a bridge between business and technical work. At an early stage
+  company he covered developer relations, product marketing and community management. Now
+  he mostly advises customers on tooling and architecture. He recalls an Amazon-style hiring
+  process of five interviews with the founders and data scientist Bernice. He says he decided
+  to join after a backpacking trip in Denali National Park, weighing a management offer at
+  Imply against the chance to grow in a small team.
+
+  On prioritization, Danny says WhyLabs focuses on the end of the lifecycle, where models are
+  monitored for drift and falling accuracy. Most customer conversations cover the inference
+  process, and fewer cover experiment tracking or training. He also follows ETL and orchestration,
+  since model problems often start upstream. WhyLogs is the open source library that creates
+  statistical profiles of data. WhyLabs, a SaaS service, takes in those profiles, stores them
+  in Apache Druid and adds dashboards, anomaly detection and alerts. The company also reaches
+  out to customers before problems occur.
+
+  On tooling, Danny says there is no usual MLOps setup. Some customers commit fully to AWS,
+  Vertex or Azure, while many combine several tools. He sees little use of ONNX among the
+  commercial customers he works with, since they usually pick one toolset. When a team asks
+  whether to build or buy, he helps engineers make the case to managers in terms of KPIs and
+  company risk. His recent research focus is fairness and bias, where he argues that segmentation
+  and tracking disparate impact matter more than explainability.
+
+  Danny frames his own career with the explore-exploit trade-off from optimization theory,
+  which suggests exploring first and exploiting later. He thinks background matters less than
+  the ability to find answers, and calls being an effective Googler a valuable skill. Moving
+  from engineering toward product or sales engineering is easier, he says, than the reverse. His
+  advice is to commit to learning, adopt a growth mindset and stop asking colleagues for things
+  that can be looked up.

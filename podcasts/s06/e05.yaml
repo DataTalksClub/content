@@ -142,3 +142,37 @@ transcript: e05-transcript.yaml
 resources:
 - title: Eleni's page at DIMA
   url: https://www.user.tu-berlin.de/tzirita/
+summary: |-
+  Eleni is a postdoctoral researcher in the DIMA group at TU Berlin, the group where Alexey started
+  his own Master's. She did her PhD in data management at EPFL in Lausanne and her undergraduate
+  studies in Athens. Her research covers spatial big data analytics and stream processing for IoT.
+  Alexey invites her to talk about what a postdoc does and how researchers choose topics.
+
+  Eleni describes a typical week as a mix of research, project meetings, paper writing, mentoring
+  Bachelor's and Master's students, co-supervising PhD students, teaching a Bachelor course and
+  reviewing papers for conferences. As a PhD student, her main job was the thesis, and teaching
+  took about 20 percent of her time. As a postdoc she has more responsibility: she manages her
+  course, does more collaborative research and is accountable for students' work. A disappointing
+  result can still be published at less competitive venues. The top venues in her field are VLDB,
+  SIGMOD and ICDE.
+
+  The DIMA group works on a few broad themes set by its leader, Professor Markl. Master's students
+  pick from advertised topics, while PhD students find a sub-topic themselves and must explain why
+  it matters and why it is open. Eleni names two current themes: Nebula Stream, a general-purpose
+  data management system for IoT that she calls the next Flink, and Agora, a data infrastructure
+  for ecosystems of data, models and compute. To spot trends, she reads conference papers, sees
+  unpublished work while reviewing, and attends conferences and the database community's periodic
+  gatherings.
+
+  Eleni says most papers are judged on runtime, while metrics such as ease of use, programmability
+  and energy consumption are harder to publish. She calls data cleaning underrated, because it
+  matters a lot and few researchers work on it. She describes a Human Brain Project collaboration,
+  where she built tools to access sub-regions of brain models, and says working across fields needs
+  a shared language. On women in computer science, she points to early events that present the
+  field in a gender-neutral way, female role models, and universities that keep women in the
+  postdoc and professor stages.
+
+  For students considering a PhD, Eleni suggests trying research in a Master's thesis or an
+  internship first, since there is no pressure to publish. At DIMA, a PhD usually needs about three
+  papers at top conferences. She also advises choosing a mentor whose working style fits, and notes
+  that students often come to know their supervisor through a course first.

@@ -157,3 +157,35 @@ resources:
   url: https://github.com/scale-vector
 - title: Slack Community
   url: https://join.slack.com/t/berlindatacol-szn7050/shared_invite/zt-19dp8msp0-pP4Av3_fVFBbsdrzPROEAg
+summary: |-
+  Adrian Brudaru studied economics with a marketing specialty in Romania, then moved to Berlin to
+  work as a business analyst. After a corporate data engineering role ended, he told recruiters to
+  place him on projects, and he has freelanced for five years. He now co-founds a company with two
+  others that is building an open source data loading tool. Alexey invited him to discuss
+  freelancing in data engineering.
+
+  Adrian says freelance hiring takes one or two conversations instead of four to six interviews, but
+  the income is less secure. He plans with about 75% occupancy, which he puts at roughly 1,500 to
+  1,700 billable hours a year, and he warns against asking for a rate equal to a salary. He puts
+  rates at about 60 per hour for less senior work with non-German clients, and up to 150 per hour
+  for senior, on-site work. His first two projects came through a staffing agency at 60 to 70 per
+  hour. Agencies often take a third of the project value. He moved to direct clients once his
+  network let him ask for more.
+
+  Adrian says client work depends on relationships. In his first year he aimed to meet two people a
+  week, often over breakfast, and repeat clients came from people he had worked with before.
+  Freelancers who bring in others often take a fee of 5 to 10 percent, or about 20 percent when they
+  manage the work. He calls Upwork a waste of time. For unclear problems, he writes a scope document
+  covering what is in and out of scope, and proposes a two-week spike to define the problem before
+  committing. He also belongs to a Slack group of about 20 Berlin data freelancers who share
+  projects.
+
+  The loading tool came out of a Rasa pipeline, where conversation data has a complex and changing
+  schema. Adrian describes a framework that takes JSON or a data frame, unpacks nested data, types
+  it through an editable YAML schema and renames columns for the database. He says existing
+  frameworks demand deep object-oriented skills, and this one decouples the source from the loading.
+  He expects version 0.1 within about a week of the recording.
+
+  For new freelancers, Adrian advises building a network before they need it, asking for a fair
+  rate, and raising problems early. He estimates that three months of work at 120 per hour would pay
+  comfortably after taxes in Germany. He suggests starting with a broad local data or BI group.

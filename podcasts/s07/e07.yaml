@@ -136,3 +136,36 @@ quotableClips:
 transcript: e07-transcript.yaml
 
 resources: []
+summary: |-
+  Rahul Jain is a data engineering manager at Siemens, where he leads a team of eight engineers in
+  India building an IoT data platform for one of the company's businesses. He started in 2010 as
+  an ETL developer on SQL Server and Oracle, moved into master data management, and turned to big
+  data and data engineering as cloud adoption grew. Alexey, whose team at OLX has only engineering
+  managers, invites him to explain what the data engineering manager role involves.
+
+  Rahul says he spends about half his time as an individual contributor and half managing people,
+  though the ratio moves toward 60 to 40 as the team grows. He names empathy as the most important
+  trait, with technical depth and business acumen close behind. He was promoted after about six
+  months as a senior data engineer, and says he learned on the job without a plan. His early
+  challenges were earning the team's trust and prioritizing among stakeholders. He would now write
+  a 30-60-90 day plan, be more assertive about non-negotiables and set expectations earlier.
+
+  The team splits goals into committed objectives, such as no sprint spillover and no defects, and
+  aspirational goals that should be reached only 50 to 70 percent of the way. Success is measured
+  by the number of consumers served and by reconciliation between source and target systems. Rahul
+  describes GDPR handling with dynamic data masking and role-based access on tagged data sets. The
+  platform moved from fixed ETL to ELT on a data lake, so raw data can be reprocessed, and lineage
+  is tracked. Frequently used results are cached and refreshed when new data arrives.
+
+  In hiring, Rahul asks candidates to explain a project in five minutes, starting from the
+  business problem, and poses hypothetical questions such as launching Amazon in Antarctica. To
+  test buzzword CVs, he asks why a technology was chosen and what the alternatives were. The best
+  recent hires researched the company and asked to interview him about their career path. He
+  values ownership most: engineers fix a failing pipeline first and review what happened
+  afterward, which is why he no longer receives the alerts.
+
+  For students, Rahul recommends learning database fundamentals, SQL, some Python, and the terms
+  data warehouse and ETL before enterprise tools, since basics carry over. He lists SQL, ETL
+  concepts, warehousing, a scripting language, CI/CD and cloud as the non-negotiable skills for a
+  data engineer. Alexey admits he is prone to talking about the technology in a project rather
+  than the problem it solved.

@@ -171,3 +171,35 @@ resources:
   url: https://datakitchen.io/dataops-maturity-model/
 - title: DataOps Webinars
   url: https://datakitchen.io/webinars/
+summary: |-
+  Chris Bergh is CEO and Head Chef of DataKitchen, a company he says has 45 people, is eight years
+  old and is profitable. He grew up in Wisconsin and spent 15 years building software, including at
+  NASA. Around 2005 he took over data teams, where things kept breaking and insight requests piled
+  up. Alexey asks him to explain what DataOps is and why he is called the Father of DataOps.
+
+  Chris says the problem was less about writing code than about the processes around it. He compares
+  a data team to a factory that must stay stable for customers, while also being a software team
+  that has to change quickly. DataOps is about how a team works rather than what it builds. He names
+  three targets: fewer errors in production, shorter deployment cycle time, and higher team
+  productivity, all measured. Errors need observability, and he cites a blank report that took 26
+  people six hours to trace. Chris argues for optimising the whole value stream, since the best
+  model fed by bad data still fails.
+
+  Chris also describes the human cost. He cites a Gartner figure that 60% of projects fail, and a
+  survey of 600 data engineers in which 70% said their job was stressful enough to want a therapist.
+  He admits he blamed people when the system was at fault, and argues that leaders own the process.
+  He separates "done" from "good". A hero who bolts Spark queries to a dashboard may please
+  customers, but good work runs its own checks and can be changed by a new hire. He wants two loops
+  of iteration, one with customers and one with the data, and early feedback before polishing.
+
+  His steps start with version control, automated tests in production and regression tests in
+  development. Teams should also track errors and deploy often, so that work can be handed off.
+  Chris is against checklists and prefers code that performs them. On testing, he suggests running
+  the whole system end to end on realistic, immutable raw data, and spending around 15% of time on
+  process. On MLOps, he says it is the same idea as DataOps. Models, visualisations and governance
+  should be versioned together as one unit.
+
+  Alexey summarises that a data engineer should aim to be replaceable rather than indispensable.
+  Chris points to the free DataOps Manifesto, a cookbook of about 150 pages and a second book for
+  managers. He ends by listing four things to get right: iteration, errors, productivity and
+  measurement.

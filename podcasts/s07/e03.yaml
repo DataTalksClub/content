@@ -118,3 +118,36 @@ transcript: e03-transcript.yaml
 resources:
 - title: Greg's LinkedIn
   url: https://www.linkedin.com/in/greg-coquillo/
+summary: |-
+  Greg Coquillo is a technology manager at Amazon, where he builds AI products, and a frequent
+  sharer of resources on LinkedIn. He started as an industrial engineer in manufacturing, rotating
+  through supply chain and quality roles before working as a product manager for pricing
+  optimization. There he built internal data products, dashboards on curated pipelines that helped
+  sales teams put a contract together in under five days. Alexey invites him to explain product
+  management for data professionals who are not product managers.
+
+  Greg separates data product management for internal customers from traditional product
+  management for external ones, but both start with the customer's pain points and work backward
+  to a roadmap. Internal data products often lack UX design, so product managers can bring in
+  designers. Greg says data professionals benefit from mapping the path a customer takes, the steps
+  from searching for a product to using it. He recommends learning this through interviews with
+  business partners and documentation. He uses the five whys to find root causes, and gives a
+  hypothetical case where a website change made buyers miss the buy button.
+
+  Greg describes a roadmap as a three-year plan, prioritized by impact, effort and cost. Data
+  professionals contribute by estimating technical effort, which he calls t-shirt sizing. A data
+  scientist can also build an MLOps roadmap when many product managers send requests that the team
+  cannot serve by hand. Greg says a roadmap should be adaptive rather than static. For a
+  framework, he suggests an Excel sheet with columns for each problem, its root cause, the
+  proposed solution, impact, effort, a SMART goal and priority.
+
+  For internal platforms, success metrics can include the share of business-critical pipeline
+  failures fixed within an agreed service level agreement, such as 98% within 48 hours, and fewer
+  data quality complaints. Teams without a product manager should still identify their decision
+  makers, interview them and use data to test ideas. Alexey recalls a product manager who wanted
+  his team to need him less, and Greg reads that as aligned mental models.
+
+  Greg's final advice is to learn product skills on the job, outside immediate responsibilities,
+  because that gets people promoted faster. He says there is no set course for roadmap building,
+  so each person should write a framework for their own department. Questions can go to him on
+  LinkedIn.

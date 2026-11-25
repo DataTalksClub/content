@@ -133,3 +133,36 @@ resources:
   url: https://twitter.com/misraturp
 - title: 'Hands-on Data Science: Complete Your First Portfolio Project'
   url: https://www.soyouwanttobeadatascientist.com/hods
+summary: |-
+  Misra Turp is a developer advocate at AssemblyAI, a speech-to-text API company, and she still runs
+  her platform, So You Want to Be a Data Scientist, and a YouTube channel. She studied computer
+  science and then big data engineering, worked as a consultant at IBM and later as a data scientist
+  at a startup, and moved into content creation. AssemblyAI found her through that work. Alexey
+  invited her to explain what data scientists produce at work and what employers expect.
+
+  Misra says the output varies: a trained model, a pipeline that keeps adding data, a presentation
+  or a report. Consultants usually do reporting and dashboards, while in-house data scientists often
+  own models and pipelines, which requires more engineering and DevOps skill. She prefers the in-
+  house role because she can push back on decisions and see quick results. She also says many
+  projects need no machine learning at all, and a clear analysis can be enough. She calls
+  communication with non-technical people a key skill.
+
+  Before she became a content creator, Misra did not follow AI news closely. Models such as DALL·E 2
+  are built on diffusion models, which she studied in order to make a video. She argues that the
+  largest models need specialized teams, mostly PhD graduates, and large budgets, so an average
+  startup using decision trees is unlikely to need them. Staying current depends on the goal. She
+  agrees with Alexey that industry conferences such as Berlin Buzzwords are more useful than papers,
+  which are often vague about how results were achieved. On imposter syndrome, she says a junior
+  data scientist's job is to learn quickly, not to know everything already.
+
+  Misra advises applying even when you know only 70 to 80 percent of the listed skills. She
+  recommends short, specific messages to people at target companies, since vague requests for
+  mentoring are rarely answered. Portfolios should show how a candidate handles messy data rather
+  than model accuracy, and she prefers real datasets such as New York City open data, which she
+  calls dirty, over Titanic. On degrees, she says she learned little in her master's, a PhD matters
+  for research roles, and a hard rule against candidates without one is unfair.
+
+  Misra sees generalist and specialist paths as a trade-off. Generalists move across industries,
+  while the top research roles usually need deep specialization. Alexey and Misra note that a
+  company's region can limit its industries, so candidates should ask how many kinds of projects its
+  data scientists handled that year.

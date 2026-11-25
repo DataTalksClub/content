@@ -133,3 +133,34 @@ resources:
   url: https://www.textualize.io/
 - title: Textualize GitHub
   url: https://github.com/textualize
+summary: |-
+  Will McGugan is a Python open source maintainer and the creator of PyFilesystem, Rich and Textual.
+  He started in video games for more than ten years, then worked on an internet chess club interface
+  and in new media websites. Since 2010 he has mostly freelanced on Python web projects, and he
+  recently founded Textualize. The conversation covers turning open source work into a career and a
+  startup.
+
+  Will says most of his projects start from a need he could not meet with an existing library. His
+  BBCode parser came from a website, and his PGN chess library was hosted on Google Code.
+  PyFilesystem gives one interface to local files, FTP servers and zip files, and its S3
+  counterpart, S3Fs, presents Amazon S3 as a file system even though its folders are only a naming
+  convention. After nearly ten years he handed PyFilesystem to other maintainers because he no
+  longer had the time. Rich came from a console module in a web framework he was building. It adds
+  color, tables, progress bars and a logging formatter to terminal output. After Rich was used to
+  build a terminal dashboard, Will built Textual, a framework for full-screen terminal applications
+  on top of Rich.
+
+  Will planned to take a year off to develop Textual, but tweets about his work drew the attention
+  of a venture capital firm. Pre-seed funding followed after about three months. Textualize's
+  business plan is a web service that turns terminal apps into web apps, with a free tier for
+  individual developers and open source projects and paid enterprise features. He compares this to
+  Streamlit's model, though he aims at engineering tools. Will also says hiring signals are useful:
+  he looks at how candidates handle issues and pull requests in public. The team works in GitHub
+  Projects with peer review, and Rich accepts outside contributions more easily than Textual, which
+  is still changing quickly.
+
+  On promotion, Will recommends building in public with screenshots and short videos, and posting on
+  Reddit with more context than a bare link. He describes niche size as a useful measure: a project
+  for a dozen developers is judged by how many of them adopt it. He advises solving a problem you
+  have, because others often have it too. Open source as much as you can, he says, though a service
+  meant to earn money can stay proprietary until it can support its developers.

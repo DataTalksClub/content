@@ -140,3 +140,39 @@ resources:
   url: https://medium.com/@lisa_cohen
 - title: Lisa Cohen's YouTube videos
   url: https://www.youtube.com/playlist?list=PLRhmnnfr2bX7-GAPHzvfUeIEt2iYCbI3w
+summary: |-
+  Lisa Cohen is Director of Data Science at Twitter. She spent 17 years at Microsoft, starting on
+  the Visual Studio developer division, then moving into telemetry and product analytics and later
+  into data science for Azure. She now leads data science across the Twitter product. Alexey invited
+  her to discuss how to design a data science organization, building on an article she wrote at
+  Microsoft that asks whether to centralize or decentralize.
+
+  Lisa explains the embedded model, where data scientists report to a feature team's engineering
+  manager and share its rhythms and context, and the centralized model, where they report to a data
+  science manager but work closely with stakeholders. The most common model at both companies is
+  hybrid, with a central data science group per division. Embedding gives immersion in the domain
+  and fast action on results, but data scientists lack peers and a career ladder reviewed by someone
+  who knows their craft. Centralization makes it harder to build context, so data scientists must
+  join product forums and learn the roadmap. Shared OKRs, co-ownership by each function and regular
+  planning cycles make either model work.
+
+  On staffing, Lisa uses about eight engineers per data scientist as a reference point, and says a
+  team needs at least some engineers to act on findings. Thin data science coverage makes it hard to
+  go deep, so organizations should either staff an area properly or leave it without data science.
+  For a company starting out, she suggests building pipelines, data quality and baseline counts
+  first, because deeper analysis depends on that foundation. Distributed teams can build community
+  through shared learning groups.
+
+  Lisa says data scientists define success metrics with product approval, and they recommend trade-
+  offs when experiments move metrics in different directions. Experiment reviews run across
+  functions with agreed ship criteria and guardrails. Analysts usually drive dashboards and
+  descriptive work, while ML-heavy areas such as the home timeline ranking need deeper data science.
+  When teams disagree on priorities, Lisa uses shared opportunity sizing to compare options from one
+  lens. Findings go into a searchable research archive and are pushed through Slack and newsletters,
+  since messages need repeating.
+
+  For practitioners, Lisa advises treating research as a partner, staying curious about small
+  qualitative samples and checking how representative they are. She describes data-driven product
+  innovation as learning the product from data while checking hypotheses along the way. Her
+  practical advice is to set shared goals at every level and to resolve conflicts with data that
+  everyone can see.

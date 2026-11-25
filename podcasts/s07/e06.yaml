@@ -120,3 +120,35 @@ quotableClips:
 transcript: e06-transcript.yaml
 
 resources: []
+summary: |-
+  Jakob Graff is head of analytics at Inkitt, an online publishing platform for novels, and has
+  spent more than three years growing data analytics teams. He started in economic consulting,
+  then worked on A/B testing at King, the maker of Candy Crush, and led product analytics at
+  Babbel, where his team built an experimentation platform. Alexey invites him to talk about A/B
+  testing, which Jakob compares to clinical trials: randomly split groups, a control, and a
+  measured outcome.
+
+  Jakob says the point of an experiment is to establish causality, because observational data and
+  outside factors such as a marketing promotion make it hard to attribute a change. He describes a
+  subscription test at Inkitt, where the control kept a points-based paywall and the test added a
+  subscription. Revenue per user fluctuates heavily on the individual level, so rolling out a
+  change without a controlled comparison tells you little. Experiments also de-risk features and
+  build organizational knowledge. At King, small games were used for riskier tests, and winning
+  ideas were copied to the larger titles.
+
+  For a new team without experimentation, Jakob sees two routes: a third-party tool such as
+  Optimizely, or an in-house traffic splitter built with engineers. He recommends an A/A test
+  first, where both groups see the same experience. If the split comes out at 55/45 instead of
+  50/50, the tool cannot be trusted, which happened to him at Babbel. The first real test should
+  have two groups and one metric. Metrics should be judged for noise and seasonality, and a test
+  should cover a full weekly cycle so that weekend behavior is included. Power analysis sets the
+  sample size and therefore the duration.
+
+  Jakob argues that analysts need the basics: type one and type two errors, confidence levels and
+  how to read p-values. He explains a p-value as the chance of seeing a result this large in an
+  A/A test, which Alexey calls a far clearer way to put it than the null hypothesis. For metrics
+  such as revenue per install, where most users show zero and a few show extreme values, a t-test
+  can mislead, and a less efficient test such as a nonparametric one needs many more observations.
+  He notes that credible intervals are more intuitive than confidence intervals, but Bayesian
+  models need priors, heavy simulation and careful checks. He also warns that testing several
+  variants at once inflates the chance of a false positive.

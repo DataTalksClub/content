@@ -134,3 +134,35 @@ resources:
   url: https://figmabook.com/
 - title: Jack Butcher's approach
   url: https://www.youtube.com/watch?v=azhqc4K-GAE
+summary: |-
+  Meor Amer studied bioengineering and did a master's in limb prosthetics research before working
+  for six or seven years in telecommunications data engineering and analytics. He became an
+  independent consultant in 2019 and now makes visual explanations of machine learning under the
+  name kDimensions. Alexey says Meor's LinkedIn visuals looked like Jack Butcher's work applied to
+  machine learning, and the conversation covers how Meor turns hard concepts into simple images.
+
+  Meor says his style started with Jack Butcher, whose course "How to visualise value" taught him to
+  use few elements and a clear message. Meor calls the approach visual engineering. He imposes
+  constraints on himself: a dark background with three colours, red, blue and white, because two
+  colours did not work for technical topics. For ideas, he keeps a long list of concepts from his
+  reading, reviews it weekly, and moves recurring topics to a shortlist. He visualises the verb, the
+  action or objective, rather than the noun. His drift illustration uses a catapult to show
+  accuracy, since boxes and arrows only show the components. Meor sketches ideas on paper, often
+  with a timer of a few minutes, and then moves them to Figma. He chose Figma because Canva has
+  little flexibility and Illustrator has too steep a learning curve.
+
+  For articles, Meor extracts four or five keywords, works out the key message, and then picks a
+  visual device such as contrast, balance or a slider. Meor says several visuals in one article work
+  only when each delivers its message efficiently. He says data science concepts boil down to five
+  kinds of problems: classification, regression, anomaly detection, clustering and reinforcement
+  learning, and he draws all five on the same base data points. Companies first reached out to him,
+  and he only recently began outbound outreach. His book, A Visual Introduction to Deep Learning,
+  builds a neural network from a single neuron, without TensorFlow or PyTorch, and uses visuals
+  first with concise text.
+
+  Meor advises beginners to take Jack's course and start posting before they feel ready. He made
+  about ten visuals, posted them, and new ideas followed. He also recommends consuming content with
+  the intent to teach, asking "what if" and "what can go wrong" instead of only "how to". For code,
+  he suggests changing parameters and algorithms in someone else's example to see what breaks.
+  Keeping visuals minimal respects the time of busy readers, and Meor quotes Jack as saying the work
+  is to give people less.

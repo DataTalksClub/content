@@ -128,3 +128,39 @@ quotableClips:
 transcript: e08-transcript.yaml
 
 resources: []
+summary: |-
+  Ellen König is head of data engineering at WhereIsMyTransport, which provides mobility and
+  location data for emerging markets. She started as a backend software engineer, took a
+  psychology degree that sparked an interest in statistics, and worked as a data scientist at
+  SoundCloud before a large round of layoffs. She then became one of the first data engineers at
+  Native Instruments and at ThoughtWorks Germany. Alexey invites her to explain how to move from
+  data science to data engineering.
+
+  Ellen found data science a black box, since she fed models without understanding the theory, and
+  she missed the engineering work. She also found that engineers had more respect and autonomy
+  than data scientists at smaller companies. The roles overlap a lot, because data scientists
+  build their own pipelines. Her own strength was analytics engineering: preparing data for BI,
+  warehouses and batch scheduling rather than real-time Kafka systems. She says understanding how
+  data is produced, structured and evolves matters in every kind of data engineering, and that
+  stakeholder communication transfers well.
+
+  The main gaps were software practices. Ellen had to learn version control, CI/CD, code review
+  and pairing, and to automate cloud infrastructure instead of clicking through consoles. Alexey
+  notes that OLX is teaching data scientists Terraform. She learned most of this on the job, and
+  says courses now help. Pairing was her hardest adjustment. She recommends clean code and says a
+  function should fit on less than a screen. She calls Robert Martin's Clean Code Java-centric and
+  outdated, but still the best book she knows.
+
+  Ellen advises trying data engineering in a side project or a small work task before switching
+  fully, because she once changed roles too quickly. A web or Android course teaches software
+  fundamentals better than data science programming courses. SQL and Python go a long way,
+  JavaScript helps with tools such as BigQuery user-defined functions, and Java or Scala are
+  needed for Kafka and streaming. Alexey suggests a scraper that runs daily, stores data in cloud
+  storage and is scheduled with Airflow. Ellen adds that side projects should use data the builder
+  cares about.
+
+  Ellen advises candidates with a relevant degree to apply directly for entry-level roles, and
+  others to seek internships. She says consultancies and large companies with established data
+  teams accelerate careers, since they have mentors, while a first junior hire often stalls. On
+  clouds, she says knowing one well matters more than the choice, and Alexey notes that AWS is
+  more common in Berlin job descriptions.

@@ -153,3 +153,35 @@ resources:
   url: https://www.linkedin.com/in/christinecepelak/
 - title: Christine's Twitter
   url: https://twitter.com/CLcep
+summary: |-
+  Christine Cepelak is a writer and researcher of tech and social issues studying Data Science
+  for Public Policy at Hertie, a school of governance in Berlin. She previously worked as a
+  program manager for sustainability initiatives, a community organizer and a private sector
+  data analyst. Alexey, who works with clicks and transactions at an internet company, asks
+  what public policy is and whether data science for public policy is a mature field.
+
+  Christine defines public policy as the laws that govern people and places. Her example is
+  an electronics recycling campaign, where she knocked on doors as a community organizer and
+  then pressed lawmakers for a law requiring manufacturers to take back products. She says the
+  field is very new, and that the book Data Science for Public Policy is not the definitive
+  text. Alexey and Christine then discuss ethics, including the EU AI Act, whose highest risk
+  tier references China's social scoring system.
+
+  Christine says a technical solution for social impact must consider the longevity of the issue,
+  because one project rarely solves it. Stakeholders are usually people close to the problem,
+  such as NGO staff who supplied datasets at a Data Science for Social Good hackathon. Social
+  organizations are often donor funded, and their data lives in spreadsheets, databases and
+  paper notes. One group flew drones over the sea to find refugee boats with computer vision,
+  and the organization built its own drones to gather data. Another student project used satellite
+  imagery to estimate poverty in Afghanistan, which lacks a census. Christine knows of no public
+  dataset on recycling programs, and agrees that corporate data is unlikely to be public.
+
+  Christine expects every organization to need data skills, and corporate public policy teams to
+  understand rules such as the AI Act. On gender inequality, she suggests salary transparency,
+  which EU corporate social responsibility rules do not require, and gender-neutral job
+  descriptions.
+
+  To start, Christine recommends a local Data Science for Social Good group, or remote volunteering
+  with a global one. She suggests picking a UN Sustainable Development Goal and checking how
+  much data exists for it now. She also points to the 80,000 Hours job board, which ranks jobs
+  by how critical the issue is, and to the Data Science for Social Good Fellowship project pages.

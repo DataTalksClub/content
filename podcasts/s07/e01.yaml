@@ -136,3 +136,35 @@ transcript: e01-transcript.yaml
 resources:
 - title: Eugene interviews Alexey
   url: https://eugeneyan.com/writing/informal-mentors-alexey-grigorev/
+summary: |-
+  Alexey Grigorev is a principal data scientist at OLX and the founder of DataTalks.Club. Eugene
+  Yan, who has known him for a year or two, hosts this episode. Alexey traces his path from Java
+  development to machine learning, which started with Andrew Ng's Coursera course, and to a
+  master's degree, freelance work and data pipeline experience that got him his first data science
+  job. At OLX he works as an internal consultant to about six teams.
+
+  The community grew out of Alexey's habit of answering questions on forums and LinkedIn. He set
+  up a domain and a landing page, each in about ten minutes, and linked it from his GitHub. The
+  first event drew about 70 people, and attendance later settled near 20. Membership rose from
+  about 500 at the end of 2020 to about 9,000 at the end of 2021, after a conference that Alexey
+  says brought in more than 1,000 people. Welcoming each new member personally stopped working
+  once 10 to 20 people joined a day.
+
+  Open Source Spotlight interviews the authors of open source tools. Minis were 10 to 15 minute
+  recordings released weekly during a month-long vacation. Book of the Week came from the
+  JavaRanch forum, and the live podcast format came from Demetrios at the MLOps community. Martin
+  Kleppmann's Slack AMA was the most popular event, while Alexey's favorites, a talk on developer
+  advocacy by Elle O'Brian and one on community building by Demetrios, drew the least attention.
+
+  Alexey says the community costs him about 500 euros a month, and he wants sponsors to pay for
+  help with routine work. Selling sponsorship is hard for him as an engineer. One company paid to
+  promote an event in the newsletter but got few registrations, while a TopCoder competition ad
+  drew better engagement. A Toloka workshop on crowdsourced model monitoring is planned, and
+  Alexey asks listeners to engage with sponsor content.
+
+  For ML Bookcamp, Alexey teaches through projects, with three deployment chapters on Flask, AWS
+  Lambda and Kubernetes. The free Machine Learning Zoomcamp is based on the book and requires two
+  projects for a certificate. He says the course took far more work than he expected, but the
+  feedback was worth it. His advice for newcomers is to join a community and answer questions. He
+  does not track every new tool, since a trend should last several months before it matters, and
+  public deadlines keep him from procrastinating.

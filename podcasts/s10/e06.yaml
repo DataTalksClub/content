@@ -140,3 +140,37 @@ resources:
   url: https://learning.oreilly.com/library/view/data-mesh/9781492092384/
 - title: LinkedIn
   url: https://www.linkedin.com/in/zhamak-dehghani
+summary: |-
+  Zhamak Dehghani is the inventor of the Data Mesh concept and the author of a book on it. She
+  spent over a decade as a consultant at ThoughtWorks and recently left to start a company in
+  the Bay Area. Her career moved from firmware and distributed systems to streaming analytics
+  for critical infrastructure. At ThoughtWorks she helped clients build data platforms and
+  products. Alexey asks what Data Mesh is and why it exists.
+
+  Zhamak says that the clients she worked with had large data investments that still delivered
+  value slowly. Teams of data scientists waited for access to data, and models built in one
+  place could not be deployed. The pattern led her to Data Mesh, which she describes as a
+  decentralized, socio-technical approach to analytical data. It decouples long pipelines into
+  smaller units that share data with an API and metadata, so consumers can work directly with
+  producers. Alexey notes that this concerns team structure and process more than tools. Zhamak
+  agrees, and adds that the architecture must change too. A shared warehouse full of tables is
+  a fragile contract, because any change to a table can break someone else's work. She describes
+  the mesh as a graph where value comes from links between data products.
+
+  Zhamak presents four principles. Domain ownership aligns data work with business domains,
+  which she illustrates with a fictional streaming company that has playlist, music player,
+  onboarding, artist and partner teams. Data as a product means each producer is measured by how
+  useful its data is to consumers, and publishes guarantees about quality, completeness and update
+  frequency. A self-serve data platform lets generalist developers and analysts produce and use
+  data products without deep platform expertise. Federated computational governance sets common
+  policies, such as retention, that teams apply with automated enforcement. A central schema in
+  a warehouse is only a first step toward the looser coupling she describes. Zhamak describes
+  federated query engines, which allow joins across platforms, and says that authentication
+  and authorization across platforms are still unsolved.
+
+  Asked how to start, Zhamak recommends a self-assessment first, with executive support, and
+  then a use case that touches one or two domains. Teams should begin as collaborative groups
+  and become autonomous only after shared interoperability rules exist. She says there are few
+  public reference implementations, and points to the Data Mesh Learning community, its Slack
+  channel and its meetup for case studies. Her advice is to learn the why and what before the
+  how, because much of the published material on the topic is inaccurate.
