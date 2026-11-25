@@ -8,7 +8,7 @@ sitemap: 1
 hero:
   eyebrow: DataTalks.Club Academy
   headline: Live Full-Time Courses in Berlin or Online
-  lead: 'DataTalks.Club Academy runs two full-time live programs in English for experienced developers in Germany: Agentic Engineering and AI Engineering. Each takes 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, and you ship a project every week.'
+  lead: 'Two full-time programs for experienced developers in Germany: Agentic Engineering and AI Engineering. Three months of live classes in English, weekdays 09:00 to 16:30 Berlin time, in Berlin or online. You build a project every week.'
 tracks:
   label: Choose a Program
   button_prefix: Explore
