@@ -48,17 +48,24 @@ def _build_minimal_repository(
     return tmp_path
 
 
+#: Floors, not exact counts: the accepted migration baseline (2026-11-24). Authors add
+#: episodes, articles and books all the time; a new record must not need a test edit.
+MINIMUM_COUNTS = {
+    "articles": 55,
+    "podcasts": 215,
+    "transcripts": 213,
+    "books": 100,
+    "media": 831,
+    "referenced_media": 775,
+}
+
+
 def test_repository_content_is_valid() -> None:
     counts = validate_repository(ROOT)
 
-    assert counts == {
-        "articles": 55,
-        "podcasts": 215,
-        "transcripts": 213,
-        "books": 100,
-        "media": 831,
-        "referenced_media": 775,
-    }
+    assert set(counts) == set(MINIMUM_COUNTS)
+    for kind, floor in MINIMUM_COUNTS.items():
+        assert counts[kind] >= floor, f"{kind}: {counts[kind]} records, expected at least {floor}"
 
 
 def test_checked_podcasts_use_seasonal_episode_and_transcript_siblings() -> None:
