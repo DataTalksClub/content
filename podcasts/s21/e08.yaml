@@ -162,3 +162,35 @@ transcript: e08-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/
+summary: |-
+  Dashel Ruiz Perez is a data analyst, ML engineer and ML Zoomcamp graduate who teaches
+  programming and data as a lead instructor at Thrive DX, which works with major US universities.
+  Alexey introduces him as someone who went from semiconductor manufacturing to machine learning.
+  Dashel was a classical guitarist in Cuba and came to the United States as a political refugee in
+  2012. He first worked as an expediter at Microchip Technology in Oregon, moving wafers by hand,
+  and later became a process technician. Alexey invites him to talk about how a music background led
+  to data work and then to the course.
+
+  At Microchip, Dashel worked with tool logs that recorded pressure and gas readings every
+  millisecond. Analyzing them meant checking the logs by hand. During night shifts he calculated
+  wafer polishing corrections in a notebook, then wrote a Java FX application to automate them. The
+  IT department preferred other languages, so the tool was not adopted. Through a yield engineer he
+  moved into JMP analytics and built Python scripts, an Oracle database and small PL/SQL
+  applications that other teams used. His main ML project was a model that predicted "wafers at
+  risk", which let engineers run quality checks every 10 days instead of every 15. He says a model
+  with accuracy he could not explain to his supervisor did not help, so he learned analytics and ML
+  properly.
+
+  Dashel chose the ML Zoomcamp cohort after first seeing it in a public video. He waited for the
+  September cohort because he wanted the deadlines and peer pressure. He compares it to DataCamp and
+  Coursera, where the work stays in a Jupyter notebook. In the Zoomcamp, he built a midterm project
+  that predicted COVID outcomes from comorbidities and deployed it as an API on Render. His second
+  project classified butterfly images with TensorFlow Lite on AWS Lambda. He says the Slack
+  community gave him fast answers and a study group with other students.
+
+  Dashel says that the hardest part of ML is not building the model but making it usable by others,
+  which requires Docker, databases, cloud basics and deployment. He also says that LLMs are now all
+  similar in practice, like cars that all reach the destination, so he uses Gemini and others
+  depending on the task. He advises new students to plan at least five hours a day if they have
+  little programming experience, and to show their projects publicly. He has also tried to make ML
+  content in Spanish.

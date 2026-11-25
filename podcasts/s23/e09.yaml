@@ -22,3 +22,30 @@ transcript: e09-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/kholkine/
+summary: |-
+  Leonid is a researcher and practitioner who leads research and development at Their Data, a
+  company that builds an enterprise platform for monitoring and improving AI systems. He holds a PhD
+  in machine learning applied to sports physiology from the University of Antwerp. He is also a co-
+  founder of Data Makers Fest, a data and AI conference in Porto, and of Data Lead Club, a
+  membership retreat for data leaders in Portugal. Earlier he was head of engineering at the health
+  tech startup TonicApp, and he was vice president of the student NGO BEST. Alexey invites him to
+  talk about building communities and running a conference.
+
+  Leonid describes how community work began for him at university and then in Portugal's data
+  science community, which grew to meetups in several cities and events of 400 to 600 people. During
+  COVID he and his partner Rui co-founded World Data League, a team competition about urban impact.
+  He says the hard part of an in-person conference is logistics. Venues in Porto are limited and
+  booked far ahead, so the team has moved the event to May to avoid the tech event season, and it
+  must rent sound, lighting and stage design on top of the venue. Speaker selection is the most
+  difficult part, because a keynote must suit data engineers, AI engineers, data scientists and
+  managers. He says that Sessionize handles most speaker logistics, and that the team built a custom
+  tool with embeddings and an optimization script for the timetable.
+
+  On sponsors, Leonid says that tickets alone would not cover the costs, and that sponsorship keeps
+  student tickets affordable. Rui leads most of the sponsor outreach because of his network. Leonid
+  also says that many proposals now look AI-generated, and the organizers ask speakers to use AI as
+  a helper for an outline rather than to copy text. He describes the team's approach to partnerships
+  and the forward deployed engineer role, which combines product and consulting work with customers.
+  Alexey and Leonid also discuss attending conferences as a junior data scientist. Leonid says
+  diverse talks help people see problems from other fields, and that the event has talks at every
+  level.

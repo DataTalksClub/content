@@ -142,3 +142,34 @@ resources:
   url: https://github.com/orgarten
 - title: Website
   url: https://orellgarten.com
+summary: |-
+  Orell Garten is a freelance software and data engineer in Germany. He studied electrical
+  engineering with a focus on simulation algorithms and started a PhD, which he quit after realizing
+  it was not what he wanted. During COVID he and a friend tried to build a startup that sold
+  synthetic medical imaging data created by simulating MRI and X-ray physics. Orell was mostly the
+  CTO. Alexey invites him to talk about moving from academic research into freelance data
+  engineering and about building a lean consulting practice.
+
+  Orell explains that the startup failed because it started from technology rather than a problem.
+  Medical companies tend to buy an MRI function only when a hospital asks for it, and the German
+  medical market is financially capped, so one company's gain often comes from another's loss.
+  Alexey and Orell compare academia and startups. Both test hypotheses, but academia measures
+  success in papers and startups in sales. Orell's first paid freelance job came from a contact made
+  during the startup days. It was a prototype for an IoT data engineering project that took about a
+  week. He also describes a three or four month drought with little work, and advises saving at
+  least six months of operating expenses, since clients often pay 30 to 45 days after invoicing.
+
+  Most of Orell's clients are industrial companies with machines that produce many data formats, so
+  his work is mainly custom integration and transformation. He starts by looking at the data and
+  documenting its schema, then pulls a day of files onto his laptop and analyzes them in CSVs before
+  automating ingestion. To avoid overengineering, he shows clients results every week. He describes
+  Scrum as often reduced to micromanagement in practice. He blocks time on Friday afternoons and
+  weekends to learn, and he likes DuckDB because a tutorial needs only a laptop. Asked about LLMs
+  for data cleaning, he thinks domain knowledge limits them, since cleaning changes the data and its
+  meaning depends on the business.
+
+  Orell's main tools are Python, which makes up about 90 percent of his work, plus C++ from his
+  simulation days and DuckDB for prototypes and pipelines. He says the real skill is problem
+  solving, and that manual filtering of data is often the fastest first step because it reveals edge
+  cases that are hard to code for. Client acquisition is the hardest part of freelancing. He calls
+  himself an introvert who finds networking exhausting but necessary.

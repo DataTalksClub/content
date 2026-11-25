@@ -24,3 +24,33 @@ description: Paul Iusztin walks through engineering a personal AI assistant on t
   from PARA organization and Obsidian and Readwise capture to deep-research retrieval, reranking, context
   management, multi-agent workflows, and personal wikis.
 transcript: e09-transcript.yaml
+summary: |-
+  Paul Iusztin is an AI engineer and co-author of the LLM Engineers Handbook, and Alexey calls him a
+  frequent guest. He comes back to talk about how he built a personal AI assistant around a "second
+  brain." Alexey and Paul discuss why most people's saved notes never get used, and how a light
+  system with few tools can become a working context layer for agents.
+
+  Paul's approach borrows from the PARA method. Resources, such as articles, papers and videos, are
+  saved with one click through Readwise into Obsidian, and projects and areas are kept separate. He
+  argues that the hard part is linking saved material to current work, not collecting it. Instead of
+  maintaining a detailed wiki by hand, he runs a deep research skill that starts from a brain dump
+  on a topic, collects about thirty relevant resources by keyword and vector search, reranks them,
+  and builds a small linked wiki for that project. He says the wiki is the context an agent reads,
+  so the agent sees a thin, targeted slice of his material rather than everything he has saved. He
+  uses Bright Data to scrape sources that are hard to fetch, and says he spent about ten dollars in
+  two months.
+
+  For writing, Paul turns the brain dump and wiki into a plan with a structure, then asks an agent
+  to check the plan with reflection for yes-or-no checks and grilling for subjective questions, such
+  as whether a personal story fits. He applies a separate styling step with a model that has low
+  reasoning, since heavy reasoning seems to add meta commentary to the text. Alexey agrees that each
+  new Opus model writes worse. Paul says a typical article now takes about one day, and a polished
+  piece in his current series takes two days, where it would have taken about a week before.
+
+  For coding, he keeps architecture decision records and a glossary in the repository, and he uses a
+  wiki only for external research and design options. Alexey describes a similar wiki that he is
+  building from the podcast transcripts and from internal processes that are stored in Google Drive.
+  He says that markdown is easier for an agent to read than shared documents. He also describes a
+  personal Open Interpreter server that he uses through Telegram for small tasks. Paul is writing a
+  book about building a personal assistant from scratch, and he says the wiki approach also helps
+  keep track of details across chapters.

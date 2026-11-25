@@ -170,3 +170,35 @@ transcript: e02-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/aishwaryajadhav8/
+summary: |-
+  Aishwarya Jadhav is a machine learning engineer at Waymo, and she previously worked on perception
+  at Tesla's Autopilot AI team. She is a Carnegie Mellon University alumna. Before that she was a
+  big data engineer at Morgan Stanley during its E*TRADE acquisition, where she first saw how much
+  value data held. Alexey invites her to talk about moving from finance to applied computer vision
+  and self-driving, and about what it takes to build systems that run in the real world.
+
+  Aishwarya's path ran through a master's program at CMU, where she worked on AI Guide Dog, a
+  volunteer capstone project that turns a phone or wearable camera into spoken walking directions
+  for blind people. Each student group builds on the previous one, and the app is still in beta
+  testing because the use case is sensitive. From there she moved to Tesla, where she worked on
+  camera-based perception with 360-degree views and no LiDAR, and then to Waymo. At Waymo she works
+  on perception for pedestrians, traffic lights, vehicles and gestures from police officers and
+  construction workers who direct traffic. Her team uses quantization and other internal
+  optimizations so that models run several times per second on the car. Alexey and Aishwarya also
+  discuss how LiDAR and cameras differ, and Waymo's choice to use LiDAR in its stack.
+
+  She describes the validation pipeline as simulation with millions of scenarios, then closed
+  tracks, then on-road testing with safety drivers, with staged rollouts after that. Sensor data is
+  anonymized, and labeling combines human annotators for complex cases with automated labeling for
+  repetitive work. She also covers her earlier malaria mapping project with Omdena, in which one
+  team used satellite images to find stagnant water and her model used topographic data from Google
+  to find low-lying areas. The combined ensemble helped a nonprofit target fumigation more
+  efficiently. Alexey asks whether reinforcement learning is used for driving. Aishwarya says her
+  own work is on perception rather than behavior, and that rules and constraints shape every model
+  used on the road.
+
+  For newcomers, she recommends a solid base in deep learning and computer vision, hands-on work
+  with data and simulation, and an understanding of safety-critical systems. She says computer
+  vision projects help a resume stand out. Alexey suggests a pet project that describes objects in a
+  room from a camera, and he notes that coding agents such as Cursor can build a working prototype
+  quickly, although engineers still need to understand the code to fix its bugs.

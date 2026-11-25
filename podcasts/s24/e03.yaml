@@ -22,3 +22,34 @@ transcript: e03-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/msemelman/
+summary: |-
+  Mariano is a lead data scientist and machine learning engineer with about 10 years of experience
+  in e-commerce. He is originally from Argentina, has lived in Spain since 2021 and works in
+  Barcelona. He has worked at OLX, where he builds AI-powered media features that help sellers
+  publish listings. Earlier he worked on identity verification for financial institutions. His
+  background is in computer science, and he studied neuroscience for a master's degree. Alexey, who
+  worked with him at OLX, invites him to talk about what end-to-end ownership of an AI system means
+  in practice and how the work changes with generative AI.
+
+  Mariano describes two OLX projects. The first, video-to-ad, takes a seller's walk-around video of
+  a car and turns it into a listing with the correct attributes. The second, ad-to-video, takes the
+  photos and description of a listing and generates a short narrated video. Mariano says the team
+  began the project after a hackathon, using a product hypothesis that younger buyers prefer video.
+  It was built with prompt engineering rather than fine-tuning. The team used an LLM as a judge to
+  check that the narration stayed faithful to the ad, and it kept marketing language and prices out
+  of the script. Image models such as YOLO and CLIP handle parts of the image analysis, and the team
+  uses workshops with professional video editors to learn cuts and transitions.
+
+  Mariano argues that a data scientist who owns a project from requirements through deployment and
+  monitoring learns the most, because production failures teach what offline evaluation misses. He
+  believes that agentic coding lets engineers build AI features in areas they do not know, but that
+  evaluation, regression checks and ground truth labeling still need data science skills. He also
+  says that many problems look like machine learning tasks until someone asks what decision the
+  business needs. Alexey agrees and gives the example of a company that tried to predict house
+  prices with an LLM when a regression model would fit better.
+
+  On tools, Mariano uses Arize for tracing and evaluation, MLflow for classic models, FastAPI,
+  Kubernetes cron jobs, Trino and Iceberg. He describes notebooks as useful for exploration and
+  reports, but says that production logic belongs in scripts. Alexey describes his own approach,
+  which keeps analysis code in Python files next to the notebook. Mariano also argues that junior
+  roles may return as the return on agent investment levels off.

@@ -24,3 +24,33 @@ resources:
   url: https://www.linkedin.com/in/revathy-ramalingam/
 - title: Github
   url: https://github.com/RevathyRamalingam
+summary: |-
+  Revathy is an AI engineer at a healthcare startup. Before that, she was a software architect at
+  Ericsson for about nine years, working on telecom protocols, Java and big data systems. She took a
+  career break of about seven years to care for her two sons. When she returned to the job market,
+  she found that her VMware-based skills were out of date. Alexey invites her to describe how she
+  restarted her career, prepared for the AI engineer role and got hired after the break.
+
+  Revathy says that a conversation with ChatGPT pointed her to the ML Zoomcamp, which she joined
+  early, and that she then took the AI Dev Tools course and the AI Hero email course. She calls the
+  community support the main reason she progressed. Her capstone project predicted network slices
+  from a synthetic dataset of 42 base stations, and at first the model reached full accuracy only
+  because certain parameters leaked the label. She removed those parameters and rebuilt the model. A
+  Nokia engineer commented on the project. For AI Dev Tools, she built a prototype called Vigilance
+  AI with Lovable, and for AI Hero she built a question answering assistant that queries a Git
+  repository with vector search. She studied late at night after her children went to sleep, and she
+  says deep learning was the hardest part for her.
+
+  Revathy's interview process was an online screening, an in-person technical discussion and a take-
+  home task. She was open about her Python experience, which was about six months, and about her
+  career gap. The startup offered a lower salary but flexible hours. The take-home assignment was a
+  RAG question answering system over a PDF, which she built by reusing a course project. At the
+  company she works with LangChain, ChromaDB and RAG, and she says the accuracy is not yet good
+  enough for production, so the work is still a proof of concept. She feels behind former colleagues
+  but says her course work has helped her catch up.
+
+  For someone aiming for an AI engineer role within three to six months, Revathy recommends deciding
+  on a clear goal, following a structured course, listening to podcast interviews from people who
+  made similar changes and practicing coding problems on platforms such as HackerRank and CodeChef.
+  Revathy describes her curiosity as the reason she kept going, and she says the courses were the
+  first she had found that started from the basics.

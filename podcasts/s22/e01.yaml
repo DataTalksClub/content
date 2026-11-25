@@ -182,3 +182,35 @@ transcript: e01-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/ranjitha-gurunath-kulkarni
+summary: |-
+  Ranjitha Kulkarni is a staff ML engineer at NeuBird.ai, which builds agents that handle
+  engineering on-call work. She previously worked at Dropbox, where she built recommendation
+  features, a question answering system and an agents team that started in December 2022. Earlier
+  she worked on speech recognition and language modeling at Microsoft for Xbox, Bing and Cortana,
+  after a master's at Carnegie Mellon University. Alexey invites her to talk about building reliable
+  agentic AI systems, starting with how she defines an agent and how it differs from a plain LLM
+  with tools.
+
+  Ranjitha defines an agent as software that completes a task autonomously, with an LLM as its brain
+  and tools, memory and knowledge stores around it. Agents can plan in a single pass or in multiple
+  passes with self-reflection, and the plan can be fixed or dynamic. She prefers code agents over
+  natural language agents for complex tasks with many conditionals, because they reduce ambiguity.
+  She describes context engineering as choosing deliberately what information goes into the model,
+  since early models had a 4k context window and even newer ones degrade past about 32k tokens.
+  Alexey notes that RAG is a simple form of context engineering. Ranjitha agrees that RAG is not
+  dead, but says it works best for large search spaces with simple questions, and that agentic RAG
+  treats retrieval as one tool among several.
+
+  For use cases, Ranjitha says dynamic planning becomes necessary when a system must combine several
+  data sources and APIs, such as a calendar assistant that checks a manager's availability. She
+  advises building agents from scratch rather than relying on frameworks, which can hide what an
+  agent does. She mentions Hugging Face's smolagents as the one framework she liked. Alexey says
+  LangChain was hard to debug for him, and he prefers the lightweight OpenAI Agents SDK. On MCP, she
+  says it provides one protocol for tools but nothing more.
+
+  On evaluation, Ranjitha uses software engineering tests for agents. Integration tests mock tool
+  inputs and assert outputs, and a calendar agent may need 200 to 300 test cases. She checks whether
+  the goal was reached rather than the exact path the agent took, while making sure tool calls
+  consult the true source. Public benchmarks such as SQuAD measure a model, not a system, so teams
+  need their own datasets built from real users. She also says generic agent products are hard to
+  build because real tasks are very specific and need domain knowledge.

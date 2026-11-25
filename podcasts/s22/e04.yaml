@@ -159,3 +159,35 @@ resources:
   url: https://github.com/hugobowne
 - title: Website
   url: https://hugobowne.github.io/
+summary: |-
+  Hugo is an independent data and AI consultant who teaches and advises teams building AI-powered
+  systems. He hosts the podcasts Vanishing Gradients for builders and High Signal for leaders. He
+  started as a biology postdoc who taught himself Python, then joined DataCamp as its fifth employee
+  to build the Python curriculum. He later worked in developer relations at Outerbounds, the company
+  behind Metaflow, and now works freelance on consulting, advising, teaching and developer
+  relations. Alexey invites him back to discuss LLMs and AI as used in everyday work and in building
+  products.
+
+  Hugo describes how many teams struggle to get value from AI. He says that organizations which set
+  aside half a day a week for experimentation tend to see gains, and that sharing prompts in a
+  common channel helps teams move beyond individual use. He recommends giving the model a role, an
+  objective and examples. For generated outputs such as YouTube chapters, he suggests an evaluator
+  and optimizer pattern and a gold test set that is representative and cheap to run. Alexey adds
+  that he iterates on prompts by hand, usually for 10 to 15 rounds. Hugo says prompt iteration can
+  take weeks for production systems, and that LLM judges are only one option, since regular
+  expressions and structured output checks work well too.
+
+  On retrieval, Hugo gives an example of an edtech company that wanted an all-purpose AI tutor. Its
+  support tickets showed that about one in five questions asked where a lesson was, so a simple RAG
+  bot with good chunking would solve a real problem sooner. He recommends starting with fixed-length
+  chunks, studying the data first, and watching for context rot in long inputs. He says RAG
+  struggles with broad questions about a whole video, which is where a summarization tool called by
+  an agent helps. He advises adding agents only when a working system needs more power, and he
+  recommends evaluating each tool call.
+
+  For newcomers, Hugo suggests four steps. Find a problem that matters to you, start small with an
+  LLM and add tools or memory only when needed, look at the data closely, and build an evaluation
+  set. He says many failures come from OCR or ingestion rather than from embeddings. He also
+  distinguishes conversation memory within a session from memory across sessions. Alexey describes
+  his own idea for an email assistant that suggests replies to unread messages. Hugo says he uses
+  Cursor and expects background and multiplayer agents to become common.

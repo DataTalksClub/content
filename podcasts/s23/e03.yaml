@@ -22,3 +22,34 @@ transcript: e03-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/aditya-gautam-68233a30/
+summary: |-
+  Aditya Gautam is an AI researcher and engineer who works at Meta, where he has spent time on Reels
+  recommendation ranking. Earlier he worked at Zillow on estimate algorithms and then at Google for
+  about three and a half years. He began as an embedded engineer at Qualcomm in India, then studied
+  machine learning at Carnegie Mellon, where a lecture on Naive Bayes spam classification first drew
+  him in. Alexey invites him to talk about the future of AI agents, the adoption gaps that companies
+  face and how teams can keep agents reliable.
+
+  Aditya says that most enterprises are still in an experimental phase, and that the gap lies in
+  understanding the workflow an agent should improve, then integrating and monitoring it. He
+  describes legal and healthcare as sensitive fields where errors are costly and where a human must
+  stay in the loop. Alexey describes legal archives that are still not digitized, and Aditya notes
+  that OCR and retrieval there must be done carefully. Aditya says that enterprises will move toward
+  fine-tuned, smaller models for high-volume, specific tasks, but that small companies should use
+  general APIs. He suggests fine-tuning only when call volumes are very large and the company
+  already has ML staff.
+
+  On reliability, Aditya argues that teams need evaluation datasets built from real use cases, with
+  an LLM judge that is calibrated against human labels. He suggests that the judge should agree with
+  human annotators at roughly 90 to 95 percent, and that a sample of production traffic should
+  always be labeled by people. He describes guardrails, feedback collection from implicit signals
+  such as repeated queries, and governance tools that track what each agent did with user data.
+  Alexey adds that an audit trail is needed to meet GDPR requests for data access or deletion. For
+  multi-tenant systems, Aditya suggests independent services with per-customer configuration and a
+  separate golden dataset for each one.
+
+  Aditya also says that Kubernetes remains a reasonable choice for agent deployment, because an
+  agent is essentially a microservice with a non-deterministic model behind it. He expects that the
+  cloud providers will bundle governance and auditing features and that startups will compete in
+  specialized niches. He argues that humans should stay in the loop even as models improve, and that
+  sampling could shrink only after a model stays accurate for months.

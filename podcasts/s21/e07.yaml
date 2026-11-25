@@ -170,3 +170,34 @@ transcript: e07-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/micheal-lanham-189693123/
+summary: |-
+  Michael has spent two decades in data science and AI and has written more than 10 books on
+  augmented reality, virtual reality, reinforcement learning, evolutionary algorithms and AI agents.
+  He started in academia with a group of Harvard scientists, building games with simple neural
+  networks and evolutionary algorithms to test children's executive functions. He then spent years
+  in oil and gas consulting, leading a group of 80 people across several countries, before moving
+  into fintech and NLP work. He now works at a company that builds AI support assistants with
+  multiple agents. Alexey invites him to talk about two decades of change, from evolutionary methods
+  to AI agents, and about what separates an agent from a chatbot.
+
+  Michael describes evolutionary algorithms as useful but computationally heavy methods that were
+  popular around 2006 and then fell behind deep learning. He now sees them used to evolve prompts
+  for LLMs, although this can take about a week of computation. Alexey recalls the basic loop of
+  fitness and mutation from his own university course. Michael recommends keeping each agent minimal
+  and splitting a workflow into tasks. A flow runs agents in sequence like an assembly line,
+  orchestration uses a front agent that calls others and checks their outputs, and collaboration
+  lets agents exchange messages in parallel. He uses the OpenAI Agent SDK for demos and teaching,
+  with MCP servers such as a sequential thinking server that serves as a scratchpad for reasoning.
+
+  For game development, Michael says GPT-5 Pro produced a working Spider Solitaire game in HTML and
+  JavaScript, and later a set of Dockerized microservice agents after a few bug-fix rounds. He
+  prefers GPT-5 Pro to faster models because the code quality is higher. Alexey got a Space Invaders
+  implementation working with GPT-4 only after 10 to 15 prompts. Michael says a 120 billion
+  parameter open-source model served through a fast provider responds in one to two seconds, and he
+  expects smaller task-focused models and local GPUs to become common.
+
+  For someone starting out, Michael advises focusing on AI engineering rather than traditional data
+  science. Data science skills such as evaluating experiments remain useful, and LLMs can handle
+  many routine data tasks. He stresses evaluation and feedback pipelines and mentions Arize Phoenix
+  for monitoring prompts and agent behavior. He expects buyers of the first edition of AI Agents in
+  Action may get the second edition free, pending confirmation from the publisher.

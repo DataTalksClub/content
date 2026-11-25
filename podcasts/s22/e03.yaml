@@ -153,3 +153,35 @@ resources:
   url: https://github.com/sayalaruano
 - title: Website
   url: https://sayalaruano.github.io/
+summary: |-
+  Sebastian is a bioinformatics software engineer from Ecuador. He started with a bachelor's in
+  biotechnology engineering, found that wet lab work and memorization did not suit him, and added a
+  minor in software engineering. He then completed a master's in bioinformatics at Maastricht
+  University, and his thesis was carried out at the Technical University of Denmark. Alexey invites
+  him to explain bioinformatics to a listener with a software background, and to talk about the
+  open-source projects he has built.
+
+  Sebastian explains that bioinformatics is data science applied to biological data, while
+  biotechnology relies on lab experiments. Bioinformatics reduces the number of lab experiments by
+  proposing candidates for testing. His thesis project, MCW2 Graph, is a knowledge graph of the
+  wastewater treatment microbiome. Samples were sequenced, abundance tables from several studies
+  were combined, and microbial association networks were inferred from co-abundance patterns. Alexey
+  compares this to co-occurrence in NLP and to product recommendations. Sebastian says the method is
+  based on CC Lasso and that correlations between microorganisms are thresholded, with positive
+  values suggesting coexistence and negative values suggesting exclusion. He adds that the results
+  should be interpreted carefully, since location can shape what is observed.
+
+  The graph is available as a Neo4j dump and as a Streamlit web app for each biome, and it can be
+  analyzed with clustering and centrality algorithms. Sebastian also built VueGen, a Python package
+  that generates scientific reports from a structured directory. It uses Quarto and Streamlit, and
+  it is available on Bioconda, a Conda channel with about 11,700 biology packages. A second project
+  covers visualization of omics data, including genomics, proteomics and metabolomics. Alexey and
+  Sebastian also discuss AlphaFold, which predicts protein structures from sequences in seconds,
+  where an experimental structure can take years.
+
+  For a portfolio, Sebastian recommends choosing a topic you like, testing Bioconda packages on it,
+  and building a small Streamlit app to show the results. He notes that many biologists still do
+  tasks by hand, and that command line tools such as grep and cut can save a lot of time. He says
+  the bioinformatics community still uses R more than Python, with Bioconductor as the main library,
+  although more people are moving to Python. He uses LLMs for brainstorming and documentation, and
+  he recommends the Awesome Bioinformatics list on GitHub as a resource.

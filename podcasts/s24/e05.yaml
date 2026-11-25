@@ -28,3 +28,36 @@ resources:
   url: https://github.com/ivan-bilan
 - title: Website
   url: https://github.com/ivan-bilan
+summary: |-
+  Ivan Bilan is a senior engineering manager at Personio, where he leads teams in identity and
+  access management. Earlier he was a data science and engineering manager at TrustYou, where he led
+  NLP and infrastructure groups. He studied computational linguistics at LMU Munich and took a
+  technical leadership program at CDTM. He began as a data engineer on Hadoop and Spark pipelines,
+  then worked on multilingual NLP for around twenty languages. Alexey, who had him on the podcast
+  before to talk about moving from engineer to manager, invites him back to talk about how
+  generative AI is changing the expectations placed on engineers and managers.
+
+  Ivan argues that AI has not reduced the workload of engineers. Teams now manage several agents in
+  parallel, which creates more reviews, merges and coordination. He says that AI produces good
+  output only when a team invests in context engineering, such as keeping documentation in the
+  repository, and that agents are strong at bug fixes, migrations and tech debt but weaker at
+  building from scratch. He describes an open source project that runs three agents with separate
+  developer, reviewer and product roles. When people outside engineering start contributing code, he
+  says, they find that writing it is only one of many steps to production. Companies either teach
+  everyone CI/CD and where to find context, or require a senior engineer to review everything before
+  production. Alexey suggests sandboxed environments as a middle ground, and Ivan adds that helping
+  new contributors adds to the engineers' workload.
+
+  For adoption inside a team, Ivan suggests a two-week period in which engineers experiment with no
+  deliverables, followed by a knowledge-sharing session, then a hackathon that aims to ship
+  something real. He says that the aim is for AI tools to become invisible in the workflow while
+  code quality holds. He warns against measuring success with token consumption or leaderboards, and
+  he suggests DORA-style delivery metrics, lead time and failure rates, together with customer and
+  developer satisfaction. He recommends a mix of paid subscriptions and internal or open source
+  models to limit vendor lock-in, and he says that prompts should be written so they are not tied to
+  one model.
+
+  On hiring, Ivan argues that companies should keep hiring juniors because AI does not hold the
+  company's context, and he says that junior engineers can now onboard faster by asking an assistant
+  questions. For people entering AI, he sees roles in RAG and context building, and he recommends
+  building small projects with open source frameworks.

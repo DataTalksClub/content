@@ -22,3 +22,36 @@ transcript: e01-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/tatigabru/
+summary: |-
+  Tatiana Gabruseva is a staff software engineer in machine learning at LinkedIn, where she works on
+  recommender systems, multimodal alignment and AI system benchmarking. She is a Kaggle competition
+  master, won the sound demixing challenge in 2023, and has published more than 27 peer-reviewed
+  papers. She began with a PhD in physics in Ireland, working on signal processing for lasers, and
+  moved into AI after two maternity leaves. Alexey invites her back to talk about how ML
+  competitions can support a career, how to turn competition work into a portfolio, and why
+  benchmarks are hard to trust.
+
+  Tatiana describes Kaggle as the best place to learn, because of its notebooks, discussion threads
+  and post-mortems. She advises competitors to vary their domains, since a specialist in one task
+  type may struggle in interviews that cover many areas. She says that a silver or bronze medal can
+  still produce a useful GitHub repository, and that a clear repository helped her get a job offer.
+  Her team's astronomy competition led to a journal paper even though they finished 13th, because
+  they wrote a technical report. For research credit, she recommends competitions that offer
+  co-authorship, such as some hosted on AIcrowd, and challenges tied to conferences such as CVPR and
+  MICCAI. She also suggests writing a plain-language blog post after each result. Alexey agrees that
+  a first competition should be treated as a learning exercise and expects that a paper usually
+  takes several competitions.
+
+  Alexey and Tatiana discuss agents that can enter Kaggle competitions automatically, and Tatiana
+  says that agents may soon compete on the leaderboards. She argues that people still need to
+  implement methods by hand to learn them, and she compares this to Andrej Karpathy's from-scratch
+  neural network. She says Kaggle is vulnerable to overfitting the public leaderboard and sometimes
+  to manipulation, and that Topcoder and SpaceNet offer fairer, Docker-based competitions.
+
+  For beginners, Tatiana recommends choosing an active competition that runs for about two months,
+  using a starter notebook, reading the discussions and making a first submission even if it lands
+  at the bottom. After that she suggests moving the work into a private repository with a proper
+  pipeline. In her second competition she was already in the silver zone when she invited another
+  active competitor to team up. Alexey adds that he only teams up with people who have submissions
+  near his own, and that a fresh competition removes leaderboard pressure, since most serious
+  competitors join in the last weeks.

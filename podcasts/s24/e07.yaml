@@ -22,3 +22,33 @@ description: Gustaf Gyllensporre shares how he moved from real estate into AI en
   developer, covering CPython contributions, resume and portfolio projects, deep research agents, startup
   versus big-tech interviews, networking, and soft skills.
 transcript: e07-transcript.yaml
+summary: |-
+  Gustaf Gyllensporre is the founding AI engineer at Brianta, where he builds an agentic operations
+  system for construction. He is Swedish and studied real estate in Miami, where he worked as a real
+  estate agent. He built reporting tools in Python in his spare time, which led to a startup called
+  Kono Cube that served a niche Miami market. He later worked as a software developer at prop tech
+  companies and led conversational search at depict.ai. He contributed to CPython's email package at
+  a sprint during PyCon US. He runs the Prop Tech Founder YouTube channel, which helps people move
+  into AI engineering. Alexey invites him to talk about how a non-technical person can make the
+  switch.
+
+  Gustaf's main advice concerns portfolios. A chatbot built on retrieval-augmented generation is
+  common, so a project stands out if it solves a real problem and includes evaluations. He suggests
+  finding a problem through Kaggle datasets or Reddit discussions, and he cites his open source tool
+  that turns Audible bookmarks into Notion entries. He recommends a local job search as well, since
+  on-site roles have less competition, and he says that social skills and the ability to link
+  technology to business value now matter more than coding alone. Alexey notes that startups ask
+  fewer LeetCode-style questions than big tech, and Gustaf agrees that startups reward people who
+  stand out.
+
+  Gustaf says that content creation helped him get his first AI job. His LangChain course on
+  YouTube, a 90-minute video about building a real estate agent, was listed at the bottom of his CV,
+  and the company that interviewed him used LangChain. He is an ambassador for LangChain in Sweden,
+  and he recommends ambassador programs from tool companies. For videos, he advises starting with a
+  phone, keeping the production simple and using bullet points. He says that his most viewed videos
+  were the simplest. He recommends showing the finished project in the first seconds of a video and
+  explaining the code without showing every line.
+
+  Gustaf names three common mistakes of self-taught engineers. They chase remote jobs too early,
+  they try to learn everything at once, and they neglect social skills. He recommends going to
+  meetups and talking to strangers to build confidence.

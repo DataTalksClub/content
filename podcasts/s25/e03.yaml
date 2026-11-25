@@ -28,3 +28,32 @@ resources:
   url: https://github.com/domanski-ai
 - title: Website
   url: https://domanski.ai/
+summary: |-
+  Paul Domanski is a non-coder by his own account who runs an AI consultancy in South Africa. He
+  started in film, working as a video editor, director and screenwriter, then spent about ten years
+  in affiliate marketing with Meta and Google ads. He now builds AI operating systems for South
+  African businesses while continuing to build for himself. Alexey, who invited him after seeing a
+  post about several Claude accounts, asks how he runs a company on a multi-agent dispatch system,
+  and how he pays for it. Paul gives a live demo of Demox, a terminal multiplexer he built, which
+  rotates between accounts and sends an inbox alert when an agent needs input.
+
+  Paul describes his workflow as a layer of agents with a shared context, plus audits and handoffs.
+  He uses red-team and simplification audits from one model to produce a list of prioritized fixes,
+  and he sends another agent to work through them when a usage reset is near. When an agent's
+  context nears its limit, it writes a handoff document so that a new session can continue. He says
+  that he judges tools by outcomes rather than by language, and that everything starts with a
+  problem he describes to his agents by voice. He learns about new ideas by checking their blast
+  radius and whether they fit his real client problems.
+
+  On the business side, Paul sells a three-month program that installs an AI system for a company
+  and then moves into maintenance billing. He says that the value is in a source of truth and in
+  helping the client ask better questions. His sales process uses agents for research and cold
+  outreach, and he builds a personalized prototype before a first call. He then meets the decision
+  maker in person in Cape Town or Johannesburg and uses the call transcript to update the demo.
+
+  Alexey points out that the roughly $1,600 monthly cost for several subscriptions is high, and Paul
+  replies that a single closed client covers it, and that he plans to pass token costs to clients.
+  Paul stresses clear vision over the choice of tool, and Alexey stresses evaluations, which he says
+  the community still needs to learn to do well. Paul notes that he spends many tokens because he
+  prefers the strongest models, and he expects open-source models to become good enough for many
+  tasks.

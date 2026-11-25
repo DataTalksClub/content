@@ -24,3 +24,34 @@ resources:
   url: https://www.swyx.io/create-luck
 - title: Linkedin
   url: https://www.linkedin.com/in/ruslanshchuchkin/
+summary: |-
+  Ruslan is a GenAI engineer at Finance Guru, where he builds production systems around large
+  language models. He started in business roles such as account management, then studied for a
+  master's in data science and joined OLX as a trainee. He later worked at Smart Steel Technologies,
+  where his title was data scientist but his work was mostly machine learning engineering on steel
+  production models. Alexey, who worked with him at OLX, invites him back for a second episode to
+  talk about AI engineering. Ruslan says the transition came from side projects, including
+  BranchGPT, a chat interface that lets users branch conversations from selected text, and a
+  Telegram bot for his mother's English practice.
+
+  Ruslan says he got his current job through relationships he built over about one and a half years.
+  He was contacted by a manager he had met during his earlier hiring at Smart Steel, and the
+  interview focused on his projects and RAG. He says companies hire for drive and a track record. He
+  describes the AI engineer as a generalist who knows how LLMs behave, can build systems quickly and
+  handles product discovery as well as the technical work. He argues that the best combination is
+  human plus AI, with product discovery grounded in talking to real users. He also says that data
+  science remains valid, although its definitions vary from company to company.
+
+  Much of the conversation is about how to keep up with a fast field and how to build a portfolio.
+  Ruslan follows X closely, pays for its search, and uses Grok to find recent approaches to
+  evaluation and agent design. He organized a local meetup called AI Side Hustlers Club in a
+  restaurant, without slides or sponsors, because he wanted people to share what they built. His own
+  side projects include a Chrome extension that refreshes a German rental search page and sends
+  alerts for new flats, which he open sourced, and a phone app that reduces phone use. He says he
+  picks projects for fun, since trying to maximize income led him to burn out, and he recommends
+  small projects that teach one skill each.
+
+  On learning, Ruslan says people tend to vibe code without understanding the output. He reads every
+  line of production code, but he accepts less scrutiny for side projects. For ideas, he suggests
+  starting with a small problem from daily life, since many ideas come away from the screen. He says
+  AI can teach a new language, such as TypeScript, by relating it to Python.

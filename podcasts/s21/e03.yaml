@@ -127,3 +127,32 @@ resources:
   url: https://github.com/sotoblanco
 - title: Website
   url: https://substack.com/@pastorsoto
+summary: |-
+  Pastor is a machine learning engineer and mentor who recently graduated from medical school. He
+  also holds a degree in social science and works as a criminologist. He was first in his cohort of
+  the machine learning engineering course run by Alexey. Alexey invites him to talk about learning
+  machine learning while studying medicine and how self-learning turned into a career.
+
+  Pastor describes how he started freelancing on Upwork around 2016 with a five-dollar statistics
+  job. He moved from SPSS to Excel, then to R, and finally to Python for a long-term role,
+  translating R code into Python during the early days before ChatGPT. He often accepted projects he
+  did not yet know how to do and learned them on the job. He says that as a medical student his data
+  work supported him financially, and that medicine taught him to organize plans and rank diagnoses by
+  probability and severity. He notes that triage tools rank symptoms by probability alone, when
+  severe conditions should be checked first.
+
+  Pastor credits the ML Zoomcamp with changing how he learned. He found live, cohort-based courses
+  more effective than Udemy or Coursera videos, and he used the leaderboard to push himself to post
+  every week. He framed posts as an expert explaining concepts such as the ROC curve, rather than as
+  a student saying what he was learning. He took notes in Notion or Google Docs and used them for
+  posts and projects. Within a few months recruiters contacted him through LinkedIn, including one
+  from Meta, and he went through a behavioral interview. Alexey and Pastor agree that posting
+  something imperfect can attract debate that brings more visibility, and Pastor says he does not
+  take corrections personally.
+
+  His capstone projects used healthcare datasets for skin cancer and pneumonia detection. They were
+  dockerized and deployed on AWS, and he still shares them when recruiters ask for proof of work. He
+  also volunteered as a mentor for DeepLearning.AI, which almost led to a paid role, and as a
+  volunteer teacher for Coding Place, a Stanford initiative. For time management, he kept to-do
+  lists, watched specific videos each day and studied on the bus. He stresses that he worked extra
+  hours and does not recommend it, and that consistency was what paid off.

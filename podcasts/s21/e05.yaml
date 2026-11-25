@@ -172,3 +172,35 @@ transcript: e05-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/egbodaniel/
+summary: |-
+  Daniel is an astrophysicist who turned to machine learning engineering and works as an AI
+  ambassador. He is a PhD candidate at the University of Cape Town, where he moved from Nigeria for
+  his studies at the South African Astronomy Observatory. Alexey invites him to talk about how
+  astronomy and applied machine learning connect, and how someone from a physics background can move
+  into that work.
+
+  Daniel's PhD uses data from MeerKAT, a 64-antenna radio telescope in South Africa's Karoo desert,
+  to find radio-emitting stars in the galactic plane. Radio sources are mostly extragalactic, so the
+  task is to separate stars from background galaxies. Daniel explains that matching positions across
+  catalogs, such as the Gaia mission data, is not enough on its own, because the sky is a two-
+  dimensional projection without distance information. Foreground and background objects can
+  overlap, so the team also checks physical properties from earlier observations. The project uses
+  cross-matching and physics-based modeling rather than machine learning. Daniel says it is building
+  a dataset that could support machine learning later, and that only a few thousand stars are
+  detectable in radio so far.
+
+  Daniel first met machine learning through a friend's AI startup and through a program with
+  Codecademy and mentors, where he needed to process tens of gigabytes of data. He used Astropy,
+  which handled data that pandas could not. He took ML Zoomcamp in 2022 and says it changed his
+  coding by teaching him to write reusable Python scripts rather than only notebooks. He then had an
+  internship testing models on Intel edge hardware, and later explored LangChain, Hugging Face and
+  retrieval augmented generation. Sharing his learning on LinkedIn brought him feedback and
+  opportunities, which is why he encourages people to share their work even at a beginner level.
+
+  Daniel describes a data engineering project he built with MySQL, MinIO, Spark and Airflow 3.0 for
+  the data engineering course, and he notes that Airflow 3.0 setup guides were hard to find. He also
+  recommends free student access to NVIDIA Deep Learning Institute courses and vendor academies from
+  LangChain and Arize. For beginners, he suggests learning Python, then finishing projects that use
+  their own domain knowledge. He also organized a data analytics program for beginner astronomers,
+  which drew more than 900 sign-ups and 190 submitted projects. He advises sharing projects as
+  shareable Colab notebooks, and suggests starting with data science before data engineering.

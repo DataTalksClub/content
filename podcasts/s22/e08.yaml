@@ -24,3 +24,35 @@ resources:
   url: https://www.fit-tails.com/
 - title: Linkedin
   url: https://www.linkedin.com/in/sofya-yulpatova/
+summary: |-
+  Sofya is the founder and CEO of Fit Tails, a PetTech startup that makes a sensor collar for dogs,
+  which Alexey calls an Apple Watch for dogs. She grew up in Russia, then lived in Latvia before
+  moving to London. She started programming as a teenager, joined a math and informatics program at
+  school, and worked as a programmer before moving into product and project management. She later
+  worked at an automotive parts company, where she helped build an ERP system from scratch and grew
+  the development team from five people to 18. Alexey and Sofya met at Web Summit in Lisbon, where
+  her stand caught his attention because of his interest in fitness tracking. He invites her to talk
+  about her path and the technology behind her product.
+
+  Sofya explains that the idea came from her own experience with a Labrador puppy. The puppy was
+  later diagnosed with hyperkeratosis, an inherited condition that cracks the nose and paws, and the
+  family had no data to explain the flare-ups. Sofya tried several consumer trackers, but they
+  showed simple metrics such as steps and calories and did not reveal early signs of illness. The
+  collar, which weighs about 36 grams, records IMU data from a gyroscope, accelerometer and
+  magnetometer. Sofya says sleep is the most important signal after weight, and that changes in
+  sleep can show pain two or three days before activity changes. Her team treats dog health
+  monitoring as anomaly detection, and a personal baseline takes two to three weeks to establish
+  because routines, weather and new people affect behavior.
+
+  Alexey asks how the company was funded. Sofya left her full-time job after more than a year of
+  thinking about it, and she and her husband chose to bootstrap rather than seek investment before
+  shipping a product. Early prototypes used parts from AliExpress and soldered boards, and the team
+  later worked with a manufacturing outsourcing company, which brought mismatched expectations and
+  budgets. Alexey points out that hardware needs more capital than software. Sofya says the team of
+  five includes former colleagues and people found at meetups, and that small co-working events were
+  more useful for finding team members than large conferences.
+
+  Sofya also describes her study path. She chose university for the academic grounding in machine
+  learning and combined it with work, and she found some courses frustrating and others useful for
+  product thinking. Alexey and Sofya also discuss heart rate tracking, which is harder in dogs
+  because of fur, so the team focuses on movement and breathing signals.

@@ -24,3 +24,34 @@ resources:
   url: https://www.linkedin.com/in/jmperafan/
 - title: Website
   url: https://juanalytics.com/
+summary: |-
+  Juan is an analytics engineer based in the Netherlands and a co-author of the book Fundamentals of
+  Analytics Engineering. He is originally from Colombia and studied psychology before moving into
+  dashboards, Tableau consulting and SQL work. In 2020 he became one of the first analytics
+  engineers in the Netherlands, a role that was new then. He organizes the Dutch dbt meetup and has
+  hosted meetups since 2018. Alexey invites him to explain what analytics engineering is, what it is
+  not, and which skills the role needs.
+
+  Juan defines analytics engineering as turning business reality into clean data, using software
+  engineering practices. He says the difference from older BI work lies in the how, with testing,
+  versioning and reproducibility rather than speed alone. Alexey compares the role to his own
+  experience as a data scientist who had to learn deployment because engineers were busy. The two
+  discuss data modeling, with Juan describing it as deciding what each row and table represents, and
+  Alexey recalling domain-driven design and normal forms. Juan says the work includes stakeholder
+  mediation, since merging customer data from several source systems means aligning definitions with
+  the business.
+
+  On tools, Juan says SQL is still most of the work, and that modern warehouses such as Snowflake,
+  Databricks and BigQuery are worth learning. Python is important because much of the surrounding
+  tooling, including orchestration and ingestion, is built with it. He describes how dbt added
+  testing that older dashboard tools lacked. He recalls a government dashboard project in 2018 that
+  had 70 manual checks. He says that dbt tests such as uniqueness checks, singular tests that must
+  return zero rows and unit tests for logic can replace them. He also notes that dbt tests can run
+  in CI before code is merged.
+
+  Juan and Alexey discuss the lakehouse as a data lake with a logical, modeled layer on top, which
+  keeps raw files while giving analysts a clear model. They also cover the market for dbt
+  alternatives. SQLMesh had attracted interest, but Fivetran's acquisition of it and the later plan
+  to merge with dbt, which is not finalized, has changed the picture. Juan recommends the Databricks
+  courses for beginners, and he uses DuckDB for personal projects. He describes running local
+  meetups as one way to keep learning from peers.

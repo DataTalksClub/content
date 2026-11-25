@@ -24,3 +24,35 @@ resources:
   url: https://alexkimds.github.io/
 - title: Linkedin
   url: https://www.linkedin.com/in/aleksandrkim/
+summary: |-
+  Aleksandr is a senior data scientist at Intuit in London, where he works on AI features for
+  QuickBooks. Earlier he was a data scientist and ML engineering team lead, and he worked at a cyber
+  security company, where he put a fine-tuned BERT model into production around 2020. Alexey
+  introduces him as someone doing AI engineering in practice, building AI features for production at
+  scale. The conversation covers what production AI requires, how to link model metrics to business
+  outcomes and what makes a project worth abandoning.
+
+  Aleksandr says that the hard part of the BERT project was not the model but the alignment with
+  business goals. The stakeholders wanted a higher automation rate for customer support, yet only
+  about 20 of 200 categories could be automated. He reframed the task around those categories and
+  used a conditional recall metric with a confidence threshold, which saved about 20 percent of
+  support costs. He applies the same logic to LLM projects. A chatbot request for an internal team
+  turned out to be a need for automated summaries that leadership received each week. The result was
+  a pipeline that sends insights to Slack, which saves about 30 hours at the executive level. He
+  measures use by engagement, not only by feedback, and he says that customer interviews are a
+  normal task for engineers.
+
+  For output quality, Aleksandr uses structured output and guided reasoning. The system first
+  generates candidate insights and then asks the model to justify removing or keeping them. He built
+  checks that run automatically after each piece of stakeholder feedback. For safety, a boosting
+  model handles easy benign requests before an expensive LLM judge sees the harder cases, which
+  lowers costs. He also describes an example where an LLM was not the right choice. A daily logistic
+  regression job for millions of customers was replaced by a yearly run, which reduced the bill, and
+  he says that engineers need awareness of token costs.
+
+  He defines the AI engineer as a software engineer who can evaluate LLM systems and keep the
+  architecture from accumulating debt, and he says that checking code matters more than writing it.
+  On when to stop a project, he describes a data aggregation effort for about 20,000 financial
+  sources. It failed because the data infrastructure was not ready, and he says the team should have
+  stopped earlier. His rule is to confirm the necessary inputs before starting, since no model can
+  compensate for missing data.

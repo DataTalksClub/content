@@ -167,3 +167,33 @@ resources:
   url: https://cookingdata.substack.com/
 - title: Product product lifecycle manager
   url: https://app--data-product-lifecycle-manager-c81b10bb.base44.app/
+summary: |-
+  Lior Barak is a data strategy consultant and former practitioner. He was head of product for the
+  data platform team at Idealo, earlier founded Tele Data to automate data infrastructure for small
+  companies, and led marketing data operations at Zalando. Alexey introduces him as the author of
+  the data vision board and data product lifecycle frameworks. Lior's working title for his next
+  book is Wabi Sabi Your Data, based on the Japanese idea of accepting imperfection. Alexey invites
+  him to discuss how teams can move from building pipelines to delivering business outcomes.
+
+  Lior argues that data is always imperfect and that teams should be aware of this, accept it and
+  communicate it. He points to a trust crisis and cites research that 97 percent of CEOs use data
+  but only 24 percent call themselves data driven. Teams often reach for a new tool by default, when
+  the real problem is a process failure, such as a team ingesting bad data or changing a structure
+  without notice. He suggests a traffic light on dashboards, with green for reliable, yellow for
+  known issues and red for broken, and tracking incidents to find the few products that cause most
+  of them. Alexey compares a bad data source to a wrong brick in a Lego set, and Lior says teams
+  must balance how much they need the full picture against the cost of waiting for a perfect fix.
+
+  For team health, Lior suggests that about 45 percent of time goes to maintenance, including bug
+  fixes, ad hoc requests and meetings. Innovation usually gets 10 to 20 percent, and rollout makes
+  sure users adopt what was built. Beyond 45 percent maintenance, teams become stressed, and when
+  they only innovate, bugs pile up and trust declines. He describes a customer lifetime value model
+  that was valuable at maturity but declined once nobody maintained it. He judges data products by
+  impact, and a product that delivers value while its ROI improves counts as a success. For legacy
+  systems, he recommends minimal maintenance and a planned replacement. At Zalando, a script that
+  six people fed by hand was replaced by a PostgreSQL warehouse and Tableau dashboards.
+
+  For executive requests, Lior advises starting with the reason behind the request and the expected
+  impact, since teams that speak in the CEO's language get a different reaction. On career choice,
+  he says engineering is about solutions, analytics about refining problems and providing solutions,
+  and product about defining and scoping problems.

@@ -24,3 +24,35 @@ resources:
   url: https://www.linkedin.com/in/pauliusztin/
 - title: Website
   url: https://www.pauliusztin.ai/
+summary: |-
+  Paul is an AI engineer and the author of the LLM Engineers Handbook. He leads the Agentic AI
+  Engineering course and writes for Decoding AI magazine. He is a founding AI engineer at a San
+  Francisco startup and works from Romania. His career began as a backend Python engineer, moved
+  through deep learning research on autonomous driving, and then went into contracting for clients
+  in Germany, the UK, Israel and the US. He later worked at a generative AI company in the film
+  industry. Alexey invites him to discuss AI engineering as a job, how it differs from data science,
+  and which skills are needed to ship AI products.
+
+  Paul argues that data science is still employable, but that its experience has to be described in
+  the terms recruiters search for. He thinks many companies now default to LLMs even for simple
+  regression problems where XGBoost works better, and Alexey agrees from his own consulting work.
+  Paul's view is that the AI engineer is becoming a full-stack role. His daily work includes a
+  TypeScript and React interface, a FastAPI backend, agents, RAG and AWS infrastructure. He treats
+  coding agents like energetic interns that need supervision, and he says that an agent once deleted
+  a failing test rather than fixing it. He reads all generated code, and he says working with AI
+  tools has taught him more TypeScript and SQL than he would have learned by writing it himself.
+
+  The most difficult part of the job, Paul says, is knowledge management, meaning data pipelines and
+  indexing that let an agent use the right information. He calls evaluation one of the most
+  important skills, with data literacy, sampling and correlation as its basis. Alexey summarizes the
+  core skills as building and evaluating agents, using AI assistants and designing data pipelines.
+  On frameworks, Paul says LangChain is useful for model access and structured outputs, but he
+  writes most of his logic himself to avoid layers of abstraction. He recommends durable workflow
+  tools such as Prefect or Dagster and an LLMOps tool for tracing. He uses Arize Phoenix and
+  Logfire.
+
+  For portfolio projects, Paul suggests choosing a problem that you care about and that you already
+  know well, since owning the data is often the hardest part. He describes his "second brain"
+  projects, which search personal notes and tasks. He is also writing a new book that will cover
+  agents and orchestration. The Agentic AI course includes capstone projects for long-form document
+  generation and a deep research agent.

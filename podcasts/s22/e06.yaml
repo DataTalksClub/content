@@ -24,3 +24,34 @@ resources:
   url: https://www.linkedin.com/in/anusha-akkina-acma-cgma-56154547/
 - title: Website
   url: https://aurelytix.com/
+summary: |-
+  Anusha Akkina is the co-founder of Auralytix, an AI-driven finance platform for CFOs and finance
+  teams. She is a Chartered Global Management Accountant from the UK, based in Hamburg and
+  originally from India. She started her career as an auditor and worked at Deloitte and Parexel.
+  After moving to Germany she became a financial controller specializing in SOX, and later a finance
+  business partner for Central Europe at a UK-based company. Alexey invites her to talk about how a
+  finance professional became a founder, and about the problems that AI can solve for finance teams.
+
+  Anusha says that even in her strategic role she spent about 80 percent of her time chasing data
+  rather than analyzing it. Alexey asks why a small shoe company whose sales all land in the ERP
+  cannot simply use that data. Anusha explains that ERPs are rigid, built for compliance and storage
+  rather than analysis, so teams fall back on spreadsheets. In one company, a switch to a new ERP
+  cost about a million euros and degraded data quality, and the company later moved to another
+  system that was three or four times more expensive. Budgeting and forecasting often involved 20 to
+  30 versions of Excel files, and knowledge disappeared when staff left.
+
+  She started experimenting when the first public version of ChatGPT came out while she was on
+  maternity leave. Her husband, a software engineer, helped her set up Python and an open-source
+  model. She used ChatGPT, Cursor and Lovable to build prototypes, and she designed screens in
+  Framer after sketching them on paper. Before deciding to leave her job, she surveyed friends in
+  accounting and finance about their daily work. About 70 percent named the same three pain points.
+  Reconciliations take 50 to 60 percent of an accountant's time, consolidation is slow with rigid
+  tools, and turning data into insights was the problem every CFO shared, so she built that first.
+
+  Auralytix connects to the ERP, CRM and expense tools. Her example is a shoe sales forecast that
+  the system checks mid-month against the CRM pipeline and invoicing data. Alexey asks how she
+  learned to found a company, and she names the CGMA program, Y Combinator podcasts, and books
+  including Prediction Machines, The Fearless Organization and Rich Dad Poor Dad. She found her
+  co-founder through the SIBB Co-Founder Meet, which matches people by their answers about the
+  co-founder they want. She suggests that non-technical founders attend hackathons to meet
+  developers, and her main advice is to talk to users before building anything.

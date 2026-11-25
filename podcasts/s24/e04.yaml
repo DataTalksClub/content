@@ -26,3 +26,35 @@ resources:
   url: https://github.com/kozodoi
 - title: Website and blog
   url: https://www.kozodoi.me/
+summary: |-
+  Nikita Kozodoi is a senior applied data scientist at the AWS Generative AI Innovation Center,
+  where he helps customers design and build custom GenAI and agentic solutions. He has a background
+  in economics, and he holds a PhD in machine learning for credit scoring in Germany. He moved from
+  classical tabular ML at Amazon's Machine Learning Solutions Lab to the GenAI team after ChatGPT
+  appeared. Alexey invites him to talk about what it takes to move GenAI from pilots to production.
+
+  Nikita describes a common pattern. Teams often pair a classical model that makes forecasts or
+  flags anomalies with a generative model that explains the result. A maritime analytics project
+  uses an anomaly detector to find unusual ship movements, and an agent then searches news, weather
+  and other sources to explain them. For production, he argues that a single guardrail in the system
+  prompt is not enough, because attackers can bypass it with other languages, hidden instructions in
+  files or code comments. He recommends a separate layer of small zero-shot classifiers that run in
+  parallel, plus red teaming with human or LLM testers. Alexey notes that such classifiers are small
+  enough to fine-tune.
+
+  The most detailed example is a localization pipeline for Zalando newsletters. It applied brand
+  rules, such as which form of address to use in each market and how to shorten text for
+  notification banners. The team built an evaluation score sheet, had native-speaking experts score
+  a golden sample, and then used an LLM judge with the same criteria for fast iteration. Nikita says
+  that few-shot examples, sometimes around 50, help align a judge with human experts, and that
+  perfect alignment is never reached. He advises building an evaluation before the first
+  implementation, and says fine-tuning usually needs a couple of thousand labeled examples, with a
+  small model fine-tuned by LoRA on a single GPU at modest cost. He treats RAG and fine-tuning as
+  complementary.
+
+  Nikita says that a project usually runs one to three months up to a first proof of concept, and
+  that AI strategists on his team scope it starting from the customer's pain points. He prefers the
+  simplest tool that works, such as a business heuristic or a logistic regression, before any
+  multi-agent solution. He lists observability, retries with backoff and session memory as
+  architecture requirements, and he says that every engagement needs customization on top of managed
+  building blocks such as Amazon Bedrock.

@@ -22,3 +22,36 @@ transcript: e07-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/nasserq/
+summary: |-
+  Nasser is an engineering manager and formerly an AI engineer at Google. He is now based in Zurich.
+  He holds a bachelor's in economics, a master's in international relations and a PhD in politics
+  from the University of Glasgow, with a focus on international security. He worked on data science
+  leadership roles at Quest Diagnostics, Deloitte and Gallup. He started as a software engineer
+  after university, then returned to data science and statistics for his graduate work. Alexey
+  invites him to talk about what the AI engineer role looks like in practice and how people from
+  different backgrounds move into it.
+
+  Nasser says that social science training helped him with the statistical rigor and evaluation
+  habits that AI work now needs. He says precision and recall still apply when agents replace
+  classical classifiers, and that domain knowledge matters in healthcare, finance and national
+  security. Alexey outlines the usual routes into the role. Machine learning engineers have the
+  smoothest path, data engineers come next, and scientists and analysts need to build engineering
+  skills. Nasser sees the AI engineer as a role between a software engineer and a data scientist,
+  with the experimental mindset of data science and the software discipline of engineering. He
+  describes data science as grayer than engineering, where the goal is to reach a result that is
+  good enough, not a deterministic answer.
+
+  The conversation turns to learning. Nasser advises starting from a real problem. He built a gym
+  tracking app during parental leave because existing apps did not record the sets, reps and rest
+  periods he needed, and he used coding assistants to build it. Alexey points out that many apps
+  exist yet none fit his routine. Nasser says that an idea will often fail, so it is better to test
+  quickly and move on. He prefers talking to users to asking a language model for creative ideas,
+  and he cautions that language models should not do the thinking that makes people human. On the
+  question of full-stack work, he says the role is useful to understand, but larger companies still
+  value deep expertise and stricter engineering rigor.
+
+  Nasser sees the role evolving toward more engineering discipline, agent operations and monitoring,
+  and also toward smaller, faster models for tasks that need low latency. He suggests learning one
+  agent framework in depth before comparing others, and he says the choice depends on the
+  organization's existing vendors. Nasser says fine-tuning and distillation matter once a product
+  has a large enough use case.

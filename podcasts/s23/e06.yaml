@@ -24,3 +24,30 @@ resources:
   url: https://www.linkedin.com/in/slawomir-tulski-091611116/
 - title: Form for DE role Ebook
   url: https://docs.google.com/forms/d/e/1FAIpQLSdSCLaBdTtuRlgV_nukKckumR60VOovECtlRIRI5DMUIk36EQ/viewform
+summary: |-
+  Slawomir spent most of his career at Meta, where he moved between individual contributor and
+  management roles on data engineering for the ads ranking system. He has also helped shape the
+  company's data engineering hiring process and interviewed hundreds of candidates. He began as a
+  researcher in remote sensing and geosciences, then left academia for money, moved to London and
+  became a software engineer and then a data engineer at startups. He now works as an independent
+  consultant from Poland. Alexey invites him to discuss the reality of data engineering in 2026,
+  including how the role has changed and what companies look for.
+
+  Slawomir argues that people do not agree on what a data engineer does. He sees two main groups,
+  platform data engineers who build infrastructure and product data engineers who turn data into
+  business capabilities with SQL, dbt, Airflow and dashboards. He says that analytics engineering
+  has grown from this split, and that the labels are still confused. He advises small companies not
+  to overbuild. DuckDB, dbt, Airflow and Superset can go far, and most teams do not need real time
+  pipelines, since running a batch every five minutes is often enough. He recommends buying managed
+  services over operating Spark or Presto clusters, and he says Kafka is worth it only when a team
+  really needs real-time processing. He warns that large companies with money often over-invest in
+  data platforms they do not need.
+
+  On the job market, Slawomir says it is tough, with fewer junior roles and many candidates who
+  cannot get past screening. He suggests that people in data roles extend their current
+  responsibilities to move into data engineering, and that outsiders may first take a related job
+  before switching. He says AI will remove repetitive tasks such as basic dbt models and pipeline
+  triage, but that someone still needs to clean and model the data that AI depends on. He advises
+  framing side projects around outcomes and building an end-to-end project, such as a tool that
+  loads bank transactions, models them and shows a dashboard. He also says that networking matters,
+  because he got his first Meta job through a contact.

@@ -26,3 +26,34 @@ resources:
   url: https://x.com/phil_christos
 - title: Website
   url: https://t.me/stacked_channel
+summary: |-
+  Philip is an associate at M2VC, a venture capital firm in Barcelona that focuses on early-stage
+  frontier AI. He spent four years earlier at Terra VC, moving from analyst to associate, and before
+  that worked for almost a year as a marketing analyst at Procter & Gamble. He describes VC work as
+  a role where everyone does everything, and where analysts meet startups, prepare investment memos
+  and attend conferences. Alexey, who met him in Berlin, invites him to talk about how venture
+  investors judge AI companies and what that implies for careers in software and other fields.
+
+  Philip explains that his firm backs enabling technology rather than application wrappers, and that
+  infrastructure around frontier labs is a focus. He argues that "AI" is no longer a thesis by
+  itself, and that investors need a sharper view of which problems will be solved. He gives examples
+  of portfolio companies that train their own text models, including one whose models are trained to
+  sound warm rather than robotic, for uses such as customer support. He describes an emotion
+  analytics company that predicts sales call outcomes from expressions and tone, and he says speech
+  and accent models are still weak. Alexey says he cannot get voice tools to give his characters
+  accents.
+
+  Asked how the industry has changed, Philip points to early 2023, when ChatGPT made AI an obvious
+  platform, and to the current rise of coding agents. He argues that software engineering became the
+  first field to adopt agents because engineers share code and experiment in public, while
+  accounting and other professions keep more of their know-how private. He expects data progress,
+  not only new architectures, to move other fields, and he expects science and biotech to be the
+  next areas for automation. He still thinks that people will remain responsible for outcomes,
+  comparing AI to an autopilot that still needs a driver.
+
+  On careers, Philip says that AI handles junior tasks well, so people entering the field should
+  study deeper and focus on higher-level concepts such as system design and trade-offs. He prefers a
+  product manager with a physics degree to a product manager alone. Alexey says AI has made his own
+  work more demanding, since every idea he builds quickly leads to ten more and his 40-hour week has
+  turned into 60 hours. Philip says that the best pitches to his firm are hard, science-backed
+  ideas, and that an idea GPT or Claude can generate in one shot is not a good idea for his fund.

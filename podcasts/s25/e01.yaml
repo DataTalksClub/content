@@ -29,3 +29,35 @@ notes: 'Links:
   * [Github](https://gitlab.com/radovan.bacovic/){:target="_blank"}
 
   * [Website](www.bacovic.com){:target="_blank"}'
+summary: |-
+  Radovan is a staff data engineer and principal engineer based in Novi Sad, Serbia. He has more
+  than 20 years of experience in data, starting in software engineering with a focus on databases,
+  and he is part of the Snowflake and dbt ambassador programs. He practices Brazilian jiu-jitsu and
+  is a brown belt. He began as a one-person team on Oracle databases in a Dutch telecom company,
+  then moved into data platform work. Alexey invites him to discuss how to engineer AI-powered data
+  products, from the first pipeline to production.
+
+  Radovan's starting point is a business question. He recommends choosing one metric, then deciding
+  who will use the data and how often it must refresh, and he says that most businesses can survive
+  a daily batch. For a small education platform, his example is a completion rate built from
+  enrollments and course catalog data. He says a small team can begin with Postgres, use DuckDB to
+  query it, store raw files in object storage and model the data with dbt in raw, prep and prod
+  layers. He argues that teams should not optimize too early, and that a platform should be built
+  around the problem, not around a vendor. Alexey summarizes the architecture, and Radovan adds that
+  the prod layer can feed a dashboard, a Streamlit app, an API or an MCP server.
+
+  On AI, Radovan says that AI-generated code can produce a convincing prototype quickly, but that
+  moving it to production needs data engineers for security, deployment, testing and compliance. He
+  recommends keeping sensitive data out of the warehouse by default, and he says that data
+  governance and least-privilege access should begin early, even if the scope is small. He describes
+  two uses of AI, one for speeding up development and one for building AI products that use the
+  platform's data, such as text-to-SQL systems that need dbt documentation as context. Alexey asks
+  whether this can replace data engineers, and Radovan says that it cannot, because the human must
+  check each stage.
+
+  For learning, Radovan says that experienced engineers can reverse engineer AI-generated projects,
+  but beginners should first learn the basics. He compares this to jiu-jitsu, where a student needs
+  fundamentals before sparring. He also warns that no-code tools need processes, ownership and
+  budgets. Alexey adds that a no-code automation tool became costly as his usage grew. Radovan
+  closes by saying that engineering is about trade-offs, where you pick the least wrong decision you
+  can live with and plan for scaling.
