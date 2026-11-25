@@ -1,0 +1,14 @@
+slug: 20261125-zz-test-authoring-proof-book
+legacy_path: /books/20261125-zz-test-authoring-proof-book.html
+authors:
+- alexeygrigorev
+cover: images/books/20261012-designing-ai-systems/cover.jpg
+description: TEST CONTENT for the authoring cutover check (hub intake af6ed1b3). Removed right after the check.
+end: 2026-11-26 23:59:59
+image: images/books/20261012-designing-ai-systems/preview.jpg
+links:
+- link: https://example.com/zz-test
+  text: Test link
+start: 2026-11-25 00:00:00
+title: ZZ TEST authoring proof book (will be removed)
+summary: TEST CONTENT. Removed right after the authoring cutover check.
