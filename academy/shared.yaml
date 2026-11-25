@@ -87,13 +87,13 @@ admission:
   body: I teach every session and review every project myself, so a cohort has 15 seats. If more people qualify, the next cohort follows.
   steps_heading: How You Get In
   steps:
-  - title: Join the waitlist.
+  - title: Join the Waitlist
     text: No commitment.
-  - title: Apply first.
+  - title: Apply First
     text: The waitlist gets the application before anyone else.
-  - title: Task and call.
+  - title: Task and Call
     text: A short practical task and a 20-minute call.
-  - title: Offers in rounds.
+  - title: Offers in Rounds
     text: Everyone who applies gets an answer.
 faq:
   heading: Questions
