@@ -142,6 +142,7 @@ context: 'Context: The episode frames a biodiversity crisis made harder by fragm
   with ethics, community engagement, capacity building, sustainable funding, and multistakeholder governance
   so that AI-enabled monitoring directly informs equitable conservation decisions, enforcement, and long-term
   policy.'
+transcript: e03-transcript.yaml
 resources:
 - title: Biodiversity and Artificial Intelligence pdf
   url: https://www.gpai.ai/projects/responsible-ai/environment/biodiversity-and-AI-opportunities-recommendations-for-action.pdf

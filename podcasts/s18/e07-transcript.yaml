@@ -1,0 +1,1140 @@
+podcast: building-domestic-risk-assessment-tool
+segments:
+- header: Episode Introduction
+- line: Hi everyone, welcome to DataTalks.Club. This event is brought to you... Yeah, I think I haven't
+    done this in a while. Usually I remember the line, I remember what to say without thinking about this.
+    And yeah, we haven't had podcast interviews in three weeks, maybe four. So now we are finally back.
+    We are again looking for speakers, so if somebody wants to speak, let us know.
+  sec: 0
+  time: 0:00
+  who: Alexey
+- line: Anyways, welcome to our event. This event is brought to you by DataTalks.Club, which is a community
+    of people who love data. We have weekly events, or at least we try. If you want to know more about
+    our events, there is a link in the description. Click on that link and check what we have in our pipeline.
+    And I need to update the number of subscribers, I think now it's more. So do not forget to subscribe
+    to our YouTube channel. Very important. This way you'll stay up to date with all our future streams,
+    like the one we have today.
+  sec: 27
+  time: 0:27
+  who: Alexey
+- line: And we have a great Slack community where you can hang out with other data enthusiasts. During
+    today's interview, you can ask any question you want. There is a pinned link in the live chat. Click
+    on that link, ask your questions, and we will be covering these questions during the interview. And
+    I still remember something, that's good, so I haven't forgotten completely what to ask. I'll quickly
+    open the questions so I can monitor them, which I should have done before.
+  sec: 61
+  time: '1:01'
+  who: Alexey
+- line: It's okay, I feel you. It's okay. It's also my first podcast on the other side of the podcast.
+    So there you go, it's fine.
+  sec: 97
+  time: '1:37'
+  who: Sabina
+- line: On the other side? So you interview people?
+  sec: 105
+  time: '1:45'
+  who: Alexey
+- line: No, I mean, everyone these days can have a podcast. My friends and I tried to do a tango podcast
+    some time ago. And yeah, interviewing friends.
+  sec: 109
+  time: '1:49'
+  who: Sabina
+- line: Yeah. But tango is a very visual topic and a podcast is typically audio only. How do you talk
+    about tango? How do you discuss different moves?
+  sec: 122
+  time: '2:02'
+  who: Alexey
+- line: Well, we don't discuss moves, that's the thing. We talk about the social aspect of tango. We talk
+    about how interesting the invitation in tango is, about our experiences leading and following in tango,
+    dancing with people, meeting people, going to events and being obsessed enough to travel around the
+    world just to do tango. Those sorts of things. Everything but the actual dance.
+  sec: 133
+  time: '2:13'
+  who: Sabina
+- line: Do you travel around the world to meet other people and dance tango?
+  sec: 163
+  time: '2:43'
+  who: Alexey
+- line: Yes, actually. Well, around Europe so far.
+  sec: 166
+  time: '2:46'
+  who: Sabina
+- line: Around Europe. Yeah, I only tried bachata, so I haven't...
+  sec: 172
+  time: '2:52'
+  who: Alexey
+- line: Yeah, people do travel for bachata as well. So yeah, I can imagine, because it's also fun.
+  sec: 177
+  time: '2:57'
+  who: Sabina
+- line: Yeah, it is. I think I attended six sessions. I only remember the basic move, but yeah.
+  sec: 182
+  time: '3:02'
+  who: Alexey
+- line: I mean, that's good enough, you know. You can already go dance socially, which is...
+  sec: 192
+  time: '3:12'
+  who: Sabina
+- header: 'Guest introduction: Sabina Firtala and Frontline 100'
+- line: That's right. Anyways, this week we will not talk about tango, maybe a little bit. We will talk
+    about building a domestic risk assessment tool. And we have a special guest today, Sabina. Do I pronounce
+    it correctly, Sabina?
+  sec: 198
+  time: '3:18'
+  who: Alexey
+- line: Yeah, it's perfect. Yeah, it's Romanian pronunciation.
+  sec: 215
+  time: '3:35'
+  who: Sabina
+- line: Okay. So Sabina works on Frontline 100's AI product development. Frontline 100 is a company name.
+    So she's involved in all aspects of model development, from data wrangling and visualization to statistical
+    tests, model training and validation. She has a background in natural sciences and previously worked
+    as a data analyst in finance and SaaS companies. As a freelance data analyst, she takes on challenging
+    projects for mission-driven companies, being especially interested in social impact, health care and
+    accessibility. You are a freelancer, right?
+  sec: 219
+  time: '3:39'
+  who: Alexey
+- line: Yes, at the moment. Yes.
+  sec: 256
+  time: '4:16'
+  who: Sabina
+- line: So welcome to our interview.
+  sec: 256
+  time: '4:16'
+  who: Alexey
+- line: Nice to see you.
+  sec: 262
+  time: '4:22'
+  who: Sabina
+- line: Nice to see you again. I hope you have your Soylent with you.
+  sec: 262
+  time: '4:22'
+  who: Alexey
+- line: Was it Soylent, right? It was...
+  sec: 270
+  time: '4:30'
+  who: Sabina
+- line: yfood. yfood, yeah. That's the brand that they have here, the meal replacement.
+  sec: 275
+  time: '4:35'
+  who: Alexey
+- line: Because that's how we met, right?
+  sec: 279
+  time: '4:39'
+  who: Sabina
+- line: Yeah, that's how we met. So, for background, this is how we met. There was a meetup. I think it
+    was actually co-organized by DataTalks.Club, but the only thing we did to co-organize the event is
+    place our logo there. It was mostly done by DT Hub, which bought food. What else? They provided the
+    office and food and drinks. Very important.
+  sec: 279
+  time: '4:39'
+  who: Alexey
+- line: Yeah.
+  sec: 310
+  time: '5:10'
+  who: Sabina
+- line: So basically they did the whole thing and they just asked me to show up. How can I say no to that,
+    right?
+  sec: 310
+  time: '5:10'
+  who: Alexey
+- line: Yeah. And it was so funny, because I knew about DataTalks, and after the event I was like, wait
+    a second, is this person that I met actually from DataTalks?
+  sec: 316
+  time: '5:16'
+  who: Sabina
+- line: Yeah. So it was a bit noisy there. They have a, how do you call it, a room for meetups, right?
+    It's not the largest room for meetups, and when many people start speaking there, it gets loud. So
+    of course I was trying to hide in a calm room, and then there was Sabina also hiding. And I had this
+    yfood bottle, which is a meal replacement. You just drink it and it has 500 calories. And then your
+    comment was like...
+  sec: 326
+  time: '5:26'
+  who: Alexey
+- line: I'm more like a Huel person. Yeah, because I was very into meal replacement at some point. I drank
+    Huel for lunch every single day.
+  sec: 363
+  time: '6:03'
+  who: Sabina
+- line: Ah, so you were that into it.
+  sec: 374
+  time: '6:14'
+  who: Alexey
+- line: Yeah. I mean, I still have Huel at home, but I just find it difficult to have it nowadays on a
+    regular basis. Otherwise I would still love to have it. It's great, a time saver.
+  sec: 378
+  time: '6:18'
+  who: Sabina
+- line: Yeah, I just drink it after the gym usually. I want to consume a certain amount of protein per
+    day, and when I don't hit the number, then I just drink this, because they have a lot of protein.
+  sec: 389
+  time: '6:29'
+  who: Alexey
+- line: Anyways, so this is how we met. Then we talked a little bit about Sabina's work, and that was
+    pretty interesting. So when we connected later on LinkedIn, I thought, I have to interview her. So
+    that's why we're here talking today. And yeah, as always, the questions for today's interview are
+    prepared by Johanna Bayer. Thanks, Johanna, for your help.
+  sec: 407
+  time: '6:47'
+  who: Alexey
+- header: 'Career journey: from organic chemistry to data analytics'
+- line: So let's start. Before we go into our main topic, we start with your background. Can you tell
+    us about your career journey so far?
+  sec: 432
+  time: '7:12'
+  who: Alexey
+- line: Yeah, I think the bio was quite well put already. I've been in the workplace for very little time,
+    but I've already had quite a few career switches. So yeah, I studied chemistry at the University of
+    Cambridge. I started off with natural sciences and then specialized in organic chemistry. Afterwards,
+    I decided that lab work was not really my thing. I much more preferred the thinking work of organic
+    chemistry compared to the grunt work of doing experiments and working in the wet lab.
+  sec: 445
+  time: '7:25'
+  who: Sabina
+- line: So then I thought that I would like to do something, either in consulting, but then this opportunity
+    appeared to work as a data analyst in tenie, and I had to take it. Because it's quite rare to get
+    to work on something very interesting, also for mission-driven companies, and also in a lovely place
+    to live in. And then from finance, I realized I didn't like Excel that much. I didn't want to work
+    all of my life in Excel. It wasn't really my thing.
+  sec: 486
+  time: '8:06'
+  who: Sabina
+- line: I was very keen on Python since the pandemic. I'm not sure if you know about Hyperskill, but they're
+    super cool. But do you know about JetBrains, by any chance?
+  sec: 520
+  time: '8:40'
+  who: Sabina
+- line: JetBrains, yeah.
+  sec: 533
+  time: '8:53'
+  who: Alexey
+- line: So they've worked with Hyperskill on creating this learning platform for Python and lots of other
+    programming languages. And I think it's one of the best I've seen. That's how I started learning Python.
+  sec: 536
+  time: '8:56'
+  who: Sabina
+- line: Hyperskill, right?
+  sec: 549
+  time: '9:09'
+  who: Alexey
+- line: Hyperskill, yeah. I highly recommend it. It is quite pricey, but I think they offer a lot of value
+    as well. So I started learning Python and I thought, hey, I've already worked in data analysis in
+    finance and I already know a bit of programming. And then I went for Ironhack and studied data analytics
+    with them. Since then I've been taking data analytics positions, and I switched to freelancing because
+    I find it more suited to my interests. I like dipping my toes into multiple fields.
+  sec: 549
+  time: '9:09'
+  who: Sabina
+- line: And yeah, right now my main focus is Frontline 100, because I think the work that we do is very
+    important and very impactful, and I really, really love it. Obviously the topic is quite heavy, so
+    saying it very enthusiastically might come across as weird, but I really love having the opportunity
+    to contribute to such a topic.
+  sec: 592
+  time: '9:52'
+  who: Sabina
+- header: 'Frontline 100: ending domestic abuse sooner with AI'
+- line: And right now I want to ask you about the topic, of course, but I want to give a warning. A disclaimer,
+    not a disclaimer, probably a warning would be a better word. We are going to talk about a sensitive
+    topic, which is domestic abuse and violence. If you know somebody who is experiencing domestic abuse,
+    you should seek help. If you live in Germany, there is a national helpline available at 116 016. And
+    if you live somewhere else, please find a number to contact.
+  sec: 618
+  time: '10:18'
+  who: Alexey
+- line: I think this is an important topic. That's why, when I heard about what Sabina is doing... I have
+    not heard about AI applications to that topic, so that's why we're here. I wanted to talk about that.
+    So yeah, please tell us about Frontline 100 and what you're trying to solve.
+  sec: 653
+  time: '10:53'
+  who: Alexey
+- line: Right. So the main purpose of Frontline 100 is to end domestic abuse sooner. And as you very correctly
+    pointed out, AI in this field is not something that's very common, which is why what we're bringing
+    to domestic abuse prevention is quite relevant. Most of the domestic abuse risk assessments in the
+    field are on paper only. So I think that having an AI tool involved in this, especially with all of
+    the hype around AI, and having in general an application of AI to social issues, is very relevant.
+    So I was very excited when I first saw the Frontline website. I was like, this is incredible, I've
+    never thought of using AI for such a cause. So I was very excited from the get-go.
+  sec: 675
+  time: '11:15'
+  who: Sabina
+- line: How did you find them, or did they find you?
+  sec: 736
+  time: '12:16'
+  who: Alexey
+- line: It's very funny, because I found them through a Telegram group. One of the previous data scientists,
+    Joy, posted in the computer science university alumni Telegram group. And then one of my friends who
+    also studied there sent me this job post, and I was like, wow, this is incredible, this is exactly
+    what I want. Because I was looking for many positions at the time. So yeah, it was very fun.
+  sec: 740
+  time: '12:20'
+  who: Sabina
+- header: Finding data jobs at mission-driven organizations
+- line: Well, I'm not actively looking for a job, but sometimes I come across different job descriptions,
+    typically on LinkedIn. And usually it's e-commerce or internet companies, ad tech or marketing, the
+    usual thing, right? I don't typically come across social initiatives like that one. So it's pretty
+    interesting how people can find it. For example, if I want to also contribute to a similar project,
+    where would you suggest looking for jobs in this area?
+  sec: 781
+  time: '13:01'
+  who: Alexey
+- line: To be fair, what I started doing now is simply to look for organizations that I'm interested in
+    and see if they have openings. Because, as you said, it's very rare that you would find these job
+    adverts. I remember I follow Our World in Data quite a lot, because they post very interesting reports
+    and data visualizations. And at some point I just found a job post that was expiring the same day.
+    So I was like, okay, I have to code something now so I can apply.
+  sec: 824
+  time: '13:44'
+  who: Sabina
+- line: So yeah, I would suggest to actively look for organizations in the causes that you're interested
+    in, be it data transparency, be it accessibility, social impact, whatever, and follow them and look
+    for updates, or even message them. Because if they're small organizations, they're more likely to
+    answer than if they're bigger. And I diverged a little bit.
+  sec: 862
+  time: '14:22'
+  who: Sabina
+- header: How domestic abuse risk assessment works today
+- line: So we talked about domestic abuse, and you said that it's very rare that AI is used for risk assessment
+    of domestic abuse. I'm wondering how it is done usually. You said it's done on paper, but how exactly?
+    What is the process, and what is the risk assessment of? Are they looking at a family and thinking
+    how likely it is that in this family there is this problem? I'm trying to figure out, how to put it
+    correctly... typically in a usual setting I would say business case, but it sounds very weird to say
+    it like that here.
+  sec: 886
+  time: '14:46'
+  who: Alexey
+- line: Yeah, a use case maybe.
+  sec: 926
+  time: '15:26'
+  who: Sabina
+- line: Use case, yeah. Or maybe a scenario.
+  sec: 930
+  time: '15:30'
+  who: Alexey
+- line: Scenario, yeah. I would say what happens at the moment is you have victims interacting with institutions,
+    be it police, be it health care practitioners, be it social workers. And the people that they're in
+    contact with usually administer a survey which has been studied previously and shows high correlation
+    with abuse, usually physical and sexual abuse. That's typically what is being tested. And it's usually
+    just about the victim's experience. There have been qualitative studies as well, but it's mostly very
+    academic.
+  sec: 938
+  time: '15:38'
+  who: Sabina
+- line: And what's currently used by police officers in Germany is a mixture of risk assessment tools
+    that were built in North America, for people in that demographic, based on data that they've collected.
+    And it's used on the German population. Usually they administer a set of questions, and then based
+    on that, whether the person is at high risk or medium risk.
+  sec: 988
+  time: '16:28'
+  who: Sabina
+- line: 'But usually there is a victim, right, and somebody is talking to them: police, health care personnel,
+    social workers. But if the victim already approached them, they already know that there is a problem.
+    Or they approach them with something different?'
+  sec: 1028
+  time: '17:08'
+  who: Alexey
+- line: What do you mean by approach them?
+  sec: 1050
+  time: '17:30'
+  who: Sabina
+- line: If I already go to the police and say, look, my husband is beating me up, they kind of already
+    know that.
+  sec: 1050
+  time: '17:30'
+  who: Alexey
+- line: Yeah. So what can happen is that some people, yes, at that point it already is quite a big problem.
+    R2 is also meant for cases that are not like that. But in that case, even then, because a victim might
+    still be in love with their partner, they might not disclose everything that has happened in the relationship.
+    For example, maybe they come because of financial abuse or because of physical abuse, but they haven't
+    disclosed that there has been sexual abuse happening as well. And this is what we're trying to predict
+    using our tools.
+  sec: 1058
+  time: '17:38'
+  who: Sabina
+- line: Because even if they come, maybe they change their minds as well, right? Because it's a very high-pressure
+    environment that they're in, being asked questions by the police, very personal questions as well,
+    and they might tone down the things that they disclose. So then it's quite important to have these
+    risk assessments, not only to see what will happen in the future, but also what is likely happening
+    right now that a person might not disclose in that moment.
+  sec: 1100
+  time: '18:20'
+  who: Sabina
+- line: Okay, so in this scenario, if I'm a police officer, I would have something like that, and with
+    a very serious face ask tough, no, not tough, but these questions, and maybe put some pressure on
+    the person. I can imagine a room, maybe without windows, and if you put them in this environment,
+    and then somebody with a piece of paper and a serious face is taking notes... So this is how it's
+    done right now?
+  sec: 1132
+  time: '18:52'
+  who: Alexey
+- line: Yes, very much so.
+  sec: 1162
+  time: '19:22'
+  who: Sabina
+- header: 'Lizzy app: taking the risk assessment off paper'
+- line: And how are you approaching it?
+  sec: 1165
+  time: '19:25'
+  who: Alexey
+- line: Right. So first off, we're taking things off paper. We already have an app built, right now for
+    people interacting with victims, to also track cases of domestic abuse, which I think is another plus.
+    Because besides having the paper tracking of what happened, you can also look over time at what cases
+    occurred, how many are high risk, how many are medium. You can also look at the person's history as
+    well.
+  sec: 1171
+  time: '19:31'
+  who: Sabina
+- line: I think in terms of interaction with the victim itself, at the moment, given that the survey is
+    still administered by a social worker or police officer, there are still trainings that we do with
+    the people so that they administer it in the way that it's meant to be. We cannot eliminate that human
+    part or make it better, but we can create the interface to help relieve the load of the social workers
+    and police officers, who are obviously overworked as well, which might come into play when it comes
+    to their interactions with victims. And hopefully in the future we might work on that as well.
+  sec: 1211
+  time: '20:11'
+  who: Sabina
+- line: So it would be a police officer sitting with a phone, talking to the victim, and then marking
+    answers to the questions?
+  sec: 1264
+  time: '21:04'
+  who: Alexey
+- line: Yeah. We have been thinking about maybe an LLM version of that, given LLMs are so popular at the
+    moment, where you'd have a chatbot that interacts directly with the victim and directly extracts the
+    answers. But that is already a very high involvement and requires much more funding. But we would
+    be very keen on doing that, and maybe making it easier for victims to come forward.
+  sec: 1276
+  time: '21:16'
+  who: Sabina
+- header: Nationally representative survey and three-month recidivism
+- line: And you mentioned that currently what is happening is that there are these paper surveys with
+    questions coming from the United States, from Canada, from North America, right? And they are applied
+    to Germans. And this is something you also change, right? Do you do something specific to the geography,
+    to the country?
+  sec: 1306
+  time: '21:46'
+  who: Alexey
+- line: Yes. So we have already done two surveys looking at domestic abuse. The first on a sample of 7,400
+    people, which is nationally representative, and we also use weighting in order to ensure that all
+    of the demographics are nationally representative as well. And then we did a second survey looking
+    only at people who have been victims in the first one, and seeing whether they've re-experienced abuse
+    after three months.
+  sec: 1328
+  time: '22:08'
+  who: Sabina
+- line: And this again is another innovation that we're doing. Because what happens at the moment is,
+    when people are looking at reoccurrence of domestic abuse, they are looking at reoccurrence after
+    a year or more. Some tools are after seven years, can you imagine? And looking at three months brings
+    it to more immediate attention and makes it better for resource management as well, because you know
+    you have to act within three months, not within a year.
+  sec: 1368
+  time: '22:48'
+  who: Sabina
+- line: And AI here means that you do some sort of machine learning, or what exactly?
+  sec: 1402
+  time: '23:22'
+  who: Alexey
+- line: Exactly, yeah.
+  sec: 1407
+  time: '23:27'
+  who: Sabina
+- line: I mean, obviously for a general audience AI already means machine learning, but if you're a data
+    audience, you know that AI is an if-else. But now, when I hear AI, to me it's all this LLM stuff,
+    right? You can actually feel that this thing is somehow intelligent. When I talk to ChatGPT, it feels
+    like I'm talking to a very smart person.
+  sec: 1407
+  time: '23:27'
+  who: Alexey
+- line: Right, yes. A very literate person, maybe.
+  sec: 1440
+  time: '24:00'
+  who: Sabina
+- line: Yes, literate. Because the expressions it uses are much better than the ones I use, honestly.
+    Well, I don't know if it's better, but it's different. I don't know if people speak like that, but
+    yeah, it's different.
+  sec: 1445
+  time: '24:05'
+  who: Alexey
+- line: I think it's fantastic for writing text. I find it so useful for writing text.
+  sec: 1461
+  time: '24:21'
+  who: Sabina
+- header: 'Features and targets: five types of abuse, ten targets'
+- line: So you use machine learning, and then you said you had the survey with 740 people that you interviewed.
+  sec: 1467
+  time: '24:27'
+  who: Alexey
+- line: 7,400, yes. Very important.
+  sec: 1478
+  time: '24:38'
+  who: Sabina
+- line: More, yeah. Okay, this is serious. And this is what you use as your training data, right?
+  sec: 1482
+  time: '24:42'
+  who: Alexey
+- line: Yes.
+  sec: 1487
+  time: '24:47'
+  who: Sabina
+- line: So the target variable here was whether the abuse happened again in three months, right?
+  sec: 1491
+  time: '24:51'
+  who: Alexey
+- line: That's one of them, yes. They have multiple.
+  sec: 1503
+  time: '25:03'
+  who: Sabina
+- line: And I guess the features are the answers to questions.
+  sec: 1508
+  time: '25:08'
+  who: Alexey
+- line: 'Exactly, yes. I mean, the features and the targets are answers to questions. So we''re looking
+    at five different types of abuse: digital, emotional, financial, physical and sexual. And this again
+    is another plus that we have compared to what''s happening at the moment, because perhaps some intervention
+    tactics might need you to look at the different types of abuse. One example of that would be: a person
+    experiences intense physical abuse, and then the immediate course of action would be, leave your partner.
+    However, if you''re financially dependent on that partner, then that is very tricky to do. Which is
+    why it''s important to be able to distinguish between these categories.'
+  sec: 1512
+  time: '25:12'
+  who: Sabina
+- line: Sorry, I'm trying to remember where we were. Oh, the targets, yes. So we have the targets from
+    digital to sexual abuse, and we're using questions that do not point directly to that type of abuse,
+    what we call proxy questions, in order to figure out whether that abuse is happening at the current
+    moment or whether it will happen in three months.
+  sec: 1564
+  time: '26:04'
+  who: Sabina
+- line: So you have basically 10 targets?
+  sec: 1592
+  time: '26:32'
+  who: Alexey
+- line: Yes, 10 targets. So five types of abuse, and identification and recidivism, as we call it internally.
+  sec: 1597
+  time: '26:37'
+  who: Sabina
+- header: Survey design, domain experts and the founding team
+- line: And I imagine coming up with this survey was the most difficult part, right? And then interviewing
+    people. Because I imagine if I as a data scientist try to come up with this survey, it will probably
+    not be a very good survey. You have to have proper social scientists, right, who know how to ask questions.
+  sec: 1610
+  time: '26:50'
+  who: Alexey
+- line: Yeah. So for this, I wasn't part of the data collection, because that happened before I joined
+    the company. But basically we took the literature for this, because there's already a huge body of
+    literature looking at surveys and creating these risk assessments. And we tried to use the questions
+    that were most relevant in those risk assessments, and in addition some questions that we wanted to
+    test out, to see whether they have any correlation with abuse.
+  sec: 1631
+  time: '27:11'
+  who: Sabina
+- line: And I imagine you also need to work closely with police and social workers, right?
+  sec: 1670
+  time: '27:50'
+  who: Alexey
+- line: So at the moment we're piloting, and we're working closely with police and social workers. And
+    we also have a lot of advisers on our team who work in criminal law and domestic abuse, and also econometrics,
+    you name it. If you look at our website, I think we have around 12 people that have advised us along
+    the way. Because our CEO is the main domain expert, and Balin is also a domain expert as well, a social
+    scientist. So she's been my first point of contact when it came to technical and social science questions.
+  sec: 1677
+  time: '27:57'
+  who: Sabina
+- line: But obviously the CEO has been working in the field for 15 years and knows a lot of the nitty-gritty
+    that we should take into account when we create these tools, because it can get very theoretical at
+    times. And I think as a data scientist you can get very technical and very into your world of developing
+    a lot of models and looking at all of these features, but then in reality you don't need as much technicality.
+  sec: 1723
+  time: '28:43'
+  who: Sabina
+- line: So the founders, it was CTO, CEO, right?
+  sec: 1757
+  time: '29:17'
+  who: Alexey
+- line: Well, so we have, and co...
+  sec: 1764
+  time: '29:24'
+  who: Sabina
+- line: So there were three co-founders, right? Do they all come from this, how to say, business domain?
+    That doesn't sound very good. But do they all come from this domain?
+  sec: 1768
+  time: '29:28'
+  who: Alexey
+- line: So yes, the CEO definitely. He's worked 15 years in the charity sector. Balin, I think, has been
+    working mostly on Frontline, and she's done research before into toxic masculinity, if I remember
+    correctly. That was her master's thesis. And then Adam, the CTO, I think his background is more in
+    business. He takes care of all of the development aspects of Lizzy.
+  sec: 1786
+  time: '29:46'
+  who: Sabina
+- line: Lizzy. We didn't talk about what Lizzy means. I have it in my notes too, right?
+  sec: 1816
+  time: '30:16'
+  who: Alexey
+- line: Yes.
+  sec: 1823
+  time: '30:23'
+  who: Sabina
+- line: Why is it called Lizzy?
+  sec: 1823
+  time: '30:23'
+  who: Alexey
+- line: 'Well, I will assume you don''t know how the different risk assessments are called. They''re just
+    abbreviations: ODARA, DASH, DA. And we thought we might make something a bit more humanizing in this
+    area, especially as it''s quite a grueling experience to go through. So this is why we went for Lizzy.'
+  sec: 1829
+  time: '30:29'
+  who: Sabina
+- line: So Lizzy is just a name?
+  sec: 1853
+  time: '30:53'
+  who: Alexey
+- line: Yes, it doesn't stand for anything. Well, no, it's not an acronym.
+  sec: 1853
+  time: '30:53'
+  who: Sabina
+- line: Okay. So coming back, we were discussing the co-founders, and you said that the CEO is a domain
+    expert and he's been in this area for quite some time, 15 years, you said.
+  sec: 1863
+  time: '31:03'
+  who: Alexey
+- line: Yes.
+  sec: 1875
+  time: '31:15'
+  who: Sabina
+- line: And was it something that he noticed in his line of work, that this could be optimized? That right
+    now it's just a paper survey, and the pressure it puts on people, it's not working, and we can make
+    it better, and he decided that there should be a company, right?
+  sec: 1875
+  time: '31:15'
+  who: Alexey
+- line: Yes, there should be a way to solve this problem differently. Yes. And I mean, Babs also has some
+    background in statistics, and Balin being the data scientist as well, you can see how these two fields
+    can merge and come up with this idea. And especially in Germany, as you all know, in Berlin you have
+    to carry cash everywhere. Digitalizing is probably not that bad of an idea. It's something that Germany
+    is a bit behind on, in some sense.
+  sec: 1895
+  time: '31:35'
+  who: Sabina
+- header: Digitalization in Germany and skepticism about AI
+- line: Yeah, well, right now even these late night shops start accepting cards, so we're slowly getting
+    there.
+  sec: 1935
+  time: '32:15'
+  who: Alexey
+- line: It's moving in the right direction.
+  sec: 1944
+  time: '32:24'
+  who: Sabina
+- line: But I remember in Poland 12 years ago it was already possible to pay everywhere with just touching
+    your card.
+  sec: 1947
+  time: '32:27'
+  who: Alexey
+- line: Really? 12 years ago? With the phone? Are you serious? No way.
+  sec: 1957
+  time: '32:37'
+  who: Sabina
+- line: Yeah. And then in Germany it appeared only after Corona, because you weren't supposed to touch
+    this part. So only because of Corona in Germany it started to be possible to pay with just...
+  sec: 1965
+  time: '32:45'
+  who: Alexey
+- line: Yeah. But I find it now, I have a reverse culture shock when I go to different countries and I'm
+    so surprised they accept cards, after living in Berlin.
+  sec: 1979
+  time: '32:59'
+  who: Sabina
+- line: Yeah. I remember in France, in a village, I wanted to buy an ice cream and there was a terminal,
+    so I could just pay for this ice cream. It was just a usual ice cream stand.
+  sec: 1991
+  time: '33:11'
+  who: Alexey
+- line: Minimum 5€, 10, something like this.
+  sec: 2006
+  time: '33:26'
+  who: Sabina
+- line: Yeah. Anyways, this is just one of the areas where digitalization is lagging behind, right? This
+    one is consumer facing, so it is kind of moving forward, slowly, but moving. But in other areas, social
+    areas, police, it's probably behind, right?
+  sec: 2010
+  time: '33:30'
+  who: Alexey
+- line: Yes. And there is obviously lots of skepticism when bringing in AI to help officers. But that's
+    the thing. I think there has been a lot of news criticizing the way that AI has been used in order
+    to make decisions, and this is why we haven't created Lizzy to make decisions for police officers,
+    but to help them. It's a tool for them to make a decision. However, it has been shown in practice
+    that risk assessments are more effective than expert judgment. So this is why I think it's quite important
+    to have these tools, but not use them as the decision makers.
+  sec: 2038
+  time: '33:58'
+  who: Sabina
+- line: Which means that instead of just saying the probability of abuse occurring again is very high,
+    you also explain why, right? Or how? What does it mean in practice that you don't use it to make decisions,
+    but to guide?
+  sec: 2088
+  time: '34:48'
+  who: Alexey
+- line: That we're looking at the risk of the abuse occurring, but we are not social workers, we're not
+    police officers. We're a research company. So we can tell you that, based on the research that we've
+    done, this person is likely experiencing abuse. And you, as an expert, can say, okay, if they're experiencing
+    high financial abuse and high physical abuse, this is what I should do in this scenario. We don't
+    give recommendations. We give suggestions, like, okay, this is something that may help. But we are
+    not there to make decisions.
+  sec: 2104
+  time: '35:04'
+  who: Sabina
+- line: Okay. And the users, the police officers, the social workers, they go through the survey, and
+    then they see the results, I imagine, immediately, right? They don't need to send the results anywhere
+    and wait for a month...
+  sec: 2150
+  time: '35:50'
+  who: Alexey
+- line: Oh yeah, obviously.
+  sec: 2164
+  time: '36:04'
+  who: Sabina
+- line: And they don't need to calculate it themselves, they don't need to add up the points.
+  sec: 2167
+  time: '36:07'
+  who: Alexey
+- line: Yeah.
+  sec: 2171
+  time: '36:11'
+  who: Sabina
+- line: So they go through the survey, they get the results immediately, and they see that for these types
+    of abuse, the probability that this abuse is happening is high. And then there are some suggestions
+    of what they can do next, right? And then it's up to them to decide what to do.
+  sec: 2171
+  time: '36:11'
+  who: Alexey
+- line: Minimal suggestions, because again, we're not the ones who are dealing with the victim. We're
+    here to say that from our research we've seen that these are good indicators of abuse, and if these
+    are happening at this frequency, then it's very, very likely that this person is experiencing domestic
+    abuse.
+  sec: 2194
+  time: '36:34'
+  who: Sabina
+- header: Metrics, false negatives and survey bias
+- line: Does it help to address the skepticism you mentioned?
+  sec: 2213
+  time: '36:53'
+  who: Alexey
+- line: What do you mean?
+  sec: 2219
+  time: '36:59'
+  who: Sabina
+- line: You said that it was met with skepticism, because people say AI, no, it's not going to help.
+  sec: 2219
+  time: '36:59'
+  who: Alexey
+- line: Yes, obviously we're transparent about the metrics we've used, and we've been through many, many
+    iterations in order to make this as good as possible. We've been looking at the typical standards
+    in the industry, like the AUC score. We've looked at false positives, false negatives. Obviously,
+    we've tried to put the weight on removing false negatives as much as possible. But at the same time,
+    if we say that everything is high risk, then that's not very useful either. So we've tried to strike
+    a balance as much as possible, thinking about the typical metrics that are used, and also thinking
+    about the types of questions that we selected in our survey and what's more likely to be answered
+    by someone in those situations.
+  sec: 2226
+  time: '37:06'
+  who: Sabina
+- line: Ah, so this is also important, because maybe there are good questions that can show you that this
+    sort of abuse is happening, but the victim might not answer them, right?
+  sec: 2278
+  time: '37:58'
+  who: Alexey
+- line: Yeah, might be less likely to answer. However, the thing is, in different settings you will have
+    different answers. And this is also why the survey that we did was online rather than in person. Because
+    in person you already have some biases occurring from when the interviewer asks the questions to receiving
+    the answer.
+  sec: 2291
+  time: '38:11'
+  who: Sabina
+- line: And these biases, so here it means that because a person is asking, there could be some pressure.
+    Even though the person might be the friendliest person on Earth, still, because somebody is asking,
+    you might think, okay, there's another person, why are they asking that, right? It might not give...
+  sec: 2319
+  time: '38:39'
+  who: Alexey
+- line: I think humans are very complicated and have complicated emotions, so it's very difficult to predict
+    that, right? So removing this intermediate step is likely to reduce such biases. There's also such
+    a thing as social desirability bias. So for example, if you're a man and you disclose that you've
+    been experiencing abuse, that might not fare well, right? You might not want to be seen as a weak
+    man.
+  sec: 2340
+  time: '39:00'
+  who: Sabina
+- line: I see. And when it's online, there is less. Because I imagine there is this big police officer.
+    In Berlin, the field police officers have to be quite strong, and I see that they are usually tall,
+    they have muscles. And if this person is asking you, maybe you don't want to admit that you're weak.
+    But if it's just a screen and you tick boxes there, it's less likely that you give incorrect answers.
+    This is what you're saying, right?
+  sec: 2369
+  time: '39:29'
+  who: Alexey
+- line: Yes, this is what I would expect, right? You're simply interacting online, you don't have your
+    identity disclosed. We're also taking care to not have the identity of the people that we have surveyed.
+    So yes, we're hoping to reduce that bias that is already happening. And this is also important because
+    a lot of studies in the domestic abuse sector are also based on police data, right? And police data
+    will be inherently biased because of the way it's been collected. So this is where the biases come
+    in, and we hope to eliminate at least those biases through having this as a survey.
+  sec: 2410
+  time: '40:10'
+  who: Sabina
+- line: How do people get to fill in the survey? Is it something like they are at the police, and then
+    the police officer says, okay, there is this tool, I will leave now, but while I'm away, can you please
+    go through the website and answer the questions? Or how does it work?
+  sec: 2459
+  time: '40:59'
+  who: Alexey
+- line: No, I think they ask the questions. So they ask the questions and fill in the survey, or they're
+    given a tablet where they can answer these questions. But yes, we're piloting and we're learning.
+  sec: 2477
+  time: '41:17'
+  who: Sabina
+- line: Because if a person is asking, then you have these biases, right? Even if they are sitting with
+    a tablet, and I'm asking you and then making some notes here, it's still me asking you.
+  sec: 2494
+  time: '41:34'
+  who: Alexey
+- line: Yeah, so actually I'm not completely sure about this, because I've been kept very much on the
+    development side of things, I would say. Potentially it could be either. But yeah, I think I will
+    stick with the data side.
+  sec: 2506
+  time: '41:46'
+  who: Sabina
+- header: 'Model choice: why logistic regression won'
+- line: Well, yeah, maybe let's go into the development side of things then. We talked about skepticism,
+    right? And in my experience, to reduce this level of skepticism, a person needs to understand what
+    is happening inside. And usually you want to use simple models. Usually you can explain linear regression
+    or logistic regression in layman's terms to anyone, if you have enough patience. Typically this is
+    the case. So I imagine you need to use models like decision trees maybe, or linear models, right?
+    Or others?
+  sec: 2527
+  time: '42:07'
+  who: Alexey
+- line: So actually logistic regression works quite well, surprisingly. We've tried a couple of models.
+    We've tried decision trees, we've tried boosting algorithms, we've tried support vector machines,
+    because it's somewhere in the middle of the data set. But we found that actually logistic regression
+    has performed best, with the features that we selected and the number of features that we selected.
+    And by best I mean both in terms of the overall performance and in having a lower likelihood of overfitting,
+    because this is what typically happens with trees, if you go to random forests and XGBoost and whatnot.
+  sec: 2578
+  time: '42:58'
+  who: Sabina
+- line: Actually, now when you talk about that, I remember there was a Kaggle competition also on survey
+    data. I don't remember what the target was, but it was something in social sciences, and linear models
+    worked best there too. The winning solutions used linear models. So I'm actually not surprised. But
+    also, as a benefit, you can explain in simple terms why it works, why at the end the result is high
+    risk. Because you say this answer has this sort of weight, this answer has this sort of weight. Because
+    this person said true to that statement and false to that statement, we think that maybe this is financial
+    abuse, or maybe this is emotional abuse. And then because they understand how it works, they are more
+    likely to use the tool and trust it, right?
+  sec: 2626
+  time: '43:46'
+  who: Alexey
+- line: Yeah, this is what we're hoping, and we're trying to get some of the decision... It's much easier
+    to explain for sure, because you just have the coefficients and you can get the odds ratio from that.
+  sec: 2688
+  time: '44:48'
+  who: Sabina
+- header: Model development workflow and MLOps
+- line: And what else do you do on the development side of things?
+  sec: 2712
+  time: '45:12'
+  who: Alexey
+- line: Everything when it comes to model development. It's funny, because I started the MLOps course
+    that you do, and I'm still at the first homework, because I built the MLOps workflow, let's say, with
+    MLflow. I started with PyCaret and then I left it because it was too heavy for the app itself. So
+    I did the whole model development cycle, obviously with a lot of input from both Balin and Babs in
+    terms of what outcomes we want, what statistical tests maybe we should focus on when doing X and Y.
+    And building on what my previous colleague Joy did in the past, in terms of recording data, the analysis
+    he did and the initial models.
+  sec: 2720
+  time: '45:20'
+  who: Sabina
+- line: So you would say that your main focus is on the modeling side?
+  sec: 2780
+  time: '46:20'
+  who: Alexey
+- line: Definitely. My main and only focus, really. My colleagues were laughing that I'm really bad at
+    selling, and that's because I have no practice, right?
+  sec: 2783
+  time: '46:23'
+  who: Sabina
+- header: 'Hardest part: validating individual predictions'
+- line: What is the most challenging thing for you?
+  sec: 2796
+  time: '46:36'
+  who: Alexey
+- line: I think the very pragmatic aspects of data are challenging, in the sense that I can build all
+    of these models and I can have all of these metrics, I can run thousands of models, I can put them
+    on AWS, la la la, all of that stuff. But then what does that actually mean? What happens afterwards?
+    If a person answers X, Y, Z on a question, what happens, right? And being able to test that and validate
+    that, the testing of the final models, having the setting in mind, is definitely the hardest thing.
+  sec: 2804
+  time: '46:44'
+  who: Sabina
+- line: Because I think also testing for ML models is not as developed as unit testing or integration
+    testing is in software development. So I found it quite difficult to wrap my mind around that and
+    figure out a way to do it. But yeah, I'm working on that, and we're working on scenarios in order
+    to make that happen. And make sure that, sure, our models work on the bulk of the data, but we also
+    want to make sure that for each individual we're getting answers in the range that we expect. So this
+    is another thing that we do in addition to other tools, because our main goal is to be there and help
+    every single victim of domestic abuse. And yeah, it was a bit packed.
+  sec: 2848
+  time: '47:28'
+  who: Sabina
+- line: So I'm a bit lost. For sure, I took some notes. So you said you want every individual to answer
+    in the range we expect, something like that?
+  sec: 2901
+  time: '48:21'
+  who: Alexey
+- line: 'No, so we want things to make sense, right? The models output a probability, right? That''s all
+    they do. What that probability means is something that we interpret: is that high, low, medium risk.
+    That''s one thing. Second, it''s regarding the severity of abuse, right? Because a machine learning
+    model will not make the difference between someone controlling your finances, or checking your Facebook
+    account, or hitting you. So these are all things that we''re taking into consideration. And we want
+    to make sure, and I think this is kind of a bit of data validation, that the output of the model is
+    within what we would expect as humans to see as a high or low probability. But the probability is
+    output by a logistic regression. They''re just there to optimize for victim or non-victim. They''re
+    not giving more detail than that. So that''s what we need to do.'
+  sec: 2917
+  time: '48:37'
+  who: Sabina
+- line: I think I'm starting to understand. So here the idea is that a model just gives a number, but
+    we need to also remember that, well, there is a human there for whom we calculate the number. But
+    also, what does this number actually mean, right?
+  sec: 2989
+  time: '49:49'
+  who: Alexey
+- line: Yeah, exactly.
+  sec: 3009
+  time: '50:09'
+  who: Sabina
+- line: How high it is. Because in the usual logistic regression case, if it's 0.51, then you predicted
+    that this is y equals one, right? Otherwise...
+  sec: 3009
+  time: '50:09'
+  who: Alexey
+- line: 'Yeah. And obviously, as you know, when you do model optimization, you play with the thresholds,
+    right? You see what gets you better results or not. But that doesn''t really tell us: is this person
+    high risk? Does this person need immediate intervention? So this is why we need all of this post-modeling
+    testing.'
+  sec: 3030
+  time: '50:30'
+  who: Sabina
+- line: 'Okay. What you''re saying is there could be two people: for one the risk is 60%, for the other
+    it''s 90%, but it doesn''t necessarily mean that the 90% case needs more urgent help, right?'
+  sec: 3054
+  time: '50:54'
+  who: Alexey
+- line: No, I think in terms of relative scale, that's definitely the case. But at what point do you say
+    it is high risk? I think that's more what I mean.
+  sec: 3073
+  time: '51:13'
+  who: Sabina
+- line: Okay, so one thing is predicting positive, that there is an instance of, I don't know, digital
+    abuse. But also, to what extent, after which cutoff point we need to actually intervene as soon as
+    possible.
+  sec: 3086
+  time: '51:26'
+  who: Alexey
+- line: Exactly. And also, what types of abuse has the victim already admitted to? For example, if a victim
+    has been choked at some point, that's already quite a severe thing. So in that sense, that person
+    is already high risk, even though a model might not see it as fully high risk. But usually this does
+    happen, fortunately. The thing is, you don't know until you test all of these different scenarios,
+    right? What model metrics give you is overall performance, and I do trust that, but it doesn't give
+    you the individual results, and those tend to be more important. This is why we want to focus on them.
+    So I think that's quite a difficult thing. I think it's very underdeveloped in machine learning, but
+    it's something that we're focusing on.
+  sec: 3105
+  time: '51:45'
+  who: Sabina
+- line: How many data scientists are working on this?
+  sec: 3169
+  time: '52:49'
+  who: Alexey
+- line: It's me and Balin working on it, yes. And a lot of advisors to help us shape it in the right direction.
+  sec: 3173
+  time: '52:53'
+  who: Sabina
+- line: And you mentioned MLOps and all that, but I'm wondering to what extent you need these tools right
+    now. Or is it more modeling-heavy right now, because there are so many unsolved problems or questions?
+    Maybe now your focus is on the modeling side, but once you have a very good model, then you focus
+    more on deploying this model. This is what I mean.
+  sec: 3184
+  time: '53:04'
+  who: Alexey
+- line: So we've already deployed the model, and we're piloting, and we're working on ensuring that the
+    model is stable over time. But yeah, the MLOps part and setting up experiment tracking has been very
+    important for sure.
+  sec: 3211
+  time: '53:31'
+  who: Sabina
+- line: You use something like MLflow for that, right?
+  sec: 3227
+  time: '53:47'
+  who: Alexey
+- line: Yes.
+  sec: 3231
+  time: '53:51'
+  who: Sabina
+- header: 'Survey findings: gender differences and help-seeking'
+- line: Okay. And the survey that you mentioned, are the results of the survey open? There are 7,400 people
+    who took part. Are the results open in any way?
+  sec: 3235
+  time: '53:55'
+  who: Alexey
+- line: No, not at the moment.
+  sec: 3248
+  time: '54:08'
+  who: Sabina
+- line: Okay. I'm just wondering if it's okay to ask you about some things you found out in this survey.
+    Maybe you can share, but if it was open, then you probably could share that.
+  sec: 3251
+  time: '54:11'
+  who: Alexey
+- line: Yes, I'm happy to share what I've shared already, I think, with the flow of the conversation.
+    Everything has been within the realms of what I can share. So more specific statements, I'm very happy
+    to.
+  sec: 3267
+  time: '54:27'
+  who: Sabina
+- line: Yeah, I'm just curious. Usually probably more women than men have this problem, but are there
+    men who... Because we talked about this bias, social disability bias, was it? Desirability bias?
+  sec: 3283
+  time: '54:43'
+  who: Alexey
+- line: Yes.
+  sec: 3302
+  time: '55:02'
+  who: Sabina
+- line: Can you say it again?
+  sec: 3302
+  time: '55:02'
+  who: Alexey
+- line: Social desirability bias.
+  sec: 3302
+  time: '55:02'
+  who: Sabina
+- line: Desirability, yeah. So maybe men don't even think that they need to seek help.
+  sec: 3306
+  time: '55:06'
+  who: Alexey
+- line: I would say that it's the case for both women and men, about seeking help, just because it's intimate
+    partner violence. That's a very difficult topic. And I think one of the misconceptions is that the
+    person can just leave the relationship, which is absolutely not true, because they have become partners
+    with this person because they love them. So maybe they think the person will change or that things
+    will be different. So maybe they reach out at some point, but then they change their minds. And it's
+    usually quite difficult for people who are close to them to intervene as well.
+  sec: 3316
+  time: '55:16'
+  who: Sabina
+- line: And percentage-wise, in this data, do you remember how many men and women?
+  sec: 3353
+  time: '55:53'
+  who: Alexey
+- line: I will tell you that men typically experience more emotional abuse, whereas women experience more
+    physical and sexual abuse. And overall, women experience more abuse.
+  sec: 3361
+  time: '56:01'
+  who: Sabina
+- line: I see. And for you as a person, it must be quite difficult to work with this data. Because every
+    line in this data is a person, is a tragedy, right? Because they have to live with this situation.
+  sec: 3378
+  time: '56:18'
+  who: Alexey
+- line: Yeah, I mean, I would say it's a bit similar to... well, I don't want to compare myself to a doctor,
+    but I think that as a medic, for example, you get desensitized at some point based on the amount of
+    things you see. I won't say that I got desensitized, but I think sometimes I just look at data. I
+    don't look at what actually has happened, I look at numbers. Because at the end of the day, these
+    models are fed with data, and I think about, okay, how can I get these metrics higher. So when I do
+    the model development bit, I don't really think about it. I just think about how awesome it is that
+    I get to help these people.
+  sec: 3394
+  time: '56:34'
+  who: Sabina
+- line: But when I go into the analysis bit and start to think about, oh, what correlates with physical
+    abuse, and you see how abuse doesn't happen in isolation, and you're thinking about all of these experiences
+    of victims, when I go into the analysis bit, that's when I feel it the most.
+  sec: 3445
+  time: '57:25'
+  who: Sabina
+- header: Recommended resources and wrap-up
+- line: Okay, yeah, thanks for sharing that. I think we should be wrapping up. So usually one question
+    that I ask most guests is if there is any recommended literature or material around the topic. Maybe
+    there is something that you can recommend, not necessarily about domestic abuse, but maybe about social
+    sciences or things that helped you in your career. Any book or other resource that you can recommend
+    to the listeners?
+  sec: 3464
+  time: '57:44'
+  who: Alexey
+- line: Many. I think I have databases of resources. In terms of domestic abuse, actually two Netflix
+    shows that approach this quite well would be Baby Reindeer, most recently, and Maid, looking at domestic
+    abuse, or abuse in general, through both the lens of a man and a woman. Then I think one of the recommended
+    readings I still have on my reading list is Look What You Made Me Do, in the area of domestic abuse.
+  sec: 3496
+  time: '58:16'
+  who: Sabina
+- line: And then in other areas, so many. I think the first thing that comes to mind is the networking
+    website called The Portfolio Collective, which is quite niche. It's usually for people having multiple
+    skills that they leverage, usually freelancers doing all sorts of different things, maybe in the same
+    field, maybe in different fields, and they have great social events. And obviously DataTalks.Club,
+    I think, is actually a great resource, so I would recommend that. But I think it goes without saying,
+    because it's free and you can work and get a certificate at the end, so that's wonderful. And Ironhack,
+    because I know the teachers. So just shameless promotion.
+  sec: 3534
+  time: '58:54'
+  who: Sabina
+- line: Yeah, okay. How did it feel to be on that side of the podcast?
+  sec: 3589
+  time: '59:49'
+  who: Alexey
+- line: Good, I think. Yeah, it's interesting. And it's interesting when you get lost in the middle of
+    a point and you're trying to bring it back in. It's a learning experience for sure.
+  sec: 3597
+  time: '59:57'
+  who: Sabina
+- line: For me it's easier because I keep notes.
+  sec: 3608
+  time: '1:00:08'
+  who: Alexey
+- line: Oh wow, they're so structured. Look at that. Do you have diagrams? Is that a decision tree?
+  sec: 3611
+  time: '1:00:11'
+  who: Sabina
+- line: No, but some sort of diagrams. Yeah, I was also drawing that there's a person who is asking a
+    survey.
+  sec: 3621
+  time: '1:00:21'
+  who: Alexey
+- line: Oh, right.
+  sec: 3630
+  time: '1:00:30'
+  who: Sabina
+- line: I was just trying to visualize how it actually happens. So for me it's a bit easier, because you
+    do most of the talking and I'm just asking questions and then taking notes. And then based on the
+    notes I took, I ask other questions. And if I run out of ideas, I go back to other notes and then,
+    okay, I wanted to ask about that. Okay, so thanks a lot for joining me today, and thanks everyone
+    for joining us today, for listening in. And thanks for sharing, Sabina.
+  sec: 3632
+  time: '1:00:32'
+  who: Alexey
+- line: Thank you for the invitation.
+  sec: 3660
+  time: '1:01:00'
+  who: Sabina
+- line: Yeah, and with that we should be finishing. So have a great rest of your day and of the week,
+    and see you soon.
+  sec: 3663
+  time: '1:01:03'
+  who: Alexey
+- line: Likewise. See you soon. Bye.
+  sec: 3672
+  time: '1:01:12'
+  who: Sabina
+- line: Take care.
+  sec: 3675
+  time: '1:01:15'
+  who: Alexey

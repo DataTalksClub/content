@@ -131,6 +131,7 @@ context: 'Context: The episode follows the end-to-end effort to create a domesti
   translates technical rigor into trustworthy, ethical, legally compliant, and user-friendly decision
   support—balancing accuracy, fairness, privacy, and sustainability so models meaningfully improve frontline
   triage and resource allocation in the real world.'
+transcript: e07-transcript.yaml
 resources:
 - title: LinkedI
   url: https://www.linkedin.com/company/frontline100/
