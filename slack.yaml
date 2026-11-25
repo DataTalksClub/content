@@ -1,15 +1,109 @@
 # The /slack page: the community's front door and a primary navigation entry.
-title: Join our Slack
+# Its one goal is the Join Slack action; the "Who's there" figures are the
+# community survey's, read from the About page record, not repeated here.
+title: Join the Slack where data people help each other
 lead: >-
-  Join our community of data science professionals, machine learning engineers,
-  and AI practitioners on Slack.
-channels:
-  - "#book-of-the-week"
-  - "#career-questions"
-  - "#datascience"
-  - "#engineering"
-  - "#events"
-  - "#jobs"
-  - "#memes"
-  - "#random"
-troubleshooting_url: https://airtable.com/shrhUBN51Jy10fjJq
+  Ask questions, take a course with other learners, get career advice and find
+  people who work on the same problems as you. One free workspace for data
+  science, data engineering, ML and AI.
+proof: 130,000+ peers in Slack, from people starting out to senior practitioners.
+benefits_intro: >-
+  The workspace has channels for every course, for careers, for data topics and
+  for local meetups. This is what members use them for.
+benefits:
+  - title: Get answers from practitioners
+    body: >-
+      Ask about data science, ML, data engineering or MLOps in the topic
+      channels. Answers stay public, so they help the next person with the same
+      question too.
+    channels:
+      - "#datascience"
+      - "#engineering"
+  - title: Take a course with others
+    body: >-
+      Every Zoomcamp has its own channel for cohort announcements, homework
+      discussions and peer support.
+    channels:
+      - "#course-data-engineering"
+      - "#course-ml-zoomcamp"
+      - "#course-llm-zoomcamp"
+  - title: Grow your career
+    body: >-
+      Find job postings, get help with your job search, and ask about switching
+      into a data role or getting better at work.
+    channels:
+      - "#jobs"
+      - "#job-search"
+      - "#career-questions"
+  - title: Learn beyond the courses
+    body: >-
+      Find a study group, and talk about books with the people who wrote them
+      in Book of the Week.
+    channels:
+      - "#learning-groups"
+      - "#book-of-the-week"
+  - title: Share your work
+    body: >-
+      Post your projects and articles, discover what others built, and find
+      events from DataTalks.Club and other communities.
+    channels:
+      - "#shameless-promotion"
+      - "#interesting-content"
+      - "#events"
+  - title: Meet people near you
+    body: >-
+      Regional channels organise in-person meetups. If your country has no
+      channel yet, you can create one.
+    channels:
+      - "#meetings-uk"
+      - "#meetings-germany"
+      - "#meetings-usa"
+start_here: >-
+  New here? Say hi in #welcome, read #announcements, then join your course
+  channel.
+steps:
+  - title: Request access
+    body: >-
+      Sign in with your free DataTalks.Club account and tell us a little about
+      yourself.
+  - title: Get approved
+    body: >-
+      Course participants are approved automatically. Otherwise the community
+      team reviews your request, and a member who knows you can vouch for you.
+  - title: Join the workspace
+    body: >-
+      Get your single-use invitation on your request page, join, and pick the
+      channels you want. The invitation expires after seven days.
+faq:
+  - question: Is it free?
+    answer: >-
+      Yes. Slack comes with the free DataTalks.Club account, which also gives
+      you access to the courses and homework.
+  - question: Do I need to be taking a course?
+    answer: >-
+      No. Anyone who works with data or wants to learn can join. If you are
+      taking a course, your request is approved automatically.
+  - question: What are the rules?
+    answer: >-
+      Ask in public channels rather than in direct messages, post each question
+      once in the channel that fits it, and follow the
+      [Community Guidelines](/docs/general/guidelines/), including the
+      [Code of Conduct](/docs/general/guidelines/code-of-conduct/) and the
+      [promotion rules](/docs/general/guidelines/promotion/).
+  - question: How do I get a fast answer?
+    answer: >-
+      Check your course FAQ first, post the question itself rather than asking
+      to ask, and put the error, code and logs in a thread as text, not
+      screenshots. The [Slack guide](/docs/general/slack/) has the full list of
+      habits and channels.
+  - question: My invitation doesn't work. What now?
+    answer: >-
+      Use the [help form](https://airtable.com/shrhUBN51Jy10fjJq) and the
+      community team will reply with the next step.
+  - question: I'm already a member. Can I invite someone?
+    answer: >-
+      Yes. [Create a member invitation](/community/slack/invite/) and share it
+      privately. You vouch for that person with your own reputation, so invite
+      only people you know.
+close_title: Join 130,000+ peers in Slack
+close_text: Request access with your free account. Course participants are approved automatically.
