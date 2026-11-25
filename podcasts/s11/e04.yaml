@@ -177,3 +177,36 @@ resources:
   url: https://www.amazon.com/Creative-Selection-Inside-Apples-Process/dp/1250194466
 - title: Zingg AI website
   url: https://www.zingg.ai
+summary: |-
+  Sonal Goyal is the founder of Zingg, an open source, machine learning based identity resolution
+  tool. She has about 24 years of experience in tech, starting as a programmer and analyst at an
+  investment bank, and she ran a data consultancy before building Zingg full time. Alexey knows her
+  from the Open Source Spotlight demo. They talk about identity resolution, open source startups and
+  matching at large scale.
+
+  Sonal defines identity resolution as establishing whether several records refer to the same real
+  world customer, supplier, product or location. Duplicate detection is one use case, and
+  deduplication is what you do with the result. The problem kept coming up in her consulting
+  projects, so she built a tool that works on any entity type. Scale is the main challenge, because
+  comparing every record with every other record grows very quickly. Zingg uses machine learning,
+  blocking and indexing to limit comparisons. Sonal says it was tested with 15 million records and
+  that users have since run it on 80 million.
+
+  Zingg trains its model by showing the user a small set of record pairs to label, and Sonal says 40
+  to 50 pairs are enough. The engine runs on Spark, a Snowflake-native version is in progress, and a
+  Python interface lets teams use it in pipelines, including Databricks notebooks and dbt. The first
+  public release took about a year and a half, and she spent at least six months tuning the
+  algorithms.
+
+  On open source, Sonal says the choice was partly personal, since her consultancy had been built on
+  open source tools. It was also a business decision, because master data management and customer
+  data platforms are expensive and sales-driven. Zingg uses the AGPL license, which allows internal
+  use and client solutions but does not allow embedding it in a product or offering it as a network
+  service. The team has four people, works fully remote and is hiring engineers in India. Her
+  biggest challenge is hiring. Looking back, she would look for a cofounder earlier and open source
+  the project sooner.
+
+  For someone with a similar idea, Sonal advises seeing the problem in several settings and asking
+  pointed questions about whether people would pay for a product. Distribution should be planned
+  alongside the product through networks, communities and content. She also recommends the book
+  Creative Selection, about Apple's design process during the iPhone years.

@@ -150,3 +150,32 @@ resources:
   url: https://github.com/tatigabru
 - title: Website
   url: http://tatigabru.com/
+summary: |-
+  Tatiana is a staff AI engineer at LinkedIn. She has a PhD in physics, worked on lasers and
+  optical systems, moved into machine learning during maternity leave and then worked on a
+  diagnostic tool for labor monitoring in a hospital. This is her second appearance on the show.
+  Alexey invites her to explain what a staff engineer does and how she moved from academia to that
+  role.
+
+  Tatiana says her first months at LinkedIn were overwhelming, with long weeks spent learning
+  Scala, Spark and Kubernetes while she led the design of a recommendation system. In hindsight
+  she would have taken it easier, since new tech leads are not expected to ship anything in their
+  first two months. She describes the staff role as horizontal and cross-functional. About half of
+  her time goes to meetings with product, data science, legal and annotation teams. The rest goes
+  to design reviews, documents, mentoring and code review. She also notes that staff engineers
+  come in different archetypes, from firefighters for hard technical problems to advisers to
+  leadership, and she points to the book Staff Engineer Path.
+
+  On the transition, Tatiana says planning, grant writing, collaboration and mentoring transfer
+  well from academia. Her technical gaps took six to twelve months to close. She advises framing
+  applied research with industry partners as the main experience and not talking too much about
+  lasers. Meta first contacted her for a senior staff role, and she failed the coding round but
+  received strong feedback on the design rounds. She then spent five to six weeks solving about
+  300 LeetCode problems during a gap between funding periods. She found ML design similar to
+  optical system design, and she prepared with mock interviews, company engineering blog posts and
+  a Grokking System Design course. She calls rejections learning steps rather than failures, and
+  says it took about a year from her first interviews to a full set of offers.
+
+  Her advice is to aim for lead roles if you have led projects before, to prepare for behavioral
+  and coding interviews, and to get feedback. For reading, she recommends Crucial Conversations,
+  Never Split the Difference, Extreme Ownership and Rise by Patty Azzarello.

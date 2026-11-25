@@ -163,3 +163,37 @@ resources:
   url: https://discord.gg/83RmHTjZgf
 - title: Meryem LinkedIn
   url: https://www.linkedin.com/in/meryemarik/
+summary: |-
+  Meryem Arik is the co-founder of TitanML, a platform that helps businesses build and deploy
+  smaller, cheaper language models. She studied theoretical physics and philosophy at Oxford,
+  worked in investment banking, and then moved into tech. TitanML started as a computer vision
+  research project and pivoted to large language models after customers said that language would
+  change their business. Alexey invites her to explain how teams put LLMs into production.
+
+  Meryem separates generative models, such as GPT-3.5 and GPT-4, from non-generative models such
+  as BERT, which are better for classification. Classification usually needs fine-tuning on good
+  labeled data, while generative models suit tone changes, summarization and other text tasks.
+  She argues that open source models give businesses control, because the weights do not change
+  behind an API and the models can be versioned, hosted privately and tuned for their own data.
+  Her recommendation is to prototype with an API, then move to an open source model once the
+  business case is proven. Fine-tuning also works for domain vocabulary, such as "bear market" in
+  finance.
+
+  For knowledge that changes often, Meryem prefers information retrieval over repeated fine-tuning.
+  Documents are embedded in a vector database and re-embedded when they change, the most relevant
+  sections are placed in the prompt, and the model answers from them, which reduces hallucination.
+  Fine-tuning is better for style than for facts. Gold-standard, hand-labeled examples matter more
+  than volume, and an LLM can expand a small labeled set. For generative tasks, evaluation is still
+  mostly manual, with a person testing sensible outputs and edge cases, although an LLM can help
+  mark results.
+
+  On the product side, TitanML offers Titan Train for fine-tuning, Titan Optimized for compressing
+  BERT-style models, and the Titan Takeoff server for fast on-premise inference on CPUs or modest
+  GPUs. Meryem says self-hosted models can match API speed on smaller hardware and cost less.
+  She says serving large models is hard, so easier infrastructure means customers need fewer
+  GPUs.
+
+  Meryem also discusses the labor impact of LLMs. She sees productivity gains for engineers,
+  mentions the risk of invented package names being used for attacks, and expects fewer software
+  engineers in the long run. For learning, she recommends following practitioners on LinkedIn,
+  Cohere's LLM University and the Hugging Face course, while noting that the field changes fast.

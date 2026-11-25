@@ -131,3 +131,35 @@ transcript: e01-transcript.yaml
 resources:
 - title: Book
   url: https://www.manning.com/books/machine-learning-system-design?utm_source=AGMLBookcamp&utm_medium=affiliate&utm_campaign=book_babushkin_machine_4_25_23&utm_content=twitter
+summary: |-
+  Arseny is a machine learning engineer who has worked on ML projects since 2015, mostly on deep 
+  learning and MLOps. He has worked mostly at startups, most recently Ntropy, which applies 
+  language models to financial transactions. He previously appeared on the podcast to talk about 
+  testing ML pipelines. Alexey invites him to discuss his book on machine learning system design, 
+  co-written for Manning, and how to design an ML system before writing code.
+
+  Arseny describes system design as making decisions under constraints that are often unknown at 
+  the start. At an AR try-on company, the app ran on phones in real time, so large models and 
+  cloud inference were ruled out, and the team started with iPhones and Core ML. Users noticed 
+  shaking shoes and battery drain, so running the model on every frame was not always right. The 
+  team could run the model at 10 FPS and interpolate between frames. Early releases also revealed 
+  problems nobody expected, such as a mirror that produced extra legs.
+
+  Arseny argues that a design document helps even when the plan changes, because writing it 
+  reveals gaps. Startups rarely have a template, so he suggests starting with the problem and 
+  spending about half the effort on it. Questions include who the users are and whether realism 
+  matters more than visual appeal. Non-goals help because most decisions are trade-offs. The 
+  solution part begins with a baseline and measurable metrics, then lists components, their 
+  owners, data sources and evaluation. Diagrams show data flow and whether data moves in batches 
+  or in real time.
+
+  Arseny wrote the book because capable engineers often struggle with large systems when they 
+  lack a holistic view. The first four chapters are introductory. The rest follows two imaginary 
+  systems, dynamic pricing for a retailer and a photo search engine, with each chapter adding one 
+  part of the design document. His favorite chapter covers preliminary research: what to reuse, 
+  build, buy as SaaS or buy as a dataset. Publisher constraints forced the team to cut scope.
+
+  For practitioners, the lessons are to define the problem before the solution, write non-goals 
+  and measurable metrics, and set a baseline before building anything. Diagramming components and 
+  data flow shows dependencies early. Arseny recommends the Interviewing.io system design guide 
+  as a companion resource, since ML engineers also need solid software engineering skills.

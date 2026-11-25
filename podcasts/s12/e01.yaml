@@ -154,3 +154,35 @@ resources:
   url: https://www.meetup.com/berlin-search-technology-meetup/
 - title: 'Meetup event "Bias in AI: how to measure it and how to fix it event"'
   url: https://www.meetup.com/data-driven-ai-berlin-meetup/events/289927565/
+summary: |-
+  Sadat is a data science manager at OLX Group in Berlin, where he leads a team of data
+  scientists in the trust and safety pillar. Before that he was an engineering manager for
+  search and recommendations, and before that a software engineer. Alexey, who works with him
+  at OLX, invites him to explain how he moved from software engineering into management and
+  then into data science management.
+
+  Sadat's path was not a straight line. He studied electronics, then did a master's in
+  informatics in Stuttgart, where he worked as a research assistant at the Fraunhofer Institute
+  and wrote a thesis on neural networks for forecasting energy use at Stuttgart Airport. At
+  reBuy he and a colleague used their 20 percent time to build a word2vec recommendation model,
+  which beat a SaaS provider by 2 to 3 percent in transactions. He joined OLX as a senior
+  search engineer just before the German lockdowns. Solr clusters there crashed when autoscaling
+  added nodes under CPU load, so he proposed decoupling search from the large monolith. He asked
+  for six months of core engineering work in return for faster experiments. The new service was
+  written in Kotlin and took a little longer than planned.
+
+  His move into management came when his manager left, and the process was run like an
+  external hire, with a recruiter screen, panel interviews and detailed feedback after an
+  earlier rejection. Sadat says these interviews test whether a candidate can resolve conflict,
+  lead a team and understand business metrics, so he advises keeping a brag list of leadership
+  examples. He describes the loss of the frequent small rewards of code reviews, merges and
+  deploys. He first went back to coding, which took time away from stakeholder work, and he
+  now recommends one project with clear milestones as a source of progress. For the data
+  science role, the panel gave him a case study. He now coordinates trust and safety work,
+  deciding whether a problem suits machine learning, NLP or a simple rule, and he measures his
+  success by influence on decisions, business value and team health.
+
+  For people who want the same move, Sadat says a data engineer or analyst already knows how
+  data science teams work and who the stakeholders are, and needs to show leadership. He
+  recommends The Manager's Path and No Rules Rules. He also mentions a meetup at OLX on bias and
+  fairness in AI, co-organized with Toloka.

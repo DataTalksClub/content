@@ -132,3 +132,34 @@ transcript: e02-transcript.yaml
 resources:
 - title: Jobs at Gloss Genius
   url: https://boards.greenhouse.io/glossgenius
+summary: |-
+  Katie Bauer is head of data at GlossGenius, a B2B SaaS company that provides software and payments
+  for beauty salons. She was one of the first data scientists at Reddit and later ran a small
+  organization at Twitter that measured the return on its technology decisions. She first planned to
+  be a linguist, then became a business analyst and later a data scientist. Alexey invites her to
+  talk about developing a data science career and the work of a data science manager.
+
+  Katie says data scientist is a broad cover term, like software engineer, and its meaning changes
+  from company to company. Many teams use a matrix structure, where analysts sit with product teams
+  and take day-to-day direction from a dotted-line manager. The data science manager is responsible
+  for the quality of the craft. Work has to be maintainable and documented, because the manager
+  inherits what someone built when they leave. Checklists and peer review help keep that quality.
+
+  On career growth, Katie says the first step is to tell whether someone is junior or senior.
+  Juniors need practice and exposure to many kinds of work, so they should not specialize early.
+  Seniors reach a terminal level where they work autonomously, and their paths then fork toward
+  management, a technical leadership track, a specialty or an adjacent career. Managers help seniors
+  by exposing them to unresolved decisions and delegating vague problems to them, even when they do
+  not feel ready. Many senior decisions can be reversed, so Katie suggests testing management by
+  mentoring an intern or leading a project with several contributors.
+
+  Juniors should ask product managers about their goals and priorities, and do some research first,
+  for example on LinkedIn. They should be open to many kinds of first jobs, reach out to hiring
+  managers directly and say when they are stuck. Katie sees hiring juniors as building a team, and
+  hiring seniors as buying one. When hiring a data science manager, she looks for experience running
+  projects and careers, a sense of company strategy and cross-functional skills. She tests these
+  through case studies about trade-offs rather than anecdotes.
+
+  Her own main challenge is building trust in data and a culture of data literacy. Katie closes with
+  the advice that careers are about direction, and that a manager who helps people feel they are
+  building towards something has mastered career growth.

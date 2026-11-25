@@ -135,3 +135,35 @@ transcript: e08-transcript.yaml
 resources:
 - title: Loiic LinkedIn
   url: https://www.linkedin.com/in/loicmagnien/
+summary: |-
+  Loïc Magnien is the data lead at MyLight150 and has more than ten years in data work. He started
+  in the UK as a data manager, building reports from sensor data for civil engineers, and later
+  worked as a data consultant and technical lead. Earlier he gave a talk about building a data
+  lakehouse. Alexey invites him to explain how he moved from data management to data engineering and
+  then to data architecture.
+
+  Loïc says his data manager role mixed analysis, pipelines and reporting for structural health
+  monitoring. He automated his own repetitive work by spending an hour or two a day scripting, and
+  that led him into data engineering. His civil engineering background helped him diagnose data
+  quality problems, because he knew how the data would be used. He learned Python, because it was
+  the most common language in job postings, and he advises against chasing cloud certifications.
+  Instead he suggests learning the basics, such as CRUD operations and storage options, since the
+  clouds are more similar than different. In interviews, he looks for experience, the scale of past
+  projects and an attitude that adapts to whatever cloud a company uses.
+
+  A data architect, in his description, is a senior role that spans the full chain from source
+  systems to staging, warehouse and data marts. The main output is team alignment between the
+  teams that produce, process and consume data. He suggests keeping detailed specifications
+  light, drafting an end-to-end design, and testing it with stakeholders as early as possible.
+  Stakeholders rarely name dimensions and metrics themselves, so the architect has to translate a
+  request such as "margin in this region" into facts and dimensions that can scale. The lakehouse
+  is organized into bronze, silver and gold layers, with quality expectations set at the bronze
+  level.
+
+  As the team matures, Loïc's own time moved from technical work toward stakeholder management, and
+  he now focuses on the gold layer. To stay technical, he uses weekly 30-minute one-on-ones in which
+  engineers walk him through their work, which is how he follows the team's move to dbt without
+  building it himself. He also follows blogs and podcasts and builds small proofs of concept when a
+  new tool catches his interest. He recommends reusable templates for ingestion, transformation and
+  data marts, built from work that has already run at scale, and a balance between generic
+  components and project-specific code.

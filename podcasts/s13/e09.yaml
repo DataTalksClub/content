@@ -165,3 +165,29 @@ resources:
   url: https://discord.com/invite/qf4rGCEphW
 - title: Ker's Website
   url: https://www.kern.ai
+summary: |-
+  Johannes is a co-founder and CEO of Kern, a company that helps data science teams label and manage
+  text data. He studied business, computer science and data engineering at the Hasso Plattner
+  Institute in Potsdam, and his first AI project was a style transfer web app. Kern began as a
+  consultancy that kept seeing the same data problems, and Alexey invites him to explain how that
+  consultancy became an open source product company.
+
+  Johannes describes the company's open source tools. Refinery is a labeling and data exploration
+  tool for engineers, built around weak supervision, where several noisy heuristics label data
+  automatically and their combined output becomes training data. Bricks is a library of reusable
+  heuristics for tasks such as sentiment analysis, which can be implemented with a Python package
+  or a GPT prompt. Alexey compares this to ensemble methods, and Johannes says a set of weak
+  classifiers can outperform any single one. He sees ChatGPT as one ingredient, which works best
+  alongside active learning and crowd labels. Their first product, a no-code model builder for
+  business users, failed because the training data was poor and business teams did not want to
+  build AI themselves. They shifted to engineers, who need control over their training data.
+
+  The team open sourced Refinery after conversations with a co-founder of another developer tool,
+  and Johannes says open source changed the business model. Small teams often use the free
+  version, which costs revenue, but the open source community gives feedback and attracts
+  enterprise clients. Enterprise deals are sold to business units with workshops and tailored
+  solutions, often for niche documents such as invoices. Finding clients takes trial and error,
+  and in Germany networks and meetups matter. Johannes describes sales as education for
+  developers, and says the team has 11 full-time people working in product, developer relations
+  and go-to-market roles. The company raised 2.7 million, and Alexey says investors contacted him
+  after the Open Source Spotlight demo. Johannes recommends Prediction Machines.

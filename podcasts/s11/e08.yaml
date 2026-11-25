@@ -161,3 +161,33 @@ resources:
   url: https://www.amazon.it/Violinista-1-Angelica-Lo-Duca/dp/1501009672/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=12KTF9EF5UKIG&keywords=il+violinista+lo+duca&qid=1668270791&sprefix=il+violinista+lo+duca%2Caps%2C81&sr=8-1
 - title: Course on Data Journalism
   url: https://www.coursera.org/learn/visualization-for-data-journalism
+summary: |-
+  Angelica Lo Duca is a researcher at the Institute of Informatics and Telematics in Italy and a
+  professor at the University of Pisa, where she teaches data journalism. She started in computer
+  science and got a PhD in network security and cryptography. She then moved to web applications,
+  data science and, more recently, data engineering. Alexey invites her to talk about data
+  journalism and technical writing, two areas she has written about and taught. Her Medium articles
+  number around 70, and she has also written the book Comet for Data Science.
+
+  Angelica says data journalism collects, filters and analyzes data to support a news story. Unlike
+  data science, it usually does not train models, and it often works with small datasets where
+  accuracy matters more than scale. Finding the data is the hardest part, because it is hidden on
+  the web. She gives examples from the Washington Post data journalism team, which uses charts to
+  support long articles. Her students can use Python for basic cleaning, or Tableau if they have no
+  programming background. Her course is taught in Italian and targets humanities students who study
+  digital humanities.
+
+  Technical writing, in her view, describes how to solve a problem with clear, confident steps,
+  while research articles describe something new. A report becomes a story when the author adds
+  context, such as grouping survey answers by age, and adds a message or call to action. She advises
+  using one concept per chart, and she avoids pie charts. Her articles usually run five or six
+  minutes and follow a simple structure of problem, solution and result, with the code in a separate
+  repository. Topics come from problems she has solved herself, which she keeps as notes.
+
+  Her first book came after an acquisition editor contacted her, possibly after reading her
+  articles. Angelica advises reading the contract carefully, asking for four to six weeks per
+  chapter instead of the two weeks a publisher may propose, and writing only on topics you know
+  well. Before writing, she suggests checking existing books for what is missing, and building a
+  proposal with a table of contents, a target audience and a level, such as entry or intermediate.
+  Revisions from editors and reviewers overlap with new chapters, so she recommends setting aside
+  about an hour a day to stay organized.

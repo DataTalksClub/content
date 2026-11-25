@@ -150,3 +150,32 @@ resources:
   url: https://www.youtube.com/watch?v=CO4Gqd95j6k
 - title: From Data Science to DataOps
   url: /podcast/s11e03/dataops-and-gitops-best-practices-for-data-teams
+summary: |-
+  Krzysztof, who goes by Chris, is a machine learning platform consultant at Zalando with 17
+  years of software engineering experience. He is on a three-month sabbatical and gave a talk
+  about the Zalando machine learning platform a few months earlier. Alexey invites him to talk
+  about career changes, from web development at Roche and Nokia to mobile games at Wooga, then
+  to Zalando as a full stack engineer, data governance and the ML platform.
+
+  Chris says companies often hire for one specialty but then change direction, and each time he
+  was allowed to learn new things. At Wooga he moved from JavaScript prototypes to native Objective
+  C and Swift. At Zalando he learned Python on the job. He describes his ML platform work on zflow,
+  a Python library for building pipelines, and his later move into a consulting role. There he
+  runs trainings, supports users and improves documentation, which means he codes less than he
+  used to. Alexey and Chris also discuss Zalando's Tech Radar, which limits the languages teams
+  can choose from, after a period of too much freedom.
+
+  The conversation then turns to transferable skills. Chris invests in technologies that have
+  lasted, such as SQL, Git, shell scripting and JavaScript, and he cites the Lindy effect. He
+  describes an internal API he sped up tenfold by tuning Postgres, a task that a Postgres expert
+  would likely have finished faster. Alexey argues that projects need a wide mix of skills, while
+  Chris points out that specialists move faster when the scope is narrow. Chris describes himself
+  as a T-shaped generalist with several deep areas, including web fundamentals, Git and debugging.
+  He says he enjoys debugging as a puzzle, and he sometimes acts as a rubber duck for colleagues.
+  He uses ChatGPT for coding help, architecture discussions and mentoring, while checking its
+  answers because it can sound confident and be wrong.
+
+  His advice is to pick one area that you genuinely enjoy and go deep, learn the rest as projects
+  require, and use curiosity, short focused sessions and deadlines to get started. For resources,
+  he recommends The Pragmatic Programmer, YouTube tutorials, documentation looked up as needed and
+  the work of prompt engineer Riley Goodside.

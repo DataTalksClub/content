@@ -150,3 +150,33 @@ resources:
   url: https://github.com/AaishaMuhammad
 - title: Website
   url: http://www.aaishamuhammad.co.za/
+summary: |-
+  Aaisha is a self-taught bioinformatician and machine learning engineer from Johannesburg. She
+  is still a student, has a blog on bioinformatics and machine learning, and draws scientific
+  illustrations on the side. Alexey invites her to talk about self-study and continuous learning.
+  She started programming young and learned mostly through online resources rather than a school
+  curriculum, which gave her the freedom to choose what to study.
+
+  Aaisha says she chooses topics by keeping a rough idea of the skills she needs and filtering
+  out what does not apply. For bioinformatics she followed an open curriculum from the Open Source
+  Society University. She judges a resource by skimming its syllabus, watching the introduction
+  and checking the author's other free work before paying for anything. She also warns that some
+  topics turn out to be less useful than they look. Alexey agrees, recalling that he once spent a
+  lot of time on support vector machines. Her learning mixes theory and projects. Her projects
+  often start from a dataset she finds interesting, and she reads research papers and uses
+  Google Scholar and PubMed. Alexey adds that citation graphs are useful.
+
+  Aaisha joined the ML Zoomcamp because it was short and project-based. Her midterm project
+  predicted the toxicity of frogs from their colors, using data from a published study, and she
+  reused a Kaggle kitchenware competition project as her capstone. She keeps her motivation up
+  with self-set deadlines that do not move, and she runs several projects in parallel so she can
+  switch when bored. She does not use notes or time-tracking tools, and she finds deployment with
+  Docker and Kubernetes the hardest part of the course. Helping others in the course Slack
+  helped her understanding, and she says a Learning How to Learn course bored her. She
+  says she finds self-study's main risk to be the lack of external deadlines and the chance of
+  learning the wrong things.
+
+  On advanced topics, Aaisha thinks research papers are the main resource, and that access
+  depends on a university library. Alexey notes that paywalls and the publishing system are hard
+  to justify. Her recommendations are the Python for Everybody course, the ML Zoomcamp and the
+  book written by Alexey.

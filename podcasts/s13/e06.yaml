@@ -127,3 +127,33 @@ resources:
   url: https://drive.google.com/drive/folders/1_CnqjugtsEbkIyOUKFHe48BeRttX0uJG
 - title: Leading AI teams video
   url: https://www.youtube.com/watch?app=desktop&v=tbBfVHIh-38
+summary: |-
+  Shir is a data science group manager at Intuit, where her teams build document intelligence
+  features for products such as TurboTax and QuickBooks. She studied electrical engineering in
+  Israel, worked at two startups and has been at Intuit for about five and a half years. Before
+  that she served three years in the Israeli Air Force as a flight simulator instructor for
+  helicopter pilots. Alexey invites her to talk about the secret sauce of data science management.
+
+  Shir traces her leadership style to the debrief culture from the Air Force. Pilots set three
+  focus areas before each flight and review them afterwards, and she uses the same approach with
+  her teams. She describes her role as setting group strategy, mentoring managers and setting
+  standards. She measures success in two ways: the business impact of the team, and the growth and
+  engagement of its people. Intuit uses a twice-yearly pulse survey and a manager score, and she
+  reads aggregated results plus skip-level feedback. Alexey summarizes the pillars she describes:
+  managing up, managing across and managing down, which Intuit's leadership playbook frames as a
+  clear vision, driving winning results and building a high-performance culture.
+
+  Managing up means showing leadership what the team achieves, through tech reviews and short
+  accomplishment notes, so that they will invest further. Managing down means setting yearly goals
+  that cascade from directors to individuals, holding weekly one-on-ones and monthly check-ins,
+  and making space for learning, such as a paper club and a five-day internal hackathon. Managing
+  across means working with product teams, setting expectations about model error and pushing
+  AI ideas when the data suggests them. Shir says AI projects carry more unknowns than other
+  projects, so her teams use two-week Scrum sprints, begin with a few weeks of exploration and
+  break work into milestones.
+
+  For proofs of concept, Shir advises focusing on a real customer problem, defining a measurable
+  metric to move and using A/B tests to roll out gradually. She says communication is the core
+  manager skill, and that a growth mindset, which treats feedback as a gift, matters most to her.
+  For further reading, she offers her blog posts on leading data science teams and streamlining AI
+  development.

@@ -130,3 +130,37 @@ resources:
   url: https://github.com/ziritrion
 - title: LinkedIn profile
   url: https://www.linkedin.com/in/alvaronavas/
+summary: |-
+  Alvaro manages machine learning and NLP projects at a consultancy company. Before that he worked
+  in the cell phone industry as a quality assurance engineer, first in Spain and then in Mexico.
+  Alexey knows him from the Machine Learning and Data Engineering Zoomcamps, where his notes helped
+  many students, and invites him to talk about moving from QA into machine learning. Alvaro says he
+  disliked the industry, so he quit and spent about two years unemployed.
+
+  His QA work meant testing prototypes that were mostly designed in China. He checked GPS and maps,
+  sound, the microphone, sensors and battery life, then wrote reports and flashed software updates.
+  Repeated certification tests and new requirements made the work feel routine. After quitting, he
+  spent a month resting, then tried front-end development, which he disliked. He found machine
+  learning in a five-month postgraduate course. He enjoyed the math and could apply what he learned.
+
+  Alvaro joined Neuromatch Academy's one-month deep learning module for neuroscience. He then
+  took the Machine Learning Zoomcamp and the Data Engineering Zoomcamp, and he enjoyed the data
+  engineering part because it was new to him. He had no portfolio beyond his GitHub notes and course
+  projects. These included a speed-dating dataset with heavy exploratory analysis and an image
+  classifier for fruits and vegetables. He deployed projects on Google Cloud, using its starting
+  credits, and followed the AWS steps in the course.
+
+  Alvaro started job hunting early in the year and hired a coach for interview skills and his CV.
+  The coach helped him describe his work factually instead of underselling it, and to make his CV
+  more visual. The coach did not know machine learning, so the technical preparation was up to
+  Alvaro. Interviewers cared more about technical exercises than his projects. An early process
+  ended after he could not explain how pandas handles a dataframe larger than memory. Later
+  processes included take-home problems, a weather time-series task and a final interview with
+  simple questions, which led to his current job. All three were NLP-related, though he had not
+  looked for NLP roles.
+
+  Today Alvaro works with one colleague, and a third person is joining soon. Their stack runs on
+  Azure with Python, AutoKeras for model search, Databricks clusters, Azure Data Factory pipelines
+  and a Microsoft SQL database. The prototype deadline moved up three months. On advice, Alvaro says
+  a technical background helps but is not required. Data engineering tools can be learned by anyone,
+  while research-heavy data science benefits from a mathematical background.

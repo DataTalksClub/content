@@ -159,3 +159,39 @@ transcript: e03-transcript.yaml
 resources:
 - title: Embetter & Bulk Demo
   url: https://www.youtube.com/watch?v=L---nvDw9KU
+summary: |-
+  Marysia is a lead data scientist at GoDataDriven and an organizer of PyData Amsterdam and
+  PyData Global. She studied artificial intelligence at the University of Amsterdam and early in
+  her career worked on deep learning for lung cancer detection in CT scans. She then spent about
+  two years as a data science educator at GoDataDriven before returning to hands-on work. Alexey
+  invites her to explain data-centric AI, the idea that teams should improve the data as well as
+  the model.
+
+  Marysia describes model-centric work as iterating on architecture, hyperparameters and
+  pipelines while the dataset stays fixed. Data-centric work also relabels ambiguous examples,
+  gathers examples for weak classes and changes the train and validation split. She says this
+  matters more now because many problems use unstructured data such as images, audio and text,
+  which is harder to inspect than tables, and because teams fine-tune large foundation models,
+  where label quality strongly affects the result. Alexey compares this to Kaggle, where the
+  data is usually fixed.
+
+  Her main example is a DeepLearning.ai data-centric competition in September 2021. She and two
+  colleagues had to classify handwritten Roman numerals with a fixed ResNet 50 model, changing
+  only the data, up to 10,000 images. Their team won the Most Innovative category and presented
+  at a NeurIPS workshop. They relabeled in a Google Sheet that displayed each image from its URL,
+  used scripts to move files, ordered examples by model confidence and checked embeddings for
+  outliers. Marysia calls the main lesson a mindset shift: the dataset is editable, and data is
+  easier to discuss with domain experts than a model.
+
+  For finding gaps, she describes a toy penguin project where UMAP on image embeddings showed
+  only three baby penguins, so she searched for more. Alexey suggests Vincent Warmerdam's
+  Embetter. Stopping depends on whether the results are good enough for the use case and the time
+  available, and she recommends showing stakeholders examples rather than only a metric. She also
+  describes a medical imaging model run in shadow mode in hospitals, where radiologists judged
+  scans and gave feedback. Alexey describes a similar parallel test for moderation at OLX.
+
+  Her practical advice is to start with a baseline, analyze errors, talk to subject matter
+  experts and keep a human in the loop. Projects with too little data, such as 54 examples for
+  13 classes, are not feasible. For tools, she points to two directories of data-centric AI
+  tools from Haiti Research and WhyData, and she says the way you make iteration easy matters
+  more than the specific tool.

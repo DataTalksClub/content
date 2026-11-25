@@ -137,3 +137,32 @@ resources:
   url: https://www.linkedin.com/in/alkrusz/
 - title: Twitter
   url: https://twitter.com/alkrusz
+summary: |-
+  Aleksander is a co-founder of a data analytics consultancy in Berlin. He spent years in product
+  management at Delivery Hero after moving from Warsaw, and he once planned an archaeology career
+  before studying political science and international business. Alexey invites him to explain how
+  his team went from a failed data product to running a consultancy, and how it finds clients and
+  sets prices.
+
+  Aleksander describes a first product, a data stack as a service, that was built after a
+  market check. He says tech buyers prefer to build the stack themselves, while business buyers
+  need the data modeling, which is hard to automate. The team took consulting projects to find
+  problems, and their first customer, the CTO of a startup, agreed to pay for a product that did
+  not yet exist after a series of Mom Test interviews. The lesson was that the real value was the
+  SQL models they wrote for the business, not the tooling. He says interviews should never pitch
+  the idea, should ask about concrete recent problems and should be run by two people, one asking
+  and one taking notes.
+
+  The consultancy is hands-on rather than advisory, and it targets startups between seed and
+  Series A that need basic reporting and modeling. Most clients come through networks, referrals
+  and LinkedIn content, and the firm works mainly within Europe. Aleksander says messaging is
+  tested constantly, and that a clear offer, such as optimizing revenue or marketing spend, works
+  better than saying the firm does everything. On pricing, he advises basing prices on value and
+  comparing with competitors, starting from a high rate because clients always negotiate down,
+  and avoiding day-rate incentives that reward long projects. He says a project price is hard to
+  set because the effort is uncertain.
+
+  His practical advice is to validate with customers before building, to price for the value you
+  provide and to choose a legal form that fits your clients. Germany suits clients who are German
+  companies, while the Netherlands or Estonia are simpler for startups, and a GmbH adds
+  bureaucracy. He recommends the book Think Like a Rocket Scientist and The Mom Test.

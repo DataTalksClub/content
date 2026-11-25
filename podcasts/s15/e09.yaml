@@ -165,3 +165,31 @@ resources:
   url: https://github.com/aramir62
 - title: Previous podcast talk
   url: https://twitter.com/i/spaces/1OwGWwZAZDnGQ?s=20
+summary: |-
+  Angela Ramirez is a data engineer with about four years of experience. She started at the
+  cosmetics retailer Sephora and now works on the fraud team at Sam's Club, a wholesale retailer.
+  Her background is in cognitive science and natural language processing, and she chose data
+  engineering because she wanted to build the data that machine learning systems depend on. Alexey
+  invites her to explain how data engineering supports fraud detection in retail.
+
+  Angela describes stolen cards and member return abuse as the main fraud patterns. Her team runs
+  daily batch jobs that compute features, and a real-time call to the fraud system decides whether a
+  transaction is blocked. She also maintains dashboards for ML and business metrics, and her
+  team includes data engineers and machine learning engineers who handle the operational side of
+  deployment. Fraud labels usually arrive from banks after the fact, so a model can miss a case
+  that is only confirmed days later. Asked how an alert could reach a cashier, Angela says she
+  would start with rule-based checks sent through the front end, before any model check.
+
+  On data modeling, Angela says that static, structured data suits relational databases, while
+  dynamic or network data suits document or graph stores. She has used Cassandra, Redis and
+  Elasticsearch, and she describes a Neo4j graph as useful for investigators who need to explore
+  connected members, transactions and products. She also explains Wikidata and SPARQL with a book
+  example. For engineering practice, she recommends writing unit tests and data quality checks, such
+  as null and type checks, and tools like Great Expectations. Her day-to-day stack includes PySpark,
+  GCP services such as Dataproc and BigQuery, and Databricks.
+
+  Asked about the hardest problems, Angela names failing jobs, whether the cause is a code bug, an
+  upstream schema change or an overloaded database. She recommends logging, documenting common
+  errors and writing runbooks so that a support team can fix recurring issues. When working with
+  external teams, she says data contracts and clear schedules help prevent surprises. For learning,
+  she suggests Designing Data-Intensive Applications and resources on PySpark and SQL.

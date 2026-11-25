@@ -136,3 +136,36 @@ resources:
   url: https://github.com/boyanangelov
 - title: Website
   url: https://boyanangelov.com/
+summary: |-
+  Boyan Angelov is a data strategist with about a decade of experience in bioinformatics, clinical
+  trials, HR tech, legal tech and management consulting. He is the author of Elements of Data
+  Strategy and Python and R for the Modern Data Scientist, and he leads the data strategy function
+  at Exxeta, a technology company focused on the German-speaking region. He started as a data
+  scientist at startups, later worked as a CTO, and then returned to consulting. Alexey invites
+  him to explain what data strategy is and what a data strategist does.
+
+  Boyan defines data strategy as an actionable plan to get value from data, flexible enough to
+  change during operation. A list of goals is not a strategy, and a strategy should not be static.
+  The process starts with due diligence to learn where the company stands, followed by use case
+  ideation, feasibility checks and prioritization. Feasibility is the hard part, because it
+  depends on the data, skills and infrastructure a company already has. He also describes the
+  influence cascade, where a change in one use case, such as moving from tabular to text data,
+  changes the architecture and skills needed. The delivery phase adds impact assessment, portfolio
+  management and DataOps. Boyan recommends measuring a business baseline before any project
+  starts.
+
+  The role combines data knowledge, communication and systems thinking. Translation between
+  business requirements and technical work is the core skill. A strategist needs conceptual
+  knowledge of pipelines, orchestration and access control without being an expert in each tool.
+  Boyan says the role can be frustrating, because a strategist often feels out of place with both
+  experienced engineers and business leaders. On lighthouse projects, he cites Martin Szugat of
+  Datentreiber, who advises against starting with advanced AI. Simple wins such as report
+  automation build trust and budget first. He combines Lean and Agile in DataOps, with a focus on
+  avoiding waste, such as time data scientists spend waiting.
+
+  Boyan says he used GPT only for sidebars and definitions in his book, and he marks that use
+  openly. He finds it useful for outlines, slide drafts and brainstorming use cases, but not for
+  original thinking, though he would read a technical book written with it. For a stakeholder
+  pitch, his advice is to avoid technical terms and data strategy talk, show that you understand
+  the business, and propose one small, budgeted use case with a clear yes or no decision. He also
+  recommends Practical DataOps and Technology Strategy Patterns for further reading.

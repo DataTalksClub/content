@@ -139,3 +139,34 @@ resources:
   url: https://www.linkedin.com/in/lorismarini/
 - title: Loris' Twitter
   url: https://twitter.com/LorisMarini
+summary: |-
+  Loris is the founder and CEO of Discovering Data, a business that runs a podcast and a community
+  for business leaders and data professionals. He started out in physics and reinforcement
+  learning research, then became the first data hire at Autopilot, a marketing automation SaaS
+  company. Alexey invites him to talk about the business skills that help data professionals
+  have an impact after they are hired.
+
+  Loris describes how the first model he helped ship took nine months to reach production, which
+  pushed him toward data engineering and DevOps. Later, a conversation after a hackathon showed
+  him that two colleagues using the word "customer" meant different things. At Autopilot he
+  worked on product adoption, and defining good usage led to a lead indicator of stickiness,
+  meaning a lower risk of churn. Alexey and Loris agree that teams must settle on definitions
+  before any churn analysis, and Loris mentions a hospital that counted 170 definitions of a
+  patient.
+
+  Loris argues that data professionals should learn from marketing and storytelling, and treat
+  persuasion as a tool rather than manipulation. Many organizations sit at a low data maturity
+  level, where data lives in spreadsheets with names like "final_final". For a new job, he says
+  the first step is active listening and stakeholder mapping. He keeps a Notion database of
+  colleagues because he has a poor memory for names. He attends business meetings even when they
+  make little sense at first, and says the language becomes clear within about three months. He
+  keeps work and personal notes separate after checking his contract's intellectual property
+  clauses.
+
+  On prioritization, Alexey counts how many stakeholders a project would help, and Loris compares
+  this to finding highly connected nodes in a graph. Both defend Excel and pivot tables as valid
+  tools, and Loris says data professionals should not tie their identity to one technology. He
+  argues that conversations come before models, since a shared description and diagnosis of what
+  is happening builds trust before predictive work. He recommends the Discovering Data podcast and
+  its Discord server, and says he would like to write a book on business skills for data
+  professionals because he has not found one.

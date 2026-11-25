@@ -120,3 +120,39 @@ resources:
   url: https://www.linkedin.com/in/katharinejarmul/
 - title: Twitter
   url: https://twitter.com/kjam
+summary: |-
+  Katharine Jarmul is a privacy activist, machine learning engineer and principal data scientist 
+  at ThoughtWorks in Germany. Her path ran through data journalism and natural language 
+  processing, and she has worked on privacy for machine learning since 2017, including at a 
+  Berlin startup she co-founded and on encrypted ML platforms. Her book Practical Data Privacy is 
+  the basis for the conversation, in which Alexey asks what data privacy means in practice and 
+  why companies should care.
+
+  Katharine defines privacy in three ways: legal, social and technical. The technical view asks 
+  how to measure privacy and reason about it mathematically. Privacy risk depends on how unusual 
+  a person is in the data, so people at the tails of a distribution face more risk. Browsing 
+  histories and app usage can single out one person even without a name attached. Katharine 
+  argues that companies should ask what value knowing exactly who someone is actually adds. 
+  Session-based recommendations can personalize results without a long-term profile, and location 
+  can be shared for one search and then switched off.
+
+  Katharine explains differential privacy as a way to bound how much any one person's data can 
+  change what an analyst learns from a query. She calls dropping identifiers or k-anonymity 
+  old-school methods, and the Netflix prize re-identification shows why they fall short. She 
+  recommends the Tumult Analytics library and the notebooks from the book. Alexey describes a 
+  DataTalks.Club course dataset published with hashed emails, and Katharine suggests a privacy 
+  review rather than legal judgment. She also argues that writing privacy requirements into the 
+  normal data science process would solve most problems.
+
+  For companies, Katharine frames the choice as a trade-off between risk and reward, not zero 
+  risk for full reward. Lawsuits, insurer changes, regulators and customer backlash can cost far 
+  more than a small accuracy gain from extra data. Alexey notes that location data is legal with 
+  consent, and Katharine points out that opt-out options are required in Europe and Brazil. On 
+  generative AI, she discusses the ChatGPT chat history exposure that led Italy to ban the 
+  service for a time. Users should not carry the burden for what products make easy, she says, 
+  and Azure's localized deployments can help with data residency and fine-tuning.
+
+  The practical advice is to start with simple controls such as consent and data minimization, 
+  then move to privacy-enhancing technologies like federated learning and differential privacy as 
+  the organization matures. Katharine's newsletter, Probably Private, is her recommended 
+  follow-up resource.

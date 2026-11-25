@@ -122,3 +122,35 @@ resources:
   url: https://www.amazon.de/-/en/Foster-Provost/dp/1449361323/ref=sr_1_1?keywords=data+science+for+business&qid=1666404807&qu=eyJxc2MiOiIxLjg3IiwicXNhIjoiMS41MiIsInFzcCI6IjEuNDYifQ%3D%3D&sr=8-1
 - title: Article on Data Science Products
   url: https://www.linkedin.com/pulse/way-create-data-science-products-lessons-learnt-anna-hannemann-phd/
+summary: |-
+  Anna is the domain owner for data science at METRO.digital, the digital arm of the wholesaler
+  METRO, whose customers are mostly hotels, restaurants and caterers. She previously led product
+  teams for recommender systems, robotics and smart logistics, and she holds a PhD in web science on
+  open source communities. Alexey invites her to talk about the product owner role in data science,
+  which she describes as deciding when a model is good enough, protecting the team and translating
+  between stakeholders and engineers.
+
+  Anna says product owners act like the CEO of a product, while product managers often do more of
+  the process management and take less ownership. The most important skill, in her view, is making
+  decisions, because data scientists often ask for two more weeks to improve a model. She says a
+  product owner needs to understand what a metric means and to challenge the team with the right
+  questions, rather than implement every new paper. Her recommender work at METRO began with manual
+  newsletter requests and grew into an API used by the online shop, which shows frequently bought
+  together products and alternatives for out of stock items.
+
+  Her team began with about one and a half people, and production work needed machine learning
+  engineers and MLOps people as well as data scientists. She suggests starting a production use case
+  with one engineer, one MLOps person and one data scientist, and growing to up to three engineers
+  per data scientist. Existing staff can spend 20 to 50 percent of their time on a three month proof
+  of concept. Anna also describes a markdown model for perishable goods. It uses price elasticity to
+  find the smallest discount that sells out stock before the expiry date, which reduces waste,
+  protects revenue and turns a manual store process into a clear system.
+
+  Anna prefers that new use cases come from business teams, because operations people know where the
+  problems are. She pushes back on ideas that do not justify a data science effort, such as using AI
+  for a few hundred broken entries that a student could fix by hand. Papers the team wants to try go
+  into a shared Confluence table that records whether each would speed things up or improve quality.
+
+  As domain owner she manages 22 direct reports, who sit in product teams, and she oversees budgets,
+  while product managers run the daily work. Her recommended reading is Data Science for Business by
+  Foster Provost and Tom Fawcett, which she suggests for business people moving into data science.

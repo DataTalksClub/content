@@ -152,3 +152,36 @@ resources:
   url: https://github.com/Analytics-for-a-Better-World
 - title: Website
   url: https://analyticsbetterworld.org/
+summary: |-
+  Parvathy is the CTO of Analytics for a Better World, a nonprofit institute set up by the
+  University of Amsterdam and private sector partners to apply analytics to the UN Sustainable
+  Development Goals. She has a professional doctorate in data science from Eindhoven University of
+  Technology. Her path started with electrical engineering and a master's in energy management,
+  then solar photovoltaic data work in Singapore, and then freelance data projects for the World
+  Bank and UNDP. Alexey invites her to explain how analytics helps nonprofits.
+
+  Parvathy describes the institute's work as connecting nonprofits with research and technical
+  capacity. Projects start with brainstorming and interviews at three levels, executives, managers
+  and practitioners, to judge data maturity before a roadmap is drafted. In a free eight-week
+  academy, 43 fellows were selected from more than 340 applications. One fellow from the UN
+  Environment Programme in Nairobi used open data on population density and roads to test a
+  waste collection point model, and the pilot is now being scaled up. The data is only one part of
+  a solution, since officials and advocacy are also needed. For the World Bank in Timor-Leste, the
+  team mapped hospital access by travel distance and then used an optimization model to decide
+  where new facilities should go.
+
+  The maturity scan covers people, processes and technology. It asks whether a team can collect and
+  analyze data, whether privacy and standard operating procedures exist, and whether work is
+  centralized with version control such as Git. The institute does not favor one vendor. Many
+  nonprofits use open tools such as PostgreSQL and KoboToolbox, plus Power BI or Tableau where
+  they already have licenses, with Python or R for machine learning and Azure, AWS or GCP for
+  deployment. Parvathy says most nonprofits are still at the descriptive and early predictive
+  stage, and that teams often combine data scientist, analyst and engineer roles. Projects
+  come in waves, so the institute uses a network of partners and freelancers. Its courses
+  follow the descriptive, diagnostic, predictive and prescriptive steps, and many of the lectures
+  are on YouTube.
+
+  Her advice is that organizations need a long-term data strategy and investment in people,
+  processes and technology, and that results take years to appear. For reading, she recommends
+  The Culture Map and The 7 Habits of Highly Effective People, and she reads Towards Data Science
+  every day.

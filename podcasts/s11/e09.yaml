@@ -139,3 +139,37 @@ transcript: e09-transcript.yaml
 resources:
 - title: LinkedIn Account
   url: https://www.linkedin.com/in/irinabrudaru/
+summary: |-
+  Irina Brudaru is a teacher and curriculum developer for data analytics and data science at
+  FrauenLoop, a German NGO that supports women in tech. By day she is an analytics manager. She
+  studied computer science in Romania and Germany, then worked as a data consultant, BI manager and
+  technical account manager at Google in Munich and San Francisco. Alexey invites her to talk about
+  teaching and mentoring in data analytics, including how she designed a FinTech data science
+  curriculum for AI Guild.
+
+  Irina says the curriculum began with interviews with data managers at FinTech companies, who
+  described the methods their teams used. She audited Coursera courses on fraud, then the team spent
+  a few days on each topic, found datasets and coded the exercises themselves before publishing
+  them. Topics included fraud detection, chargeback modeling and machine learning in production. For
+  chargebacks, she taught neural networks, because there are few signals to work with, while
+  rule-based methods suit fraud with many signals. Students also received a Google Cloud
+  certification path, and they worked in BigQuery. Business skills and presentation training were
+  added too.
+
+  Irina's approach to teaching is visual and adapted to each learner. She says some learners need a
+  worked example, while others prefer to study alone and check in. She found FrauenLoop through its
+  graduates and volunteered as a mentor. Alexey and Irina also discuss cohort analysis, which groups
+  users by when they joined, such as their first month, to track retention over time. Alexey asks
+  how to get technical feedback when a manager cannot review code. Irina suggests finding peers in
+  engineering or analytics, and never sharing company code outside the company.
+
+  On common mistakes, Irina warns against learning machine learning without a project, and against
+  overengineering. She favors shipping a simple first version and iterating, and she says most tools
+  change quickly, while SQL remains the basic skill for analysts. Asked about a career switch from
+  energy sales, she says the person can start with small forecasting projects in their current
+  domain, such as sales or finance, and build a portfolio from there.
+
+  For outreach to women, Irina suggests targeted approaches, such as PyLadies, CorrelAid, Women in
+  AI and training volunteers, rather than generic advertising. Her main advice for analysts is to
+  learn SQL well, understand how the product and tracking work, and build a portfolio of small
+  projects.

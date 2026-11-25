@@ -172,3 +172,38 @@ resources:
   url: https://carpentries.org/
 - title: The Turing Way Book of  Reproducible Research
   url: https://the-turing-way.netlify.app/welcome
+summary: |-
+  Johanna is about to finish her PhD at the University of Melbourne, where she works on machine
+  learning for clinical neuroimaging. She has a background in psychology and clinical
+  neuroscience, and she contributes to open source and open science communities. Alexey invites
+  her to discuss research software engineering, the practice of building software as part of
+  academic work.
+
+  Johanna describes her path from a psychology bachelor's degree in Germany, through modeling
+  work in Berlin and Zurich, to a position in Australia. She teaches open science remotely and
+  has completed a Carpentries instructor course. Her course starts with Git, then covers
+  reproducible manuscripts that run from raw data to figures, tests and contributing to open
+  source. For beginners she recommends small repositories, such as the Turing Way book, because a
+  first pull request there is less intimidating than a large project like scikit-learn.
+
+  Johanna separates two groups in research software engineering. Some people focus on methods and
+  analysis, and others publish software such as toolboxes as their main output. Many of them are
+  PhD students, and her own PhD includes a method that corrects scanner-related differences in
+  neuroimaging data. She says software is slowly gaining recognition as research output, and
+  software can now get a DOI. Convincing a supervisor is hard, since many professors lack time or
+  confidence with software. Alexey compares this to data science in industry 10 to 20 years ago,
+  when companies had to add software engineers to academic hires.
+
+  Her normative brain model project shows how she added practices over time. She started with a
+  folder structure from Cookiecutter, a dev branch separate from main, code formatters such as
+  Black, and MLflow for tracking experiments. She admits she deleted and redid her experiments
+  several times before the setup worked. Her depression data comes from a consortium that
+  requires a proposal, so she shares figures and summary statistics rather than the raw data.
+ 
+
+  To keep up, Johanna checks trending GitHub repositories and awesome lists, and she is active in
+  several communities. When she contributes, she reads the README, the contributing guide and the
+  dev branch, then discusses open issues with their authors. She says studies show that papers
+  with shared code receive more citations. She also cites a GitHub thread in which 250 authors who
+  had written "data available upon request" were asked for their data, and only a few replied with
+  it. Her book recommendation is the Machine Learning Solutions Architect Handbook.

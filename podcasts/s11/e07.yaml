@@ -153,3 +153,36 @@ transcript: e07-transcript.yaml
 resources:
 - title: Nikola's LinkedIn account
   url: https://www.linkedin.com/in/nikola-maksimovic-40188183/
+summary: |-
+  Nikola, called Nikki in the episode, is an analytics engineer and data analyst in Berlin. She
+  studied classics in London, moved to Berlin after graduating and joined the startup Movinga in
+  operations. She then worked in marketing at Ecosia, where she ran performance campaigns and moved
+  into reporting. Alexey invites her to describe how she switched from marketing to analytics
+  engineering, a path that started with her interest in numbers.
+
+  Nikola says performance marketing taught her to rely on fast feedback from data. When Ecosia moved
+  from Tableau to Looker, she helped with the migration and built the marketing team's reporting.
+  During the pandemic she decided to move away from pure marketing and toward the BI team. The BI
+  team told her she needed SQL and an understanding of the data pipeline. She took an inexpensive
+  online SQL course and learned how the tracking and transformation layers fit together. She says
+  practice, the business context she already had and mentors made the difference.
+
+  Her team of four uses Snowplow for tracking, Airflow for orchestration, Airbyte for some
+  extraction, AWS S3, Redshift and Athena, Looker for dashboards and Redash for ad hoc queries.
+  Nikola led the migration to dbt with a small consultancy, which taught her data modeling theory.
+  She describes the analytics engineer role as focused on the wider architecture of the data model,
+  including consistency, freshness and choices such as wide or narrow tables and incremental
+  strategies. She thinks the title is overhyped for small teams, where analysts and analytics
+  engineers overlap heavily, and that dbt has largely defined the role.
+
+  Nikola recommends that people starting out learn Excel pivot tables, then SQL with practice
+  datasets, and then build dashboards in the tool their company uses. Reading the SQL queries that
+  an existing BI team uses is more useful than generic examples, she says. She also stresses finding
+  one champion inside the company, because a supportive colleague helped her gain confidence and
+  move quickly through the team. Her mentors were mainly her teammates, and she plans to look for an
+  external mentor through LinkedIn and meetups.
+
+  For reading, she mentions the Analytics Engineering Roundup, Lenny's Newsletter and the Locally
+  Optimistic blog. She says most of her current work supports product teams on growth, retention,
+  experiments and an RFM customer analysis, and that her marketing background helps her think about
+  the funnel from the user's side.

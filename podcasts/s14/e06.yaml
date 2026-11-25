@@ -146,3 +146,38 @@ resources:
   url: https://vanishinggradients.fireside.fm/
 - title: 'MLOps and DevOps: Why Data Makes It Different'
   url: https://www.oreilly.com/radar/mlops-and-devops-why-data-makes-it-different/
+summary: |-
+  Hugo Bowne-Anderson is Head of Developer Relations at Outerbounds, the company behind Metaflow,
+  a tool for full-stack machine learning. He co-hosts the Vanishing Gradients podcast and has
+  developed more than 30 courses on DataCamp. His background is in applied mathematics and
+  biophysics, where he began teaching practical data science to researchers. Alexey invites him to
+  talk about developer relations, or DevRel, and how a data scientist could move into it.
+
+  Hugo describes his path from research to DataCamp, where he built Python courses and worked with
+  open source developers on the first pandas and scikit-learn courses. He then moved into
+  developer advocacy through writing, talks and a podcast, and later worked at Coiled, the company
+  behind Dask. He explains that DevRel is education in service of developers: helping people
+  understand how to use software and why. He calls this the wisdom layer, meaning the guidance and
+  documentation that surround a tool. He points to scikit-learn's documentation and the tidyverse
+  vignettes as examples. He also notes that DevRel overlaps with marketing, especially search
+  engine optimization.
+
+  Hugo says the core skills are technical depth, a desire to keep learning, the ability to explain
+  things simply, and a willingness to build community. Good writing is a differentiator, and he
+  recommends practicing it through collaboration, reading closely and recording or transcribing
+  spoken explanations. Alexey adds that AI tools such as ChatGPT can help with outlines, and that
+  Whisper transcription followed by a summary can give a useful first draft. For content planning,
+  Hugo starts with the audience and the goal, such as awareness, support for existing users or
+  credibility, before choosing the structure or the medium. He recommends evaluating blog posts,
+  conference talks and videos by their return on investment.
+
+  Hugo also describes trade-offs. DevRel engineers often do less internal data science, because
+  their projects serve content and community rather than business problems. In a growing company,
+  DevRel also educates sales and account teams, and it works with partner companies in an
+  ecosystem of interoperable tools. He points out that early-stage startups let people work across
+  many tasks, and that reporting lines vary, with DevRel sometimes sitting under marketing and
+  sometimes under engineering.
+
+  For practitioners, Hugo recommends building a portfolio on GitHub, giving a talk at a local
+  meetup before a conference, and experimenting to see which parts of DevRel suit you. Alexey
+  closes by inviting data scientists with business problems to speak at the DataTalks.Club meetup.

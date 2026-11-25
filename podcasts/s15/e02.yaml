@@ -154,3 +154,38 @@ resources:
   url: https://www.crowd.dev/post/top-6-books-on-developer-community-building
 - title: Which open source software metrics matter
   url: https://www.bvp.com/atlas/measuring-the-engagement-of-an-open-source-software-community#Which-open-source-software-metrics-matter
+summary: |-
+  Bela Wiertz invests in early-stage open source startups at a German family office focused on data,
+  AI and developer tooling. He has a business background and started at a company builder focused on
+  open source communities. Alexey invites him to explain how investors find, evaluate and fund open
+  source companies.
+
+  Bela explains the basic funding path. Bootstrapping means earning profit from the start, while
+  venture money lets founders focus on growth and hiring. Angel and pre-seed labels are blurry, and
+  his firm invests from pre-seed or seed, mainly in Europe, with about 80 percent of its deals in
+  developer tooling. Angels usually write smaller checks than family offices, and VC funds raise
+  money from outside investors. Founders should be able to say what they need the money for over
+  the next 12 to 18 months.
+
+  Due diligence focuses on the team, the size of the problem and whether the company can capture the
+  value that its community creates. Product market fit rarely exists at pre-seed or seed, so
+  investors ask whether the problem is real and whether the team can solve it. Bela talks with
+  founders several times, interviews users and checks with co-investors. He says GitHub stars are
+  useful for discovery but weak on their own. A project with 100 stars and 20 active people on
+  Discord every day can be worth more than one with 5,000 idle stars. Projects on GitHub Trending
+  are often already funded. Bela tries to keep at least two hours each morning for outbound
+  sourcing, including his own GitHub search queries, alongside inbound messages and co-investor
+  referrals.
+
+  Open core with a hosted version is the most common model among younger open source startups.
+  Enterprise licenses and support contracts also exist, but support revenue scales poorly with
+  headcount, which investors dislike. Bela is not dogmatic about licenses and wants founders to have
+  reasons for what stays open and what stays proprietary. Open source works as distribution, since
+  developers adopt a tool first and companies pay later. He suggests that founders who reach out
+  send a short message explaining why they fit his focus.
+
+  Bela considers open source still early, with few dominant open source market leaders so far. He
+  names Supabase, Hugging Face, Kong and Apollo as recent companies that raised large rounds, and
+  Gitpod, Qdrant and Deepset as German and European examples. For further reading he recommends an
+  article from Crowd.dev on community building books, a Bessemer Ventures piece on open source
+  metrics, and Zero to One by Peter Thiel.

@@ -126,3 +126,38 @@ resources:
   url: https://twitter.com/sandra_kublik
 - title: Youtube
   url: https://www.youtube.com/@sandra_kublik
+summary: |-
+  Sandra Kublik is an AI entrepreneur and community builder who co-wrote the book Building
+  Innovative NLP Products Using Large Language Models. She co-founded the Nextgrid accelerator and
+  the hackathon platform Lablab.AI, and she now works on community and education at Cohere. Her
+  path into GPT started with a YouTube channel, where she made videos about GPT-3 demos to get
+  early beta access. Alexey invites her to talk about business use cases for LLMs and how to build
+  products with them.
+
+  Sandra separates text generation models, such as Claude and Cohere's Command, from embedding
+  models, which help machines understand text. Generation covers copy, support chat and any task
+  where people converse with a model. Embeddings power memory for chatbots and semantic search,
+  which matches meaning instead of keywords. She compares LLMs to earlier platform shifts, such as
+  the web browser and the personal computer, and says the field is still at an early stage.
+  Alexey raises the risk of inauthentic social media copy. Sandra answers that the intent behind
+  such content already existed, and that LLMs make it cheaper to produce, so a person still has to
+  curate what gets published.
+
+  Hallucinations, twisted facts and off-brand wording are why she recommends a human in the loop.
+  She also points out that users often give models more authority than they have, which is why
+  models hedge with phrases such as "as an AI model." For specialist tools, she expects assistants
+  trained on specific domains, such as law, that can run locally. When building an app, she
+  suggests starting with the task, choosing between an open source model and a proprietary one,
+  and weighing cost, speed and data handling. Her advice is to try several models and compare
+  their outputs. Fine-tuning helps with domain lingo, and the choice of base model affects
+  whether that is possible.
+
+  On prompts, Sandra says results differ between models, so iteration and A/B testing with users are
+  necessary. Giving a few examples and as much context as the window allows usually works best.
+  Alexey notes that telling a model what not to do often fails, and that a clear description of the
+  desired outcome is more effective. Sandra also shared a seven-day experiment with LLM tools, which
+  she kept for email drafting and social posts, but not for creative work. Her view is that tasks
+  people find most annoying are the best candidates for automation.
+
+  For learning, she recommends Cohere's LLM University, the LLM handbook that her colleague Jay
+  Alammar is writing, and the Cohere blog.

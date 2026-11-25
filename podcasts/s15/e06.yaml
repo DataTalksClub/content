@@ -163,3 +163,38 @@ resources:
   url: https://www.youtube.com/watch?v=Bd1XtGZhnmw
 - title: New Frontiers in Causal NLP (papers repo)
   url: https://bit.ly/3N0TFTL
+summary: |-
+  Aleksander Molak is a machine learning researcher, educator and consultant who has designed
+  large-scale ML systems for companies in Europe, the United States and Israel. He is the author
+  of Causal Inference and Discovery in Python and works on bringing causal thinking to
+  practitioners. Alexey invites him to explain why causality matters for machine learning, and the
+  conversation moves from predictions to decisions, counterfactuals and the uplift models used in
+  marketing.
+
+  Aleksander explains that most machine learning models learn associations, which can mislead when
+  a hidden variable drives both sides of a correlation. His standard example is ice cream sales
+  and drownings, which are both driven by temperature. Predictive models can work well for
+  prediction, but decisions need counterfactuals, such as what a customer would have done without
+  a campaign. He recalls that Zillow's house-buying model failed when the market changed, because
+  machine learning models assume that new data looks like the training data. A T-learner, which
+  trains one model on treated customers and one on untreated customers, estimates the conditional
+  average treatment effect. Targeting then goes only to customers whose predicted outcome improves
+  with the campaign. Aleksander says that the estimates are only trustworthy when the data is
+  unconfounded, which requires a randomized experiment or careful causal feature selection.
+
+  A listener asks how to evaluate these models. Aleksander separates three levels: whether the
+  causal assumptions hold, whether the policy beats a baseline using a business metric, and whether
+  the estimators are accurate. Traditional cross-validation alone does not reveal causal bias. He
+  recommends deploying to part of the customer base and comparing against a baseline, and he
+  mentions refutation tests, which can falsify a causal model but never prove it correct. He also
+  says that causal models add complexity, so teams should decide whether a decision problem
+  justifies the extra model. A colleague's analysis showed that a company's marketing had lost money
+  for three years, which Aleksander cites as a reason to examine causal models.
+
+  On LLMs, Aleksander describes text as an outcome, a treatment or a confounder in an experiment.
+  A model can score the clarity of essays written after a workshop, or extract style from
+  marketing copy. He also mentions using an LLM as a feature extractor for unobserved factors,
+  while noting that labeling those factors is difficult.
+
+  For further reading, he recommends The Book of Why by Judea Pearl as a starting point, and his
+  own book for practical Python examples, aimed at people with three to five years of experience.

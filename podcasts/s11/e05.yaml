@@ -124,3 +124,36 @@ transcript: e05-transcript.yaml
 resources:
 - title: Data Teams book
   url: https://www.amazon.com/Data-Teams-Management-Successful-Data-Focused/dp/1484262271/
+summary: |-
+  Andrey Shtylenko is a Director of Engineering at Honeywell, where he leads the Advanced Technology
+  Group and has worked for five years. He started as a software engineer and later co-founded a
+  business that digitized retail coupon catalogs in Europe. His formal training is in organizational
+  development. He joined Honeywell as the company shifted from hardware toward software and
+  subscription services. Alexey invites him to discuss how to build a data science practice, which
+  Andrey describes as aligning teams on shared practices so that pilots reach production.
+
+  Andrey says the first step is to decide where the data function reports, because the executive
+  shapes the work. A CTO usually points data work at the product, a CIO at internal efficiency and a
+  CMO at marketing and sales, while a CEO sponsor spans all of them. He warns that hiring PhD data
+  scientists does not produce results by itself. Production also needs machine learning engineers,
+  data engineers and changed infrastructure, and it often takes around ten times as long as building
+  the first model.
+
+  Andrey describes three stages. In the crawl stage, a small team should deliver one end-to-end
+  project as a clear success, rather than ten projects that might fail and hurt the reputation of
+  data science. A centralized team then agrees on roles, job descriptions, cloud, tools and MLOps
+  practices. Central teams work like a resource pool and build queues, so the team later moves
+  toward embedded teams. Andrey favors a hub-and-spoke model, where engineers report to engineering
+  managers and product teams, while a central function handles hiring, infrastructure, vendor
+  procurement and image annotation.
+
+  On career paths, Andrey says a software engineer finds it hard to be hired as a data scientist
+  from outside. It is easier to convert internally by solving data problems, then asking for the
+  formal title after a few years. He says the switch is possible at any stage of a data
+  organization, though harder in a mature one. He warns that software engineers tend to
+  underestimate the distance from a demo to a model that holds up in production, and that roles such
+  as research scientist and machine learning engineer need to be kept distinct.
+
+  Andrey ends with advice on growth. People should learn what happens beyond their own role, because
+  promotions usually follow skills that someone already shows at the next level. He also promises to
+  share book recommendations on LinkedIn after the session.

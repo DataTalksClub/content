@@ -116,3 +116,35 @@ resources:
   url: https://www.evidentlyai.com/
 - title: Article
   url: https://medium.com/people-ai-engineering/design-documents-for-ml-models-bbcd30402ff7
+summary: |-
+  Valerii Babushkin is VP of Data Science at Blockchain.com and previously worked at Facebook
+  (Meta), Alibaba and X5 Retail Group. He co-wrote the book Machine Learning System Design. Alexey
+  asks him why ML system design often goes wrong, and the talk centers on the design document.
+
+  Valerii says the purpose of a design document is for a project to fail as early as possible, when
+  mistakes cost weeks rather than months. Asked how many projects he has seen start without proper
+  design documentation, Alexey answers nine and a half out of ten. The document should separate what
+  a team wants from what it needs, and it should be shared, because a plan kept in one person's head
+  drifts from what the team knows. Feedback can also show that no ML system is needed. Valerii
+  recommends the simplest option first, so an if statement beats linear regression, which beats
+  boosting, and so on.
+
+  A design document goes out of date quickly, so it must be treated as a living artifact, like code.
+  Valerii points out that without written accountability, team members each hold a different idea of
+  who owns which part of the system, and Alexey agrees. Valerii proposes naming an owner for each
+  chapter, so the person who knows it best updates it. He also describes the bus factor, the number
+  of people who must leave before a project stalls. Mapping owners shows where a team depends on one
+  person. He suggests counting design updates in performance reviews, while warning that any metric
+  gets gamed once people chase it.
+
+  The book is built around a 16-chapter outline, grouped into four parts from preparation to
+  integration and growth. Topics include metrics, datasets, a baseline solution, error analysis,
+  serving, and ownership and maintenance. For monitoring, Valerii describes data drift, concept
+  drift and prediction drift, and he says detection comes first, because a team cannot react to a
+  failure it does not see. A fallback can then take over, such as a model made of two or three if
+  statements, followed by a constant placeholder.
+
+  Valerii's main advice is to write down what the system needs and what the team wants, keep the
+  document alive, and name an owner for each part. Teams should also build a simple baseline before
+  a complex model, since skipping it can cost months. Monitoring and fallbacks belong in the later
+  stages, once a system already runs.

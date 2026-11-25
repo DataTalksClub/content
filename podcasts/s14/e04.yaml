@@ -171,3 +171,38 @@ resources:
   url: https://www.dama.org/cpages/body-of-knowledge
 - title: DMBOK Wheel describing the data governance activities
   url: https://www.dama.org/cpages/dmbok-2-wheel-images
+summary: |-
+  Bart is the CEO and co-founder of Raito, a company that builds data access management tools.
+  Before founding it, he was a senior product manager for data privacy at Collibra. Earlier he
+  consulted for banks at Deloitte on data governance. Alexey invites him to explain data access
+  management, which Bart describes as a security function that has landed with data teams. Once
+  data moves into one lake or warehouse, the separation between source systems disappears, so
+  access has to be managed at the dataset level.
+
+  Bart defines data governance as the activities that build trust in data, from data quality to
+  safe use of customer data. Older governance was top-down and created friction. The work is
+  shifting toward a grassroots model inside DataOps. A data catalog lists datasets and their
+  definitions, and lineage shows how data flows from source to report. Small teams can manage
+  access without a governance team, but once sensitive data and many consumers arrive, trust
+  starts to fade. Access management should come first, and the governance team forms later.
+
+  Bart argues that data engineers should not process access requests, because they know the
+  technology but not the business context or policies. He describes a workflow in which producers
+  tag datasets and define roles, consumers request access with a purpose and a time limit, owners
+  approve, and permissions are revoked automatically. Without revocation, access piles up as
+  excessive privileges and role explosion. Role inheritance, regular reviews and alerts for unused
+  roles help. For sensitive columns, he describes central policies that mask or filter data
+  automatically.
+
+  For debugging a broken production model, Bart says the fix is a process that grants access for
+  the investigation and removes it afterward. He sees privacy officers and CISOs as key
+  stakeholders, with the privacy officer checking that data is used only for agreed purposes and
+  the CISO preventing unauthorized access. To catch sensitive data, he points to tagging inside
+  DataOps and to active metadata tools that combine patterns with the context of the values.
+
+  Bart describes Terraform-based access scripts as a reasonable start that breaks at scale.
+  Permissions can drift when engineers change them directly in the warehouse, and data owners
+  cannot easily manage them. He recommends defining data products as code, then moving requests
+  and reporting into a dedicated tool. He favors starting from the current state with visibility
+  first, and changing access gradually. He notes that in-house tools are costly to maintain, and
+  that Raito CLI is open source.

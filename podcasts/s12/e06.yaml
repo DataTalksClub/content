@@ -128,3 +128,32 @@ quotableClips:
 transcript: e06-transcript.yaml
 
 resources: []
+summary: |-
+  Luke is a co-founder of Neural AI, a recruitment firm that places data scientists and other AI
+  professionals, mostly with early and mid-stage startups in Germany. He has more than a decade of
+  recruiting experience and hosts the AI Game Changers podcast about AI companies in Central
+  Europe. This is his second appearance on the show. Alexey invites him to walk through the stages
+  of a technical data science interview and explain how a recruiter prepares candidates.
+
+  Luke says he works as an embedded talent specialist with only two or three clients at a time,
+  and that demand for specialist machine learning roles has stayed strong despite layoffs in big
+  tech. He describes most processes as three stages: an intro call of 30 to 40 minutes, a
+  technical stage, and a final conversation with senior management. Before the intro, he suggests
+  looking at an interviewer's public profiles and talks to judge their communication style, then
+  matching it, while treating these signals as hints rather than facts. Candidates should also
+  prepare practiced answers about their background and projects, structured with the STAR
+  method (situation, task, action, result), without sounding rehearsed.
+
+  The technical stage usually mixes binary questions, what-if scenarios, examples from past work
+  and coding tasks. Luke recommends asking the recruiter what the expectations are, then splitting
+  preparation between core skills, which get most of the time, secondary skills, which get
+  about 20 percent, and ideal skills. Fundamentals should never be skipped, since a simple question
+  answered badly can raise doubts. Alexey describes his own approach of following each answer with
+  a deeper question. Luke says theory that does not match the job is not useful. If a candidate
+  bombs an interview but still wants the role, he says a retake after three or four weeks of
+  focused preparation is possible, though the retake can also go badly.
+
+  For applying within a company, Luke says a focused application is fine, but reaching out
+  directly to the right people works better than applying to many roles. For practice, he
+  recommends LeetCode, HackerRank, Codeforces, AlgoMonster and Educative. He plans to write an
+  interview preparation document, which will be added to the show notes.

@@ -158,3 +158,39 @@ resources:
   url: https://arxiv.org/pdf/2205.14120.pdf
 - title: Interpretable Feature Spaces paper
   url: https://kdd.org/exploration_files/vol24issue1_1._Interpretable_Feature_Spaces_revised.pdf
+summary: |-
+  Polina is a data scientist at SAP who speaks in a personal capacity, not for her employer. Her 
+  PhD was an industrial project with SAP at the University of Mannheim, where she built a churn 
+  prediction framework that uses organizational trust theory and explainable machine learning. 
+  Alexey invites her to talk about explainable and interpretable AI, including the trust theory 
+  behind it.
+
+  Polina describes the industrial PhD as two goals at once: research papers for the university 
+  and a model that had to run in production for the company. Much of the production work, such as 
+  deployment and pipelines, was not in the dissertation. She explains the trust framework as 
+  ability, benevolence and integrity, or ABI. Ability is the technical belief that software does 
+  what it needs to do, and it tends to stay consistent over a relationship. Integrity and 
+  benevolence grow through support and assurance during a subscription. She says she initially 
+  found neural networks disappointing on tabular churn data, so she moved to tree-based models 
+  with SHAP and LIME. Stakeholders also wanted more than a score.
+
+  The conversation turns to definitions. Alexey and Polina agree on three terms. An interpretable 
+  model, such as logistic regression, can be read directly from its coefficients. An explainable 
+  model can be a black box, paired with a method that shows why a prediction was made. An 
+  actionable model also tells the user what to do. Polina uses the image of curious cats to 
+  describe explainability: the question is who will ask follow-up questions. She says 
+  explanations should be tailored to the audience, since data scientists and decision makers need 
+  different levels of detail. She mentions generalized additive models and neural additive models 
+  as glass-box options, and she notes that SHAP only approximates a model.
+
+  On trust, Polina says it is hard to measure and mostly observable through proxy variables, so 
+  it should not become a KPI. Measuring it can conflict with privacy rules and with ethics. She 
+  suggests that the practical priority is to build a product with strong ability, and that 
+  proxies depend on each company's customers. Explanations can also help users feel more 
+  confident, and for large language models, pointing to source documents helps reduce 
+  hallucination concerns.
+
+  On choosing an industrial PhD, she suggests searching for PhD positions at large German 
+  companies and university cooperation programs. For practitioners, the lessons are to match 
+  explanations to the audience, to make explanations actionable, and to treat trust as a research 
+  question rather than a KPI.

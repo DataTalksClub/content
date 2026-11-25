@@ -165,3 +165,34 @@ resources:
   url: https://github.com/jmssalas
 - title: Website & Newsletter
   url: https://jmssalas.com
+summary: |-
+  José María Sánchez Salas is a computer scientist who works as a remote data engineer and writes
+  a daily data newsletter. He studied computer science in Spain, worked at several Spanish
+  companies, and now works for a Norwegian company from Norway. Alexey invites him to talk about
+  doing data engineering remotely, building IoT platforms and writing for an audience. José is
+  leading a small project to build an internal platform that collects sensor data from industrial
+  equipment, which he describes as a kind of operating system for sensors.
+
+  José describes a routine built around two focused work blocks of three to four hours, starting
+  early with a workout. He says that finding a fully remote job in Norway was harder than he
+  expected, because many companies wanted staff in the office at least once a week. Working alone is
+  the biggest challenge for him, and sharing a room with his work is another. He splits his living
+  room so that one part is only for work. Working with IoT data is also harder than typical software
+  work, because he cannot see the machines the sensors describe, and Alexey suggests that seeing the
+  equipment on site would help him understand where the data comes from.
+
+  On data work, José says the first step is to understand the business and why data is being
+  stored, then to explore the data and build pipelines. He currently works with colleagues who
+  connect and register new sensors, so he does not yet work directly with business stakeholders.
+  He started the newsletter because he finds writing easier than speaking to non-technical people.
+  It explains how people without a technical background can use data for business. He writes
+  daily, often splitting one idea across several emails, and draws inspiration from everyday
+  life. He believes repetition builds trust with readers, and the hard part is getting people to
+  subscribe.
+
+  José and his partner, a nurse on contracts in different parts of Norway, use remote work to
+  explore the country, and he has worked from Spain and Argentina because his company allows it. He
+  says it is hard to recommend a single resource, but he advises technical people to work on their
+  communication skills. Alexey adds that the best way to grow is to keep working on projects. José
+  suggests that a beginner start as a backend developer and take on small data projects, and he
+  notes that there is no point where someone becomes a master.

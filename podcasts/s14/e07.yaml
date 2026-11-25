@@ -122,3 +122,37 @@ resources:
   url: https://www.upsolver.com/
 - title: Why we built a SQL-based solution to unify batch and stream workflows
   url: https://wwwupsolver.com/blog/why-we-built-a-sql-based-solution-to-unify-batch-and-stream-workflows
+summary: |-
+  Santona started her career as a physicist at CERN, then worked in NLP and as an ML engineer
+  before moving into data workflow tooling. She worked at Astronomer, the company behind the
+  Airflow managed service, and now works at Upsolver, where she leads data engineering and
+  science. She calls herself a generalist. Alexey invites her to talk about the difference between
+  DataOps and MLOps and how data pipelines are structured.
+
+  Santona explains that the value of a pipeline depends on its application. An ML pipeline serves
+  a model that makes predictions, and its data engineering is focused on featurizing data for a
+  machine. An analytics pipeline models business entities and their relationships for people, so
+  it has many views and tables. Alexey compares the two to a specialized version of the same
+  pipeline, and Santona agrees that they share orchestration and often data, but their
+  architecture should follow the use case. She defines Ops as all the steps needed to deliver
+  value consistently to end users, whether the value comes from data or from a model.
+
+  She walks through a typical flow. Ingestion lands raw data in a staging area, and in managed
+  tools that staging is hidden. Cleaning steps such as deduplication, ordering guarantees and
+  masking of personal data happen at this stage. Transformation then links tables through keys and
+  models them around business questions. Dashboards and marts come further downstream, and she
+  suggests that stakeholders should bring questions to the data team rather than dashboard
+  requests. Alexey compares this to dbt, and Santona says dbt delegates execution to a warehouse,
+  while Upsolver offers its own engine, ingestion and a dbt connector.
+
+  Santona also explains how she moved from physics to Airflow. In particle physics she used cron
+  and a custom scheduler, so the tools were different but the concepts were the same. She advises
+  describing transferable work, such as filtering deeply nested event data and building features
+  from it, rather than naming specific tools. For learning, she relies on respected peers and
+  engineering blogs. She builds example pipelines around user pain points. She has heard that
+  Fundamentals of Data Engineering is solid, but warns that books date quickly.
+
+  For practitioners, the lessons are to design a pipeline around its application, to keep
+  ingestion and staging behind reliable abstractions, to model data around business questions, and
+  to treat questions, not dashboards, as the starting point for analytics work. Generalists who
+  close their skill gaps can move between data and ML roles.

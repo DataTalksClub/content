@@ -138,3 +138,33 @@ resources:
   url: https://www.cs.cmu.edu/~ckaestne/pdf/icse22_seai.pdf
 - title: Arxiv version
   url: https://arxiv.org/pdf/2110.
+summary: |-
+  Nadia is a software engineering PhD student at Carnegie Mellon University, where her department
+  is now called S3D. She began in software engineering in Bangladesh, worked in industry and at
+  the University of Dhaka, and has worked on software engineering for machine learning since 2020.
+  Alexey, who started his career as a Java developer, invites her to explain what this field is
+  and what researchers actually study.
+
+  Nadia says machine learning does not fit traditional software processes, because timelines are
+  uncertain, data exploration comes before modeling and models need monitoring after deployment.
+  Her first interview study, with 45 practitioners at mid-size companies, found problems with
+  unclear requirements, unrealistic expectations of machine learning as a magic box, poor or
+  inaccessible data, and disputes over who deploys the model. Teams also used different
+  vocabularies, so "performance" meant response time to a software engineer and accuracy to a data
+  scientist.
+
+  Her current work analyzes open source machine learning products. The dataset has about 300
+  repositories, and her team has studied 30 of them so far against six questions. These cover the
+  order in which models and products are built, how contributors collaborate, testing, operations,
+  responsible AI and code structure. Many open source repositories are libraries or notebooks
+  rather than end-user products, so finding complete products is hard. She also describes a Yale
+  project on explanations for health and school applications, where a classroom game feeds a risk
+  score, and parents, teachers and counselors each need a different explanation.
+
+  Alexey asks about process, and Nadia says that CRISP-DM and agile do not fit together well, so
+  teams end up running two separate processes. Common team structures are siloed data scientists,
+  shared model code, APIs and all-in-one teams, which work only in small groups. Her
+  recommendations are workshops, explicit shared vocabulary, documentation such as Model Cards,
+  and engineering support through MLOps. Her advice for agile teams is to involve machine learning
+  people from the requirements stage onward. Alexey suggests a machine learning canvas and
+  checklists, and she promises to share resources for the show notes.

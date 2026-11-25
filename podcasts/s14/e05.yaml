@@ -162,3 +162,38 @@ resources:
   url: https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/
 - title: Kafka Streaming with python by Khris Jenkins tutorial video
   url: https://youtu.be/jItIQ-UvFI4
+summary: |-
+  Antonis is a freelance data scientist who works at Nanometrisis, a Greek startup that builds 
+  software for inspecting nanoproducts, where he is one of four active members. He studied 
+  applied mathematics and physics, then nanotechnology in Greece, and he worked on a professional 
+  doctorate in engineering in the Netherlands. He also takes freelance machine learning and 
+  analytics projects on Upwork. Alexey, who knows him as an active DataTalks.Club member, invites 
+  him to talk about freelancing and startups.
+
+  Antonis chose the startup over a corporate offer after weighing pros and cons on his own. He 
+  values the breadth of startup roles, where he helps with clients, business decisions and 
+  branding, and the need to organize his own work and deadlines. He says startup work taught him 
+  communication, because technical results have to be explained to managers and clients, as well 
+  as business knowledge. He describes lean thinking as building on assumptions, testing them 
+  quickly and learning from the results. He applies the same thinking to ML products, where data 
+  and concept drift need monitoring.
+
+  Antonis came to DataTalks.Club through a friend and first took part in the MLOps course. His 
+  project predicted chip failures and used MLflow, Prefect, Grafana and Evidently, and he found 
+  Prefect easier than Airflow for his needs. He later made a how-to contribution to Evidently 
+  during Hacktoberfest. On Upwork, he started by building a basic profile, applying to jobs and 
+  asking for feedback. He found that better cover letters and attachments, such as a PowerPoint 
+  of his own projects, improved his results.
+
+  On pricing, Antonis weighs the client type and the value of his own time. Small, simple tasks 
+  may be priced lower, and projects that teach new skills may be worth a lower rate. Projects 
+  start with a data inspection to confirm that the data matches what the client described, then a 
+  clear milestone plan with regular feedback. Freelancers must register in their own country to 
+  invoice, and the paperwork can take time.
+
+  For the data engineering course, Antonis built a streaming pipeline that collected YouTube 
+  metrics into BigQuery and displayed them in Looker, until API quota limits stopped it. His 
+  advice to new students is to do the exercises, stay patient, complete the final project and 
+  share it in public. For freelancers, he recommends iterating on profiles every day and choosing 
+  projects they enjoy. His reading list includes The Lean Startup, Lean Analytics and Designing 
+  Machine Learning Systems.

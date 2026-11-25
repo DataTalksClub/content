@@ -157,3 +157,34 @@ resources:
   url: https://www.youtube.com/playlist?list=PLIhvC56v63IKioClkSNDjW7iz-6TFvLwS
 - title: Course from MIT talking about just that (command line, git, storing secrets)
   url: https://missing.csail.mit.edu/
+summary: |-
+  Tomasz Hinc is a DataOps specialist in Poznan, Poland. He started at OLX as a machine learning
+  intern and then worked as a junior data engineer and data scientist. Repeatedly needing cloud
+  resources drew him toward operations. He describes DataOps as helping people work effectively
+  rather than doing the work for them. Alexey invites him to explain the role and how to learn it.
+
+  Tomasz says data scientists often underestimate operations. A model may need a much faster
+  prediction time or an output format the business can consume, and an analyst may need to trace
+  failed ETL jobs before presenting results to leadership. Platform teams should review requests and
+  guide people, not do the work for them. Because most of the effort in a data product goes into
+  operations rather than modeling, he moved in that direction.
+
+  Infrastructure as code with Terraform and Terragrunt replaces clicking in a cloud console. Tomasz
+  and Alexey walk through GitOps. A change goes into a branch and a merge request, Atlantis shows a
+  dry run of the Terraform changes, and an SRE approves it before it is applied. Alexey recalls that
+  at OLX, installing the tools locally was the main obstacle for data scientists, and Tomasz prefers
+  to sit with newcomers on a Zoom call and go step by step. He says helping people became more
+  important to him than writing Terraform.
+
+  For learning, Tomasz advises narrowing the scope. AWS has over 200 services, but a data team may
+  need only around 20, such as IAM, EC2, S3, Kinesis and EMR. He suggests asking teams for the tasks
+  they dislike, such as tagging resources, and starting with small steps like pushing a Docker image
+  to a registry. He recommends Git, a password manager, a well set up command line and a grasp of
+  IAM roles, since most errors are access denied.
+
+  He says DataOps involves more calls and Slack than coding, with about 25 hours a week of Zoom
+  calls in his time, and that any data background is suitable. One large project moved almost 600
+  workloads from Jenkins to GitLab CI. A debugging story showed that an unpinned psycopg version
+  pulled a newer library that broke the application, which is why fixed versions matter. On
+  confidence in results, he says green Airflow jobs can still insert zero records, so that should be
+  checked before presenting findings.

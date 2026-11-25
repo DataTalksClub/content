@@ -162,3 +162,37 @@ resources:
   url: https://github.com/stiebels
 - title: Medium
   url: https://medium.com/@sistel
+summary: |-
+  Simon has been building ML platforms for more than five years. He started in research on 
+  computational advertising at the Vienna University of Economics and Business, then worked as a 
+  consulting data scientist, where his team built a deployment and serving platform for client 
+  models. He later worked at bol.com and then at TMNL, the Transaction Monitoring Netherlands 
+  initiative of the big five Dutch banks, as Lead MLOps Engineer. Alexey invites him to talk 
+  about what MLOps means and how to build an ML platform.
+
+  Simon describes MLOps as people, processes and technology. Feature stores, experiment trackers 
+  and model registries are the visible tools, but the work starts with understanding how models 
+  are developed, deployed and served. A platform should reduce the cognitive load on product 
+  teams that own their models. He ranks infrastructure and cloud knowledge first, then software 
+  engineering, then an understanding of how data scientists work, since the last is easiest to 
+  learn on the job. Teams work best with a mix of specialists and people who moved over from data 
+  science.
+
+  Simon outlines a typical workflow: pulling data into a notebook, provisioning compute on 
+  demand, tracking experiments, registering models, and serving them online or in batch. Alexey 
+  suggests that batch should come first when most models run in batch. Simon warns that a managed 
+  batch option, such as SageMaker batch transform, may not fit cost or performance needs, and 
+  that custom work loses built-in features such as bias checks. He argues against building 
+  experiment trackers from scratch, since they are a commodity. Teams should integrate tools 
+  instead. A thin layer over a cloud platform can take months to build, and a thicker one is 
+  needed if models must move between providers.
+
+  Regulation changes the design. In fintech, auditability, security and compliance raise the bar. 
+  Reproducibility requires tracking data versions, code and metadata end to end, not just storing 
+  models. Logging full datasets for every run becomes costly and makes GDPR deletion requests 
+  hard to fulfill. Simon argues that a business case should come before a large platform. Alexey 
+  adds that a consistent prediction log schema across use cases makes monitoring easier.
+
+  For practitioners, the advice is to start with the process rather than the tool, to build a 
+  platform only after a handful of use cases, and to integrate commodity tools. Simon recommends 
+  Practical MLOps and points to the MLOps Zoomcamp as a place to learn by building.

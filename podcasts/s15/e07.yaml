@@ -153,3 +153,35 @@ resources:
   url: https://www.linkedin.com/company/marvelous-mlops/
 - title: Website
   url: https://marvelousmlops.substack.com/
+summary: |-
+  Maria Vechtomova is an MLOps tech lead and manager with almost 14 years in data. She started as
+  a data analyst, built an early MLOps system at a Dutch telecom company and now works at Ahold
+  Delhaize, where she standardizes machine learning deployment across brands. She also co-writes
+  the Marvelous MLOps blog. Alexey invites her to discuss pragmatic and standardized MLOps, the
+  practical side of the course he runs.
+
+  Maria defines MLOps as a set of practices that lets data scientists bring models to production
+  themselves, with a central team that provides infrastructure, reusable CI/CD pipelines and
+  monitoring. She argues that the problem in most large organizations is structural rather than a
+  lack of tools. The ever-growing MAD map of machine learning, AI and data tools creates a fear of
+  missing out, but companies usually already have Git, CI/CD, Docker registries and Kubernetes. Her
+  minimal setup covers version control, CI/CD, a Docker registry, a model registry, a deployment
+  target and monitoring, while feature stores can wait. Artifactory or S3 with metadata can serve as
+  a simple registry when a team cannot support MLflow.
+
+  Her MLOps maturity assessment is a spreadsheet of about 60 questions on documentation,
+  reproducibility, code quality and testing. For a startup, she puts reproducibility, version
+  control and traceability first, so that every run can be traced and rolled back. She says that a
+  model running in a scheduled notebook without version control should not count as production. Her
+  team at Ahold Delhaize built cookie-cutter repositories that create a project with a working CI/CD
+  pipeline, using service principals and permissions tied to a GitHub group. Data scientists move
+  logic out of notebooks into packages. The build took less than half a year with three experienced
+  ML engineers, while convincing others and winning DevOps permissions took about a year.
+
+  Maria says that getting buy-in meant making the pain visible. The team assessed every model it
+  could find, showed that most scored near zero, and wrote a data science framework that internal
+  audit now checks. Monitoring and A/B testing are the next standardization targets, but they depend
+  on the tool choice of the DevOps team. On LLMs, she calls the current LLMOps wave largely hype
+  for her retail context, because costs are high, GPU capacity is scarce and smaller languages
+  perform worse. She recommends learning by doing, pairing with software engineers, and
+  understanding the principles more than any single tool.

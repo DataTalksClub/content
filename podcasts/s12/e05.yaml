@@ -166,3 +166,36 @@ resources:
   url: https://www.linkedin.com/in/paulineclavelloux/
 - title: Blog about Indiehacking
   url: https://aboutstartup.io
+summary: |-
+  Pauline is a data science manager and consultant at IBM, where Alexey says she has worked for
+  eight years. She is also an indie hacker who runs side projects in crypto and generative AI in
+  her free time. Alexey invites her to explain indie hacking, which Pauline defines as building
+  and monetizing projects without external funding.
+
+  Pauline describes her consulting work at IBM, which covers banks, aerospace and automotive
+  clients. One project took two years and built a system to detect money laundering from past
+  transaction data. Her side projects started with Cryptopy, a crypto alert tool she and a
+  developer friend built in Python with Flask after using it for their own trading. Launching it
+  to other traders failed, mainly because they could not reach that audience and influencers
+  cost money. Setting up the company, a landing page, terms of use and a payment system took
+  time. They chose alerts over automated trading because automation was legally complicated.
+  Running costs were about 10 euros a month.
+
+  Her second project, UnrealMe, was inspired by a DreamBooth-based service that generates new
+  portraits from a few selfies. They used an API for fine-tuning instead of their own GPUs, so
+  they could launch within a few weeks, and they built storage, delivery and payments around it.
+  Their first sale came from a Black Friday deals list before the official launch, and most later
+  sales came through Twitter. Each fine-tune cost about 15 euros, which made low prices hard.
+  The sales were not enough to be ramen profitable, the basic target for indie hackers. Pauline
+  says customer acquisition is the main challenge, and she grew a Twitter following to about
+  10,000 in roughly half a year by sharing both data science and indie hacking content.
+
+  Pauline keeps ideas in a Notion list, usually from frustration with existing tools. She checks
+  competitors and whether her team has the skills before building. Her current projects include
+  AboutStartup.io, a blog with interviews of indie hackers, and a Twitter analytics tool. She cites
+  Pieter Levels, who has built around 70 projects, as a reason to keep trying. Her side work has
+  taught her GCP, data engineering and social media marketing, and some of it helps her at IBM.
+
+  Her advice is to validate an idea with a simple landing page before building, to target a niche
+  market and to plan promotion from the start. She expects many attempts to fail. For inspiration,
+  she recommends AboutStartup.io and the Data Sense blog.
