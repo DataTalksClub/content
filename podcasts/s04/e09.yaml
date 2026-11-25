@@ -148,3 +148,36 @@ quotableClips:
 transcript: e09-transcript.yaml
 
 resources: []
+summary: |-
+  Marco De Sa is chief data officer at OLX Group, where Alexey also works. He studied computer
+  science in Portugal, then took a master's in information systems and a PhD focused on user
+  research. He was a research scientist at Yahoo, then moved to Facebook and Twitter. At Spotify he
+  led data science and marketing analytics teams. He joined OLX after moving back to Europe. Alexey
+  invites him to explain what a chief data officer does.
+
+  Marco describes the CDO role as defining the group's data strategy. That covers infrastructure
+  and governance, which data the business will need, how data is shared across the group's
+  companies, and how AI and machine learning build better products. He says the traditional view
+  of a CDO, centered on governance, operations, innovation and analytics, is outdated, because
+  data should drive product and business strategy and not just report on it. He also stresses
+  collecting data for products that do not exist yet. He sees his job as joining the pillar leads'
+  teams into a single vision.
+
+  On career progression, Marco says the shift from head of data to CDO is less about skills than
+  about where you spend your time. It means moving from execution to strategy, enabling people and
+  hiring people who are better than you. Strategy is the broad plan, and tactics are the steps taken
+  along it. He separates a CDO from a VP of data by scope. The CDO sits on the executive team, works
+  with the CPO, CTO and CFO, and treats data as a driver of the business.
+
+  For goal setting, Marco works backward from a shared company goal, identifies the blockers and
+  chooses the bets with the highest impact. One example is replacing several data platforms with a
+  common one so that teams move faster. He gives teams ownership and checks progress against agreed
+  metrics. He reduces a heavy meeting load through documentation, structured scheduling and Slack.
+  He says a data-driven culture is everyone's job, but the CDO makes data accessible and easy to
+  use. Working remotely, he has never met his team in person, which makes relationships harder.
+
+  Marco says a CDO does not need an MBA or deep expertise in every technical area, but benefits
+  from a broad understanding. The key soft skills are communication, empathy and inspiring people.
+  When facing resistance, he advises understanding the objection, turning the idea into a testable
+  hypothesis and staying open to being wrong. He calls OLX's biggest challenge its complexity
+  across regions and business lines.

@@ -182,3 +182,36 @@ notes: "The topic today is the processes in a data science project. We want to u
   \ in production."
 
 resources: []
+summary: |-
+  Alexey Grigorev, a lead data scientist at OLX Group, leads a discussion on processes for machine
+  learning projects, recorded as a podcast without slides. He argues that a process helps a team
+  stop unpromising projects early and iterate faster. He presents CRISP-DM, short for Cross
+  Industry Standard Process for Data Mining, an IBM methodology from the 1990s that still applies
+  with some corrections. He applies it to the running example of suggesting categories for listings
+  on a classifieds site.
+
+  The method has six steps. In business understanding, the team checks that the problem is worth
+  solving. Moderators could report that about 10 percent of listings end up in the wrong category,
+  and that moderators spend time moving them. The objective becomes cutting that moderator time by
+  50 percent, and the data scientist confirms that machine learning fits. In data understanding,
+  the team has listing titles and descriptions, but access to images is hard, so they continue
+  without images. Data preparation produces one table of features and the target. Modeling starts
+  with a simple baseline, such as a rule that a title containing iPhone maps to mobile phones, and
+  then a real model scored with metrics such as accuracy, precision, recall, F1 or AUC.
+
+  In evaluation, the team applies the model to five percent of new listings for a week or two and
+  measures whether moderator time on corrections falls. The result can meet expectations and lead
+  to deployment, fall short and lead to another round of improvement, or show no gain,, and the
+  project may stop. Deployment rolls out the solution to all users, and machine learning and site
+  reliability engineers focus on reliability, monitoring and alerting. Alexey recommends starting
+  with a heuristic, completing one full pass through the process to evaluation, and then adding
+  simple machine learning. Deep learning for text or images comes only after a reliable baseline
+  runs in production.
+
+  Data collection is part of data understanding. Alexey cites a comment that labeling data
+  correctly is one of the hardest parts of machine learning. He suggests training a model on the
+  training set and reviewing its mistakes, since these often point to wrong labels. Vladimir asks
+  whether business metrics should be checked against model metrics before A/B testing. Alexey
+  answers that without a model this is impossible, so a simple solution is rolled out first, and
+  once a model exists, its predictive metrics can be linked to business metrics. CRISP-DM can be
+  adjusted for small teams.

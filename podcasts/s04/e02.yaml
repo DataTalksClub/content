@@ -172,3 +172,37 @@ resources:
   url: 'https://cookbook.learndataengineering.com/'
 - title: 'Course'
   url: 'https://learndataengineering.com/'
+summary: |-
+  Andreas Kretz is a data engineer from Germany who calls himself "the plumber of data science".
+  He started as a software engineer in an industrial IoT project that analyzed machine data, which
+  led him into big data and Hadoop. He now teaches data engineering full time through his academy
+  at LearnDataEngineering.com. Alexey invites him to answer a question he hears often from data
+  scientists, namely how they learn to build data pipelines.
+
+  Andreas says companies that started with proofs of concept now need to automate them, which
+  increases demand for engineers. He suggests hiring one data scientist and one engineer early, so
+  the engineer can plan how a prototype becomes a product. He says the hard part for a data
+  scientist is designing the platform and choosing a few tools instead of twenty, since each extra
+  tool adds maintenance work.
+
+  In his model, a pipeline has five parts, namely ingestion, a buffer such as Kafka or Kinesis,
+  processing, storage and visualization. Streaming reacts to events as they arrive, while batch
+  processing stores data first and handles it later. He advises data scientists who know Python to
+  stay with it, using Flask or FastAPI for APIs rather than switching to Java or Scala. Processing
+  can run on Spark, Flink, Lambda functions, AWS Glue, or a Python script in a Docker container.
+
+  Using a car price prediction example on AWS, they discuss moving from a notebook to production.
+  Andreas suggests putting the notebook code in a Docker container, scheduling it to retrain
+  regularly, and storing the model in S3. For simple schedules, CloudWatch can trigger a Lambda
+  function that starts the container, without a full framework like Airflow. For chained SQL
+  steps, Andreas suggests a simple message queue first, and moving to Airflow once logging and
+  monitoring become necessary. His advice is to build something simple first and add complexity
+  later.
+
+  To learn, Andreas recommends reading the documentation of a tool, searching for tutorials that
+  match your goal, and testing it in a development environment. For an internship, he says Python,
+  SQL and basic networking are enough, while a junior data engineer role usually needs experience
+  on a platform, most often AWS. Hadoop is declining, though cloud platforms offer similar
+  functions. He advises small Kaggle datasets and public documentation of projects on GitHub. On a
+  zero budget, he suggests building a local proof of concept and putting a revenue estimate on it,
+  because stakeholders respond to money.

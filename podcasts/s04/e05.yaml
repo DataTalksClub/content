@@ -142,3 +142,37 @@ notes: 'Links:
 resources:
 - title: 'Ben''s book'
   url: 'https://www.manning.com/books/machine-learning-engineering-in-action'
+summary: |-
+  Ben Wilson is a Practice Lead Resident Solutions Architect at Databricks, based in North
+  Carolina. He is the author of Machine Learning Engineering in Action, a Manning book that is in
+  early access. He spent about twelve years in the US Navy, then worked in process engineering and
+  manufacturing before moving into data science, which he describes as applied statistics under a
+  newer name. Alexey invites him to talk about running from complexity, the habit of reaching for
+  sophisticated methods when simpler ones would do. Ben says his job is to solve the customer's
+  problem, and that simple solutions are easier to maintain.
+
+  Ben names two reasons projects never reach production. One is no business buy-in, and the other
+  is solutions that are too complex or too expensive to run. He describes a team that applied deep
+  learning to churn prediction on a terabyte of data, when a probabilistic model could run on the
+  same data in minutes. When he faces an unfamiliar problem, he asks experts and communities
+  instead of relying on search results, which he says are often full of sponsored hype.
+
+  Ben argues that data science siloed from the business rarely delivers value. Model output almost
+  always needs business rules on top, and subject matter experts catch problems and suggest better
+  features. If a model cannot be explained to the business in plain terms, he says, it is probably
+  too complicated. He recommends a timeboxed prototype that takes a couple of days, sold first to
+  the people who own the process, then to an executive sponsor. Alexey connects this to the IKEA
+  effect, which Ben says can also attach teams to overbuilt systems.
+
+  On novel algorithms, Ben advises reusing proven architectures, such as transfer learning on a
+  CNN, and checking whether someone has already solved the problem. He warns that published
+  research is often hard to reproduce, and that results can depend on cluster size. Many business
+  problems can be solved with SQL, bucketing or statistical methods, and teams earn credibility by
+  delivering those first. He agrees that companies often need at least one deep statistician and
+  engineers who can code.
+
+  For team practices, Ben recommends Scrum-like sprints that each deliver a working, if rough,
+  model, with placeholders as simple as a hand-coded rule. Timeboxing research keeps teams from
+  spending months on one idea. For careers, he suggests mastering Bayesian modeling, tree ensembles
+  and generalized linear models within the first two years. Specialization often comes after several
+  years, and he considers generalists successful too.

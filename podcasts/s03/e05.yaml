@@ -158,3 +158,37 @@ resources:
   url: https://nextround.cc/
 - title: LinkedIn
   url: https://www.linkedin.com/in/olegnovikov/
+summary: |-
+  Oleg Novikov built NextRound, a free service with a chatbot for practicing data science
+  interviews and receiving personalized feedback. He started as a software engineer, became
+  interested in recommender systems through the Netflix Prize, and completed a PhD on recommenders.
+  He later managed data science teams at Uber, including forecasting work on customer lifetime
+  value. Alexey hosts the conversation and asks about generic rejections.
+
+  Oleg says generic rejection emails are what motivated NextRound. Hiring one person can mean
+  interviewing about twenty candidates, and detailed feedback takes time. Candidates may react
+  badly to direct criticism, and legal concerns can narrow what is said. His practice interviews
+  draw on situations he saw as a manager, such as balancing an important model against urgent
+  stakeholder requests. The service has run more than 500 practice interviews for data scientists
+  and product analysts.
+
+  A typical process starts with a recruiter who checks CV fit and salary expectations. Some
+  companies then send a take-home assignment that takes a few hours, followed by three to six
+  rounds with potential colleagues, including the hiring manager. Roles differ widely. A product
+  data scientist focuses on A/B tests and SQL, while a machine learning engineer codes and deploys
+  models. Oleg's main advice is to read the job description closely and tailor the CV to it.
+
+  Oleg treats the CV as a landing page that has a few seconds to persuade a reader. The recruiter's
+  job is to decide whether to set up an interview, so candidates should cut irrelevant experience
+  and describe their personal contribution precisely, such as what they decided, rather than only
+  saying they improved a model. Personal details such as age, photo and address are irrelevant and
+  can be left off. He has not heard of tools that reject candidates automatically. Parsing mainly
+  structures data, and the number of applicants is the real filter.
+
+  On case studies, Oleg suggests starting from the business goal, defining terms such as churn in
+  measurable ways, and then explaining the data, the modeling choice and the evaluation. Candidates
+  should name the limitations of their methods and be ready to implement ideas in SQL or Python.
+  After a rejection, he recommends asking for feedback and reapplying to another team right away, or
+  to the same role after a few months. Competing offers give the most negotiation power. A
+  candidate without industry experience can treat the search as a cold start problem
+  and build a project that solves a real problem for the target company, then write about it.

@@ -180,3 +180,35 @@ resources:
   url: 'https://www.scling.com/reading-list'
 - title: 'https://www.scling.com/presentations'
   url: 'https://www.scling.com/presentations'
+summary: |-
+  Lars Albertsson is the founder of Scling, a data engineering company in Stockholm. He worked on
+  video conferencing infrastructure and engineering productivity at Google from 2007, then joined
+  Spotify's core data infrastructure team in 2013. He later worked as a freelance consultant. Alexey
+  invites him to explain DataOps and how it differs from other "Ops" practices.
+
+  Lars describes DataOps as three parts that work together: enabling teams to build their own data
+  pipelines, a workflow layer that manages dependencies between pipelines, and a people component in
+  which developers, analysts and data engineers work on the same goal rather than passing work over
+  a wall. At Spotify, the team built tooling so that any team could deploy a pipeline to production
+  in under a day and fix one within an hour. He compares this to DevOps and to the shift from
+  waterfall to integrated teams, and says that security is still a blocker in many companies for the
+  same reason.
+
+  The technical foundation is a data platform built on immutable data. Lars explains that data
+  should be stored raw and never changed, and that each transformation produces a new dataset, as in
+  functional programming. This makes results reproducible even when a job runs at a different time.
+  He describes a data lake as object storage holding raw files, which becomes a swamp without
+  governance, and separates personal data so that GDPR requests can be handled. He recommends a
+  small set of components, namely storage, compute such as Spark or a managed warehouse, and a batch
+  workflow orchestrator, with Luigi as a simple example. He calls the lakehouse an anti-pattern that
+  breaks immutability, although he accepts it as a transition path for existing warehouses.
+
+  On latency, Lars argues that batch processing with orchestration is often easier to run than
+  streaming, and that it can reach latencies of a few minutes. Streaming is needed for interactive
+  or sub-second use cases such as some fraud detection. He adds that an explicit dependency between
+  batches makes results predictable, while streams can give different results when they arrive at
+  different times. On MLOps, Lars says it mixes the same competencies as DataOps, with added
+  concerns such as running models in parallel and tracking model quality. On data mesh, he says it
+  is useful only for large organizations with a working data platform, and that decentralizing too
+  early can recreate silos. He recommends tracking lineage in code and using change data capture for
+  databases. His resources are the Scling reading list and the book Practical DataOps.

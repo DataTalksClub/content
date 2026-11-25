@@ -417,3 +417,33 @@ notes: 'Today we''re talking open source with our guest, **Vincent Warmerdam**. 
   can replicate it. It''s a two-way bridge: community ↔ research.'
 
 resources: []
+summary: |-
+  Vincent Warmerdam is a Research Advocate at Rasa, the open source conversational AI company. He
+  studied design, then econometrics and operations research, and moved into data science after a
+  free Stanford AI course and work at a Hadoop company. He is also an organizer of PyData Amsterdam
+  and the creator of the calmcode.io tutorials. Alexey invites him because of his many open source
+  packages and wants to know how someone starts contributing to open source.
+
+  Vincent describes his role as a mix of developer advocacy and research. He helps companies build
+  virtual assistants on Rasa, especially in non-English languages, and passes user problems to the
+  research team. His open source work follows an itch he wants to scratch. EVIL, an evolutionary
+  algorithm library, made genetic algorithms easier to use. Clumper, Memo, Psychic Lego, HumanLearn
+  and WhatLies each solve a narrow problem. He names packages by describing what they do, starting
+  from silly names generated with MakeNames.io. He keeps his packages low-maintenance, and he says a
+  package does not need many users to be worth publishing.
+
+  For newcomers, Vincent recommends starting with a small library rather than pandas or
+  scikit-learn, where new algorithms must stand the test of time. Open an issue on a tool you use,
+  explain the problem clearly, and check with maintainers before writing code. A first contribution
+  can be a small fix, a documentation improvement or an anecdote for a project such as Dion, a
+  checklist for machine learning projects. He suggests learning Git, GitHub, pytest, flake8, black,
+  pre-commit hooks and continuous integration. Good projects have a clear onboarding path, with a
+  README, guides, an API reference and examples. Contributors should avoid all caps and keep
+  discussions polite, since maintainers do this work as volunteers.
+
+  On careers, Vincent says talks are a strong way to show skills. Teaching and entertaining are both
+  valued, and a simple talk about linear regression was his most viewed. Visibility from meetups,
+  free trainings and conferences led to job offers more than applications did. He also suggests that
+  companies can use open source as employer branding, and that a small project can help a team show
+  what its engineers build. Vincent is cautious about his own advice, since most of his offers came
+  through CTOs who reached out to him.

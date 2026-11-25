@@ -145,3 +145,34 @@ quotableClips:
 transcript: e02-transcript.yaml
 
 resources: []
+summary: |-
+  Elle O'Brien is a data scientist at Iterative, the company behind DVC and CML, and a lecturer at
+  the University of Michigan School of Information. She moved from neuroscience research, where she
+  built computational models, into data science. Alexey invites her because he noticed developer
+  advocacy in her profile and wants to understand the role, especially in data science.
+
+  Elle describes how she got the job. A weekend project that trained StyleGAN on videos of herself
+  in different outfits went viral on Twitter. She then said she was looking for work, and
+  Iterative's CEO, Dmitry, offered her a DevRel role. Her work covers the CML product launch,
+  tutorials, docs, pull requests such as a Bitbucket Cloud integration, conference talks, videos
+  every few weeks and blog posts. Each new feature needs a small, reproducible data science example,
+  which can take a couple of days. As a team of one, she plans around releases and fills the gaps
+  with timeless videos. A post that trends on Hacker News or Reddit can take up a whole day of
+  answering questions.
+
+  Elle says the job description Alexey found, which asks for a community built from scratch along
+  with talks, content and a voice in product development, combines two different jobs. Community
+  work needs constant real-time presence, while content needs focused solo time. She suggests
+  separating strong content creators from community managers. She also describes the downsides:
+  online abuse, fear when a post trends, and the need to choose communities carefully. She prefers
+  Twitter and data science Slack groups to Hacker News and r/MachineLearning. She keeps her online
+  presence minimal and treats a break from Hacker News as a valid need.
+
+  Elle says that learning and teaching are the key skills, and that clear, simple communication
+  builds credibility more than knowing everything. A formal technical background is not required.
+  Her advice is to start a blog on a platform such as Medium or Towards Data Science about something
+  you are learning, then share it on Twitter and r/bloggers. She says she does not believe in cheap
+  views or growth hacking, and the Divi owl mascot is a recurring feature of her videos. Blogging
+  and community work are the closest test of fit, although turning a hobby into a job changes it.
+  Her university plans include lectures and short YouTube videos, and she keeps copyright on her
+  materials so they stay free for students outside the university.

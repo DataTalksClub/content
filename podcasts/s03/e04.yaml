@@ -175,3 +175,35 @@ resources:
   url: 'https://g.page/akkawy'
 - title: 'The Eatery Berlin'
   url: 'https://g.page/theeateryberlin'
+summary: |-
+  Lior Barak is a data strategist with more than 12 years of experience building data teams. He
+  started before Google Analytics existed, worked on marketing data at Zalando, and held project and
+  product roles at the dating app Lovoo. He runs the podcast WHAT the Data?!, leads the company
+  Tale about Data, and wrote a book about bridging business and data teams. Alexey hosts the
+  conversation and asks what a data strategist actually does.
+
+  Lior describes the role as sitting between data engineering, data science and the business so
+  that both sides speak the same language. Much of the friction comes from definitions, such as
+  what counts as an install or a session, and from low trust in the numbers. He recommends sending
+  short automatic messages when a dataset is broken or ready, so that people do not use bad data.
+  For forecasts, a small dashboard that exposes the inputs lets people check the numbers
+  themselves, and confidence levels make the uncertainty visible.
+
+  Embedding is the other main practice. Lior has data people spend a day or two with the teams who
+  use their work, such as recruiting or marketing. In one case, a bidding process that took five or
+  six clicks was replaced by an API and a simple front end that took about a week to build. Alexey
+  describes a similar lesson from building moderation tools at OLX. Lior argues that data is a
+  leading function for growth, not only an enabling one. When a colleague resists change, he
+  suggests a hackathon, a side project, or a one-week trial.
+
+  On building, Lior favors a sequence: start with a small prototype that solves a real problem
+  within a week or two, then move to agile, and later to OKRs once the work is stable. Ugly code or
+  a spreadsheet is acceptable if it proves value, and the team can rebuild it once a business owner
+  depends on it. Lior explains this with a hummus metaphor. Canned chickpeas give a quick version
+  of the dish, but the real taste takes much longer, so stakeholders need to understand the
+  difference.
+
+  Communication improves when silos break down. Lior suggests joining other teams' chat channels
+  instead of attending every meeting, and sharing work with them before announcing it. His closing
+  advice is that data people should bring structure to the chaos of data requests, educate users,
+  and lead the company's growth.

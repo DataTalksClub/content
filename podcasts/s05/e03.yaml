@@ -145,3 +145,35 @@ resources:
   url: https://towardsdatascience.com/how-to-apply-your-hard-earned-data-science-skillset-812585e3cc06
 - title: Adam's article about standing out
   url: https://towardsdatascience.com/how-to-stand-out-as-a-great-data-scientist-in-2021-3b7a732114a9
+summary: |-
+  Adam Sroka is head of machine learning engineering at Origami Energy. He did a physics PhD at
+  the University of Strathclyde modelling high-power lasers, where he first used reinforcement
+  learning to design laser components. He later worked for an online retail start-up, in insurance
+  pricing, and at the consultancy Incremental Group. Alexey invites him to talk about metrics and
+  KPIs.
+
+  Adam advises starting to measure before finding the perfect metric, and quotes Peter Drucker's
+  line that what cannot be expressed in numbers cannot be managed. A threshold metric is a number
+  that must stay on one side of a limit, like the specifications for his laser work. When several
+  metrics compete, he combines them into a merit function, a weighted sum that gives one score. To
+  prioritise projects, he plots impact against cost, scores both from 0 to 10, and starts with
+  high-impact, low-cost work. He also covers weighted revenue in sales pipelines, and burn-down
+  rate in professional services, which he links to maintainability of earnings.
+
+  Adam describes KPIs as the few measures that leadership uses to drive behaviour, aligned top-
+  down with company strategy. Vanity metrics such as lines of code measure what is easy to count
+  rather than what matters. Alexey's returns example raises the risk of gaming a KPI, so Adam
+  suggests competing KPIs, such as sales and returns together, and reporting both numbers to
+  audiences who may not follow a derived metric. For a grocery chain, the workshop starts by
+  asking what the organisation is trying to achieve, because a charity's goals differ from those
+  of a growth-focused chain. Adam suggests a North Star metric, such as minutes listened on
+  Spotify, plus a handful of KPIs reviewed after six to twelve weeks.
+
+  Threshold metrics must stay above or below a line, such as a churn ceiling of 5 percent. Health
+  metrics, such as downtime, allow some leeway. For data teams, Adam advises converting model
+  results into pounds or seconds, since a chief executive cares about a monthly revenue gain more
+  than an accuracy score. To test a model in production, insurance and SaaS companies often run
+  champion-challenger tests, sending a random 5 percent of customers to a challenger model and
+  changing one thing at a time. Where experiments are impossible, simulation or backtesting
+  against historical data can help. For team management, Adam timeboxes work into two-week spikes
+  with a fixed budget and no guaranteed result, and reports what was tried and how it performed.

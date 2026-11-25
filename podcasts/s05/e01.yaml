@@ -162,3 +162,36 @@ resources:
   url: 'https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/'
 - title: 'Algorithms specialization by Tim Roughgarden'
   url: 'https://www.coursera.org/specializations/algorithms'
+summary: |-
+  Marcello La Rocca is a senior software engineer at Tundra, an online shop. He has worked as a
+  web developer and on data infrastructure at Twitter, Microsoft and Apple, and he is the author
+  of Advanced Algorithms and Data Structures. Alexey asks him how people can learn algorithms
+  without using them every day at work, and about the Bloom filters and approximate nearest-
+  neighbour search covered in the book.
+
+  Marcello says learners should focus on what an algorithm solves and when to use it, rather than
+  on memorising it or on mathematical proofs. He recommends MIT's video lectures, Tim
+  Roughgarden's Coursera course and Grokking Algorithms. He stresses basic structures such as
+  arrays, lists, sets, stacks and queues, and says it helps to know each API and roughly how it is
+  implemented. He disagrees with web developers who think they do not need algorithms, since using
+  a list for containment checks instead of a set can slow an application badly. To practise
+  outside work, he suggests competitions such as Google Code Jam and profiling applications to
+  find bottlenecks that a known algorithm can fix.
+
+  The book bridges textbook theory and hands-on use, with a real use case for each structure.
+  Marcello explains that a Bloom filter tests membership in fixed memory, at the cost of rehashing
+  and occasional false positives. In a crawler, a false positive only means a page is processed
+  again. Alexey describes an adtech project that used Bloom filters to find returning users by
+  device ID, where a false positive meant showing an unneeded ad. For nearest-neighbour search,
+  Marcello says binary search trees do not generalise to multi-dimensional data, and KD-trees
+  struggle with high dimensions. R-trees and SS-trees allow approximate search, which is often
+  good enough. Alexey describes an OLX recommender that compares 16-dimensional vectors using
+  Faiss, and Marcello calls it a perfect use case.
+
+  On libraries, Marcello says you usually need the contract and guarantees rather than the
+  internals, and you look inside to tune performance or to customise. Alexey's team reimplemented
+  Bloom filters so that Python, Java, Go and JavaScript could read the same serialised filters
+  with matching hash seeds. On interviews, Marcello says algorithm-only questions miss skills like
+  Git and debugging, and Alexey calls a Facebook interview with two problems in 35 minutes too
+  cruel. Marcello sees Python as ideal for data science and C++ for production performance, and
+  Alexey notes Cython keeps code in Python while gaining native speed.

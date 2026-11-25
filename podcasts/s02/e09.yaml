@@ -142,3 +142,36 @@ resources:
   url: 'https://linkedin.com/in/vineetvashishta'
 - title: 'https://databyvsquared.com/'
   url: 'https://databyvsquared.com/'
+summary: |-
+  Vin Vashishta has worked in technology for more than 25 years, from early programming and
+  networking to product management, and has focused on data science and machine learning strategy
+  for about seven years. He describes his work as helping companies decide how to turn models into
+  revenue. His LinkedIn headline says he monetizes machine learning. Alexey invites him to explain
+  which roles and skills a team needs for that work.
+
+  Vin defines monetization as the process of moving machine learning from experiments into products
+  that pay for themselves. Machine learning is expensive because it needs specialized people and
+  infrastructure, so companies need a strategy that ties projects to revenue. Vin says executives
+  speak in terms such as annual recurring revenue (ARR) and monthly recurring revenue (MRR), and
+  data scientists must translate their model results into those terms. He suggests reading the
+  quarterly reports and investor material to learn which metrics a business cares about. He adds
+  that a company's business model, not only its accuracy, determines which numbers matter.
+
+  Vin proposes three roles to add to a data science team. A machine learning product manager
+  combines strategy and machine learning knowledge, translates business problems into use cases,
+  writes business cases and makes kill or greenlight decisions at gates. A machine learning
+  researcher produces artifacts such as models and datasets, which can be reused across projects.
+  Vin separates applied researchers from scientists, and he says that a researcher works from a
+  hypothesis, tests it with experiments and explains results rather than relying only on statistics.
+  A machine learning architect designs the platform, estimates the cost of running a model in
+  production, and decides between building and buying. Alexey summarizes the roles, and Vin confirms
+  that the product manager is the business lead while technical people lead the technical
+  discussions.
+
+  Vin says that startups often begin when an angry user with a real problem meets a data scientist
+  who can build a solution. Candidates for these roles usually come from data science, machine
+  learning engineering or software architecture, and they upskill over time. Vin believes companies
+  should build internal paths for people whose roles are being automated, and that universities
+  should focus on fundamentals. He says an MBA is not required for a product manager. To measure
+  adoption, he suggests tracking how long users take to become experts, how many tasks they still
+  perform and how decision quality changes, then linking these numbers to revenue or cost savings.

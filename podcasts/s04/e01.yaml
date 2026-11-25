@@ -171,3 +171,37 @@ resources:
   url: 'https://gumroad.com/svpino#kBjbC'
 - title: 'Pinned tweet with a roadmap'
   url: 'https://twitter.com/svpino/status/1400798154732212230'
+summary: |-
+  Santiago Valdarrama is a director of computer vision solutions at Levitas, where he leads a small
+  team of software engineers and machine learning engineers. He studied computer science in Cuba,
+  moved to the United States in 2009, and completed an online master's degree at Georgia Tech. He
+  shares practical machine learning content on Twitter. Alexey invites him to talk about moving
+  from software engineering into machine learning. Santiago prefers the phrase adding machine
+  learning to your skill set, because software engineers already provide a lot of value.
+
+  Santiago argues that software engineers start halfway there. Students who fell behind in a machine
+  learning course usually lacked coding skills, not math skills. He says math becomes more important
+  the deeper you go, but it is not as scary as it looks. Alexey turns matrix formulas into nested
+  loops, and Santiago tries to explain what a formula does before worrying about its details.
+  Santiago prefers a problem-first approach to a top-down one that starts with years of theory. He
+  compares this to programmers who sort lists without knowing the algorithm behind it, and he
+  rejects the idea that you must understand every algorithm before using it.
+
+  His seven lessons, first posted as a Twitter thread, include taking action instead of
+  overpreparing, treating learning as a marathon, joining a community, and building things with what
+  you learn. On coding, he says analysis matters most, but value is delivered through code.
+
+  For tools, he recommends starting with Python, then NumPy, Pandas, a plotting library such as
+  Matplotlib, and scikit-learn. He points to Kaggle's introductory tutorial on the Titanic dataset,
+  which uses decision trees, and to Google's free Machine Learning Crash Course. Andrew Ng's
+  Coursera course gives more theory, and Alexey says he started his own career with it. Santiago's
+  book picks are Deep Learning with Python by Francois Chollet and Hands-On Machine Learning with
+  Scikit-Learn, Keras and TensorFlow. Alexey mentions his wife's Selenium bot that applies to
+  LinkedIn jobs as a project that needs no machine learning at all.
+
+  Santiago describes the machine learning lifecycle as scoping, data, modeling, deployment and
+  monitoring, and says engineers often touch several of these steps. For deployment he recommends
+  DevOps skills such as building APIs with Flask or FastAPI, containerizing them with Docker, and
+  learning a cloud provider as projects demand. On data science, Santiago sees machine learning as
+  the hands-on side, while Alexey treats it as one tool within data science, like a hammer in a
+  carpenter's toolbox.

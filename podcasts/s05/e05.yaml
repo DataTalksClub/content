@@ -160,3 +160,35 @@ resources:
   url: 'https://twitter.com/mihail_eric'
 - title: 'http://confetti.ai/'
   url: 'http://confetti.ai/'
+summary: |-
+  Mihail is a machine learning consultant and the founder of Confetti.ai, an educational platform
+  for data science and engineering careers. Before that he was a senior machine learning scientist
+  at Amazon Alexa. He studied neuroscience and AI at Stanford and worked in the NLP group, then
+  joined the self-driving startup rideOS as one of its early employees. He says he moved into
+  engineering-heavy work to become a better engineer. Alexey asks him how ML researchers and ML
+  engineers can learn from each other.
+
+  Mihail describes researchers as hypothesis-driven, working on open-ended problems that are
+  usually measured on shared benchmarks such as ImageNet or SQuAD, and tracking experiments in
+  tools such as Weights & Biases. Their ideas often come from survey papers and the future work
+  sections of papers. ML engineers, by contrast, own the full lifecycle, including deployment,
+  uptime and monitoring. He says modelling may take only a fraction of an engineer's time, while
+  Docker, a cloud provider and a web framework such as FastAPI do much of the work. He also
+  describes data science as moving from hiring sprees, which he calls Data Science 1.0, to
+  building systems that deliver commercial value, which he calls Data Science 2.0, where the work
+  is more engineering than science.
+
+  Mihail says researchers can learn rigour from engineers, such as testing, static typing and the
+  habit of working across the full stack instead of waiting for others to set up cloud resources.
+  Engineers can learn to handle uncertainty and to run experiments with clear logs. He warns
+  against a throw-it-over-the-wall approach, where a model handed from research to engineering is
+  hard to debug. He prefers embedded teams, but notes that these also form silos unless leaders
+  push active collaboration. He says full-stack data scientists help young ML organisations, and
+  that for many business uses, 90 percent accuracy plus a human in the loop can be enough.
+
+  For researchers, Mihail advises deploying a model to a cloud provider and asking an experienced
+  engineer for line-by-line code review. Engineers can read papers, try to reproduce a state-of-
+  the-art result and track their experiments, then ask a researcher to explain hard parts. On
+  career choice, he suggests trying both research and engineering early, through internships or
+  lab work. Alexey says his master's thesis showed him that research was not his main interest.
+  Mihail encourages undergraduates to ask PhD students to join their research.

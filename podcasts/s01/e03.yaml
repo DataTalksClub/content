@@ -271,3 +271,36 @@ resources:
   url: 'https://www.eisenhowerlibrary.gov/eisenhowers/quotes'
 - title: 'Machine Learning (Coursera) by Andrew Ng'
   url: 'https://www.coursera.org/learn/machine-learning'
+summary: |-
+  Dat Tran, co-founder and CTO of Priceloop, a pricing startup, talks with Alexey about building
+  and scaling data teams. He came to machine learning from economics and investment banking, where
+  VBA scripts saved him hours of copy-and-paste work. After a machine learning course, he worked at
+  Accenture, then at Pivotal, where he learned to put models into production and to think about
+  day-two operations and maintenance. He later led a data team at Idealo, built an AI team at Axel
+  Springer, and left to found Priceloop with Richard Schwenke.
+
+  Dat describes hiring in stages. An early startup needs generalists and experienced engineers
+  first, because there is no code yet. Priceloop started with machine learning engineers who are
+  close to software engineers, then added product managers and data engineers, and designers only
+  once there was work for them. At Idealo, the team was mid-maturity, so it needed specialists who
+  could still work with data engineers. Culture matters as much as hiring. Dat wants short feedback
+  loops, customer-centric product work and fast iteration, and he encourages open source
+  contributions, articles and conference talks through one-on-one coaching and by example.
+
+  For data scientists, Dat looks first at coding skill, then at whether a candidate fits the team's
+  gaps. Math, open source work or a Kaggle competition can be signals of how someone works under
+  pressure. The first interview covers experience and ten basic machine learning questions. The
+  take-home assignment shows small habits such as consistent quotes, clear naming and
+  well-structured code, which Dat considers good predictors of future work.
+
+  Dat prioritizes projects with a two-by-two matrix of business impact against technical
+  feasibility, then works on the top three rather than one, so a single failed project does not
+  sink the team. He advises iterating fast and cutting ideas that do not work. Retention depends on
+  fair pay and interesting projects, avoiding micromanagement. He also says leadership needs
+  education about what AI can and cannot do. For a company with poor data, he recommends hiring
+  data engineers first and collecting data, which can take six months to a year.
+
+  The main lessons are to match the team to the company's maturity, to build a culture of ownership
+  and open sharing, and to pick a few high-impact, feasible projects and fail fast on the ones that
+  do not work. Dat also argues that good product managers should be technical, and that corporate
+  IT in a tech company becomes a DevOps role.

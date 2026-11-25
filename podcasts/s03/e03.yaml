@@ -151,3 +151,35 @@ resources:
   url: 'https://www.montecarlodata.com/how-to-make-your-data-pipelines-more-reliable-with-slas/'
 - title: 'Data Observability: The Next Frontier of Data Engineering'
   url: 'https://www.montecarlodata.com/data-observability-the-next-frontier-of-data-engineering/'
+summary: |-
+  Barr Moses is CEO and co-founder of Monte Carlo, a data reliability company. She began her career
+  as the commander of a data analyst unit in the Israeli air force, later worked as a management
+  consultant with data science teams, and then built the customer data team at Gainsight. That work
+  exposed what she calls data downtime, periods when data is wrong, late or missing, and it led her
+  to found Monte Carlo. Alexey hosts the conversation and asks what data observability borrows from
+  DevOps.
+
+  Barr explains that software observability rests on metrics, logs and traces. Data systems differ
+  because much data work runs as batch jobs, and a pipeline can finish with every job green while
+  the data is wrong. Examples include a table that arrives with a fraction of its rows, values that
+  suddenly turn NULL, or a schema change that breaks downstream jobs. She argues that these
+  problems follow recognizable patterns and proposes five pillars: freshness, volume, distribution,
+  schema and lineage. Lineage maps upstream and downstream dependencies, which shows who is
+  affected when something breaks.
+
+  Barr says monitoring is a subset of observability. Monitoring detects that something is wrong,
+  while observability helps explain why and what depends on the broken asset. For ownership, she
+  describes RACI, in which one team does the fix, one person is accountable, and others are
+  consulted or informed. Small teams often have one data engineer doing everything, while large
+  organizations move toward decentralized ownership with self-serve platforms. Alexey notes that a
+  data scientist is usually informed and sometimes consulted. Historical data can supply default
+  freshness and volume expectations, with overrides where needed.
+
+  Barr describes a maturity curve from reactive firefighting, to proactive basic checks, to
+  automated and scalable detection. Alexey suggests SQL counters and timestamp checks can get a
+  team started, and Barr places that stage between proactive and ad hoc. On testing, she argues
+  that tests and monitoring are both needed. Tests catch failure modes someone has thought of,
+  while monitoring catches the unknown unknowns. Alerts should focus on events that matter, such as
+  tables with many downstream dependencies, because an unusual value can still be intentional. Open
+  source tools cover individual pillars but not all five, and Barr has not seen a strong tool that
+  reconstructs table-level lineage automatically.

@@ -132,3 +132,34 @@ resources:
   url: https://join.slack.com/t/integratedmlai/shared_invite/zt-r3hpj44k-gfhf1pzIt3jixrATyXCWnQ
 - title: Thom's LinkedIn
   url: https://www.linkedin.com/in/thomives/
+summary: |-
+  Thom is a data scientist with a PhD in mechanical engineering from Texas A&M. He has worked as a
+  multiphysics engineer and data scientist at HP, ON Semiconductor and UL, where he was lead data
+  scientist for the Prospector SaaS database. He now runs the integrated machine learning and AI
+  community, with Saturday mentoring sessions and a Slack group approaching 1,000 people. Alexey
+  invites him to talk about business acumen for data professionals, a topic Thom says he learned
+  the hard way.
+
+  Thom advises data scientists not to try to become domain experts. Instead they should ask
+  leaders what worries them, build a matrix of business needs against current data assets, and
+  then collect the data that is missing. He recommends delivering a rough end-to-end version
+  quickly, a "tracer bullet", and getting frequent feedback from business users. He argues that
+  the return on data matters more than how many models reach production, and that data
+  storytelling and feature importance can add value before any model is deployed. Alexey
+  summarises this as building something rough, showing it to users and iterating.
+
+  On data quality, Thom says that governance belongs to everyone, and that missing values should
+  be treated as a business problem, since they waste modelling time. He distinguishes data-driven
+  businesses from data-informed data scientists, and presents the whole process as a feedback
+  system. In the modelling pipeline he covers feature conditioning, feature selection, scaling,
+  and engineered features that can reveal business processes, as Alexey does with a "meaningful
+  conversation" feature at OLX. When features are collinear, he uses principal component analysis
+  as a last resort, and he prefers the simplest model that performs well. In production, he
+  expects data drift and concept drift, so models need constant review and possible retraining.
+
+  Thom says that networking matters more than technical skill. Once, an email he sent to senior
+  stakeholders, copying several others, led to a formal presentation. Thom says a short private
+  conversation over lunch or a beer would have been more productive. He recommends frequent
+  informal check-ins, asking for feedback on how well explanations land, and keeping them
+  informal. He says remote teams can do the same with short video calls and shared jokes. His
+  community's motto, "more together", encourages members to help each other grow.

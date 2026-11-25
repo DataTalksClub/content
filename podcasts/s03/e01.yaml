@@ -183,3 +183,35 @@ notes: 'We talked about:
 resources:
 - title: 'Notes prepared by Ksenia with all the info'
   url: 'https://www.notion.so/ksenialeg/DataTalks-Club-7597e55f476040a5921db58d48cf718f'
+summary: |-
+  Ksenia Legostay is a data science manager at momox, where she moved from fraud detection to
+  marketing analytics. She holds a math degree from Russia and a management degree, then spent four
+  years as a project manager in e-services, government services, travel and telecom. A master's
+  degree and three years of fraud and anomaly detection research followed. She has worked as a data
+  scientist since 2019. Alexey hosts the conversation and asks how a project manager moves into
+  data science.
+
+  Ksenia's interest in data began with customer-centric decisions made as a project manager. She
+  sees analytics as the study of historical data and data science as forecasting, with analysis as
+  the base of any data science project. Strong math and statistics made university a good route for
+  her: the courses rose in difficulty, came with feedback, and she applied them in a research lab.
+  Her coursework covered machine learning, artificial intelligence, time series and graph theory.
+  For self-study, the episode recommends mlcourse.ai, a free course by Yury Kashnitsky run once a
+  year through the OpenDataScience community.
+
+  Project management gives a head start in planning, since a data science project still needs
+  milestones, a roadmap and a schedule. Defining success in business terms matters as much, because
+  managers and boards understand revenue, margin and churn better than model metrics. Ksenia
+  advises translating every distribution into a business question, framing the problem before
+  solving it, and being proactive between engineering and business.
+
+  For tools, the path starts with drag-and-drop programs such as Tableau and Trifacta, then moves
+  to Python with pandas and matplotlib. Kaggle notebooks help learners reproduce other people's
+  work, and communities such as DataTalks.Club and OpenDataScience provide questions and feedback.
+  Production skills such as Git, testing, Docker and clean code are mostly learned on the job.
+  Reading job descriptions early shows which skills employers ask for.
+
+  Her thesis modified node2vec to look for money laundering and fraud in loan networks, which
+  helped her target companies in that field. After university she sent around 50 applications and
+  received three offers. Her advice is not to be discouraged by a long search, and to stay active
+  and keep learning.

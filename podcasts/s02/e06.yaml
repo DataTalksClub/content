@@ -127,3 +127,35 @@ quotableClips:
 transcript: e06-transcript.yaml
 
 resources: []
+summary: |-
+  Dan Becker is the founder and CEO of Decision AI and a former Google data scientist and early
+  employee at DataRobot. He started working with machine learning around 2000 at a startup that
+  optimized eBay listings, then competed on Kaggle and placed second in a competition. Alexey
+  invites him to explain decision optimization, which turns model predictions into better business
+  decisions.
+
+  Dan explains decision optimization with an airline example. A model predicts how many tickets will
+  sell at each price, and the goal is to choose the price that maximizes revenue over the time left
+  before departure, since lowering prices too early can reduce later sales. The same idea applies to
+  binary classification. A fraud model returns a probability, but the right action depends on the
+  value at stake. A 10 percent chance of fraud on a 500 euro claim has an expected value of 50
+  euros, so a fixed probability threshold can give poor results. Dan suggests asking the business to
+  assign a monetary value to each true and false positive, then calculating the expected value for
+  each threshold.
+
+  The approach then extends to a full decision function. Dan describes a simulator that combines
+  several models, such as fraud, user reaction and lifetime value, and tests candidate decision
+  rules before deploying them, through A/B tests where possible or a sandbox where not. Alexey asks
+  whether this conflicts with the purpose of machine learning, and Dan answers that predicting what
+  will happen is different from deciding what to do about it. Dan says that many decision rules are
+  easier to encode by hand from domain knowledge than to learn, and that Decision AI's tool lets
+  teams write these rules in a domain-specific language and deploy them as a REST endpoint. He says
+  that writing this logic in raw Python is slow to iterate and hard to maintain.
+
+  Dan's advice is that data scientists should lead the work and bring in the product manager. Start
+  by asking which metric the business cares about, such as daily active users or revenue, and map
+  the model's predictions to it. Accuracy is only a tool for that goal. He also notes that
+  recommendation systems at very large scale often do not need a separate decision layer, because
+  the decision logic is already built into the model. For supply chains and other tabular problems,
+  he warns about concept drift, because historical data may not reflect current conditions. Model
+  monitoring, explainability such as SHAP values and regular refreshes help manage that risk.

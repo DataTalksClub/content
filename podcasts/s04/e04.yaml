@@ -172,3 +172,36 @@ resources:
   url: https://www.linkedin.com/in/elenasamuylova/
 - title: Elena's Twitter
   url: https://twitter.com/elenasamuylova/
+summary: |-
+  Elena Samuylova is co-founder and CEO of Evidently AI, which builds open source tools for machine
+  learning model monitoring. She has worked on startups and machine learning for about nine years,
+  beginning with an ecommerce search startup in Berlin. She then ran a startup accelerator at
+  Yandex, worked at Yandex Data Factory, and co-founded an industrial AI startup that applied
+  machine learning in manufacturing. Alexey invites her back to discuss how to build a machine
+  learning startup.
+
+  Elena's first advice is not to start from the technology. A grocery store with out-of-stock items
+  may lack shelf data rather than need better forecasting. She warns against a hammer in search of a
+  nail, and suggests finding ideas in problems you see in your own work or by teaming up with a
+  domain expert. She also cautions against chasing an original idea that nobody needs. For co-
+  founders, she recommends working with someone before you start together, checking personal
+  compatibility and expectations, and considering founder-market fit.
+
+  Before launching, she says co-founders should be honest about their commitment and about the kind
+  of company they want to build. Venture-backed startups target large markets and fast growth, while
+  service businesses can be profitable but cannot raise venture capital. Investors expect a few bets
+  to return many times their money, so most startups fail, and founders should be prepared for that.
+  Non-technical founders can test ideas with no-code tools such as Airtable, Bubble or Webflow.
+  Technical founders can build a minimal product and talk to users, and Elena says to keep
+  interviewing until you stop hearing new things, which in her example was around ten conversations.
+
+  On open source, Elena says it allows small releases and fast feedback, and that bottom-up adoption
+  by engineers can later lead to enterprise sales. Open core keeps some features for paid enterprise
+  versions. Cloud providers hosting a project as a service is a known risk, which some companies
+  address with licenses that forbid it. Alexey notes that open source also makes it easier to avoid
+  sending data to a vendor, and Elena agrees that you can run such tools on your own hardware.
+
+  Elena advises hiring only after product-market fit, when demand is clear and business needs
+  justify more people. She describes her own role as chief everything officer, covering content,
+  investor conversations and company setup. Her final advice is to build a startup out of genuine
+  interest, rather than for hype or the attention that comes with it.

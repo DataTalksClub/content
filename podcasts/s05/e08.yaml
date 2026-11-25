@@ -142,3 +142,35 @@ resources:
   url: https://locallyoptimistic.com/post/linear-and-circular-projects-part-1/
 - title: Linear vs Circular Projects, part 2
   url: https://locallyoptimistic.com/post/linear-and-circular-projects-part-2/
+summary: |-
+  Caitlin is VP of data and business operations at Trove Recommerce, which helps brands buy back
+  and resell their products. She previously led data teams at a crowdfunding company and a self-
+  publishing company, and she began her career in private equity. She also co-founded the Locally
+  Optimistic Slack community. Alexey invites her to explain the "last mile" of data, the stage
+  where data has to change what people decide.
+
+  Caitlin borrows the term from delivery, where the final stretch to the customer is often the
+  most complex and costly part. Modern data tools are like railroads. They move data to the
+  warehouse and make it easy to transform, but the last mile is getting a team to change its
+  decisions. She says data products are products, so people adopt them only when the benefit
+  exceeds the cost of using them. Most barriers are social, not technical, and they come from
+  incentives, skills and trust. Her advice is to treat adoption as user research. If nobody uses a
+  dashboard, the team should ask whether people know it exists, know how to use it, or find that
+  it does not answer their real question, and then either teach or simplify.
+
+  Caitlin gives an example from A/B testing. Her team set a default significance level and let
+  power users change it, so decision-makers saw only significant or not significant with an
+  explanation. Alexey describes OLX showing too much statistics and then trimming it. Both agree
+  the gap is a communication problem. Caitlin recommends working backwards from the decision a
+  user needs to make, and building low-fidelity sketches on paper or whiteboards so people feel
+  free to criticise them. Proof of impact can come from proxy measures, such as a stopwatch time
+  study on manual warehouse work, even if it is not a rigorous experiment.
+
+  To drive change, Caitlin suggests starting with a narrow slice, such as one salesperson's
+  decision, and building a clear success story. She recommends using financials to find high-
+  impact questions, looking first at the biggest cost centres, and choosing an advocate who
+  already wants data before approaching a sceptic. She advises pitching upside rather than
+  savings. Alexey suggests marketing as an easy starting point, since marketers already use data.
+  On uncertainty, she distinguishes linear projects from circular ones, where you do not know
+  whether the data can answer the question until you dig in, and she says to set expectations,
+  break work into small steps and celebrate what is learned.

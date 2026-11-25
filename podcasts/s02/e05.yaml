@@ -298,3 +298,39 @@ notes: "In this episode, we dive deeper into feature stores with Willem, creator
   \ where feature stores help and where they might not be the right solution."
 
 resources: []
+summary: |-
+  Willem Pienaar is an engineering lead at Tecton and the creator of Feast, an open source feature
+  store. He grew up in South Africa and studied mechatronic engineering, built a networking company
+  and worked on control systems and cloud solutions in Asia. At Gojek in Singapore he was the first
+  engineering hire for the data science team and led the team that built its ML platform for about
+  four years. Alexey invites him to explain what feature stores do and why they attract so much
+  attention.
+
+  Willem defines a feature store as an operational data system built for machine learning. It moves
+  features from offline environments into production, keeps online and offline data consistent, lets
+  data scientists ship features without engineers, and provides version control and reuse of
+  transformation code. Companies usually consider one when features are duplicated across projects.
+  Feast does not handle transformations, while Tecton does. A typical setup reads raw streams,
+  warehouses or lakes, applies transformations with Spark, SQL or Python, and materializes the
+  results into a low-latency store such as Redis or DynamoDB. Retrieval happens through an API
+  rather than SQL. Willem names five components: a transformation engine, offline and online
+  storage, a serving layer, a registry and monitoring.
+
+  Willem says part of the hype comes from competition for skills, while Alexey adds that vendors
+  promote their products. Willem argues that MLOps still solves real problems. Many of the hardest
+  issues are organizational, such as data scientists waiting on engineers or teams building the same
+  features separately. Alexey proposes a central platform that includes a feature store, and Willem
+  agrees. Feature stores suit tabular data for online models, such as fraud detection,
+  recommendations or user risk scores. They are less useful for batch scoring, and for images or
+  text they add little.
+
+  For small teams, Willem says a feature store is not needed at the start. It becomes valuable when
+  models are iterated on, several use cases share features, and teams work independently. Willem
+  says Spark suits Feast because of its ecosystem and connectors, and that Flink may be stronger
+  technically. Backfilling depends on the tool: with Feast the upstream pipeline handles it, while
+  Tecton recomputes features from a start date after a transformation changes. Feature ownership
+  should start with data scientists, with a central team stepping in when features are reused
+  widely.
+
+  To learn more, Willem suggests the MLOps community, Tecton's blog posts and the Feast
+  documentation, then running Feast locally with Docker Compose and its example notebook.

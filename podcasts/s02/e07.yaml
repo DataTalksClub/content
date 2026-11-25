@@ -163,3 +163,35 @@ resources:
   url: https://www.linkedin.com/posts/datawithdanny_datascientist-data-activity-6767988552811847680-GzUK/
 - title: Technical debt paper
   url: https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html
+summary: |-
+  Danny Ma, who calls himself a recovering data scientist, has spent about five years in data
+  science, after starting in campaign analytics at Quantium, a data consulting firm in Australia. He
+  learned Python at 5am while working in analytics, then joined a bank's data science team and later
+  worked on cloud-based attribution models for a retailer. Alexey invites him to explain his ABC
+  framework for data science careers. Danny builds on the Airbnb article that described two types,
+  analyst and builder, and adds a third, consultant.
+
+  Type A, the analyst, comes from analytics, statistics or research backgrounds. The analyst is
+  strong in exploration, visualization and storytelling, and adds programming and theory as needed.
+  Type B, the builder, is closer to a software engineer who works on production systems, cloud
+  infrastructure, pipelines, tests and MLOps. Type C, the consultant, combines both, with strong
+  stakeholder engagement and persuasion, and often leads teams. Danny warns that people without both
+  technical experience and communication skills can end up in leadership roles and struggle to judge
+  technical decisions. He sees data engineers as closest to type B.
+
+  Moving from A to B happens in two ways: being forced into production work, or seeking out
+  experienced engineers and mentors. Danny suggests learning Git, Docker and a cloud platform in
+  small steps, and asking colleagues for code reviews. He also recommends building a portfolio of
+  public projects with clean code, a README and a requirements file, because experience is hard to
+  show without one. He says that learning theory is best done after a project shows the need, and
+  that the papers in library documentation, such as scikit-learn, are good sources. For a learning
+  path, Danny suggests SQL first, then R or Python, statistics, traditional machine learning, and
+  deep learning last. Alexey asks whether to start as an analyst or a builder. Danny answers that
+  the choice depends on background, since software engineers stand out as builders while analysts
+  with strong programming can compete.
+
+  Danny is cautious about bootcamps, which can be valuable for people with time and money, but
+  rarely produce quick career changes. He describes an ideal team as a consultant or product lead, a
+  tech lead, a data lead who understands the business data, one or two analysts and builders, and
+  someone responsible for measuring the value of the work in business terms. He is building the
+  Serious SQL course, which he presents as the first part of a longer apprenticeship program.

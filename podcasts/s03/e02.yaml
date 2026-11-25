@@ -122,3 +122,37 @@ resources:
   url: https://twitter.com/andradaolteanuu
 - title: https://www.linkedin.com/in/andrada-olteanu-3806a2132/
   url: https://www.linkedin.com/in/andrada-olteanu-3806a2132/
+summary: |-
+  Andrada Olteanu is a data scientist at Endava and a Kaggle Notebooks Master. She studied
+  statistics as an undergraduate, worked as a data analyst at Avon Cosmetics in Bucharest for about
+  two and a half years, and then completed a master's in data science and analytics in the UK.
+  Alexey hosts the conversation and asks how she moved from analytics into data science.
+
+  Andrada says a classmate's enthusiasm for data science, and her own reading about machine
+  learning, made her want to go deeper. Before her master's she took Jose Portilla's Python for
+  Data Science and Machine Learning course on Udemy, which gave her a foundation in Python, pandas,
+  NumPy and regression. Kaggle then became her main practice environment. She started with the Iowa
+  house prices competition, improved her model through hyperparameter tuning, and learned
+  visualization and exploratory analysis from notebooks. About 90 percent of her projects came from
+  Kaggle.
+
+  Kaggle also led to her first data science job. Gabi Preda messaged her on LinkedIn about a COVID
+  tweets dataset, and she built a sentiment analysis notebook from it. She had followed him on
+  Kaggle, and she later contacted him when she started job hunting in Bucharest. Her search ran
+  from June to an October offer, during Covid, with many rejections and few junior roles. The
+  hardest part was coding. Most interviews used algorithmic exercises, and one pandas test did not
+  allow Google. Her Endava interview was a conversation about her projects and how she approached
+  problems.
+
+  Her learning method is to pick a competition, study a few strong notebooks, and rebuild each one
+  line by line in a new notebook rather than forking it. She renames variables and reruns the code
+  until the results match. One decomposition took several days, but she considers it the best way
+  to learn. She credits her master's with giving structure to a very broad field, while most of her
+  practical skill came from Kaggle, Udemy and YouTube. Without a master's, she suggests starting
+  from Kaggle and studying in the evenings for six months to a year.
+
+  Her closing advice is to make work visible on LinkedIn, Twitter and Kaggle, and to build a
+  community there, because that brings opportunities and knowledge. Kaggle has competitions,
+  notebooks, discussions and datasets, and she says people can learn from any of them. Her analyst
+  background also helped: she learned to check data repeatedly and to bring domain knowledge and
+  KPIs into the analysis.

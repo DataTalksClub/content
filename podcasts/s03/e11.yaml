@@ -136,3 +136,37 @@ resources:
   url: 'https://www.notion.so/Analytics-Engineer-New-Role-in-a-Data-Team-9decbf33825c4580967cf3173eb77177'
 - title: 'Victoria''s LinkedIn'
   url: 'https://www.linkedin.com/in/victoriaperezmola/'
+summary: |-
+  Victoria Perez Mola is an analytics engineer at Tier in Berlin. She started as a systems engineer
+  in Argentina, worked for several years with ERP systems and finance reporting, and moved to
+  Berlin in 2018. She reached analytics engineering almost by chance. She applied for a BI role,
+  and after a hiring freeze, the hiring manager called back about a position titled analytics
+  engineer. Alexey hosts the conversation, which covers what the role is and how it fits between
+  analysts and data engineers.
+
+  Victoria's day centers on data modeling and quality. Her team uses dbt to transform data that
+  arrives from pipelines and backend events, Snowflake as the warehouse, and Looker as the BI tool
+  for business users. dbt lets analysts write SELECT statements while it handles table creation,
+  dependencies and documentation in version-controlled files. Tests such as not-null or
+  allowed-range checks run on sources, and models that depend on a failing source are not built, so
+  the team avoids building on bad data.
+
+  Victoria describes the role as a middle layer. Analysts often end up cleaning data, while data
+  engineers focus on infrastructure, and an analytics engineer models the data so analysts can work
+  with it. She points to a Spotify case from around 2018, where analysts spent too much time
+  preparing data. Job postings vary, though. An Airbnb posting combines pipelines, data quality and
+  dashboards, while other companies lean toward business work. Alexey sees the role as a spectrum
+  from analyst to engineer, and the mix depends on the company.
+
+  For skills, Victoria says SQL is the main language, along with data modeling, fact and dimension
+  tables, and the Kimball data warehouse book. Spark, Hadoop and similar tools belong more to data
+  engineering, and her team does not use Python for now. Analysts who want to make the
+  switch should learn software practices, data modeling and dbt. Her company has nine analytics
+  engineers, and some are embedded in business teams, which brings them closer to stakeholders.
+
+  The hardest part of the job, she says, is that analytics engineers define guidelines that people
+  do not always follow, and they often handle ad hoc fixes when upstream data breaks. The work also
+  feels less rewarding than her finance jobs, where cutting the month-end close from a week to a day
+  made accountants celebrate, because technical stakeholders are rarely surprised. For profiling,
+  Victoria says dbt covers documentation well but offers only basic profiling, which tools such as
+  Datafold or Monte Carlo can provide.

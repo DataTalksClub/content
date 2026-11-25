@@ -193,3 +193,36 @@ resources:
   url: 'https://t.me/FloodInterview'
 - title: 'Omdena'
   url: 'https://omdena.com/'
+summary: |-
+  Tatiana is a computer vision and deep learning engineer and a Kaggle competition master. She
+  works as a senior machine learning engineer at Cork University Hospital, where she is building a
+  decision support tool that helps doctors spot anomalies during labor. Her background is a PhD in
+  physics and work on optical systems and lasers. She made the switch during two maternity leaves,
+  starting with online courses. Alexey asks about the career hacks she shared on Twitter.
+
+  The first hacks concern the people around her. Tatiana cut off colleagues and acquaintances who
+  discouraged her change, and she found supportive communities such as ODS. She also dismisses
+  stereotypes about age or leave as fantasies. During the learning phase she removed social media
+  from her day and used blocking tools when willpower was not enough. For impostor syndrome, she
+  recommends external validation: go to interviews early, and especially do mock interviews on the
+  other side of the table. Interviewing others showed her that she talked too long about her own
+  experience, so she learned to tell a story in two or three sentences.
+
+  Teams and mentors come next. Tatiana advises making a team rather than waiting for one, choosing
+  partners whose skills complement yours. Her early Kaggle teams included a strong programmer and a
+  software engineer, and one team earned a silver medal. She found a co-author through a clear,
+  concrete offer, and their paper was accepted at a CVPR workshop. Mentors form gradually through
+  repeated questions and visible participation, and chemistry matters. She also advises saying no
+  to commitments that do not serve the goal, and treating failure as part of learning. She
+  estimates that most candidates need five to ten interviews before they pass one.
+
+  On learning, Tatiana says Kaggle is good for practicing machine learning on fairly clean data,
+  for exploratory analysis and for building proper validation. It does not teach business framing,
+  data collection, deployment or monitoring, and she estimates it covers around 10 to 15 percent of
+  an ML engineer's job. She recommends combining Kaggle with end-to-end pet projects, packed at
+  least in Docker. Her suggested order starts with Andrew Ng's machine learning courses and Python,
+  then Kaggle, the MIT 6.006 algorithms course, system design, and finally Flask or FastAPI for
+  production.
+
+  Her closing advice is to protect sleep, get help with chores, and work in focused blocks. Before
+  interviews she recommends a couple of months of LeetCode practice and mock interviews with peers.

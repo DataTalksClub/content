@@ -269,3 +269,35 @@ notes: "Today we're discussing technical writing, logging, documentation, and mo
   \ well as code. A concise decision log (assumptions, trade-offs) helps your credibility."
 
 resources: []
+summary: |-
+  Eugene Yan is an applied scientist at Amazon in Seattle, where he works on recommendation and
+  machine learning systems. He studied psychology, took 20 to 30 MOOCs and joined IBM. After a
+  competition placing in the top three percent, an e-commerce startup hired him as its third data
+  scientist. That startup was Lazada, which Alibaba later acquired. Alexey invites him to talk about
+  technical writing, a habit Eugene has built on his blog and in internal documents at work.
+
+  Eugene says he writes to share, to learn and to be a lighthouse, a signal to like-minded people
+  that he is interested in a topic. Early on, he interviewed data scientists he admired and found
+  that communication, not technical skill alone, set people apart. He says writing does not start
+  with a finished, original text. It starts with reading, taking notes and building an outline.
+
+  His weekly cycle ends with a published post. On day one he picks a topic from a backlog of about
+  50 ideas and writes a bulleted outline. On day two he rebuilds the outline from memory and
+  compares it with the original. He keeps iterating until day six, then writes the prose, which
+  takes six to twelve hours. On day seven he rereads the post and publishes it by Sunday night.
+  Outlines take at least half of his time. To judge a revision, he places a new paragraph beside the
+  old one and keeps the shorter version if it still conveys every key idea. Topics come from
+  questions readers ask and from opinions he wants to argue, such as his view that data scientists
+  should be more end-to-end.
+
+  At work, Eugene argues that writing tests ideas before coding. Amazon starts a project with a
+  press release, as part of its Working Backwards process, then circulates a design document
+  covering latency, throughput and cost so peers can review it. He also treats code documentation as
+  a note to your future self, recording why a decision was made.
+
+  His practical advice is to start without worrying about an audience and to choose whatever tool is
+  easiest, whether Medium, WordPress or Substack. The first article will not be read, so write for
+  yourself. He shared each post on Twitter and LinkedIn, and he calls consistency the real secret:
+  he shot 55 arrows last year and three hit the mark. For a portfolio, he recommends a clear README
+  with a quick start and a requirements file, because a hiring manager wants to see whether you can
+  explain your code.

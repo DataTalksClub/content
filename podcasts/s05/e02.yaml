@@ -152,3 +152,35 @@ transcript: e02-transcript.yaml
 resources:
 - title: Why the Future of ETL Is Not ELT, But EL(T)
   url: https://airbyte.io/blog/why-the-future-of-etl-is-not-elt-but-el
+summary: |-
+  Natalie Kwong works at Airbyte, an extract and load platform, where she focuses on growth and
+  analytics. Her earlier roles include marketing operations at Vox, acquisition analytics at
+  Admiral and managing a team of about eleven analysts at Keep Truckin'. Alexey asks her to
+  untangle the terms that often confuse people, including ETL, ELT, data marts, data lakes and
+  warehouses.
+
+  Natalie describes ETL as extracting data from source systems, transforming it with business
+  logic and loading it into a destination. Her example is customer acquisition cost, which joins
+  CRM revenue data with ad spend. In ELT, raw data is loaded first and transformed inside the
+  warehouse, mostly with SQL. She says this makes analysts faster and less dependent on
+  engineering, and that keeping the full extract means new questions can be answered later. A data
+  mart is a finished, production-ready table for one use case. The ingestion layer holds raw data
+  that business users should not query directly, because different users would interpret it
+  differently.
+
+  A data lake stores less structured data, such as the video files that Natalie's IoT hardware
+  produced, which warehouses cannot hold. Without governance a lake can become a swamp of
+  untrusted data, and Alexey compares unused data to a basement full of boxes. Natalie says a team
+  does not need both a lake and a warehouse, and that analytics teams usually work only in the
+  warehouse. Alexey's clickstream example is ELT, since the raw events are left untouched and
+  transformed later. Airflow orchestrates such jobs. Airbyte handles the E and L and integrates
+  dbt for transformations, which fits the modern data stack of best-of-breed tools.
+
+  Natalie explains change data capture, which syncs only changed rows, lowering cost and time, and
+  also captures deleted rows. Reverse ETL pushes finished tables back into tools such as
+  Salesforce, and Natalie says it still counts as ETL when no transformation happens in the
+  target. She says ETL remains useful in large enterprises that need a staging area between many
+  systems. Airbyte is open source because incumbents such as Fivetran cannot cover every long-tail
+  connector, and its cloud offering adds enterprise features such as SSO and role-based access
+  control. Natalie says the company is reviewing whether its MIT license still fits, after Alexey
+  raises the Elasticsearch and AWS case.

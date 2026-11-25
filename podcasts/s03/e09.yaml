@@ -157,3 +157,37 @@ resources:
   url: https://mlcourse.ai/
 - title: Yury's Twitter
   url: https://twitter.com/ykashnitsky
+summary: |-
+  Yury Kashnitsky is a senior machine learning scientist at Elsevier, where he works mainly on
+  natural language processing. He created the mlcourse.ai course. His path runs from aviation
+  studies and a PhD to Mail.Ru Group, a telecom operator in the Netherlands, and then Elsevier.
+  Alexey hosts the conversation, which is about project failures and the things people leave off
+  their CVs.
+
+  Yury describes a side project for a proofreading service that scored the language quality of
+  scientific papers. A colleague's binary classifier was close to noise, and his own BERT
+  regression, which predicted how much a paragraph needed editing, was only about 60 percent
+  precise on a 50-example check. He recommended stopping and using third-party tools, since the
+  work needed a team of linguists. Alexey tells a similar story from an SEO company. His team spent
+  months building a keyword recommender and then fought a package size limit on AWS Lambda. Nobody
+  used it. He says he would have tested the idea manually with a few clients first.
+
+  Production failures often came from infrastructure rather than models. At Mail.Ru, Yury's
+  gradient boosting ranker lost online to a click-through-rate heuristic. The model often timed out
+  against an 80 millisecond limit, so the simple fallback was shown instead. Reranking fewer
+  documents, 300 instead of 1,000, kept precision and recall while making the system much faster.
+  He concludes that data scientists should understand the full model lifecycle and work with
+  backend and DevOps engineers. Alexey recalls deploying by SSH and git pull, with no CI/CD, before
+  real engineers rebuilt the process.
+
+  Other stories include a fintech startup that had bought GPUs for Bitcoin mining and then asked
+  Yury for AI. He built a sentiment barometer for Bitcoin news that beat TF-IDF with logistic
+  regression by 3 percent, but the startup dropped the project. Expert labeling was prohibitively
+  expensive, so he moved to Mechanical Turk. At a telecom operator he classified Dutch customer
+  complaints into groups such as billing and churn, and a credit scoring project produced revenue.
+
+  On CVs, Yury keeps the focus on impact and describes failed projects honestly in interviews,
+  because few candidates do and it can help them stand out. In interviews he asks how many
+  revenue-producing ML projects are in production, and he treats a zero as a possible red flag. He
+  protects a few hours a day for side work and suggests talks that share the details of A/B test
+  caveats and fixes.

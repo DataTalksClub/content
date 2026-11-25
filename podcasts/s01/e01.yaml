@@ -513,3 +513,37 @@ notes: 'The topic today is the roles in data teams. We want to understand what k
   Talk to you soon. Goodbye!'
 
 resources: []
+summary: |-
+  Alexey Grigorev hosts this experimental session, a conversation without slides. He is a lead data
+  scientist at OLX Group, an online classifieds platform, and he admits his view is biased toward
+  data scientists. The running example is automatic categorization of marketplace listings, such as
+  placing an iPhone under mobile phones. The session was recorded as a podcast.
+
+  Alexey starts with the product manager, who keeps the team focused on what users need and acts as
+  the gateway for feature requests. Data analysts explain existing data, define KPIs and build
+  dashboards with SQL, Python or R, and Tableau. In the example, they measure how many users fail
+  to pick a category and how many listings end up in the wrong one. Data scientists build the
+  prediction model and serve it with tools such as Flask and Docker. Data engineers capture
+  user-generated data in a separate data lake and build pipelines with tools such as Airflow and
+  Kafka. Machine learning engineers take the model and make it stable under load, working side by
+  side with the data scientist.
+
+  DevOps and site reliability engineers focus on availability, monitoring and on-call duties.
+  Alexey describes an MLOps engineer as a DevOps engineer who understands the basics of machine
+  learning and sets up continuous integration and delivery pipelines. He also covers batch serving,
+  where a model runs on a schedule instead of as a web service. In his example, a model scores all
+  users once a day to find who is likely to respond to an advertisement, and a data engineer helps
+  feed it correct inputs and store the outputs. He says the line between machine learning engineers
+  and data engineers is not strict.
+
+  The audience questions add a few points. Alexey thinks a business analyst between the product
+  manager and the data team is a good idea. In a small company, one person who can build pipelines,
+  train a model and serve it can deliver value early. He considers a system handling a few million
+  or even one hundred million events per day to be big data, which calls for a dedicated data
+  engineer.
+
+  Communication runs through every role. Data scientists should explain machine learning problems
+  with plain metaphors rather than technical detail, and analysts write reports for executives
+  rather than engineers. For a small team without an MLOps or DevOps engineer, Alexey suggests
+  training an existing backend engineer in the basics of machine learning until the company hires
+  for the role.

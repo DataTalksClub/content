@@ -164,3 +164,37 @@ resources:
   url: https://twitter.com/dead_flowers22
 - title: Roksonala's LinkedIn
   url: https://www.linkedin.com/in/roksolanadiachuk/
+summary: |-
+  Roksolana Diachuk is a big data engineer at Captify, a UK-based company that builds advertising
+  products, with part of its engineering team in Kyiv. She worked as a Java backend engineer before
+  moving into big data engineering and Scala. Alexey invites her to explain how big data engineers
+  differ from data scientists. Her main job is building ETL pipelines that extract, transform and
+  load data so analysts can query it with tools like Impala, with data stored on HDFS or S3.
+
+  Roksolana says that, by the book, big data engineering uses different tools and needs heavier load
+  optimization than general data engineering, but many companies use the two titles interchangeably.
+  Data engineers may work mostly with JSON, CSV and cloud services, while big data work involves
+  formats such as Avro, Parquet and ProtoBuf. She ranks coding as the most important skill, followed
+  by SQL and NoSQL databases and some infrastructure knowledge such as networking. She says Hadoop
+  is becoming outdated, and many companies now use cloud services instead. Data scientists also
+  clean data and build features, and the split of that work depends on the company.
+
+  For a recommendation system, she describes a streaming pipeline for new ratings alongside a batch
+  pipeline for history. She would use Flink for streaming and Spark for batch, writing Parquet files
+  to S3 for data scientists to read. Her team and the data scientists sit in separate teams and
+  coordinate through files and Jira tickets. In her company, machine learning engineers handle
+  deployment with tools such as MLflow and Kubeflow. She thinks data engineers need to understand
+  the inputs and outputs of each machine learning step, but not the mathematics inside the model.
+
+  For someone moving into data engineering, she recommends strong coding skills, basic data
+  structures, one relational database such as PostgreSQL or MySQL, and one NoSQL database such as
+  MongoDB. She also suggests learning Docker, cloud services and Kubernetes, which has a steep
+  learning curve. For monitoring, she checks whether data arrives at all, whether volumes spike, and
+  whether schemas change. She names deduplication and historical reprocessing as hard tasks, and
+  says Delta Lake helps by tracking data versions.
+
+  For a first project, she suggests a word count, or streaming Twitter data into Elasticsearch and
+  displaying it in Kibana. For learning resources, she recommends the Coursera Big Data
+  specialization and the book Designing Data-Intensive Applications by Martin Kleppmann. For
+  graduates, she suggests choosing by interest, and big data engineering suits people who prefer the
+  more deterministic feel of software engineering.

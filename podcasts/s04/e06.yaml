@@ -150,3 +150,38 @@ quotableClips:
 transcript: e06-transcript.yaml
 
 resources: []
+summary: |-
+  Lina Weichbrodt is a machine learning lead engineer in the data science group at DKB, a German
+  online bank. Before that she was a research engineer at Zalando, the European online fashion
+  retailer, where she worked on a real-time personalization model for more than 32 million users.
+  She brings a customer-centric view from web analytics and online marketing. Alexey invites her
+  to discuss human-centered MLOps, which means keeping stakeholders involved, monitoring models
+  and responding to incidents.
+
+  Lina recommends a checklist before any project starts. The business case should be written as a
+  user story with success metrics, the improvement that would justify the effort, and
+  alternatives, including a plain data pipeline that needs no AI. The problem should be specific
+  enough to show in the user interface, and it should matter to the core business, with a named
+  contact on the stakeholder side. Stakeholders often hold worries they do not name, so she asks
+  what they most want to avoid. She turns each worry into a slide with a mitigation, then into a
+  metric and a demo of the worst case.
+
+  For incidents, Lina asks stakeholders what a one-minute, ten-minute or one-hour outage would
+  cost, so service levels are set in business terms. ML systems can stay up while producing bad
+  predictions, so she suggests live test sets or small A/B tests with 1 or 2 percent of traffic to
+  detect the problem. Her debugging borrows the blameless post-mortem format from software
+  engineering, along with the five whys. A recommendation box that looked wrong turned out to be a
+  "last seen" box that mixed desktop and app activity from a shared account. She recommends
+  logging model inputs and monitoring their distributions.
+
+  Lina separates explainability from debugging. Explanation tools help stakeholders understand a
+  model, but bugs usually come from wrong assumptions, filters or data problems rather than the
+  algorithm. She recommends gathering bug reports from users and colleagues, and she uses mystery
+  shopping, going through a process herself.
+
+  On working with stakeholders, Lina says to learn their domain before pitching, and to help with
+  unrelated data questions to become a trusted expert. Ideas should come from the business, not
+  the data team. Many companies have low data literacy, so data people often have to educate
+  colleagues. She describes a dirty hack that uses an imperfect data source to show its value,
+  then asks its owners to fix it. She also says each new data source should prove itself, because
+  it has a maintenance cost.

@@ -168,3 +168,37 @@ resources:
   url: 'https://twitter.com/swyx'
 - title: 'Book of the week page'
   url: 'https://datatalks.club/books/20210510-the-coding-career-handbook.html'
+summary: |-
+  Swyx is a developer, product manager, angel investor and writer, known for his learn-in-public
+  approach. He grew up in Singapore and worked in finance, covering central banking, investment
+  banking and hedge funds, before switching to software at age 30 as a junior developer. He worked
+  at Netlify and then AWS, and now works at Temporal.io. Alexey hosts.
+
+  Swyx says self-marketing is about recognition. People who market their work well often win the
+  promotions and opportunities that quieter, equally skilled colleagues miss. The same skill helps
+  promote open source projects and internal ideas. His framework has five parts: personal brand,
+  the domain you pick, the business value you have delivered, your technical skills, and the
+  channel you use. Past value should be described with numbers and short project summaries.
+
+  Brand depends on consistency. Swyx says people need repeated impressions before they associate
+  you with something, and he cites a range of 7 to 40. A professional photo and a consistent name,
+  or even a logo, help people recognize you. The goal is to be the person people think of for a
+  particular problem. Choosing a domain does not close other doors. Niches should be narrow but not
+  too narrow. Swyx tested his own niche by starting a meetup for Svelte, which grew into a global
+  community of about 10,000 people. Hacker News discussions and conference schedules reveal what
+  others care about.
+
+  Learning in public means sharing progress honestly, saying what you have learned so far, and
+  letting people correct you. Expertise, he says, has to be earned. He recommends owned channels,
+  such as a personal domain or mailing list, because social platforms can lock you out. He also
+  suggests picking up what others put down: responding to a mentor's blog post, testing a demo, or
+  summarizing a book gets more attention than posts into the void. His React and TypeScript cheat
+  sheet, which has around 30,000 GitHub stars, helped people know his work.
+
+  For career changers, the advice is to offer a mutual exchange of value. Swyx spent a year as a
+  non-technical product manager at a fintech company before learning to code. Focused applications
+  work better than mass applications: he applied to nine companies and received three offers.
+  Inside a company, he suggests keeping a brag document of accomplishments, volunteering for demos,
+  and leading initiatives such as an internal guild or newsletter. He says most engineering career
+  ladders are largely non-technical, with communication and business impact often carrying the most
+  weight.

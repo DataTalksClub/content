@@ -159,3 +159,39 @@ resources:
   url: 'https://linkedin.com/in/ugilad'
 - title: 'Uri''s Twitter'
   url: 'https://twitter.com/ugilad'
+summary: |-
+  Jessi and Uri both work at Google Cloud and are co-authors of a book on data governance. Jessi is
+  a senior user experience researcher who studies customers and shapes Google's governance
+  products. Uri is a product manager leading the company's data governance efforts, Alexey hosts
+  and admits the term still feels vague.
+
+  Both guests say data governance is broader than securing sensitive data such as personally
+  identifiable information. Jessi starts with knowing what data you have, since you cannot analyze,
+  secure or retain data you do not know about. Uri describes it as people, processes and tools for
+  understanding, caring for and extracting insight from data. Cheap cloud storage made collecting
+  everything easy, and regulation such as GDPR, along with scandals such as Cambridge Analytica,
+  pushed companies to be more deliberate. Banks have long kept transaction records for years, which
+  Uri treats as an early governance policy.
+
+  Implementation starts with the question of why. The reasons might be regulation, the risk of data
+  exfiltration, or accountability to customers. Next, classify data into classes that fit your
+  business rather than an outside list, such as PII, health information or financial records, and
+  attach a policy to each class. Even a five-person company needs some way to know what data it
+  has. The guests warn against manual spreadsheets. One company they studied had a full-time data
+  steward who quit, calling the job soul-sucking. Automation helps, but people still decide whether
+  a field is personal.
+
+  Policies should reflect purpose, not only who has access. Jessi gives the example of a furniture
+  retailer whose shipping team can see addresses for deliveries but cannot use the same emails for
+  marketing without permission. Uri says policies should give executives confidence that access is
+  safe, for example by scrubbing location data or hashing identifiers so models can still count
+  distinct users. Governance can be enforced through a catalog interface or inside the storage
+  system,. Data quality is harder to pin down and depends on the source and on domain experts'
+  judgment.
+
+  Governance should begin with a minimum scope that answers the why without large headcount or
+  expensive tools, then expand. Uri suggests planning for now plus one, a lean startup idea. A
+  catalog can show the relationship between storage spending and usage, revealing unused tables
+  that can move to cheaper storage. Uri says a catalog should hold technical metadata, lineage and
+  business terms, and that it became synonymous with governance because analysts and stewards both
+  use it.

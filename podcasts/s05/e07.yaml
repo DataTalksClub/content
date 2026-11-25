@@ -132,3 +132,36 @@ resources:
   url: https://mlopsroundup.substack.com/
 - title: Rishabh's Twitter
   url: https://twitter.com/rish_bhargava
+summary: |-
+  Rishabh has worked with analytics and machine learning teams for more than seven years. Most
+  recently he worked in sales engineering at DataCoral, a data infrastructure company acquired by
+  Cloudera, where he helped data scientists move data without waiting on data engineers. Before
+  that he built NLP models at Primer, and he holds a Master's in computer science from Stanford.
+  He also writes the MLOps Roundup newsletter. Alexey invites him to discuss how machine learning
+  differs from analytics.
+
+  Rishabh and Alexey agree on the core difference. Analytics looks at history to answer what
+  happened, with a true answer the data can reveal. Machine learning is forward-looking, making
+  the best guess about what will happen, and its output is a live system such as a model behind an
+  API, or predictions stored daily for a product to use. Alexey describes analysts producing
+  reports and dashboards, and data scientists building models that run as services. Rishabh says
+  the two share data infrastructure and often the same people. Machine learning can begin inside
+  analyst teams, which is one reason people blur the line. Both fields iterate, though analysts
+  iterate on SQL queries and ML teams run experiments with models, features and hyperparameters.
+
+  Fraud detection shows how the two work together. Rules are fast to deploy, so fraud teams keep
+  them, promote the useful ones into model features and retire rules whose patterns stop working.
+  Analysts track rule performance, false positives and how often fraud was caught in time, and
+  they answer ad hoc questions for leaders. Alexey says analysts at OLX help size problems, for
+  example showing that only ten users complained. He also notes that product analysts there often
+  know the product better than data scientists do. Rishabh adds that analytics works on weekly
+  comparisons, while models may need answers in 200 milliseconds.
+
+  On team structure, Rishabh suggests embedding data people in product teams for speed, while a
+  shared manager keeps learning flowing between them. Alexey describes OLX's chief data officer
+  setup and a separate BI team for ad hoc requests. Rishabh says teams often underinvest in data
+  work, especially in data infrastructure, and he has no numbers to compare analytics with machine
+  learning. Rishabh thinks Tammy's advice to hire a data engineer, then analysts, then data
+  scientists is reasonable for most companies, while machine learning-first businesses may
+  structure teams differently. Rishabh adds that a good data person understands data's natural
+  problems, such as odd records, and investigates them instead of ignoring them.

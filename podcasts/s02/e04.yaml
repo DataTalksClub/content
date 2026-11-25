@@ -169,3 +169,33 @@ quotableClips:
 transcript: e04-transcript.yaml
 
 resources: []
+summary: |-
+  Theofilos Papapanagiotou, known as Theo, works at Prosus, where his AI team helps the data science
+  teams of the group's companies mature their machine learning operations. Alexey, who works at OLX,
+  a Prosus company, calls him the main MLOps advocate there. Theo started as a telecom engineer
+  working on Unix systems, moved into DataOps and then into ML engineering about seven years ago. He
+  has master's degrees in data communications and AI.
+
+  Theo describes MLOps as DevOps adapted to models. Software artifacts stay the same until they are
+  changed, while a model degrades as the data changes, so monitoring must be able to trigger
+  retraining. Alexey asks whether monitoring tools differ from Prometheus and Grafana. Theo says the
+  tools are the same, but inference monitoring needs extra components that measure drift, fairness
+  and robustness. Those components should be reusable, so teams do not have to build special metrics
+  for each model.
+
+  Theo explains Google's three maturity levels and Microsoft's five. Level zero is manual training
+  and deployment, for example running a notebook cell by cell. Level one adds a pipeline with data
+  validation and an evaluation step, and a person still starts retraining. The target level is
+  automated retraining, triggered by metrics and thresholds rather than a fixed schedule. He sees
+  MLOps as a team effort, with an ML engineer who maintains the pipeline, an operator who watches it
+  and a product owner who sets the service levels. He expects the MLOps engineer title to fade, with
+  software engineers and data scientists taking on the operator role over time.
+
+  On tools, Theo recommends Kubeflow as the open source choice. Its components include KFServing for
+  model serving with explainers and drift detectors, Kubeflow Pipelines for training workflows, and
+  Katib for hyperparameter search. Alexey notes that Feast is a feature store used alongside it.
+  Theo suggests starting with the Kubeflow documentation, the books and vendor workshops, or a
+  managed service such as SageMaker. For data versioning, he stresses tracking which data, code and
+  model versions produced each prediction, so that decisions can be reviewed later. He adds that
+  small teams can benefit, since his team once deployed five to ten models on KFServing in a few
+  hours. Theo argues that AutoML reduces routine tuning work without ending the data scientist role.

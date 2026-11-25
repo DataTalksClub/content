@@ -151,3 +151,33 @@ transcript: e04-transcript.yaml
 resources:
 - title: Marianna's LinkedIn
   url: https://www.linkedin.com/in/marianna-diachuk-53ba60116/
+summary: |-
+  Marianna is a data scientist at Restream, a startup, and the data science lead and mentor in the
+  local Women Who Code branch in Kiev. She previously worked at DataRobot and led a data science
+  team at a fintech startup. She moved from Java development into data science about five years
+  ago, with help from the community. Alexey asks her what it takes to be the only data scientist
+  in a company, and what to check before joining one.
+
+  Marianna says the upside of being the only data scientist is freedom in technologies and
+  methods, more influence over decisions, and realistic deadlines that the team sets itself. The
+  downside is responsibility for everything data related, including dashboards, and pressure to
+  learn fast when there is no one to ask. She says a company should already have data pipelines,
+  support from data engineers or DevOps, and an analytics team, because without reliable data the
+  workload is too much for one person. She suggests middle to senior experience, including the
+  ability to frame a problem, build a model, deploy it and monitor it.
+
+  In her first week she talks to stakeholders and explores data with a specific question in mind.
+  She meets each department, translates their challenges into data science terms, and then sets
+  priorities by discussing feasibility and importance with her supervisors and the business
+  analytics lead. In the first month she aims for quick insights or a draft model. By the first
+  quarter she expects reusable pipelines, a deployment plan and A/B tests. She often starts with
+  analysis, such as a churn breakdown by event triggers, before building a model, and she says a
+  dashboard can be enough. She also asks stakeholders early how success will be measured.
+
+  Marianna repeats to stakeholders that data science answers a question rather than guaranteeing a
+  result, and that a failed model still teaches something. She asks for help when projects pile
+  up, and she stops work that is not going anywhere so that effort moves to more important
+  projects. To judge readiness, she asks how the company sees data scientists, what problems it
+  expects solved, what deadlines it has in mind and how teams work together. For production, she
+  describes running a credit scoring model in silent mode at a fintech before any rollout, and
+  suggests A/B testing a new model before turning it on for all customers.

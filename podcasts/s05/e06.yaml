@@ -163,3 +163,34 @@ notes: 'Links:
 resources:
 - title: 'Tammy''s podcast'
   url: 'https://dataforfuture.org/'
+summary: |-
+  Tammy Liang is chief of data at Platanomelon, an e-commerce brand, where she was the first data
+  person and has built a team of five. She studied business in the US, then took a Master's in Big
+  Data in Barcelona, where she first worked at the delivery company Glovo. She co-hosts the Data
+  For Future podcast on data and sustainability. Alexey asks her how a data team is built and
+  scaled, starting from her experience as the only data person.
+
+  Tammy's first project was business health monitoring, with dashboards that replaced slow, manual
+  PowerPoint reporting. Getting departments to change their reporting habits took persuasion, and
+  spreadsheets remained part of the workflow. Demand forecasting came next, but it needed
+  historical data, a warehouse and input from departments about upcoming promotions, which was
+  hard to get a week ahead. Models then had to reach business users as web apps rather than
+  notebooks. Her first hire was a junior data analyst, and her second a data engineer after
+  outside help proved too slow. The stack is Stitch, Google Cloud, dbt, Google Data Studio and a
+  Notion wiki. She now says she would hire senior people earlier, and she would hire a business
+  analyst alongside an engineer.
+
+  Accuracy and trust came from a costly error. A comma typed instead of a dot made product costs
+  1000 times too large, and the business noticed first. Tammy's team responded with a playbook,
+  guidelines for data providers, dbt tests and regular manual dashboard checks. For timely
+  insights, she gives examples of warehouse delays that need monitoring before customers complain,
+  and of TV campaigns, which they measure by asking customers where they heard about the brand.
+  Attribution is a larger project that she delivers as a web app.
+
+  Tammy stresses that useful work needs a product mindset, where each stage gives the business
+  something it can use and give feedback on. For adoption, her workshops first ran as lectures,
+  but people still asked for information the dashboards already showed, so the team switched to
+  Q&A sessions that prompt people to find answers themselves. As a leader, she gives each project
+  owner full responsibility and steps in only when they are blocked. She says she does not know
+  every answer but knows where to find them, and she recommends communities, courses and then
+  books.

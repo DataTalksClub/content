@@ -139,3 +139,38 @@ quotableClips:
 transcript: e08-transcript.yaml
 
 resources: []
+summary: |-
+  Arpit Choudhury is the founder of DataLed Academy, a free learning resource, and a podcast aimed
+  at less technical people. He was one of the first members of DataTalks.Club. Earlier he led
+  growth at Integromat, a workflow automation company. Alexey hosts the conversation and asks what
+  it means to be data-led.
+
+  Arpit defines a data-led professional as someone who understands where data comes from and what
+  it looks like, and who can question its accuracy. A technical background is not required. He
+  contrasts this with data-driven decision making, which he calls a buzzword that can mean
+  following data blindly. Data-led means data guides decisions alongside intuition and experience.
+  Growth teams also need data inside the tools they use, not only in a warehouse, because visual
+  query tools let marketers build personalized emails, in-app messages and SMS campaigns without
+  SQL.
+
+  The foundation is a tracking plan: a document that lists events, properties, data types and
+  owners, kept in a spreadsheet or a purpose-built tool such as AVO, Iteratively or TrackPlan.
+  Arpit advises starting with seven to ten events that show the path from acquisition to
+  activation, such as sign-up, email verified, project created and user invited. Each event should
+  be marked as client-side or server-side. A client-side sign-up event fires when the button is
+  clicked, even if validation fails, while a server-side event fires only after the account exists.
+  Collection tools such as Segment, RudderStack and Freshpaint then send the data onward.
+
+  Data then moves into a warehouse such as Snowflake, BigQuery or Redshift, where transformation
+  tools like dbt prepare it for analysis in product analytics or BI tools. Reverse ETL tools,
+  including Census, Hightouch and Grouparoo, send warehouse data back to sales, support and
+  marketing tools. Customer data platforms bundle much of this for marketers, at some cost in
+  flexibility. Arpit suggests listing ten questions to answer and working backward to tools. Open
+  source options such as PostHog exist but take effort to run. Team needs grow from one analytics
+  engineer in a startup to a data engineer and analyst later.
+
+  Arpit argues that data democratization needs data literacy, documentation and self-serve tools,
+  not just access. Documentation should start early and become a team habit, and catalog tools such
+  as Atlan or Secoda make sense once collection and warehousing are in place. Being product-led
+  depends on being data-led. Free trials and onboarding need activation data, and campaigns should
+  not ask users to repeat completed actions.

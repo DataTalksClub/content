@@ -172,3 +172,34 @@ notes: 'We talked about:
 resources:
 - title: 'MLOps community'
   url: 'https://mlops.community/'
+summary: |-
+  Demetrios Brinkmann leads the MLOps Community, which Alexey describes as having about 3,000
+  members. Demetrios started in sales at an MLOps tool company, where he tried to persuade prospects
+  to take meetings. When COVID-19 made that work harder, the company's CEO suggested building a
+  community. Demetrios began with meetups, recorded the conversations and turned them into a
+  podcast. The community was meant to be vendor agnostic, and it kept going after the company
+  closed. Alexey invites him to talk about building online communities, which he has done for three
+  communities in total.
+
+  Demetrios describes his early hosting. He prepared questions in advance, rarely asked follow-ups
+  and worked hard on the first meetups. Growth came from cold outreach on LinkedIn during the first
+  month and a half. He says he kept the community lively by sharing content and tagging people into
+  conversations, which made it feel like his own space at first. Members took over later, but he
+  credits no single tactic. He recalls that 500 Slack members took three or four months to reach,
+  and that the community passed 1,000 around September and 2,000 by the end of the year. Clips from
+  each hour-long session help reach people who watch on YouTube.
+
+  Moderation is his main ongoing task. Vendors need a clear code of conduct, because a vendor who
+  posts product messages without introducing themselves damages trust, and a closed vendor channel
+  holds over 100 people. He also keeps core members close. Early on he formed a community board of
+  engaged members, including critical ones, to test ideas. Other tools include surveys sent twice a
+  year, with a charity gift card as incentive, and a Slack pairing app for random one-on-one
+  conversations. He mentions sprint meetings, a reading club and engineering labs, and says the team
+  has four core people with about 10 to 15 contributors.
+
+  On community economics, Demetrios treats the MLOps Community as an educational business. The goal
+  is learning and interaction, not profit, and the content stays free. He did not start courses,
+  because tools change quickly. His checklist for a new community is short: choose a platform,
+  define the shared purpose and the problem members want solved, decide what content will keep
+  people coming, and find the people who already gather where you can reach them. He also advises
+  against gamification, since points and badges did not match his goals.

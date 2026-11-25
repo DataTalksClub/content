@@ -177,3 +177,38 @@ resources:
   url: 'https://www.linkedin.com/in/carminepaolino'
 - title: 'Carmine''s Twitter'
   url: 'https://twitter.com/paolino'
+summary: |-
+  Carmine Paolino is co-founder and CTO of FreshFlow, which builds a complete ordering system for
+  supermarkets to reduce food waste on fresh products. He studied computer science at the University
+  of Bologna, then completed a master's in artificial intelligence at the Free University of
+  Amsterdam. He worked in data science at OLX, the Alan Turing Institute and a consultancy before
+  joining Entrepreneur First, a startup program that takes in talented individuals and helps them
+  form teams. Alexey, who worked with him at OLX, invites him to talk about building a startup as a
+  technical person.
+
+  FreshFlow grew from a computer vision idea. Co-founder Avik saw that supermarkets rely on fresh
+  product managers who spend hours each morning checking shelves and deciding what to order. The
+  team shadowed store staff for a week, using design thinking to learn the real process. Their first
+  idea, a consumer app that gave discounts for ripe fresh products, did not pass the Entrepreneur
+  First investment committee. They pivoted to the ordering problem, which Carmine says is a bigger
+  opportunity. Their first pilot is with one store of Edeka, Germany's large supermarket chain,
+  which they entered through Edeka's accelerator.
+
+  Carmine describes the Entrepreneur First program as an eight-week form phase to find a co-founder,
+  weekly mentor scores, and an investment committee in January. Founders are matched by edges, such
+  as catalyst, domain or technical strengths. His co-founder leads sales and business development,
+  while Carmine builds the pipelines, machine learning and backend. They hired a freelance mobile
+  developer and recruited internationally at the same pay rates everywhere. Entrepreneur First
+  provided a convertible note, and the founders skipped the demo day pitch because they wanted pilot
+  numbers first.
+
+  On tech, Carmine says he would start with managed cloud services. Running Kubeflow took him about
+  a month and a half, so the team moved to Google Cloud with BigQuery, Cloud Run and Cloud
+  Functions. The core problem is ordering the right amount. Supermarkets over-order to avoid empty
+  shelves, and shoppers often skip the last few items, so they need just-in-time forecasting.
+
+  For founders, Carmine advises expecting hard times and separating a rejected sales call from
+  personal failure. He recommends hiring for motivation and behavior more than skills. He says an
+  MBA is not needed for an early-stage startup, where shipping quickly matters more. Entrepreneur
+  First helps even with a clear idea, by teaching how investors think. His own motivation comes from
+  food waste, which he calls the underdog of climate problems.
