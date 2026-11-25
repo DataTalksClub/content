@@ -6,6 +6,7 @@ description: 'Data storytelling for analysts: Learn characters, conflict, and co
   to turn insights into action, with a retail forecasting example. Master essential
   skills.'
 image: images/posts/2020-12-25-data-narrative/cover.jpg
+preview: images/posts/2020-12-25-data-narrative/preview.png
 authors:
 - davidgates
 tags:

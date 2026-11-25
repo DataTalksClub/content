@@ -5,6 +5,7 @@ authors:
 description: Learn what you can build after ML Zoomcamp based on a real project from
   one of the graduates
 image: images/posts/2025-08-11-tab-1-how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp/cover.jpg
+preview: images/posts/2025-08-11-tab-1-how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp/preview.png
 layout: post
 subtitle: Learn what you can build after ML Zoomcamp based on a real project from
   one of the graduates

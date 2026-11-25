@@ -3,6 +3,7 @@ authors:
 - ksenialegostay
 description: Remedy for numerical instability
 image: images/posts/2022-09-22-regularization-in-regression/cover.jpg
+preview: images/posts/2022-09-22-regularization-in-regression/preview.png
 layout: post
 subtitle: Remedy for numerical instability
 tags:

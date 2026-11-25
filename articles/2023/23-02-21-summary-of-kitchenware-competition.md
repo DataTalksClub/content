@@ -4,6 +4,7 @@ authors:
 description: A deep dive into the Kaggle Competition on Kitchenware Classification,
   focusing on the winning approach.
 image: images/posts/2023-02-21-summary-of-kitchenware-competition/cover.jpg
+preview: images/posts/2023-02-21-summary-of-kitchenware-competition/preview.png
 layout: post
 subtitle: A deep dive into the Kaggle Competition on Kitchenware Classification, focusing
   on the winning approach.

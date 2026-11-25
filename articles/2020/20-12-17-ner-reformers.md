@@ -6,6 +6,7 @@ subtitle: Discover NER fundamentals, Transformer vs Reformer basics, and a hands
 description: Named Entity Recognition (NER) with Reformer in Trax. Learn core NER,
   implement and train on a Kaggle dataset with code, evaluation, and proven tips.
 image: images/posts/2020-12-17-ner-reformers/cover.jpg
+preview: images/posts/2020-12-17-ner-reformers/preview.png
 authors:
 - sauravmaheshkar
 tags:

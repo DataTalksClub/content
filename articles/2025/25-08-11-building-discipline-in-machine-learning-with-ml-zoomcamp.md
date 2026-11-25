@@ -5,6 +5,7 @@ authors:
 description: A disciplined path to data prep, validation, and deployment, plus how
   public sharing accelerated my skills, connections, and offers.
 image: images/posts/2025-08-11-tab-2-building-discipline-in-machine-learning-with-ml-zoomcamp/cover.jpg
+preview: images/posts/2025-08-11-tab-2-building-discipline-in-machine-learning-with-ml-zoomcamp/preview.png
 layout: post
 subtitle: A disciplined path to data prep, validation, and deployment, plus how public
   sharing accelerated my skills, connections, and offers.

@@ -3,6 +3,7 @@ authors:
 - angelicaloduca
 description: A comparison among the DataOps, Data Engineering, and Data Science roles.
 image: images/posts/2022-12-23-dataops-similarities-and-differences-with-data-engineering-and-data-science/cover.jpg
+preview: images/posts/2022-12-23-dataops-similarities-and-differences-with-data-engineering-and-data-science/preview.png
 layout: post
 subtitle: A comparison among the DataOps, Data Engineering, and Data Science roles.
 tags:

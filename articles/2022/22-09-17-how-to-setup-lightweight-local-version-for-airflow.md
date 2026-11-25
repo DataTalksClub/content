@@ -3,6 +3,7 @@ authors:
 - luisoliveira
 description: With Docker and Docker Compose
 image: images/posts/2022-09-17-how-to-setup-lightweight-local-version-for-airflow/cover.jpg
+preview: images/posts/2022-09-17-how-to-setup-lightweight-local-version-for-airflow/preview.png
 layout: post
 subtitle: With Docker and Docker Compose
 tags:

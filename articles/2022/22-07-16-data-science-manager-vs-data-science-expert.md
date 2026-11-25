@@ -5,6 +5,7 @@ description: 'Data Science Manager vs Expert: Compare skills, responsibilities, 
   when to hire each role. Learn key differences between management and technical expert
   positions, required skills, and which profile your company needs.'
 image: images/posts/2022-07-16-data-science-manager-vs-data-science-expert/cover.jpg
+preview: images/posts/2022-07-16-data-science-manager-vs-data-science-expert/preview.png
 layout: post
 subtitle: Complete comparison of skills, responsibilities, and team roles. Learn when
   to hire a data science manager vs technical expert and which profile your company

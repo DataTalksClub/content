@@ -5,6 +5,7 @@ authors:
 description: 'What you learn in ML Zoomcamp, a free ML engineering course: graduate
   Serena Haidar on study rhythm, obstacles, and refining a deployment-focused workflow.'
 image: images/posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar/cover.jpg
+preview: images/posts/2025-08-05-key-lessons-from-ml-zoomcamp-serena-haidar/preview.png
 layout: post
 subtitle: 'Interview with ML Zoomcamp grad Serena Haidar: practical lessons, getting
   unstuck, and the impact of the final project'

@@ -5,6 +5,7 @@ authors:
 - alexeygrigorev
 description: "How sharing your learning publicly leads to feedback, visibility, and real opportunities"
 image: images/posts/2026-03-05-benefits-of-learning-in-public-and-why-it-works/cover.jpg
+preview: images/posts/2026-03-05-benefits-of-learning-in-public-and-why-it-works/preview.png
 layout: post
 date: 2026-01-25
 tags:

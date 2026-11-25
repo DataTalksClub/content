@@ -4,6 +4,7 @@ title: How I Landed a Job As a Product Analyst
 subtitle: An account of my job search in the field of analytics during Covid-19
 description: An account of my job search in the field of analytics during Covid-19
 image: images/posts/2021-02-01-landing-product-analyst-job/cover.jpg
+preview: images/posts/2021-02-01-landing-product-analyst-job/preview.png
 authors:
 - nishantmohan
 tags:

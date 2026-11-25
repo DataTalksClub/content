@@ -5,6 +5,7 @@ authors:
 - valeriiakuka
 description: "Learn data engineering with 15 free courses and 5 paid options. Compare platforms, certificates, and tech stacks. Start today."
 image: images/posts/2025-12-10-free-data-engineering-courses/cover.png
+preview: images/posts/2025-12-10-free-data-engineering-courses/preview.png
 layout: post
 date: 2025-12-10
 tags:

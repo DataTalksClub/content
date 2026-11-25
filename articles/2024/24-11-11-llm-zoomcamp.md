@@ -6,6 +6,7 @@ description: 'Master building RAG applications with LLM Zoomcamp - a free 10-wee
   practical LLM engineering from fundamentals to production deployment. Build search
   and question-answering systems with hands-on projects.'
 image: /images/posts/2024-11-11-llm-zoomcamp/llm-zoomcamp-course-cover.png
+preview: images/posts/2024-11-11-llm-zoomcamp/preview.png
 layout: post
 subtitle: 'Master LLM Engineering: Build Production-Ready AI Applications from Scratch'
 tags:

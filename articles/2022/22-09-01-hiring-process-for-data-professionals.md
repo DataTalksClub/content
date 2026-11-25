@@ -3,6 +3,7 @@ authors:
 - pavelchernetsov
 description: Advice from a Recruiter
 image: images/posts/2022-09-01-hiring-process-for-data-professionals/cover.jpg
+preview: images/posts/2022-09-01-hiring-process-for-data-professionals/preview.png
 layout: post
 subtitle: Advice from a Recruiter
 tags:

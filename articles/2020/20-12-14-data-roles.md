@@ -7,6 +7,7 @@ description: Data team roles and responsibilities explained. Learn skills, workf
   and collaboration across PM, analysts, scientists, engineers, MLE/SRE. Discover
   proven tips.
 image: images/posts/2020-12-14-data-roles/cover.jpg
+preview: images/posts/2020-12-14-data-roles/preview.png
 authors:
 - alexeygrigorev
 tags:

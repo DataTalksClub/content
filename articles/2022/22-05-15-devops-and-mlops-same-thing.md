@@ -4,6 +4,7 @@ authors:
 description: 'DevOps vs MLOps: discover key differences, workflows, monitoring, and
   maturity models. Learn proven practices to build, maintain, and retrain ML systems.'
 image: images/posts/2022-05-15-devops-and-mlops-same-thing/cover.jpg
+preview: images/posts/2022-05-15-devops-and-mlops-same-thing/preview.png
 layout: post
 subtitle: Compare DevOps and MLOps across pipelines, drift monitoring, team roles,
   and maturity levels—and when to automate retraining.

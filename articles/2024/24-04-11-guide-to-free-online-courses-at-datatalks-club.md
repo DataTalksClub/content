@@ -7,6 +7,7 @@ description: Master ML, data engineering, MLOps, LLM, and AI skills with free Da
   courses. Build real projects, earn certificates, and join the community. Start learning
   today.
 image: /images/posts/2024-04-11-guide-to-free-online-courses-at-datatalks-club/datatalksclub-courses-overview.png
+preview: images/posts/2024-04-11-guide-to-free-online-courses-at-datatalks-club/preview.png
 layout: post
 authors:
 - valeriiakuka

@@ -4,6 +4,7 @@ authors:
 description: Ken’s story about his interest in machine learning, Machine Learning
   Zoomcamp and work on NLP during his internship at delphai
 image: images/posts/2022-08-22-interview-with-ken-wu/cover.jpg
+preview: images/posts/2022-08-22-interview-with-ken-wu/preview.png
 layout: post
 subtitle: Ken’s story about his interest in machine learning, Machine Learning Zoomcamp
   and work on NLP during his internship at delphai

@@ -6,6 +6,7 @@ subtitle: Step-by-step workflow to secure branches, automate linting, and run te
 description: 'Python CI/CD with GitHub Actions: Discover branch protection, pre-commit,
   black, isort, flake8, mypy, and pytest to enforce essential, tested code—start now.'
 image: images/posts/2020-12-07-practical-guide-better-code/cover.jpg
+preview: images/posts/2020-12-07-practical-guide-better-code/preview.png
 authors:
 - olegpolivin
 tags:

@@ -5,6 +5,7 @@ description: Discover the global demographic profile of DataTalks.Club community
   spanning 65+ countries across all continents. Insights on geographic distribution,
   career levels, job roles, organization sizes, and industries.
 image: images/posts/2025-05-16-datatalks-club-community-demographics/cover.jpg
+preview: images/posts/2025-05-16-datatalks-club-community-demographics/preview.png
 layout: post
 subtitle: Results of our DataTalks.Club Survey
 tags:

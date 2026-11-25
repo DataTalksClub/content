@@ -3,6 +3,7 @@ authors:
 - igordemidov
 description: Why df is a bad name for a dataframe
 image: images/posts/2022-10-02-naming-variables-in-machine-learning/cover.jpg
+preview: images/posts/2022-10-02-naming-variables-in-machine-learning/preview.png
 layout: post
 subtitle: Why df is a bad name for a dataframe
 tags:

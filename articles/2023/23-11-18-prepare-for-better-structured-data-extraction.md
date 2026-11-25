@@ -3,6 +3,7 @@ authors:
 - amberroberts
 description: Structured Data Extraction with OpenAI Function Calling
 image: images/posts/2023-11-18-prepare-for-better-structured-data-extraction/cover.jpg
+preview: images/posts/2023-11-18-prepare-for-better-structured-data-extraction/preview.png
 layout: post
 subtitle: Structured Data Extraction with OpenAI Function Calling
 tags:

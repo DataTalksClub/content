@@ -6,6 +6,7 @@ subtitle: Use softening language, relatable examples, and clear summaries to avo
 description: Simplify technical concepts for non-technical audiences. Learn a proven
   3-step framework with relatable examples and summaries. Master communication.
 image: images/posts/2020-12-17-simplifying-concepts/cover.jpg
+preview: images/posts/2020-12-17-simplifying-concepts/preview.png
 authors:
 - davidgates
 tags:

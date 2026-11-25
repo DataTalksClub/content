@@ -7,6 +7,7 @@ subtitle: A guide to the most active Slack groups for data, AI, and machine lear
 description: Explore top data science Slack communities for 2025. Join groups on AI,
   ML, MLOps, Python, R, visualization, and diversity in tech.
 image: images/posts/2020-12-23-slack-communities/cover.png
+preview: images/posts/2020-12-23-slack-communities/preview.png
 authors:
 - alexeygrigorev
 - valeriiakuka

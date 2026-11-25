@@ -3,6 +3,7 @@ authors:
 - luisoliveira
 description: How this has several impacts
 image: images/posts/2022-10-21-important-sql-fact-that-everyone-should-know/cover.jpg
+preview: images/posts/2022-10-21-important-sql-fact-that-everyone-should-know/preview.png
 layout: post
 subtitle: How this has several impacts
 tags:

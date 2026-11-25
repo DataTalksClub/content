@@ -3,6 +3,7 @@ authors:
 - tatyjanaankudo
 description: From microbiologist to data scientist
 image: images/posts/2022-05-20-starting-career-in-data-science-at-45/cover.jpg
+preview: images/posts/2022-05-20-starting-career-in-data-science-at-45/preview.png
 layout: post
 subtitle: From microbiologist to data scientist
 tags:

@@ -7,6 +7,7 @@ description:
   Learn containerized ML deployment on AWS Lambda: build, train, and serve with Docker,
     ECR, and SAM, plus CI/CD via GitHub Actions. Follow this proven guide.
 image: images/posts/2021-01-01-ml-deployment-lambda/cover.jpg
+preview: images/posts/2021-01-01-ml-deployment-lambda/preview.png
 authors:
 - sejalvaidya
 tags:
