@@ -104,7 +104,6 @@ The numbers come from our community survey. We publish the [full survey results]
             data-height="320px"
             data-width="100%">
     </canvas>
-    <figcaption>Data engineering 28.5%, data science and ML 26.8%, analytics 16.8%, software development 13.1%, management and consulting 7.0%, other 7.8%.</figcaption>
   </figure>
 
   <figure style="margin: 0;">
@@ -117,7 +116,6 @@ The numbers come from our community survey. We publish the [full survey results]
             data-height="320px"
             data-width="100%">
     </canvas>
-    <figcaption>Senior individual contributors 40.6%, entry-level 35.6%, team leads 10.1%, directors and above 3.7%, students 3.0%, other 7.0%.</figcaption>
   </figure>
 
   <figure style="margin: 0;">
@@ -130,7 +128,7 @@ The numbers come from our community survey. We publish the [full survey results]
             data-height="320px"
             data-width="100%">
     </canvas>
-    <figcaption>North America 37.2%, Europe 25.1%, Asia-Pacific 24.5%, Africa 6.8%, South America 3.8%, Middle East and other 2.6%. Members come from more than 65 countries.</figcaption>
+    <figcaption>Members come from more than 65 countries.</figcaption>
   </figure>
 
   <figure style="margin: 0;">
@@ -143,7 +141,6 @@ The numbers come from our community survey. We publish the [full survey results]
             data-height="320px"
             data-width="100%">
     </canvas>
-    <figcaption>Technology 40.6%, finance 9.4%, education 9.1%, healthcare 8.1%, retail 7.4%, other 25.4%.</figcaption>
   </figure>
 
 </div>
