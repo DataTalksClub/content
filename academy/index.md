@@ -2,7 +2,7 @@
 layout: home
 path: /academy/
 title: DataTalks.Club Academy | Live Full-Time Courses with Alexey Grigorev
-description: 'Full-time live programs in English for experienced developers in Germany: Agentic Engineering and AI Engineering. Designed for Bildungsgutschein funding (AZAV), coming soon.'
+description: 'Full-time live programs in English for experienced developers in Germany: Agentic Engineering and AI Engineering. Bildungsgutschein (coming soon).'
 og_image: images/academy/og/home.png
 sitemap: 1
 hero:
@@ -22,7 +22,7 @@ tracks:
 funding:
   heading: Funding
   paragraphs:
-  - The programs are designed for Bildungsgutschein funding (AZAV), coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognized training when your adviser agrees you need it.
+  - Bildungsgutschein funding: coming soon. A Bildungsgutschein is a voucher from the Agentur für Arbeit that can pay for recognized training when your adviser agrees you need it.
   - Talk to your adviser early, so your appointment happens before applications open.
   links:
   - label: Bildungsgutschein guide (English)

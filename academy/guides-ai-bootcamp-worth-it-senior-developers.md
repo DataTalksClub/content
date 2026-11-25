@@ -98,7 +98,7 @@ For named programs, see [AI Bootcamps in Germany in 2027](/academy/guides/ai-boo
 - 15 seats
 - Start: April 2027
 - Taught by Alexey Grigorev. He has taught more than 100,000 students in DataTalks.Club courses.
-- Designed for Bildungsgutschein funding (AZAV), coming soon. [German Bildungsgutschein guide](/academy/bildungsgutschein/).
+- Bildungsgutschein (coming soon). [German Bildungsgutschein guide](/academy/bildungsgutschein/).
 
 ## FAQ
 

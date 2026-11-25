@@ -132,7 +132,7 @@ Treat both as rough guides. What you earn depends far more on your experience, t
 
 Start with [LLM Zoomcamp](/courses/llm-zoomcamp), my free course on building applications on LLMs. It covers retrieval, agents, evaluation and monitoring, and you can take it at your own pace.
 
-If you want to do this full-time with a group, the [AI Engineering program](/academy/ai-engineering/) is based on LLM Zoomcamp, AI Engineering Buildcamp, and my experience building AI products and putting them in production. You build and evaluate products that use LLMs, and the program also covers working with coding agents, which is the focus of the [Agentic Engineering program](/academy/agentic-engineering/). 3 months (13 weeks), Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, 15 seats. Start: April 2027. Designed for Bildungsgutschein funding (AZAV), coming soon. [German Bildungsgutschein guide](/academy/bildungsgutschein/).
+If you want to do this full-time with a group, the [AI Engineering program](/academy/ai-engineering/) is based on LLM Zoomcamp, AI Engineering Buildcamp, and my experience building AI products and putting them in production. You build and evaluate products that use LLMs, and the program also covers working with coding agents, which is the focus of the [Agentic Engineering program](/academy/agentic-engineering/). 3 months (13 weeks), Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, 15 seats. Start: April 2027. Bildungsgutschein (coming soon). [German Bildungsgutschein guide](/academy/bildungsgutschein/).
 
 ## FAQ
 

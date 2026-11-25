@@ -7,7 +7,7 @@ og_image: images/academy/og/home.png
 sitemap: 6
 eyebrow: Guide
 heading: 'Le Wagon, Ironhack, Spiced Academy or WBS Coding School: Which Bootcamp Fits an Experienced Developer in Germany'
-lead: 'Le Wagon, Ironhack, Spiced Academy and WBS Coding School mainly teach people who are new to the field. Le Wagon (2 months full-time) and Ironhack (9 to 11 weeks full-time) say their main bootcamps need no prior programming, WBS Coding School (mostly 12 to 17 weeks full-time) says most of its courses are designed for beginners and career changers, and Spiced Academy runs programs from 16 weeks for beginners to 32 weeks for AI Engineering. Turing College and Digitale Leute School ask for some coding experience. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027, designed for Bildungsgutschein funding (AZAV), coming soon.'
+lead: 'Le Wagon, Ironhack, Spiced Academy and WBS Coding School mainly teach people who are new to the field. Le Wagon (2 months full-time) and Ironhack (9 to 11 weeks full-time) say their main bootcamps need no prior programming, WBS Coding School (mostly 12 to 17 weeks full-time) says most of its courses are designed for beginners and career changers, and Spiced Academy runs programs from 16 weeks for beginners to 32 weeks for AI Engineering. Turing College and Digitale Leute School ask for some coding experience. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027. Bildungsgutschein funding: coming soon.'
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
@@ -52,7 +52,7 @@ Entry level in each school's own words. Checked November 2026.
 - **WBS Coding School.** Programs: AI Software Development, Data Science, Data Analytics, AI Agents & Automations and more. Entry level: Most courses are for beginners and career changers. Length: Mostly 12 to 17 weeks full-time, some programs of 10 or 12 months. Language: English or German. Where: Online.
 - **DataTalks.Club Academy.** Programs: Agentic Engineering, AI Engineering. Entry level: 2+ years as a developer. Length: 3 months (13 weeks) full-time, live. Language: English. Where: Berlin or live online.
 
-Funding for DataTalks.Club Academy: Designed for Bildungsgutschein funding (AZAV), coming soon. The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains the voucher in German.
+Funding for DataTalks.Club Academy: Bildungsgutschein (coming soon). The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains the voucher in German.
 
 ## Le Wagon for Experienced Developers
 
@@ -127,7 +127,7 @@ DataTalks.Club Academy is a full-time live program in English for experienced de
 - **Where:** Berlin or live online
 - **Group:** 15 seats
 - **Start:** April 2027
-- **Funding:** Designed for Bildungsgutschein funding (AZAV), coming soon.
+- **Funding:** Bildungsgutschein (coming soon).
 
 There are two programs, the [Agentic Engineering program](/academy/agentic-engineering/) and the [AI Engineering program](/academy/ai-engineering/). They don't start with basics like installing Git or Docker.
 

@@ -7,7 +7,7 @@ og_image: images/academy/og/home.png
 sitemap: 6
 eyebrow: Guide
 heading: 'AI Bootcamps in Germany in 2027: Which Ones Are Built for Experienced Developers'
-lead: 'Most AI bootcamps in Germany take people who have never worked as developers. Ironhack''s AI Engineering bootcamp (9 weeks full-time) and Le Wagon''s AI Software bootcamp (2 months full-time) need no prior programming, and WBS Coding School says most of its courses are for beginners and career changers. Spiced Academy runs a 32-week AI Engineering program that asks for programming and maths, and Turing College asks for at least a year of coding. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027, designed for Bildungsgutschein funding (AZAV), coming soon.'
+lead: 'Most AI bootcamps in Germany take people who have never worked as developers. Ironhack''s AI Engineering bootcamp (9 weeks full-time) and Le Wagon''s AI Software bootcamp (2 months full-time) need no prior programming, and WBS Coding School says most of its courses are for beginners and career changers. Spiced Academy runs a 32-week AI Engineering program that asks for programming and maths, and Turing College asks for at least a year of coding. DataTalks.Club Academy is a 3-month full-time live program in English for developers with 2+ years of experience, with 15 seats. Start: April 2027. Bildungsgutschein funding: coming soon.'
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
@@ -56,7 +56,7 @@ Entry level as each provider describes it on its own page. Checked November 2026
 - **Turing College, AI Engineering.** Entry level: At least 1 year of Python or JavaScript. Length: 3 to 4 months, self-paced, 10+ hours a week. Language: English or German. Where: Online.
 - **DataTalks.Club Academy, Agentic Engineering, AI Engineering.** Entry level: 2+ years as a developer. Length: 3 months (13 weeks) full-time, live. Language: English. Where: Berlin or live online.
 
-The funding line for DataTalks.Club Academy: Designed for Bildungsgutschein funding (AZAV), coming soon. The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains the voucher in German.
+The funding line for DataTalks.Club Academy: Bildungsgutschein (coming soon). The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains the voucher in German.
 
 ## AI Bootcamps for Career Starters
 
@@ -114,7 +114,7 @@ Le Wagon teaches in person in Berlin as well as online. Spiced Academy and neue 
 - **Where:** Berlin or live online
 - **Group:** 15 seats
 - **Start:** April 2027
-- **Funding:** Designed for Bildungsgutschein funding (AZAV), coming soon.
+- **Funding:** Bildungsgutschein (coming soon).
 
 There are two programs. In the [Agentic Engineering program](/academy/agentic-engineering/) you learn to use coding agents like Claude Code or Cursor to write most of the code, while you decide what to build and check the result. In the [AI Engineering program](/academy/ai-engineering/) you learn to build and evaluate products that use LLMs, like chatbots, search over company documents and agents.
 

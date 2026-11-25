@@ -7,12 +7,12 @@ alternates:
 - lang: en
   path: /academy/guides/bildungsgutschein-in-english/
 title: Bildungsgutschein für KI-Weiterbildung auf Englisch | DataTalks.Club Academy
-description: 'KI-Weiterbildung auf Englisch für erfahrene Softwareentwickler in Deutschland. Förderung per Bildungsgutschein (AZAV) in Kürze. Start: April 2027.'
+description: 'KI-Weiterbildung auf Englisch für erfahrene Softwareentwickler in Deutschland. Förderung per Bildungsgutschein: in Kürze. Start: April 2027.'
 sitemap: 5
 hero:
   eyebrow: DataTalks.Club Academy
   headline: Bildungsgutschein für KI‑Weiterbildung auf Englisch
-  lead: 'DataTalks.Club Academy bietet zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland: Agentic Engineering und AI Engineering. Beide dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr, in Berlin oder live online, und sind für die Förderung per Bildungsgutschein nach AZAV konzipiert. Start: April 2027.'
+  lead: 'DataTalks.Club Academy bietet zwei Vollzeit-Weiterbildungen auf Englisch für erfahrene Softwareentwickler in Deutschland: Agentic Engineering und AI Engineering. Beide dauern 3 Monate, montags bis freitags von 09:00 bis 16:30 Uhr, in Berlin oder live online. Förderung per Bildungsgutschein: in Kürze. Start: April 2027.'
 english:
   text: 'For English, check this page:'
   link:
@@ -64,7 +64,7 @@ guide:
   paragraphs:
   - Ein Bildungsgutschein ist eine Förderung der Agentur für Arbeit. Damit kann eine anerkannte berufliche Weiterbildung übernommen werden, wenn sie in Ihrem Fall nötig ist. Die Entscheidung trifft Ihre Beraterin oder Ihr Berater im persönlichen Gespräch, bevor der Kurs beginnt.
   - Seit dem 1. Januar 2025 übernimmt die Agentur für Arbeit die Weiterbildungsberatung und entscheidet über den Bildungsgutschein, auch wenn Sie Bürgergeld beziehen und zunächst über das Jobcenter kommen.
-  - Förderung per Bildungsgutschein (AZAV) in Kürze. Sprechen Sie früh mit Ihrer Agentur für Arbeit, damit Ihr Beratungstermin rechtzeitig stattfindet.
+  - Förderung per Bildungsgutschein: in Kürze. Sprechen Sie früh mit Ihrer Agentur für Arbeit, damit Ihr Beratungstermin rechtzeitig stattfindet.
   steps_title: Was Sie zum Beratungsgespräch mitnehmen sollten
   steps:
   - Fünf bis zehn aktuelle, möglichst regionale Stellenanzeigen, in denen genau diese Kenntnisse verlangt werden (Coding Agents oder LLM-Anwendungen).

@@ -112,7 +112,7 @@ The Bildungsgutschein (education voucher) exists to fund further training throug
 - 15 seats
 - Start: April 2027
 - Taught by Alexey Grigorev. He has taught more than 100,000 students in DataTalks.Club courses.
-- Designed for Bildungsgutschein funding (AZAV), coming soon.
+- Bildungsgutschein (coming soon).
 
 ## German Terms You Will See
 

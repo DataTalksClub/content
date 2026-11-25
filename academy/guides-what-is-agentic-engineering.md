@@ -102,7 +102,7 @@ The tools are already widely used. In the Stack Overflow Developer Survey 2026, 
 
 Start with [AI Dev Tools Zoomcamp](/courses/ai-dev-tools-zoomcamp), my free course on the basics of agentic engineering. It covers specification-driven development and how to set up a team of agents that work on tasks.
 
-If you want to practise this full-time with a group, the [Agentic Engineering program](/academy/agentic-engineering/) is based on AI Dev Tools Zoomcamp and my experience running coding agents 24/7 for the last year. You take an idea to production: specs, a local version, deployment, CI/CD, monitoring and running agents in parallel. The [AI Engineering program](/academy/ai-engineering/) also covers working with coding agents, as part of building products on LLMs. 3 months (13 weeks), Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, 15 seats. Start: April 2027. Designed for Bildungsgutschein funding (AZAV), coming soon. [German Bildungsgutschein guide](/academy/bildungsgutschein/).
+If you want to practise this full-time with a group, the [Agentic Engineering program](/academy/agentic-engineering/) is based on AI Dev Tools Zoomcamp and my experience running coding agents 24/7 for the last year. You take an idea to production: specs, a local version, deployment, CI/CD, monitoring and running agents in parallel. The [AI Engineering program](/academy/ai-engineering/) also covers working with coding agents, as part of building products on LLMs. 3 months (13 weeks), Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, 15 seats. Start: April 2027. Bildungsgutschein (coming soon). [German Bildungsgutschein guide](/academy/bildungsgutschein/).
 
 ## FAQ
 

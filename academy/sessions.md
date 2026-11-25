@@ -134,7 +134,7 @@ faq:
   - question: I Don't Live in Berlin. Can I Join?
     answer: Yes. The job market and Agentur für Arbeit examples are for Germany, while the rest applies anywhere.
   - question: Is This a Sales Pitch for a Course?
-    answer: Each session starts with a 15 to 20 minute talk and Q&A. At the end I spend about 10 minutes on the full-time program for 15 people starting April 2027. Designed for Bildungsgutschein funding (AZAV), coming soon.
+    answer: Each session starts with a 15 to 20 minute talk and Q&A. At the end I spend about 10 minutes on the full-time program for 15 people starting April 2027. Bildungsgutschein (coming soon).
   - question: I've Already Done an AI Bootcamp or a Prompting Course. Will This Be the Same?
     answer: No. These sessions assume you write software, so there's no ChatGPT intro.
   - question: Do I Need to Know Python?

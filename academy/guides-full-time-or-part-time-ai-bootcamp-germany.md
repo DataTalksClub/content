@@ -116,7 +116,7 @@ Funding rules are a separate topic. The [German Bildungsgutschein guide](/academ
 - **Language:** English
 - **Group:** 15 seats
 - **Start:** April 2027
-- **Funding:** Designed for Bildungsgutschein funding (AZAV), coming soon.
+- **Funding:** Bildungsgutschein (coming soon).
 
 There are two programs, the [Agentic Engineering program](/academy/agentic-engineering/) and the [AI Engineering program](/academy/ai-engineering/), both for developers with 2+ years of experience. There is no part-time format. Taught by Alexey Grigorev. He has taught more than 100,000 students in DataTalks.Club courses.
 

@@ -72,7 +72,7 @@ Some people call this AI native development, or just modern software engineering
 
 ## Funding Through the Bildungsgutschein
 
-In Germany, the Agentur für Arbeit or the Jobcenter can fund training through the Bildungsgutschein. The full-time programs are designed for Bildungsgutschein funding (AZAV), coming soon.
+In Germany, the Agentur für Arbeit or the Jobcenter can fund training through the Bildungsgutschein. Bildungsgutschein funding for the full-time programs: coming soon.
 
 You find a program, go to your adviser and explain why it's useful for your career. The adviser decides, and sometimes the answer is no.
 

@@ -90,7 +90,7 @@ The two directions overlap. An AI engineer could build a tool like Claude Code, 
 
 Start with the free courses. [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) covers the basics of agentic engineering. [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) covers building applications on top of LLMs.
 
-If you want to go further full-time, DataTalks.Club Academy has two programs. Both are 3 months (13 weeks), full-time and live, Monday to Friday, 09:00 to 16:30 Berlin time, in English, in Berlin or live online, with 15 seats. Start: April 2027. Designed for Bildungsgutschein funding (AZAV), coming soon. The [Bildungsgutschein guide in English](/academy/guides/bildungsgutschein-in-english/) explains how the voucher works, and there is also a [German Bildungsgutschein guide](/academy/bildungsgutschein/).
+If you want to go further full-time, DataTalks.Club Academy has two programs. Both are 3 months (13 weeks), full-time and live, Monday to Friday, 09:00 to 16:30 Berlin time, in English, in Berlin or live online, with 15 seats. Start: April 2027. Bildungsgutschein (coming soon). The [Bildungsgutschein guide in English](/academy/guides/bildungsgutschein-in-english/) explains how the voucher works, and there is also a [German Bildungsgutschein guide](/academy/bildungsgutschein/).
 
 The [Agentic Engineering program](/academy/agentic-engineering/) builds on AI Dev Tools Zoomcamp and my experience running coding agents 24/7 for the last year. You finish by shipping a working web application for a real user task.
 

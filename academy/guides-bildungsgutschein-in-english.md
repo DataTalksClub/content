@@ -113,7 +113,7 @@ Courses that can be funded with a voucher are listed in [mein NOW](https://mein-
 
 DataTalks.Club Academy is a full-time live program in English for experienced developers in Germany, taught by Alexey Grigorev, who has taught more than 100,000 students in DataTalks.Club courses. There are two programs, [Agentic Engineering](/academy/agentic-engineering/) and [AI Engineering](/academy/ai-engineering/), each 3 months (13 weeks), Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online, with 15 seats. Start: April 2027.
 
-Designed for Bildungsgutschein funding (AZAV), coming soon.
+Bildungsgutschein (coming soon).
 
 ## German Terms You Will See
 
@@ -148,4 +148,4 @@ No. For further training of people who already have a profession it is a discret
 
 ### Can I Pay for DataTalks.Club Academy with a Bildungsgutschein?
 
-The programs are designed for Bildungsgutschein funding (AZAV), coming soon. The Agentur für Arbeit decides on each voucher in a counselling appointment before the course starts.
+Bildungsgutschein funding: coming soon. The Agentur für Arbeit decides on each voucher in a counselling appointment before the course starts.

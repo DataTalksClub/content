@@ -7,7 +7,7 @@ og_image: images/academy/og/home.png
 sitemap: 6
 eyebrow: Guide
 heading: 'Free Zoomcamps or the Full-Time Academy: Which DataTalks.Club Course Fits You'
-lead: 'DataTalks.Club Zoomcamps are free online courses that anyone can join. DataTalks.Club Academy is a separate full-time live program in English for experienced developers in Germany, with two programs, Agentic Engineering and AI Engineering, each 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, with 15 seats. Start: April 2027, and the programs are designed for Bildungsgutschein funding (AZAV), coming soon.'
+lead: 'DataTalks.Club Zoomcamps are free online courses that anyone can join. DataTalks.Club Academy is a separate full-time live program in English for experienced developers in Germany, with two programs, Agentic Engineering and AI Engineering, each 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, with 15 seats. Start: April 2027. Bildungsgutschein funding: coming soon.'
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
@@ -50,7 +50,7 @@ The current list is on the [courses page](/courses). The two closest to the Acad
 - **Where:** Berlin or live online
 - **Language:** English
 - **Group:** 15 seats
-- **Funding:** Designed for Bildungsgutschein funding (AZAV), coming soon.
+- **Funding:** Bildungsgutschein (coming soon).
 
 All sessions are taught live, with no pre-recorded lectures. Online participants join live on the same Monday to Friday schedule.
 
@@ -66,7 +66,7 @@ So the Zoomcamps are not replaced by the Academy. Each Academy program takes one
 
 ## Side by Side
 
-- **Cost.** Free Zoomcamps: Free. DataTalks.Club Academy: Paid. Designed for Bildungsgutschein funding (AZAV), coming soon.
+- **Cost.** Free Zoomcamps: Free. DataTalks.Club Academy: Paid. Bildungsgutschein (coming soon).
 - **Schedule.** Free Zoomcamps: Pre-recorded modules and live office hours, at your own pace. DataTalks.Club Academy: Full-time, live, Monday to Friday, 09:00 to 16:30 Berlin time, 3 months.
 - **Who it is for.** Free Zoomcamps: Anyone who wants to learn, anywhere. DataTalks.Club Academy: Developers in Germany with 2+ years of experience.
 - **Group size.** Free Zoomcamps: Open to everyone. DataTalks.Club Academy: 15 seats.
@@ -92,7 +92,7 @@ The programs don't start with basics like installing Git or Docker. They assume 
 
 ## The Academy and the Bildungsgutschein
 
-Designed for Bildungsgutschein funding (AZAV), coming soon. The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains the voucher in German.
+Bildungsgutschein (coming soon). The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains the voucher in German.
 
 ## Who Teaches
 
@@ -111,7 +111,7 @@ If you want to see how he teaches before you decide, the [free Hireable With AI 
 
 ### Is DataTalks.Club Academy Free Like the Zoomcamps?
 
-No. The Zoomcamps are free online courses. DataTalks.Club Academy is a paid full-time live program, designed for Bildungsgutschein funding (AZAV), coming soon.
+No. The Zoomcamps are free online courses. DataTalks.Club Academy is a paid full-time live program. Bildungsgutschein funding: coming soon.
 
 ### Do I Need to Finish a Zoomcamp Before I Join DataTalks.Club Academy?
 
