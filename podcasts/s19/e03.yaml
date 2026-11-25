@@ -172,3 +172,37 @@ intro: How do you scale a volunteer-run learning community into a sustainable pl
 transcript: e03-transcript.yaml
 
 resources: []
+summary: |-
+  This anniversary episode is an "Ask Me Anything" for DataTalks.Club, which has turned four.
+  Johanna, who has hosted the podcast for almost three years, puts Alexey in the guest seat and
+  asks questions from the community. Alexey says he started the community by accident in September
+  2020, during COVID. In April 2023 he left his previous job to run DataTalks.Club full time,
+  after it became profitable.
+
+  The community now runs five courses: Machine Learning Zoomcamp, Data Engineering Zoomcamp, MLOps
+  Zoomcamp, an LLM course and a stock market analytics course. The Data Engineering Zoomcamp is
+  the most popular, with 24,000 registrations, compared with about 8,000 for the machine learning
+  course. Alexey says people recommend it to each other, including on Reddit, without any
+  incentive. The stock market course was led by Ivan without Alexey's direct involvement, because
+  the Django course platform lets instructors manage their own courses.
+
+  Alexey and Johanna trace the free-to-learn model to Open Data Science, a Russian-speaking
+  community whose main organization no longer exists, and to Johanna's Machine Learning Zoomcamp.
+  A former student suggested the Data Engineering course, which was free from the start. Sponsors
+  fund the courses, and Alexey says a recession once led several to cancel. He is optimistic, with
+  enough runway for the rest of the year and part of the next. He also warns members about the
+  Upwork scam, in which people ask for an account to work on their behalf, and asks them to report
+  suspicious direct messages.
+
+  On AI and careers, Alexey says AI will replace some simple tasks, but not analysts or data
+  scientists, since business communication and defining metrics still need people. He compares
+  this to autopilot, where pilots remain. He notes that AutoML could already produce a decent
+  model from a CSV file, yet data scientists still have jobs. He also describes a personal project
+  that turns photos into horror stories with GPT, with generated illustrations and narration,
+  published automatically through GitHub Actions.
+
+  For people who want to become data scientists, Alexey says now is a good time because tools like
+  ChatGPT lower the barrier to starting. He acknowledges that junior roles are hard to find. To
+  help the community grow, he invites people to guest on the podcast, mentor in Slack and join
+  Project of the Week. He also plans a first hackathon and a stock market course rerun around
+  April, with two workshops beforehand.

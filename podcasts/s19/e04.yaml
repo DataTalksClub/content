@@ -151,3 +151,33 @@ context: 'Context: Raphaël Hoogvliets (Eneco) walks through his journey from ag
 transcript: e04-transcript.yaml
 
 resources: []
+summary: |-
+  Raphaël Hoogvliets leads an MLOps team at Eneco, a sustainable energy provider in the
+  Netherlands. He started his career in sustainable agriculture, then worked as a freelance
+  consultant and data scientist before moving into MLOps about three years ago. Alexey invites him
+  to explain how to run MLOps at scale, so that models stay deployed, reproducible and actually
+  used. The questions were prepared by Johanna Bayer.
+
+  Raphaël describes a team with three common roles. An evangelist advocates for the team inside
+  the company and at executive level, a tech translator bridges technical and business
+  stakeholders, and a technical lead guides the team on MLOps principles. Eneco's MLOps team works
+  as a centralized enabling team for about 34 product teams, helping define best practices,
+  reusable tools and monitoring. Adoption depends on iteration and trust. Raphaël suggests
+  treating the platform like a product, collecting pain points from data scientists, and comparing
+  them with the team's own priorities in a matrix that starts with quick wins.
+
+  Raphaël recommends standardizing CI, repository structure, packaging and parameter files, and
+  testing data transformations first. Exploratory notebooks should stay in version control,
+  because insights from them help with monitoring and root cause analysis. Data versioning links a
+  deployment to its data, which supports reproducibility. He recalls showing one business that it
+  deployed only a few times a year, and then helping it deploy daily. Eneco uses both Databricks
+  and Kubernetes, and he values private package registries because they manage dependencies and
+  versions in a way a container alone does not.
+
+  Raphaël describes a failed project in which a client imposed an integration freeze, leaving a
+  finished data platform unable to connect to data sources. The team worked on it for two years,
+  but the client never agreed to proceed, and Raphaël says he burned out on that project. Asked
+  how to start, he says CI/CD is usually the first step, with monitoring or faster deployments
+  chosen according to the most urgent problem. Teams should first check whether existing tools are
+  enough, and flag missing basics such as version control to leadership early. He also favors a
+  mix of engineering, platform and data science skills in an MLOps team.

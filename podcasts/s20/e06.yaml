@@ -151,3 +151,37 @@ resources:
   url: https://github.com/eyzyly/eyzyly
 - title: ADPList
   url: https://adplist.org/mentors/eddy-zulkifly
+summary: |-
+  Eddy Zulkifly is a staff data engineer at Kinaxis, a supply chain planning platform, with more
+  than ten years in data. He is based in Toronto and previously worked at Home Depot. He started in
+  supply chain work in distribution centers, where he used Excel macros to plan container arrivals
+  and warehouse space. He then moved from business analyst work on dashboards into data engineering,
+  learning Docker and Terraform along the way. Alexey invites him to talk about digital data
+  warehousing and FinOps, which is the practice of managing cloud spending.
+
+  Eddy describes his early retail work, including forecasting seasonal container arrivals and
+  preload optimization of trailer space for shipments to stores, and how that work made him think of
+  data as inventory that moves through pipelines. He explains the modern data stack in practical
+  terms. Data engineers move data from sources into a warehouse, usually with pipelines or Python
+  scripts, and then use dbt to transform and organize it in BigQuery. He says a digital warehouse
+  changes much faster than a physical one, and because everything is in the cloud it needs
+  monitoring and tests. Alexey mentions his own time as a Java developer at Kiva, which Amazon
+  Robotics later absorbed.
+
+  For FinOps, Eddy explains that his team uses the data they generate to understand the cost and
+  usage of their systems, and then uses that picture to negotiate with cloud vendors. Alexey
+  summarizes the process as comparing the virtual machine requirements against the deals offered by
+  Google Cloud, AWS and Azure. Eddy describes tagging cloud resources with open-source tools so that
+  spending can be assigned to teams, and building metric trees and data specifications so that
+  everyone understands what a dataset means. The final output is unit economics, which show how cost
+  relates to business activity.
+
+  Eddy also describes serverless services such as cloud functions and Lambda, which run only when
+  needed, and says that cloud knowledge helps a team find cost savings. He points to the FinOps
+  Foundation for training and to its effort to standardize how cloud providers report costs, and
+  says FinOps is about processes, not just tools. His master's in analytics from Georgia Tech, which
+  he studies one course per semester alongside work, introduced him to dbt and Python.
+
+  Asked how he fits in extra learning, Eddy recommends certifications that match your interests, a
+  local community such as Toronto meetups, a monthly accountability partner and giving back, which
+  he does as a mentor on ADP List.

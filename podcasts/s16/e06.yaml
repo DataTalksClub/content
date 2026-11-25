@@ -149,3 +149,35 @@ transcript: e06-transcript.yaml
 resources:
 - title: Jack's LinkedIn profile
   url: https://www.linkedin.com/in/jackblandin/
+summary: |-
+  Jack Blandin is a machine learning leader who moved from software engineering into data science
+  and then into leadership. He began as a software engineer in 2015 and moved into management at
+  GoHealth , and he now works as vice president of machine learning at Fi, which makes smart dog
+  collars. Alexey invites him to talk about the unwritten rules that help people succeed in machine
+  learning, such as getting stakeholders to say yes and delivering quick proofs of concept.
+
+  Jack says that he was promoted from individual contributor to manager quickly and learned soft
+  skills by trial and error. He argues that people's perception of you matters, and that leaders
+  need to speak the language of the business. In marketing, that means terms like customer
+  acquisition cost and KPIs. Alexey notes that machine learning projects need far more effort than
+  ordinary software projects, and Jack says the way to win support is to show stakeholders what they
+  care about with visuals. As an example, he describes a furniture recommendation project where he
+  showed how often a predicted style matched what customers bought.
+
+  When it comes to proof of concepts, Jack prefers to show a demo and avoid leading with accuracy
+  numbers, which stakeholders often misread. He builds quick prototypes with tools such as Gradio
+  and Streamlit. He also begins with a baseline, a heuristic or a manual process, so that a model
+  has to beat something real. Alexey agrees and adds that the first step is to prove that an idea is
+  valuable at all. Jack gives the example of a churn model that was technically accurate but gave
+  the team nothing to act on, which taught him to focus on actionable outcomes rather than on
+  tuning.
+
+  Jack also says that ML leaders should understand the product and the customer. He recommends
+  working as a customer of the product where possible, and he says that data reflects the process
+  that generated it, so understanding that process helps. Software engineering skills are necessary
+  to put models into production. He posts about these lessons on LinkedIn most days. He also
+  mentions a new venture that reimagines hiring for machine learning and data roles.
+
+  The main advice is to learn the business vocabulary, build demos rather than presentations, start
+  with a simple baseline, and keep engineering skills in your toolkit even when your title is about
+  machine learning.

@@ -142,3 +142,39 @@ resources:
   url: https://x.com/frontline_100?mx=2
 - title: Website
   url: https://www.frontline100.com/
+
+summary: |-
+  Sabina Firtala is a freelance data analyst who works on AI product development at Frontline 100, a
+  company that builds tools to assess the risk of domestic abuse. She studied chemistry at
+  Cambridge, worked as a data analyst in finance, and learned Python through the JetBrains
+  HyperSkill platform and an Ironhack data analytics course. Alexey met her at a meetup and had not
+  heard of AI used for this topic before. He opens with a content warning about domestic abuse and
+  asks what Frontline is trying to solve.
+
+  Frontline 100 aims to end domestic abuse sooner. Sabina says most risk assessments in the field
+  are paper surveys, and police in Germany use tools built for North American populations. Frontline
+  ran its own survey on a nationally representative sample of 7,400 people. A second survey followed
+  earlier victims for three months, while many existing tools look at recurrence after a year or
+  more. The team is piloting its tool, called Lizzy, with police and social workers, and an app
+  replaces paper to track cases over time.
+
+  Survey answers serve as features. The targets cover five abuse types, digital, emotional,
+  financial, physical and sexual, each for identification and recidivism, ten targets in total. Many
+  targets come from proxy questions. Logistic regression performed best among the models tried,
+  ahead of decision trees, boosting and support vector machines, with better performance and less
+  overfitting, and its coefficients are easy to explain. The model outputs a probability, which the
+  team reads as low, medium or high risk. Aggregate metrics can hide individual errors, so the team
+  checks individual scenarios. Known facts, such as a past choking incident, can mark a person as
+  high risk even when the model does not.
+
+  The tool supports officers and does not make decisions, and the team gives suggestions rather than
+  recommendations. It reports standard metrics such as AUC and puts weight on avoiding false
+  negatives. The research survey was run online because in-person questioning adds pressure and
+  social desirability bias, for example men who would not admit abuse to an officer. The model is
+  deployed and monitored for stability over time, and MLflow tracks experiments.
+
+  Sabina describes the hardest part as validating final models against real scenarios, since testing
+  ML models is less mature than software testing. She recommends the book Look What You Made Me Do
+  and the Portfolio Collective for networking. For finding similar work, she advises following
+  organizations in causes you care about and messaging them, because small ones are more likely to
+  reply.

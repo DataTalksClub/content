@@ -118,3 +118,35 @@ resources:
   url: /podcast/s16e09/becoming-data-freelancer
 - title: Linkedin
   url: https://www.linkedin.com/in/visnadi/
+summary: |-
+  Dimitri Visnadi is an independent data consultant who started in data in 2013, after a business
+  administration degree, when an internship led him to Excel. He runs Data Freelancer, which
+  includes a job board for data freelancers, a freelancer rates section, an online course and a
+  community. Alexey invites him back to talk about taking a freelance data career to the next level.
+
+  Dimitri says freelancers fall into two types, those who sell skills and those who sell expertise.
+  Alexey describes his own contract work on creating courses, where the expertise is course design
+  and the technologies are learned for each project. For Dimitri the main test of freelancing is
+  making money. When he started he had no clients, so he gave himself eight months to show it was
+  viable, with four months in reserve to find a job if it was not.
+
+  He started the job board during his paternity leave. It crawls agency job boards, LinkedIn, Upwork
+  and other sites, filters listings by data job titles, and shows only the last month, because
+  freelance postings go stale within weeks. Its rates section lists data management at about $120
+  per hour and AI development at about $116. Dimitri explains that data management is a catch-all
+  for roles that are neither analyst nor engineer, from database managers to fractional data leads.
+  He suggests looking at the market first and working backwards.
+
+  In his second year he tried running a small agency, subcontracting four freelancers for one
+  project and nine for another, but managing people did not suit him. He now runs what he calls a
+  lifestyle business, deciding where and when he works and experimenting with projects such as his
+  course. After becoming a father in 2023 he moved some clients, mostly small founder-led e-commerce
+  businesses, to six- or twelve-month subscriptions that are not tied to hours. In one case a simple
+  table filter revealed a payments issue that let a client recover $20,000. He uses Claude most and
+  ChatGPT occasionally, while Alexey says he switched to Cursor because it embeds chat in the code
+  editor.
+
+  On pricing, Dimitri says project pricing has better margins, but hourly work still fits new
+  freelancers and unclear requirements. For people with long notice periods, he suggests asking the
+  current employer to become the first client, and talking to recruiters and other freelancers early
+  to test the market before taking the leap.

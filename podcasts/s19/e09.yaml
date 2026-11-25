@@ -190,3 +190,33 @@ resources:
   url: https://www.linkedin.com/in/tamaraatanasoska/
 - title: GitHub
   url: https://github.com/TamaraAtanasoska
+summary: |-
+  Tamara Atanasoska is an open-source software engineer at Probable and a maintainer of Fairlearn.
+  She also contributes to scikit-learn and skops. Her path runs from civic tech and five years of
+  music technology at Ableton, where she worked on the Push 2 hardware, to computational
+  linguistics and machine learning research. Alexey invites her to explain fairness in AI, using
+  credit scoring as the main example, and how open-source tools help teams assess it.
+
+  Tamara describes a study by Fairlearn, Ernst & Young and Microsoft that analyzed 300,000 data
+  points and found that a credit model performed differently for male and female applicants. Wrong
+  decisions in either direction have costs: denying loans to eligible people, or approving loans
+  for people who cannot repay, which can lead to debt, repossession and job loss. Fairlearn
+  focuses on group fairness, so teams compare a model's performance across sensitive groups.
+  Tamara says the choice of groups depends on the domain. Fairlearn can visualize false positives
+  and false negatives, and it offers mitigation through post-processing or retraining with
+  exponentiated gradient methods.
+
+  Alexey and Tamara agree that automation cannot make these decisions alone. A human expert has to
+  judge which harm matters more, and fairness is a socio-technical problem rather than a purely
+  technical one. Alexey recalls a moderation team for an online marketplace that combined data
+  scientists, fraud specialists and product managers, with moderators making the final call.
+  Tamara argues that a human must be in the loop before any decision has real impact. She also
+  mentions a practitioner who felt frozen by these choices, and says that curiosity and reviewing
+  the problem definition help more than a perfect framework.
+
+  Tamara also describes her work on skops, which addresses the security risks of pickle, where an
+  untrusted model file can run code when loaded. Her main recent work at Probable has been
+  compatibility across Fairlearn and scikit-learn, including compatibility with scikit-learn 1.6.
+  For readers who want to contribute, she recommends the Fairlearn Discord, linked from
+  fairlearn.org, and the good first issues and help wanted labels on GitHub. A Fairlearn sprint in
+  Berlin is planned for around February, and she plans a talk on custom estimators in January.

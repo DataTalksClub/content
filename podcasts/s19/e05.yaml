@@ -159,3 +159,33 @@ transcript: e05-transcript.yaml
 resources:
 - title: LinkedIn
   url: https://www.linkedin.com/in/dr-anastasia-karavdina/
+summary: |-
+  Anastasia Karavdina is a particle physicist turned data scientist who worked on experiments at
+  the Large Hadron Collider. She later worked at Blue Yonder, a supply chain software vendor, and
+  led NLP and search efforts at Kaufland, a German e-commerce chain. She now focuses on mentoring.
+  Alexey invites her to talk about moving from collider physics into machine learning and the
+  practices and interviews that made the transition possible.
+
+  Anastasia explains that the LHC accelerates particles, collides them, and records results with
+  detectors that produce billions of events in a short time. Most events are not interesting, so
+  analysis focuses on the significant ones, which is why she sees particle physics as close to
+  data science. Experiments involve hundreds or thousands of people, including hardware
+  specialists, operations teams and analysts, and many physicists work on both detectors and
+  analysis. Version control was adopted at the LHC after initial resistance, and she later found
+  the same tools, such as GitHub and CI/CD, in industry.
+
+  Physics terms such as multivariate analysis did not translate directly, so she reframed her
+  experience around what companies were looking for. Early interviews were often for first data
+  science roles, and she was not selected in a couple of them. She treats behavioral interviews as
+  at least as important as coding tests, and recommends preparing a few solid stories and using
+  the STAR format. Alexey says Amazon's leadership principles helped him prepare. Anastasia notes
+  that German companies rarely explain rejections, and that cultural fit is seldom named directly.
+
+  Anastasia started mentoring by accident, when people asked her for help after she moved into
+  industry, and later colleagues at Blue Yonder asked her formally. She defines
+  mentoring as a process with a clear goal, such as a job change or a move to another country, and
+  says a mentor must want to help. Requests should be specific and ask for a manageable amount of
+  time. She suggests starting with unpaid communities and argues that paid mentorship makes both
+  sides more committed. Mentoring also helped her move toward leadership roles, although she had
+  no formal manager title. She warns that mentors need to recognize when they have done enough to
+  avoid burning out.

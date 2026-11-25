@@ -172,3 +172,36 @@ resources:
   url: https://github.com/dlt-hub/dlt
 - title: Website
   url: https://dlthub.com/docs/intro
+summary: |-
+  Adrian Brudaru started working in data in 2012 at Berlin startups, joined a corporation, found
+  it was not for him, and then freelanced for about five years. He is now a co-founder of the
+  company behind dlt, the data load tool. Alexey invites him back, after an earlier episode on
+  freelancing, to talk about what comes next.
+
+  Adrian says freelancing gave him autonomy and let him save and invest. About half of his work
+  was first-time setups, building a data warehouse and hiring a team, and the rest was general
+  data engineering and consulting. Later he subcontracted other people, which made him more of an
+  agency manager. Revenue went up, but autonomy and happiness went down. An agency means keeping
+  employees paid, even with customers you would not choose, so he chose to build a product
+  instead. The trigger was repetition. In one project he finished the warehouse in two weeks and
+  then spent two months getting stakeholders to agree on what "a customer" means.
+
+  The product targets Python users who can call an API and use pandas but lack engineering depth.
+  A common antipattern he saw was dumping JSON strings into databases. dlt takes unknown JSON and
+  loads it into typed relational tables, breaking nested lists into separate tables. The team
+  first built an engine, tested it with paying design partners, and then added a simpler layer on
+  top. Adrian met his co-founder Matt on his last freelance project, and Matt brought in Martin
+  and Anna. For a year they lived on savings, took no salary, and used empty Berlin offices for
+  free, before raising a pre-seed round.
+
+  To validate the interface, they ran a three-day workshop with about 60 people using Slack
+  checkpoints and a shared Codespaces environment. Everyone managed to build an incremental
+  pipeline, which told them the abstraction worked. Docs took about three months to become usable
+  and another three before people praised them. Adrian now leads go-to-market with a bottom-up
+  strategy aimed at developers, and he describes a partnership with a database that, like dlt,
+  runs in a notebook. Next comes a paid product that complements the open-source library. He sees
+  Airbyte as a distant competitor, since dlt is a library rather than a platform.
+
+  For product-market fit, Adrian cites the test of taking the solution away to see if anyone
+  complains, and an early adopter that runs its whole data stack on dlt. He recommends the book
+  From Survival to Thrival on enterprise product-market fit.

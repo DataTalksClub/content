@@ -168,3 +168,36 @@ resources:
   url: https://instagram.com/sound_and_peace?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr
 - title: LinkedIn profile
   url: https://www.linkedin.com/in/verena-weber-134178b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+summary: |-
+  Verena Weber is a freelance generative AI consultant who recently left her job as a research
+  scientist on the Amazon Alexa team in Berlin, where she worked for almost four years. She studied
+  economics with Chinese studies, moved to statistics and discovered machine learning during a joint
+  statistics master's in Berlin. She then worked as a consultant at Deloitte for about two years,
+  briefly at Oetker Digital and on causal inference at mobile.de. Alexey invites her to talk about
+  research at Amazon and her move into freelancing.
+
+  Verena says she got the research role without a PhD partly because the team was young and hiring,
+  and because Amazon now asks for a PhD or relevant work experience. Research there always starts
+  from a customer problem, and the team plans how a solution will reach production before the work
+  begins. Papers come after the business result, often in the industry tracks of conferences such as
+  ACL and EMNLP. She led about five or six research projects and published four papers. Her first
+  project was about labeling data efficiently, and a later one generated adversarial attacks with a
+  T5 model.
+
+  In her 2021 paper on annotation, annotators of German and French training data saw the output of
+  the natural language understanding model and only had to confirm or correct it. This saved time
+  and cost, and it also made annotations more consistent. Another project put more weight on high-
+  traffic utterances during retraining so that they kept working.
+
+  As a freelancer, Verena wants to help small and medium businesses in Germany adopt generative AI,
+  work in a more entrepreneurial way and support women in AI, citing a study that half of women
+  leave tech at mid-career. She decided not to take bigger projects this year while she sets up. Her
+  long pitch deck covers why companies should act on generative AI, her experience, offerings such
+  as a discovery workshop of half a day to two days, reference projects and her daily rate. She
+  shortens it for each audience and builds her website from it. Her first requests came through her
+  network and LinkedIn posts.
+
+  To learn what clients need, Verena suggests talking to people you know at companies you would like
+  to work for rather than cold-calling on LinkedIn. Mentoring startups in the Data Action Network
+  program, going to industry events and reading market research also help. She recommends
+  Entrepreneurial Revolution by Daniel Priestley and Mindset by Carol Dweck.

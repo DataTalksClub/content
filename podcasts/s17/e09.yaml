@@ -192,3 +192,39 @@ resources:
   url: https://superlinked.com/vectorhub/?utm_source=community&utm_medium=podcast&utm_campaign=datatalks
 - title: Daniel's LinkedIn
   url: https://www.linkedin.com/in/svonava/
+summary: |-
+  Daniel Svonava is an entrepreneurial technologist who co-founded Superlinked, the company behind
+  VectorHub, a resource for vector search. He describes a career that started with competitive
+  programming in high school, internships at Google and IBM Research, and a first startup, followed
+  by work as tech lead for machine learning infrastructure at YouTube Ads before he started
+  Superlinked. Alexey invites him to explain how to build search systems that combine dense
+  embeddings, MLOps and meaningful evaluation metrics.
+
+  Daniel frames search as a decision problem: a system has a lot of information, and it must choose
+  which pieces matter in a given situation. Alexey recalls the bag-of-words vector space work from
+  the 1970s and the Introduction to Information Retrieval book. Daniel explains the classic
+  pipeline. An inverted index produces candidates quickly, and a ranking model then reorders them
+  with more context, which is where most of the MLOps complexity sits. He describes the weaknesses
+  of keyword search as brittle, since it depends on exact word forms, synonyms and a growing set of
+  configuration rules.
+
+  Dense vectors come next. Embeddings put documents, queries and other entities in a shared space,
+  so that similar items are close to each other. Daniel explains that the vector database stores
+  these embeddings and performs nearest-neighbor search, and that the costly part is computing the
+  embeddings, both at ingestion and at query time. Changing the embedding model means recomputing
+  the stored vectors. Multi-modal search is possible with CLIP, which maps text and images into one
+  space, so a text query can find images. Hybrid search combines vector similarity with filters,
+  recency and popularity, and Daniel explains how time can be encoded into the vector or handled
+  with a weight at query time.
+
+  On the limits of LLMs, Daniel says that an LLM alone is not a good retrieval system, and that
+  specialized encoders are often better for this task. For choosing tools, he says that Lucene and
+  Elasticsearch are often enough, and that a dedicated vector database makes sense when the workload
+  needs it. For a mid-size e-commerce company, he recommends prototyping with embeddings and CLIP
+  before building a production pipeline.
+
+  Measurement is the last topic. Daniel says that business metrics, such as revenue attribution and
+  A/B tests, matter more than the search engine's internal scores, and that offline evaluation helps
+  engineers iterate faster. The practical advice is to start with a prototype that uses embeddings,
+  measure the result against business outcomes, and keep the pipeline flexible enough to swap
+  models.

@@ -138,3 +138,36 @@ transcript: e07-transcript.yaml
 resources:
 - title: Linkedin
   url: https://www.linkedin.com/in/lgupta18/
+summary: |-
+  Lavanya Gupta is a senior AI and machine learning applied scientist at JPMorgan Chase's Machine
+  Learning Center of Excellence, and a Carnegie Mellon Language Technologies Institute alumna. She
+  began as a software engineer, took a master's degree and moved into NLP. Alexey invites her to
+  talk about building a career in data, and about her research on evaluating long-context large
+  language models in a real setting.
+
+  Lavanya describes how she became interested in machine learning through hackathons and computer
+  vision, and how her first projects were built from basic parts because no one on the team had an
+  ML background. At JPMorgan her team benchmarks LLMs from providers such as OpenAI, Anthropic and
+  Meta before the bank adopts them. Their findings show a clear dip in performance beyond 32k
+  tokens, and because models fail around 64k tokens even with 128k windows, the team chunks large
+  documents. She published a paper on long-context LLMs for financial concepts at EMNLP, and says
+  her group of about 150 people encourages publishing on top of regular work, and that her manager's
+  support kept her going.
+
+  Alexey and Lavanya discuss publishing from a corporate team. Lavanya says she uploaded a paper to
+  arXiv, which required an endorsement. Alexey describes a competition summary he uploaded to arXiv,
+  which people still cite. Lavanya also describes using Streamlit for quick demos and feedback.
+
+  Her best-known side project is a Google Play Store dataset she scraped and published on Kaggle in
+  2019. It became one of the most upvoted datasets on the platform, and DataCamp turned it into a
+  paid project for learners, which gave her more confidence to reach out to people. Alexey notes
+  that some would call that luck. Lavanya agrees that such outcomes cannot be predicted, and says
+  that you have to do the work and see what happens.
+
+  For people changing careers, Lavanya says many data roles are filled by people from
+  non-computer-science backgrounds, which she has seen in Seattle, where she lives. They compare
+  mentoring experiences, and Alexey says mentoring helped him structure his own knowledge. Lavanya
+  discusses portfolio choices, such as community visibility versus projects aimed at a specific job,
+  and interview preparation with LeetCode, conceptual mastery and mock interviews. She says her side
+  projects never got her a job, so for job-focused portfolios she suggests projects run with
+  organizations where industry experts review the work.

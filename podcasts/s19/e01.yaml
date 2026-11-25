@@ -167,3 +167,40 @@ transcript: e01-transcript.yaml
 resources:
 - title: Dynamic Datasets
   url: https://datamall.lta.gov.sg/content/datamall/en/dynamic-data.html
+summary: |-
+  Rachel Lim is a data engineer in Singapore who works on urban data and transport planning. She
+  has a bachelor's degree in geography and a master's in urban informatics from New York
+  University. Before moving into data engineering, she worked as a transport scientist, analyzing
+  travel patterns to support long-term planning. Alexey asks how data helps make cities more
+  livable and what her work involves.
+
+  Rachel describes transport science as applying data to public transport and planning, mostly in
+  government agencies and consultancies. Short-term work covers bus routes and service
+  frequencies, while long-term work projects demand for roads and rail lines. Singapore's buses
+  carry GPS transponders, which reveal bus bunching, when several buses reach the same stop
+  together. Fare card taps show where passengers board and alight. Alexey notes that in Berlin
+  riders can board without tapping, so planners there would need computer vision to measure
+  passenger flow.
+
+  Rachel describes urban design as walkable streets, sidewalks, planter boxes that separate
+  pedestrians from traffic, and public spaces where people linger. A livable city offers efficient
+  transport, affordable housing, green space and digital access to government services. Singapore
+  plans 15 years ahead through Master Planning and is moving from housing estates toward
+  placemaking and car-free streets. Forecasts combine projected population in a district with past
+  travel patterns.
+
+  GPS and fare events are collected in real time, while aggregation happens later. Transfers
+  made within 45 minutes count as one trip, and fares depend on total distance. Kafka and Apache
+  Spark process the data before it reaches a warehouse, where historical records support
+  projections. During the F1 night race, taxi GPS speeds act as a proxy for congestion around
+  closed roads. Data quality checks catch problems such as a bus transponder that stops sending
+  correctly.
+
+  Rachel is building a text-to-SQL tool so policy specialists can query fare data in plain
+  language. Metadata from the warehouse and catalog is chunked into a vector database, and an LLM
+  turns questions into SQL. Accuracy depends on prompt examples, and insert, update and delete
+  statements are blocked. Singapore masks fields such as fare card numbers before publishing data
+  on data.gov.sg and DataMall. For further reading, Rachel recommends Jane Jacobs' The Death and
+  Life of Great American Cities and Charles Montgomery's Happy City. Her advice is that subject
+  matter experts should drive analysis, because requests passed through several people can lose
+  their original intent.

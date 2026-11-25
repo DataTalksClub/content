@@ -161,3 +161,37 @@ resources:
   url: https://www.linkedin.com/in/data-team/
 - title: Website
   url: https://adrian.brudaru.com/
+summary: |-
+  Adrian Brudaru has worked in data since 2012. He spent five years building data warehouses at
+  Berlin startups and five years as a freelancer before co-founding dltHub, the company behind dlt,
+  an open-source Python library for data ingestion. This is his third time on the podcast. Alexey
+  invites him to talk about trends in data engineering, from table formats and catalogs to AI, and
+  about what the field looks like for people starting out.
+
+  After freelancing he did not want to run an agency, so he built the tool he had wished for as a
+  data engineer. He says the team started out working from borrowed offices and has grown since. He
+  argues that dlt has largely succeeded in setting a standard for data ingestion in Python. Alexey
+  asks how DLT Plus will work, and Adrian describes the plans for it, including a marketplace for
+  reusable data products. He also sees opportunity in AI and in startups that need modern data
+  stacks. Adrian says the field is moving toward specialization in areas such as governance, data
+  quality and streaming.
+
+  The main technical topic is Apache Iceberg. Alexey asks whether Iceberg is basically Parquet files
+  on S3 with metadata. Adrian agrees, compares it to Delta and Hudi, and says it breaks vendor
+  lock-in, although vendors now try to capture value through catalogs. He describes DuckDB as an
+  embeddable query engine that dlt uses to query files, data lakes and SQL databases through one
+  interface. Because it is portable, a pipeline can run on cheaper compute such as GitHub Actions.
+  dlt also serves headless Delta Lake, with similar work planned for Iceberg.
+
+  Adrian calls the modern data stack largely marketing for vendor bundles such as Fivetran,
+  Snowflake and Looker. He says that dbt changed how teams write pipelines by removing boilerplate,
+  and that orchestration choices such as Airflow, Prefect, Dagster and GitHub Actions depend on the
+  team. He explains that streaming is often micro-batching unless there are strict service-level
+  agreements. He sees the stack as interchangeable but warns about vendors with questionable
+  practices.
+
+  For people starting out, Adrian recommends focusing on one area first, and learning SQL, Python
+  and how to capture business requirements before worrying about specific tools. He says there are
+  plenty of jobs for senior data engineers, while junior candidates may need to start in related
+  roles such as BI or data science. He also expects AI to speed up the commoditization of code, so
+  data engineers will specialize further and build AI agents.

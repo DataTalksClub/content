@@ -137,3 +137,37 @@ transcript: e05-transcript.yaml
 resources:
 - title: LinkedIn
   url: https://www.linkedin.com/in/radojkovic/
+summary: |-
+  Nemanja Radojkovic is an MLOps lead and machine learning engineer at Euroclear who grew up in
+  Belgrade and has lived in Leuven, Belgium, since 2014. He trained as an electrical engineer,
+  worked briefly in technical sales, left a PhD in bioengineering after about a year and a half, and
+  then worked at Deloitte, Dataroots, BNP Paribas and ING, spending the last four or five years in
+  finance. Alexey met him at Data Makers Fest in Porto and invites him to talk about machine
+  learning engineering and MLOps in a heavily regulated financial environment.
+
+  Nemanja says his title first became "ML engineer" in 2019, when companies wanted to differentiate
+  from the vague term "data scientist". His finance use cases fall into compliance work such as
+  anti-money laundering and fraud detection, and smart automation of documents and emails, which
+  brings most of the business value. He explains that the ML engineering role is close to a generic
+  software engineering role, while data science is more tied to the business. Releases go through a
+  change and release management department, with tested builds and approvals from several teams, and
+  he says approvals get faster as people learn to trust you.
+
+  Much of the conversation is about infrastructure. Nemanja's team deploys mainly on an on-premises
+  Hadoop cluster, with OpenShift alongside, and extra machines are requested from a platform
+  engineering team. In his talk "MLOps on a Shoestring" he describes a minimal setup that starts
+  with development and production environments, then adds a test environment, monitoring, a model
+  registry and data versioning, with reproducible pipelines as the goal. A model registry can start
+  as an S3 bucket, a "tactical solution". Alexey jokes that there is nothing more strategic than a
+  tactical solution.
+
+  Each project usually has two or three data scientists per ML engineer, because data science work
+  involves more back and forth with the business. Nemanja sets up repositories, project structure
+  and CI/CD, reviews code and maintains the applications in production. With a colleague he
+  maintains an internal library on top of FastAPI for creating new projects. Alexey and Nemanja
+  agree that the goal is for models built by different people to be deployed in the same way.
+
+  For people starting out, Nemanja lists Python above everything, SQL, pandas or Polars, Linux,
+  networking and basic cloud skills. He recommends learning by building end-to-end projects and
+  simple websites, and checking job postings to see which skills employers ask for, even suggesting
+  a scraping project to analyze them.

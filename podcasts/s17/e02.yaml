@@ -136,3 +136,37 @@ resources:
   url: https://blog.qdrant.tech/
 - title: OpenSource Connections Blog
   url: https://opensourceconnections.com/blog/
+summary: |-
+  Atita Arora is an information retrieval specialist, which means search, and a long-time
+  contributor to open-source search projects. She has worked as a search consultant at Lucidworks
+  and at OpenSource Connections, and she taught a Solr course for about two and a half years. She
+  recently joined Qdrant as a developer relations manager. Alexey invites her to explain how
+  modern search systems combine vector databases, large language models and semantic retrieval,
+  and when a team should adopt each part.
+
+  Atita describes her early career with Solr, Lucene and the semantic web era, and says that big
+  data did not have that name when she started. She explains that search has moved from keyword
+  matching to natural language processing, personalization, learning-to-rank and now LLMs. Alexey
+  asks whether a team needs a standalone vector database, and Atita says it depends on the goal.
+  If you cannot reindex your existing search engine, a standalone vector database such as Qdrant
+  can run in parallel, without touching the current system. Vectors themselves are an old idea,
+  dating back to the 1970s, and Alexey says his own master's thesis was also about search.
+
+  The main part of the conversation is about retrieval-augmented generation, or RAG. Atita
+  explains that RAG has two parts, retrieval and generation, and that it reduces hallucinations by
+  giving the model relevant content. She describes how she built a chatbot from podcast
+  transcripts with Whisper. The ingest step is where most decisions happen: how to chunk the text,
+  how much to overlap chunks, which embedding model to use, and how many chunks to retrieve.
+  Alexey notes that the chunks go into the prompt with the question. Orchestration tools such as
+  LangChain can help build the pipeline.
+
+  On evaluation, Atita describes several levels of testing, from offline tests to human review,
+  and says that teams need a way to measure answers before a system goes live. She is planning a
+  RAG evaluation project of her own. She also discusses recommendation, where vector search can
+  support session-based recommendations and re-ranking without fine-tuning, and where cross-
+  encoders can handle ranking on the fly.
+
+  For people who want to learn more, Atita points to Introduction to Information Retrieval,
+  Relevant Search and the Vector Hub resources. Her advice is to start with the goal, not the
+  tool, and to decide whether vectors belong in an existing search engine or in a separate
+  database.

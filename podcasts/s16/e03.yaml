@@ -146,3 +146,34 @@ resources:
   url: https://github.com/ioannismesionis
 - title: Website
   url: https://ioannismesionis.github.io/
+summary: |-
+  Ioannis Mesionis is a lead data scientist at easyJet, where he works with the digital customer and
+  marketing teams. He has a mathematics background and also leads the airline's MLOps efforts.
+  Alexey invites him to describe how a data science team can prioritize data product work, validate
+  models in production and keep them monitored without overwhelming stakeholders.
+
+  Ioannis explains that his group partners with business stakeholders through weekly meetings, and
+  that he needs enough domain knowledge of pay-per-click advertising, SEO and conversion
+  optimization to follow those conversations. Requests enter through a single front door. Each idea
+  goes through a cross-functional kickoff, a definition of done with KPIs and success criteria, and
+  an inception phase that checks data access, GDPR considerations and feasibility. Alexey asks at
+  what point machine learning is needed, and Ioannis says that the team decides on the technical
+  approach at that stage.
+
+  For the development work, Ioannis describes two-week sprints with planning, stand-ups and a demo
+  at the end of each sprint, with stakeholders invited to demos rather than to daily stand-ups. The
+  team estimates work with T-shirt sizes or Planning Poker. Models are validated in pilots, with A/B
+  tests against baseline KPIs and feedback loops. Alexey and Ioannis talk about how far a model goes
+  toward production, and about the MLOps tools the team uses, such as MLflow, Prefect and Airflow.
+  Ioannis also describes model monitoring with Evidently for drift detection, and simple dashboards
+  and alerts built with Tableau and custom emails.
+
+  Ioannis says that communicating results matters as much as the models. He explains technical ideas
+  to non-technical audiences with examples and analogies, avoids technical language in front of
+  stakeholders, and uses ChatGPT as a helper for drafting. He recommends the MLOps Zoomcamp for
+  hands-on practice, and Cassie Kozyrkov's writing on decision intelligence as a starting point for
+  thinking about decisions rather than models.
+
+  The practical lesson is to set clear success criteria before the project starts, validate each
+  model against a baseline with a controlled test, and make monitoring part of the first release
+  rather than an afterthought.

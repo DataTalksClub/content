@@ -165,3 +165,36 @@ resources:
   url: https://www.linkedin.com/in/1aguschin/
 - title: Website
   url: https://www.aguschin.com/
+summary: |-
+  Alexander Guschin is a machine learning engineer with more than ten years of experience and a
+  Kaggle Grandmaster ranked fifth globally. His Coursera course on winning Kaggle competitions has
+  been taken by over 100,000 students. After Kaggle he worked as a data analyst at Avito, a data
+  scientist at Yandex, at the industrial startup Mechanica AI, and at Iterative.ai, where he worked
+  on open-source tools such as MLEM. He now focuses on teaching at Central University in Moscow.
+  Alexey invites him to talk about competitive machine learning and teaching.
+
+  Alexander began on Kaggle as a student in Moscow, when a machine learning lab for his bachelor's
+  thesis proved harder than he expected. He spent about a year focused on competitions before his
+  first job. His first serious competition, on the CrowdAnalytix platform, had a small training set
+  and was more luck than skill. Kaggle broadened his view of domains, models and frameworks, taught
+  him to spot data leaks and helped in job interviews. Asked whether it still helps a career today,
+  he says it depends on location. It remains valuable in places like Kazakhstan, where educational
+  resources are limited, while in the US or Europe there are other ways in. He recommends a team or
+  a community, since different people explore different solutions.
+
+  The competition habits that carry over to production include careful exploratory data analysis,
+  solid validation and a lot of iteration, and for hackathons he prepares infrastructure and
+  baselines in advance. He says there is no single trick that wins a competition. ChatGPT can boost
+  productivity and AutoML can give good baselines, but neither replaces careful problem solving.
+
+  Alexander moved into teaching almost by accident, when he joined a class at his university and was
+  asked to teach it instead. He also teaches 16 to 18 year olds for an international AI Olympiad. He
+  prefers practical skills such as production machine learning and MLOps, and builds classes around
+  problems such as a bot detection classifier. Students work in teams, deploy their classifiers on a
+  platform and compete on two leaderboards, one for machine learning metrics and one for technical
+  metrics such as uptime and response time. Classes have around 80 students. Online courses need
+  automated checks and a team to answer questions. Students build the platform as a university
+  project, with mentors from companies such as Tinkoff.
+
+  He closes by saying he no longer competes actively and focuses on teaching, while noting that some
+  people from his Kaggle days are still very active and successful.

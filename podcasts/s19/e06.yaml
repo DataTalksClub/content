@@ -140,3 +140,35 @@ context: 'Context: Across a career-spanning conversation about linguistics, indu
 transcript: e06-transcript.yaml
 
 resources: []
+summary: |-
+  Maria Sukhareva is a Principal Key Expert in Artificial Intelligence at Siemens. She started as
+  a linguist, moved into computational linguistics and worked as a researcher before joining BMW's
+  NLP group as a data scientist. Her role is to advise management on which AI technologies to
+  adopt or avoid, including their risks. Alexey invites her to discuss how generative AI chatbots
+  fail in production and how to harden them against prompt injection, data leaks and
+  hallucinations.
+
+  Maria describes a challenge in which participants tried to make a chatbot output prohibited
+  words, run at Siemens with 1,500 participants. A hidden value stored in a knowledge base, the
+  name of her cat, was extracted by about 30 people, even though a filtering model checked the
+  output. Participants used high-information characters, crafted API requests and Python
+  functions. The key technique was overloading the prompt with irrelevant instructions to divert
+  the model's attention from its rules. Companies also face legal and financial exposure, such as
+  an airline chatbot that invented a discount the airline had to honor.
+
+  Mitigations include analyzing user queries for attempts to extract data, validating outputs for
+  confidential content, and using layered defenses. Maria and Alexey agree that simpler, non-LLM
+  classifiers are harder to manipulate. Maria argues that hallucinations harm trust, and that
+  reputational damage can outweigh the direct cost of an error. She cites a test in which ChatGPT
+  gave cooking advice for a death cap mushroom, and she says chatbots often fail to win adoption
+  because users find them inaccurate or verbose. Business chatbots also rarely carry the
+  disclaimers that consumer tools show.
+
+  Maria recommends human-in-the-loop review, where a person approves or corrects a response before
+  it is sent. She frames AI as an assistant rather than a replacement, and Alexey recalls a fraud-
+  flagging model for a marketplace that was introduced with the autopilot analogy. Maria says
+  human translators remain necessary for technical text, because terminology must stay consistent
+  and mistranslations can be dangerous. She also warns teams against endless prompt tuning, since
+  prompts can break after a model update and outputs vary between runs. Her earlier work on low-
+  resource and historical languages, from Middle English to Sumerian, shows how little data some
+  tasks have.

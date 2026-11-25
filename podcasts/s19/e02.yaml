@@ -162,3 +162,36 @@ transcript: e02-transcript.yaml
 resources:
 - title: Eleven elevator
   url: https://www.youtube.com/live/NMS2VnDveP8
+summary: |-
+  Katarzyna Foremniak is a computational linguist who works as a researcher and teacher at the
+  Department of Italian Studies at the University of Warsaw. She also works on NLP projects in the
+  automotive industry. Her training started in linguistics, with Italian and Polish, and her main
+  interest is phonetics. Alexey invites her to explain human-centered AI for speech recognition,
+  especially for disordered speech.
+
+  The conversation starts with terms. Katarzyna describes phonetics as the study of how speech
+  sounds are produced, and morpho-syntax as the combination of word formation and sentence
+  structure. Speech disorders affect articulation, fluency and voice quality, and they often have
+  biological or neurological causes. Foreign accents are different: they can cause comprehension
+  problems, but they are generally treated as normal variation.
+
+  Speech recognition systems are usually trained on standard speech, collected from prepared
+  scenarios, so they struggle with atypical speech. Katarzyna lists three strategies: curating
+  specialized datasets that include people with disorders, transfer learning from a model trained
+  on standard data, and data augmentation that simulates problem sounds. Alexey compares this to
+  fine-tuning an ImageNet network with a few hundred examples. Collecting disordered speech is
+  hard, because motor speech disorders complicate recruitment and GDPR applies to health data.
+  Bilingual speakers may stammer in one language but not the other.
+
+  Alexey describes his own workflow, in which Amazon Transcribe output goes to a language model
+  that corrects words from context. He gives the example of a technical term that the transcriber
+  missed but the model inferred from the conversation. Katarzyna agrees that language models help
+  at several levels and says meaning preservation matters more than word error rate. The two also
+  discuss personalized models, which can be trained on about ten sentences recorded by one user.
+  Katarzyna says Whisper has made dictation in ChatGPT convenient for her.
+
+  Katarzyna sees communication tools for people with speech disorders as the most important
+  application today. In-car voice control was traditionally built on offline n-gram models, and
+  LLMs are now improving it, though videos still show cars misreading commands. Mobile apps face
+  resource limits. A personalized model for one person is doable, while a universal model for many
+  disorders is much harder. Readings on the topic are to be added to the episode description.

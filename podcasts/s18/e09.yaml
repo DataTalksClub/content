@@ -136,3 +136,36 @@ context: 'DataOps is the episode’s unifying idea: treating data and ML work as
 transcript: e09-transcript.yaml
 
 resources: []
+summary: |-
+  Christopher Bergh is the CEO of DataKitchen and co-author of the DataOps Cookbook and the DataOps
+  Manifesto. He started as a software engineer, working on AI and non-AI systems at places such as
+  NASA, MIT Lincoln Laboratory, startups and Microsoft, before he moved into data and founded his
+  company. Alexey invites him back to explain DataOps and what has changed in the two years since.
+
+  Christopher describes his early data work, when the hard part was the systems around the data
+  rather than the analysis itself. Errors kept reaching production, and the team could not move fast
+  enough. He recalls working with SQL Server before Hadoop, and he traces the spread of DevOps to
+  around 2009. Alexey recalls deploying Java applications by hand over SFTP, using a page in the
+  wiki. Data teams often still deploy with no automated tests or CI/CD, which is now unthinkable in
+  software development. In a survey of 700 data engineers, 78 percent wanted their job to come with
+  a therapist and half were considering leaving the field.
+
+  The core of DataOps is to reduce errors in production through automation, testing, monitoring and
+  observability, with lean manufacturing principles from the Toyota Production System as the
+  background. Christopher contrasts fearful teams, which add checklists and reviews, with heroic
+  teams, where a few people hold all the knowledge and deploy and hope for the best. The goal is a
+  balance in which changes can be made without fear and without depending on heroes. In his
+  operational lifecycle, day one is building the project, day two is running it reliably on new
+  data, and day three is making changes safely.
+
+  On AI, Christopher says that tools for generating models, dashboards and ETL code only address a
+  small part of the problem, because most of the time goes into rework, fixing issues and
+  miscommunication. He says adoption of DataOps is slower than he hoped, and that many teams have
+  only pockets of good practice, such as Git without end-to-end tests. DataKitchen shifted its own
+  focus to observing and monitoring production, and to individual contributors rather than senior
+  leaders.
+
+  On tools, Christopher says Kubernetes is complex and that teams should learn Docker first, and
+  that a smaller team may not need it at all. On data versioning, he prefers keeping raw data
+  immutable and versioning the code that processes it. He ends by saying that culture and leadership
+  matter more than tools alone, and that leaders must prioritize systems that reduce frustration.

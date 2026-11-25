@@ -171,3 +171,36 @@ transcript: e08-transcript.yaml
 resources:
 - title: Maria's LinkedIn profile
   url: https://www.linkedin.com/in/mariabruckert/
+summary: |-
+  Maria is a co-founder of SQIN, a digital health company whose app works as a digital clinic for
+  skin health. She studied electrical engineering in China, where she met her co-founder, and then
+  worked on transformation strategy at Siemens. She decided to start a company during her pregnancy,
+  about five years before the interview. Alexey invites her to talk about how SQIN went from an
+  early MVP to a profitable product.
+
+  Maria explains that healthcare stood out because it was barely digitized and had large data gaps.
+  Alexey adds that doctors in Berlin still send MRI results by fax. In Southern Brandenburg, where
+  Maria is from, there are no dermatologists, and her mother travels two hours to Berlin to see a
+  doctor. The founders spent the first one and a half to two years cold-calling hospitals, doctors
+  and brands and joining accelerator programs.
+
+  The first prototype was an augmented reality lipstick try-on filter for Instagram, made with two
+  or three brands and shown at a fair. The face videos showed skin issues, and 80 percent of users
+  did not know their skin type. The app also built a community that later helped SQIN collect new
+  data from scratch. The current product combines AI that detects skin conditions from a picture
+  with an app flow from diagnosis and consultation to treatment and prescription and with
+  communication designed with experts so that results are delivered carefully. The algorithm was
+  built for a European market first and states its limitations as a fallback.
+
+  Maria says that soon after launch the healthcare app had more male users than female ones. Doctors
+  can follow up on treatment in the app, and patients get an answer in about 24 hours instead of
+  waiting months for an appointment. SQIN has around 20 people and is hiring AI developers, data
+  scientists, backend and full-stack engineers. Investors first doubted that two non-technical
+  founders could build the technology, so they hired a CTO, and now they want proof that a company
+  can make money. SQIN integrates its AI into partners' points of sale as software as a service and
+  also gets a cut of recommended product sales. Maria is the CPO and her co-founder works at the CEO
+  level.
+
+  On running a company with a young son, Maria says she takes him to meetings when needed and
+  structures her day around kindergarten. She advises founders to stay flexible, because plan A
+  rarely works.

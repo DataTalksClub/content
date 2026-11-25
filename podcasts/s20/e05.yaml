@@ -150,3 +150,34 @@ resources:
   url: https://github.com/mikulskibartosz
 - title: Website
   url: https://mikulskibartosz.name/blog/
+summary: |-
+  Bartosz Mikulski is an AI and data engineer who helps teams move AI projects from a good demo to
+  production by building tests and reliable pipelines. He started as a Java developer, moved into
+  data engineering and then into AI engineering. He has written about 480 blog posts, and he says
+  the blog brings him clients. Alexey invites him to talk about testing data pipelines, prompt
+  engineering and the tools he uses day to day.
+
+  Bartosz says that testing matters because a wrong number that nobody notices can undermine trust
+  in a data team. He describes snapshot tests and integration tests for pipelines, and he uses Spark
+  for large data. Alexey mentions tools such as Great Expectations and Soda. Bartosz says he is not
+  aware of a tool for every type of pipeline, and that Spark works for him. On AI, he says that data
+  engineers can prepare data for fine-tuning, and that using AI inside a pipeline is risky, because
+  hallucinations create bugs that are hard to find.
+
+  On prompts, Bartosz says the technique that works across models is giving examples, known as
+  in-context learning, for instance to get sentiment results in a specific JSON format. An
+  evaluation dataset shows when adding more examples stops helping. He has started reading about
+  prompt compression, which shortens a prompt while keeping its effect, and says it is different
+  from prompt caching. He has used DeepSeek only as one of the models inside Perplexity.
+
+  Bartosz describes a Chrome extension that used AI to decide which LinkedIn profiles were worth a
+  personalized invitation. The extension calls a backend service. He kept the AI logic in the
+  backend because he was not familiar with browser extensions. He uses Cursor as his coding
+  assistant and says it helps with small functions, where the developer writes a signature and a
+  docstring and the assistant fills in the rest. Bartosz also uses Perplexity for search, and he
+  publishes his blog with a static site generator on GitHub Pages.
+
+  Bartosz explains that the blog started without a goal of attracting clients, but it now brings in
+  clients and workshops. He says he has never got AI to write in a style he would present as his
+  own, so he only asks ChatGPT for help when he is stuck, for example on splitting a long sentence,
+  and writes drafts in Obsidian, which does not try to finish his sentences.

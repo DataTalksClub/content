@@ -145,3 +145,38 @@ context: 'Context: The episode frames a biodiversity crisis made harder by fragm
 resources:
 - title: Biodiversity and Artificial Intelligence pdf
   url: https://www.gpai.ai/projects/responsible-ai/environment/biodiversity-and-AI-opportunities-recommendations-for-action.pdf
+
+summary: |-
+  Tanya Berger-Wolf is a computational ecologist and a professor at Ohio State University, where she
+  directs the Translational Data Analytics Institute. She co-founded the nonprofit Wild Me and its
+  Wildbook platform. Her PhD was in theoretical computer science, and frustration with ecological
+  population models led her toward machine learning and computer vision. Alexey invites her to talk
+  about AI for ecology, biodiversity and conservation.
+
+  In 2011 a field assistant studying zebras in Kenya spent about 20 minutes clicking around the
+  outline of each animal. When the ecologists challenged Tanya to do better, she bet that it should
+  take two clicks, and with her PhD student she built a program that worked. Computer vision
+  researcher Chuck Stewart helped publish a proper method in 2013, and about 70 researchers then
+  asked for their own species. That led to Wildbook, which organizes sightings by individual animal.
+  Wildbook now covers more than 70 species and is used by hundreds of conservation organizations.
+
+  Biodiversity data is much weaker than climate data. Of the roughly 160,000 species the IUCN Red
+  List tracks, more than half are data deficient or have an unknown population trend, including
+  killer whales and polar bears. Images are the most abundant source, but image data and computer
+  vision methods come mostly from North America, Europe and China, while biodiversity is highest in
+  the tropics. Whale shark photos from social media improved population estimates and revealed
+  5,000-mile migrations. The Great Grevy's Rally, first held in 2016, produced 40,000 images in two
+  days and supports mark-recapture estimates. About 3,000 Grevy's zebras are estimated to remain, 95
+  percent of them in Kenya.
+
+  Zebra stripes, humpback flukes and killer whale spots work like fingerprints, and sperm whales are
+  identified by the outline of the fluke. In a small zebra study, a foal's mother was usually among
+  the 10 most similar adults in a population of about 3,000. A study of bird eggs from about 80
+  nests found that egg patterns correlate with genetic relatedness, and testing whether birds reject
+  generated eggs is the next step.
+
+  Tanya describes AI as a partner that extends what people can see, not a replacement for
+  ecologists. A bot adds whale shark videos from social media to Wildbook and tells the posters they
+  contributed, and even a three-year-old can contribute. For reading, Tanya points to a recent
+  Global Partnership on AI report on AI and biodiversity, linked in the description, since there are
+  few books on the subject.

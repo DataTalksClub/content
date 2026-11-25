@@ -163,3 +163,35 @@ resources:
   url: https://www.linkedin.com/in/elenistamatelou/
 - title: Github
   url: https://github.com/stamatelou
+summary: |-
+  Eleni Stamatelou is a machine learning researcher and educator who uses data science to improve
+  healthcare. She studied electrical and computer engineering at the University of Patras in Greece,
+  then did an internship at Philips Healthcare in the Netherlands and a doctorate in data science.
+  Alexey invites her to talk about how to build machine learning systems that predict sepsis and
+  still work in low-resource clinical settings.
+
+  Eleni describes her work at Philips on C-arm imaging, 3D reconstruction from multi-view images and
+  home monitoring for pregnancy with smartwatches and weight tracking. She also worked on a patient
+  monitoring system for pediatric care in Malawi. Her master's thesis classified white blood cell
+  images for a cell sorter. Her research on infant heart rate estimation compared signal processing,
+  such as filters and Fourier methods, with deep learning, including a U-Net.
+
+  The main challenges she names are the lack of consistent data, with many gaps that make it hard
+  for algorithms to take inputs, and the difficulty of getting clinicians to trust and adopt a
+  model. She suggests starting with visualizations of what happened to similar patients in the past,
+  which need no prediction at all, and then adding predictions gradually with feedback loops.
+  Explainability and long regulatory approval timelines slow things down. Compared with e-commerce,
+  hospital data often has missing or wrong timestamps, many events happen offline, and a wrong
+  prediction has far bigger consequences. She points out that an algorithm developed with European
+  patients cannot simply be used for African patients, since diseases such as malaria are more
+  common there and less data is collected per patient.
+
+  Eleni talks about sepsis, where acting early on a prediction gives patients more chances of
+  treatment. She also discusses automation and job displacement, and how digitization varies across
+  hospitals, after Alexey mentions receiving his MRI results on a compact disc. On deployment, she
+  says that low-resource settings may need models that run on the device rather than in the cloud.
+
+  For people who want to move into healthcare data science, Eleni says the technical skills are
+  already enough. People often start in a more technical role at a healthcare company and move
+  closer to medical work later, as she saw at Philips, so the clinical context can be learned on the
+  job.

@@ -152,3 +152,36 @@ resources:
   url: https://bayesiancomputationbook.com/welcome.html
 - title: Book/Course
   url: https://xcelab.net/rm/statistical-rethinking/
+summary: |-
+  Rob Zinkov is a machine learning engineer and data scientist who now works mainly as a statistical
+  consultant. He was a research scientist at Indiana University, where he worked on Hakaru, a
+  probabilistic programming language whose name means "to measure" in Japanese, and he later did a
+  PhD at Oxford on deep Bayesian models such as VAEs. Alexey invites him to explain Bayesian
+  modeling, how it differs from the frequentist approach, and what probabilistic programming adds.
+
+  Rob started as a software engineer who scraped web data, cleaned it and put it in databases. He
+  became interested in Bayesian modeling because many problems did not fit tools like scikit-learn
+  or a random forest. He says he never took a formal statistics class and kept buying statistics
+  textbooks until the ideas felt comfortable. He notes that companies often hire software engineers
+  and hope to teach them statistics later.
+
+  Using annual rainfall in Germany as the running example, Rob explains that frequentist statistics
+  gives a point estimate with a confidence interval, while Bayesian modeling starts from a prior
+  distribution and uses Bayes' rule to get a posterior. Because it is distribution in, distribution
+  out, the approach is composable, so an analysis can grow step by step. The hard part is that most
+  of the integrals involved have no closed form, so they are approximated by sampling. Markov chain
+  Monte Carlo works because high-probability points tend to be near each other. Probabilistic
+  programming languages take care of these tedious steps, so the user writes the model and gets a
+  sampler. Rob argues that a model with its own ifs and loops that change how probabilities are
+  computed is a language, not just a library.
+
+  Rob sketches a short PyMC model with a national mean, city-level rainfall and observed sewer
+  levels, and explains that PyMC builds a computational graph from the Python code. The model can
+  then be checked against government records and refined, extended with spatial structure or
+  distance from the sea, and it can represent multimodal answers such as drought and normal years.
+  He calls Stan the leading probabilistic programming system, which brought Hamiltonian Monte Carlo
+  into popular use and made it work out of the box with the no-U-turn sampler (NUTS).
+
+  For students with a frequentist background, Rob recommends Bayesian Modeling and Computation in
+  Python, written by PyMC developers and free online, Bayesian Statistics for Hackers, and Richard
+  McElreath's Statistical Rethinking course and book, whose examples volunteers have ported to PyMC.

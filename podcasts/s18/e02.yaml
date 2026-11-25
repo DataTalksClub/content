@@ -135,3 +135,37 @@ transcript: e02-transcript.yaml
 resources:
 - title: Github repo
   url: https://github.com/antahiap/ADPT-LRN-PHYS/tree/main
+summary: |-
+  Anahita Pakiman, originally from Iran, studied mechanical engineering, specialized in applied
+  mechanics in Sweden, and worked in the automotive industry in Gothenburg for five years before
+  moving to Germany for a PhD in applied AI at Fraunhofer SCAI. Alexey invites her to explain how
+  knowledge graphs and LLMs are used in research, in academia and in industry.
+
+  Anahita explains that applied mechanics centers on finite element analysis and CFD, which break
+  physics into small elements to predict how a structure responds to a force, a vibration or a
+  crash. It is numerical analysis based on differential equations, not on cost functions and data,
+  so it differs from machine learning. In the automotive job she worked on optimization and semantic
+  reporting. One vehicle can need more than 500 crash simulations, and one simulation with 12
+  million elements can take 12 to 17 hours on 192 CPUs. Engineers used to compare results by putting
+  two script-generated PowerPoints side by side. Optimization meant changing thicknesses or adding
+  holes, for example to keep an inner hood stiff but safe for a pedestrian's head.
+
+  Relational databases were hard to maintain as vehicles changed, so her mentor suggested Neo4j. The
+  knowledge graph links vehicles, platforms, upper bodies, parts and simulations, so sibling
+  vehicles can be compared. From it she extracts smaller computational graphs, for example in
+  NetworkX, to cluster over 300 simulations visually and detect load paths through the structure.
+  She uses SimRank to rank similar simulations, and she treats graph data science and graph machine
+  learning as the same thing. A small supervised experiment on a toy model tried to transfer crash
+  behavior between sibling vehicles.
+
+  On LLMs, Anahita describes grounding answers to reduce hallucination. Chunks in a vector database
+  lose relations and semantics, while a knowledge graph can add them, for example which chapter of a
+  book a chunk belongs to. A prompt template can include an example Cypher query. She is wary of
+  building the graph itself with an LLM, because the result is hard to verify. Her two-week LLM
+  bootcamp project with Jonathan started as an adaptive physics learning tool and became a paper
+  reading assistant for arXiv papers, with section embeddings, GPT-defined keywords and PageRank
+  over references. The hardest part was that they could not automate graph generation, and Streamlit
+  crashed during the demo.
+
+  For learning, Anahita recommends the Stanford Machine Learning with Graphs course by Jure
+  Leskovec, the DeepLearning.AI short course on knowledge graphs and LLMs, and the Graph Conference.

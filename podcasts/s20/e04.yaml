@@ -161,3 +161,36 @@ resources:
   url: https://www.linkedin.com/in/radojkovic/
 - title: Github
   url: https://github.com/baskervilski
+summary: |-
+  Nemanja Radojkovic studied electrical engineering in Belgrade, left a PhD in Belgium for Deloitte
+  Consulting, and moved into machine learning engineering. For the last five to six years he has
+  worked mostly with banks such as ING, BNP Paribas, Euroclear and KBC. Last June he became a
+  freelancer and, after a short mission with KBC, joined Tempo, a Brussels startup, to industrialize
+  Python code. Alexey invites him back to compare MLOps in corporations and startups.
+
+  Nemanja says working in a startup feels like flying. Building on his talk about MLOps on a
+  shoestring, he explains that big companies have more money but must choose their battles, while
+  startups are short of money and people and can easily end up with too many tools. For teams of
+  four to ten people he recommends SaaS over self-built tools and the cloud over on-premises, but
+  warns that startup credits such as Google's make later migration costly. Platforms such as Vertex
+  AI or SageMaker tie a team to one provider, because moving may mean retraining models, so he
+  prefers portable choices such as Python scripts on a server and proven tools such as PostgreSQL.
+  He finds the cloud more complex than on-premises and a mess without infrastructure as code.
+
+  Asked how to choose between a startup and a Fortune 500 offer, Nemanja describes corporations as
+  stable, with narrow roles, internal mobility, tickets and quarterly planning, and startups as
+  faster, with end-to-end ownership, pivots and chaos. Nemanja's rule is that a junior should not be
+  the first data scientist in an organization, but should join a company with at least two seniors
+  to learn from.
+
+  He sees AI-assisted coding as a trap. It lets him write Ansible scripts, GitHub pipelines and HTML
+  outside his expertise, but he wonders how much of that code will be a monster to maintain a year
+  later. He leaves notes on quick and dirty code and warns that juniors may leave security holes.
+  His current stack is minimal, with Python, orchestration through CI/CD pipelines, Dagster for a
+  new project, MLflow, Logfire for observability and Streamlit for visualization. He wishes vendors
+  sold modular products, such as MLflow with authentication without the whole Databricks platform.
+
+  For learning, he recommends foundations that have survived every change, such as Linux, Python,
+  Bash, some networking and basic frontend. To choose newer tools, he scrapes job postings for
+  repeated keywords and learns just enough of tools such as Airflow, Azure or PySpark to tick the
+  box.

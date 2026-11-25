@@ -149,3 +149,36 @@ resources:
   url: https://x.com/bisnotforbella
 - title: substack/newsletter
   url: https://datalike.substack.com/
+summary: |-
+  Isabella Bicalho is a machine learning engineer and data scientist from Brazil who now works as
+  a full-time freelancer in France. She began with a bachelor's in biological sciences and became
+  interested in machine learning during a master's in bioinformatics at the University of
+  Marseille. She runs the Data Like newsletter, which profiles women in data. Alexey invites her
+  to talk about continuous learning, open-source contributions and how projects help build a data
+  science portfolio.
+
+  Isabella describes statistics as her entry point into machine learning, followed by an
+  internship at INRIA, a French research institute, where she worked on models that predict
+  immunotherapy response from a blood test. She left a PhD after deciding that research was not
+  for her, because she preferred engineering and clear deliverables. Her first freelance client
+  came within a week of posting her CV and optimizing her LinkedIn profile. Earlier open-source
+  and AI for Good work had already given her relevant experience. She joined the Hugging Face
+  community course on computer vision through its Discord server, first writing content and later
+  reviewing pull requests.
+
+  Isabella explains that open source includes code, data and applied projects, and that smaller
+  libraries are often more welcoming to newcomers than large ones like NumPy. She suggests joining
+  the Slack or Discord community of a tool you use, looking for easy GitHub issues, and starting
+  with documentation. In a community project on green space segmentation, she and others are
+  benchmarking CNNs against transformers using Sentinel-2 satellite images, with a focus on models
+  that are practical to run. Such projects usually start with many people and shrink over time. An
+  earlier project she worked on began with 80 volunteers and had about 25 active members by the
+  end.
+
+  Isabella says that projects build soft skills such as communication, organization and
+  prioritization, which employers value alongside technical skills. She also warns that AI
+  assistants can give answers that are too advanced for a beginner, and she recommends checking
+  forums and other sources when advice is wrong. Her advice for people seeking roles is to contact
+  someone with the job title on LinkedIn and ask what a typical day involves. She adds that the
+  bar for volunteering is low, often just a willingness to learn and agreement to a code of
+  conduct.

@@ -161,3 +161,36 @@ resources:
   url: https://pythoninvest.com/long-read/exploring-finance-apis
 - title: Python Invest Blog Articles
   url: https://pythoninvest.com/blog
+summary: |-
+  Ivan Brigida is an analytics team lead at Google and writes the PythonInvest blog about
+  investing with Python. He studied computer science and holds an economics master.s with a focus
+  on finance and data analysis. He spent four years as a financial analyst at a commercial bank
+  and has been at Google for nine and a half years. He tried people management for half a year and
+  prefers to stay an individual contributor. Alexey opens with a disclaimer that the episode is
+  not investment advice.
+
+  Ivan says his economics courses taught him that markets are efficient, so for a while he did not
+  invest. He started the blog as a pet project, and after about a year of writing he began testing
+  strategies in Python and then trading. His most popular article covers finance APIs. Yahoo
+  Finance is enough to start, with Quandl, Pandas Data Reader or the paid Polygon.io as additions.
+  The data is a time series of open, high, low, close and volume.
+
+  The simplest strategy he describes is mean reversion, which bets that a falling stock returns to
+  its historical mean. Risk management means setting a loss threshold and selling once it is
+  crossed. After losses from not having one, Ivan moved his own money to a passive strategy of a
+  few exchange-traded funds. For testing, he never shuffles time series data and keeps the last
+  one or two years out of training to avoid leakage. In his own setup he took the 100 largest US
+  stocks, predicted growth one week ahead, picked the top three and traded 20 percent of his
+  capital each day, selling each position after a week.
+
+  On metrics, Ivan cares about return on investment and, for binary models, precision over
+  accuracy, since only the stocks predicted to grow matter. Trading fees can eat the profit, so
+  the number of trades should be kept low. His target is growth above five percent in a week. He
+  builds around 200 features from historical windows and favors simple models such as logistic
+  regression, decision trees and XGBoost, because their feature importance helps him debug wrong
+  predictions. For deployment he still clicks a button each day, but he plans to move to scheduled
+  jobs with cron or Airflow and an API that places trades and stop losses.
+
+  Ivan took the DataTalks.Club MLOps course and now uses what he learned in ML Zoomcamp. His
+  advice for students is to get Yahoo Finance data, start with a simple step, and stick to the
+  tested strategy, not second-guess it.

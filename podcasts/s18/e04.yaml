@@ -177,3 +177,36 @@ resources:
   url: https://calmcode.io/
 - title: probabl. website
   url: https://probabl.ai/
+summary: |-
+  Vincent Warmerdam is a developer relations engineer at :probabl., a company started by several
+  scikit-learn core maintainers. He created Calm Code, a tutorial website, and maintains a small
+  dozen open source libraries, which he says puts him in the top 10 for open source contributions on
+  GitHub in the Netherlands. He was one of the first guests of season two, and Johanna Bayer, who
+  prepared the questions, met him at a PyLadies code sprint where he helped people make their first
+  scikit-learn pull request.
+
+  Vincent studied econometrics and operations research, did tech consulting, and then became a
+  developer advocate at Rasa. Two years later Explosion AI, the creators of spaCy, hired him for
+  developer relations and core work on Prodigy. His scikit-lego library, about 30,000 downloads a
+  month, helped him get the :probabl. job, because it showed he took testing and quality seriously.
+  Using it in corporate training brought contributors, since students could commit to open source as
+  part of a lesson. When he used it less, Francesco, who uses it at work, became the new maintainer.
+
+  Alexey asks why the company is not called scikit-learn. Vincent says scikit-learn is a large
+  community project, associated with NumFOCUS, that no company can claim, and :probabl. may also
+  offer training, consulting and other products. Scikit-learn is cautious about new methods for
+  reasons of quality, benchmarking and dependencies, which is why UMAP and scikit-lego live as
+  plugins. He sees the company as more stable funding than academic grants, and as a way to build
+  more European tech companies.
+
+  Calm Code has over 700 videos, and with his Rasa and Explosion work he is close to 1,000. It is
+  now a Django app, and the team is learning to take payments so it can pay contributors. Vincent
+  wants to explore custom GitHub Actions runners and mentions Leaf.cloud, which heats water with
+  servers in apartment basements. For beginners he names pip, Docker and Git as the main stumbling
+  blocks, and aims for minimum viable tinkerability. At :probabl. he is building the developer
+  relations practice, with a whiteboard playlist, a live stream and a podcast.
+
+  He also works on Skrub, an experimental scikit-learn plugin. Its table vectorizer applies sensible
+  defaults to tabular data, and its GAP encoder clusters dirty categories so one-hot encoding does
+  not explode. Next, he plans a Calm Code book on expectations versus reality in data science, and
+  live stream experiments on converting tree models into SQL.

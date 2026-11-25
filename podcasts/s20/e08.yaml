@@ -165,3 +165,37 @@ resources:
   url: https://github.com/wrussell1999
 - title: Website
   url: https://wrussell.co.uk/
+summary: |-
+  Will Russell is a developer advocate at Kestra, a workflow orchestration company, and he has a
+  background in running open source programs and hackathons. He led the workflow orchestration
+  module of the recent DataTalks.Club data engineering course. Alexey invites him to talk about
+  developer advocacy, organizing hackathons and his path from student hackathons to developer
+  relations.
+
+  Will describes his video setup and explains that lighting matters more than a blurred background.
+  Asked whether first-year students should do hackathons, Will says he learned the most at the five
+  he attended in his first year, where he learned Git, teamwork and how to build and deploy real
+  projects. He later joined the organizers of his local hackathon. He describes online hackathons as
+  easier to run than in-person ones, because there is no venue or catering to arrange. He explains
+  how participants choose a sponsor's tool, come up with an idea that uses it well and try to catch
+  the judges' attention. Judging uses scoring matrices, with categories and tie-breakers.
+
+  Will describes Major League Hacking, or MLH, where a 12-week summer contract on its new fellowship
+  turned into about three years of work. In the fellowship, students and career changers contribute
+  to large open source repositories. Participants can say they contributed to a project such as
+  React and built something useful. He describes preparing with maintainers before a project starts,
+  so that the environment and requirements are clear. The fellowship first required participants to
+  be students, because most of the MLH community came from student hackathons, but later opened to
+  anyone. He also describes cloud workarounds, such as Colab and virtual machines, for participants
+  without good hardware.
+
+  For developer advocacy at Kestra, Will's work covers documentation, demos and outreach. He writes
+  rough bullet points, gets a working demo and then records, and he works with a technical writer so
+  that the documentation and the video each cover a feature in their own way. He recommends defining
+  the goal of each video first and showing every step at a good pace, since pacing matters on
+  YouTube. His example is a feature demo of notifications after execution in a workflow. He also
+  mentions the Learn with Kestra series, with videos on Docker and Git and one on Postgres planned.
+
+  Will also discusses the trade-off between keeping technical depth and doing community work, and
+  notes that roles vary more at small companies than on specialized teams. He closes with a
+  leadership recommendation, Turn the Ship Around.

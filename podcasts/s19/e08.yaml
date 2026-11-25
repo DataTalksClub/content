@@ -171,3 +171,30 @@ transcript: e08-transcript.yaml
 resources:
 - title: LinkedIn
   url: https://www.linkedin.com/in/agita/
+summary: |-
+  Agita Jaunzeme is a DevOps and DataOps engineer who has also worked as a manager, community
+  manager and facilitator. She has worked in corporate, startup, open-source and non-governmental
+  settings, and founded an NGO in Porto that connects expats and locals. Alexey met her at Data
+  Makers Fest in Porto and invited her to talk about career transitions in and out of tech,
+  including automation, volunteering and promotions.
+
+  Agita began with a vocational web design program, then studied computer science and joined an
+  Accenture bootcamp focused on C++. Her first project was in Python, and after a Nokia project
+  was shut down, the interns were moved into an emerging area called configuration management. At
+  Accenture she automated a repetitive file migration over about three months, which led to a
+  promotion in less than a year. After burning out during four years of travel, she volunteered in
+  Bulgaria through Erasmus+ and discovered facilitation.
+
+  Later she became a community manager at VMware, working on the open-source Versatile Data Kit
+  project. She says the role was closer to developer relations, with much of the work in social
+  media and content, and afterwards she accepted only open-source roles. Her NGO grew out of a
+  two-year career coaching course called "Align Your Career With Who You Are." Founding it in
+  Portugal required at least nine people and about six months of paperwork. Members now host
+  events through Meetup, and the group grew from two to around twelve people.
+
+  Agita argues that problem-solving is the core skill, and that languages and tools are only means
+  to an end. She applied corporate habits such as documentation, ticketing and retrospectives to
+  NGOs, which she describes as often chaotic. Managing volunteers depends on motivation and light
+  structure, with reviewers checking the tasks volunteers choose. On personality, she says data
+  engineers tend to be detail-oriented and persistent, and she suggests noticing where energy and
+  flow appear when choosing work.

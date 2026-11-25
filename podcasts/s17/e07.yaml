@@ -154,3 +154,36 @@ resources:
   url: https://www.instagram.com/saraelateif/
 - title: LinkedIn
   url: https://www.linkedin.com/in/sara-el-ateif/
+summary: |-
+  Sara El-Ateif is a Google Developer Expert in machine learning, a Google PhD Fellow and a co-
+  founder of AI Wonder Girls. Alexey invites her to talk about volunteering and open source work in
+  AI. Sara studied Computer Science and Emerging Technologies Engineering in Morocco, with a Big
+  Data Engineering specialization, and is finishing a PhD on deep multimodal learning for COVID-19
+  diagnosis, comparing CNNs and vision transformers on chest X-rays and CT scans.
+
+  Because Morocco has no research funding, Sara applied for the Google PhD Fellowship. Her advice is
+  to match what Google researches, touch an SDG goal and help your own region. She also credits her
+  supervisor and earlier volunteer work. In Africa the fellowship pays about $10,000 a year for
+  three years, now $12,000, and comes with a Google mentor and a virtual summit.
+
+  Her volunteer projects include a PTSD detection chatbot and a recyclable trash detection project
+  with Omdena, cervical spine segmentation with Fruit Punch AI, and an online internship with STEM-
+  Away. Data was always scarce, so the teams got creative, for example by taking trash pictures from
+  Google Open Images. She found Omdena through LinkedIn and now uses social media and mailing lists
+  for opportunity hunting, while limiting her scrolling to her laptop. Omdena gives a general
+  problem and leaves the tasks to the engineers, and suits people with two or three AI projects
+  behind them. Fruit Punch AI defines specific tasks and targets beginners.
+
+  AI Wonder Girls is a WhatsApp community of women who pick hackathons and challenges that touch an
+  SDG goal. Their first hackathon, from Microsoft, was about medical imaging. Eight women worked
+  with a doctor as mentor and built hand fracture detection with automatic report writing and a
+  dashboard of DICOM details. Sara says the key to winning is to understand the judges and the
+  judging criteria, deliver several solutions in one package, and build an MVP with what you have
+  instead of saying it cannot be done. For ideas she suggests ChatGPT or Gemini, Reddit complaints,
+  and following researchers found through Google Scholar on Twitter.
+
+  To join a volunteer project, Sara suggests reading the challenge carefully and pitching relevant
+  skills in the interview. The benefits she lists are choosing your own tasks, certificates,
+  referrals, roles you would not get at work, impact and soft skills such as presenting and English.
+  Data engineers can contribute by preparing messy data. For opportunities, she recommends the Women
+  in Machine Learning mailing list, the NeurIPS mailing list and community newsletters.

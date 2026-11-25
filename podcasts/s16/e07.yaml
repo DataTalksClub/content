@@ -163,3 +163,32 @@ resources:
   url: https://christophmolnar.com/books/shap/
 - title: Mindful Modeler Newsletter
   url: https://mindfulmodeler.substack.com/
+summary: |-
+  Christoph Molnar is a statistician, machine learner and technical writer. He has a PhD in
+  interpretable machine learning from Ludwig Maximilian University of Munich, and he is the author
+  of Interpretable Machine Learning. Alexey invites him to talk about how to make models
+  understandable, and about the path from data science into full-time technical writing.
+
+  Christoph describes how he moved from statistics into tech and then to writing, which he kept
+  doing even after he gave up other projects. His first models during his master's were linear
+  regression and generalized additive models. His early work included Kaggle competitions, and his
+  interest in interpretable machine learning came later. Alexey and Christoph discuss how a model
+  can satisfy business metrics while nobody knows why it fails on particular cases. Christoph
+  mentions SHAP as a practical way to debug models.
+
+  On the book itself, Christoph covers several topics: modeling mindsets, conformal prediction and
+  SHAP. Conformal prediction gives an interval rather than a single number, such as how certain a
+  churn prediction is. He also answers a listener's question about explainable AI versus
+  interpretable machine learning. He says the terms overlap, and that the definitions depend on the
+  author. He prefers to say interpretable because his book uses that term.
+
+  Christoph explains his workflow. He wrote the book in public, chapter by chapter, and asked
+  readers for feedback as he went. He compares self-publishing with working through a publisher,
+  emphasizing control, editors and royalties. He publishes through Leanpub and Amazon KDP, and he
+  also offers print-on-demand copies. He keeps a logbook of experiments and reflections in Obsidian,
+  written in short notes, which helps him process failed experiments quickly. He also takes part in
+  competitions to stay hands-on.
+
+  His advice for new technical authors is to start small and publish early, and to plan for a slow
+  start, since income can take months after a book is released. He suggests thinking about the
+  reader at each step, and adjusting the level of detail to who will read the text.

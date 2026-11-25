@@ -153,3 +153,37 @@ resources:
   url: https://github.com/dstackai/dstack/
 - title: Website
   url: https://dstack.ai/
+summary: |-
+  Andrey Cheptsov is the founder and CEO of dstack, which Alexey introduces as an open-source
+  alternative to Kubernetes and Slurm that aims to simplify the setup of AI infrastructure. Andrey
+  started as a software engineer and then spent ten years at JetBrains, where he helped launch IDEs
+  such as GoLand and worked as a product manager on DataSpell, which introduced him to machine
+  learning. Alexey invites him to discuss how ChatGPT changed the infrastructure needed to build and
+  run large language models, and where open-source orchestration fits.
+
+  Andrey describes the origin of dstack. When he asked machine learning teams what stood in their
+  way, cost of ownership stood out. On-premises hardware needs a large upfront investment that is
+  hard to use fully, while the cloud is expensive for the newest AI work. Alexey notes that tools
+  such as SageMaker exist but cost remains the problem. Andrey says the team was not sure at first
+  whether open source was the right choice, but talking to teams convinced them, because open source
+  lets early adopters give the feedback that improves an infrastructure tool.
+
+  On open and proprietary models, Andrey argues that comparing them side by side is not useful.
+  Proprietary AI is a centralized service, while open models are part of a decentralized trend that
+  gives companies such as banks privacy and control and makes customization easier. He values
+  technical reports that share training details, such as Llama 3.1 being trained on 16,000 GPUs,
+  while DeepSeek trained its V3 model with a fraction of those resources. Andrey names PyTorch and
+  the NCCL communication backend as parts of the distributed training stack, and says frontier teams
+  sometimes reimplement that backend from scratch.
+
+  Andrey says the useful distinction is whether a company is AI-first, not whether it is small or
+  medium, and that most companies fine-tune existing models rather than train from scratch.
+  Kubernetes is the standard for deployment, but it was not designed for AI, where engineers think
+  in nodes and GPUs rather than containers. That is why Slurm exists and why dstack is rethinking
+  container orchestration for AI. He sees cloud as the main trend, although AI has pushed many
+  companies to invest in their own hardware, where the team maintains servers and updates itself. He
+  says there is no universal definition of edge computing and calls federated learning a niche use
+  case.
+
+  The conversation ends with Andrey's science fiction pick, The Three-Body Problem by Liu Cixin, a
+  trilogy that he says goes beyond physics into philosophy and politics.
