@@ -48,7 +48,7 @@ faq:
 - question: What makes AI Dev Tools Zoomcamp different from other AI courses?
   answer: 'Most AI courses teach you how to prompt a tool. This one teaches a repeatable engineering workflow around the tools: give them the right context, use them for the right job, review what they produce, test the result, and ship with guardrails. You write specifications, groom a backlog, build and deploy a real full-stack application, extend your agent with MCP and reusable capabilities, and audit the result with open-source security and DevOps tooling. By the end you have a deployed project, not just a set of prompts.'
 - question: When does the next cohort of the AI Dev Tools Zoomcamp start?
-  answer: 'The next cohort of the AI Dev Tools Zoomcamp starts on August 31, 2026. Register here: [https://courses.datatalks.club/register/ai-dev-tools/](https://courses.datatalks.club/register/ai-dev-tools/) before the course starts.'
+  answer: 'The 2026 cohort started on August 31, 2026, and all its materials are in the [course repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp). Registration for the 2027 cohort is open: [https://courses.datatalks.club/register/ai-dev-tools/](https://courses.datatalks.club/register/ai-dev-tools/).'
 - question: Who runs the AI Dev Tools Zoomcamp?
   answer: 'The AI Dev Tools Zoomcamp is run by [DataTalks.Club](/), a global online community of data professionals and learners. The instructors are [Alexey Grigorev](/people/alexeygrigorev.html), Bhavani Ravi, and Moein Foroughi, and members of the DataTalks.Club community contribute as maintainers.
 
@@ -88,7 +88,7 @@ One workflow runs through the whole course. Give AI tools the right context, use
 
 By the end, you'll have a deployed application, an agent extension pack around it, a security and DevOps package, and a certificate that shows how you work with modern AI dev tools.
 
-[Join the next cohort (starts August 31, 2026)](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
+[Register for the 2027 cohort](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
 
 ## Table of Contents
 
@@ -178,8 +178,6 @@ You don't need prior coding assistant or coding agent experience, Django experie
 </tr>
 </tbody>
 </table>
-
-> The 2026 materials are still being finalized. The [repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) shows the direction for the next cohort, but some videos, homework, deadlines, and module details may change before the course starts.
 
 ### Module 1: AI-Native Developer Workflow
 
@@ -451,7 +449,7 @@ For more details about how our courses work, check the [Zoomcamp logistics guide
 
 {% include faq-accordion.html faqs=site.data.faqs.ai-dev-tools-zoomcamp %}
 
-[Join AI Dev Tools Zoomcamp 2026 (starts August 31, 2026)](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
+[Register for AI Dev Tools Zoomcamp 2027](https://courses.datatalks.club/register/ai-dev-tools/){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 
