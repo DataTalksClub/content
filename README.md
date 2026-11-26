@@ -53,6 +53,31 @@ reconstructs expected podcast metadata, while validation rejects them in current
 podcast front matter. Anchor references in non-podcast authored content are
 outside this migration and remain unchanged.
 
+Podcast audio
+-------------
+
+Each episode carries its audio file and length from the show's RSS feed
+(`rss_feed` in `podcast-platforms.yaml`):
+
+```yaml
+audio_url: https://anchor.fm/s/41286f68/podcast/play/...
+duration_seconds: 3900
+```
+
+The website plays `audio_url` in its own player. **When a new episode is
+published**, run
+
+```sh
+uv run python scripts/sync_podcast_audio.py
+```
+
+and commit the episode files it changed. It matches feed items to episodes by
+the Spotify for Creators episode token in `links.anchor`, then by title and
+date, then by guest and date; it only fills episodes that have no `audio_url`
+yet, so it is safe to run again. It prints the feed items it could not match
+(conference specials and minis that are not episodes on the site) and any
+episode still without audio. `--dry-run` reports without writing.
+
 ## Podcast example
 
 ```yaml

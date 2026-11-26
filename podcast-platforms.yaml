@@ -3,6 +3,12 @@
 # `provider` is the canonical key episode `links:` entries normalize against;
 # `label` is the name the pages render, `dot` is the list marker's color class,
 # and `url` is the show's home on that platform.
+
+# The show's RSS feed: every episode's audio file and length.  Run
+# `uv run python scripts/sync_podcast_audio.py` after an episode is published
+# to copy them into the episode's `audio_url` and `duration_seconds`.
+rss_feed: https://anchor.fm/s/41286f68/podcast/rss
+
 platforms:
   - provider: apple
     label: Apple Podcasts
