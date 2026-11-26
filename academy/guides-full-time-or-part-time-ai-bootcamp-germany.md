@@ -26,99 +26,103 @@ join:
   text: 'Start: April 2027. Join the waitlist and you hear first when applications open.'
 ---
 
-DataTalks.Club Academy is full-time and live: 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online. Read about the [AI bootcamp in Berlin for experienced developers](/academy/) or **[Join the Waitlist](/academy/?utm_source=article&utm_medium=article&utm_campaign=full-time-or-part-time-ai-bootcamp-germany&utm_content=top#signup-hero)**.
+DataTalks.Club Academy is full-time and live: 3 months, Monday to Friday, 09:00 to 16:30 Berlin time, in Berlin or live online. Read about the [AI bootcamp in Berlin for experienced developers](/academy/) or [Join the Waitlist](/academy/?utm_source=article&utm_medium=article&utm_campaign=full-time-or-part-time-ai-bootcamp-germany&utm_content=top#signup-hero).
 
 ## What Full-Time Means in Practice
 
-Full-time means the program is your job for its whole length. At the Academy that is Monday to Friday, 09:00 to 16:30 Berlin time, for 13 weeks. Every session is taught live, and there are no pre-recorded lectures to catch up on later.
+Full-time means the program is your job for as long as it runs. At the Academy that's Monday to Friday, 09:00 to 16:30 Berlin time, for 13 weeks. Every session is live, and there are no recorded lectures to catch up on later.
 
-In practice this asks three things of you:
+In practice, this means three things:
 
-- **Your working day.** You can't hold a full-time job at the same time. A full day of live teaching leaves room for a few hours of your own work in the evening, not for another job.
-- **Your attention for 3 months.** You learn in a group that moves at the same pace. Missing a week is harder to recover from than in a self-paced course.
-- **A plan for the time after.** A short, intense program gets you to a portfolio and interviews quickly. Both Academy programs spend 2 to 3 weeks on networking, finding projects to solve and building your portfolio, with mock interviews.
+- Your working day: you can't have a full-time job at the same time. After a full day of live teaching you have a few hours in the evening for your own work, but not enough for another job.
+- Your attention for 3 months: you learn in a group that moves at the same pace, so if you miss a week, it's harder to catch up than in a self-paced course.
+- A plan for afterwards: in a short, intense program you build a portfolio and get to interviews quickly. In both Academy programs, you spend 2 to 3 weeks on networking, finding projects to work on, building your portfolio and doing mock interviews.
 
-What you get in return is speed. Thirteen weeks of full days hold as many hours as many months of evening study, and you finish with projects you built with a teacher who reviews them every week.
+In return, you move fast. In thirteen weeks of full days you put in as many hours as in many months of evening study. And you finish with projects that a teacher reviewed with you every week.
 
 ## What Part-Time Means in Practice
 
-A part-time program spreads the same kind of material over evenings and weekends. It runs over a longer period, because you have fewer hours each week.
+A part-time program spreads the same kind of material over evenings and weekends. Because you have fewer hours each week, it takes longer.
 
-It fits people who want to keep their salary. The cost is energy: you learn after a full working day, often for many months, and your weekends shrink. Plan for that honestly before you sign up. A part-time course you drop after six weeks teaches you less than a shorter one you finish.
+It suits people who want to keep their salary. The price you pay is energy: you study after a full working day, often for many months, and you lose a lot of your weekends. Be honest with yourself about that before you sign up. You learn less from a part-time course you drop after six weeks than from a shorter one you finish.
 
-Many bootcamps in Germany sell both formats. If you want part-time, look at the provider's own page for the length of its part-time option and the weekly hours. DataTalks.Club Academy has no part-time format.
+Many bootcamps in Germany sell both formats. If you want part-time, check the provider's own page for how long its part-time option takes and how many hours a week it needs. DataTalks.Club Academy has no part-time format.
 
 ## Which Format Fits Your Situation
 
-Your situation decides the format more than your preference does.
+Choose based on your situation more than on what you'd prefer.
 
-- **Employed, and you want to keep the job:** Part-time or self-paced. You can't give a program your working day.
-- **In a notice period:** Full-time, starting once your days are free. You have a fixed gap before the next job.
-- **Laid off:** Full-time. You can study full days and get back to interviews faster.
-- **Job hunting for a while:** Full-time. A program gives you structure, recent projects and interview practice.
-- **Employed, and the employer gives you time off to learn:** Full-time. The employer covers the days, you get the speed.
+- Employed, and you want to keep the job: part-time or self-paced. You can't spend your working day on a program.
+- In a notice period: full-time, once your days are free. You have a fixed gap before the next job.
+- Laid off: full-time. You can study full days and get back to interviews faster.
+- Job hunting for a while: full-time. A program gives you structure, recent projects and interview practice.
+- Employed, and your employer gives you time off to learn: full-time. Your employer pays for the days and you learn faster.
 
-If you are between jobs, a full-time program is the faster way back to work. If you have a job you want to keep, part-time or self-study is the only honest option.
+If you're between jobs, a full-time program gets you back to work faster. If you have a job you want to keep, part-time or self-study is the only realistic option.
 
 ## Online or In Person in Berlin
 
-With live teaching, the classroom and the call share more than they differ.
+When the teaching is live, a classroom and a video call are more alike than you might think.
 
-What changes:
+What's different:
 
-- **Commute.** In Berlin you travel to the room every day. Online you join from home, from anywhere in Germany.
-- **The room.** In person you can turn to the person next to you. Online you use the call and the chat.
-- **Time zone.** The schedule is set in Berlin time. If you are online in Germany, that changes nothing.
+- Commute: in Berlin you travel to the classroom every day. Online you join from home, from anywhere in Germany.
+- The room: in person you can turn to the person next to you. Online you use the call and the chat.
+- Time zone: the schedule is in Berlin time. If you join online from Germany, that makes no difference.
 
-What should not change in a live program:
+What should stay the same in a live program:
 
-- **The content.** The syllabus and the projects.
-- **The teacher.** Ask the provider who teaches each format.
-- **The schedule.** At the Academy, online participants join live on the same Monday to Friday schedule.
+- The content: the syllabus and the projects.
+- The teacher: ask the provider who teaches each format.
+- The schedule: at the Academy, online participants join live on the same Monday to Friday schedule.
 
-If you live outside Berlin, live online lets you take a full-time program without moving.
+If you live outside Berlin, you can take a full-time program live online without moving.
 
 ## What "Live Online" Has to Include
 
-"Online" covers very different products, from a video library to a class that meets every morning. A live online program is worth full days only if it has:
+"Online" can mean anything from a video library to a class that meets every morning.
 
-- **Live teaching** by a person who answers questions in the session.
-- **A fixed schedule** that you keep, every weekday.
-- **A small group**, so the teacher knows your project.
-- **Answers the same day**, not in a forum a week later.
+A live online program is only worth full days of your time if it has:
 
-Ask any provider about these four things before you sign. If the answer to the first one is "recorded videos and weekly office hours", it is a self-paced course, not a live program.
+- Live teaching by a person who answers questions during the session.
+- A fixed schedule that you follow every weekday.
+- A small group, so the teacher knows your project.
+- Answers on the same day, not in a forum a week later.
+
+Ask any provider about these four things before you sign. If the answer to the first one is "recorded videos and weekly office hours", it's a self-paced course, not a live program.
 
 ## Self-Paced Courses as the Third Option
 
-If neither full days nor fixed evenings fit, a self-paced course does. The free [DataTalks.Club Zoomcamps](/courses) are online courses that anyone can join: pre-recorded modules, live office hours, homework and a final project, at whatever pace you can keep. [LLM Zoomcamp](/courses/llm-zoomcamp) and [AI Dev Tools Zoomcamp](/courses/ai-dev-tools-zoomcamp) cover the ground closest to the Academy programs.
+If you can't do full days or fixed evenings, take a self-paced course. The free [DataTalks.Club Zoomcamps](/courses) are online courses that anyone can join. They have recorded modules, live office hours, homework and a final project, and you go at whatever pace you can manage. [LLM Zoomcamp](/courses/llm-zoomcamp) and [AI Dev Tools Zoomcamp](/courses/ai-dev-tools-zoomcamp) are the closest to the Academy programs.
 
-Self-paced works if you are good at keeping your own deadlines. If you have tried and stalled before, a live format with a group may suit you better. The guide [Free Zoomcamps or the Full-Time Academy](/academy/guides/zoomcamps-vs-academy/) compares the two.
+A self-paced course works if you're good at keeping your own deadlines. If you've tried before and given up halfway, a live format with a group may suit you better. To compare the two, read [Free Zoomcamps or the Full-Time Academy](/academy/guides/zoomcamps-vs-academy/).
 
 ## Planning Three Months Without a Salary
 
-If you choose a full-time program, settle these questions before it starts:
+If you choose a full-time program, answer these questions before it starts:
 
-- How will you cover rent and living costs for 3 months, plus the time until a new job?
-- When does your notice period end, and does the start date fit it?
-- If you are already registered with the Agentur für Arbeit, does your adviser know your plan?
-- Do you have a quiet place to study full days, at home or in Berlin?
-- Can the people around you live with you being busy every weekday?
+- How will you pay rent and living costs for 3 months, plus the time until you find a new job?
+- When does your notice period end, and does the start date fit?
+- If you're already registered with the Agentur für Arbeit, does your adviser know your plan?
+- Do you have a quiet place to study all day, at home or in Berlin?
+- Are the people around you OK with you being busy every weekday?
 
 Funding rules are a separate topic. The [German Bildungsgutschein guide](/academy/bildungsgutschein/) explains them in German.
 
 ## The Format of DataTalks.Club Academy
 
-- **Format:** Full-time, live
-- **Length:** 3 months (13 weeks)
-- **Schedule:** Monday to Friday, 09:00 to 16:30 Berlin time
-- **Where:** Berlin or live online
-- **Language:** English
-- **Group:** 15 seats
-- **Start:** April 2027
-- **Funding:** Bildungsgutschein (coming soon).
+DataTalks.Club Academy has only one format:
 
-There are two programs, the [Agentic Engineering program](/academy/agentic-engineering/) and the [AI Engineering program](/academy/ai-engineering/), both for developers with 2+ years of experience. There is no part-time format. Taught by Alexey Grigorev. He has taught more than 100,000 students in DataTalks.Club courses.
+- Format: full-time, live
+- Length: 3 months (13 weeks)
+- Schedule: Monday to Friday, 09:00 to 16:30 Berlin time
+- Where: Berlin or live online
+- Language: English
+- Group: 15 seats
+- Start: April 2027
+- Funding: Bildungsgutschein (coming soon)
+
+There are two programs, the [Agentic Engineering program](/academy/agentic-engineering/) and the [AI Engineering program](/academy/ai-engineering/), both for developers with 2+ years of experience. There's no part-time format. Alexey Grigorev teaches both programs, and he has taught more than 100,000 students in DataTalks.Club courses.
 
 To see which programs exist for experienced developers, read [AI Bootcamps in Germany for Experienced Developers](/academy/guides/ai-bootcamps-germany-experienced-developers/). To compare the big bootcamp names, read [Le Wagon, Ironhack, Spiced Academy or WBS Coding School](/academy/guides/bootcamps-for-experienced-developers-germany/).
 
@@ -126,11 +130,11 @@ To see which programs exist for experienced developers, read [AI Bootcamps in Ge
 
 ### Should I Choose a Full-Time or Part-Time AI Bootcamp?
 
-A full-time AI bootcamp takes your whole working day for a few months, so it fits developers who are between jobs or in a notice period. A part-time program runs in the evenings and at weekends over a longer period and fits people who keep their job.
+A full-time AI bootcamp takes up your whole working day for a few months, so it suits developers who are between jobs or in a notice period. A part-time program runs in the evenings and at weekends for longer, and it suits people who keep their job.
 
 ### Can I Take DataTalks.Club Academy Part-Time?
 
-No. It is full-time: Monday to Friday, 09:00 to 16:30 Berlin time, for 3 months.
+No. It's full-time: Monday to Friday, 09:00 to 16:30 Berlin time, for 3 months.
 
 ### Is the Live Online Format of DataTalks.Club Academy Different From the Berlin Classroom?
 
@@ -138,4 +142,4 @@ Classes take place in Berlin or live online, and online participants join live o
 
 ### Can I Keep My Job During a Full-Time Program?
 
-Not with full working days. A full-time program fits a gap between jobs or a notice period. With a job, a part-time or self-paced course fits better.
+Not if the program takes full working days. A full-time program suits a gap between jobs or a notice period. If you have a job, a part-time or self-paced course is a better fit.
