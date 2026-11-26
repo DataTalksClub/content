@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/storytime-for-dataops-christopher-bergh/id1541710331?i=1000558399936
   spotify: https://open.spotify.com/episode/2PcBsHslUVnjXFhC9hv6zk
   youtube: https://www.youtube.com/watch?v=0Fx5PCoLkf4
+audio_url: https://anchor.fm/s/41286f68/podcast/play/50926038/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-22%2F261050179-44100-2-37b7bfc895942.m4a
+duration_seconds: 3131
 description: 'Master DataOps: automate pipelines, data observability and CI/CD to cut errors, speed deployments,
   and deliver reliable, testable data pipelines.'
 intro: 'How do you build reliable data pipelines that move fast without breaking production? In this episode,

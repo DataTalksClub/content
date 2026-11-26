@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-systems-in-the-age-of/id1541710331?i=1000733350691
   spotify: https://open.spotify.com/episode/2RD2qXaYa2ZjKjuIE7Aj6O
   youtube: https://www.youtube.com/watch?v=eC3RNuI6ow0
+audio_url: https://anchor.fm/s/41286f68/podcast/play/110146052/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-24%2F77a20117-6656-f4a2-bba2-e533faf5f980.mp3
+duration_seconds: 3700
 description: 'Discover LLM engineering and RAG best practices: practical prompting, evaluation methods
   and deployment workflows to boost accuracy and retrieval.'
 topics:

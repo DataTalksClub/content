@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-mlops-to-dataops-santona-tuli/id1541710331?i=1000618121008
   spotify: https://open.spotify.com/episode/0inhE28kLI4T1AsSjgwnL8?si=WeFES7dXRxqSK_SKonBejw
   youtube: https://www.youtube.com/watch?v=kSTfhQ_SZgc
+audio_url: https://anchor.fm/s/41286f68/podcast/play/72378842/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-20%2F5193e17d-398a-4e13-4934-676f35f1ae4e.mp3
+duration_seconds: 3185
 description: Master modern data pipelines with dbt transforms and Airflow orchestration—streamline ingestion,
   speed feature engineering and analytics delivery
 intro: How do you build a modern data pipeline that reliably moves raw events through ingestion, dbt transformations,

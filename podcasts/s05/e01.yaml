@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Mastering-Algorithms-and-Data-Structures---Marcello-La-Rocca-e16s7lf
   spotify: https://open.spotify.com/episode/5IM2Des1sjVIwrvB3dGoJN
   apple: https://podcasts.apple.com/us/podcast/mastering-algorithms-and-data-structures-marcello-la/id1541710331?i=1000534241523
+audio_url: https://anchor.fm/s/41286f68/podcast/play/39771247/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-3%2Fe74fd526-b7fe-db06-8f23-e255f25be8f8.mp3
+duration_seconds: 3730
 description: Learn Bloom filters, approximate nearest-neighbor and performance tuning to gain memory-efficient
   containment, fast vector search and practical profiling tips
 intro: How do engineers choose and implement the right algorithm for memory, latency, and scale? In this

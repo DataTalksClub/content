@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Making-Sense-of-Data-Engineering-Acronyms-and-Buzzwords---Natalie-Kwong-e177303
   spotify: https://open.spotify.com/episode/1AvtwdcAXGGjdJ7fl0Hsuw
   apple: https://podcasts.apple.com/us/podcast/making-sense-of-data-engineering-acronyms-and/id1541710331?i=1000534990760
+audio_url: https://anchor.fm/s/41286f68/podcast/play/40126915/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-11%2Fc32335be-4eee-d7f2-c07e-a696dc0c8cde.mp3
+duration_seconds: 3621
 description: Discover ETL vs ELT, data lake vs data warehouse with Airbyte and dbt—learn CDC, orchestration,
   and governance to design reliable, fast modern data pipelines
 intro: How do you decide between ETL and ELT, or when to keep a data lake versus a warehouse—and where

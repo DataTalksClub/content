@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/visualising-machine-learning-meor-amer/id1541710331?i=1000555246590
   spotify: https://open.spotify.com/episode/032NhEphm5QDdDFDUIypOL
   youtube: https://www.youtube.com/watch?v=OuCuk-7RHjM
+audio_url: https://anchor.fm/s/41286f68/podcast/play/49580338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-25%2F255833027-44100-2-7710383d7791d.m4a
+duration_seconds: 3126
 description: Discover kDimensions and Figma templates to visualize machine learning, build intuition before
   the math, map ML problems, and create shareable visuals
 intro: 'How do you teach machine learning so people build intuition before diving into math? In this episode,

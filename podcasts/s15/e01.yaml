@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/why-machine-learning-design-is-broken-valerii-babushkin/id1541710331?i=1000621176183
   spotify: https://open.spotify.com/episode/3KfKptkWIa1hW1hSOvBQaO
   youtube: https://www.youtube.com/watch?v=6YBMU6475KQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/73317080/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-12%2Fa946b7b6-2f34-88f7-3ce1-bad048871b2a.mp3
+duration_seconds: 3080
 description: 'Master ML system design: fail-fast design docs, modular architecture & data drift monitoring
   to cut risk, assign ownership, speed experiments.'
 intro: How do you design ML systems that fail fast, scale with modular architecture, and survive data

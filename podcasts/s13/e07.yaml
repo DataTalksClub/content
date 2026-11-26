@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/mastering-self-learning-in-machine-learning-aaisha/id1541710331?i=1000607892159
   spotify: https://open.spotify.com/episode/2XdKHrmVuytXd5kzLVSbFn?si=ETbkUdT2Q1yJlKCI-d9Rcg
   youtube: https://www.youtube.com/watch?v=Kc3Puh3UCRQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/68153986/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-7%2F33f87d62-fc7c-d37f-140b-de3c8057658b.mp3
+duration_seconds: 3062
 description: Learn bioinformatics & machine learning via project-first workflows, dataset-first ideation,
   study hacks and MLOps deployment tips to gain practical skills
 intro: How do you teach yourself bioinformatics and machine learning in a way that leads to real projects

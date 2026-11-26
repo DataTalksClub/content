@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamara-atanasoska/id1541710331?i=1000684411354
   spotify: https://open.spotify.com/episode/6S4a85iiRzl7NU1HykXeKT?si=FNoDtj74T2ujQKzKdDWwzA
   youtube: https://www.youtube.com/watch?v=sXU9vMDBjmk
+audio_url: https://anchor.fm/s/41286f68/podcast/play/97088576/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-22%2Fbb2b3df0-4cb3-16c5-7f11-23ef16451922.mp3
+duration_seconds: 3191
 description: Learn fairness, interpretability, and metrics in AI/ML engineering—practical sociotechnical
   design steps to evaluate bias, improve transparency, protect users.
 topics:

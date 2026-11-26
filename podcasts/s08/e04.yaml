@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/machine-learning-and-personalization-in-healthcare/id1541710331?i=1000557726819
   spotify: https://open.spotify.com/episode/3s78PtlbUmecuMOXwO8aD5?si=991e1811a5204305
   youtube: https://www.youtube.com/watch?v=IDzhmmKeNG4
+audio_url: https://anchor.fm/s/41286f68/podcast/play/50560880/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-14%2F259656643-44100-2-05a8fe91584cc.m4a
+duration_seconds: 3118
 description: 'Learn to build data teams and ethical AI in healthcare: actionable personalization, A/B
   testing for digital therapeutics, GDPR-safe experiments.'
 intro: How can AI power effective digital therapeutics while balancing personalization, rapid experimentation,

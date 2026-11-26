@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541710331?i=1000552243668
   spotify: https://open.spotify.com/episode/3LhBOO1UANCGbOwkntZt4j
   youtube: https://www.youtube.com/watch?v=0Gqx1LtqRZU
+audio_url: https://anchor.fm/s/41286f68/podcast/play/48093759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-23%2F250054797-44100-2-5468ffc08eef8.m4a
+duration_seconds: 3255
 description: 'Master product analytics, A/B testing & power analysis: design stable metrics, validate
   randomization with A/A tests, plan sample size to de-risk features.'
 intro: How do you design product experiments that truly establish causality and avoid costly false conclusions?

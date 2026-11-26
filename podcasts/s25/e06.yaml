@@ -12,6 +12,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-an-ai-platform-sdk-design-model-routing/id1541710331?i=1000794297354
   spotify: https://open.spotify.com/episode/1TUi9vfXP0lhsKlH73TSjS?si=f6e2a8668afc466c
   youtube: https://www.youtube.com/watch?v=aSI_dxt8KhY
+audio_url: https://anchor.fm/s/41286f68/podcast/play/126930126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F433469172-44100-2-ed2437df0798e.m4a
+duration_seconds: 3634
 season: 25
 short: 'Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals'
 title: 'Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals'

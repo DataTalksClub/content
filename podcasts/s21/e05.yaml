@@ -16,6 +16,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-astronomy-to-applied-ml-daniel-egbo/id1541710331?i=1000728601772
   spotify: https://open.spotify.com/episode/0hV7d1zSKO7ykGDZxjXyJ8
   youtube: https://www.youtube.com/watch?v=b92gwrsVQtg
+audio_url: https://anchor.fm/s/41286f68/podcast/play/108619264/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-21%2F8c15d17b-2601-0184-4b93-6c3624be33cb.mp3
+duration_seconds: 3834
 description: 'Discover MEERKAT radio astronomy pipelines and machine learning: build production ML, master
   multi-wavelength cross-match, accelerate discovery.'
 topics:

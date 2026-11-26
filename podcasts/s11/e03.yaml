@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-tomasz-hinc/id1541710331?i=1000583457504
   spotify: https://open.spotify.com/episode/6jLgdl59sVCdVNJezdIqJY?si=NXasnXtFQVO0KAcCFbvUtQ
   youtube: https://www.youtube.com/watch?v=lem7knxqNzg
+audio_url: https://anchor.fm/s/41286f68/podcast/play/59027499/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-14%2F290986726-44100-2-8db7afc6785eb.m4a
+duration_seconds: 3068
 description: Master DataOps, GitOps and IaC best practices for reproducibility, onboarding and production
   reliability — actionable Git workflows, Terraform, Docker tips
 intro: How do you make data work less fragile and easier to onboard while keeping production safe and

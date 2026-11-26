@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/se4ml-software-engineering-for-machine-learning-nadia/id1541710331?i=1000605782433
   spotify: https://open.spotify.com/episode/6ElyurOyGfRiCwLGUWOG7f?si=6k0i3XNUSPWd31vsZv4pfA
   youtube: https://www.youtube.com/watch?v=35Ch8xL2SA8
+audio_url: https://anchor.fm/s/41286f68/podcast/play/67058839/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-22%2F8a359f40-1163-a8d7-b27d-59ed83898d93.mp3
+duration_seconds: 3219
 description: Learn how to prevent hidden technical debt in ML systems with MLOps, documentation and responsible
   AI— improve reliability, tests, and team alignment
 intro: How do teams prevent hidden technical debt in ML systems before it derails production? In this

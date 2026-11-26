@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-digital-marketing-to-analytics-engineering-nikola/id1541710331?i=1000586740912
   spotify: https://open.spotify.com/episode/5VwS6ijaToirTzR7Xd5Phw?si=OsOVLOzBSt2sIgvbRS3krg
   youtube: https://www.youtube.com/watch?v=GawJ7mG5ElQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/60709500/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-16%2F297303547-44100-2-6a957221cc336.m4a
+duration_seconds: 2811
 description: 'Discover DBT, SQL & data modeling tactics for pivoting into analytics engineering: learn
   migration, tooling, A/B testing, and a career playbook to get hired.'
 intro: 'How do you transition from digital marketing into analytics engineering—and master DBT, SQL, and

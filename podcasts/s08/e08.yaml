@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/teaching-data-engineers-jeff-katz/id1541710331?i=1000561145955
   spotify: https://open.spotify.com/episode/0Fo6Y62xaWPy7C24eZKfJw?si=lnjgqHUiRdGiZNxE76QMYQ
   youtube: https://www.youtube.com/watch?v=dFo10l8B6Go
+audio_url: https://anchor.fm/s/41286f68/podcast/play/51781950/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-10%2F264614111-44100-2-f81a390867047.m4a
+duration_seconds: 3153
 description: 'Master data engineering and SQL with a bootcamp curriculum: employer-validated projects,
   cloud basics, SQL window functions & interview prep for junior roles.'
 intro: How do you build a data engineering career from zero — what should you learn, how do you master

@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Build-Your-Own-Data-Pipeline---Andreas-Kretz-e139se1
   spotify: https://open.spotify.com/episode/0fFRCAYFCReMxEiq2RDVak
   apple: https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-andreas-kretz/id1541710331?i=1000527643914
+audio_url: https://anchor.fm/s/41286f68/podcast/play/36024193/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-23%2Fc3a0f22d-9147-44e6-e00e-6b393dc97471.mp3
+duration_seconds: 3713
 description: 'Learn to build data pipelines and deploy ML on AWS: productionize notebooks, cut ops risk,
   choose cost-effective serving and orchestration.'
 intro: 'How do you move models out of notebooks and into reliable production data pipelines using AWS,

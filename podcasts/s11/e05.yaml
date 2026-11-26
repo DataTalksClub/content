@@ -16,6 +16,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-data-science-practice-andrey-shtylenko/id1541710331?i=1000585100407
   spotify: https://open.spotify.com/episode/0M7Y77MFToxtKuyfdF5W22?si=jgWR6EchQnWe6nYWW44ZxQ
   youtube: https://www.youtube.com/watch?v=XbDQv8FTA4U
+audio_url: https://anchor.fm/s/41286f68/podcast/play/59903750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-1%2F294350224-44100-2-7dbe28ef3b26a.m4a
+duration_seconds: 2989
 description: 'Discover Industrial AI tactics, MLOps & sensorization to scale projects: hub-and-spoke data
   teams, proving value, tooling and career steps to productionize ML.'
 intro: How do industrial enterprises move from pilots to production-ready AI—and what team structures,

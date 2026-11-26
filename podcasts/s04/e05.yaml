@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Running-from-Complexity---Ben-Wilson-e14np51
   spotify: https://open.spotify.com/episode/2TxcU3eF7hjkAEzAJcYMAg
   apple: https://podcasts.apple.com/us/podcast/running-from-complexity-ben-wilson/id1541710331?i=1000529834651
+audio_url: https://anchor.fm/s/41286f68/podcast/play/37528161/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F97284900-5227-bd36-6178-6c4355eba01a.mp3
+duration_seconds: 4302
 description: 'Learn practical ML engineering to ship maintainable machine learning models to production:
   avoid complexity, use prototypes, explainability, testing.'
 intro: 'Are your ML projects collapsing under their own complexity—or never making it to production at

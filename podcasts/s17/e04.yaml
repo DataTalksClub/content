@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabilistic-programming-rob/id1541710331?i=1000642253191
   spotify: https://open.spotify.com/episode/5WUKDcTYv8ZvnqeHSQT7FF?si=K10siPBHQwmegCCXJ1VpIA
   youtube: https://www.youtube.com/watch?v=kcKvUSInm-M
+audio_url: https://anchor.fm/s/41286f68/podcast/play/80548133/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-28%2F209cbe52-1a9e-1ac9-0147-f4b159b5fb81.mp3
+duration_seconds: 3255
 description: 'Discover Bayesian modeling with PyMC and Stan: learn priors, MCMC/HMC sampling, probabilistic
   programming workflows to build, debug and refine robust models.'
 topics:

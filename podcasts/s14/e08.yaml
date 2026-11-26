@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-scratch-to-success-building-an-mlops-team-and/id1541710331?i=1000618899065
   spotify: https://open.spotify.com/episode/0raudIf9XsKdUfr5m2YlUE?si=x1PuaBqwTVyMlfNlGape2A
   youtube: https://www.youtube.com/watch?v=CB1YIsxQRtc
+audio_url: https://anchor.fm/s/41286f68/podcast/play/72826348/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-30%2Ff4ee1ffb-e805-9504-b6a6-ea7bf71be85f.mp3
+duration_seconds: 3213
 description: Discover MLOps strategies to build an ML platform with experiment tracking, improved reproducibility,
   faster releases and compliance-ready model operations
 intro: How do you design an ML platform that reliably deploys models, tracks experiments, and meets regulatory

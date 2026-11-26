@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/leading-data-research-david-bader/id1541710331?i=1000579710785
   spotify: https://open.spotify.com/episode/7DmFWFHUwxx4Wf0X6GbKBf?si=2DW0G2EMQ7ebB9K60LfJyQ
   youtube: https://www.youtube.com/watch?v=vZLlpsUlchQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/57422395/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-12%2F285216439-44100-2-29be659199093.m4a
+duration_seconds: 3521
 description: Learn to build data science programs, democratize HPC and scale graph analytics with Arkouda
   - practical curriculum, performance tips and recruitment tips
 intro: How do you build effective data science programs, democratize high-performance computing, and scale

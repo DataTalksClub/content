@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-an-open-source-nlp-tool-johannes-h%C3%B6tter/id1541710331?i=1000610117894
   spotify: https://open.spotify.com/episode/5SjY4vatlUYFCZUMV7dE7W?si=MC4ZZrKbSTKUEDVEfedGwA
   youtube: https://www.youtube.com/watch?v=WIpnyiHp4IE
+audio_url: https://anchor.fm/s/41286f68/podcast/play/68906148/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-19%2Fa27650d1-3c64-6502-ba8f-e99176d24156.mp3
+duration_seconds: 3386
 description: Discover weak supervision, NLP labeling & GPT heuristics to build high-quality datasets faster
   — combine Refinery, Bricks, ensemble heuristics & active learning
 intro: 'How can teams scale high-quality NLP labeling without hand-labeling every example? In this episode,

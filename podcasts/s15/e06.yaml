@@ -16,6 +16,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/democratizing-causality-aleksander-molak/id1541710331?i=1000625694605
   spotify: https://open.spotify.com/episode/17U3RWz5BupRIwoBvGWqYQ?si=g6XypIZnSwG4hznNIOs7mw
   youtube: https://www.youtube.com/watch?v=0I2FHH95Ofs
+audio_url: https://anchor.fm/s/41286f68/podcast/play/74957233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-23%2F568b0e38-a46e-7e6a-39b4-39b6bb4fa148.mp3
+duration_seconds: 3360
 description: 'Master causal inference for production ML: uplift modeling, treatment effects, counterfactuals,
   causal discovery, and LLM integration strategies.'
 intro: 'How do you move from correlation to actionable decisions — using counterfactuals, uplift modeling,

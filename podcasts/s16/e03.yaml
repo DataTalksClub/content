@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/collaborative-data-science-in-business-ioannis-mesionis/id1541710331?i=1000632860980
   spotify: https://open.spotify.com/episode/46DN6rAlufvvXaqdOomoTe?si=OMPDN8m5QZWsc5kJY8IcAA
   youtube: https://www.youtube.com/watch?v=1pExOVuCF8Q
+audio_url: https://anchor.fm/s/41286f68/podcast/play/77439436/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-19%2F1e5d1762-a13c-0aaa-1720-67125906dc35.mp3
+duration_seconds: 3350
 description: Discover MLOps tactics to prioritize data products, run A/B testing and enable model monitoring
   for faster validation, reliable rollouts and stakeholder buy-in
 topics:

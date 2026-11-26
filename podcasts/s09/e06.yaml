@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/developer-advocacy-engineer-for-open-source-merve-noyan/id1541710331?i=1000568463048
   spotify: https://open.spotify.com/episode/5k60LWIwnMpvaIbTaryRv4?si=liHqmXVYT-uB1PO4uB65OQ
   youtube: https://www.youtube.com/watch?v=SnEYvF-Ztb8
+audio_url: https://anchor.fm/s/41286f68/podcast/play/53941822/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-24%2F273371311-44100-2-7644958414cfa.m4a
+duration_seconds: 3057
 description: 'Build an NLP portfolio on Hugging Face: contribute to open source, publish datasets, deploy
   Spaces demos, gain PR skills and boost hiring odds.'
 intro: 'How do you go from beginner projects to contributing to Hugging Face and building an visible NLP

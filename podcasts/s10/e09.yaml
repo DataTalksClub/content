@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai-supreet-kaur/id1541710331?i=1000581178150
   spotify: https://open.spotify.com/episode/0xCSjSCG6tTiMSGfUJrMmO
   youtube: https://www.youtube.com/watch?v=8Eb5mG-pC3o
+audio_url: https://anchor.fm/s/41286f68/podcast/play/57939923/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-22%2F287023653-44100-2-c05285b6512f2.m4a
+duration_seconds: 3181
 description: Discover Responsible AI & Explainable AI tactics for bias detection, fairness checks and
   governance, practical tools to build trustworthy, compliant ML models
 intro: How do you detect bias, enforce fairness, and govern AI systems in production without sacrificing

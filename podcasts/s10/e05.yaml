@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/growing-data-engineering-team-in-a-scale-up-mehdi-ouazza/id1541710331?i=1000577461365
   spotify: https://open.spotify.com/episode/5DkuaYQpbJ13sU9bknFZnk?si=RtQnTHHYQb-ytMEw8J3e8g
   youtube: https://www.youtube.com/watch?v=acJ6sVqKOUk
+audio_url: https://anchor.fm/s/41286f68/podcast/play/56483741/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-22%2F281941127-44100-2-95d243a3f288b.m4a
+duration_seconds: 3192
 description: 'Master scaling data engineering teams: build self-service data platforms, hire senior engineers,
   deploy Kafka best practices to boost velocity, onboarding.'
 topics:

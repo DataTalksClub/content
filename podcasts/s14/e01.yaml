@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-scalable-and-reliable-machine-learning/id1541710331?i=1000612813133
   spotify: https://open.spotify.com/episode/6iDyJuhfXibDB6kXFhvaqG?si=urjDGVl6RrWtjVXIAUgOvQ
   youtube: https://www.youtube.com/watch?v=i-pIdekjUow
+audio_url: https://anchor.fm/s/41286f68/podcast/play/69978682/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-8%2F235ce7ee-69fc-2aa0-07a5-8072fb04ec99.mp3
+duration_seconds: 3059
 description: Learn MLOps design doc and data strategy to build scalable, reliable machine learning systems;
   navigate edge constraints, metrics, pipelines, and testing
 intro: 'How do you design machine learning systems that scale, stay reliable in production, and meet tight

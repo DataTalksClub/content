@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-data-science-to-data-engineering-ellen-k%C3%B6nig/id1541710331?i=1000553736781
   spotify: https://open.spotify.com/episode/4R9F5B4f8vf5r5yQEmwYiu
   youtube: https://www.youtube.com/watch?v=3TTu-hYzxeg
+audio_url: https://anchor.fm/s/41286f68/podcast/play/48823094/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-10%2F252875580-44100-2-b65cbbbcaafe1.m4a
+duration_seconds: 3255
 description: 'Master data engineering, MLOps and pipelines: learn CI/CD, cloud cost control and SQL/Python
   skills to switch careers and accelerate growth now.'
 intro: In this episode, Ellen König—Head of Engineering at alcemy—shares her journey from software and

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-cities-rachel-lim/id1541710331?i=1000675373908
   spotify: https://open.spotify.com/episode/1z7jdogto8i4Zk6Zh1vDxE?si=KCg2Iq1US0SKwFCKasGqUg
   youtube: https://www.youtube.com/watch?v=VXQIGHUWeL0
+audio_url: https://anchor.fm/s/41286f68/podcast/play/93843865/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-1%2F457668e9-2e56-9806-2c1e-40e72ae49c68.mp3
+duration_seconds: 2735
 description: Discover urban data science, transport analytics & sensors for livable cities - real-time
   monitoring, fare-card insights, data pipelines, AI tools.
 topics:

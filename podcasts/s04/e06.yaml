@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Humans-in-the-Loop---Lina-Weichbrodt-e14npgp
   spotify: https://open.spotify.com/episode/23VxmAEkKUs1kjaludRQAR
   apple: https://podcasts.apple.com/us/podcast/humans-in-the-loop-lina-weichbrodt/id1541710331?i=1000530535704
+audio_url: https://anchor.fm/s/41286f68/podcast/play/37528537/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F14bda171-030f-2bb0-1914-3bad42a87e2e.mp3
+duration_seconds: 3475
 description: 'Master human-centered MLOps: actionable stakeholder buy-in tactics, model monitoring and
   incident response playbooks to debug and ship reliable ML.'
 intro: 'How do you make MLOps human-centered so stakeholders actually trust models and teams can monitor,

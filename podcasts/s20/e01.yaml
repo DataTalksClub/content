@@ -16,6 +16,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/redefining-ai-infrastructure-open-source-chips-and/id1541710331?i=1000687565459
   spotify: https://open.spotify.com/episode/5MIc1pAXPxVYSr0E4pndU4
   youtube: https://www.youtube.com/watch?v=1aMuynlLM3o
+audio_url: https://anchor.fm/s/41286f68/podcast/play/97817410/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-31%2Fded85d71-bbda-d045-b612-c77ccc7c7f79.mp3
+duration_seconds: 3415
 description: 'Discover AI infrastructure strategies: open source orchestration, on-prem   economics and
   distributed training at scale to cut costs, boost performance and control.'
 topics:

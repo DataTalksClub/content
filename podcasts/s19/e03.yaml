@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary-ama-podcast-alexey-grigorev/id1541710331?i=1000674473200
   spotify: https://open.spotify.com/episode/50wIZxjq6goREu9pwXYITP?si=mPW0v5fBQxuBpg622CpCEA
   youtube: https://www.youtube.com/watch?v=GHbeXIKnkLQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/93482978/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-24%2F9f1690aa-2c87-526a-262c-6d64f40b9b1e.mp3
+duration_seconds: 3221
 description: 'Discover how DataTalks.Club built free Data Engineering, MLOps & LLM courses: scaling open-source
   curriculum, community growth, and career-ready projects.'
 topics:

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/machine-learning-system-design-interview-valerii-babushkin/id1541710331?i=1000551566652
   spotify: https://open.spotify.com/episode/5tSLFOh8PGe1NFFz1of9Xe
   youtube: https://www.youtube.com/watch?v=0RsmRjar66E
+audio_url: https://anchor.fm/s/41286f68/podcast/play/47863406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2F249180601-44100-2-c46bc47b83f9a.m4a
+duration_seconds: 3280
 description: 'Master ML system design: fraud detection, feature engineering & A/B testing to ace interviews,
   build robust production models, monitoring and MLOps.'
 intro: 'How do you approach ML system design interviews that probe production constraints, fraud detection

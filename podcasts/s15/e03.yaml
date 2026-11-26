@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/llms-for-everyone-meryem-arik/id1541710331?i=1000622675129
   spotify: https://open.spotify.com/episode/0tmi2ytNk1bEPldcbhkvhN?si=DtU2OM3RTFmPBdY8sFCv5g
   youtube: https://www.youtube.com/watch?v=6dn6uZFkk04
+audio_url: https://anchor.fm/s/41286f68/podcast/play/73834895/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-25%2F8dec96c8-6275-1f22-e52e-827e1de0eafa.mp3
+duration_seconds: 3328
 description: 'Discover LLM deployment tactics: fine-tuning, retrieval and open-source vs API tradeoffs
   to cut latency, control costs, and ground production models.'
 topics:

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-from-freelancing-to/id1541710331?i=1000638715212
   spotify: https://open.spotify.com/episode/7wBmJHSXPHoW0mEIbNDgqr?si=z7klLtveT1ioGi6bg8hR7Q
   youtube: https://www.youtube.com/watch?v=vOpEQiCsaLw
+audio_url: https://anchor.fm/s/41286f68/podcast/play/79704532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-7%2F5dd8f8dc-de4e-0c04-3e67-1bf2d2ab8782.mp3
+duration_seconds: 3381
 description: 'Discover how to build an open-source data product for Python devs: bootstrap, ship DLT transforms,
   and drive bottom-up adoption to find PMF.'
 intro: How do you move from freelancing to building an open-source data company that wins via bottom-up

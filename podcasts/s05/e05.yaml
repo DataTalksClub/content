@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/What-Researchers-and-Engineers-Can-Learn-from-Each-Other---Mihail-Eric-e1854bj
   spotify: https://open.spotify.com/episode/0cJJCjK7nX5p1PdeMvGrVL
   apple: https://podcasts.apple.com/us/podcast/what-researchers-and-engineers-can-learn-from-each/id1541710331?i=1000537258362
+audio_url: https://anchor.fm/s/41286f68/podcast/play/41111347/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-1%2Fd043ebf5-9b5d-6399-bf25-21f682f875a1.m4a
+duration_seconds: 3704
 description: 'Learn to build reproducible, deployable full-stack ML systems: deploy models, bridge research-to-production,
   and master PyTorch, Docker & MLOps workflows.'
 intro: How do you move ML work from research notebooks to reproducible, deployable full-stack systems?

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/career-advice-learning-and-featuring-women-in-ml-and/id1541710331?i=1000680294201
   spotify: https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=rx69Xf98QZqGqgpEQgzX2w
   youtube: https://www.youtube.com/watch?v=GifY8Zn-pnU
+audio_url: https://anchor.fm/s/41286f68/podcast/play/95598890/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-9%2Ffe10ae49-b340-487d-481a-a08f40ca8dd6.mp3
+duration_seconds: 3280
 description: Build a data science portfolio with open-source computer vision & transformers—gain hands-on
   projects, GitHub proof, and interview-ready ML skills.
 topics:

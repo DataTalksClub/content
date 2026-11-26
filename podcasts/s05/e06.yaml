@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Building-and-Leading-Data-Teams---Tammy-Liang-e18efdl
   spotify: https://open.spotify.com/episode/3hlzKwORlOsCPKrawuW4YQ
   apple: https://podcasts.apple.com/us/podcast/building-and-leading-data-teams-tammy-liang/id1541710331?i=1000537994433
+audio_url: https://anchor.fm/s/41286f68/podcast/play/41417589/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-7%2F1191ba21-e017-f650-458b-f4ae108190b2.m4a
+duration_seconds: 3550
 description: 'Learn to build a scalable data team: hiring, production ML delivery, demand forecasting
   and driving adoption—practical staffing, stack, and governance tips.'
 intro: How do you build and scale a data team that moves beyond dashboards to production ML, reliable

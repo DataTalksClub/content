@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/mlops-as-a-team-rapha%C3%ABl-hoogvliets/id1541710331?i=1000676238840
   spotify: https://open.spotify.com/episode/0Dl372MFGvN0zDa1YQx7oe?si=eCy-a4fkRtOaEe21-KDHXQ
   youtube: https://youtube.com/watch?v=rMq63r3zi4c
+audio_url: https://anchor.fm/s/41286f68/podcast/play/94150021/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-8%2F691f9e30-98e2-18b8-34c7-b981d124f6a3.mp3
+duration_seconds: 3336
 description: Learn MLOps CI/CD and model monitoring to scale reliable deployments, accelerate delivery,
   ensure reproducibility, and drive model adoption in production.
 topics:

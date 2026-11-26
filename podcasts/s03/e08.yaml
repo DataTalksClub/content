@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Becoming-a-Data-led-Professional---Arpit-Choudhury-e11mkgq
   spotify: https://open.spotify.com/episode/2hg3Gi3h5OfdedXENwZwnU
   apple: https://podcasts.apple.com/us/podcast/becoming-a-data-led-professional-arpit-choudhury/id1541710331?i=1000523422699
+audio_url: https://anchor.fm/s/41286f68/podcast/play/34344922/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-27%2F0af1bb24-db25-9e2b-9ba0-221fc4b99631.mp3
+duration_seconds: 3619
 description: Build a data-led growth stack with event tracking, tracking plans & Reverse ETL to activate
   product data for precise experimentation, personalization, and ops
 intro: 'How do you design a data-led growth stack that reliably powers personalization, activation, and

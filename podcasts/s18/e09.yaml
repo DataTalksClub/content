@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/dataops-observability-and-the-cure-for-data-team/id1541710331?i=1000665429770
   spotify: https://open.spotify.com/episode/02VoOk5UkMcvfq7VkSOegb
   youtube: https://www.youtube.com/watch?v=HzGpIxV8HtA
+audio_url: https://anchor.fm/s/41286f68/podcast/play/90462831/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-15%2Ffa0988bf-4d6f-2c23-ea7b-7261794cc833.mp3
+duration_seconds: 3227
 description: Master DataOps, data engineering, and CI/CD to deploy reliable ML, cut cycle time, reduce
   rework, and build production-ready tests for on-call readiness.
 topics:

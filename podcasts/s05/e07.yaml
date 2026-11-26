@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Similarities-and-Differences-between-ML-and-Analytics---Rishabh-Bhargava-e18rcam
   spotify: https://open.spotify.com/episode/19fWdSuxTLwIdzVT45qF9x
   apple: https://podcasts.apple.com/us/podcast/similarities-and-differences-between-ml-and/id1541710331?i=1000538713607
+audio_url: https://anchor.fm/s/41286f68/podcast/play/41840406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-15%2Ffd70867d-9fdd-8c63-d8c3-418fd3be9107.m4a
+duration_seconds: 3579
 description: Master building data teams, deploying production machine learning and MLOps, running A/B
   experiments and fraud detection to boost model reliability and ROI
 intro: How do teams move beyond dashboards to reliable production ML—while organizing people, running

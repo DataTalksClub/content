@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Getting-Started-with-Open-Source---Vincent-Warmerdam-epk60j
   spotify: https://open.spotify.com/episode/1dsbDeVncfsEg3m3cYB927
   apple: https://podcasts.apple.com/us/podcast/getting-started-with-open-source-vincent-warmerdam/id1541710331?i=1000507024598
+audio_url: https://anchor.fm/s/41286f68/podcast/play/25875923/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-28%2Ff46b8955-f886-2c77-4e6b-9bf315389602.mp3
+duration_seconds: 3766
 description: 'Learn open source contribution tactics for scikit-learn pipelines and Rasa: make solid PRs,
   write docs & tests, boost your OSS skills and career visibility.'
 intro: 'How do you start contributing to open source ML projects like scikit-learn pipelines—or move from

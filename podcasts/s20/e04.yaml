@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-startups-nemanja-radojkovic/id1541710331?i=1000699195928
   spotify: https://open.spotify.com/episode/6V8gkTSz7LuPjQYC4rO019
   youtube: https://www.youtube.com/watch?v=DX9c__a4jzg
+audio_url: https://anchor.fm/s/41286f68/podcast/play/99810915/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-13%2F25f2e4cf-c52e-06da-41ca-ae17c36041b7.mp3
+duration_seconds: 3483
 description: 'Learn lean MLOps for startups: build a SaaS-first MVP stack, avoid vendor lock-in, and manage
   tech debt to ship faster, cut costs, and scale safely.'
 topics:

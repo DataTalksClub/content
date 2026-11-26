@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on-investment-and-future/id1541710331?i=1000679505962
   spotify: https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=a99463e34ffb48f1
   youtube: https://www.youtube.com/watch?v=bT7-HRNCltk
+audio_url: https://anchor.fm/s/41286f68/podcast/play/95249320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-2%2Fb6212e49-5ba2-6b9e-7852-01ead4a0b67e.mp3
+duration_seconds: 3178
 description: Learn to harden generative AI chatbots against prompt injection and data exfiltration—defenses,
   detection, and techniques to reduce hallucinations.
 topics:

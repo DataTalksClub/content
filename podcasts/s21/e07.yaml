@@ -16,6 +16,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/lessons-from-two-decades-of-ai-micheal-lanham/id1541710331?i=1000728604349
   spotify: https://open.spotify.com/episode/7uhe5ZysRi07S6mb14nnox
   youtube: https://www.youtube.com/watch?v=DSxqUlumM3A
+audio_url: https://anchor.fm/s/41286f68/podcast/play/108849452/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-26%2F408191477-44100-2-f45bef4e4a96f.m4a
+duration_seconds: 3598
 description: Discover 20 years of Game AI, Evolutionary Algorithms, and LLM agents—practical AI tooling,
   architecture tips, and faster deployment for real projects.
 topics:

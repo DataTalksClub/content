@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Building-Business-Acumen-for-Data-Professionals---Thom-Ives-e19gq91
   spotify: https://open.spotify.com/episode/4dFbkQI9pF4wUDueZFqxGY
   apple: https://podcasts.apple.com/us/podcast/building-business-acumen-for-data-professionals-thom-ives/id1541710331?i=1000540181044
+audio_url: https://anchor.fm/s/41286f68/podcast/play/42542817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-29%2F6bb6546e-b962-c777-42e2-5152688e4b89.m4a
+duration_seconds: 3929
 description: 'Master feature engineering, model monitoring & data governance: ML tactics to prevent drift,
   boost performance, and sharpen data storytelling.'
 intro: How do you move from models that look good on paper to reliable machine learning in production—while

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/machine-learning-engineering-in-finance-nemanja-radojkovic/id1541710331?i=1000643322929
   spotify: https://open.spotify.com/episode/3yQtA8EAndau1yhCFPfwtj?si=ZutO4mLlRfOz_Zgw4GujiQ
   youtube: https://www.youtube.com/watch?v=Nl4aibeFwiI
+audio_url: https://anchor.fm/s/41286f68/podcast/play/81815560/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-26%2F25d0c93d-4cb5-7503-5f20-d25bc7a6bd61.mp3
+duration_seconds: 3190
 description: 'Learn MLOps for finance: model governance, compliant deployments, monitoring, and MVP ML
   Ops tactics to build production-ready, auditable models.'
 topics:

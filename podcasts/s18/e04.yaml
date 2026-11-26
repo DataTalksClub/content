@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/working-in-open-source-probabl-ai-and-sklearn-vincent/id1541710331?i=1000654481795
   spotify: https://open.spotify.com/episode/0HT3IQOaTXTMH0OdEBnw9s?si=HrLtx7QKT_amZyUbZuqRzQ
   youtube: https://www.youtube.com/watch?v=UPlIETGwTg8
+audio_url: https://anchor.fm/s/41286f68/podcast/play/86269884/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-3%2Fdad8c487-9575-4331-37b9-1d1d2c3f6fa9.mp3
+duration_seconds: 3122
 description: Discover Scikit-Learn open source business models—learn maintainer strategies, CI cost optimization
   and training monetization to build sustainable projects.
 topics:

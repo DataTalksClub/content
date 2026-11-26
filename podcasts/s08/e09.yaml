@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-academia-to-data-analytics-and-engineering/id1541710331?i=1000562898040
   spotify: https://open.spotify.com/episode/1kDpXugcmDdVJ6qUAiNnHQ?si=aa62cc4dce5f41b2
   youtube: https://www.youtube.com/watch?v=0wANfIvum4U
+audio_url: https://anchor.fm/s/41286f68/podcast/play/52112232/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-17%2F266030517-44100-2-9e49c12bc6f24.m4a
+duration_seconds: 2921
 description: Learn data engineering with Docker and Airflow—bootcamp ROI, interview tips, portfolio tips
   and salary tactics to land a data engineering role
 intro: How do you go from neuroscience research to a data engineering role — and what practical steps

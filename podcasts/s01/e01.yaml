@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Roles-in-a-data-team---Alexey-Grigorev-emqcft
   spotify: TODO
   apple: TODO
+audio_url: https://anchor.fm/s/41286f68/podcast/play/22933437/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-21%2F130867189-44100-2-e3c8856968839.m4a
+duration_seconds: 2565
 description: Alexey Grigorev uses an automatic listing-categorization project to explain how product
   managers, analysts, data scientists, data engineers, ML engineers, and MLOps engineers divide responsibilities
   and collaborate to ship useful ML products.

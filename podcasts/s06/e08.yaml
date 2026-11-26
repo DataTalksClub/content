@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Leading-NLP-Teams---Ivan-Bilan-e1c4929
   spotify: https://open.spotify.com/episode/0jE1rpmLCYkD3GnUa2E7E3
   apple: https://podcasts.apple.com/us/podcast/leading-nlp-teams-ivan-bilan/id1541710331?i=1000546053682
+audio_url: https://anchor.fm/s/41286f68/podcast/play/45277705/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-24%2F1cd52eeb-e08f-879c-041f-8a87023646dd.m4a
+duration_seconds: 3550
 description: Learn practical NLP teams hiring, production pipelines and MLOps tradeoffs—GPT-3 & spaCy
   tactics to deploy, monitor and scale reliable LLM systems
 intro: How do you structure an NLP team and build reliable production pipelines while weighing the tradeoffs

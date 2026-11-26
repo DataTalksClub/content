@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/competitive-machine-leaning-and-teaching-alexander/id1541710331?i=1000692309866
   spotify: https://open.spotify.com/episode/6xsov9a1US8D8w5xKcjkNm
   youtube: https://www.youtube.com/watch?v=NfAJAr7FvyY&t
+audio_url: https://anchor.fm/s/41286f68/podcast/play/98506120/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-14%2F03ea38ac-1614-4c16-ddfa-19a312d798fc.mp3
+duration_seconds: 3207
 description: Discover Production ML, system design, and competition rigor from a Kaggle Grandmaster—practical
   deployment tactics, model scaling tips, and education strategies.
 topics:

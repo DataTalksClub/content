@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/navigating-career-changes-in-machine-learning-chris/id1541710331?i=1000597921745
   spotify: https://open.spotify.com/episode/1mDlJi7vfLeJgIZStQ4G90?si=Spd04VwmSh2zZCgZzLIPbA
   youtube: https://www.youtube.com/watch?v=cUxZBXQgZaU
+audio_url: https://anchor.fm/s/41286f68/podcast/play/64437410/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-3%2Fd79ba13d-6b4d-a9d7-e7bc-b8244f7d6663.mp3
+duration_seconds: 3335
 description: Discover career transitions into ML, prompt engineering and LLMs—practical debugging tips,
   transferable skills, hiring insights, and real platform lessons
 intro: How do you move from web and game development into building machine learning platforms and working

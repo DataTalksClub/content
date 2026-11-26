@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/I-Want-to-Build-a-Machine-Learning-Startup----Elena-Samuylova-e139ste
   spotify: https://open.spotify.com/episode/7fwbqo5tDrtakuqWaIuEjc
   apple: https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-learning-startup-elena-samuylova/id1541710331?i=1000529106923
+audio_url: https://anchor.fm/s/41286f68/podcast/play/36024686/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-23%2F0eda20ba-f836-86f7-d666-a2f477673298.mp3
+duration_seconds: 3505
 description: 'Discover practical MLOps, model monitoring and founder-fit tactics to build an ML startup:
   hire, fund, productize, and reach product-market fit faster.'
 intro: 'What does it take to build a successful ML startup—especially around MLOps, model monitoring,

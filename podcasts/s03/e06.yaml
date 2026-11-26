@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/From-Physics-to-Machine-Learning---Tatiana-Gabruseva-e10r4pl
   spotify: https://open.spotify.com/episode/4Kk7xXfD5t2VHnLDHpdW1y
   apple: https://podcasts.apple.com/us/podcast/from-physics-to-machine-learning-tatiana-gabruseva/id1541710331?i=1000521740775
+audio_url: https://anchor.fm/s/41286f68/podcast/play/33444085/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-13%2Fa5068eba-f63a-5e2b-5587-3b64ca905b50.mp3
+duration_seconds: 3993
 description: 'Master computer vision & deep learning with a clear roadmap: Kaggle projects, mentorship
   strategies and interview prep to land roles and build deployed models.'
 intro: How do you switch into computer vision and deep learning from a non-industry background — and build

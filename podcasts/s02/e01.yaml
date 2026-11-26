@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/The-Importance-of-Writing-in-a-Tech-Career---Eugene-Yan-ep17du
   spotify: TODO
   apple: TODO
+audio_url: https://anchor.fm/s/41286f68/podcast/play/25254782/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-15%2F6afbe16b-be0c-f660-cd61-cba69cfa62d0.mp3
+duration_seconds: 3444
 description: 'Master technical writing for data science with a practical 7-day workflow: outline-first
   cadence, portfolio tips, docs & distribution to accelerate your career.'
 topics:

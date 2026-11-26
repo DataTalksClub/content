@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Moving-from-Academia-to-Industry---CJ-Jenkins-e1bh84o
   spotify: https://open.spotify.com/episode/5Jvo53ibSoX6rfkfdGq5pJ
   apple: https://podcasts.apple.com/us/podcast/moving-from-academia-to-industry-cj-jenkins/id1541710331?i=1000544589971
+audio_url: https://anchor.fm/s/41286f68/podcast/play/44654168/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-10%2Fbdf1adac-154d-c19e-30ab-9e6c01d82c84.m4a
+duration_seconds: 3542
 description: 'Learn a one-year roadmap from postdoc to data science lead: machine learning foundations,
   Docker deployment, resume and hiring tips to land jobs.'
 intro: 'How do you go from a postdoc to a data science lead while mastering machine learning foundations

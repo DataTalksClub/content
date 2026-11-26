@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/stock-market-analysis-with-python-and-machine/id1541710331?i=1000641465239
   spotify: https://open.spotify.com/episode/1ZXAeGr4Kx7F6oLQUip8Cc?si=KJwpYL-3SvuX8nPdc2cyOg
   youtube: https://www.youtube.com/watch?v=NThHAEIazFk
+audio_url: https://anchor.fm/s/41286f68/podcast/play/81011682/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-9%2F9de80ee4-1c41-1599-f6d6-0cf2a79581de.mp3
+duration_seconds: 3331
 description: 'Master algorithmic trading: backtesting and risk management—learn practical data sources,
   features, models & execution to build robust strategies.'
 topics:

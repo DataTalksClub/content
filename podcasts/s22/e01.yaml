@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-reliable-ai-products-in-the-era-of-gen/id1541710331?i=1000731199709
   spotify: https://open.spotify.com/episode/7c22vqYNuNLKKYEfYGOos8?si=NBFT2e80S6WErW_tDDrijA
   youtube: https://www.youtube.com/watch?v=x2AAjqz2XmM
+audio_url: https://anchor.fm/s/41286f68/podcast/play/109319710/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-7%2Fce9dc23f-4b79-a5f8-1751-0279dac80e29.mp3
+duration_seconds: 3584
 description: 'Discover agentic AI tactics: practical agent engineering and retrieval strategies to build
   robust autonomous systems, boost performance and ensure reliability.'
 topics:

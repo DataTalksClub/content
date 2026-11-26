@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/dataset-creation-and-curation-christiaan-swart/id1541710331?i=1000578975804
   spotify: https://open.spotify.com/episode/26K8JrQXKwLpQelo4n4Kdi?si=e2ad35c4941446c4
   youtube: https://www.youtube.com/watch?v=QggWydGrWoo
+audio_url: https://anchor.fm/s/41286f68/podcast/play/57099174/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-5%2F284079244-44100-2-1f4c88d0314ee.m4a
+duration_seconds: 3378
 description: 'Discover dataset creation, annotation & active learning: practical annotation UX, quality
   metrics, prototyping tips and tooling to accelerate NLP models.'
 intro: How do you create high-quality NLP datasets without breaking the budget? In this episode Christiaan

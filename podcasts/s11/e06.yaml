@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/product-owners-in-data-science-anna-hannemann/id1541710331?i=1000585888321
   spotify: https://open.spotify.com/episode/5deNrH5E6802ClwVt2Re4A?si=Xdg7qlT1TPCrH318MvS2RA
   youtube: https://www.youtube.com/watch?v=rTRTjB6cGng
+audio_url: https://anchor.fm/s/41286f68/podcast/play/59842861/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-31%2F294130347-44100-2-89d77de2768bc.m4a
+duration_seconds: 3242
 description: Discover scaling recommender systems, production ML hiring strategies and price markdown
   modeling to cut waste, optimize discounts, and lead data product teams
 intro: 'How do you scale recommender systems, hire for production ML, and model price markdowns to reduce

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-juan-orduz/id1541710331?i=1000564219176
   spotify: https://open.spotify.com/episode/7wjKCbCsD4ytuNrE8JrH2B?si=1WPAtw6PSZGVib0qSsoLvA
   youtube: https://www.youtube.com/watch?v=YxijEUoDCfw
+audio_url: https://anchor.fm/s/41286f68/podcast/play/52856096/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-1%2F269098867-44100-2-6251cae1e502b.m4a
+duration_seconds: 3202
 description: 'Discover asteroid mining: machine learning & hyperspectral spectroscopy to detect water
   for ISRU—learn detection methods, datasets, mission design & tools.'
 intro: How can we reliably detect water on near-Earth asteroids using machine learning and hyperspectral

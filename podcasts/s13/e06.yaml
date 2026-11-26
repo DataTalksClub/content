@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-science-management-shir-meir-lador/id1541710331?i=1000606790142
   spotify: https://open.spotify.com/episode/4kzcUCVPVN1Opq7XI1Dibd?si=f7GlEOs-TFiC9dxTJlXVyw
   youtube: https://www.youtube.com/watch?v=gcxP0qRO-MY
+audio_url: https://anchor.fm/s/41286f68/podcast/play/67581666/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-30%2F096b5c9b-c3ac-e225-eda0-ca8b5c782aba.mp3
+duration_seconds: 2922
 description: 'Master data science management: learn Agile ML, debrief culture, metrics and POC-to-production
   strategies to scale teams, boost impact and ship reliable models.'
 intro: How do you run data science teams so experiments become reliable, measurable products? In this

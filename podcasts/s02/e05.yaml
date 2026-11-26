@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Feature-Stores-Cutting-through-the-Hype---Willem-Pienaar-ept6m8/a-a4hlg3r
   spotify: https://open.spotify.com/episode/05YnfTWbplXwOwicR2doy3
   apple: https://podcasts.apple.com/us/podcast/feature-stores-cutting-through-the-hype-willem-pienaar/id1541710331?i=1000508782957
+audio_url: https://anchor.fm/s/41286f68/podcast/play/26171528/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-3%2Fa93c7336-0344-1ec8-4b46-a1ca26662a09.mp3
+duration_seconds: 3665
 description: Discover feature store use cases, real-time features with Feast & Tecton, build scalable
   MLOps to speed production, cut duplication and detect drift
 intro: How do you reliably build and serve real-time features for production ML without rework, duplication,

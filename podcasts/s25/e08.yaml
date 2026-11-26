@@ -10,6 +10,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/navigating-the-maze-of-production-machine/id1541710331?i=1000801773473
   spotify: https://open.spotify.com/episode/5J8royMpnXL43xtJ9y87qA
   youtube: https://www.youtube.com/watch?v=xC5lqvfSfLU
+audio_url: https://anchor.fm/s/41286f68/podcast/play/129267368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F0d925af9-63e9-cf0a-333f-f08c933eac39.mp3
+duration_seconds: 3802
 short: Navigating the Maze of Production Machine Learning
 title: Navigating the Maze of Production Machine Learning
 description: Miguel Otero Pedrido discusses why traditional ML still matters, building recommender systems,

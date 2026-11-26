@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/practical-data-privacy-katharine-jarmul/id1541710331?i=1000613701646
   spotify: https://open.spotify.com/episode/137H2M9qU5lFqb4hLyMBvg?si=b0KXeubVSpa3bfsuZaS6pQ
   youtube: https://www.youtube.com/watch?v=gbjoFfrm4iw
+audio_url: https://anchor.fm/s/41286f68/podcast/play/70242913/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-12%2Fed7d96d3-6c8f-50b8-7663-bb1636d9d15a.mp3
+duration_seconds: 3464
 description: Discover differential privacy, federated learning and PETs - privacy engineering, consent
   UX fixes and compliance to reduce re-identification risk
 intro: 'How can teams build useful machine learning while respecting user privacy, compliance, and re-identification

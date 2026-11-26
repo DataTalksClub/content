@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Product-Management-Essentials-for-Data-Professionals---Greg-Coquillo-e1dr8g5
   spotify: https://open.spotify.com/episode/1Oh6ewUJ2c1jiVcKxWIwDU
   apple: https://podcasts.apple.com/us/podcast/product-management-essentials-for-data-professionals/id1541710331?i=1000550093434
+audio_url: https://anchor.fm/s/41286f68/podcast/play/47079365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-2%2F245793953-44100-2-67c18a6a0ab44.m4a
+duration_seconds: 3190
 description: Build scalable data products with MLOps roadmaps, customer research and metric-driven templates
   - prioritize impact, reduce failures, and measure success
 topics:

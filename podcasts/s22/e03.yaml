@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinformatics-software-sebastian/id1541710331?i=1000733347636
   spotify: https://open.spotify.com/episode/3CohNIXZdooLYoIyIbr6EF
   youtube: https://www.youtube.com/watch?v=ZFrcrTtnB1Q
+audio_url: https://anchor.fm/s/41286f68/podcast/play/110145958/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-24%2F7bc02dd2-e3fc-5e6c-70a9-559ea049a6ce.mp3
+duration_seconds: 3336
 description: Master bioinformatics workflows for sequencing & metagenomics with open-source tools, streamline
   pipelines, boost reproducibility, and speed analyses.
 topics:

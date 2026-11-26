@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-sonal-goyal/id1541710331?i=1000584270745
   spotify: https://open.spotify.com/episode/54DufG1ZVj0GMSoWTbJsen?si=d7XNSW2_Tfa4qKJxmFQpIA
   youtube: https://www.youtube.com/watch?v=lpjffCOPxlY
+audio_url: https://anchor.fm/s/41286f68/podcast/play/59370801/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-21%2F292297632-44100-2-a44a34485ef24.m4a
+duration_seconds: 3207
 description: Discover how to build an open-source, ML-powered identity resolution tool. Learn about the
   practical challenges across industries.
 topics:

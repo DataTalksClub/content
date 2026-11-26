@@ -11,6 +11,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/ai-platform-memory-tools-guardrails-observability-shipping/id1541710331?i=1000796698970
   spotify: https://open.spotify.com/episode/6KBRD5TGLggGuPFvvXGPyR
   youtube: https://www.youtube.com/watch?v=T1R-IfYrRFY
+audio_url: https://anchor.fm/s/41286f68/podcast/play/127087534/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433664336-44100-2-6ed57d4a4e8cd.m4a
+duration_seconds: 3877
 short: 'Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent'
 title: 'Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent'
 description: Dewang Sultania discusses session memory, tools and MCP, guardrails, observability, and deploying

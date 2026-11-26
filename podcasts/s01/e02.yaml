@@ -16,6 +16,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Processes-in-a-Data-Science-Project---Alexey-Grigorev-encdlg
   spotify: TODO
   apple: TODO
+audio_url: https://anchor.fm/s/41286f68/podcast/play/23524464/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-4%2F134872987-44100-2-679179455b992.m4a
+duration_seconds: 1893
 description: Learn the CRISP-DM methodology for managing data science projects. Step-by-step guide covering
   business understanding, data preparation, modeling, evaluation, and deployment
 topics:

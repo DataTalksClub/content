@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/lessons-learned-from-freelancing-and-working-in-a/id1541710331?i=1000616311575
   spotify: https://open.spotify.com/episode/4ehGduC0p734UtwPr5HANq?si=rEC_XP-4RSKYh0TtSQBtlw
   youtube: https://www.youtube.com/watch?v=-Gj7SaI-QW4
+audio_url: https://anchor.fm/s/41286f68/podcast/play/71885403/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-9%2F5f7a0d8a-4f90-f244-9468-e080c44ef84a.mp3
+duration_seconds: 3030
 description: 'Discover MLOps, model monitoring & Upwork tips to build a freelance data scientist portfolio:
   pricing, onboarding, tools to land clients including MLflow'
 intro: How do you transition from startup engineering to a sustainable freelance data science practice

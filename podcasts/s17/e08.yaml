@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-machine-learning-products-reem-mahmoud/id1541710331?i=1000649393833
   spotify: https://open.spotify.com/episode/4jNredXndQ2b2evgfSmD2G?si=gU2kT-zXSX27hDPgLtwMgQ
   youtube: https://www.youtube.com/watch?v=m45tNY-8gY8
+audio_url: https://anchor.fm/s/41286f68/podcast/play/83866445/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-11%2F524cc73e-8d2e-aeeb-7b5d-2447fc40b15b.mp3
+duration_seconds: 3408
 description: 'Reem Mahmoud on building ML products in HR tech: defining the problem with domain experts,
   finding data, starting simple, iterating, LLM limits and reducing bias in AI interview scoring.'
 topics:

@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Data-Observability---Barr-Moses-evghmh
   spotify: https://open.spotify.com/episode/48QcLAw2I1apC1jeo8e1sd
   apple: https://podcasts.apple.com/us/podcast/data-observability-barr-moses/id1541710331?i=1000518351217
+audio_url: https://anchor.fm/s/41286f68/podcast/play/32048273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-23%2F6389b78e-0358-ed3b-675a-0d36582118f4.mp3
+duration_seconds: 3704
 description: Discover data observability, freshness, lineage and schema detection to prevent downtime,
   stop model drift and cut false positives in pipelines
 intro: How do you prevent data downtime, drift, and false positives before they break analytics and models?

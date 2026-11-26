@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/data-strategy-key-principles-and-best-practices-boyan/id1541710331?i=1000614629229
   spotify: https://open.spotify.com/episode/7tITQ4nLypogRLUjjK75mx?si=722BlhoLSGuxZlE9ia7VhA
   youtube: https://www.youtube.com/watch?v=jGbfeYdlCiQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/71039342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-25%2Fdc9882d4-9550-0fce-c0ba-266d3a3b117c.mp3
+duration_seconds: 3349
 description: 'Master actionable data strategy, DataOps & GPT: learn to pitch small AI use cases, set baselines,
   apply CI/CD and deliver measurable AI-powered products.'
 intro: How do you turn AI ambitions into measurable, deliverable data products? In this episode Boyan

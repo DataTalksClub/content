@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/knowledge-graphs-and-llms-across-academia-and/id1541710331?i=1000651561079
   spotify: https://open.spotify.com/episode/1yDgx6uNaSQxKTjGU1qtIj?si=g0xQjWmDTRinzxhoYV3sdA
   youtube: https://www.youtube.com/watch?v=YncdlUscUOo
+audio_url: https://anchor.fm/s/41286f68/podcast/play/84778496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-31%2Fdfa6b412-fd29-f34d-a754-df0b0581c2d7.mp3
+duration_seconds: 3194
 description: 'Learn Knowledge Graphs, LLMs & RAG for automotive R&D: optimize crash simulation, apply
   Graph ML to FEA, reduce hallucination and speed prototyping'
 topics:

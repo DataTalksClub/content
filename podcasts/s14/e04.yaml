@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/data-access-management-bart-vandekerckhove/id1541710331?i=1000615456026
   spotify: https://open.spotify.com/episode/5PDgK1FsGNtKAAyiXOppRs?si=QZDP8k38Q0e4LaZtl4lCMA
   youtube: https://www.youtube.com/watch?v=IiPOIiUy5b4
+audio_url: https://anchor.fm/s/41286f68/podcast/play/71477854/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-2%2Fa31a0682-56e0-dfb2-7aaf-befce83193ee.mp3
+duration_seconds: 3028
 description: Master Data Access Management with data catalog, access controls & access-as-code to stop
   privilege creep, speed investigations and ensure compliance
 intro: 'How do you scale data access management—from access controls and data catalogs to access-as-code—without

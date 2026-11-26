@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Building-a-Data-Science-Team---Dat-Tran-enlmef
   spotify: https://open.spotify.com/episode/0daFpY1z2J4Uop1XdMNsnY
   apple: https://podcasts.apple.com/us/podcast/building-a-data-science-team-dat-tran/id1541710331?i=1000502061864
+audio_url: https://anchor.fm/s/41286f68/podcast/play/23828367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-11%2F137007085-44100-2-5b7663b5fd321.m4a
+duration_seconds: 3524
 description: 'Master building ML teams: hiring playbooks, MLOps day-two ops, and product-driven AI for
   startups—scale with T-shaped engineers, ship robust models.'
 intro: 'How do you build and scale an ML team that delivers product-driven AI without getting bogged down

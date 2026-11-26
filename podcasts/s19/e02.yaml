@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/human-centered-ai-for-disordered-speech-recognition/id1541710331?i=1000671805368
   spotify: https://open.spotify.com/show/0pck8zuiXdI0OrCg86DAPy?si=ac857db69d484277
   youtube: https://www.youtube.com/watch?v=yTZ4cddD7DU
+audio_url: https://anchor.fm/s/41286f68/podcast/play/92588672/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-4%2Fdeb5bd98-eb12-be9b-576f-4bc0898f0aa7.mp3
+duration_seconds: 2881
 description: Discover ASR solutions for disordered speech and accents—boost recognition accuracy, reduce
   bias, and design accessible human-centered models now.
 topics:

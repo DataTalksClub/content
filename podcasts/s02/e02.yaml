@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Developer-Advocacy-for-Data-Science---Elle-OBrien-epcbak
   spotify: https://open.spotify.com/episode/6Hq0ZGPTkDk1h8orfCU78I
   apple: https://podcasts.apple.com/us/podcast/developer-advocacy-for-data-science-elle-obrien/id1541710331?i=1000506315396
+audio_url: https://anchor.fm/s/41286f68/podcast/play/25619220/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2Fd135b150-8034-2efd-54ee-c4de2d6a2922.mp3
+duration_seconds: 3335
 description: 'Discover DevRel tactics for Data Science: community growth, reproducibility, and content
   strategy—practical metrics, safety practices, and career growth tips.'
 intro: How do you practice developer relations for data science while balancing reproducibility, community

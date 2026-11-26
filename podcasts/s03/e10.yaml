@@ -16,6 +16,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/Data-Governance---Jessi-Ashdown--Uri-Gilad-e12jmoo
   spotify: https://open.spotify.com/episode/2zaLMrgbIgVkVEWY09b1Wn
   apple: https://podcasts.apple.com/us/podcast/data-governance-jessi-ashdown-uri-gilad/id1541710331?i=1000525176805
+audio_url: https://anchor.fm/s/41286f68/podcast/play/35297496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-11%2Fcbc41e25-dcd3-e284-88e7-10181357d958.mp3
+duration_seconds: 3478
 description: 'Learn data governance in the cloud: build data classification, catalogs & policies, automate
   tagging, add stewards and measure ROI for trusted, compliant data'
 intro: 'How do you build data governance in the cloud that enables access, meets regulation, and demonstrates

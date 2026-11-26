@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-a-domestic-risk-assessment-tool-sabina-firtala/id1541710331?i=1000662124309
   spotify: https://open.spotify.com/episode/7bjORhGzTQoxtbv60mMtzW?si=p6UaBdZJTnGvlwbGb6AsFQ
   youtube: https://www.youtube.com/watch?v=CpWlBAmD9ok
+audio_url: https://anchor.fm/s/41286f68/podcast/play/89022994/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-9%2Fb95bfb54-ff7e-374f-bc9c-0c7700848ad5.mp3
+duration_seconds: 2975
 description: 'Discover building a domestic risk assessment: data cleaning, risk scoring models, and privacy
   compliance to improve triage, reduce bias, and ensure compliance.'
 topics:

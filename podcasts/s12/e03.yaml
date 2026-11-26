@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/data-centric-ai-marysia-winkels/id1541710331?i=1000592911172
   spotify: https://open.spotify.com/episode/6q1yago5iyMt8OmCX1abG3?si=-OaRAwjaRfOfyQ7_QZEbBw
   youtube: https://www.youtube.com/watch?v=t3HDdVWQzNM
+audio_url: https://anchor.fm/s/41286f68/podcast/play/62484855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-20%2F304145578-44100-2-ddd7661a72f3.m4a
+duration_seconds: 3187
 description: Discover Data-Centric AI tactics to improve label quality and edit datasets to boost model
   performance, practical workflows, relabeling, augmentation tips
 topics:

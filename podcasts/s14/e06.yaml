@@ -16,6 +16,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/data-developer-relations-hugo-bowne-anderson/id1541710331?i=1000617298688
   spotify: https://open.spotify.com/episode/7bVCKqn9fLt6ETq8hxId5V?si=GZSC3NbvRuyXD85iOQo51Q
   youtube: https://www.youtube.com/watch?v=z7BvslwVRbQ
+audio_url: https://anchor.fm/s/41286f68/podcast/play/72212186/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-16%2F42904d61-e613-ee67-614f-bf9090a0f40b.mp3
+duration_seconds: 3051
 description: 'Explore the role of developer relations for machine learning: ML ecosystems, open-source
   governance and developer experience with Metaflow.'
 intro: How do you build effective developer relations for machine learning ecosystems while navigating

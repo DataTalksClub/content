@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/lessons-learned-about-data-ai-at-enterprises-alexander/id1541710331?i=1000576622709
   spotify: https://open.spotify.com/episode/5t3SwzH17mFjxEoDUx9i5c?si=gaTfOoFnQ7muVkBiYuMxuA
   youtube: https://www.youtube.com/watch?v=Vms29u9xC3k
+audio_url: https://anchor.fm/s/41286f68/podcast/play/56235136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-16%2F281076106-44100-2-83b6bad0a590a.m4a
+duration_seconds: 3256
 description: Discover data-first Enterprise AI strategies and MLOps best practices—learn realistic experiments,
   CI/CD, governance, and align ML to business impact
 topics:

@@ -15,6 +15,8 @@ links:
   anchor: https://creators.spotify.com/pod/profile/datatalksclub/episodes/From-Software-Engineering-to-Machine-Learning---Santiago-Valdarrama-e139s63
   spotify: https://open.spotify.com/episode/0PHDZPGyXgyDM9HH7QzVdZ
   apple: https://podcasts.apple.com/us/podcast/from-software-engineering-to-machine-learning-santiago/id1541710331?i=1000526870384
+audio_url: https://anchor.fm/s/41286f68/podcast/play/36023939/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-23%2F01ad03b3-b367-7d45-3998-0d34d43a7604.mp3
+duration_seconds: 3583
 description: 'Learn practical machine learning for software engineers: 7 lessons, Python tools, MLOps
   & a project roadmap to build, deploy and monitor real ML systems.'
 topics:

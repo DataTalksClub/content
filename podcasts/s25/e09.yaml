@@ -10,6 +10,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-ai-evaluations-you-can-actually-trust-tejas-kumar/id1541710331?i=1000797818987
   spotify: https://open.spotify.com/episode/7kBm1cbAlWxKeclurWgz7b
   youtube: https://www.youtube.com/watch?v=oWVmQDqZ7tw
+audio_url: https://anchor.fm/s/41286f68/podcast/play/127612807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2Fc2d4571f-f127-42e7-c9a6-f66878bb0e7d.mp3
+duration_seconds: 3983
 short: Building AI Evaluations You Can Actually Trust
 title: Building AI Evaluations You Can Actually Trust
 description: 'Tejas Kumar discusses building AI evaluations: sourcing eval cases, calibrating LLM judges,

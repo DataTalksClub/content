@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/data-mesh-101-zhamak-dehghani/id1541710331?i=1000578193372
   spotify: https://open.spotify.com/episode/5uX5sfRPvC9WAXOM9fRCup?si=FQYB7cpuSOyzq7022xU3Tg
   youtube: https://www.youtube.com/watch?v=346N_pCtYZU
+audio_url: https://anchor.fm/s/41286f68/podcast/play/56933492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-1%2F283501036-44100-2-37e563d18f35f.m4a
+duration_seconds: 3248
 description: Discover Data Mesh strategies, data contracts and federated governance to build decentralized
   data products, improve data quality, and scale adoption
 intro: 'How do you scale data architecture so teams deliver value without centralized bottlenecks? In

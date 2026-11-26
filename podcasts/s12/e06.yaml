@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/preparing-for-a-data-science-interview-luke-whipps/id1541710331?i=1000596975225
   spotify: https://open.spotify.com/episode/3JAmnWie8pS58Kok9Sjr2V?si=FDpX4O74Qi2kqzMGumqMpw
   youtube: https://www.youtube.com/watch?v=NnZjlMowkWA
+audio_url: https://anchor.fm/s/41286f68/podcast/play/63898221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-23%2F308912272-44100-2-72cbe2afc78e2.m4a
+duration_seconds: 3256
 description: Recruiter Luke Whipps maps the ML and data science interview process from screening through
   technical rounds, covering interviewer research, STAR stories, preparation priorities, failure recovery,
   internal applications, and coding-practice resources.

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/navigating-challenges-and-innovations-in-search/id1541710331?i=1000639476594
   spotify: https://open.spotify.com/episode/7mUMvxP4Efyeh0lhF5CvT6?si=7qqKrsMfQxaZy435s3XIEA
   youtube: https://www.youtube.com/watch?v=_fbe1QyJ1PY
+audio_url: https://anchor.fm/s/41286f68/podcast/play/79998204/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-14%2F70eca472-d331-2671-0e45-cbdb8e1d0324.mp3
+duration_seconds: 3420
 description: 'Learn vector databases, LLMs & semantic retrieval: RAG, embeddings and vector search tactics
   to build accurate chatbots, personalized search and better ranking.'
 topics:

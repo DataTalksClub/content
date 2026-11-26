@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/building-production-search-systems-daniel-svonava/id1541710331?i=1000650138905
   spotify: https://open.spotify.com/episode/19R0rLA8hULTBZi9FhZuTs?si=xggb0OzfRHCFSmXtJWm7bA
   youtube: https://www.youtube.com/watch?v=gEmSrknGKDE
+audio_url: https://anchor.fm/s/41286f68/podcast/play/84340913/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-21%2F550dcd14-14e9-c506-654b-17c5d1094078.mp3
+duration_seconds: 3505
 description: Learn dense embeddings, vector databases & MLOps to productionize search—get indexing, hybrid
   search, evaluation metrics and deploy tips to boost relevance.
 topics:

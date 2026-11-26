@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/from-supply-chain-management-to-digital-warehousing/id1541710331?i=1000702233986
   spotify: https://open.spotify.com/episode/33YZpX7zE6YcBGbQK9Iclp
   youtube: https://www.youtube.com/watch?v=7ePp6wuxM5s
+audio_url: https://anchor.fm/s/41286f68/podcast/play/100840107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-4%2F9f1e86a4-794f-2955-46a5-5e3bbf493568.mp3
+duration_seconds: 3128
 description: 'Master FinOps for data engineers: optimize cloud costs with BigQuery best practices, query
   tuning and governance to cut spend and boost performance.'
 topics:

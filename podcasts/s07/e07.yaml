@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/becoming-a-data-engineering-manager-rahul-jain/id1541710331?i=1000552953646
   spotify: https://open.spotify.com/episode/4nWP18woLTt4a7Wm0CQwhM
   youtube: https://www.youtube.com/watch?v=FljnbUQ796w
+audio_url: https://anchor.fm/s/41286f68/podcast/play/48471471/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-3%2F251500932-44100-2-e4f8f6052c31d.m4a
+duration_seconds: 3083
 description: Learn to scale ETL to ELT and build resilient data platforms—gain leadership skills, stakeholder
   management, data quality metrics and hiring tips
 intro: 'How do you lead a data engineering team to scale ETL into ELT, build a robust data platform, and

@@ -15,6 +15,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mindful-data-strategy-and/id1541710331?i=1000722107501
   spotify: https://open.spotify.com/episode/22Gc1bDecKA33KHAaSF9fx
   youtube: https://www.youtube.com/watch?v=5km62e4nDaw
+audio_url: https://anchor.fm/s/41286f68/podcast/play/107214470/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-22%2F64aa4483-5102-cc3b-8170-5c7c5999595c.mp3
+duration_seconds: 3571
 description: Learn how to build a healthcare ML portfolio, land Upwork freelance gigs and deploy Dockerized
   models to AWS—practical tips, capstones, and career strategies
 topics:

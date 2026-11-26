@@ -14,6 +14,8 @@ links:
   apple: https://podcasts.apple.com/us/podcast/cracking-the-code-machine-learning-made/id1541710331?i=1000636448000
   spotify: https://open.spotify.com/episode/3SjDB0E2of9IS9TXn2Fof3?si=FwWH99FGTgmL1OGI3-sLAg
   youtube: https://www.youtube.com/watch?v=LBuGzyOkx7c
+audio_url: https://anchor.fm/s/41286f68/podcast/play/78725284/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-16%2F5261d3c3-0b09-7752-6bfd-8b64be3b6b2d.mp3
+duration_seconds: 3119
 description: 'Discover interpretable machine learning: learn SHAP, Conformal Prediction,   calibrated
   uncertainty and model trust to debug models and boost reliability.'
 topics:
