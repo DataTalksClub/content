@@ -44,9 +44,11 @@ Many courses funded through the Bildungsgutschein teach the basics, like install
 
 People often confuse these two. They overlap, but they're two different ways you as a developer can use AI at work. If you're choosing between the two programs, the [comparison guide](/academy/guides/ai-engineering-vs-agentic-engineering/) puts them side by side.
 
-AI engineering means you integrate AI into the product. Think of the shopping assistant in an online store or the assistant in your banking app. Another example is a marketplace where you upload a photo of something you want to sell and the system recognizes what it is. AI engineers make calls to OpenAI, Anthropic or other providers and build things around those calls. For this path you need an engineering background.
+AI engineering means you integrate AI into the product. Think of the shopping assistant in an online store or the assistant in your banking app. Another example is a marketplace where you upload a photo of something you want to sell and the system recognizes what it is. AI engineers make calls to OpenAI, Anthropic or other providers and build things around those calls.
 
-Agentic engineering means you use tools like Claude Code to be more effective at your work as a software engineer. I made the slides for this session with Claude Code.
+For this path you need an engineering background. The [AI Engineering program](/academy/ai-engineering/) is based on [AI Engineering Buildcamp: From RAG to Agents](https://maven.com/alexey-grigorev/from-rag-to-agents), the course I've taught for a year and a half.
+
+Agentic engineering means you use tools like Claude Code to be more effective at your work as a software engineer. I made [the slides for this session](/images/academy/slides/session-1.pdf) with Claude Code. My free [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) teaches the basics of agentic engineering, and I build the [Agentic Engineering program](/academy/agentic-engineering/) on it.
 
 For AI engineering you need to know how AI works, and for agentic engineering you need to know how to use AI. An AI engineer could build a tool like Claude Code, and a software engineer who works with agents may sometimes integrate AI into the product. Most of the time, though, you have a feature to implement and you want to do it with AI in the most effective way.
 
@@ -96,7 +98,9 @@ Someone with years of experience asked what to do now that job openings ask for 
 
 It's a tough market, and AI makes it harder. It also makes it easier to build things, so build as many as you can. Get a subscription to Claude or Codex. You can start with the cheapest plan, but in my experience it isn't enough. You get a lot more if you add a second low-cost plan like OpenCode Go.
 
-Build a portfolio that shows AI experience and also shows that you know the domain of the companies you apply to. Then repeat the cycle: network and apply, build projects, interview and look back at what worked. I wrote this up in the [guide on getting hired as an experienced developer](/academy/guides/getting-hired-with-ai/).
+Build a portfolio that shows AI experience and also shows that you know the domain of the companies you apply to. I explain how to pick projects from a target company's domain in [Choosing a Portfolio Project](https://aishippingblog.com/p/choosing-a-portfolio-project-the). Then repeat the cycle: network and apply, build projects, interview and look back at what worked.
+
+My post [Getting an AI Engineering Job](https://aishippingblog.com/p/getting-an-ai-engineering-job) covers networking, applying, projects and interviews. I also wrote this up in the [guide on getting hired as an experienced developer](/academy/guides/getting-hired-with-ai/).
 
 ## Outreach on LinkedIn That Gets Answers
 
@@ -108,7 +112,7 @@ Don't try to turn every conversation into a referral right away. Get to know the
 
 ## Program Length
 
-Someone asked how long the program takes. It's three months, full-time, and every day you show up and build things, and I help you. On the published schedule, the program runs Monday to Friday, 09:00 to 16:30 Berlin time, for 13 weeks. Start: April 2027.
+Someone asked how long the program takes. It's three months, full-time, and every day you show up and build things, and I help you. On the [published schedule](/academy/faq/), the program runs Monday to Friday, 09:00 to 16:30 Berlin time, for 13 weeks. Start: April 2027.
 
 ## A Skill List That Keeps Growing
 
@@ -126,16 +130,8 @@ You also don't need a junior position. Position yourself as a mid-level speciali
 
 Someone asked what I use to scrape the job postings. Nothing special: the job site includes structured data in the page source, so a simple Python script sends a GET request and reads it. You can build a similar tracker for your own job title by describing it to Claude Code or Codex and letting the agent write it.
 
-## Materials and Links
+## Slides, Summary and Next Sessions
 
 Leave your email on the [materials page](/academy/sessions/materials/) and I'll send you the slides, a summary and the links from this session.
-
-These are the links I shared during the talk:
-
-- [AI Engineering Field Guide](https://github.com/alexeygrigorev/ai-engineering-field-guide): AI engineer job postings, analyzed every month
-- [Getting an AI Engineering Job](https://aishippingblog.com/p/getting-an-ai-engineering-job): networking, applying, projects and interviews
-- [Choosing a Portfolio Project](https://aishippingblog.com/p/choosing-a-portfolio-project-the): how to pick projects from a target company's domain
-- [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp): my free course on the basics of agentic engineering, and I build the Agentic Engineering program on it
-- [AI Engineering Buildcamp: From RAG to Agents](https://maven.com/alexey-grigorev/from-rag-to-agents): the course I've taught for a year and a half, which the AI Engineering program is based on
 
 In the next two sessions I go deeper, one only on agentic engineering and one only on AI engineering. You can register on the [sessions page](/academy/sessions/).
