@@ -182,4 +182,4 @@ Congratulations! You have just learned the essentials of public speaking for a c
 
 Public speaking is an essential skill for anyone in the field of data science. Data scientists are often called upon to present their findings to clients, managers, and other stakeholders. Being able to deliver a clear and concise presentation can make all the difference in whether or not your audience understands and buys into your work. If you’re looking to advance your career in data science, start by honing your public speaking skills.
 
-The content of this article has been inspired by the podcast episode [The Essentials of Public Speaking for Career in Data Science](/podcast/s02e10/public-speaking-for-data-scientists){:target="_blank"} with Ben Taylor at DataTalks.Club.
+The content of this article has been inspired by the podcast episode [The Essentials of Public Speaking for Career in Data Science](/podcast/s02/e10-public-speaking-for-data-scientists){:target="_blank"} with Ben Taylor at DataTalks.Club.

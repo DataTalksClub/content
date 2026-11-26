@@ -147,7 +147,7 @@ resources:
 - title: Machine Learning Workflows in Production - Krzysztof Szafanek
   url: https://www.youtube.com/watch?v=CO4Gqd95j6k
 - title: From Data Science to DataOps
-  url: /podcast/s11e03/dataops-and-gitops-best-practices-for-data-teams
+  url: /podcast/s11/e03-dataops-and-gitops-best-practices-for-data-teams
 summary: |-
   Krzysztof, who goes by Chris, is a machine learning platform consultant at Zalando with 17
   years of software engineering experience. He is on a three-month sabbatical and gave a talk

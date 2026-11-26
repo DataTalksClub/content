@@ -338,7 +338,7 @@ Explaining what you've learned helps you understand it better, builds confidence
 <figcaption>Course leaderboard highlighting bonus points earned through public learning activities</figcaption>
 </figure>
 
-This practice has led to real opportunities for learners. For example, [**Pastor Soto**](/podcast/s21e03/nonlinear-path-to-machine-learning-freelancing-and-public-learning){:target="_blank"}, who joined ML Zoomcamp without a LinkedIn account, began posting his projects publicly. These posts not only accelerated his learning but also attracted attention from recruiters at Meta and DeepLearning.AI. Similarly, [**Daniel Egbo**](https://youtu.be/b92gwrsVQtg?si=ziRFIcrYN3GQiVhV){:target="_blank"} shared his progress on LinkedIn, which opened the door to collaborations on projects such as deploying models with Intel's OpenVINO toolkit.
+This practice has led to real opportunities for learners. For example, [**Pastor Soto**](/podcast/s21/e03-nonlinear-path-to-machine-learning-freelancing-and-public-learning){:target="_blank"}, who joined ML Zoomcamp without a LinkedIn account, began posting his projects publicly. These posts not only accelerated his learning but also attracted attention from recruiters at Meta and DeepLearning.AI. Similarly, [**Daniel Egbo**](https://youtu.be/b92gwrsVQtg?si=ziRFIcrYN3GQiVhV){:target="_blank"} shared his progress on LinkedIn, which opened the door to collaborations on projects such as deploying models with Intel's OpenVINO toolkit.
 
 ### Certificate
 

@@ -327,7 +327,7 @@ You can earn additional points through learning in public, the process of docume
 
 ### Learning in Public
 
-A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](/podcast/s03e07/developer-personal-brand-learn-in-public)'s [article](https://www.swyx.io/learn-in-public){:target="_blank"}. We believe that everyone has something valuable to contribute, regardless of their expertise level.
+A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](/podcast/s03/e07-developer-personal-brand-learn-in-public)'s [article](https://www.swyx.io/learn-in-public){:target="_blank"}. We believe that everyone has something valuable to contribute, regardless of their expertise level.
 
 <figure>
 <img src="/images/posts/2023-08-17-machine-learning-zoomcamp/ml-zoomcamp-learning-in-public-concept.png" alt="Learning in public concept from Shawn Wang's article" title="Learning in public concept by Shawn Wang" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" width="auto" height="auto" />

@@ -150,4 +150,4 @@ We've also covered practical strategies for starting your data science career an
 
 If you're interested in pursuing a career in data science, remember that it's a team sport that requires continuous learning. Choose the path that aligns best with your strengths and interests, and don't be afraid to explore different aspects of the field as you grow!
 
-The content of this article has been inspired by the podcast episode [The ABC’s of Data Science](/podcast/s02e07/data-science-career-abc-framework){:target="_blank"} with Danny Ma at DataTalks.Club.
+The content of this article has been inspired by the podcast episode [The ABC’s of Data Science](/podcast/s02/e07-data-science-career-abc-framework){:target="_blank"} with Danny Ma at DataTalks.Club.

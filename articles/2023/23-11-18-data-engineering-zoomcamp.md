@@ -291,7 +291,7 @@ You can earn bonus points by learning in public — sharing your work on blogs, 
 
 ### Learning in Public: Build Your Online Presence
 
-A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](/podcast/s03e07/developer-personal-brand-learn-in-public)'s [article](https://www.swyx.io/learn-in-public). We believe that everyone has something valuable to contribute, regardless of their expertise level.
+A unique feature is our "learning in public" approach, inspired by [Shawn @swyx Wang](/podcast/s03/e07-developer-personal-brand-learn-in-public)'s [article](https://www.swyx.io/learn-in-public). We believe that everyone has something valuable to contribute, regardless of their expertise level.
 
 <figure>
 <img src="/images/posts/2023-11-18-data-engineering-zoomcamp/learning-in-public-swyx.png" alt="Learning in public concept by Shawn Wang - building online portfolio and sharing data engineering projects publicly for career growth" title="Learn in Public - Shawn Wang Article" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />

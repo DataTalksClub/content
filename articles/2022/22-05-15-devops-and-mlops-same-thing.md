@@ -166,6 +166,6 @@ DevOps and MLOps share many things in common, but they also have many difference
 
 Both in DevOps and in MLOps the mentality is the same and is based on the principle of automating all processes as much as possible, in order to move **from people to technology**.
 
-This text was freely inspired by the interview with Theofilos Papapanagiotou and Alexey Grigorev, entitled The Rise of MLOps, and available in the [DataTalks.Club](/podcast/s02e04/mlops-kubeflow-model-monitoring){:target="_blank"} website as a podcast.
+This text was freely inspired by the interview with Theofilos Papapanagiotou and Alexey Grigorev, entitled The Rise of MLOps, and available in the [DataTalks.Club](/podcast/s02/e04-mlops-kubeflow-model-monitoring){:target="_blank"} website as a podcast.
 
 If you have read this far, maybe you’d be interested to know that DataTalks.Club is running a free course about MLOps. You can find out more about it [here](https://github.com/DataTalksClub/mlops-zoomcamp){:target="_blank"}!

@@ -150,4 +150,4 @@ The DataOps approach can be a powerful tool for any company, and it’s worth ta
 
 It’s about building a culture where everyone, from engineers to data scientists, works together with their stakeholders in order to produce data-driven results faster and more efficiently.
 
-The content of this article has been inspired by the podcast episode [Storytime for DataOps](/podcast/s08e05/dataops-automation-and-reliable-data-pipelines#the-essence-of-dataops){:target="_blank"} with Christopher Bergh at DataTalks.Club.
+The content of this article has been inspired by the podcast episode [Storytime for DataOps](/podcast/s08/e05-dataops-automation-and-reliable-data-pipelines#the-essence-of-dataops){:target="_blank"} with Christopher Bergh at DataTalks.Club.
