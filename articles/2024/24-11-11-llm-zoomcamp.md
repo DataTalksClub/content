@@ -1,10 +1,9 @@
 ---
 authors:
 - valeriiakuka
-description: 'Master building RAG applications with LLM Zoomcamp - a free 10-week
-  course covering retrieval systems, vector search, evaluation, and monitoring. Learn
-  practical LLM engineering from fundamentals to production deployment. Build search
-  and question-answering systems with hands-on projects.'
+description: 'Free 10-week LLM engineering course on building, evaluating, and monitoring
+  production-style RAG and AI applications. Self-paced anytime; certificates in live
+  cohorts.'
 image: /images/posts/2024-11-11-llm-zoomcamp/llm-zoomcamp-course-cover.png
 cover: images/posts/2024-11-11-llm-zoomcamp/cover-illustration.png
 layout: post
@@ -14,7 +13,7 @@ tags:
 - artificial-intelligence
 - large-language-models
 title: 'LLM Zoomcamp: Free LLM Engineering Course and Certification'
-date: 2026-05-11
+date: 2026-11-26
 related_posts:
 - guide-to-free-online-courses-at-datatalks-club.html
 - data-engineering-zoomcamp.html
@@ -27,7 +26,7 @@ faq:
   answer: 'The LLM Zoomcamp is a free, community-driven program by [DataTalks.Club](/) that teaches practical applications with large language models through hands-on project work.
 
 
-    This 10-week course covers a comprehensive [curriculum](#course-curriculum) with all materials open and available anytime on [GitHub](https://github.com/DataTalksClub/llm-zoomcamp). You''ll work with an industry-standard stack including OpenAI API, minsearch, PGVector, and Grafana, and earn a [certificate](#can-i-get-a-certificate).'
+    This 10-week course covers a comprehensive [curriculum](#course-curriculum) with all materials open and available anytime on [GitHub](https://github.com/DataTalksClub/llm-zoomcamp). You''ll work with an industry-standard stack including OpenAI API, minsearch, PGVector, and Grafana, and build a portfolio RAG project. Live-cohort learners can earn a [certificate](#how-to-get-a-certificate); self-paced study does not include a certificate.'
 - question: What does zoomcamp mean?
   answer: '"Zoomcamp" is a term that originated from [Alexey Grigorev](/people/alexeygrigorev.html), the founder of DataTalks.Club. It started with his book "ML Bookcamp." When Alexey decided to create a video course based on the book, he called it "[Machine Learning Zoomcamp](/blog/machine-learning-zoomcamp.html)" - a free, cohort-based course in video format. The name "zoomcamp" is a play on "bookcamp," referring to the video format of the course. The Zoomcamp series has since expanded to include other free courses like the [Data Engineering Zoomcamp](/blog/data-engineering-zoomcamp.html), [MLOps Zoomcamp](/blog/mlops-zoomcamp.html), and [LLM Zoomcamp](/blog/llm-zoomcamp.html), all following the same community-driven, open-source philosophy.'
 - question: Is it really free?
@@ -44,7 +43,7 @@ faq:
 - question: How does the LLM Zoomcamp certificate work?
   answer: To earn a [certificate](#can-i-get-a-certificate), you need to complete one [capstone project](#course-projects-for-your-portfolio) that demonstrates your mastery of building an end-to-end RAG application. After submitting your project, you must also review at least 3 other students' projects by the deadline and provide constructive feedback.
 - question: When does the next cohort of the LLM Zoomcamp start?
-  answer: 'The next cohort of the LLM Zoomcamp typically starts in June each year. Register here: [https://courses.datatalks.club/register/llm-zoomcamp/](https://courses.datatalks.club/register/llm-zoomcamp/) before the course starts.'
+  answer: 'The 2026 cohort has ended and no live cohort is currently open. You can start the [self-paced materials on GitHub](https://github.com/DataTalksClub/llm-zoomcamp) anytime, or register at [https://courses.datatalks.club/register/llm-zoomcamp/](https://courses.datatalks.club/register/llm-zoomcamp/) to get notified when the next cohort is announced.'
 - question: Who runs the LLM Zoomcamp?
   answer: 'The LLM Zoomcamp is run by [DataTalks.Club](/), a global online community of data professionals and learners. While the initial idea and most of the content were created by [Alexey Grigorev](/people/alexeygrigorev.html), members of the DataTalks.Club community contribute as instructors and maintainers.
 
@@ -106,6 +105,12 @@ Teams turn to large language models (LLMs) because they want applications that c
 
 LLM Zoomcamp is designed to close this gap. This free course covers the fundamentals of LLMs and RAG, how vector and hybrid search work in practice, how to evaluate retrieval and model responses, and how to monitor user behavior once a system is live. The focus is on practical, grounded methods that make LLM-powered applications more predictable, stable, and easier to maintain.
 
+> **Course at a glance:**
+> - **Outcome:** Build, evaluate, and monitor production-style LLM applications.
+> - **Prerequisites:** You can write Python and use the command line, with some Docker familiarity. You don't need prior ML or LLM experience.
+> - **Format and availability:** All materials are free and open for [self-paced study on GitHub](https://github.com/DataTalksClub/llm-zoomcamp) anytime. The 2026 live cohort has ended, and no live cohort is currently open.
+> - **Certificate:** Available only during an active live cohort after you submit a passing capstone project and complete 3 peer reviews by the deadline. Self-paced study doesn't include a certificate.
+
 ## Table of Contents
 
 - [Why Learning to Build LLM Applications is Important](#why-learning-to-build-llm-applications-is-important)
@@ -117,7 +122,7 @@ LLM Zoomcamp is designed to close this gap. This free course covers the fundamen
 - [Testimonials](#testimonials)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-[Join the 2026 cohort](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q){.button-primary}
+[Get notified about the next cohort](https://courses.datatalks.club/register/llm-zoomcamp/){.button-primary}
 
 ## Why Learning to Build LLM Applications Is Important
 
@@ -305,7 +310,7 @@ You can complete homework assignments on the [course platform](https://courses.d
 
 ### Option 2: Live Cohort
 
-LLM Zoomcamp runs once per year and typically starts in June.
+The 2026 cohort has ended and no live cohort is currently open. You can [register on the course platform](https://courses.datatalks.club/register/llm-zoomcamp/) to get notified when the next cohort is announced.
 
 When you join a live cohort, you get:
 - Updated homework
@@ -315,7 +320,7 @@ When you join a live cohort, you get:
 
 > Even if you join after the official start date, you can still follow along. Note that some homework forms may already be closed. All active deadlines are listed on the [course platform](https://courses.datatalks.club).
 
-[Join the 2026 cohort](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q){.button-primary}
+[Get notified about the next cohort](https://courses.datatalks.club/register/llm-zoomcamp/){.button-primary}
 
 ## Testimonials
 > This course gave me hands-on experience in building LLM-powered applications, including prompt engineering, retrieval-augmented generation (RAG), pipeline orchestration, and vector search optimization.
@@ -333,7 +338,7 @@ When you join a live cohort, you get:
 For more details about how our courses work, check the [Zoomcamp logistics guide](/docs/courses/zoomcamp-logistics/){:target="_blank"}. You can also find more information about this course in the [LLM Zoomcamp documentation](/docs/courses/llm-zoomcamp/){:target="_blank"}.
 {% include faq-accordion.html faqs=site.data.faqs.llm-zoomcamp %}
 
-[Join the 2026 cohort](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q){.button-primary}
+[Get notified about the next cohort](https://courses.datatalks.club/register/llm-zoomcamp/){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 

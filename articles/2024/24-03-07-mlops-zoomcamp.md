@@ -1,10 +1,9 @@
 ---
 authors:
 - valeriiakuka
-description: 'Free MLOps Course and Certification: Master Machine Learning Operations
-  (MLOps) with hands-on training. Learn MLflow, Docker, AWS, and monitoring tools
-  in this comprehensive 3-month program. Perfect for data scientists and ML engineers
-  looking to master MLOps best practices, ML pipelines, and production deployment.'
+description: 'Free self-paced MLOps course. Learn practical aspects of productionizing
+  ML services with MLflow, Docker, AWS, Prometheus, Grafana, and GitHub Actions. Certificates
+  apply to live cohorts only (none currently scheduled).'
 image: /images/posts/2024-03-07-mlops-zoomcamp/mlops-zoomcamp-course-curriculum-overview.png
 cover: images/posts/2024-03-07-mlops-zoomcamp/cover-illustration.png
 layout: post
@@ -13,7 +12,7 @@ tags:
 - courses
 - mlops
 title: 'MLOps Zoomcamp: Free MLOps Course and Certification'
-date: 2026-05-11
+date: 2026-11-26
 related_posts:
 - guide-to-free-online-courses-at-datatalks-club.html
 - machine-learning-zoomcamp.html
@@ -26,7 +25,7 @@ faq:
   answer: 'The MLOps Zoomcamp is a free, community-driven program by [DataTalks.Club](/) that teaches core MLOps skills through hands-on project work.
 
 
-    This 3-month course covers a comprehensive [curriculum](#course-curriculum) with all materials open and available anytime on [GitHub](https://github.com/DataTalksClub/mlops-zoomcamp). You''ll work with an industry-standard stack including MLflow, Docker, AWS, Prometheus, Grafana, and GitHub Actions and earn a [certificate](#can-i-get-a-certificate).'
+    This 3-month course covers a comprehensive [curriculum](#course-curriculum) with all materials open and available anytime on [GitHub](https://github.com/DataTalksClub/mlops-zoomcamp). You''ll work with an industry-standard stack including MLflow, Docker, AWS, Prometheus, Grafana, and GitHub Actions and build an end-to-end portfolio project. The course is currently self-paced with no live cohort scheduled; certificates are only available during active live cohorts.'
 - question: What does zoomcamp mean?
   answer: '"Zoomcamp" is a term that originated from [Alexey Grigorev](/people/alexeygrigorev.html), the founder of DataTalks.Club. It started with his book "ML Bookcamp." When Alexey decided to create a video course based on the book, he called it "[Machine Learning Zoomcamp](/blog/machine-learning-zoomcamp.html)" - a free, cohort-based course in video format. The name "zoomcamp" is a play on "bookcamp," referring to the video format of the course. The Zoomcamp series has since expanded to include other free courses like the [Data Engineering Zoomcamp](/blog/data-engineering-zoomcamp.html), [MLOps Zoomcamp](/blog/mlops-zoomcamp.html), and [LLM Zoomcamp](/blog/llm-zoomcamp.html), all following the same community-driven, open-source philosophy.'
 - question: Is it really free?
@@ -101,6 +100,12 @@ MLOps Zoomcamp is a free MLOps course designed to close that gap. It teaches you
 
 If you're an ML engineer, data scientist, or software developer working with ML models and want to elevate your MLOps skills, MLOps Zoomcamp provides a practical, end-to-end foundation you can apply immediately.
 
+> **Course at a glance:**
+> - **Outcome:** Learn practical aspects of productionizing ML services, from training and experimentation to deployment and monitoring.
+> - **Prerequisites:** You know Python, Docker basics, and the machine learning workflow, with about a year of programming experience.
+> - **Format and availability:** Currently self-paced with no live cohort scheduled. All materials are free on [GitHub](https://github.com/DataTalksClub/mlops-zoomcamp) and YouTube so you can start anytime.
+> - **Certificate:** Available only during an active live cohort. Because no live cohort is scheduled right now, certificates aren't currently available, though you can still build the full portfolio project.
+
 ## Table of Contents
 
 - [What is MLOps Zoomcamp?](#what-is-mlops-zoomcamp)
@@ -112,7 +117,7 @@ If you're an ML engineer, data scientist, or software developer working with ML 
 - [How to Join MLOps Zoomcamp](#how-to-join-mlops-zoomcamp)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-[Join the waitlist](https://airtable.com/appYdhA23GVZd1iN2/shrCb8y6eTbPKwSTL){.button-primary}
+[Start the self-paced course](https://github.com/DataTalksClub/mlops-zoomcamp){.button-primary}
 
 
 ## What is MLOps Zoomcamp?
@@ -217,7 +222,7 @@ You have freedom to choose your stack: cloud providers (AWS, GCP, Azure), orches
 
 Completing the project and reviewing peers’ work is also what qualifies you for the **MLOps Zoomcamp certificate**.
 
-[Join the waitlist](https://airtable.com/appYdhA23GVZd1iN2/shrCb8y6eTbPKwSTL){.button-primary}
+[Start the self-paced course](https://github.com/DataTalksClub/mlops-zoomcamp){.button-primary}
 
 ## How MLOps Zoomcamp Works
 
@@ -278,7 +283,7 @@ To receive a certificate, you'll need to complete the [final project](#what-youl
 
 ## How to Join MLOps Zoomcamp
 
-You can join MLOps Zoomcamp either by **following a live cohort** or **learning at your own pace**.
+MLOps Zoomcamp is currently available in **self-paced mode** (no live cohort is scheduled).
 
 All materials are freely available in the [MLOps Zoomcamp GitHub repository](https://github.com/DataTalksClub/mlops-zoomcamp). Each module has its own folder, and cohort-specific homework and deadlines are in the `cohorts` directory. Lectures are pre-recorded and available in this [YouTube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR).
 
@@ -292,9 +297,9 @@ Complete homework assignments: homework and solutions are available on the [cour
 
 ### Option 2: Live Cohort
 
-Runs once per year (typically starts in the spring).
+No live cohort is currently scheduled. You can [register interest on the course platform](https://courses.datatalks.club/register/mlops-zoomcamp/) to get notified if a future live cohort is announced.
 
-Includes:
+When a live cohort runs, it includes:
 - Updated homework
 - Automatic homework scoring and a leaderboard
 - Project peer review
@@ -304,7 +309,7 @@ Even if you join after the official start date, you can still follow along — b
 
 > To earn a [certificate](#can-i-get-a-certificate), you'll need enough time to complete one [final project](#project-phase) and the required peer reviews. Details are in the Projects and Certificate sections.
 
-[Join the waitlist](https://airtable.com/appYdhA23GVZd1iN2/shrCb8y6eTbPKwSTL){.button-primary}
+[Start the self-paced course](https://github.com/DataTalksClub/mlops-zoomcamp){.button-primary}
 
 ## Frequently Asked Questions
 
@@ -312,7 +317,7 @@ For more details about how our courses work, check the [Zoomcamp logistics guide
 
 {% include faq-accordion.html faqs=site.data.faqs.mlops-zoomcamp %}
 
-[Join the waitlist](https://airtable.com/appYdhA23GVZd1iN2/shrCb8y6eTbPKwSTL){.button-primary}
+[Start the self-paced course](https://github.com/DataTalksClub/mlops-zoomcamp){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 

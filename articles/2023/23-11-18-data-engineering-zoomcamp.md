@@ -1,8 +1,9 @@
 ---
 title: 'Data Engineering Zoomcamp: Free Data Engineering Course and Certification'
 subtitle: 'Become a Data Engineer: Master Modern Data Engineering with Hands-On Training'
-description: Free data engineering course with certificate. Learn Python, SQL, dbt,
-  Kafka, and Spark. Build production pipelines, earn a certificate.
+description: Free data engineering course. Build production-grade data pipelines with
+  Python, SQL, Docker, Terraform, BigQuery, dbt, Spark, and Kafka. Self-paced anytime;
+  certificates in live cohorts.
 image: images/posts/2023-11-18-data-engineering-zoomcamp/course-overview.png
 cover: images/posts/2023-11-18-data-engineering-zoomcamp/cover-illustration.png
 authors:
@@ -18,7 +19,7 @@ related_posts:
 - ai-dev-tools-zoomcamp.html
 layout: post
 datepublished: '2023-11-18'
-date: 2026-05-11
+date: 2026-11-26
 faq:
 - question: Is the Data Engineering Zoomcamp a free data engineering course?
   answer: Yes. The Data Engineering Zoomcamp is a free, project-based data engineering course that covers pipelines, data warehouses, batch and streaming, and orchestration—without any tuition fees.
@@ -29,9 +30,9 @@ faq:
 - question: How does the Data Engineering Zoomcamp certificate work?
   answer: To earn a [certificate](#how-to-get-a-certificate), you need to complete one [capstone project](#capstone-project) by building an end-to-end data pipeline. After submitting your project, you must also review at least 3 other students' projects by the deadline and provide constructive feedback.
 - question: When does the next cohort of the DE Zoomcamp start?
-  answer: 'The next cohort of the DE Zoomcamp starts around January each year. Register here: [https://courses.datatalks.club/register/de-zoomcamp/](https://courses.datatalks.club/register/de-zoomcamp/) before the course starts.'
-- question: Can I join the Data Engineering Zoomcamp 2025 cohort?
-  answer: No, the 2025 cohort is closed. You can join the 2026 cohort when it starts in January 2026. [Register here](https://courses.datatalks.club/register/de-zoomcamp/) before the course starts.
+  answer: 'The 2026 cohort has ended and no live cohort is currently open. You can start the [self-paced materials on GitHub](https://github.com/DataTalksClub/data-engineering-zoomcamp) anytime, or register at [https://courses.datatalks.club/register/de-zoomcamp/](https://courses.datatalks.club/register/de-zoomcamp/) to get notified when the next cohort is announced.'
+- question: Can I join a live cohort of the Data Engineering Zoomcamp right now?
+  answer: 'No, the 2026 cohort has ended and the next live cohort has not been announced yet. You can start self-paced anytime using the [GitHub repository](https://github.com/DataTalksClub/data-engineering-zoomcamp), or [register here](https://courses.datatalks.club/register/de-zoomcamp/) to get notified when the next cohort opens.'
 - question: Who runs the Data Engineering Zoomcamp?
   answer: 'DE Zoomcamp is run by [DataTalks.Club](/), a global online community of data professionals and learners. While the initial idea and most of the content were created by [Alexey Grigorev](/people/alexeygrigorev.html), members of the DataTalks.Club community contribute as instructors and maintainers.
 
@@ -62,7 +63,7 @@ faq:
 
 Breaking into data engineering takes real, hands-on experience with production tools, but most courses stop at theory.
 
-The Data Engineering Zoomcamp changes that. It's a free data engineering course that teaches you how to build production-grade data pipelines from start to finish. You'll work with Docker, Terraform, BigQuery, dbt, Spark, and Kafka, and graduate with a portfolio project and a certificate.
+The Data Engineering Zoomcamp changes that. It's a free data engineering course where you build production-grade data pipelines from start to finish with Docker, Terraform, BigQuery, dbt, Spark, and Kafka. You finish with a portfolio project, and live-cohort learners can earn a certificate.
 
 <figure>
 <img src="/images/posts/2023-11-18-data-engineering-zoomcamp/course-overview.png" alt="Free Data Engineering Zoomcamp 2026 course curriculum - 9-week program covering Docker, Terraform, BigQuery, dbt, Spark, and Kafka for building production data pipelines" title="Data Engineering Zoomcamp Course Curriculum Overview" loading="lazy" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;" />
@@ -73,7 +74,13 @@ It's ideal for beginners and career switchers preparing for junior data engineer
 
 Unlike most courses, DE Zoomcamp helps you build your public portfolio, share your work confidently, and connect with a [global community](/slack.html) for feedback, mentorship, and career opportunities.
 
-> **TL;DR:** Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. [Join the course here](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD).
+> **Course at a glance:**
+> - **Outcome:** Build production-grade data pipelines with industry-standard tools, starting from data engineering fundamentals.
+> - **Prerequisites:** You can write Python and SQL, use the command line, and have some Docker familiarity. No prior data engineering experience is required.
+> - **Format and availability:** All materials are free and open for [self-paced study on GitHub](https://github.com/DataTalksClub/data-engineering-zoomcamp) anytime. The 2026 live cohort has ended, and no live cohort is currently open.
+> - **Certificate:** Available only during an active live cohort after you submit a passing capstone project and complete 3 peer reviews by the deadline. Self-paced study doesn't include a certificate.
+
+[Get notified about the next cohort](https://courses.datatalks.club/register/de-zoomcamp/){.button-primary}
 
 ## Table of Contents
 - [What is the Data Engineering Zoomcamp?](#what-is-the-data-engineering-zoomcamp)
@@ -245,7 +252,7 @@ Your project will be peer-reviewed by fellow participants and you'll peer-review
 </tbody>
 </table>
 
-[Join the next cohort](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD){.button-primary}
+[Get notified about the next cohort](https://courses.datatalks.club/register/de-zoomcamp/){.button-primary}
 
 ## How the Data Engineering Zoomcamp Works
 The course runs for 9 weeks in cohort format, providing structure and community support throughout your learning journey.
@@ -405,7 +412,7 @@ Below, we list the key features of the Data Engineering Zoomcamp and how they co
 </tr>
 <tr style="background-color: #f8f9fa;">
 <td style="padding: 12px; border: 1px solid #dee2e6; font-weight: 600;">Timeline</td>
-<td style="padding: 12px; border: 1px solid #dee2e6;">9 weeks (Jan–Mar 2026)</td>
+<td style="padding: 12px; border: 1px solid #dee2e6;">Live cohort schedule (announced per edition)</td>
 <td style="padding: 12px; border: 1px solid #dee2e6;">Flexible, self-paced</td>
 <td style="padding: 12px; border: 1px solid #dee2e6;">Typically 12–24 weeks</td>
 </tr>
@@ -436,11 +443,11 @@ You can also join the [DataTalks.Club Slack community](/slack) to get help and s
 
 ### Join a Live Cohort
 
-> **2026 Cohort:** Starts January 2026. Register here: [Fill in this form](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD)
+> **Live cohort status:** The 2026 cohort has ended and no live cohort is currently open. [Register on the course platform](https://courses.datatalks.club/register/de-zoomcamp/) to get notified when the next cohort is announced.
 
 When you join a live cohort, you'll work through the same materials as self-paced learners, but with the added structure of a published schedule and the energy of hundreds of peers progressing alongside you.
 
-The course runs once per year (starts around January). Each module typically spans one week: you watch the lectures, complete hands-on exercises, and submit a homework assignment. Your submissions get scored and appear on an anonymous leaderboard.
+Live cohorts run on a fixed schedule announced on the [course platform](https://courses.datatalks.club). Each module typically spans one week: you watch the lectures, complete hands-on exercises, and submit a homework assignment. Your submissions get scored and appear on an anonymous leaderboard.
 
 After completing all six modules, the capstone project phase begins. You'll build your own end-to-end pipeline, submit it through our form, and peer-review at least three other students' projects while yours gets reviewed by your peers. This reciprocal process gives you valuable feedback on your work and exposes you to different approaches and solutions you might not have considered.
 
@@ -450,7 +457,7 @@ Even if you join after the official start date, you can still follow along — b
 
 **Ready to join DE Zoomcamp?** Here's how it works:
 
-1. [Register for the course](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD), you'll be automatically accepted into the next cohort
+1. [Register for cohort notifications](https://courses.datatalks.club/register/de-zoomcamp/) so we email you when the next cohort is announced
 2. Join the [DataTalks.Club Slack community](/slack) and the `#course-data-engineering` channel for updates, questions, and peer support
 3. (Optional) Get a head start by exploring the [GitHub repository](https://github.com/DataTalksClub/data-engineering-zoomcamp) and watching lectures before the cohort officially begins
 4. When the cohort starts, you'll receive an email with the full schedule and submission deadlines
@@ -466,7 +473,7 @@ We summarized the key differences between the two joining options in this table:
 
 | Feature | Self-Paced | Live Cohort |
 |---------|------------|-------------|
-| **Timing** | Learn at your own pace, start anytime | Fixed 9-week schedule (January–March each year) |
+| **Timing** | Learn at your own pace, start anytime | Fixed schedule during an active cohort |
 | **Course Materials** | Full access to GitHub repository and YouTube lectures | Full access to GitHub repository and YouTube lectures |
 | **Community** | Access to Slack community (`#course-data-engineering`) | Access to Slack community (`#course-data-engineering`) |
 | **Homework** | Available but not scored | Scored automatically, appears on leaderboard |
@@ -474,7 +481,7 @@ We summarized the key differences between the two joining options in this table:
 | **Certificate** | Not available | Available after completing project and peer reviews |
 | **Structure** | Flexible, no deadlines | Weekly rhythm with deadlines and peer accountability |
 
-[Join the next cohort](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD){.button-primary}
+[Get notified about the next cohort](https://courses.datatalks.club/register/de-zoomcamp/){.button-primary}
 
 ## Testimonials
 
@@ -506,7 +513,7 @@ For more details about how our courses work, check the [Zoomcamp logistics guide
 
 {% include faq-accordion.html faqs=site.data.faqs.data-engineering-zoomcamp %}
 
-[Join the next cohort](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD){.button-primary}
+[Get notified about the next cohort](https://courses.datatalks.club/register/de-zoomcamp/){.button-primary}
 
 {% include related-posts.html manual_posts=page.related_posts max_posts=5 %}
 
