@@ -142,8 +142,6 @@ quotableClips:
   endOffset: 3567
 transcript: e09-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/supreet-kaur1995/
 - title: Databuzz page
   url: https://www.linkedin.com/company/databuzz-club/
 - title: Medium Blog Page

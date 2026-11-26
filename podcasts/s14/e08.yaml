@@ -156,8 +156,6 @@ quotableClips:
   endOffset: 3579
 transcript: e08-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/simonstiebellehner/
 - title: Github
   url: https://github.com/stiebels
 - title: Medium

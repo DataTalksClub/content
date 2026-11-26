@@ -135,13 +135,7 @@ notes: "We discussed monetization roles and the capabilities people need to move
   \ effective \n- Important product metrics\n\nAnd more! \n\n\nLinks:\n\n- [https://twitter.com/v_vashishta​](https://twitter.com/v_vashishta​)\n\
   - [https://linkedin.com/in/vineetvashishta​](https://linkedin.com/in/vineetvashishta​)\n- [https://databyvsquared.com/​](https://databyvsquared.com/​)"
 
-resources:
-- title: 'https://twitter.com/v_vashishta'
-  url: 'https://twitter.com/v_vashishta'
-- title: 'https://linkedin.com/in/vineetvashishta'
-  url: 'https://linkedin.com/in/vineetvashishta'
-- title: 'https://databyvsquared.com/'
-  url: 'https://databyvsquared.com/'
+resources: []
 summary: |-
   Vin Vashishta has worked in technology for more than 25 years, from early programming and
   networking to product management, and has focused on data science and machine learning strategy

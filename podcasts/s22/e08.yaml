@@ -22,8 +22,6 @@ transcript: e08-transcript.yaml
 resources:
 - title: Website
   url: https://www.fit-tails.com/
-- title: Linkedin
-  url: https://www.linkedin.com/in/sofya-yulpatova/
 summary: |-
   Sofya is the founder and CEO of Fit Tails, a PetTech startup that makes a sensor collar for dogs,
   which Alexey calls an Apple Watch for dogs. She grew up in Russia, then lived in Latvia before

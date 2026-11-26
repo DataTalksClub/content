@@ -149,10 +149,6 @@ context: 'Context: Christoph Molnar’s journey from statistician and Kaggle com
   complex ML accessible, reproducible, and actionable.'
 transcript: e07-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/christoph-molnar/
-- title: Website
-  url: https://christophmolnar.com/
 - title: Interpretable Machine Learning
   url: https://christophmolnar.com/books/interpretable-machine-learning/
 - title: Modeling Mindsets

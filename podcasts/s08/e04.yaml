@@ -118,8 +118,6 @@ quotableClips:
   endOffset: 3468
 transcript: e04-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/stefanfreyrgudmundsson/
 - title: Job listings
   url: https://sidekickhealth.bamboohr.com/jobs/
 summary: |-

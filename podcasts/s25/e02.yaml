@@ -19,13 +19,7 @@ description: Tony Zeljkovic shares a data consulting playbook, from landing the 
   research and becoming a platform implementation partner to building a digital footprint, selling business
   outcomes, networking, and adapting to AI.
 transcript: e02-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/tony-zeljkovic/
-- title: GitHub
-  url: https://github.com/2tony2
-- title: Consulting website
-  url: https://www.naronadata.com/
+resources: []
 summary: |-
   Tony is a hands-on AI and data platform consultant who works in healthcare, life sciences and
   insurance, through his consultancy Norona Data. He began in bioinformatics research in the

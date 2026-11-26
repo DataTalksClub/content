@@ -158,11 +158,7 @@ notes: "Books: \n\n* Million Dollar Consulting  by Alan Weiss\n* Built to Sell b
   \n* [Mikio's Twitter](https://twitter.com/mikiobraun/){:target=\"_blank\"}\n* [Mikio's LinkedIn](https://www.linkedin.com/in/mikiobraun/){:target=\"\
   _blank\"}"
 
-resources:
-- title: 'Mikio''s Twitter'
-  url: 'https://twitter.com/mikiobraun/'
-- title: 'Mikio''s LinkedIn'
-  url: 'https://www.linkedin.com/in/mikiobraun/'
+resources: []
 summary: |-
   Mikio Braun is an independent machine learning consultant. He taught a machine learning class at
   TU Berlin, where Alexey was a master's student, then spent four and a half years at Zalando,

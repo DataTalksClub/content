@@ -19,11 +19,7 @@ description: Anusha Akkina traces the finance data problems that led her to buil
   explaining why rigid ERPs and spreadsheet dependence persist and how compliance, explainability, and
   audit trails support trusted decisions.
 transcript: e06-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/anusha-akkina-acma-cgma-56154547/
-- title: Website
-  url: https://aurelytix.com/
+resources: []
 summary: |-
   Anusha Akkina is the co-founder of Auralytix, an AI-driven finance platform for CFOs and finance
   teams. She is a Chartered Global Management Accountant from the UK, based in Hamburg and

@@ -20,8 +20,6 @@ description: Paul Iusztin explains the full-stack AI engineer skill set, includi
   help engineers ship production-grade AI products.
 transcript: e01-transcript.yaml
 resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/pauliusztin/
 - title: Website
   url: https://www.pauliusztin.ai/
 summary: |-

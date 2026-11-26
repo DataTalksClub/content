@@ -179,9 +179,7 @@ context: 'Context: The episode traces a practitioner’s journey from early ML a
   they are systems engineering problems requiring explicit choices about autonomy, grounding, tooling,
   planning, and measurement to deliver dependable, useful automation.'
 transcript: e01-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/ranjitha-gurunath-kulkarni
+resources: []
 summary: |-
   Ranjitha Kulkarni is a staff ML engineer at NeuBird.ai, which builds agents that handle
   engineering on-call work. She previously worked at Dropbox, where she built recommendation

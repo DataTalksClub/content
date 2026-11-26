@@ -143,13 +143,7 @@ context: 'Context: a practitioner’s tour through the end-to-end work of turnin
   engineering patterns (architecture, caching, assistants) that let teams ship AI features and sustain
   them—while using content and teaching as a way to refine thinking and capture business value.'
 transcript: e05-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/mikulskibartosz/
-- title: Github
-  url: https://github.com/mikulskibartosz
-- title: Website
-  url: https://mikulskibartosz.name/blog/
+resources: []
 summary: |-
   Bartosz Mikulski is an AI and data engineer who helps teams move AI projects from a good demo to
   production by building tests and reliable pipelines. He started as a Java developer, moved into

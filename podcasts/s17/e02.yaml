@@ -118,12 +118,6 @@ context: 'Search today is less about keywords and more about constructing a reli
   deliver accurate, contextualized, and personalized answers.'
 transcript: e02-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/atitaarora/
-- title: Twitter
-  url: https://x.com/atitaarora
-- title: Github
-  url: https://github.com/atarora
 - title: Human-in-the-Loop Machine Learning
   url: https://www.manning.com/books/human-in-the-loop-machine-learning
 - title: Relevant Search

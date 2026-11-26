@@ -167,9 +167,7 @@ context: 'Context: The episode follows a two-decade arc from game-AI research an
   search; and clear orchestration patterns—to modern LLMs and multi-agent systems, balancing creative
   capabilities with efficiency, tooling, and real-world deployability.'
 transcript: e07-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/micheal-lanham-189693123/
+resources: []
 summary: |-
   Michael has spent two decades in data science and AI and has written more than 10 books on
   augmented reality, virtual reality, reinforcement learning, evolutionary algorithms and AI agents.

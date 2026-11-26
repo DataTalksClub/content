@@ -153,11 +153,7 @@ notes: 'Links:
   - Oleg''s service for interviews: [https://nextround.cc/](https://nextround.cc/){:target="_blank"}
 
   - LinkedIn: [https://www.linkedin.com/in/olegnovikov/](https://www.linkedin.com/in/olegnovikov/){:target="_blank"}'
-resources:
-- title: Oleg's service for interviews
-  url: https://nextround.cc/
-- title: LinkedIn
-  url: https://www.linkedin.com/in/olegnovikov/
+resources: []
 summary: |-
   Oleg Novikov built NextRound, a free service with a chatbot for practicing data science
   interviews and receiving personalized feedback. He started as a software engineer, became

@@ -152,8 +152,6 @@ context: 'Context: A coach-led roadmap for technical career changers (often retu
   and a weekly, measurable outreach plan—to turn validated skills and clear storytelling into job offers.'
 transcript: e06-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/sarahmestiri/
 - title: Website
   url: https://thrivingcareermoms.com/
 - title: Personal Website

@@ -143,8 +143,6 @@ notes: 'Links:
   - To get in touch with Barr, ping her in the DataTalks.Club group or use barr@montecarlodata.com'
 
 resources:
-- title: 'Monte Carlo'
-  url: 'https://www.montecarlodata.com'
 - title: 'The Data Engineer''s Guide to Root Cause Analysis'
   url: 'https://www.montecarlodata.com/the-data-engineers-guide-to-root-cause-analysis/'
 - title: 'Why You Need to Set SLAs for Your Data Pipelines'

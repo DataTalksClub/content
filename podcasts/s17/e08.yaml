@@ -38,8 +38,6 @@ dateadded: 2024-03-17
 duration: PT01H05M23S
 transcript: e08-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/reemmahmoud/recent-activity/all/
 - title: Website
   url: https://topmate.io/reem_mahmoud
 summary: |-

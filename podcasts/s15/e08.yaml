@@ -132,9 +132,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=qWG--iYO2uc&t=3651
   endOffset: 3691
 transcript: e08-transcript.yaml
-resources:
-- title: Loiic LinkedIn
-  url: https://www.linkedin.com/in/loicmagnien/
+resources: []
 summary: |-
   Loïc Magnien is the data lead at MyLight150 and has more than ten years in data work. He started
   in the UK as a data manager, building reports from sensor data for civil engineers, and later

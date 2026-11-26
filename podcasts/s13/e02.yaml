@@ -144,8 +144,6 @@ quotableClips:
   endOffset: 3600
 transcript: e02-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/parvathykrishnank/
 - title: Twitter
   url: https://twitter.com/ABWInstitute
 - title: GitHub

@@ -20,12 +20,8 @@ description: Nikita Kozodoi explains how teams move GenAI pilots into production
   and reusable enterprise architecture.
 transcript: e04-transcript.yaml
 resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/kozodoi/
 - title: Github
   url: https://github.com/kozodoi
-- title: Website and blog
-  url: https://www.kozodoi.me/
 summary: |-
   Nikita Kozodoi is a senior applied data scientist at the AWS Generative AI Innovation Center,
   where he helps customers design and build custom GenAI and agentic solutions. He has a background

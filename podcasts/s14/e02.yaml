@@ -115,11 +115,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3675
   endOffset: 3764
 transcript: e02-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/katharinejarmul/
-- title: Twitter
-  url: https://twitter.com/kjam
+resources: []
 summary: |-
   Katharine Jarmul is a privacy activist, machine learning engineer and principal data scientist 
   at ThoughtWorks in Germany. Her path ran through data journalism and natural language 

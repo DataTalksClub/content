@@ -155,8 +155,6 @@ transcript: e09-transcript.yaml
 resources:
 - title: Yury's course
   url: https://mlcourse.ai/
-- title: Yury's Twitter
-  url: https://twitter.com/ykashnitsky
 summary: |-
   Yury Kashnitsky is a senior machine learning scientist at Elsevier, where he works mainly on
   natural language processing. He created the mlcourse.ai course. His path runs from aviation

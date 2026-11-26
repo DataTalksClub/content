@@ -19,13 +19,7 @@ description: Xia He-Bleinagel recounts returning from full-time parenting to stu
   data and cloud teams, sharing lessons on practical learning, technical versus management tracks, inclusive
   leadership, and mentoring working mothers.
 transcript: e07-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/xia-he-bleinagel-51773585/
-- title: Github
-  url: https://github.com/Data-Think-2021
-- title: Website
-  url: https://datathinker.de/
+resources: []
 summary: |-
   Xia is head of data and cloud at NOV, a German company that works on zero-emission mobility
   through data and cloud innovation. She studied automotive engineering in China, Italy and France,

@@ -157,8 +157,6 @@ quotableClips:
   endOffset: 3815
 transcript: e07-transcript.yaml
 resources:
-- title: Geo's LinkedIn
-  url: https://www.linkedin.com/in/geojolly/
 - title: Product School community
   url: https://productschool.com/
 - title: Lean Startup

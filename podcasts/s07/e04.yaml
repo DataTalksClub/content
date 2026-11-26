@@ -132,8 +132,6 @@ quotableClips:
   endOffset: 3564
 transcript: e04-transcript.yaml
 resources:
-- title: Lindsay's LinkedIn
-  url: https://www.linkedin.com/in/lindsay-mcquade/
 - title: Impostor questionnaire
   url: http://impostortest.nickol.as/
 summary: |-

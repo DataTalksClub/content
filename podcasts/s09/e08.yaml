@@ -127,8 +127,6 @@ quotableClips:
   endOffset: 3571
 transcript: e08-transcript.yaml
 resources:
-- title: Twitter
-  url: https://twitter.com/willmcgugan
 - title: Textualize website
   url: https://www.textualize.io/
 - title: Textualize GitHub

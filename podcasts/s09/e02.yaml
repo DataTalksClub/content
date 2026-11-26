@@ -126,8 +126,6 @@ quotableClips:
   endOffset: 3668
 transcript: e02-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/daynan/
 - title: We're looking for a Sr Data Engineer
   url: https://boards.eu.greenhouse.io/karmanplus/jobs/4027128101?gh_jid=4027128101
 - title: Minor Planet Center

@@ -156,9 +156,7 @@ context: 'Context: A physicist’s journey from building and analyzing massive c
   software and teamwork practices—is a powerful, transferable foundation, and mentorship is the essential
   bridge that translates that expertise into effective industry roles, career progression, and leadership.'
 transcript: e05-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/dr-anastasia-karavdina/
+resources: []
 summary: |-
   Anastasia Karavdina is a particle physicist turned data scientist who worked on experiments at
   the Large Hadron Collider. She later worked at Blue Yonder, a supply chain software vendor, and

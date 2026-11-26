@@ -22,12 +22,6 @@ transcript: e05-transcript.yaml
 resources:
 - title: LinkedIn
   url: https://www.linkedin.com/in/ivan-bilan/
-- title: Twitter
-  url: https://x.com/demiourgosua
-- title: Github
-  url: https://github.com/ivan-bilan
-- title: Website
-  url: https://github.com/ivan-bilan
 summary: |-
   Ivan Bilan is a senior engineering manager at Personio, where he leads teams in identity and
   access management. Earlier he was a data science and engineering manager at TrustYou, where he led

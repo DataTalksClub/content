@@ -168,9 +168,7 @@ context: 'Context: The episode traces a founder’s shift from engineering to he
   iterating from MVP to product-market fit, and scaling sustainably while keeping human needs and ethics
   central.'
 transcript: e08-transcript.yaml
-resources:
-- title: Maria's LinkedIn profile
-  url: https://www.linkedin.com/in/mariabruckert/
+resources: []
 summary: |-
   Maria is a co-founder of SQIN, a digital health company whose app works as a digital clinic for
   skin health. She studied electrical engineering in China, where she met her co-founder, and then

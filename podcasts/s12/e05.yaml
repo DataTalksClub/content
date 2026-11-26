@@ -158,12 +158,6 @@ quotableClips:
   endOffset: 3567
 transcript: e05-transcript.yaml
 resources:
-- title: Website
-  url: https://wintopy.io/
-- title: Pauline's Twitter
-  url: https://twitter.com/Pauline_Cx
-- title: Pauline's LinkedIn
-  url: https://www.linkedin.com/in/paulineclavelloux/
 - title: Blog about Indiehacking
   url: https://aboutstartup.io
 summary: |-

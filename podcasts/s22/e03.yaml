@@ -145,8 +145,6 @@ context: At its core this episode is about how building open, reproducible compu
   real world.
 transcript: e03-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/sayalaruano/
 - title: Twitter
   url: https://x.com/sayalaruano
 - title: Github

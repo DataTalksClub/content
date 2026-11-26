@@ -123,10 +123,6 @@ resources:
   url: https://useml.net/
 - title: Comtura, my company
   url: https://comtura.ai/
-- title: LI
-  url: https://www.linkedin.com/in/christiaan-swart-51a68967/
-- title: Twitter
-  url: https://twitter.com/swartchris8/
 - title: Workshop on Weak Supervision on Oct. 5 in Budapest
   url: https://crunchconf.com/workshops/conference
 summary: |-

@@ -167,9 +167,7 @@ context: 'Context — This episode moves from the guest’s finance-to-self-driv
   testing, and human-centered impact into a continuous, safety-first development process that scales across
   domains from autonomous vehicles to assistive tech and public-health applications.'
 transcript: e02-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/aishwaryajadhav8/
+resources: []
 summary: |-
   Aishwarya Jadhav is a machine learning engineer at Waymo, and she previously worked on perception
   at Tesla's Autopilot AI team. She is a Carnegie Mellon University alumna. Before that she was a

@@ -160,9 +160,7 @@ notes: 'Links:
 
   - Tammy''s podcast: <https://dataforfuture.org/>{:target="_blank"}'
 
-resources:
-- title: 'Tammy''s podcast'
-  url: 'https://dataforfuture.org/'
+resources: []
 summary: |-
   Tammy Liang is chief of data at Platanomelon, an e-commerce brand, where she was the first data
   person and has built a team of five. She studied business in the US, then took a Master's in Big

@@ -135,9 +135,7 @@ context: 'A practical, curiosity-driven bridge between research and engineering:
   (ex: long-context LLMs), while leveraging community, mentorship, and strategic projects to accelerate
   career growth and drive measurable impact.'
 transcript: e07-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/lgupta18/
+resources: []
 summary: |-
   Lavanya Gupta is a senior AI and machine learning applied scientist at JPMorgan Chase's Machine
   Learning Center of Excellence, and a Carnegie Mellon Language Technologies Institute alumna. She

@@ -145,8 +145,6 @@ quotableClips:
   endOffset: 3605
 transcript: e03-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/liesbeth-dingemans/
 - title: Medium posts on design, innovation, art and AI
   url: https://medium.com/@liesbethmd
 summary: |-

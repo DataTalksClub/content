@@ -132,10 +132,6 @@ quotableClips:
   endOffset: 3603
 transcript: e07-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/cohenlisa/
-- title: Twitter
-  url: https://twitter.com/lisafeig
 - title: Medium
   url: https://medium.com/@lisa_cohen
 - title: Lisa Cohen's YouTube videos

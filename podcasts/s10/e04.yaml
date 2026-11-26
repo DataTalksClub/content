@@ -121,10 +121,6 @@ quotableClips:
   endOffset: 3754
 transcript: e04-transcript.yaml
 resources:
-- title: Alexander's Twitter
-  url: https://twitter.com/hendorf
-- title: Alexander's LinkedIn
-  url: https://www.linkedin.com/in/hendorf/
 - title: Königsweg
   url: https://www.koenigsweg.com
 - title: PyData Südwest

@@ -19,11 +19,7 @@ description: Revathy Ramalingam shares how she returned after a seven-year caree
   AI engineer through community learning, hands-on projects, AI development tools, and interview assignments
   such as a PDF question-answering assistant.
 transcript: e04-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/revathy-ramalingam/
-- title: Github
-  url: https://github.com/RevathyRamalingam
+resources: []
 summary: |-
   Revathy is an AI engineer at a healthcare startup. Before that, she was a software architect at
   Ericsson for about nine years, working on telecom protocols, Java and big data systems. She took a

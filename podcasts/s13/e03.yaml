@@ -129,11 +129,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=uyxUBADZYpU&t=3443
   endOffset: 3533
 transcript: e03-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/ruslanshchuchkin/
-- title: Twitter
-  url: https://twitter.com/r_shchuchkin
+resources: []
 summary: |-
   Ruslan is a data scientist based in Berlin. He studied international business management,
   worked in marketing at SaaS companies, then completed a master's in business intelligence and

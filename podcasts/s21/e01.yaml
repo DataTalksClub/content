@@ -138,10 +138,6 @@ transcript: e01-transcript.yaml
 resources:
 - title: LinkedIn
   url: https://www.linkedin.com/in/ogarten/
-- title: Github
-  url: https://github.com/orgarten
-- title: Website
-  url: https://orellgarten.com
 summary: |-
   Orell Garten is a freelance software and data engineer in Germany. He studied electrical
   engineering with a focus on simulation algorithms and started a PhD, which he quit after realizing

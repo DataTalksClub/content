@@ -118,10 +118,6 @@ transcript: e02-transcript.yaml
 resources:
 - title: https://www.kaggle.com/andradaolteanu
   url: https://www.kaggle.com/andradaolteanu
-- title: https://twitter.com/andradaolteanuu
-  url: https://twitter.com/andradaolteanuu
-- title: https://www.linkedin.com/in/andrada-olteanu-3806a2132/
-  url: https://www.linkedin.com/in/andrada-olteanu-3806a2132/
 summary: |-
   Andrada Olteanu is a data scientist at Endava and a Kaggle Notebooks Master. She studied
   statistics as an undergraduate, worked as a data analyst at Avon Cosmetics in Bucharest for about

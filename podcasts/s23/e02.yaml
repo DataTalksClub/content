@@ -19,11 +19,7 @@ description: Juan Manuel Perafan defines analytics engineering as the bridge bet
   and reliable data systems, covering modeling, dbt, testing, SQL and Python, team boundaries, lakehouses,
   and practical ways to enter the field.
 transcript: e02-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/jmperafan/
-- title: Website
-  url: https://juanalytics.com/
+resources: []
 summary: |-
   Juan is an analytics engineer based in the Netherlands and a co-author of the book Fundamentals of
   Analytics Engineering. He is originally from Colombia and studied psychology before moving into

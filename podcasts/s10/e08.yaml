@@ -144,8 +144,6 @@ quotableClips:
   endOffset: 3846
 transcript: e08-transcript.yaml
 resources:
-- title: David A. Bader
-  url: https://davidbader.net/
 - title: NJIT Institute for Data Science
   url: https://datascience.njit.edu/
 - title: Arkouda

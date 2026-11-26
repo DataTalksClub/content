@@ -168,9 +168,7 @@ context: 'Context: The episode traces a journey from hands-on technical beginnin
   source as leverage; translating corporate processes to NGOs; personality and team-fit for role choice;
   experimentation in lifestyle and governance.'
 transcript: e08-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/agita/
+resources: []
 summary: |-
   Agita Jaunzeme is a DevOps and DataOps engineer who has also worked as a manager, community
   manager and facilitator. She has worked in corporate, startup, open-source and non-governmental

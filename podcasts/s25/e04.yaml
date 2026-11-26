@@ -19,13 +19,7 @@ description: Philip Christos looks at how AI agents are reshaping work from a ve
   covering AI investment theses, emotion analytics and voice AI startups, AI adoption in software and
   classical engineering, systems thinking, and pitching deep-tech startups.
 transcript: e04-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/philipchristos/
-- title: Twitter
-  url: https://x.com/phil_christos
-- title: Website
-  url: https://t.me/stacked_channel
+resources: []
 summary: |-
   Philip is an associate at M2VC, a venture capital firm in Barcelona that focuses on early-stage
   frontier AI. He spent four years earlier at Terra VC, moving from analyst to associate, and before

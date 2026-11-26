@@ -147,9 +147,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=3560
   endOffset: 3624
 transcript: e03-transcript.yaml
-resources:
-- title: Barbara's LinkedIn
-  url: https://www.linkedin.com/in/barbara-sobkowiak-1a4a9568
+resources: []
 summary: |-
   Barbara Sobkowiak is a data science manager. She graduated in GIS from the University of Poznan,
   worked as a Java specialist and an SQL developer, and now leads data science work for a company

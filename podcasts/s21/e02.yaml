@@ -159,8 +159,6 @@ context: 'Context: The episode examines a practical approach to data work—movi
   effort so data products remain reliable, scalable, and ready to deliver real ROI.'
 transcript: e02-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/liorbarak/
 - title: Website
   url: https://cookingdata.substack.com/
 - title: Cooking Data newsletter

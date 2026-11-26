@@ -160,11 +160,7 @@ context: 'Context: A Kaggle Grandmaster recounts a career arc from competitive m
   competitive techniques to regional and organizational contexts. - New productivity tools (AutoML, generative
   AI) change how work is done but reinforce the need for sound validation and system design.'
 transcript: e02-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/1aguschin/
-- title: Website
-  url: https://www.aguschin.com/
+resources: []
 summary: |-
   Alexander Guschin is a machine learning engineer with more than ten years of experience and a
   Kaggle Grandmaster ranked fifth globally. His Coursera course on winning Kaggle competitions has

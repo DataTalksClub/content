@@ -136,8 +136,6 @@ resources:
   url: https://www.youtube.com/@AndrejKarpathy
 - title: Beautifully done videos on engineering of things in the real world
   url: https://www.youtube.com/@RealEngineering
-- title: Chris' website
-  url: https://szafranek.net/
 - title: Zalando Tech Radar
   url: https://opensource.zalando.com/tech-radar/
 - title: Modal Labs, new way of deploying code to the cloud, also useful for testing ML code on GPUs

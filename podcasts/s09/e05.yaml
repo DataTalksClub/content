@@ -129,8 +129,6 @@ transcript: e05-transcript.yaml
 resources:
 - title: Mısra's YouTube channel
   url: https://www.youtube.com/channel/UCpNUYWW0kiqyh0j5Qy3aU7w
-- title: Twitter
-  url: https://twitter.com/misraturp
 - title: 'Hands-on Data Science: Complete Your First Portfolio Project'
   url: https://www.soyouwanttobeadatascientist.com/hods
 summary: |-

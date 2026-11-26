@@ -16,8 +16,6 @@ season: 24
 short: Engineering Your Own AI Assistant
 title: Engineering Your Own AI Assistant
 resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/pauliusztin/
 - title: Website
   url: https://www.pauliusztin.ai/
 description: Paul Iusztin walks through engineering a personal AI assistant on top of a second brain,

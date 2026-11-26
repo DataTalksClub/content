@@ -164,8 +164,6 @@ context: Turning hands-on consulting and hard-won data engineering experience in
   lock-in.
 transcript: e01-transcript.yaml
 resources:
-- title: Adrian's LinkedIn
-  url: https://www.linkedin.com/in/data-team/
 - title: Twitter
   url: https://twitter.com/dlt_library
 - title: Github

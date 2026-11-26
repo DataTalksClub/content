@@ -118,15 +118,7 @@ context: 'A deliberate, project-first career pivot: leveraging medical and stati
   while learning by doing—through freelance projects, structured cohorts, public-facing content, and portfolio/dev-ops
   work—to build practical ML skills, visibility, and job readiness while balancing time and commitments.'
 transcript: e03-transcript.yaml
-resources:
-- title: Twitter
-  url: https://x.com/PastorSotoB1
-- title: Linkedin
-  url: https://www.linkedin.com/in/pastorsoto/
-- title: Github
-  url: https://github.com/sotoblanco
-- title: Website
-  url: https://substack.com/@pastorsoto
+resources: []
 summary: |-
   Pastor is a machine learning engineer and mentor who recently graduated from medical school. He
   also holds a degree in social science and works as a criminologist. He was first in his cohort of

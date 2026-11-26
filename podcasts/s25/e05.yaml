@@ -20,8 +20,6 @@ description: Sahil Walia decodes the open lakehouse, comparing Hive Metastore, A
   Open Semantic Interchange and open-source contribution.
 transcript: e05-transcript.yaml
 resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/sahilwaliasyracuse
 - title: Github
   url: https://github.com/sahil-walia
 - title: Website

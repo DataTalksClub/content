@@ -116,8 +116,6 @@ quotableClips:
   endOffset: 3673
 transcript: e07-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/santona-tuli/
 - title: Upsolver website
   url: https://www.upsolver.com/
 - title: Why we built a SQL-based solution to unify batch and stream workflows

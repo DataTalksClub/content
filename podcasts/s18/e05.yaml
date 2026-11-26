@@ -155,8 +155,6 @@ context: 'Context: This episode follows Erum Afzal and Omdena Academy’s evolut
   can rapidly gain practical skills, leadership opportunities, and ethical career pathways in AI.'
 transcript: e05-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/erum-afzal-64827b24/
 - title: Twitter
   url: https://twitter.com/Erum55449739
 summary: |-

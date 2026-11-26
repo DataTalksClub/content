@@ -19,9 +19,7 @@ description: Nasser Qadri explains the AI engineer role across startups and big 
   rigor, human-centered product thinking, software engineering for agents, orchestration and AgentOps,
   and decisions about frameworks, distillation, and fine-tuning.
 transcript: e07-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/nasserq/
+resources: []
 summary: |-
   Nasser is an engineering manager and formerly an AI engineer at Google. He is now based in Zurich.
   He holds a bachelor's in economics, a master's in international relations and a PhD in politics

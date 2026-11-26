@@ -126,10 +126,6 @@ transcript: e01-transcript.yaml
 resources:
 - title: Alvaro's CV
   url: https://www.dropbox.com/s/89hkt3ug0toqa2n/CV%20nou%20-%20angl%C3%A8s.pdf?dl=0
-- title: Github profile
-  url: https://github.com/ziritrion
-- title: LinkedIn profile
-  url: https://www.linkedin.com/in/alvaronavas/
 summary: |-
   Alvaro manages machine learning and NLP projects at a consultancy company. Before that he worked
   in the cell phone industry as a quality assurance engineer, first in Spain and then in Mexico.

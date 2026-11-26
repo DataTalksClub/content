@@ -116,8 +116,6 @@ transcript: e09-transcript.yaml
 resources:
 - title: Previous podcast episode
   url: /podcast/s16e09/becoming-data-freelancer
-- title: Linkedin
-  url: https://www.linkedin.com/in/visnadi/
 summary: |-
   Dimitri Visnadi is an independent data consultant who started in data in 2013, after a business
   administration degree, when an internship led him to Excel. He runs Data Freelancer, which

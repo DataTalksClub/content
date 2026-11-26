@@ -166,8 +166,6 @@ notes: 'Links:
   - Course: <https://learndataengineering.com/>{:target="_blank"}'
 
 resources:
-- title: 'LinkedIn'
-  url: 'https://www.linkedin.com/in/andreas-kretz'
 - title: 'Data engieering cookbook'
   url: 'https://cookbook.learndataengineering.com/'
 - title: 'Course'

@@ -153,10 +153,6 @@ quotableClips:
   endOffset: 3396
 transcript: e04-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/bartvandekerckhove/
-- title: Twitter
-  url: https://twitter.com/Bart_H_VDK
 - title: Github
   url: https://github.com/raito-io
 - title: Website

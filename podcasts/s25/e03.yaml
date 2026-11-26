@@ -19,15 +19,7 @@ description: Paul Domanski shows how he runs a company on a multi-agent dispatch
   path from film and digital marketing, sales pipelines and client onboarding, token efficiency and open-source
   models, red teaming, code audits, and AI evals.
 transcript: e03-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/paul-domanski-ai/
-- title: Twitter
-  url: https://x.com/domanski_ai
-- title: Github
-  url: https://github.com/domanski-ai
-- title: Website
-  url: https://domanski.ai/
+resources: []
 summary: |-
   Paul Domanski is a non-coder by his own account who runs an AI consultancy in South Africa. He
   started in film, working as a video editor, director and screenwriter, then spent about ten years

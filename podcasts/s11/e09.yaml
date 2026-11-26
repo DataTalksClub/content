@@ -136,9 +136,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=saaRRzgHsmE&t=3632
   endOffset: 3666
 transcript: e09-transcript.yaml
-resources:
-- title: LinkedIn Account
-  url: https://www.linkedin.com/in/irinabrudaru/
+resources: []
 summary: |-
   Irina Brudaru is a teacher and curriculum developer for data analytics and data science at
   FrauenLoop, a German NGO that supports women in tech. By day she is an analytics manager. She

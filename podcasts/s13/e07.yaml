@@ -141,15 +141,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=3593
   endOffset: 3611
 transcript: e07-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/aaisha-muhammad/
-- title: Twitter
-  url: https://twitter.com/ZealousMushroom
-- title: Github
-  url: https://github.com/AaishaMuhammad
-- title: Website
-  url: http://www.aaishamuhammad.co.za/
+resources: []
 summary: |-
   Aaisha is a self-taught bioinformatician and machine learning engineer from Johannesburg. She
   is still a student, has a blog on bioinformatics and machine learning, and draws scientific

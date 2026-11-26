@@ -155,10 +155,6 @@ quotableClips:
   endOffset: 5121
 transcript: e07-transcript.yaml
 resources:
-- title: Danny's profile on LinkedIn
-  url: https://linkedin.com/in/datawithdanny
-- title: Danny's course
-  url: https://datawithdanny.com/
 - title: Conference trailer
   url: https://www.linkedin.com/posts/datawithdanny_datascientist-data-activity-6767988552811847680-GzUK/
 - title: Technical debt paper

@@ -157,8 +157,6 @@ context: 'The episode’s single unifying idea is pragmatic trade-offs: how to m
   visibility to accelerate outcomes today while preserving the ability to evolve, scale, and de-risk tomorrow.'
 transcript: e04-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/radojkovic/
 - title: Github
   url: https://github.com/baskervilski
 summary: |-

@@ -19,9 +19,7 @@ description: Mariano Semelman walks through end-to-end ownership of AI media fea
   sellers, from translating product needs and feedback into ML requirements through architecture, APIs,
   evaluation, observability, and production systems beyond notebooks.
 transcript: e03-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/msemelman/
+resources: []
 summary: |-
   Mariano is a lead data scientist and machine learning engineer with about 10 years of experience
   in e-commerce. He is originally from Argentina, has lived in Spain since 2021 and works in

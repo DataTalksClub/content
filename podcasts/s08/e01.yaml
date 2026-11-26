@@ -128,8 +128,6 @@ transcript: e01-transcript.yaml
 resources:
 - title: A Visual Introduction to Deep Learning by Meor Amer
   url: https://gumroad.com/a/63231091
-- title: kDimensions website
-  url: https://kdimensions.com/
 - title: Book to learn about Figma
   url: https://figmabook.com/
 - title: Jack Butcher's approach

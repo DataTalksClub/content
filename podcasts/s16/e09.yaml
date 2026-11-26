@@ -151,11 +151,7 @@ context: 'This episode centers on one clear idea: transitioning from employee to
   and financial/legal safeguards so you can manage risk, build repeatable pipelines, and turn independence
   into a reliable, purpose-driven career.'
 transcript: e09-transcript.yaml
-resources:
-- title: LinkedIn profile
-  url: http://www.linkedin.com/in/visnadi
-- title: The DataFreelancer website
-  url: https://thedatafreelancer.com/
+resources: []
 summary: |-
   Dimitri Visnadi is an independent data consultant who has worked in corporate and startup roles in
   several countries, and who has advised brands such as Unilever, Ferrero, Heineken and Red Bull. He

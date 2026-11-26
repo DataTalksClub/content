@@ -169,9 +169,7 @@ notes: 'We talked about:
 
   - [MLOps community](https://mlops.community/)'
 
-resources:
-- title: 'MLOps community'
-  url: 'https://mlops.community/'
+resources: []
 summary: |-
   Demetrios Brinkmann leads the MLOps Community, which Alexey describes as having about 3,000
   members. Demetrios started in sales at an MLOps tool company, where he tried to persuade prospects

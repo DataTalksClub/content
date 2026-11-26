@@ -127,15 +127,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=3416
   endOffset: 3512
 transcript: e03-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/angelovboyan/
-- title: Twitter
-  url: https://twitter.com/thinking_code
-- title: Github
-  url: https://github.com/boyanangelov
-- title: Website
-  url: https://boyanangelov.com/
+resources: []
 summary: |-
   Boyan Angelov is a data strategist with about a decade of experience in bioinformatics, clinical
   trials, HR tech, legal tech and management consulting. He is the author of Elements of Data

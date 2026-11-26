@@ -150,9 +150,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3226
   endOffset: 3274
 transcript: e07-transcript.yaml
-resources:
-- title: Nikola's LinkedIn account
-  url: https://www.linkedin.com/in/nikola-maksimovic-40188183/
+resources: []
 summary: |-
   Nikola, called Nikki in the episode, is an analytics engineer and data analyst in Berlin. She
   studied classics in London, moved to Berlin after graduating and joined the startup Movinga in

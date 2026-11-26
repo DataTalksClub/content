@@ -148,9 +148,7 @@ quotableClips:
   url: https://youtube.com/watch?v=KMSE9GkU2mE&t=3472
   endOffset: 3484
 transcript: e04-transcript.yaml
-resources:
-- title: Marianna's LinkedIn
-  url: https://www.linkedin.com/in/marianna-diachuk-53ba60116/
+resources: []
 summary: |-
   Marianna is a data scientist at Restream, a startup, and the data science lead and mentor in the
   local Women Who Code branch in Kiev. She previously worked at DataRobot and led a data science

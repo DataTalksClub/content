@@ -22,8 +22,6 @@ transcript: e05-transcript.yaml
 resources:
 - title: Website
   url: https://www.swyx.io/create-luck
-- title: Linkedin
-  url: https://www.linkedin.com/in/ruslanshchuchkin/
 summary: |-
   Ruslan is a GenAI engineer at Finance Guru, where he builds production systems around large
   language models. He started in business roles such as account management, then studied for a

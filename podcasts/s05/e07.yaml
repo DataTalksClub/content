@@ -127,11 +127,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=rMRUa8WxDz4&t=3499
   endOffset: 3599
 transcript: e07-transcript.yaml
-resources:
-- title: MLOpsRoundup newsletter
-  url: https://mlopsroundup.substack.com/
-- title: Rishabh's Twitter
-  url: https://twitter.com/rish_bhargava
+resources: []
 summary: |-
   Rishabh has worked with analytics and machine learning teams for more than seven years. Most
   recently he worked in sales engineering at DataCoral, a data infrastructure company acquired by

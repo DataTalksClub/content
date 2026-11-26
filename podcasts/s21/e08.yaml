@@ -159,9 +159,7 @@ context: 'A single through-line: the episode is about a hands-on, end-to-end jou
   tradeoffs, and MLOps (APIs, containers, Terraform, ONNX) into real production impact, with a commitment
   to teaching and scaling that practice to others.'
 transcript: e08-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/
+resources: []
 summary: |-
   Dashel Ruiz Perez is a data analyst, ML engineer and ML Zoomcamp graduate who teaches
   programming and data as a lead instructor at Thrive DX, which works with major US universities.

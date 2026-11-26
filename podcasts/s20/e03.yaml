@@ -156,11 +156,7 @@ context: 'Context — This episode traces the practical and technological shifts
   data products—while practitioners pivot toward specialization and metadata-aware, SQL/Python-first skills
   to build and govern interoperable, AI-enabled data workflows.'
 transcript: e03-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/data-team/
-- title: Website
-  url: https://adrian.brudaru.com/
+resources: []
 summary: |-
   Adrian Brudaru has worked in data since 2012. He spent five years building data warehouses at
   Berlin startups and five years as a freelancer before co-founding dltHub, the company behind dlt,

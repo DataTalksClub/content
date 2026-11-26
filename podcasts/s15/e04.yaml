@@ -120,10 +120,6 @@ quotableClips:
   endOffset: 3684
 transcript: e04-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/sandrakublik/
-- title: Twitter
-  url: https://twitter.com/sandra_kublik
 - title: Youtube
   url: https://www.youtube.com/@sandra_kublik
 summary: |-

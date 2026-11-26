@@ -135,10 +135,6 @@ transcript: e02-transcript.yaml
 resources:
 - title: Discovering Data Discord server
   url: https://bit.ly/discovering-data-discord
-- title: Loris' LinkedIn
-  url: https://www.linkedin.com/in/lorismarini/
-- title: Loris' Twitter
-  url: https://twitter.com/LorisMarini
 summary: |-
   Loris is the founder and CEO of Discovering Data, a business that runs a podcast and a community
   for business leaders and data professionals. He started out in physics and reinforcement

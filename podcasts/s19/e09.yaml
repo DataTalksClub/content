@@ -185,11 +185,7 @@ context: 'Context: This episode follows Tamara’s journey from software and mus
   interpretability, and organizational processes that embed human judgment and domain knowledge so technical
   models produce just, accountable outcomes in the real world.'
 transcript: e09-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/tamaraatanasoska/
-- title: GitHub
-  url: https://github.com/TamaraAtanasoska
+resources: []
 summary: |-
   Tamara Atanasoska is an open-source software engineer at Probable and a maintainer of Fairlearn.
   She also contributes to scikit-learn and skops. Her path runs from civic tech and five years of

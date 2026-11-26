@@ -143,12 +143,6 @@ context: 'Helping technical professionals—especially data practitioners—beco
   team scope, and using empathetic communication and stakeholder framing to influence across functions.'
 transcript: e01-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/tereza-iofciu/
-- title: Twitter
-  url: https://twitter.com/terezaif
-- title: GitHub
-  url: https://github.com/terezaif
 - title: Website
   url: https://www.terezaiofciu.com/
 summary: |-

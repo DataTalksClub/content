@@ -135,8 +135,6 @@ transcript: e05-transcript.yaml
 resources:
 - title: Mehdi's YouTube channel
   url: https://www.youtube.com/channel/UCiZxJB0xWfPBE2omVZeWPpQ
-- title: Mehdi's Linkedin
-  url: https://linkedin.com/in/mehd-io/
 - title: Mehdi's Medium Blog
   url: https://medium.com/@mehdio
 - title: Mehdi's data creators club

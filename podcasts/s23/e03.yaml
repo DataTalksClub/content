@@ -19,9 +19,7 @@ description: Aditya Gautam examines how enterprise AI agents become reliable and
   models, governance, guardrails, lineage, user feedback, and human-aligned evaluations, then considers
   infrastructure risks and the move toward multimodal agents.
 transcript: e03-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/aditya-gautam-68233a30/
+resources: []
 summary: |-
   Aditya Gautam is an AI researcher and engineer who works at Meta, where he has spent time on Reels
   recommendation ranking. Earlier he worked at Zillow on estimate algorithms and then at Google for

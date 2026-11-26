@@ -139,13 +139,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=1pExOVuCF8Q&t=3429
   endOffset: 3660
 transcript: e03-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/ioannis-mesionis/
-- title: Github
-  url: https://github.com/ioannismesionis
-- title: Website
-  url: https://ioannismesionis.github.io/
+resources: []
 summary: |-
   Ioannis Mesionis is a lead data scientist at easyJet, where he works with the digital customer and
   marketing teams. He has a mathematics background and also leads the airline's MLOps efforts.

@@ -158,11 +158,7 @@ quotableClips:
   endOffset: 3541
 context: 'Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment'
 transcript: e02-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/elenistamatelou/
-- title: Github
-  url: https://github.com/stamatelou
+resources: []
 summary: |-
   Eleni Stamatelou is a machine learning researcher and educator who uses data science to improve
   healthcare. She studied electrical and computer engineering at the University of Patras in Greece,

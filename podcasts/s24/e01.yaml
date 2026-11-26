@@ -19,9 +19,7 @@ description: Kaggle Master Tatiana Gabruseva explains how competitions build tec
   publications, and career opportunities beyond leaderboard scores, covering agentic AI benchmarks,
   specialized platforms, research challenges, first submissions, and asynchronous teamwork.
 transcript: e01-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/tatigabru/
+resources: []
 summary: |-
   Tatiana Gabruseva is a staff software engineer in machine learning at LinkedIn, where she works on
   recommender systems, multimodal alignment and AI system benchmarking. She is a Kaggle competition

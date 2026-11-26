@@ -156,15 +156,7 @@ context: 'Context: This episode weaves together practical production tips (video
   scalable program design—so more people can learn by doing, successfully contribute to real projects,
   and transition into lasting technical roles.'
 transcript: e08-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/wrussell1999/
-- title: Twitter
-  url: https://x.com/wrussell1999
-- title: GitHub
-  url: https://github.com/wrussell1999
-- title: Website
-  url: https://wrussell.co.uk/
+resources: []
 summary: |-
   Will Russell is a developer advocate at Kestra, a workflow orchestration company, and he has a
   background in running open source programs and hackathons. He led the workflow orchestration

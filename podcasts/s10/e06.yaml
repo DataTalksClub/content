@@ -138,8 +138,6 @@ resources:
   url: https://learning.oreilly.com/get-learning/?code=DATATALKS22
 - title: Data Mesh book
   url: https://learning.oreilly.com/library/view/data-mesh/9781492092384/
-- title: LinkedIn
-  url: https://www.linkedin.com/in/zhamak-dehghani
 summary: |-
   Zhamak Dehghani is the inventor of the Data Mesh concept and the author of a book on it. She
   spent over a decade as a consultant at ThoughtWorks and recently left to start a company in

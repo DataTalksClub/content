@@ -159,11 +159,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=3640
   endOffset: 3754
 transcript: e03-transcript.yaml
-resources:
-- title: Roksonala's Twitter
-  url: https://twitter.com/dead_flowers22
-- title: Roksonala's LinkedIn
-  url: https://www.linkedin.com/in/roksolanadiachuk/
+resources: []
 summary: |-
   Roksolana Diachuk is a big data engineer at Captify, a UK-based company that builds advertising
   products, with part of its engineering team in Kyiv. She worked as a Java backend engineer before

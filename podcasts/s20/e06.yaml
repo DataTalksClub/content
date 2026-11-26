@@ -143,10 +143,6 @@ context: 'Context: Eddy’s journey from industrial engineering and analyst tool
   continuous learning and adaptation.'
 transcript: e06-transcript.yaml
 resources:
-- title: Twitter
-  url: https://x.com/eddarief
-- title: Linkedin
-  url: https://www.linkedin.com/in/eddyzulkifly/
 - title: Github
   url: https://github.com/eyzyly/eyzyly
 - title: ADPList

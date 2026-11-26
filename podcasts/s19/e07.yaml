@@ -143,8 +143,6 @@ transcript: e07-transcript.yaml
 resources:
 - title: Github
   url: https://github.com/bellabf
-- title: LinkedIn
-  url: https://www.linkedin.com/in/isabella-frazeto/
 - title: X
   url: https://x.com/bisnotforbella
 - title: substack/newsletter

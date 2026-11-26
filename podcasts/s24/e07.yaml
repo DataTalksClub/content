@@ -15,9 +15,7 @@ links:
 season: 24
 short: 'Building a Career in AI: From Real Estate to AI Engineering'
 title: 'Building a Career in AI: From Real Estate to AI Engineering'
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/gustaf-g/
+resources: []
 description: Gustaf Gyllensporre shares how he moved from real estate into AI engineering as a self-taught
   developer, covering CPython contributions, resume and portfolio projects, deep research agents, startup
   versus big-tech interviews, networking, and soft skills.

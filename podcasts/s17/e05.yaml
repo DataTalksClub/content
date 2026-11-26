@@ -134,9 +134,7 @@ context: 'Context: Nemanja’s story and the episode’s segments trace practica
   integrating with existing DevOps/governance, reusing platform patterns, and focusing on practical skills
   and iterative delivery to earn trust and scale ML responsibly.'
 transcript: e05-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/radojkovic/
+resources: []
 summary: |-
   Nemanja Radojkovic is an MLOps lead and machine learning engineer at Euroclear who grew up in
   Belgrade and has lived in Leuven, Belgium, since 2014. He trained as an electrical engineer,

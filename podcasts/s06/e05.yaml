@@ -139,9 +139,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3714
   endOffset: 3722
 transcript: e05-transcript.yaml
-resources:
-- title: Eleni's page at DIMA
-  url: https://www.user.tu-berlin.de/tzirita/
+resources: []
 summary: |-
   Eleni is a postdoctoral researcher in the DIMA group at TU Berlin, the group where Alexey started
   his own Master's. She did her PhD in data management at EPFL in Lausanne and her undergraduate

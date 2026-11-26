@@ -159,10 +159,6 @@ quotableClips:
   endOffset: 3522
 transcript: e05-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/jmssalas
-- title: Github
-  url: https://github.com/jmssalas
 - title: Website & Newsletter
   url: https://jmssalas.com
 summary: |-

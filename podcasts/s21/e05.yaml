@@ -169,9 +169,7 @@ context: 'Modern astrophysical discovery—illustrated by the challenge of findi
   (not just models) is the essential bridge that turns complex observational data into reliable science,
   practical education, and transferable career skills.'
 transcript: e05-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/egbodaniel/
+resources: []
 summary: |-
   Daniel is an astrophysicist who turned to machine learning engineering and works as an AI
   ambassador. He is a PhD candidate at the University of Cape Town, where he moved from Nigeria for

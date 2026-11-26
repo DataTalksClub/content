@@ -132,11 +132,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=rh_pE35m3vE&t=3569
   endOffset: 3686
 transcript: e04-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/alkrusz/
-- title: Twitter
-  url: https://twitter.com/alkrusz
+resources: []
 summary: |-
   Aleksander is a co-founder of a data analytics consultancy in Berlin. He spent years in product
   management at Delivery Hero after moving from Warsaw, and he once planned an archaeology career

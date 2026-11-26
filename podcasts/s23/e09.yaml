@@ -19,9 +19,7 @@ description: Leonid Kholkine tells how Data Makers Fest grew from community work
   unpacking venue and schedule planning, speaker selection, sponsorships, partnerships, accessible tickets,
   and the relationships required to run the event.
 transcript: e09-transcript.yaml
-resources:
-- title: Linkedin
-  url: https://www.linkedin.com/in/kholkine/
+resources: []
 summary: |-
   Leonid is a researcher and practitioner who leads research and development at Their Data, a
   company that builds an enterprise platform for monitoring and improving AI systems. He holds a PhD

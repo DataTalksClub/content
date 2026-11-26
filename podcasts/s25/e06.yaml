@@ -24,14 +24,6 @@ resources:
   url: https://www.manning.com/books/designing-ai-systems
 - title: Code
   url: https://github.com/designing-ai-systems/designing_ai_systems_repo
-- title: LinkedIn
-  url: https://www.linkedin.com/in/suhas-suresha/
-- title: Twitter
-  url: https://x.com/inceptor92
-- title: Github
-  url: https://github.com/suhas1992
-- title: Website
-  url: https://suhassuresha.com/
 summary: |-
   Suhas Suresha is a senior machine learning engineer at Adobe, where he builds large scale
   generative AI platforms. He co-wrote Designing AI Systems, a Manning book now in early access with

@@ -190,8 +190,6 @@ transcript: e09-transcript.yaml
 resources:
 - title: VectorHub
   url: https://superlinked.com/vectorhub/?utm_source=community&utm_medium=podcast&utm_campaign=datatalks
-- title: Daniel's LinkedIn
-  url: https://www.linkedin.com/in/svonava/
 summary: |-
   Daniel Svonava is an entrepreneurial technologist who co-founded Superlinked, the company behind
   VectorHub, a resource for vector search. He describes a career that started with competitive

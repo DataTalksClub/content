@@ -150,8 +150,6 @@ quotableClips:
   endOffset: 3761
 transcript: e09-transcript.yaml
 resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/polina-mosolova/
 - title: Neural Additive Models paper
   url: https://proceedings.neurips.cc/paper/2021/file/251bd0442dfcc53b5a761e050f8022b8-Paper.pdf
 - title: Neural Basis Model paper

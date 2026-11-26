@@ -168,10 +168,6 @@ transcript: e04-transcript.yaml
 resources:
 - title: EvidentlyAI
   url: https://evidentlyai.com/
-- title: Elena's LinkedIn
-  url: https://www.linkedin.com/in/elenasamuylova/
-- title: Elena's Twitter
-  url: https://twitter.com/elenasamuylova/
 summary: |-
   Elena Samuylova is co-founder and CEO of Evidently AI, which builds open source tools for machine
   learning model monitoring. She has worked on startups and machine learning for about nine years,

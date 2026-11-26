@@ -19,11 +19,7 @@ description: Aleksandr Kim explains how AI features reach production at scale by
   with business outcomes, interviewing customers, enforcing structured outputs, routing across models
   for cost, and fixing data-infrastructure bottlenecks.
 transcript: e06-transcript.yaml
-resources:
-- title: Website
-  url: https://alexkimds.github.io/
-- title: Linkedin
-  url: https://www.linkedin.com/in/aleksandrkim/
+resources: []
 summary: |-
   Aleksandr is a senior data scientist at Intuit in London, where he works on AI features for
   QuickBooks. Earlier he was a data scientist and ML engineering team lead, and he worked at a cyber

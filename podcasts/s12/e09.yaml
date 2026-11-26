@@ -141,15 +141,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=_xr1_xb736E&t=3585
   endOffset: 3634
 transcript: e09-transcript.yaml
-resources:
-- title: LinkedIn
-  url: https://www.linkedin.com/in/tatigabru/
-- title: Twitter
-  url: https://twitter.com/tatigabru
-- title: GitHub
-  url: https://github.com/tatigabru
-- title: Website
-  url: http://tatigabru.com/
+resources: []
 summary: |-
   Tatiana is a staff AI engineer at LinkedIn. She has a PhD in physics, worked on lasers and
   optical systems, moved into machine learning during maternity leave and then worked on a

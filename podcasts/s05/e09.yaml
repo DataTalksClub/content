@@ -130,8 +130,6 @@ transcript: e09-transcript.yaml
 resources:
 - title: Integrated ML and AI community
   url: https://join.slack.com/t/integratedmlai/shared_invite/zt-r3hpj44k-gfhf1pzIt3jixrATyXCWnQ
-- title: Thom's LinkedIn
-  url: https://www.linkedin.com/in/thomives/
 summary: |-
   Thom is a data scientist with a PhD in mechanical engineering from Texas A&M. He has worked as a
   multiphysics engineer and data scientist at HP, ON Semiconductor and UL, where he was lead data

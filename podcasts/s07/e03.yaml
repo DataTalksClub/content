@@ -115,9 +115,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=3522
   endOffset: 3647
 transcript: e03-transcript.yaml
-resources:
-- title: Greg's LinkedIn
-  url: https://www.linkedin.com/in/greg-coquillo/
+resources: []
 summary: |-
   Greg Coquillo is a technology manager at Amazon, where he builds AI products, and a frequent
   sharer of resources on LinkedIn. He started as an industrial engineer in manufacturing, rotating

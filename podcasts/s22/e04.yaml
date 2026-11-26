@@ -151,10 +151,6 @@ context: 'Context: This episode surveys practical, hands-on patterns—RAG, chun
   software engineering practices.'
 transcript: e04-transcript.yaml
 resources:
-- title: Twitter
-  url: https://x.com/hugobowne
-- title: Linkedin
-  url: https://www.linkedin.com/in/hugo-bowne-anderson-045939a5/
 - title: Github
   url: https://github.com/hugobowne
 - title: Website

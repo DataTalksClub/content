@@ -119,11 +119,7 @@ quotableClips:
   url: https://www.youtube.com/watch?v=Af9t9r2b0z0&t=3391
   endOffset: 3553
 transcript: e09-transcript.yaml
-resources:
-- title: Olga's LinkedIn
-  url: https://www.linkedin.com/in/olgaivina/
-- title: Olga's Twitter
-  url: https://twitter.com/olgaivina
+resources: []
 summary: |-
   Olga Ivina is a delivery data science director at Microsoft and has worked in AI for more than 16
   years. She studied applied mathematics, then wrote a PhD on applying machine learning to air
