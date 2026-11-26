@@ -5,7 +5,6 @@ authors:
 - alexeygrigorev
 description: Sponsor DataTalks.Club, the largest online data and AI community, to reach 130,000+ data engineers, ML engineers, AI engineers, and data scientists through our newsletter, free Zoomcamp courses, workshops, and podcast.
 image: images/posts/2026-07-28-sponsor-datatalks-club/og-image.jpg
-preview: images/posts/2026-07-28-sponsor-datatalks-club/preview.png
 layout: post
 charts: true
 date: 2026-07-28

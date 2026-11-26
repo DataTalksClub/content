@@ -3,7 +3,6 @@ authors:
 - luisoliveira
 description: But almost identical to a less known profession
 image: images/posts/2022-09-02-data-engineers-arent-plumbers/cover.jpg
-preview: images/posts/2022-09-02-data-engineers-arent-plumbers/preview.png
 layout: post
 subtitle: But almost identical to a less known profession
 tags:

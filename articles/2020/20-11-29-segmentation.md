@@ -6,7 +6,6 @@ subtitle: Build a 5D RFM+ framework, engineer metrics, and segment responders/no
 description: Customer segmentation with limited data. Learn a 5D RFM+ framework, engineer
   metrics, and use k-means to create 7 segments—apply insights now.
 image: images/posts/2020-11-29-segmentation/cover.jpg
-preview: images/posts/2020-11-29-segmentation/preview.png
 authors:
 - nishantmohan
 tags:

@@ -5,7 +5,7 @@ import re
 import stat
 import urllib.parse
 import xml.etree.ElementTree as ElementTree
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import Any
 
 import yaml
@@ -205,6 +205,7 @@ def validate_repository(root: Path) -> dict[str, int]:
             errors,
             referenced_media,
         )
+        _validate_article_picture_fields(root, path, metadata, errors, referenced_media)
         for body_reference in _article_body_media_references(path, body, errors):
             if _is_external_reference(body_reference):
                 continue
@@ -490,6 +491,37 @@ def _is_external_reference(reference: str) -> bool:
         return True
     scheme = urllib.parse.urlsplit(reference).scheme.lower()
     return scheme in {"http", "https"}
+
+
+def _validate_article_picture_fields(
+    root: Path,
+    path: Path,
+    metadata: dict[str, Any],
+    errors: list[str],
+    referenced_media: set[Path],
+) -> None:
+    """Validate the optional ``cover`` and ``preview`` article fields.
+
+    ``cover`` picks the article's picture (its list thumbnail and link preview)
+    instead of the first body image; ``preview`` names the generated card of an
+    article with no image, whose social card is the same file with ``-og`` before
+    the suffix.  Each must name repository media that exists.
+    """
+
+    for field in ("cover", "preview"):
+        value = metadata.get(field)
+        if value is None:
+            continue
+        if not isinstance(value, str) or not value.strip() or _is_external_reference(value):
+            errors.append(f"{path}: {field} must reference repository media")
+            continue
+        _validate_media_reference(root, path, "article", field, value, errors, referenced_media)
+        if field == "preview":
+            social = PurePosixPath(value)
+            social = social.with_name(f"{social.stem}-og{social.suffix}").as_posix()
+            _validate_media_reference(
+                root, path, "article", "preview social card", social, errors, referenced_media
+            )
 
 
 def _validate_required_media_reference(

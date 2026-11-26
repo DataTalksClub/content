@@ -3,7 +3,6 @@ authors:
 - mehdiouazza
 description: From baby steps on GitHub to Developer Advocate Engineer hero
 image: images/posts/2022-07-15-what-open-source-can-do-for-your-data-career/cover.jpg
-preview: images/posts/2022-07-15-what-open-source-can-do-for-your-data-career/preview.png
 layout: post
 subtitle: From baby steps on GitHub to Developer Advocate Engineer hero
 tags:

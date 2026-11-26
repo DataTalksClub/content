@@ -3,7 +3,6 @@ authors:
 - luisoliveira
 description: With these, you will be a great professional
 image: images/posts/2022-09-29-do-you-know-golden-rules-while-working-with-data/cover.jpg
-preview: images/posts/2022-09-29-do-you-know-golden-rules-while-working-with-data/preview.png
 layout: post
 subtitle: With these, you will be a great professional
 tags:

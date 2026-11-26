@@ -5,7 +5,7 @@ authors:
 - valeriiakuka
 description: 'Free AI Dev Tools course: build and ship a full-stack app with coding agents, MCP, and open-source AI security and DevOps tools. Earn a certificate.'
 image: images/posts/2025-09-23-ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation/course-cover.png
-preview: images/posts/2025-09-23-ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation/preview.png
+cover: images/posts/2025-09-23-ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation/cover-illustration.png
 layout: post
 date: 2026-07-28
 tags:

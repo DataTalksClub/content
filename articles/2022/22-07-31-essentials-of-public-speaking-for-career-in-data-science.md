@@ -3,7 +3,6 @@ authors:
 - angelicaloduca
 description: Some tips on how to boost your public speaking skills as a data scientist
 image: images/posts/2022-07-31-essentials-of-public-speaking-for-career-in-data-science/cover.jpg
-preview: images/posts/2022-07-31-essentials-of-public-speaking-for-career-in-data-science/preview.png
 layout: post
 subtitle: Some tips on how to boost your public speaking skills as a data scientist
 tags:

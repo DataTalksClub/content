@@ -5,7 +5,6 @@ authors:
 - haziqasajid
 description: "Compare 7 free and open-source AI agent evaluation tools including Arize Phoenix, LangSmith, DeepEval, Ragas, and Promptfoo. Learn how to test, monitor, and evaluate LLM agents with custom metrics, multi-step tracing, and observability frameworks."
 image: images/posts/2025-12-25-open-source-free-ai-agent-evaluation-tools/agentic-application-architecture.png
-preview: images/posts/2025-12-25-open-source-free-ai-agent-evaluation-tools/preview.png
 layout: post
 date: 2025-12-25
 tags:

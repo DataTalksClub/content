@@ -6,7 +6,6 @@ subtitle: Fast, practical overview of experiment tracking, pipelines, deployment
 description: 'MLOps essentials: Learn to streamline design, training, and operations
   with experiment tracking, pipelines, deployment, and monitoring. Get started today.'
 image: images/posts/2022-05-02-mlops-10-minutes/cover.jpg
-preview: images/posts/2022-05-02-mlops-10-minutes/preview.png
 authors:
 - alexeygrigorev
 tags:

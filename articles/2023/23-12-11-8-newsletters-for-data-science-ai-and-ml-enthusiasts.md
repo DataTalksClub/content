@@ -3,7 +3,6 @@ authors:
 - valeriiakuka
 description: Follow insights and trends with these publications
 image: images/posts/2023-12-11-8-newsletters-for-data-science-ai-and-ml-enthusiasts/cover.jpg
-preview: images/posts/2023-12-11-8-newsletters-for-data-science-ai-and-ml-enthusiasts/preview.png
 layout: post
 subtitle: Follow insights and trends with these publications
 tags:

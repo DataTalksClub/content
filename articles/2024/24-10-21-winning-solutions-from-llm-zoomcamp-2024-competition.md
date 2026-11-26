@@ -3,7 +3,7 @@ authors:
 - valeriiakuka
 description: Solving High School Mathematics Problems with LLMs
 image: images/posts/2024-10-21-winning-solutions-from-llm-zoomcamp-2024-competition/cover.jpg
-preview: images/posts/2024-10-21-winning-solutions-from-llm-zoomcamp-2024-competition/preview.png
+cover: images/posts/2024-10-21-winning-solutions-from-llm-zoomcamp-2024-competition/cover-illustration.png
 layout: post
 subtitle: Solving High School Mathematics Problems with LLMs
 tags:

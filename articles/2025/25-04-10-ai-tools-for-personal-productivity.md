@@ -6,7 +6,6 @@ description: '2024 AI Productivity Survey: 300 technical professionals reveal 70
   productivity gains. Complete analysis of AI tools, use cases, and workflow integration
   trends.'
 image: images/posts/2025-04-10-ai-tools-for-personal-productivity/cover.jpg
-preview: images/posts/2025-04-10-ai-tools-for-personal-productivity/preview.png
 layout: post
 subtitle: Results of our DataTalks.Club Survey
 tags:

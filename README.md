@@ -91,6 +91,27 @@ rewrite article front matter or canonical route/source references.
 This avoids a lossy conversion of authored prose and preserves the legacy
 filename used to derive the public article URL.
 
+### Article picture: first image, or `cover:`
+
+An article's picture (its thumbnail in the blog list and on the home page, and
+its link preview) is chosen like a Substack post's:
+
+- By default it is the **first image in the body** that the site publishes, a
+  Markdown `![alt](/images/posts/...)` or an HTML `<img src="/images/posts/...">`.
+  Screenshots and diagrams count too. A remote (`https://`) image is never
+  published, so it is skipped. The website sets a wide or tall picture whole on a
+  soft background in the square thumbnail, never cropping it.
+- `cover: images/posts/<folder>/<file>` picks a different image instead, for
+  example a course illustration. It is optional and must name a file in this
+  repository.
+- Only an article with **no image at all** carries a generated card:
+  `preview: images/posts/<folder>/preview.png` (banner-generator `dtc-article`:
+  the title, author and date), with its 1200x630 social card beside it as
+  `preview-og.png`. The website refuses a `preview:` on an article that has a
+  cover or a body image, so the card is never kept by hand next to a real picture.
+
+`image:` is the article's legacy cover from the old site and is not the picture.
+
 ## Validation
 
 Use [uv](https://docs.astral.sh/uv/) for all repository tooling:

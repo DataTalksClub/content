@@ -3,7 +3,6 @@ authors:
 - luisoliveira
 description: And an alternative with Docker Compose
 image: images/posts/2023-03-07-how-to-run-postgresql-and-pgadmin-with-docker/cover.jpg
-preview: images/posts/2023-03-07-how-to-run-postgresql-and-pgadmin-with-docker/preview.png
 layout: post
 subtitle: And an alternative with Docker Compose
 tags:

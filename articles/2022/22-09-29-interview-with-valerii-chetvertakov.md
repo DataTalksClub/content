@@ -4,7 +4,6 @@ authors:
 description: Valerii’s story about his work in property valuation, Machine Learning
   Zoomcamp, and his internship at delphai
 image: images/posts/2022-09-29-interview-with-valerii-chetvertakov/cover.jpg
-preview: images/posts/2022-09-29-interview-with-valerii-chetvertakov/preview.png
 layout: post
 subtitle: Valerii’s story about his work in property valuation, Machine Learning Zoomcamp,
   and his internship at delphai

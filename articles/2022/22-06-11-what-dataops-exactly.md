@@ -4,7 +4,6 @@ authors:
 description: An overview of DataOps and what makes it different from the other DevOps
   practices.
 image: images/posts/2022-06-11-what-dataops-exactly/cover.jpg
-preview: images/posts/2022-06-11-what-dataops-exactly/preview.png
 layout: post
 subtitle: An overview of DataOps and what makes it different from the other DevOps
   practices.

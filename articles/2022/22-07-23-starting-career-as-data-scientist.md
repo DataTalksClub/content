@@ -4,7 +4,6 @@ authors:
 description: Discover the three main types of data scientists (Analyst, Builder, Consultant)
   and learn practical tips for starting your data science career
 image: images/posts/2022-07-23-starting-career-as-data-scientist/cover.jpg
-preview: images/posts/2022-07-23-starting-career-as-data-scientist/preview.png
 layout: post
 subtitle: Tips on what your Data Science career could look like
 tags:

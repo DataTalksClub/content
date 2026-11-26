@@ -3,7 +3,6 @@ authors:
 - sallyanndelucia
 description: A Guide to Development, Testing, and Monitoring
 image: images/posts/2025-02-26-building-ai-agent-that-thrives-in-real-world/cover.jpg
-preview: images/posts/2025-02-26-building-ai-agent-that-thrives-in-real-world/preview.png
 layout: post
 subtitle: A Guide to Development, Testing, and Monitoring
 tags:

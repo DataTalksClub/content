@@ -6,7 +6,7 @@ description: 'Free MLOps Course and Certification: Master Machine Learning Opera
   in this comprehensive 3-month program. Perfect for data scientists and ML engineers
   looking to master MLOps best practices, ML pipelines, and production deployment.'
 image: /images/posts/2024-03-07-mlops-zoomcamp/mlops-zoomcamp-course-curriculum-overview.png
-preview: images/posts/2024-03-07-mlops-zoomcamp/preview.png
+cover: images/posts/2024-03-07-mlops-zoomcamp/cover-illustration.png
 layout: post
 subtitle: 'Learn to deploy, monitor, and maintain ML models in production with MLflow, Docker, AWS, and monitoring tools'
 tags:

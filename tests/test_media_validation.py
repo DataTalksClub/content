@@ -274,3 +274,40 @@ def test_errors_are_bounded_relative_and_do_not_include_article_body(tmp_path: P
     assert secret_marker not in error
     assert tmp_path.as_posix() not in error
     assert "validation stopped after 100 errors" in error
+
+
+def _set_article_front_matter(root: Path, extra: str, body: str = "Article body.") -> None:
+    (root / "articles/2024/24-01-02-article.md").write_text(
+        f"---\ntitle: Article\ndatepublished: '2024-01-02'\n"
+        f"image: images/posts/article/cover.png\n{extra}---\n\n{body}\n",
+        encoding="utf-8",
+    )
+
+
+def test_article_cover_and_preview_must_name_existing_media(tmp_path: Path) -> None:
+    root = _build_repository(tmp_path)
+    _write_png(root / "images/posts/article/cover-illustration.png")
+    _set_article_front_matter(root, "cover: images/posts/article/cover-illustration.png\n")
+    validate_repository(root)
+
+    _write_png(root / "images/posts/article/preview.png")
+    _write_png(root / "images/posts/article/preview-og.png")
+    _set_article_front_matter(root, "preview: images/posts/article/preview.png\n")
+    validate_repository(root)
+
+    for extra in (
+        "cover: images/posts/article/missing.png\n",
+        "cover: https://example.com/cover.png\n",
+        "preview: images/posts/article/missing.png\n",
+    ):
+        _set_article_front_matter(root, extra)
+        with pytest.raises(ContentError):
+            validate_repository(root)
+
+
+def test_article_preview_needs_its_social_card(tmp_path: Path) -> None:
+    root = _build_repository(tmp_path)
+    _write_png(root / "images/posts/article/preview.png")
+    _set_article_front_matter(root, "preview: images/posts/article/preview.png\n")
+    with pytest.raises(ContentError, match="preview social card"):
+        validate_repository(root)

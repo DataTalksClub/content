@@ -3,7 +3,6 @@ authors:
 - luisoliveira
 description: It worked for me
 image: images/posts/2023-01-04-guidelines-to-get-data-engineer-job-against-odds/cover.jpg
-preview: images/posts/2023-01-04-guidelines-to-get-data-engineer-job-against-odds/preview.png
 layout: post
 subtitle: It worked for me
 tags:
