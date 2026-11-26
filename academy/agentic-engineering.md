@@ -97,7 +97,7 @@ capstone:
     title: Release and defend it.
     produce: The launched product with user-tested improvements, and its defense.
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'AI Engineering vs Agentic Engineering: Which One Should an Experienced Developer Learn'
     href: /academy/guides/ai-engineering-vs-agentic-engineering/

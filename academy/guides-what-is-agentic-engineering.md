@@ -11,7 +11,7 @@ lead: Agentic engineering is using tools like Claude Code or Cursor to write mos
 author: Alexey Grigorev
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: The Agentic Engineering program
     href: /academy/agentic-engineering/

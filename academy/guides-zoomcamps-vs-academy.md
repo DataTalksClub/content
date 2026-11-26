@@ -11,7 +11,7 @@ lead: 'DataTalks.Club Zoomcamps are free online courses that anyone can join. Da
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: The Agentic Engineering program
     href: /academy/agentic-engineering/

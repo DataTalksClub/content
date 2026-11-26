@@ -14,7 +14,7 @@ lead: A Bildungsgutschein is a voucher from the Agentur für Arbeit that pays th
 author: Alexey Grigorev
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: Bildungsgutschein Leitfaden auf Deutsch
     href: /academy/bildungsgutschein/

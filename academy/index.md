@@ -34,8 +34,8 @@ sessions:
   text: Three free online talks for experienced developers looking for their next job, each followed by Q&A.
   link_label: See the sessions
 articles:
-  heading: Articles
-  link_label: All articles
+  heading: Guides
+  link_label: All guides
 faq:
   heading: Questions
   picks:

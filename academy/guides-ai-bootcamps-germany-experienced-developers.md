@@ -11,7 +11,7 @@ lead: 'Most AI bootcamps in Germany take people who have never worked as develop
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'Le Wagon, Ironhack, Spiced Academy or WBS Coding School: Which Bootcamp Fits an Experienced Developer'
     href: /academy/guides/bootcamps-for-experienced-developers-germany/

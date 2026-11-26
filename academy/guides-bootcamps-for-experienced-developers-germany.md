@@ -11,7 +11,7 @@ lead: 'Le Wagon, Ironhack, Spiced Academy and WBS Coding School mainly teach peo
 author: DataTalks.Club Academy
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'AI Bootcamps in Germany in 2027: Which Ones Are Built for Experienced Developers'
     href: /academy/guides/ai-bootcamps-germany-experienced-developers/

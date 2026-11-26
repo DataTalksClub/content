@@ -11,7 +11,7 @@ lead: A beginner bootcamp is not worth it for a senior developer, because most o
 author: Alexey Grigorev
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: The Agentic Engineering program
     href: /academy/agentic-engineering/

@@ -11,7 +11,7 @@ lead: AI engineering is building apps that use LLMs, like chatbots, search over 
 author: Alexey Grigorev
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: The AI Engineering program
     href: /academy/ai-engineering/

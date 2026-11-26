@@ -11,7 +11,7 @@ lead: On 23 November 2026 I ran the first free Hireable With AI session for expe
 author: Alexey Grigorev
 published: '2026-11-23'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'Guide: AI Engineering vs Agentic Engineering, Which One to Learn'
     href: /academy/guides/ai-engineering-vs-agentic-engineering/

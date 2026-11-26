@@ -11,7 +11,7 @@ lead: If you are laid off in Germany, register as a jobseeker (arbeitsuchend) wi
 author: Alexey Grigorev
 published: '2026-11-24'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'Guide: Is an AI Bootcamp Worth It for Senior Developers in Germany'
     href: /academy/guides/ai-bootcamp-worth-it-senior-developers/

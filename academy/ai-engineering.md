@@ -95,7 +95,7 @@ capstone:
     title: Deploy and defend it.
     produce: The deployed assistant with evaluation evidence, and its defense.
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'AI Engineering vs Agentic Engineering: Which One Should an Experienced Developer Learn'
     href: /academy/guides/ai-engineering-vs-agentic-engineering/

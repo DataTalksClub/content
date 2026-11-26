@@ -11,7 +11,7 @@ lead: Many experienced developers apply to dozens of roles and hear nothing back
 author: Alexey Grigorev
 published: '2026-11-23'
 related:
-  heading: Read Next
+  heading: Read next
   links:
   - label: 'Session 1 recap: AI Engineering vs Agentic Engineering'
     href: /academy/sessions/ai-engineering-vs-agentic-engineering/
