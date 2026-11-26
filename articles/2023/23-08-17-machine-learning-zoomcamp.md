@@ -5,7 +5,7 @@ subtitle: Master Machine Learning Engineering with Python in 4 Months
 description: Master machine learning and deployment with Python. Learn ML algorithms,
   Docker, Kubernetes in 4 months. Free course with certificate and projects.
 image: images/posts/2024-04-11-guide-to-free-online-courses-at-datatalks-club/ml_zoomcamp_overview_horizontal_2025.png
-preview: images/posts/2024-04-11-guide-to-free-online-courses-at-datatalks-club/preview.png
+preview: images/posts/2023-08-17-machine-learning-zoomcamp/preview.png
 layout: post
 authors:
 - valeriiakuka
