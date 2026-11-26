@@ -119,7 +119,7 @@ If you're an ML engineer, data scientist, or software developer working with ML 
 
 MLOps Zoomcamp is a free MLOps course that takes you from experiment tracking to production deployment in 6 modules plus a portfolio project.
 
-You'll learn infrastructure setup with Docker and AWS, experiment tracking with MLflow, pipeline orchestration concepts, model deployment (batch, real-time, and streaming), monitoring with Prometheus and Evidently AI, and testing/CI/CD best practices.
+You'll learn infrastructure setup with Docker and AWS, experiment tracking with MLflow, pipeline orchestration concepts, model deployment (batch, real-time, and streaming), monitoring with Prometheus and [Evidently AI](https://www.evidentlyai.com/), and testing/CI/CD best practices.
 
 The course culminates in a real-world project where you build, deploy, and monitor a complete ML pipeline that you can showcase to employers.
 
