@@ -1,0 +1,43 @@
+# The /newsletter page: one goal, the Subscribe action, drawn identically in
+# the hero and the closing panel. The issue parts list what each Monday issue
+# covers; the page shows the site's own current events, course launches and
+# articles under them, so nothing here describes a particular issue.
+title: One email a week with everything happening in the Club
+lead: >-
+  Every Monday: the week's live events, free course launches, new articles and
+  community news from DataTalks.Club.
+proof: Read by 130,000+ data and AI practitioners.
+issue_intro: >-
+  Each issue has the same parts. Under each one is what is on the site right
+  now.
+issue_parts:
+  - part: events
+    title: Live events
+    body: >-
+      Podcast recordings, workshops and talks you can join for free and ask
+      questions in.
+  - part: courses
+    title: Free course launches
+    body: >-
+      When a Zoomcamp cohort opens and when it starts, plus its live sessions.
+  - part: articles
+    title: New articles
+    body: Guides and posts from the DataTalks.Club blog, as they're published.
+community_note: >-
+  Plus community news: announcements and everything else happening in the
+  Club.
+faq:
+  - question: How often will I hear from you?
+    answer: Once a week, on Monday.
+  - question: Is it free?
+    answer: >-
+      Yes. [Sponsors](/blog/sponsor-datatalks-club.html) keep the newsletter
+      free, and we never share subscriber email addresses with them.
+  - question: Can I unsubscribe?
+    answer: Any time, with the unsubscribe link at the bottom of every email.
+  - question: What do you do with my email address?
+    answer: >-
+      We use it to send you the newsletter. Our [privacy policy](/privacy) has
+      the details.
+close_title: Get the next issue on Monday
+close_text: Join 130,000+ data and AI practitioners.
