@@ -54,4 +54,7 @@ schema:
     - https://www.youtube.com/@DataTalksClub
     - https://github.com/DataTalksClub
     - https://datatalks.club/slack.html
+  courses:
+  - ai-engineering
+  - agentic-engineering
 ---

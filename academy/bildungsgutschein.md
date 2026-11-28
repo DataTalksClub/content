@@ -6,6 +6,8 @@ hreflang: true
 alternates:
 - lang: en
   path: /academy/guides/bildungsgutschein-in-english/
+- lang: x-default
+  path: /academy/guides/bildungsgutschein-in-english/
 title: Bildungsgutschein für KI-Weiterbildung auf Englisch | DataTalks.Club Academy
 description: 'KI-Weiterbildung auf Englisch für erfahrene Softwareentwickler in Deutschland. Förderung per Bildungsgutschein in Kürze. Start: April 2027.'
 sitemap: 5
@@ -86,4 +88,17 @@ join:
   - label: AI Engineering
     href: /academy/ai-engineering/#signup-hero
   sessions_label: Kostenlose Info-Sessions (Hireable With AI)
+faq:
+  heading: Häufige Fragen
+  items:
+  - question: 'Wann startet das Programm, und wo findet es statt?'
+    answer: 'Das Programm startet im April 2027 und dauert 3 Monate (13 Wochen). Der Unterricht findet montags bis freitags von 09:00 bis 16:30 Uhr Berliner Zeit statt, in Berlin oder live online. Es gibt 15 Plätze.'
+  - question: 'In welcher Sprache wird unterrichtet?'
+    answer: 'Der Unterricht ist auf Englisch. Wenn Sie den Unterricht auf Deutsch haben möchten, ist eine andere Schule besser geeignet.'
+  - question: 'Für wen ist das Programm gedacht?'
+    answer: 'Es ist für Softwareentwicklerinnen und Softwareentwickler mit mindestens 2 Jahren Berufserfahrung, die in Deutschland leben und Vollzeit lernen können. Wer noch keine Berufserfahrung im Entwickeln hat oder einen Quereinstieg von Null sucht, ist hier nicht richtig.'
+  - question: 'Kann ich das Programm mit einem Bildungsgutschein fördern lassen?'
+    answer: 'Das Programm ist für die Förderung per Bildungsgutschein (AZAV) konzipiert, und die Zertifizierung folgt in Kürze. Ob ein Bildungsgutschein in Ihrem Fall bewilligt wird, entscheidet Ihre Beraterin oder Ihr Berater bei der Agentur für Arbeit im persönlichen Gespräch, bevor der Kurs beginnt.'
+  - question: 'Was bringe ich zum Beratungsgespräch mit?'
+    answer: 'Bringen Sie fünf bis zehn aktuelle, möglichst regionale Stellenanzeigen mit, in denen genau diese Kenntnisse verlangt werden, außerdem Ihren Lebenslauf mit einer kurzen Übersicht Ihrer bisherigen Bewerbungen und eine knappe Begründung, warum dieses Programm für erfahrene Entwickler die Lücke schließt.'
 ---
