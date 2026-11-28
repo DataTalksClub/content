@@ -8,6 +8,8 @@ sitemap: 5
 alternates:
 - lang: de
   path: /academy/bildungsgutschein/
+- lang: x-default
+  path: /academy/guides/bildungsgutschein-in-english/
 eyebrow: Guide
 heading: 'Bildungsgutschein in English: How the Education Voucher Works for Developers in Germany'
 lead: A Bildungsgutschein is a voucher from the Agentur für Arbeit that pays the course fees for further training. The adviser decides case by case in a counselling appointment before the course starts, and both the provider and the course need an AZAV Zulassung. Since 1 January 2025 the Agentur für Arbeit also handles the voucher for people at the Jobcenter.

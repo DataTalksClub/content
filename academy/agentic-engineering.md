@@ -116,4 +116,5 @@ schema:
   instructor: Alexey Grigorev
   provider: DataTalks.Club
   provider_url: https://datatalks.club
+  workload: Monday to Friday, 09:00 to 16:30 Berlin time, 13 weeks
 ---
